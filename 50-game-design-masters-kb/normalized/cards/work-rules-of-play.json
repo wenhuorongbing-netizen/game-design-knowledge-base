@@ -1,0 +1,86 @@
+{
+  "id": "work-rules-of-play",
+  "entity_type": "card",
+  "title": "Rules of Play",
+  "summary": "一部系统化的设计基础书，以 rules、play、culture 三层结构建立游戏设计的通用语言，是形式化讨论的长期底座。",
+  "card_kind": "book_entry",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "resource_kind": "book",
+  "source_work_id": "rules-of-play",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "formalism",
+    "design-fundamentals",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "mda-formal-approach",
+    "mit-ocw-2014-game-design"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262240451/rules-of-play"
+  ],
+  "local_links": [],
+  "body_markdown": "# Rules of Play\n\n## 基本信息\n\n- 作者：Katie Salen Tekinbaş / Eric Zimmerman\n- 年份：2003\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n一部系统化的设计基础书，以 rules、play、culture 三层结构建立游戏设计的通用语言，是形式化讨论的长期底座。\n\n## 核心要点\n\n- 适合统一团队对规则、系统、意义和玩法边界的说法。\n- 它的强项是建立语言和框架，不是给具体品类处方。\n- 和 anthology 配合时，一本搭框架，一本扩视野。\n\n## 适用场景\n\n最适合清理规则描述、系统边界、术语歧义和设计写作；当团队对“这个机制到底算什么”说不清时尤其有用。\n\n## 知识定位\n\n- 关注领域：规则理论 / 系统设计语言 / 玩法与意义 / 设计批评\n- 主要用途：术语统一 / 规则审查 / 设计写作支撑\n- 推荐读法：按结构通读 / 按术语反查 / 和项目文档并读\n- 价值类型：基础框架 / 共通语言 / 形式化底座\n- 最适合介入的阶段：立项 / 系统设计 / 文档标准化 / 设计复盘\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：核心循环设计\n- 主题标签：规则与形式化 / 设计基础 / 系统思维\n- 可用性：需要用户提供文件\n\n## 获取方式\n\n- 还需要你手动补充本地文件。\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262240451/rules-of-play>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/rules-of-play/01-mitpress.mit.edu-9780262240451-rules-of-play.html`\n\n## 相关条目\n\n- MDA: A Formal Approach to Game Design and Game Research\n- MIT OCW: Game Design (Spring 2014)\n",
+  "body_html": "<h1 id=\"rules-of-play\">Rules of Play</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Katie Salen Tekinbaş / Eric Zimmerman</li><li>年份：2003</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>一部系统化的设计基础书，以 rules、play、culture 三层结构建立游戏设计的通用语言，是形式化讨论的长期底座。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>适合统一团队对规则、系统、意义和玩法边界的说法。</li><li>它的强项是建立语言和框架，不是给具体品类处方。</li><li>和 anthology 配合时，一本搭框架，一本扩视野。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合清理规则描述、系统边界、术语歧义和设计写作；当团队对“这个机制到底算什么”说不清时尤其有用。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：规则理论 / 系统设计语言 / 玩法与意义 / 设计批评</li><li>主要用途：术语统一 / 规则审查 / 设计写作支撑</li><li>推荐读法：按结构通读 / 按术语反查 / 和项目文档并读</li><li>价值类型：基础框架 / 共通语言 / 形式化底座</li><li>最适合介入的阶段：立项 / 系统设计 / 文档标准化 / 设计复盘</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：核心循环设计</li><li>主题标签：规则与形式化 / 设计基础 / 系统思维</li><li>可用性：需要用户提供文件</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>还需要你手动补充本地文件。</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262240451/rules-of-play\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262240451/rules-of-play</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/rules-of-play/01-mitpress.mit.edu-9780262240451-rules-of-play.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>MDA: A Formal Approach to Game Design and Game Research</li><li>MIT OCW: Game Design (Spring 2014)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Rules of Play",
+      "id": "rules-of-play"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Rules of Play Katie Salen Tekinbaş Eric Zimmerman 一部系统化的设计基础书，以 rules、play、culture 三层结构建立游戏设计的通用语言，是形式化讨论的长期底座。 适合统一团队对规则、系统、意义和玩法边界的说法。 它的强项是建立语言和框架，不是给具体品类处方。 和 anthology 配合时，一本搭框架，一本扩视野。 最适合清理规则描述、系统边界、术语歧义和设计写作；当团队对“这个机制到底算什么”说不清时尤其有用。 主策 系统策划 文档负责人 规则理论 系统设计语言 玩法与意义 设计批评 术语统一 规则审查 设计写作支撑 按结构通读 按术语反查 和项目文档并读 基础框架 共通语言 形式化底座 立项 系统设计 文档标准化 设计复盘 核心玩法与系统设计 核心循环设计 规则与形式化 设计基础 系统思维 MIT Press MIT Press - Book Details"
+}

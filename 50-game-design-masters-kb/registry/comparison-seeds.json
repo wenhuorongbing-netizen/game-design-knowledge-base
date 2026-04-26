@@ -1,0 +1,62 @@
+[
+  {
+    "id": "schell-vs-fullerton",
+    "left_work_id": "the-art-of-game-design",
+    "right_work_id": "game-design-workshop",
+    "angle": "high-level review lenses vs playcentric production loop",
+    "summary": "Use Schell to pressure-test direction and experience intent, then use Fullerton to convert that intent into prototype and playtest cadence.",
+    "use_left_when": "The team is still arguing about vision, player experience, or what the game should become.",
+    "use_right_when": "The team already has a direction and now needs prototype structure, playtest flow, and iteration discipline.",
+    "use_together": "Run a lens-based review first, then turn the unresolved questions into a playcentric prototype plan."
+  },
+  {
+    "id": "mechanics-vs-characteristics",
+    "left_work_id": "game-mechanics-advanced-game-design",
+    "right_work_id": "characteristics-of-games",
+    "angle": "system modeling vs game-analysis vocabulary",
+    "summary": "Use Game Mechanics to model loops and internal economy, and use Characteristics of Games to describe uncertainty, information, and player effort precisely.",
+    "use_left_when": "You need to model resources, progression, or feedback loops and want a system-level representation.",
+    "use_right_when": "You need a sharper language for rules, information exposure, multiplayer structure, and formal analysis.",
+    "use_together": "Describe the system with Characteristics first, then model the loop behavior with Game Mechanics."
+  },
+  {
+    "id": "feel-vs-level-up",
+    "left_work_id": "game-feel",
+    "right_work_id": "level-up",
+    "angle": "moment-to-moment sensation vs production-facing implementation language",
+    "summary": "Use Game Feel to diagnose response quality and feedback timing, then use Level Up to express the resulting work as production-ready tasks and specs.",
+    "use_left_when": "The game works mechanically, but movement, combat, or interaction still feels dead or muddy.",
+    "use_right_when": "The team understands the problem but needs concrete documentation, task framing, and implementation-facing language.",
+    "use_together": "Let Game Feel define the sensory diagnosis, then let Level Up translate it into deliverables for the team."
+  },
+  {
+    "id": "fun-vs-aesthetic-of-play",
+    "left_work_id": "a-theory-of-fun-for-game-design",
+    "right_work_id": "the-aesthetic-of-play",
+    "angle": "learning-and-pattern theory vs agency-and-play aesthetics",
+    "summary": "Use Koster to understand why challenge and learning stay engaging, and use Upton to reason about agency, expression, and the lived shape of play.",
+    "use_left_when": "You are asking why a loop stays engaging, when it becomes solved, or what the player is learning.",
+    "use_right_when": "You are asking what kinds of expression, agency, or aesthetic stance the player actually inhabits while playing.",
+    "use_together": "Treat Koster as the motivation model and Upton as the aesthetic framing for how that motivation is experienced."
+  },
+  {
+    "id": "rules-vs-reader",
+    "left_work_id": "rules-of-play",
+    "right_work_id": "the-game-design-reader",
+    "angle": "core design framework vs anthology of critical and historical context",
+    "summary": "Use Rules of Play to establish common design language, then use The Game Design Reader to widen that language with criticism, history, and case-driven context.",
+    "use_left_when": "The team needs a stable framework for rules, systems, play, and meaning.",
+    "use_right_when": "The team needs broader theoretical range, critical context, or shared reading for deeper design discussion.",
+    "use_together": "Anchor the vocabulary with Rules of Play, then use the anthology to test and expand the team's conceptual range."
+  },
+  {
+    "id": "systems-vs-mda",
+    "left_work_id": "advanced-game-design-a-systems-approach",
+    "right_work_id": "mda-formal-approach",
+    "angle": "mid-level systems reasoning vs compact formal framing",
+    "summary": "Use MDA as the compact alignment frame, then use A Systems Approach to reason through how the interacting loops actually create or break that alignment.",
+    "use_left_when": "You need a concise way to align mechanics, dynamics, and aesthetics across the team.",
+    "use_right_when": "You need to unpack how multiple loops and dependencies interact after that top-line alignment is clear.",
+    "use_together": "Start with MDA for the frame and escalate to A Systems Approach when the system still feels tangled."
+  }
+]

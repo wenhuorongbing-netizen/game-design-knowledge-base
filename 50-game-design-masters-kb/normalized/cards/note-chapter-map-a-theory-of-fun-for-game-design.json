@@ -1,0 +1,60 @@
+{
+  "id": "note-chapter-map-a-theory-of-fun-for-game-design",
+  "entity_type": "card",
+  "title": "A Theory of Fun for Game Design：章节地图",
+  "summary": "Foreword (from the First Edition) / Prologue: My Grandfather / Chapter One: Why Write This Book? / Chapter Two: How the Brain Works / Chapter Three: What Games…",
+  "card_kind": "chapter_map_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "difficulty-curve-design",
+  "resource_kind": "note",
+  "source_work_id": "a-theory-of-fun-for-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "player-motivation",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "the-art-of-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-a-theory-of-fun-for-game-design",
+    "note-book-positioning-a-theory-of-fun-for-game-design"
+  ],
+  "official_links": [
+    "https://www.theoryoffun.com/"
+  ],
+  "local_links": [
+    {
+      "label": "a-theory-of-fun-for-game-design-48bbb79f791c.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json"
+    }
+  ],
+  "body_markdown": "# A Theory of Fun for Game Design：章节地图\n\n## 顶层结构\n\n1. Foreword (from the First Edition)\n2. Prologue: My Grandfather\n3. Chapter One: Why Write This Book?\n4. Chapter Two: How the Brain Works\n5. Chapter Three: What Games Are\n6. Chapter Four: What Games Teach Us\n7. Chapter Five: What Games Aren't\n8. Chapter Six: Different Fun for Different Folks\n9. Chapter Seven: The Problem with Learning\n10. Chapter Eight: The Problem with People\n11. Chapter Nine: Games in Context\n12. Chapter Ten: The Ethics of Entertainment\n13. Chapter Eleven: Where Games Should Go\n14. Chapter Twelve: Taking Their Rightful Place\n\n## 如何使用这份结构\n\n- 把它当作 核心玩法与系统设计 / 难度曲线设计 的阅读地图，而不是逐字摘抄模板。\n- 先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。\n- 如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。\n\n## 解析依据\n\n- 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json`\n- 解析标题：Theory of Fun for Game Design, 2E\n",
+  "body_html": "<h1 id=\"a-theory-of-fun-for-game-design：章节地图\">A Theory of Fun for Game Design：章节地图</h1>\n<h2 id=\"顶层结构\">顶层结构</h2>\n<ol><li>Foreword (from the First Edition)</li><li>Prologue: My Grandfather</li><li>Chapter One: Why Write This Book?</li><li>Chapter Two: How the Brain Works</li><li>Chapter Three: What Games Are</li><li>Chapter Four: What Games Teach Us</li><li>Chapter Five: What Games Aren&#39;t</li><li>Chapter Six: Different Fun for Different Folks</li><li>Chapter Seven: The Problem with Learning</li><li>Chapter Eight: The Problem with People</li><li>Chapter Nine: Games in Context</li><li>Chapter Ten: The Ethics of Entertainment</li><li>Chapter Eleven: Where Games Should Go</li><li>Chapter Twelve: Taking Their Rightful Place</li></ol>\n<h2 id=\"如何使用这份结构\">如何使用这份结构</h2>\n<ul><li>把它当作 核心玩法与系统设计 / 难度曲线设计 的阅读地图，而不是逐字摘抄模板。</li><li>先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。</li><li>如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。</li></ul>\n<h2 id=\"解析依据\">解析依据</h2>\n<ul><li>工件：<code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json</code></li><li>解析标题：Theory of Fun for Game Design, 2E</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "A Theory of Fun for Game Design：章节地图",
+      "id": "a-theory-of-fun-for-game-design：章节地图"
+    },
+    {
+      "level": 2,
+      "text": "顶层结构",
+      "id": "顶层结构"
+    },
+    {
+      "level": 2,
+      "text": "如何使用这份结构",
+      "id": "如何使用这份结构"
+    },
+    {
+      "level": 2,
+      "text": "解析依据",
+      "id": "解析依据"
+    }
+  ],
+  "search_text": "A Theory of Fun for Game Design Foreword (from the First Edition) Prologue: My Grandfather Chapter One: Why Write This Book? Chapter Two: How the Brain Works Chapter Three: What Games Are Chapter Four: What Games Teach Us Chapter Five: What Games Aren't Chapter Six: Different Fun for Different Folks Chapter Seven: The Problem with Learning Chapter Eight: The Problem with People Chapter Nine: Games in Context Chapter Ten: The Ethics of Entertainment Chapter Eleven: Where Games Should Go Chapter Twelve: Taking Their Rightful Place 核心玩法与系统设计 难度曲线设计"
+}

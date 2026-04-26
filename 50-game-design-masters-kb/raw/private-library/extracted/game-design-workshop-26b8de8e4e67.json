@@ -1,0 +1,2492 @@
+{
+  "format": "pdf",
+  "metadata": {
+    "title": "Game Design Workshop; A Playcentric Approach to Creating Innovative Games",
+    "authors": [
+      "Tracy Fullerton"
+    ],
+    "subject": "Game Design Workshop puts you to work prototyping, playtesting, and revising your own games with time-tested methods and tools. These skills will provide the foundation for your career in any facet of the game industry including design, producing, programming, and visual design.",
+    "producer": "Adobe PDF Library 11.0; modified using iText® 5.5.6 ©2000-2015 iText Group NV (AGPL-version)"
+  },
+  "page_count": 587,
+  "toc": [
+    {
+      "label": "Cover",
+      "depth": 0,
+      "page": 1
+    },
+    {
+      "label": "Endorsements Page",
+      "depth": 0,
+      "page": 2
+    },
+    {
+      "label": "Half Title",
+      "depth": 0,
+      "page": 4
+    },
+    {
+      "label": "Title Page",
+      "depth": 0,
+      "page": 6
+    },
+    {
+      "label": "Copyright Page",
+      "depth": 0,
+      "page": 7
+    },
+    {
+      "label": "Table of Contents",
+      "depth": 0,
+      "page": 8
+    },
+    {
+      "label": "Foreword",
+      "depth": 0,
+      "page": 21
+    },
+    {
+      "label": "Preface",
+      "depth": 0,
+      "page": 23
+    },
+    {
+      "label": "Acknowledgments",
+      "depth": 0,
+      "page": 25
+    },
+    {
+      "label": "Image Credits and Copyright Notices",
+      "depth": 0,
+      "page": 28
+    },
+    {
+      "label": "Introduction",
+      "depth": 0,
+      "page": 31
+    },
+    {
+      "label": "Part 1 Game Design Basics",
+      "depth": 0,
+      "page": 34
+    },
+    {
+      "label": "Chapter 1 The Role of the Game Designer",
+      "depth": 1,
+      "page": 36
+    },
+    {
+      "label": "An Advocate for the Player",
+      "depth": 2,
+      "page": 36
+    },
+    {
+      "label": "Playtesters",
+      "depth": 3,
+      "page": 37
+    },
+    {
+      "label": "Passions and Skills",
+      "depth": 2,
+      "page": 39
+    },
+    {
+      "label": "Communication",
+      "depth": 3,
+      "page": 39
+    },
+    {
+      "label": "Teamwork",
+      "depth": 3,
+      "page": 40
+    },
+    {
+      "label": "Process",
+      "depth": 3,
+      "page": 41
+    },
+    {
+      "label": "Inspiration",
+      "depth": 3,
+      "page": 41
+    },
+    {
+      "label": "Becoming a Better Player",
+      "depth": 3,
+      "page": 43
+    },
+    {
+      "label": "Creativity",
+      "depth": 3,
+      "page": 44
+    },
+    {
+      "label": "A Playcentric Design Process",
+      "depth": 2,
+      "page": 45
+    },
+    {
+      "label": "Setting Player Experience Goals",
+      "depth": 3,
+      "page": 46
+    },
+    {
+      "label": "Prototyping and Playtesting",
+      "depth": 3,
+      "page": 46
+    },
+    {
+      "label": "Designers You Should Know",
+      "depth": 3,
+      "page": 47
+    },
+    {
+      "label": "Iteration",
+      "depth": 3,
+      "page": 50
+    },
+    {
+      "label": "The Iterative Design Process",
+      "depth": 3,
+      "page": 53
+    },
+    {
+      "label": "Prototypes and Playtesting in the Industry",
+      "depth": 3,
+      "page": 56
+    },
+    {
+      "label": "Designing for Innovation",
+      "depth": 2,
+      "page": 58
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 58
+    },
+    {
+      "label": "Designer Perspective: Christina Norman",
+      "depth": 3,
+      "page": 59
+    },
+    {
+      "label": "Designer Perspective: Warren Spector",
+      "depth": 3,
+      "page": 62
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 64
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 65
+    },
+    {
+      "label": "Chapter 2 The Structure of Games",
+      "depth": 1,
+      "page": 66
+    },
+    {
+      "label": "Go Fish versus Quake",
+      "depth": 2,
+      "page": 66
+    },
+    {
+      "label": "Go Fish",
+      "depth": 3,
+      "page": 67
+    },
+    {
+      "label": "Quake",
+      "depth": 3,
+      "page": 67
+    },
+    {
+      "label": "Comparison",
+      "depth": 3,
+      "page": 68
+    },
+    {
+      "label": "Engaging the Player",
+      "depth": 2,
+      "page": 74
+    },
+    {
+      "label": "Challenge",
+      "depth": 3,
+      "page": 74
+    },
+    {
+      "label": "Play",
+      "depth": 3,
+      "page": 74
+    },
+    {
+      "label": "Premise",
+      "depth": 3,
+      "page": 75
+    },
+    {
+      "label": "What is a Puzzle?",
+      "depth": 3,
+      "page": 76
+    },
+    {
+      "label": "Character",
+      "depth": 3,
+      "page": 81
+    },
+    {
+      "label": "Story",
+      "depth": 3,
+      "page": 81
+    },
+    {
+      "label": "Dramatic Elements",
+      "depth": 3,
+      "page": 82
+    },
+    {
+      "label": "The Sum of the Parts",
+      "depth": 2,
+      "page": 82
+    },
+    {
+      "label": "Defining Games",
+      "depth": 2,
+      "page": 83
+    },
+    {
+      "label": "Beyond Definitions",
+      "depth": 2,
+      "page": 84
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 86
+    },
+    {
+      "label": "Designer Perspective: Jane McGonigal",
+      "depth": 3,
+      "page": 87
+    },
+    {
+      "label": "Designer Perspective: Randy Smith",
+      "depth": 3,
+      "page": 90
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 92
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 92
+    },
+    {
+      "label": "Chapter 3 Working with Formal Elements",
+      "depth": 1,
+      "page": 93
+    },
+    {
+      "label": "Players",
+      "depth": 2,
+      "page": 93
+    },
+    {
+      "label": "Invitation to Play",
+      "depth": 3,
+      "page": 94
+    },
+    {
+      "label": "Number of Players",
+      "depth": 3,
+      "page": 94
+    },
+    {
+      "label": "Roles of Players",
+      "depth": 3,
+      "page": 95
+    },
+    {
+      "label": "Player Interaction Patterns",
+      "depth": 3,
+      "page": 96
+    },
+    {
+      "label": "Persuasive Games",
+      "depth": 3,
+      "page": 102
+    },
+    {
+      "label": "Objectives",
+      "depth": 2,
+      "page": 105
+    },
+    {
+      "label": "Summary",
+      "depth": 3,
+      "page": 111
+    },
+    {
+      "label": "Procedures",
+      "depth": 2,
+      "page": 111
+    },
+    {
+      "label": "Connect Four",
+      "depth": 3,
+      "page": 112
+    },
+    {
+      "label": "Super Mario Bros",
+      "depth": 3,
+      "page": 112
+    },
+    {
+      "label": "Comparison",
+      "depth": 3,
+      "page": 112
+    },
+    {
+      "label": "System Procedures",
+      "depth": 3,
+      "page": 112
+    },
+    {
+      "label": "Defining Procedures",
+      "depth": 3,
+      "page": 113
+    },
+    {
+      "label": "Rules",
+      "depth": 2,
+      "page": 114
+    },
+    {
+      "label": "Rules Defining Objects and Concepts",
+      "depth": 3,
+      "page": 115
+    },
+    {
+      "label": "Rules Restricting Actions",
+      "depth": 3,
+      "page": 116
+    },
+    {
+      "label": "Rules Determining Effects",
+      "depth": 3,
+      "page": 117
+    },
+    {
+      "label": "Defining Rules",
+      "depth": 3,
+      "page": 117
+    },
+    {
+      "label": "Resources",
+      "depth": 2,
+      "page": 117
+    },
+    {
+      "label": "Lives",
+      "depth": 3,
+      "page": 118
+    },
+    {
+      "label": "Units",
+      "depth": 3,
+      "page": 119
+    },
+    {
+      "label": "Health",
+      "depth": 3,
+      "page": 119
+    },
+    {
+      "label": "Currency",
+      "depth": 3,
+      "page": 119
+    },
+    {
+      "label": "Actions",
+      "depth": 3,
+      "page": 120
+    },
+    {
+      "label": "Power-Ups",
+      "depth": 3,
+      "page": 121
+    },
+    {
+      "label": "Inventory",
+      "depth": 3,
+      "page": 121
+    },
+    {
+      "label": "Special Terrain",
+      "depth": 3,
+      "page": 122
+    },
+    {
+      "label": "Time",
+      "depth": 3,
+      "page": 122
+    },
+    {
+      "label": "Conflict",
+      "depth": 2,
+      "page": 123
+    },
+    {
+      "label": "Obstacles",
+      "depth": 3,
+      "page": 124
+    },
+    {
+      "label": "Opponents",
+      "depth": 3,
+      "page": 124
+    },
+    {
+      "label": "Dilemmas",
+      "depth": 3,
+      "page": 124
+    },
+    {
+      "label": "Boundaries",
+      "depth": 2,
+      "page": 125
+    },
+    {
+      "label": "The Mechanic is the Message",
+      "depth": 3,
+      "page": 126
+    },
+    {
+      "label": "Outcome",
+      "depth": 2,
+      "page": 129
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 130
+    },
+    {
+      "label": "Designer Perspective: Derek Yu",
+      "depth": 3,
+      "page": 131
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 133
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 133
+    },
+    {
+      "label": "Chapter 4 Working with Dramatic Elements",
+      "depth": 1,
+      "page": 134
+    },
+    {
+      "label": "Challenge",
+      "depth": 2,
+      "page": 135
+    },
+    {
+      "label": "A Challenging Activity That Requires Skill",
+      "depth": 3,
+      "page": 136
+    },
+    {
+      "label": "The Merging of Action and Awareness",
+      "depth": 3,
+      "page": 136
+    },
+    {
+      "label": "Clear Goals and Feedback",
+      "depth": 3,
+      "page": 136
+    },
+    {
+      "label": "Concentration on the Task at Hand",
+      "depth": 3,
+      "page": 137
+    },
+    {
+      "label": "The Paradox of Control",
+      "depth": 3,
+      "page": 138
+    },
+    {
+      "label": "The Loss of Self-Consciousness",
+      "depth": 3,
+      "page": 138
+    },
+    {
+      "label": "The Transformation of Time",
+      "depth": 3,
+      "page": 138
+    },
+    {
+      "label": "Experience Becomes an End in Itself",
+      "depth": 3,
+      "page": 139
+    },
+    {
+      "label": "Play",
+      "depth": 2,
+      "page": 140
+    },
+    {
+      "label": "The Nature of Play",
+      "depth": 3,
+      "page": 140
+    },
+    {
+      "label": "Types of Players",
+      "depth": 3,
+      "page": 141
+    },
+    {
+      "label": "Levels of Engagement",
+      "depth": 3,
+      "page": 142
+    },
+    {
+      "label": "Premise",
+      "depth": 2,
+      "page": 142
+    },
+    {
+      "label": "Character",
+      "depth": 2,
+      "page": 146
+    },
+    {
+      "label": "Story",
+      "depth": 2,
+      "page": 150
+    },
+    {
+      "label": "Directing Games for Emotion",
+      "depth": 3,
+      "page": 152
+    },
+    {
+      "label": "World Building",
+      "depth": 2,
+      "page": 155
+    },
+    {
+      "label": "The Dramatic Arc",
+      "depth": 2,
+      "page": 156
+    },
+    {
+      "label": "Crafting Emotional Beats in The Last of Us",
+      "depth": 3,
+      "page": 162
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 165
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 166
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 166
+    },
+    {
+      "label": "Chapter 5 Working with System Dynamics",
+      "depth": 1,
+      "page": 167
+    },
+    {
+      "label": "Games as Systems",
+      "depth": 2,
+      "page": 167
+    },
+    {
+      "label": "Objects",
+      "depth": 3,
+      "page": 168
+    },
+    {
+      "label": "Properties",
+      "depth": 3,
+      "page": 168
+    },
+    {
+      "label": "Behaviors",
+      "depth": 3,
+      "page": 169
+    },
+    {
+      "label": "Relationships",
+      "depth": 3,
+      "page": 170
+    },
+    {
+      "label": "System Dynamics",
+      "depth": 2,
+      "page": 171
+    },
+    {
+      "label": "Deconstructing Set",
+      "depth": 3,
+      "page": 172
+    },
+    {
+      "label": "Tic-Tac-Toe",
+      "depth": 3,
+      "page": 175
+    },
+    {
+      "label": "Chess",
+      "depth": 3,
+      "page": 176
+    },
+    {
+      "label": "Mastermind versus Clue",
+      "depth": 3,
+      "page": 177
+    },
+    {
+      "label": "Economies",
+      "depth": 3,
+      "page": 179
+    },
+    {
+      "label": "Simple Bartering",
+      "depth": 3,
+      "page": 180
+    },
+    {
+      "label": "Complex Bartering",
+      "depth": 3,
+      "page": 181
+    },
+    {
+      "label": "Simple Market",
+      "depth": 3,
+      "page": 182
+    },
+    {
+      "label": "Complex Market",
+      "depth": 3,
+      "page": 183
+    },
+    {
+      "label": "Meta Economy",
+      "depth": 3,
+      "page": 184
+    },
+    {
+      "label": "Emergent Systems",
+      "depth": 3,
+      "page": 187
+    },
+    {
+      "label": "Interacting with Systems",
+      "depth": 2,
+      "page": 189
+    },
+    {
+      "label": "Information Structure",
+      "depth": 3,
+      "page": 189
+    },
+    {
+      "label": "Control",
+      "depth": 3,
+      "page": 190
+    },
+    {
+      "label": "Feedback",
+      "depth": 3,
+      "page": 192
+    },
+    {
+      "label": "Interaction Loops and Arcs",
+      "depth": 3,
+      "page": 194
+    },
+    {
+      "label": "Tuning Game Systems",
+      "depth": 2,
+      "page": 200
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 201
+    },
+    {
+      "label": "Designer Perspective: Mary Flanagan",
+      "depth": 3,
+      "page": 202
+    },
+    {
+      "label": "Designer Perspective: Frank Lantz",
+      "depth": 3,
+      "page": 205
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 207
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 207
+    },
+    {
+      "label": "Part 2 Designing a Game",
+      "depth": 0,
+      "page": 208
+    },
+    {
+      "label": "Chapter 6 Ideation",
+      "depth": 1,
+      "page": 210
+    },
+    {
+      "label": "Where Do Ideas Come From?",
+      "depth": 2,
+      "page": 210
+    },
+    {
+      "label": "Constraints and Creativity",
+      "depth": 2,
+      "page": 213
+    },
+    {
+      "label": "Brainstorming",
+      "depth": 2,
+      "page": 216
+    },
+    {
+      "label": "Brainstorming Best Practices",
+      "depth": 3,
+      "page": 217
+    },
+    {
+      "label": "Alternative Methods",
+      "depth": 2,
+      "page": 219
+    },
+    {
+      "label": "List Creation",
+      "depth": 3,
+      "page": 219
+    },
+    {
+      "label": "Idea Cards",
+      "depth": 3,
+      "page": 220
+    },
+    {
+      "label": "Mind Map",
+      "depth": 3,
+      "page": 220
+    },
+    {
+      "label": "Stream of Consciousness",
+      "depth": 3,
+      "page": 220
+    },
+    {
+      "label": "Electronic Arts Preproduction Workshop",
+      "depth": 3,
+      "page": 221
+    },
+    {
+      "label": "Shout It Out",
+      "depth": 3,
+      "page": 225
+    },
+    {
+      "label": "Cut It Up",
+      "depth": 3,
+      "page": 225
+    },
+    {
+      "label": "Surrealist Games",
+      "depth": 3,
+      "page": 225
+    },
+    {
+      "label": "Research",
+      "depth": 3,
+      "page": 226
+    },
+    {
+      "label": "Editing and Refining",
+      "depth": 2,
+      "page": 227
+    },
+    {
+      "label": "Aligned with Goals",
+      "depth": 3,
+      "page": 227
+    },
+    {
+      "label": "Technical Feasibility",
+      "depth": 3,
+      "page": 227
+    },
+    {
+      "label": "Market Opportunity",
+      "depth": 3,
+      "page": 227
+    },
+    {
+      "label": "Artistic Considerations",
+      "depth": 3,
+      "page": 228
+    },
+    {
+      "label": "Business/Cost Restrictions",
+      "depth": 3,
+      "page": 228
+    },
+    {
+      "label": "A Conversation with Will Wright",
+      "depth": 3,
+      "page": 229
+    },
+    {
+      "label": "Turning Ideas into a Game",
+      "depth": 2,
+      "page": 233
+    },
+    {
+      "label": "Focus on the Formal Elements",
+      "depth": 3,
+      "page": 234
+    },
+    {
+      "label": "Writing a Treatment",
+      "depth": 3,
+      "page": 235
+    },
+    {
+      "label": "Logline",
+      "depth": 3,
+      "page": 236
+    },
+    {
+      "label": "Key Art",
+      "depth": 3,
+      "page": 236
+    },
+    {
+      "label": "Practice, Practice, Practice",
+      "depth": 3,
+      "page": 237
+    },
+    {
+      "label": "Feature Design",
+      "depth": 3,
+      "page": 238
+    },
+    {
+      "label": "Feature Storyboards",
+      "depth": 3,
+      "page": 238
+    },
+    {
+      "label": "Getting the Most out of Focus Groups",
+      "depth": 3,
+      "page": 239
+    },
+    {
+      "label": "Experimental Gameplay",
+      "depth": 3,
+      "page": 242
+    },
+    {
+      "label": "Ideas vs. Designs",
+      "depth": 2,
+      "page": 246
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 246
+    },
+    {
+      "label": "Designer Perspective: Josh Holmes",
+      "depth": 3,
+      "page": 247
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 250
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 250
+    },
+    {
+      "label": "Chapter 7 Prototyping",
+      "depth": 1,
+      "page": 251
+    },
+    {
+      "label": "Methods of Prototyping",
+      "depth": 2,
+      "page": 251
+    },
+    {
+      "label": "Physical Prototypes",
+      "depth": 3,
+      "page": 252
+    },
+    {
+      "label": "Battleship Prototype",
+      "depth": 3,
+      "page": 252
+    },
+    {
+      "label": "More Examples",
+      "depth": 3,
+      "page": 254
+    },
+    {
+      "label": "Up the River Prototype",
+      "depth": 3,
+      "page": 255
+    },
+    {
+      "label": "Prototyping a First-Person Shooter",
+      "depth": 3,
+      "page": 258
+    },
+    {
+      "label": "Catastrophic Prototyping and Other Stories",
+      "depth": 3,
+      "page": 259
+    },
+    {
+      "label": "Perspective on Physical Prototyping",
+      "depth": 3,
+      "page": 264
+    },
+    {
+      "label": "Prototyping Your Original Game Idea",
+      "depth": 2,
+      "page": 265
+    },
+    {
+      "label": "Visualizing Core Gameplay",
+      "depth": 3,
+      "page": 265
+    },
+    {
+      "label": "Building the Physical Prototype",
+      "depth": 3,
+      "page": 268
+    },
+    {
+      "label": "The Design Evolution of Magic: The Gathering",
+      "depth": 3,
+      "page": 269
+    },
+    {
+      "label": "Refining Your Visualization",
+      "depth": 3,
+      "page": 283
+    },
+    {
+      "label": "Making the Physical Prototype Better",
+      "depth": 2,
+      "page": 283
+    },
+    {
+      "label": "Beyond the Physical Prototype",
+      "depth": 2,
+      "page": 283
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 284
+    },
+    {
+      "label": "Designer Perspective: James Ernest",
+      "depth": 3,
+      "page": 285
+    },
+    {
+      "label": "Designer Perspective: Katie Salen",
+      "depth": 3,
+      "page": 287
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 289
+    },
+    {
+      "label": "Chapter 8 Digital Prototyping",
+      "depth": 1,
+      "page": 290
+    },
+    {
+      "label": "Types of Digital Prototypes",
+      "depth": 2,
+      "page": 290
+    },
+    {
+      "label": "Prototyping Game Mechanics",
+      "depth": 3,
+      "page": 291
+    },
+    {
+      "label": "Prototyping Aesthetics",
+      "depth": 3,
+      "page": 293
+    },
+    {
+      "label": "Prototyping Kinesthetics",
+      "depth": 3,
+      "page": 295
+    },
+    {
+      "label": "Prototyping Technology",
+      "depth": 3,
+      "page": 296
+    },
+    {
+      "label": "Using Software Prototypes in Game Design",
+      "depth": 3,
+      "page": 297
+    },
+    {
+      "label": "Prototyping Cloud",
+      "depth": 3,
+      "page": 301
+    },
+    {
+      "label": "Designing Control Schemes",
+      "depth": 2,
+      "page": 304
+    },
+    {
+      "label": "Selecting Viewpoints",
+      "depth": 2,
+      "page": 306
+    },
+    {
+      "label": "Overhead View",
+      "depth": 3,
+      "page": 306
+    },
+    {
+      "label": "Prototyping for Game Feel",
+      "depth": 3,
+      "page": 307
+    },
+    {
+      "label": "Side View",
+      "depth": 3,
+      "page": 310
+    },
+    {
+      "label": "Isometric View",
+      "depth": 3,
+      "page": 310
+    },
+    {
+      "label": "First-Person View",
+      "depth": 3,
+      "page": 311
+    },
+    {
+      "label": "Third-Person View",
+      "depth": 3,
+      "page": 311
+    },
+    {
+      "label": "Effective Interface Design",
+      "depth": 2,
+      "page": 314
+    },
+    {
+      "label": "Form Follows Function",
+      "depth": 3,
+      "page": 314
+    },
+    {
+      "label": "Metaphors",
+      "depth": 3,
+      "page": 314
+    },
+    {
+      "label": "Visualization",
+      "depth": 3,
+      "page": 315
+    },
+    {
+      "label": "Grouping Features",
+      "depth": 3,
+      "page": 316
+    },
+    {
+      "label": "Consistency",
+      "depth": 3,
+      "page": 316
+    },
+    {
+      "label": "Feedback",
+      "depth": 3,
+      "page": 316
+    },
+    {
+      "label": "Prototyping Tools",
+      "depth": 2,
+      "page": 317
+    },
+    {
+      "label": "Programming Languages",
+      "depth": 3,
+      "page": 317
+    },
+    {
+      "label": "Game Engines",
+      "depth": 3,
+      "page": 317
+    },
+    {
+      "label": "Popular Creation Tools",
+      "depth": 3,
+      "page": 318
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 320
+    },
+    {
+      "label": "Designer Perspective: David Perry",
+      "depth": 3,
+      "page": 321
+    },
+    {
+      "label": "Designer Perspective: Elan Lee",
+      "depth": 3,
+      "page": 323
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 325
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 325
+    },
+    {
+      "label": "Chapter 9 Playtesting",
+      "depth": 1,
+      "page": 326
+    },
+    {
+      "label": "Playtesting and Iterative Design",
+      "depth": 2,
+      "page": 327
+    },
+    {
+      "label": "Recruiting Playtesters",
+      "depth": 2,
+      "page": 328
+    },
+    {
+      "label": "Self-Testing",
+      "depth": 3,
+      "page": 328
+    },
+    {
+      "label": "Playtesting with Confidants",
+      "depth": 3,
+      "page": 329
+    },
+    {
+      "label": "Playtesting with People You Do Not Know",
+      "depth": 3,
+      "page": 329
+    },
+    {
+      "label": "Finding the Ideal Playtesters",
+      "depth": 3,
+      "page": 330
+    },
+    {
+      "label": "Playtesting with Your Target Audience",
+      "depth": 3,
+      "page": 330
+    },
+    {
+      "label": "Conducting a Playtesting Session",
+      "depth": 2,
+      "page": 331
+    },
+    {
+      "label": "Why We Play Games",
+      "depth": 3,
+      "page": 332
+    },
+    {
+      "label": "Introduction (2–3 Minutes)",
+      "depth": 3,
+      "page": 334
+    },
+    {
+      "label": "Warm-Up Discussion (5 Minutes)",
+      "depth": 3,
+      "page": 335
+    },
+    {
+      "label": "Play Session (15–20 Minutes)",
+      "depth": 3,
+      "page": 335
+    },
+    {
+      "label": "Discussion of Game Experience (15–20 Minutes)",
+      "depth": 3,
+      "page": 335
+    },
+    {
+      "label": "Wrap-Up",
+      "depth": 3,
+      "page": 336
+    },
+    {
+      "label": "Methods of Playtesting",
+      "depth": 2,
+      "page": 338
+    },
+    {
+      "label": "How Feedback from Typical Gamers Can Help Avoid Disappointing Outcomes",
+      "depth": 3,
+      "page": 339
+    },
+    {
+      "label": "A Primer for Playtesting: Don’t Follow These Rules!",
+      "depth": 3,
+      "page": 343
+    },
+    {
+      "label": "The Play Matrix",
+      "depth": 2,
+      "page": 348
+    },
+    {
+      "label": "Taking Notes",
+      "depth": 2,
+      "page": 350
+    },
+    {
+      "label": "Basic Usability Techniques",
+      "depth": 2,
+      "page": 352
+    },
+    {
+      "label": "Do Not Lead",
+      "depth": 3,
+      "page": 352
+    },
+    {
+      "label": "Remind Testers to Think Out Loud",
+      "depth": 3,
+      "page": 352
+    },
+    {
+      "label": "Quantitative Data",
+      "depth": 3,
+      "page": 352
+    },
+    {
+      "label": "Metrics in Game Design",
+      "depth": 3,
+      "page": 353
+    },
+    {
+      "label": "Data Gathering",
+      "depth": 2,
+      "page": 356
+    },
+    {
+      "label": "Test Control Situations",
+      "depth": 2,
+      "page": 358
+    },
+    {
+      "label": "Rapid Iterative Testing and Evaluation",
+      "depth": 2,
+      "page": 358
+    },
+    {
+      "label": "Playtesting Practice",
+      "depth": 2,
+      "page": 360
+    },
+    {
+      "label": "Connect Four",
+      "depth": 3,
+      "page": 360
+    },
+    {
+      "label": "Final Analysis",
+      "depth": 3,
+      "page": 361
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 361
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 362
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 362
+    },
+    {
+      "label": "Chapter 10 Functionality, Completeness, and Balance",
+      "depth": 1,
+      "page": 363
+    },
+    {
+      "label": "What Are You Testing For?",
+      "depth": 2,
+      "page": 363
+    },
+    {
+      "label": "Foundation",
+      "depth": 3,
+      "page": 364
+    },
+    {
+      "label": "Structure",
+      "depth": 3,
+      "page": 364
+    },
+    {
+      "label": "Formal Details",
+      "depth": 3,
+      "page": 364
+    },
+    {
+      "label": "Refinement",
+      "depth": 3,
+      "page": 365
+    },
+    {
+      "label": "Is Your Game Functional?",
+      "depth": 2,
+      "page": 366
+    },
+    {
+      "label": "Is Your Game Internally Complete?",
+      "depth": 2,
+      "page": 366
+    },
+    {
+      "label": "Solution #1",
+      "depth": 3,
+      "page": 367
+    },
+    {
+      "label": "Solution #2",
+      "depth": 3,
+      "page": 367
+    },
+    {
+      "label": "Solution #3",
+      "depth": 3,
+      "page": 367
+    },
+    {
+      "label": "Solution #4",
+      "depth": 3,
+      "page": 368
+    },
+    {
+      "label": "Discussion",
+      "depth": 3,
+      "page": 368
+    },
+    {
+      "label": "Loopholes",
+      "depth": 3,
+      "page": 368
+    },
+    {
+      "label": "Loopholes versus Features",
+      "depth": 3,
+      "page": 369
+    },
+    {
+      "label": "Dead Ends",
+      "depth": 3,
+      "page": 373
+    },
+    {
+      "label": "Wrapping Up Completeness",
+      "depth": 3,
+      "page": 373
+    },
+    {
+      "label": "Is Your Game Balanced?",
+      "depth": 2,
+      "page": 374
+    },
+    {
+      "label": "Balancing Variables",
+      "depth": 3,
+      "page": 374
+    },
+    {
+      "label": "Balancing the Dynamics",
+      "depth": 3,
+      "page": 375
+    },
+    {
+      "label": "Reinforcing Relationships",
+      "depth": 3,
+      "page": 375
+    },
+    {
+      "label": "Dominant Objects",
+      "depth": 3,
+      "page": 376
+    },
+    {
+      "label": "Dominant Strategies",
+      "depth": 3,
+      "page": 378
+    },
+    {
+      "label": "Balancing Positions",
+      "depth": 3,
+      "page": 379
+    },
+    {
+      "label": "Symmetrical Games",
+      "depth": 3,
+      "page": 379
+    },
+    {
+      "label": "Asymmetrical Games",
+      "depth": 3,
+      "page": 380
+    },
+    {
+      "label": "Asymmetrical Objectives",
+      "depth": 3,
+      "page": 381
+    },
+    {
+      "label": "Ticking Clock",
+      "depth": 3,
+      "page": 381
+    },
+    {
+      "label": "Protection",
+      "depth": 3,
+      "page": 382
+    },
+    {
+      "label": "Combination",
+      "depth": 3,
+      "page": 382
+    },
+    {
+      "label": "Individual Objectives",
+      "depth": 3,
+      "page": 382
+    },
+    {
+      "label": "Complete Asymmetry",
+      "depth": 3,
+      "page": 383
+    },
+    {
+      "label": "Balancing for Skill",
+      "depth": 3,
+      "page": 383
+    },
+    {
+      "label": "Balancing for the Median Skill Level",
+      "depth": 3,
+      "page": 385
+    },
+    {
+      "label": "Balancing Dynamically",
+      "depth": 3,
+      "page": 385
+    },
+    {
+      "label": "Balancing Computer-Controlled Characters",
+      "depth": 3,
+      "page": 386
+    },
+    {
+      "label": "Techniques for Balancing Your Game",
+      "depth": 2,
+      "page": 387
+    },
+    {
+      "label": "Think Modular",
+      "depth": 3,
+      "page": 387
+    },
+    {
+      "label": "Purity of Purpose",
+      "depth": 3,
+      "page": 387
+    },
+    {
+      "label": "A Conversation with Rob Pardo",
+      "depth": 3,
+      "page": 388
+    },
+    {
+      "label": "One Change at a Time",
+      "depth": 3,
+      "page": 394
+    },
+    {
+      "label": "Spreadsheets",
+      "depth": 3,
+      "page": 394
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 395
+    },
+    {
+      "label": "Designer Perspective: Shawn Alexander Allen",
+      "depth": 3,
+      "page": 396
+    },
+    {
+      "label": "Designer Perspective: Heather Kelley",
+      "depth": 3,
+      "page": 401
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 403
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 403
+    },
+    {
+      "label": "Chapter 11 Fun and Accessibility",
+      "depth": 1,
+      "page": 404
+    },
+    {
+      "label": "Is Your Game Fun?",
+      "depth": 2,
+      "page": 405
+    },
+    {
+      "label": "Challenge",
+      "depth": 3,
+      "page": 405
+    },
+    {
+      "label": "Play",
+      "depth": 3,
+      "page": 407
+    },
+    {
+      "label": "Story",
+      "depth": 3,
+      "page": 409
+    },
+    {
+      "label": "Analyzing Appeal",
+      "depth": 3,
+      "page": 410
+    },
+    {
+      "label": "Improving Player Choices",
+      "depth": 2,
+      "page": 411
+    },
+    {
+      "label": "Types of Decisions",
+      "depth": 3,
+      "page": 412
+    },
+    {
+      "label": "Dilemmas",
+      "depth": 3,
+      "page": 413
+    },
+    {
+      "label": "Cake-Cutting Scenario",
+      "depth": 3,
+      "page": 414
+    },
+    {
+      "label": "The Prisoner’s Dilemma",
+      "depth": 3,
+      "page": 415
+    },
+    {
+      "label": "Puzzles",
+      "depth": 3,
+      "page": 417
+    },
+    {
+      "label": "Rewards and Punishments",
+      "depth": 3,
+      "page": 419
+    },
+    {
+      "label": "Anticipation",
+      "depth": 3,
+      "page": 420
+    },
+    {
+      "label": "Surprise",
+      "depth": 3,
+      "page": 421
+    },
+    {
+      "label": "Progress",
+      "depth": 3,
+      "page": 422
+    },
+    {
+      "label": "The End",
+      "depth": 3,
+      "page": 423
+    },
+    {
+      "label": "Fun Killers",
+      "depth": 2,
+      "page": 423
+    },
+    {
+      "label": "Micromanagement",
+      "depth": 3,
+      "page": 423
+    },
+    {
+      "label": "Stagnation",
+      "depth": 3,
+      "page": 424
+    },
+    {
+      "label": "Tuning and Balance: Us vs . It",
+      "depth": 3,
+      "page": 425
+    },
+    {
+      "label": "Insurmountable Obstacles",
+      "depth": 3,
+      "page": 430
+    },
+    {
+      "label": "Arbitrary Events",
+      "depth": 3,
+      "page": 432
+    },
+    {
+      "label": "Predictable Paths",
+      "depth": 3,
+      "page": 432
+    },
+    {
+      "label": "Beyond Fun",
+      "depth": 2,
+      "page": 433
+    },
+    {
+      "label": "Is Your Game Accessible?",
+      "depth": 2,
+      "page": 433
+    },
+    {
+      "label": "Using Audio as a Game Feedback Device",
+      "depth": 3,
+      "page": 435
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 439
+    },
+    {
+      "label": "Designer Perspective: Wren Brier",
+      "depth": 3,
+      "page": 440
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 443
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 443
+    },
+    {
+      "label": "Part 3 Working as a Game Designer",
+      "depth": 0,
+      "page": 444
+    },
+    {
+      "label": "Chapter 12 Team Structures",
+      "depth": 1,
+      "page": 446
+    },
+    {
+      "label": "Team Structure",
+      "depth": 2,
+      "page": 447
+    },
+    {
+      "label": "Publisher versus Developer",
+      "depth": 3,
+      "page": 447
+    },
+    {
+      "label": "Developer’s Team",
+      "depth": 2,
+      "page": 448
+    },
+    {
+      "label": "Game Designer",
+      "depth": 3,
+      "page": 449
+    },
+    {
+      "label": "Producer",
+      "depth": 3,
+      "page": 449
+    },
+    {
+      "label": "Programmers",
+      "depth": 3,
+      "page": 450
+    },
+    {
+      "label": "Building Inclusive Design Teams",
+      "depth": 3,
+      "page": 451
+    },
+    {
+      "label": "Visual Artists",
+      "depth": 3,
+      "page": 456
+    },
+    {
+      "label": "QA Engineers",
+      "depth": 3,
+      "page": 457
+    },
+    {
+      "label": "Specialized Media",
+      "depth": 3,
+      "page": 458
+    },
+    {
+      "label": "Level Designer",
+      "depth": 3,
+      "page": 459
+    },
+    {
+      "label": "Publisher’s Team",
+      "depth": 2,
+      "page": 460
+    },
+    {
+      "label": "Producer",
+      "depth": 3,
+      "page": 460
+    },
+    {
+      "label": "Marketing Team",
+      "depth": 3,
+      "page": 461
+    },
+    {
+      "label": "Executives",
+      "depth": 3,
+      "page": 461
+    },
+    {
+      "label": "QA Engineers",
+      "depth": 3,
+      "page": 462
+    },
+    {
+      "label": "Usability Specialists",
+      "depth": 3,
+      "page": 463
+    },
+    {
+      "label": "User Research and Metrics",
+      "depth": 3,
+      "page": 464
+    },
+    {
+      "label": "Team Profile",
+      "depth": 2,
+      "page": 464
+    },
+    {
+      "label": "All Contribute to the Design",
+      "depth": 2,
+      "page": 465
+    },
+    {
+      "label": "Team Building",
+      "depth": 2,
+      "page": 465
+    },
+    {
+      "label": "Team Communication",
+      "depth": 2,
+      "page": 466
+    },
+    {
+      "label": "Conducting Meetings",
+      "depth": 3,
+      "page": 466
+    },
+    {
+      "label": "Agile Development",
+      "depth": 3,
+      "page": 467
+    },
+    {
+      "label": "Unions in the Game Industry",
+      "depth": 2,
+      "page": 467
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 468
+    },
+    {
+      "label": "Designer Perspective: Nahil Sharkasi",
+      "depth": 3,
+      "page": 469
+    },
+    {
+      "label": "Designer Perspective: Elizabeth Lapensée",
+      "depth": 3,
+      "page": 472
+    },
+    {
+      "label": "Designer Perspective: Jenova Chen",
+      "depth": 3,
+      "page": 476
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 479
+    },
+    {
+      "label": "End Note",
+      "depth": 2,
+      "page": 479
+    },
+    {
+      "label": "Chapter 13 Stages and Methods of Development",
+      "depth": 1,
+      "page": 480
+    },
+    {
+      "label": "Stages Defined",
+      "depth": 2,
+      "page": 481
+    },
+    {
+      "label": "From Concept to Contract",
+      "depth": 3,
+      "page": 482
+    },
+    {
+      "label": "Preproduction",
+      "depth": 3,
+      "page": 484
+    },
+    {
+      "label": "Production",
+      "depth": 3,
+      "page": 485
+    },
+    {
+      "label": "From Classroom to Console: Producing flOw for the PlayStation 3",
+      "depth": 3,
+      "page": 486
+    },
+    {
+      "label": "Postproduction and Quality Assurance",
+      "depth": 3,
+      "page": 488
+    },
+    {
+      "label": "Maintenance and Updates",
+      "depth": 3,
+      "page": 489
+    },
+    {
+      "label": "Using Agile Development",
+      "depth": 2,
+      "page": 489
+    },
+    {
+      "label": "Agile Project Planning",
+      "depth": 2,
+      "page": 490
+    },
+    {
+      "label": "Goals",
+      "depth": 3,
+      "page": 491
+    },
+    {
+      "label": "Priorities",
+      "depth": 3,
+      "page": 491
+    },
+    {
+      "label": "Schedule",
+      "depth": 3,
+      "page": 491
+    },
+    {
+      "label": "Budget",
+      "depth": 3,
+      "page": 494
+    },
+    {
+      "label": "Scoping and Revising",
+      "depth": 3,
+      "page": 495
+    },
+    {
+      "label": "Milestones and Approvals",
+      "depth": 3,
+      "page": 495
+    },
+    {
+      "label": "Opportunities for Indie Gamemakers",
+      "depth": 3,
+      "page": 496
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 499
+    },
+    {
+      "label": "Designer Perspective: Michael John",
+      "depth": 3,
+      "page": 500
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 501
+    },
+    {
+      "label": "Chapter 14 Communicating Your Designs",
+      "depth": 1,
+      "page": 502
+    },
+    {
+      "label": "Visualization",
+      "depth": 2,
+      "page": 503
+    },
+    {
+      "label": "Flowcharts",
+      "depth": 2,
+      "page": 504
+    },
+    {
+      "label": "Tables and Spreadsheets",
+      "depth": 2,
+      "page": 506
+    },
+    {
+      "label": "Concept Art",
+      "depth": 2,
+      "page": 506
+    },
+    {
+      "label": "Description",
+      "depth": 2,
+      "page": 507
+    },
+    {
+      "label": "Artificial Intelligence & the Creative Process",
+      "depth": 3,
+      "page": 508
+    },
+    {
+      "label": "Virtual Reality and Beyond",
+      "depth": 3,
+      "page": 511
+    },
+    {
+      "label": "Formats for Design Documents",
+      "depth": 2,
+      "page": 516
+    },
+    {
+      "label": "Contents",
+      "depth": 2,
+      "page": 516
+    },
+    {
+      "label": "Design Macros",
+      "depth": 2,
+      "page": 522
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 524
+    },
+    {
+      "label": "Designer Perspective: Anna Anthropy",
+      "depth": 3,
+      "page": 525
+    },
+    {
+      "label": "Designer Perspective: Rob Daviau",
+      "depth": 3,
+      "page": 527
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 528
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 528
+    },
+    {
+      "label": "Chapter 15 Understanding the New Game Industry",
+      "depth": 1,
+      "page": 529
+    },
+    {
+      "label": "The Size of the Game Industry",
+      "depth": 2,
+      "page": 530
+    },
+    {
+      "label": "Platforms for Distribution",
+      "depth": 2,
+      "page": 531
+    },
+    {
+      "label": "Consoles",
+      "depth": 3,
+      "page": 531
+    },
+    {
+      "label": "Computer (PC and Mac)",
+      "depth": 3,
+      "page": 532
+    },
+    {
+      "label": "Mobile (Phone and Tablet)",
+      "depth": 3,
+      "page": 532
+    },
+    {
+      "label": "Virtual Reality and Alternate Reality",
+      "depth": 3,
+      "page": 533
+    },
+    {
+      "label": "Immersive Entertainment",
+      "depth": 3,
+      "page": 533
+    },
+    {
+      "label": "Board Games",
+      "depth": 3,
+      "page": 533
+    },
+    {
+      "label": "Genres of Gameplay",
+      "depth": 2,
+      "page": 534
+    },
+    {
+      "label": "Action Games",
+      "depth": 3,
+      "page": 534
+    },
+    {
+      "label": "Strategy Games",
+      "depth": 3,
+      "page": 534
+    },
+    {
+      "label": "Mobile Game Design and Zombies, Run!",
+      "depth": 3,
+      "page": 535
+    },
+    {
+      "label": "Role-Playing Games",
+      "depth": 3,
+      "page": 537
+    },
+    {
+      "label": "Sports Games",
+      "depth": 3,
+      "page": 538
+    },
+    {
+      "label": "Racing/Driving Games",
+      "depth": 3,
+      "page": 538
+    },
+    {
+      "label": "Simulation/Building Games",
+      "depth": 3,
+      "page": 538
+    },
+    {
+      "label": "Flight and Other Simulations",
+      "depth": 3,
+      "page": 538
+    },
+    {
+      "label": "Adventure and Action Adventure Games",
+      "depth": 3,
+      "page": 538
+    },
+    {
+      "label": "Educational Games",
+      "depth": 3,
+      "page": 539
+    },
+    {
+      "label": "Children’s Games",
+      "depth": 3,
+      "page": 539
+    },
+    {
+      "label": "Casual Games",
+      "depth": 3,
+      "page": 539
+    },
+    {
+      "label": "Experimental Games",
+      "depth": 3,
+      "page": 539
+    },
+    {
+      "label": "Publishers",
+      "depth": 2,
+      "page": 540
+    },
+    {
+      "label": "Play Beyond Screens",
+      "depth": 3,
+      "page": 541
+    },
+    {
+      "label": "Developers",
+      "depth": 2,
+      "page": 543
+    },
+    {
+      "label": "The Business of Game Publishing",
+      "depth": 2,
+      "page": 544
+    },
+    {
+      "label": "Development",
+      "depth": 3,
+      "page": 544
+    },
+    {
+      "label": "Licensing",
+      "depth": 3,
+      "page": 545
+    },
+    {
+      "label": "Marketing",
+      "depth": 3,
+      "page": 547
+    },
+    {
+      "label": "Distribution",
+      "depth": 3,
+      "page": 547
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 548
+    },
+    {
+      "label": "Designer Perspective: Neil Jones",
+      "depth": 3,
+      "page": 549
+    },
+    {
+      "label": "Designer Perspective: Graeme Bayless",
+      "depth": 3,
+      "page": 552
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 555
+    },
+    {
+      "label": "End Notes",
+      "depth": 2,
+      "page": 555
+    },
+    {
+      "label": "Chapter 16 Selling Yourself and Your Ideas to the Game Industry",
+      "depth": 1,
+      "page": 556
+    },
+    {
+      "label": "Getting a Job at a Publisher or Developer",
+      "depth": 2,
+      "page": 556
+    },
+    {
+      "label": "Educate Yourself",
+      "depth": 3,
+      "page": 557
+    },
+    {
+      "label": "Academic Programs",
+      "depth": 3,
+      "page": 557
+    },
+    {
+      "label": "Portfolio",
+      "depth": 3,
+      "page": 557
+    },
+    {
+      "label": "Play Games",
+      "depth": 3,
+      "page": 558
+    },
+    {
+      "label": "Design Games and Levels",
+      "depth": 3,
+      "page": 558
+    },
+    {
+      "label": "Know the Industry",
+      "depth": 3,
+      "page": 559
+    },
+    {
+      "label": "Networking",
+      "depth": 3,
+      "page": 559
+    },
+    {
+      "label": "Organizations",
+      "depth": 3,
+      "page": 559
+    },
+    {
+      "label": "Conferences",
+      "depth": 3,
+      "page": 559
+    },
+    {
+      "label": "Game Jams",
+      "depth": 3,
+      "page": 560
+    },
+    {
+      "label": "Internet and E-mail",
+      "depth": 3,
+      "page": 560
+    },
+    {
+      "label": "Starting at the Bottom",
+      "depth": 3,
+      "page": 561
+    },
+    {
+      "label": "Interning",
+      "depth": 3,
+      "page": 561
+    },
+    {
+      "label": "QA",
+      "depth": 3,
+      "page": 561
+    },
+    {
+      "label": "Pitching Your Original Ideas",
+      "depth": 2,
+      "page": 562
+    },
+    {
+      "label": "Pitch Process",
+      "depth": 3,
+      "page": 562
+    },
+    {
+      "label": "Pitch Materials",
+      "depth": 3,
+      "page": 563
+    },
+    {
+      "label": "What Happens after the Pitch",
+      "depth": 3,
+      "page": 564
+    },
+    {
+      "label": "Independent Production",
+      "depth": 2,
+      "page": 565
+    },
+    {
+      "label": "Conclusion",
+      "depth": 2,
+      "page": 566
+    },
+    {
+      "label": "Designer Perspective: Erin Reynolds",
+      "depth": 3,
+      "page": 567
+    },
+    {
+      "label": "Designer Perspective: Matt Korba",
+      "depth": 3,
+      "page": 570
+    },
+    {
+      "label": "Designer Perspective: Asher Vollmer",
+      "depth": 3,
+      "page": 572
+    },
+    {
+      "label": "Further Reading",
+      "depth": 2,
+      "page": 573
+    },
+    {
+      "label": "End Note",
+      "depth": 2,
+      "page": 573
+    },
+    {
+      "label": "Conclusion",
+      "depth": 0,
+      "page": 574
+    },
+    {
+      "label": "Index",
+      "depth": 0,
+      "page": 576
+    }
+  ],
+  "sample_sections": [
+    {
+      "label": "Page 2",
+      "location": {
+        "page": 2
+      },
+      "text": "Praise for the Previous Edition “Game Design Workshop is a truly great book, and has become, in my opinion, the de facto stan- dard text for beginner to intermediate level game design education. This updated new edition is extremely relevant, useful and inspiring to all kinds of game designers.” — Richard Lemarchand, Interactive Media and Games Division, School of Cinematic Arts, University of Southern California “This is the perfect time for a new edition. The updates refresh elements of the book that are important as examples, but don’t radically alter the thing about the book that is great: a play - centric approach to game design.” —Colleen Macklin, Associate Professor, Parsons The New School for Design “Tracy Fullerton’s Game Design Workshop covers pretty much everything a working or wannabe game designer needs to know. She covers game theory, concepting, prototyping, testing and tun- ing, with stops along the way to discuss what it means to be a professional game designer and how to land a job. When I started thinking about my game studies course at the University of Texas at Austin, this was one book I knew I had to use.” —Warren Spector, Creative Director, OtherSide Entertainment “This is a break-through book, brimming with battle-tested ‘how-to’s.’ Aspiring game designers: you will ‘break through’ to the next level when you learn to set, and then test, experience goals for your game players.” —Bing Gordon, former Chief Creative Officer, Electronic Arts “Game Design Workshop is without a question the most important (and best book) on the topic of game design. Its unique approach is both deep and practical and draws students into the very heart of what game design is all about. The emphasis on paper-and-pencil prototyping encourages students to think, quite literally, “outside the box,” and stretch themselves to inno - vate beyond simply rehashing commercially successful game genres. If the author’s students are any indication, this method has a proven track "
+    },
+    {
+      "label": "Page 3",
+      "location": {
+        "page": 3
+      },
+      "text": "“This book offers a thoughtful and comprehensive look at the field of game design. I’m particu - larly impressed with the way Tracy has managed to integrate the viewpoints and comments of so many diverse and notable designers with her own perceptive view of the state of the art.” —Noah Falstein, former Chief Game Designer, Google “This book does a great job illustrating how games are designed and developed by engaging readers to play along.” —Drew Davidson, Director, Entertainment Technology Center, Carnegie Mellon University “If you are considering becoming a professional game designer, you will find this book a reliable, intelligent, and compassionate guide. If you are already a professional game designer, you’ll find this book an inspiration.” —Bernie DeKoven, deepfun.com and author of The Well-Played Game “If you have ever wanted to design a video game, Game Design Workshop is the book you want.” —Jesper Juul, video game theorist and designer, author of Half-Real “Tracy Fullerton has combined her innate understanding and joy of games with her patient and objective experience as a scholar in this excellent book. She’ll make you a better game developer with her clever exercises and concise prose. This is a must-have in the library of anyone serious about their games.” —John Hight, SVP & General Manager, Warcraft Franchise at Blizzard Entertainment “Game design is something of a black art. The trick to doing it well is retaining the black magic but training oneself to control it. There are a lot of books on game design out there, but Game Design Workshop is among the very few that develops a wizard rather than a drone.” —Ian Bogost, Professor, Washington University, St. Louis and Co-Founder, Persuasive Games"
+    },
+    {
+      "label": "Page 4",
+      "location": {
+        "page": 4
+      },
+      "text": "Game Design Workshop \"Create the digital games you love to play\". Discover an exercise-driven, non-technical approach to game design without the need for program- ming or artistic experience with Game Design Workshop, Fifth Edition. Tracy Fullerton demystifies the creative process with clear and accessible guidance on the for- mal, dramatic, and dynamic systems of game design. Using examples of classic and popular games, illustrations of design techniques, and refined exercises to strengthen your understanding of how game systems function, this book gives you the skills and tools necessary to create a compelling and engaging game. This updated 5 th edition brings deeper coverage of playcentric design techniques, including set- ting emotion-focused experience goals and managing the design process to meet them. It includes a host of new diverse perspectives from top industry game designers. Game Design Workshop puts you to work prototyping, playtesting, and revising your own games with time-tested methods and tools. These skills will provide the foundation for your career in any facet of the game industry including design, producing, programming, and visual design. Tracy Fullerton is an award-winning game designer and educator with over 25 years of professional experience, including winning the Games for Change Game of the Year Award for her independent game Walden, a game. She has also been awarded the 2016 GDC Ambassador Award , the 2015 Games for Change Game Changer Award , and the IndieCade 2013 Trailblazer award for her pioneering work in the independent games community. Tracy is a Professor of Interactive Media & Games ad the USC School of Cinematic Arts and the founding Director (emeritus) of the USC Games Program, which has regularly been ranked the #1 game design program in North America by the Princeton Review."
+    },
+    {
+      "label": "Page 6",
+      "location": {
+        "page": 6
+      },
+      "text": "Game Design Workshop A Playcentric Approach to Creating Innovative Games Fifth Edition Tracy Fullerton"
+    },
+    {
+      "label": "Page 7",
+      "location": {
+        "page": 7
+      },
+      "text": "Fifth edition published 2024 by CRC Press 2385 NW Executive Center Drive, Suite 320, Boca Raton FL 33431 and by CRC Press 4 Park Square, Milton Park, Abingdon, Oxon, OX14 4RN CRC Press is an imprint of Taylor & Francis Group, LLC © 2024 Tracy Fullerton First edition published by CMP Books 2004 Fourth edition published by A K Peters/CRC Press 2018 Reasonable efforts have been made to publish reliable data and information, but the author and publisher cannot assume responsibility for the validity of all materials or the consequences of their use. The authors and publishers have attempted to trace the copyright holders of all material reproduced in this publication and apologize to copyright holders if permission to publish in this form has not been obtained. If any copyright material has not been acknowledged please write and let us know so we may rectify in any future reprint. Except as permitted under U.S. Copyright Law, no part of this book may be reprinted, reproduced, transmitted, or utilized in any form by any electronic, mechanical, or other means, now known or hereafter invented, including photocopying, microfilming, and recording, or in any information storage or retrieval system, without written permission from the publishers. For permission to photocopy or use material electronically from this work, access www.copyright.com or contact the Copyright Clearance Center, Inc. (CCC), 222 Rosewood Drive, Danvers, MA 01923, 978-750-8400. For works that are not available on CCC please contact mpkbookspermissions@tandf.co.uk Trademark notice: Product or corporate names may be trademarks or registered trademarks and are used only for identification and explanation without intent to infringe. Names: Fullerton, Tracy, author. Title: Game design workshop : a playcentric approach to creating innovative games / Tracy Fullerton. Description: Fifth edition. | Boca Raton, FL : CRC Press, 2024. | Includes bibliographical references and index. Identifiers: LCCN 2023043761 (prin"
+    },
+    {
+      "label": "Page 8",
+      "location": {
+        "page": 8
+      },
+      "text": "v Contents Foreword . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .xviii Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .xx Acknowledgments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .xxii Image Credits and Copyright Notices . . . . . . . . . . . . . . . . . . . . . . . . .xxv Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .xxviii Part 1 Game Design Basics . . . . . . . . . . . . . . . . . . . . . .1 Chapter 1 The Role of the Game Designer . . . . . . . . . . . . . . . . . . . . .3 An Advocate for the Player ..................................................... 3 Playtesters ................................................................. 4 Passions and Skills ............................................................. 6 Communication. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 Teamwork ................................................................. 7 Process .................................................................... 8 Inspiration ................................................................. 8 Becoming a Better Player .................................................. 10 Creativity .................................................................. 11 A Playcentric Design Process .................................................... 12 Setting Player Experience Goals ............................................. 13 Prototyping and Playtesting ................................................. 13 Designers You Should Know . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14 Iteration ................................................................... 17 The Iterative Design Process . . . . . . . . . . . . . . . . . "
+    }
+  ],
+  "preview_text": "Praise for the Previous Edition “Game Design Workshop is a truly great book, and has become, in my opinion, the de facto stan- dard text for beginner to intermediate level game design education. This updated new edition is extremely relevant, useful and inspiring to all kinds of game designers.” — Richard Lemarchand, Interactive Media and Games Division, School of Cinematic Arts, University of Southern California “This is the perfect time for a new edition. The updates refresh elements of the book that are important as examples, but don’t radically alter the thing about the book that is great: a play - centric approach to game design.” —Colleen Macklin, Associate Professor, Parsons The New School for Design “Tracy Fullerton’s Game Design Workshop covers pretty much everything a working or wannabe game designer needs to know. She covers game theory, concepting, prototyping, testing and tun- ing, with stops along the way to discuss what it means to be a professional game designer and how to land a job. When I started thinking about my game studies course at the University of Texas at Austin, this was one book I knew I had to use.” —Warren Spector, Creative Director, OtherSide Enterta\n\n“This book offers a thoughtful and comprehensive look at the field of game design. I’m particu - larly impressed with the way Tracy has managed to integrate the viewpoints and comments of so many diverse and notable designers with her own perceptive view of the state of the art.” —Noah Falstein, former Chief Game Designer, Google “This book does a great job illustrating how games are designed and developed by engaging readers to play along.” —Drew Davidson, Director, Entertainment Technology Center, Carnegie Mellon University “If you are considering becoming a professional game designer, you will find this book a reliable, intelligent, and compassionate guide. If you are already a professional game designer, you’ll find this book an inspiration.” —Bernie DeKoven, deepfun.com and author of The Well-Played Game “If you have ever wanted to design a video game, Game Design Workshop is the book you want.” —Jesper Juul, video game theorist and designer, author of Half-Real “Tracy Fullerton has combined her innate understanding and joy of games with her patient and objective experience as a scholar in this excellent book. She’ll make you a better game developer with her clever exercises a\n\nGame Design Workshop \"Create the digital games you love to play\". Discover an exercise-driven, non-technical approach to game design without the need for program- ming or artistic experience with Game Design Workshop, Fifth Edition. Tracy Fullerton demystifies the creative process with clear and accessible guidance on the for- mal, dramatic, and dynamic systems of game design. Using examples of classic and popular games, illustrations of design techniques, and refined exercises to strengthen your understanding of how game systems function, this book gives you the skills and tools necessary to create a compelling and engaging game. This updated 5 th edition brings deeper coverage of playcentric design techniques, including set- ting emotion-focused experience goals and managing the design process to meet them. It includes a host of new diverse perspectives from top industry game designers. Game Design Workshop puts you to work prototyping, playtesting, and revising your own games with time-tested methods and tools. These skills will provide the foundation for your career in any facet of the game industry including design, producing, programming, and visual design. Tracy Fullerton is",
+  "extraction_status": "ok",
+  "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "file_name": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+}

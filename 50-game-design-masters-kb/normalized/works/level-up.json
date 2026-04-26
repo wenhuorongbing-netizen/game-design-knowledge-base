@@ -1,0 +1,291 @@
+{
+  "id": "level-up",
+  "title": "Level Up! The Guide to Great Video Game Design",
+  "authors": [
+    "Scott Rogers"
+  ],
+  "year": 2024,
+  "kind": "book",
+  "canonical_url": "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx",
+  "publisher_or_source": "Wiley",
+  "language": "en",
+  "license": "Commercial",
+  "access_mode": "metadata_only",
+  "source_ids": [
+    "wiley"
+  ],
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "theme_tags": [
+    "ui-ux",
+    "combat",
+    "prompt-design"
+  ],
+  "summary": "一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。",
+  "key_points": [
+    "它偏制作现场语言，能把设计想法转成团队可执行说明。",
+    "适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。",
+    "更像生产手册，而不是纯理论书。"
+  ],
+  "recommended_for": [
+    "主策",
+    "制作",
+    "程序",
+    "玩法策划"
+  ],
+  "official_links": [
+    "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "game-design-workshop"
+  ],
+  "usage_relevance": "最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。",
+  "knowledge_domains": [
+    "设计文档",
+    "关卡与任务表达",
+    "制作沟通",
+    "商业开发流程"
+  ],
+  "purposes": [
+    "spec 写作",
+    "交付物表达",
+    "跨职能沟通"
+  ],
+  "reading_modes": [
+    "按生产问题反查",
+    "写文档时并读",
+    "与 Workshop 结合使用"
+  ],
+  "value_types": [
+    "落地模板",
+    "生产语言",
+    "表达桥梁"
+  ],
+  "knowledge_lifecycle": [
+    "pre-production",
+    "production handoff",
+    "文档整理"
+  ],
+  "entity_type": "work",
+  "slug": "level-up",
+  "phase_label": "开发实现",
+  "deliverable_label": "技术方案 spec",
+  "theme_labels": [
+    "UI/UX",
+    "战斗",
+    "Prompt 设计"
+  ],
+  "availability_label": "已有私有书源，但来源待复核",
+  "source_labels": [
+    "Wiley"
+  ],
+  "official_link_entries": [
+    {
+      "label": "newsroom.wiley.com",
+      "url": "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "size_bytes": 9337016,
+      "extension": "epub",
+      "sha256": "2d0c631a9566a5f68a6d353837faedb8eef6e6fe5ae0ac24e31342a7ea83d18b",
+      "resource_kind": "book",
+      "user_supplied": true,
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ]
+    }
+  ],
+  "official_metadata_pages": [],
+  "private_extracts": [
+    {
+      "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "matched_work_id": "level-up",
+      "extraction_status": "ok",
+      "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json",
+      "format": "epub",
+      "section_count": 10,
+      "toc_count": 10,
+      "warnings": []
+    }
+  ],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": true,
+  "private_source_count": 1,
+  "private_extract_count": 1,
+  "metadata_summary": "",
+  "search_text": "Level Up! The Guide to Great Video Game Design Scott Rogers 一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。 它偏制作现场语言，能把设计想法转成团队可执行说明。 适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。 更像生产手册，而不是纯理论书。 最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。 主策 制作 程序 玩法策划 设计文档 关卡与任务表达 制作沟通 商业开发流程 spec 写作 交付物表达 跨职能沟通 按生产问题反查 写文档时并读 与 Workshop 结合使用 落地模板 生产语言 表达桥梁 pre-production production handoff 文档整理 Level Up!: The Guide to Great Video Game Design 开发实现 技术方案 spec UI/UX 战斗 Prompt 设计 Wiley",
+  "content_markdown": "# Level Up! The Guide to Great Video Game Design\n\n## 基本信息\n\n- 作者：Scott Rogers\n- 年份：2024\n- 类型：book\n- 来源：Wiley\n\n## 摘要\n\n一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。\n\n## 核心要点\n\n- 它偏制作现场语言，能把设计想法转成团队可执行说明。\n- 适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。\n- 更像生产手册，而不是纯理论书。\n\n## 适用场景\n\n最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。\n\n## 知识定位\n\n- 关注领域：设计文档 / 关卡与任务表达 / 制作沟通 / 商业开发流程\n- 主要用途：spec 写作 / 交付物表达 / 跨职能沟通\n- 推荐读法：按生产问题反查 / 写文档时并读 / 与 Workshop 结合使用\n- 价值类型：落地模板 / 生产语言 / 表达桥梁\n- 最适合介入的阶段：pre-production / production handoff / 文档整理\n\n## 分类\n\n- 一级分类：开发实现\n- 二级输出物：技术方案 spec\n- 主题标签：UI/UX / 战斗 / Prompt 设计\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Level Up!: The Guide to Great Video Game Design\n- 解析格式：epub\n- 顶层目录预览：\n  - Level Up!: The Guide to Great Video Game Design\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json`（ok）\n\n## 官方链接\n\n- <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx>\n\n## 相关条目\n\n- Game Feel: A Game Designer's Guide to Virtual Sensation\n- Game Design Workshop\n",
+  "content_html": "<h1 id=\"level-up-the-guide-to-great-video-game-design\">Level Up! The Guide to Great Video Game Design</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Scott Rogers</li><li>年份：2024</li><li>类型：book</li><li>来源：Wiley</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它偏制作现场语言，能把设计想法转成团队可执行说明。</li><li>适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。</li><li>更像生产手册，而不是纯理论书。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：设计文档 / 关卡与任务表达 / 制作沟通 / 商业开发流程</li><li>主要用途：spec 写作 / 交付物表达 / 跨职能沟通</li><li>推荐读法：按生产问题反查 / 写文档时并读 / 与 Workshop 结合使用</li><li>价值类型：落地模板 / 生产语言 / 表达桥梁</li><li>最适合介入的阶段：pre-production / production handoff / 文档整理</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：开发实现</li><li>二级输出物：技术方案 spec</li><li>主题标签：UI/UX / 战斗 / Prompt 设计</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Level Up!: The Guide to Great Video Game Design</li><li>解析格式：epub</li><li>顶层目录预览：</li><li>Level Up!: The Guide to Great Video Game Design</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx\" target=\"_blank\" rel=\"noreferrer\">https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx</a></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Feel: A Game Designer&#39;s Guide to Virtual Sensation</li><li>Game Design Workshop</li></ul>",
+  "primary_private_extract": {
+    "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "matched_work_id": "level-up",
+    "extraction_status": "ok",
+    "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json",
+    "format": "epub",
+    "section_count": 10,
+    "toc_count": 10,
+    "warnings": []
+  },
+  "primary_private_artifact": {
+    "format": "epub",
+    "metadata": {
+      "title": "Level Up!: The Guide to Great Video Game Design",
+      "authors": [
+        "Scott Rogers"
+      ],
+      "language": "en",
+      "publisher": "",
+      "identifier": ""
+    },
+    "page_count": null,
+    "toc": [
+      {
+        "label": "Cover",
+        "depth": 0,
+        "href": "OEBPS/Text/titlepage.xhtml"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_000.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_001.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_002.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_003.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_004.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_005.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_006.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_007.html"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "depth": 0,
+        "href": "OEBPS/Text/Level_Up_split_008.html"
+      }
+    ],
+    "sample_sections": [
+      {
+        "label": "Cover",
+        "location": {
+          "href": "OEBPS/Text/titlepage.xhtml"
+        },
+        "text": "Cover"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_000.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design Table of Contents THE LEVEL UP! EXCLUSIVE OFFER TO OUR READERS Copyright Information Title Page Copyright Page Dedication Acknowledgments Foreword ABOUT THE AUTHOR PRESS START! IF YOU ARE ANYTHING LIKE ME… NO, YOU CAN’T HAVE MY JOB WHO IS THIS BOOK FOR? ACKNOWLEDGMENTS: EVERYTHING I LEARNED ABOUT WRITING A BOOK LEVEL 1 - WELCOME, N00BS! A BRIEF HISTORY OF VIDEO GAMES GAME GENRES WHO MAKES THIS STUFF? HAVE YOU THOUGHT ABOUT PUBLISHING? LEVEL 2 - IDEAS IDEAS: WHERE TO GET THEM AND WHERE TO STICK THEM WHAT DO GAMERS WANT? WHY I HATE “FUN” BRAINSTORMING BREAKING WRITER’S BLOCK LEVEL 3 - WRITING THE STORY THE TRIANGLE OF WEIRDNESS TIME TO WRAP IT UP CREATING CHARACTERS A FEW POINTERS ON WRITING FOR KIDS OF ALL AGES WRITING FOR LICENSES LEVEL 4 - YOU CAN DESIGN A GAME, BUT CAN YOU DO THE PAPERWORK? WRITING THE GDD, STEP 1: THE ONE-SHEET WRITING THE GDD, STEP 2: THE TEN-PAGER THE GAME DESIGN DOCUMENT (AND THE AWFUL TRUTH ABOUT WRITING THEM) GAMEPLAY PROGRESSION THE BEAT CHART ABOVE ALL, DON’T BE A SCHMUCK LEVEL 5 - THE THREE CS, PART 1—CHARACTER PERSONALITY: DO WE REALLY NEED ANOTHER BADASS? LET’S GET PERSONAL FINALLY, WE TALK ABOUT GAMEPLAY WHY WALK WHEN YOU CAN RUN? THE ART OF DOING NOTHING MIGHT AS WELL JUMP HOISTS AND TEETERS WHAT GOES UP, MUST FALL DOWN THE WATER’S FINE… OR IS IT? BE KIND TO OUR FOUR-LEGGED FRIENDS USING ALL OF THE PARTS WE ARE NOT ALONE WHO ARE THE PEOPLE IN YOUR NEIGHBORHOOD? LEVEL 6 - THE THREE CS, PART 2—CAMERA GET IT RIGHT: CAMERA VIEWS FIRST PERSON CAMERA THIRD PERSON CAMERA GIVING UP CONTROL TWO AND A HALF D ISOMETRIC CAMERA TOP-DOWN CAMERA SPECIAL CASE CAMERAS TUNNEL VISION CAMERA SHOT GUIDE CAMERA ANGLE GUIDE CAMERA MOVEMENT GUIDE OTHER CAMERA NOTES MULTIPLE PLAYER CAMERAS LEVEL 7 - THE THREE CS, PART 3—CONTROLS DANCE, MONKEY, DANCE CHARACTER OR CAMERA RELATIVE? SHAKE, RATTLE AND ROLL LEVEL8 - SIGN LANGUAGE—HUD AND ICON DESIGN HEALTH BAR TARGETING AMMO GAUGE INVENTORY SCORE RADAR/MAP CONTEXT-SENSITIVE PROMPT THE CLEAN SCREEN ICON HAS CHEEZBURGER? DON’T GET QTE HUDS, AND WHERE TO STICK ‘EM THERE ARE OTHER SCREENS THAN THE HUD THE PAUSE THAT REFRESHES A FINAL WORD ON FONTS LEVEL 9 - EVERYTHING I LEARNED ABOUT LEVEL DESIGN, I LEARNED FROM LEVEL 9 THE TOP 10 CLICHÉ VIDEO GAME THEMES THE NAME GAME EVERYTHING I LEARNED ABOUT LEVEL DESIGN, I LEARNED FROM DISNEYLAND THE BEAT CHART RE-USING RE-USE THE GARY GYGAX MEMORIAL MAPPING SECTION THE DAVE ARNENSON MEMORIAL MAPPING SECTION WRAPPING UP MAP"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_001.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design THE LEVEL UP! EXCLUSIVE OFFER TO OUR READERS Thank you very much for bying Level up! The Guide to Great Video Game Design! If you happen to meet me at a book signing or a video game conference or a taco shop just present this page and I will draw you your very own customized level design—free of charge! Signed, Scott Rogers"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_002.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design Copyright Information Please note that the following characters are copyrighted to the following corporations: Tennis for Two— This work is in the public domain in the United States because it is a work of the United States Federal Government under the terms of Title 17, Chapter 1, Section 105 of the US Code . Space Invaders © 1978 Taito Corporation Galaxian © 1979 Namco Star Wars Arcade © 1983 Atari Inc. PAC-MAN™ & © 1980 NAMCO BANDAI Games Inc. Space Panic © 1980 Universal Popeye Arcade © 1982 Nintendo Pitfall! and Pitfall Harry © 1982 Activision Dark Castle © 1986 Silicon Beach Software Donkey Kong and associated characters © 1981 Nintendo Mario Bros. © 1983 Nintendo Super Mario Bros., Mario, World 1-1, Super Mario Bros. Theme © 1985 Nintendo Ghost n’ Goblins © 1985 Capcom Mega Man © 1987 Capcom Mario 64 © 1996 Nintendo Crash Bandicoot © 1996 Sony Computer Entertainment Wizard of Oz and associated characters © 1939 Metro-Goldwyn-Meyer Monty Python and the Holy Grail and associated characters © 1975 Star Wars and associated characters © 1977 Lucasfilm Ltd Robocop © 1987-1998 Orion (MGM) Pictures Maximo vs Army of Zin © 2004 Capcom Maximo: Ghost to Glory © 2002 Capcom Team Fortress 2 and associated characters © 2007 Valve Corporation Laura Croft © 1996 Eidos Interactive Batman © 2010 DC comics Resident Evil 2 and associated characters © 1998 Capcom Army of Two © 2008 Electronic Arts Ico © 2001 Sony Computer Entertainment Doom © 1993 id software Darksiders © 2010 THQ Syndicate © 1993 Electronic Arts Supreme Commander © 2007 THQ Warriors © 1979 Vectorbeam Castle Wolfenstein © 1981 Muse Software GoldenEye 007 © 1997 Nintendo LittleBigPlanet © 2008 Sony Computer Entertainment Europe Playstation Dual Shock controller © 1998 Sony Computer Entertainment XBOX 360 controller © 2005 Microsoft World of Warcraft © 2004 Blizzard Entertainment Dragon’s Lair © 1983 Cinematronics Bad Dudes vs Dragon Ninja © 1988 Data East Mortal Kombat © 2009 Warner Brothers Interactive Entertainment Sleeping Beauty’s Castle, Haunted Mansion, Pirates of the Caribbean, Peter Pan’s Flight and associated characters, Pirate’s Lair © 2010 Walt Disney Company Prince of Persia © 2010 Ubisoft Kratos © 2010 Sony Computer Entertainment of America Solid Snake © 1987 Konami Marcus Fenix © 2006 Epic Games Gauntlet © 1985 Atari Games Spider-Man, Rhino © 2010 Marvel Entertainment/Walt Disney Company Bioshock and associated characters © 2007 2K Games 2007 "
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_003.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_004.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design This edition first published 2010 © 2010 John Wiley & Sons, Ltd Registered office John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex, PO19 8SQ, United Kingdom For details of our global editorial offices, for customer services and for information about how to apply for permission to reuse the copyright material in this book please see our website at www.wiley.com . The right of the author to be identified as the author of this work has been asserted in accordance with the Copyright, Designs and Patents Act 1988. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, except as permitted by the UK Copyright, Designs and Patents Act 1988, without the prior permission of the publisher. Wiley also publishes its books in a variety of electronic formats. Some content that appears in print may not be available in electronic books. Designations used by companies to distinguish their products are often claimed as trademarks. All brand names and product names used in this book are trade names, service marks, trademarks or registered trademarks of their respective owners. The publisher is not associated with any product or vendor mentioned in this book. This publication is designed to provide accurate and authoritative information in regard to the subject matter covered. It is sold on the understanding that the publisher is not engaged in rendering professional services. If professional advice or other expert assistance is required, the services of a competent professional should be sought. Refer to page ii for further copyright information pertaining to the content of this book. ISBN 978-0-470-68867-0 A catalogue record for this book is available from the British Library. Set in 10 on 12pt Swiss721BT-Light by Toppan Best-set Premedia Limited"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_005.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design To Brenda Lee who always thought this would make a great book. I love you."
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_006.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design Publisher’s Acknowledgments Some of the people who helped bring this book to market include the following: Editorial and Production VP Consumer and Technology Publishing Director: Michelle Leete Associate Director—Book Content Management: Martin Tribe Associate Publisher: Chris Webb Assistant Editor: Colleen Goldring Publishing Assistant: Ellie Scott Project Editor: Juliet Booker Content Editor: Céline Durand-Watts Development/Copy Editor: Gareth Haman Technical Editor: Noah Stein Marketing Senior Marketing Manager: Louise Breinholt Marketing Executive: Kate Batchelor Composition Services Compositor: Toppan Best-set Premedia Limited (HK) Proof Readers: Sarah Lewis and Gill Whitley Indexer: Robert Swanson"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_007.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design FOREWORD Scott set out to write a handbook; a general text that any designer can pull off their shelf or call up on their PC or e-reader when they want to get back to fundamentals. A sort of Scout Handbook or Farmer’s Almanac for game creation. Scott has even included the kind of clear and simple illustrations you might find in these evergreen texts. When any team in sports, any military unit, or any human endeavor wants success, they start in one place: with the basics. How many times have we heard after a big win, “It’s all about fundamentals.” One of those fundamentals I’ve found valuable in game design is the concept of “doing one thing, well.” Well, Mr. Rogers has done just that with his handbook. Whether you are starting out as a new designer or are a veteran who’s stuck on a difficult problem, pull this handbook off the shelf, get back to the fundamentals, and I’ll bet they trigger some inspiration that will take you beyond. Danny Bilson Executive Vice President of Core Games, THQ February 2010"
+      },
+      {
+        "label": "Level Up!: The Guide to Great Video Game Design",
+        "location": {
+          "href": "OEBPS/Text/Level_Up_split_008.html"
+        },
+        "text": "Level Up!: The Guide to Great Video Game Design ABOUT THE AUTHOR After discovering that game designers have more fun, Scott Rogers embarked on a 16-year-(and counting) career in video games. He has helped design many successful video games including: Pac-Man World , the Maximo series, God of War , Drawn to Life series and Darksiders . Scott is currently a creative manager for THQ and lives just outside nuclear strike range of Los Angeles with his lovely wife, two children and many, many action figures."
+      }
+    ],
+    "preview_text": "Cover\n\nLevel Up!: The Guide to Great Video Game Design Table of Contents THE LEVEL UP! EXCLUSIVE OFFER TO OUR READERS Copyright Information Title Page Copyright Page Dedication Acknowledgments Foreword ABOUT THE AUTHOR PRESS START! IF YOU ARE ANYTHING LIKE ME… NO, YOU CAN’T HAVE MY JOB WHO IS THIS BOOK FOR? ACKNOWLEDGMENTS: EVERYTHING I LEARNED ABOUT WRITING A BOOK LEVEL 1 - WELCOME, N00BS! A BRIEF HISTORY OF VIDEO GAMES GAME GENRES WHO MAKES THIS STUFF? HAVE YOU THOUGHT ABOUT PUBLISHING? LEVEL 2 - IDEAS IDEAS: WHERE TO GET THEM AND WHERE TO STICK THEM WHAT DO GAMERS WANT? WHY I HATE “FUN” BRAINSTORMING BREAKING WRITER’S BLOCK LEVEL 3 - WRITING THE STORY THE TRIANGLE OF WEIRDNESS TIME TO WRAP IT UP CREATING CHARACTERS A FEW POINTERS ON WRITING FOR KIDS OF ALL AGES WRITING FOR LICENSES LEVEL 4 - YOU CAN DESIGN A GAME, BUT CAN YOU DO THE PAPERWORK? WRITING THE GDD, STEP 1: THE ONE-SHEET WRITING THE GDD, STEP 2: THE TEN-PAGER THE GAME DESIGN DOCUMENT (AND THE AWFUL TRUTH ABOUT WRITING THEM) GAMEPLAY PROGRESSION THE BEAT CHART ABOVE ALL, DON’T BE A SCHMUCK LEVEL 5 - THE THREE CS, PART 1—CHARACTER PERSONALITY: DO WE REALLY NEED ANOTHER BADASS? LET’S GET PERSONAL FINALLY, WE TALK ABOUT GAMEPLAY\n\nLevel Up!: The Guide to Great Video Game Design THE LEVEL UP! EXCLUSIVE OFFER TO OUR READERS Thank you very much for bying Level up! The Guide to Great Video Game Design! If you happen to meet me at a book signing or a video game conference or a taco shop just present this page and I will draw you your very own customized level design—free of charge! Signed, Scott Rogers",
+    "extraction_status": "ok",
+    "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "file_name": "Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+  },
+  "primary_toc_preview": [
+    "Level Up!: The Guide to Great Video Game Design"
+  ],
+  "private_source_review_required_count": 1,
+  "private_source_provenance_flags": [
+    "mirror_library_name"
+  ],
+  "source_review_notes": [
+    "当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+  ],
+  "availability_effective_id": "manual_review"
+}

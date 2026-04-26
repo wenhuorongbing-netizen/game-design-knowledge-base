@@ -1,0 +1,66 @@
+{
+  "id": "note-concept-seeds-a-theory-of-fun-for-game-design",
+  "entity_type": "card",
+  "title": "A Theory of Fun for Game Design：Concept Seeds",
+  "summary": "Foreword (from the First Edition) / Prologue: My Grandfather / Why Write This Book? / How the Brain Works / What Games Are / What Games Teach Us / What Games A…",
+  "card_kind": "concept_seed_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "difficulty-curve-design",
+  "resource_kind": "note",
+  "source_work_id": "a-theory-of-fun-for-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "player-motivation",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "the-art-of-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-a-theory-of-fun-for-game-design",
+    "note-book-positioning-a-theory-of-fun-for-game-design",
+    "note-chapter-map-a-theory-of-fun-for-game-design"
+  ],
+  "official_links": [
+    "https://www.theoryoffun.com/"
+  ],
+  "local_links": [
+    {
+      "label": "a-theory-of-fun-for-game-design-48bbb79f791c.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json"
+    }
+  ],
+  "body_markdown": "# A Theory of Fun for Game Design：Concept Seeds\n\n## 可继续长成卡片的概念种子\n\n- Foreword (from the First Edition)\n- Prologue: My Grandfather\n- Why Write This Book?\n- How the Brain Works\n- What Games Are\n- What Games Teach Us\n- What Games Aren't\n- Different Fun for Different Folks\n- The Problem with Learning\n- The Problem with People\n\n## 这本书最可能回答的问题\n\n- 最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。\n- 围绕“体验判断”去检索相关章节和证据。\n- 围绕“成长曲线讨论”去检索相关章节和证据。\n- 围绕“设计哲学补课”去检索相关章节和证据。\n\n## AI 引用建议\n\n- 先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。\n- 如果需要更稳的回答，优先同时引用这本书的 `book entry`、`chapter map note` 和这张 `concept seeds` 卡。\n\n## Evidence Anchors\n\n- Foreword (from the First Edition) (p.18)\n- Prologue: My Grandfather (p.20)\n- Chapter One: Why Write This Book? (p.22)\n- Chapter Two: How the Brain Works (p.32)\n- Chapter Three: What Games Are (p.54)\n- Chapter Four: What Games Teach Us (p.68)\n",
+  "body_html": "<h1 id=\"a-theory-of-fun-for-game-design：concept-seeds\">A Theory of Fun for Game Design：Concept Seeds</h1>\n<h2 id=\"可继续长成卡片的概念种子\">可继续长成卡片的概念种子</h2>\n<ul><li>Foreword (from the First Edition)</li><li>Prologue: My Grandfather</li><li>Why Write This Book?</li><li>How the Brain Works</li><li>What Games Are</li><li>What Games Teach Us</li><li>What Games Aren&#39;t</li><li>Different Fun for Different Folks</li><li>The Problem with Learning</li><li>The Problem with People</li></ul>\n<h2 id=\"这本书最可能回答的问题\">这本书最可能回答的问题</h2>\n<ul><li>最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。</li><li>围绕“体验判断”去检索相关章节和证据。</li><li>围绕“成长曲线讨论”去检索相关章节和证据。</li><li>围绕“设计哲学补课”去检索相关章节和证据。</li></ul>\n<h2 id=\"ai-引用建议\">AI 引用建议</h2>\n<ul><li>先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。</li><li>如果需要更稳的回答，优先同时引用这本书的 <code>book entry</code>、<code>chapter map note</code> 和这张 <code>concept seeds</code> 卡。</li></ul>\n<h2 id=\"evidence-anchors\">Evidence Anchors</h2>\n<ul><li>Foreword (from the First Edition) (p.18)</li><li>Prologue: My Grandfather (p.20)</li><li>Chapter One: Why Write This Book? (p.22)</li><li>Chapter Two: How the Brain Works (p.32)</li><li>Chapter Three: What Games Are (p.54)</li><li>Chapter Four: What Games Teach Us (p.68)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "A Theory of Fun for Game Design：Concept Seeds",
+      "id": "a-theory-of-fun-for-game-design：concept-seeds"
+    },
+    {
+      "level": 2,
+      "text": "可继续长成卡片的概念种子",
+      "id": "可继续长成卡片的概念种子"
+    },
+    {
+      "level": 2,
+      "text": "这本书最可能回答的问题",
+      "id": "这本书最可能回答的问题"
+    },
+    {
+      "level": 2,
+      "text": "AI 引用建议",
+      "id": "ai-引用建议"
+    },
+    {
+      "level": 2,
+      "text": "Evidence Anchors",
+      "id": "evidence-anchors"
+    }
+  ],
+  "search_text": "A Theory of Fun for Game Design Foreword (from the First Edition) Prologue: My Grandfather Why Write This Book? How the Brain Works What Games Are What Games Teach Us What Games Aren't Different Fun for Different Folks The Problem with Learning The Problem with People 最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。 体验判断 成长曲线讨论 设计哲学补课 Foreword (from the First Edition) Prologue: My Grandfather Chapter One: Why Write This Book? Chapter Two: How the Brain Works Chapter Three: What Games Are Chapter Four: What Games Teach Us Chapter Five: What Games Aren't Chapter Six: Different Fun for Different Folks Chapter Seven: The Problem with Learning Chapter Eight: The Problem with People Chapter Nine: Games in Context Chapter Ten: The Ethics of Entertainment Chapter Eleven: Where Games Should Go Chapter Twelve: Taking Their Rightful Place"
+}

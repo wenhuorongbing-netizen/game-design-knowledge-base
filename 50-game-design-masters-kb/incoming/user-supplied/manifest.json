@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-04-26T00:39:22.772Z",
+  "supported_extensions": [
+    ".epub",
+    ".json",
+    ".md",
+    ".pdf",
+    ".txt"
+  ],
+  "entries": [
+    {
+      "file_name": "Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 38765548,
+      "sha256": "383afdfefa9c13ddfa82eb943abda07dfa8557700b9874290bb3e899cf7092ba",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Advanced game design a systems approach (Sellers, Michael (Game designer), author)",
+      "parsed_meta": "",
+      "matched_work_id": "advanced-game-design-a-systems-approach",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "advanced-game-design-a-systems-approach",
+        "game-mechanics-advanced-game-design",
+        "mda-formal-approach",
+        "game-feel",
+        "game-design-concepts-course"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 4476952,
+      "sha256": "50c50beda57ba04c50d57a94ad00d88db53eb1d71781e864bc15d5fafc9d0952",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber)",
+      "parsed_meta": "",
+      "matched_work_id": "challenges-for-game-designers",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "challenges-for-game-designers",
+        "mda-formal-approach",
+        "game-feel",
+        "game-mechanics-advanced-game-design",
+        "game-design-concepts-course"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "extension": ".epub",
+      "size_bytes": 5186348,
+      "sha256": "b0ae59f87d22778a348b41b3f27720cd3eb5688b2a4828649f41dd3aac17c41d",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Characteristics of Games George Skaff Elias, Richard Garfield, and K Robert MIT Press, Cambridge, MA, 2012 MIT Press; The isbn13 9780262017138 83e09ce579544431f49d5e8e4fbc97b9 Ann",
+      "parsed_meta": "",
+      "matched_work_id": "characteristics-of-games",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "characteristics-of-games",
+        "mit-ocw-2014-game-design",
+        "designing-virtual-worlds",
+        "mda-formal-approach"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "accepted",
+      "provenance_label": "user_provided_file",
+      "provenance_flags": [],
+      "review_notes": [],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 213163415,
+      "sha256": "26b8de8e4e678ff320188a0bbd1798034a2913dfc348e94f963094208b4ae47f",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton)",
+      "parsed_meta": "",
+      "matched_work_id": "game-design-workshop",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "game-design-workshop",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "advanced-game-design-a-systems-approach",
+        "game-design-concepts-course"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "extension": ".epub",
+      "size_bytes": 3230025,
+      "sha256": "920fb46fc8825d3ca3e448813bbda739f2a23dc3a86d8c15eb13614c0ea5926d",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink)",
+      "parsed_meta": "",
+      "matched_work_id": "game-feel",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "game-feel",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "game-design-concepts-course",
+        "mit-ocw-2016-introduction-to-game-design-methods"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 4392903,
+      "sha256": "18ac41107c35d81f49bee800fcadb1b7db921ce7ec7ce72be79ca9480ac3f274",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink)",
+      "parsed_meta": "",
+      "matched_work_id": "game-feel",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "game-feel",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "challenges-for-game-designers",
+        "game-ai-pro-series"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "extension": ".epub",
+      "size_bytes": 14755293,
+      "sha256": "34af1b238ac737069c95ffb73614a580c73e779aafbb643597e138080321a665",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Game Mechanics Advanced Game Design ( etc.)",
+      "parsed_meta": "",
+      "matched_work_id": "game-mechanics-advanced-game-design",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "game-mechanics-advanced-game-design",
+        "mda-formal-approach",
+        "advanced-game-design-a-systems-approach",
+        "game-design-concepts-course",
+        "mit-ocw-2016-introduction-to-game-design-methods"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "extension": ".epub",
+      "size_bytes": 9337016,
+      "sha256": "2d0c631a9566a5f68a6d353837faedb8eef6e6fe5ae0ac24e31342a7ea83d18b",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Level Up The Guide to Great Video Game Design (Rogers Scott)",
+      "parsed_meta": "",
+      "matched_work_id": "level-up",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "level-up",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "game-design-concepts-course",
+        "mit-ocw-2016-introduction-to-game-design-methods"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 7862585,
+      "sha256": "f1ee20310d3361fb33f98fe01d1949888b61b3ee1a6f13d1cc927b0970de79bc",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "Play Matters (Miguel Sicart)",
+      "parsed_meta": "",
+      "matched_work_id": "play-matters",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "play-matters",
+        "rules-of-play",
+        "the-aesthetic-of-play",
+        "the-game-design-reader"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 4883796,
+      "sha256": "5c94bc1bc7fc1c2af99daad069d0b4599655da15d5d282725e660fd1e78b288a",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "The Aesthetic of Play (Brian Upton)",
+      "parsed_meta": "",
+      "matched_work_id": "the-aesthetic-of-play",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "the-aesthetic-of-play",
+        "rules-of-play",
+        "play-matters",
+        "the-game-design-reader"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "extension": ".pdf",
+      "size_bytes": 15531690,
+      "sha256": "19c91c8916672174d08e148d24e83b6788649313a5bffaacf0232b966eeaba72",
+      "ingested_at": "2026-04-26T00:39:22.766Z",
+      "parsed_author": "",
+      "parsed_title": "The Art of Game Design A Book of Lenses, Second Edition Schell, Jesse, Schell, Jesse 2, 2014 imusti; A K Peters CRC Press isbn13 9780123694966 52cc2c674374b7ebab44880d86676f0f Anna’s Archive",
+      "parsed_meta": "",
+      "matched_work_id": "the-art-of-game-design",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "the-art-of-game-design",
+        "mit-ocw-2014-game-design",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "game-design-concepts-course"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "anna_archive_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 41345792,
+      "sha256": "0d2c1d43ee51b55269966dcee4398f346115b85934a392ac26c0b1fa9e45872a",
+      "ingested_at": "2026-04-26T00:39:22.767Z",
+      "parsed_author": "",
+      "parsed_title": "The game design reader a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.)",
+      "parsed_meta": "",
+      "matched_work_id": "the-game-design-reader",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "the-game-design-reader",
+        "rules-of-play",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "game-design-concepts-course"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    },
+    {
+      "file_name": "Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "extension": ".pdf",
+      "size_bytes": 98524160,
+      "sha256": "48bbb79f791c57980dbaa1a010bf67b1d6d24a2cd9da64b1e665dd8871eaeb73",
+      "ingested_at": "2026-04-26T00:39:22.767Z",
+      "parsed_author": "",
+      "parsed_title": "Theory of Fun for Game Design, 2nd Edition (Raph Koster)",
+      "parsed_meta": "",
+      "matched_work_id": "a-theory-of-fun-for-game-design",
+      "match_score": 2000,
+      "candidate_work_ids": [
+        "a-theory-of-fun-for-game-design",
+        "mda-formal-approach",
+        "game-mechanics-advanced-game-design",
+        "game-design-concepts-course",
+        "mit-ocw-2016-introduction-to-game-design-methods"
+      ],
+      "sidecar": null,
+      "source_scope": "knowledge-root-loose",
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ],
+      "discovery_notes": [
+        "match_strategy:manual-pattern"
+      ]
+    }
+  ],
+  "ignored": []
+}

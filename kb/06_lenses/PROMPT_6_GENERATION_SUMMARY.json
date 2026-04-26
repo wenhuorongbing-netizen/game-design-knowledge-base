@@ -1,0 +1,47 @@
+{
+  "total_lenses": 104,
+  "families": {
+    "Project Direction Lenses": 9,
+    "Player Experience Lenses": 11,
+    "Play Theory Lenses": 8,
+    "Mechanics and Rules Lenses": 9,
+    "Systems and Economy Lenses": 10,
+    "Game Feel Lenses": 10,
+    "UI / UX / Feedback Lenses": 9,
+    "Narrative / World / Character Lenses": 9,
+    "Prototype and Playtest Lenses": 8,
+    "Production / Release / Community Lenses": 9,
+    "AI-Assisted Design and KB Governance Lenses": 12
+  },
+  "domains": {
+    "player_experience": 10,
+    "business_pitch_release": 5,
+    "player_psychology": 3,
+    "production_process": 5,
+    "ethics_responsibility": 4,
+    "ui_ux_feedback": 11,
+    "play_theory": 7,
+    "rules_and_mechanics": 7,
+    "systems_design": 5,
+    "formal_game_design": 1,
+    "economy_and_balance": 6,
+    "game_feel": 10,
+    "narrative_design": 5,
+    "worldbuilding": 2,
+    "character_design": 2,
+    "prototyping": 3,
+    "playtesting": 5,
+    "multiplayer_community": 2,
+    "prompt_engineering_for_game_design": 11
+  },
+  "phase_groups": {
+    "立项与方向": 57,
+    "测试 / 验收 / 审计": 104,
+    "核心玩法与系统设计": 56,
+    "开发实现": 57,
+    "数值与经济设计": 10,
+    "美术 / UI / 体验表达": 28,
+    "内容与叙事": 9,
+    "运营与发布": 9
+  }
+}

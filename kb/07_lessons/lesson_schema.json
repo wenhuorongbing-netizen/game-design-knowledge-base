@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bookos.game_design.lesson.schema.v1",
+  "title": "BookOS Game Design Masterclass Lesson",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "lesson_id",
+    "title",
+    "level",
+    "estimated_time",
+    "prerequisite_lessons",
+    "phase_groups",
+    "domains",
+    "learning_objectives",
+    "key_concepts",
+    "related_cards",
+    "related_lenses",
+    "related_work_dossiers",
+    "source_basis",
+    "confidence",
+    "opening_question",
+    "teaching_notes",
+    "practical_exercise",
+    "design_deliverable",
+    "reflection_prompt",
+    "forum_discussion_prompt",
+    "project_application",
+    "assessment_rubric",
+    "AI_tutor_prompt",
+    "next_lessons",
+    "status"
+  ],
+  "properties": {
+    "lesson_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "professional"
+      ]
+    },
+    "estimated_time": {
+      "type": "string"
+    },
+    "prerequisite_lessons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phase_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "learning_objectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_concepts": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_cards": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_lenses": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_work_dossiers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_basis": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "opening_question": {
+      "type": "string"
+    },
+    "teaching_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "practical_exercise": {
+      "type": "string"
+    },
+    "design_deliverable": {
+      "type": "string"
+    },
+    "reflection_prompt": {
+      "type": "string"
+    },
+    "forum_discussion_prompt": {
+      "type": "string"
+    },
+    "project_application": {
+      "type": "string"
+    },
+    "assessment_rubric": {
+      "type": "string"
+    },
+    "AI_tutor_prompt": {
+      "type": "string"
+    },
+    "next_lessons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "needs_evidence",
+        "user_review_needed",
+        "verified",
+        "retired"
+      ]
+    }
+  }
+}

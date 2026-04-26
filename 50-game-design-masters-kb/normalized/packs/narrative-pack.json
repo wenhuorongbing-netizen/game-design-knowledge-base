@@ -1,0 +1,42 @@
+{
+  "id": "narrative-pack",
+  "title": "Narrative Pack",
+  "summary": "Cross-phase bundle for worldbuilding, dialogue, quest text, and narrative structure reviews.",
+  "phase_group": "",
+  "phase_label": "Cross-phase",
+  "phase_groups": [
+    "content-narrative"
+  ],
+  "phase_labels": [
+    "内容与叙事"
+  ],
+  "type": "use_case_pack",
+  "kind_label": "Use Case Pack",
+  "card_ids": [
+    "prompt-worldbuilding",
+    "prompt-dialogue-writing",
+    "checklist-narrative-structure-review",
+    "checklist-quest-text-design"
+  ],
+  "count": 4,
+  "prompt_count": 2,
+  "checklist_count": 2,
+  "other_count": 0,
+  "when_to_use": "Use this when story content exists but lacks a clear structure, tone, or production-ready text workflow.",
+  "required_inputs": [
+    "World premise and role of the player",
+    "Main cast, faction, or conflict outline",
+    "Narrative format and delivery constraints",
+    "Samples of current dialogue or quest text"
+  ],
+  "starter_steps": [
+    "Establish the world and narrative frame first.",
+    "Write dialogue only after the structure and role logic are stable.",
+    "Review quest text and narrative beats as production outputs.",
+    "Use the final checklist to catch inconsistency and readability drift."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/narrative-pack.md",
+  "generated_at": "2026-04-26T00:39:23.271Z",
+  "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/narrative-pack-ready-to-run.md",
+  "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/narrative-pack-starter-prompt.md"
+}

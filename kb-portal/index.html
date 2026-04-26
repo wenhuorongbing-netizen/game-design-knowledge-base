@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Design KB</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <p class="eyebrow">Knowledge Portal</p>
+          <h1>Game Design Knowledge Base</h1>
+          <p class="lede">Browse the local library by production phase, deliverable, reusable card, and pack bundle.</p>
+        </div>
+
+        <section class="panel">
+          <p class="panel-title">Library Stats</p>
+          <div id="stats-grid" class="stat-grid"></div>
+        </section>
+
+        <section class="panel">
+          <label class="field">
+            <span>Search</span>
+            <input id="search-input" type="search" placeholder="Title, author, concept, phase">
+          </label>
+        </section>
+
+        <section class="panel">
+          <p class="panel-title">List Mode</p>
+          <div id="mode-buttons" class="pill-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-row">
+            <p class="panel-title">Use-Case Packs</p>
+            <button id="reset-filters" class="text-button" type="button">Reset filters</button>
+          </div>
+          <div id="quick-pack-list" class="shortcut-list"></div>
+        </section>
+
+        <details class="panel panel-collapsible">
+          <summary class="panel-summary">
+            <span>Workspace Tools</span>
+            <span class="panel-summary-note">Optional project-specific layer</span>
+          </summary>
+
+          <section class="workspace-subpanel">
+            <div class="panel-row">
+              <p class="panel-title">Context Workspace</p>
+              <button id="clear-all-context" class="text-button" type="button">Clear all</button>
+            </div>
+            <p id="context-workspace-summary" class="muted"></p>
+            <label class="field">
+              <span>Prompt Bundle Scope</span>
+              <select id="bundle-scope">
+                <option value="started">Started packs</option>
+                <option value="ready">Ready packs only</option>
+                <option value="all">All use-case packs</option>
+                <option value="checked">Checked packs</option>
+                <option value="selected">Selected pack only</option>
+              </select>
+            </label>
+            <div class="bundle-selection-actions">
+              <button id="check-started-packs" class="text-button" type="button">Check started</button>
+              <button id="check-ready-packs" class="text-button" type="button">Check ready</button>
+              <button id="check-auto-fillable-packs" class="text-button" type="button">Check scope auto-fillable</button>
+              <button id="check-manual-gap-packs" class="text-button" type="button">Check scope manual gaps</button>
+              <button id="check-all-packs" class="text-button" type="button">Check all</button>
+              <button id="clear-checked-packs" class="text-button" type="button">Clear checked</button>
+              <button id="open-previous-blocker" class="text-button" type="button">Previous blocker</button>
+              <button id="open-next-blocker" class="text-button" type="button">Next blocker</button>
+            </div>
+            <div class="workspace-actions">
+              <button id="apply-profile-scope" class="action-button" type="button">Apply profile to current scope</button>
+              <button id="resolve-scope-blockers" class="action-button" type="button">Apply profile + focus blockers</button>
+              <button id="export-all-context" class="action-button" type="button">Export all context JSON</button>
+              <button id="import-all-context" class="action-button" type="button">Import all context JSON</button>
+              <button id="copy-prompt-bundle" class="action-button" type="button">Copy prompt bundle</button>
+              <button id="export-prompt-bundle" class="action-button" type="button">Export prompt bundle</button>
+              <button id="copy-workspace-brief" class="action-button" type="button">Copy workspace brief</button>
+              <button id="export-workspace-brief" class="action-button" type="button">Export workspace brief</button>
+              <button id="copy-blocker-queue-brief" class="action-button" type="button">Copy blocker queue brief</button>
+              <button id="export-blocker-queue-brief" class="action-button" type="button">Export blocker queue brief</button>
+              <button id="copy-coverage-report" class="action-button" type="button">Copy coverage report</button>
+              <button id="export-coverage-report" class="action-button" type="button">Export coverage report</button>
+            </div>
+            <div id="context-workspace-list" class="workspace-pack-list"></div>
+          </section>
+
+          <section class="workspace-subpanel">
+            <div class="panel-row">
+              <p class="panel-title">Project Profile</p>
+              <button id="clear-project-profile" class="text-button" type="button">Clear profile</button>
+            </div>
+            <p id="project-profile-summary" class="muted"></p>
+            <div class="workspace-actions">
+              <button id="apply-profile-all" class="action-button" type="button">Apply profile to all packs</button>
+            </div>
+            <label class="field">
+              <span>Project Name</span>
+              <input id="profile-project-name" type="text" placeholder="Founder of the North">
+            </label>
+            <label class="field">
+              <span>Core Pitch</span>
+              <textarea id="profile-core-pitch" rows="4" placeholder="One clear sentence about the player fantasy and game identity"></textarea>
+            </label>
+            <label class="field">
+              <span>Target Platforms</span>
+              <input id="profile-target-platforms" type="text" placeholder="PC, Steam Deck">
+            </label>
+            <label class="field">
+              <span>Target Players</span>
+              <input id="profile-target-players" type="text" placeholder="Survival-crafting players who like harsh exploration">
+            </label>
+            <label class="field">
+              <span>Current Status</span>
+              <input id="profile-current-status" type="text" placeholder="Prototype, vertical slice, pre-production">
+            </label>
+          </section>
+        </details>
+
+        <section class="panel">
+          <div class="panel-row">
+            <p class="panel-title">Production Phase</p>
+            <button id="toggle-extra-phases" class="text-button" type="button">Show more</button>
+          </div>
+          <div id="featured-phases" class="phase-list"></div>
+          <div id="extra-phases" class="phase-list hidden"></div>
+        </section>
+
+        <section class="panel">
+          <label class="field">
+            <span>Deliverable</span>
+            <select id="deliverable-filter"></select>
+          </label>
+          <label class="field">
+            <span>Resource Kind</span>
+            <select id="resource-filter"></select>
+          </label>
+          <label class="field">
+            <span>Card Kind</span>
+            <select id="card-kind-filter"></select>
+          </label>
+          <label class="field">
+            <span>Pack Type</span>
+            <select id="pack-type-filter"></select>
+          </label>
+          <label class="field">
+            <span>Availability</span>
+            <select id="availability-filter"></select>
+          </label>
+          <label class="field">
+            <span>Source</span>
+            <select id="source-filter"></select>
+          </label>
+        </section>
+
+        <section class="panel">
+          <label class="checkbox">
+            <input id="local-only" type="checkbox">
+            <span>Only local readable files</span>
+          </label>
+          <label class="checkbox">
+            <input id="pending-only" type="checkbox">
+            <span>Only pending materials</span>
+          </label>
+        </section>
+      </aside>
+
+      <main class="content">
+        <section class="list-pane">
+          <div class="toolbar">
+            <div>
+              <p class="eyebrow">Library View</p>
+              <h2 id="result-title">All Items</h2>
+            </div>
+            <label class="field compact">
+              <span>Sort</span>
+              <select id="sort-select">
+                <option value="phase">By phase</option>
+                <option value="title">By title</option>
+                <option value="year">By year</option>
+                <option value="local">Local first</option>
+              </select>
+            </label>
+          </div>
+          <p id="result-meta" class="muted"></p>
+          <section id="starter-view" class="starter-view hidden"></section>
+          <div id="item-list" class="item-list"></div>
+        </section>
+
+        <section class="detail-pane">
+          <div id="detail-empty" class="detail-empty">
+            <p class="eyebrow">Detail</p>
+            <h2>Select an item</h2>
+            <p>The detail panel shows the summary, metadata, related cards, and local or official entry points.</p>
+          </div>
+
+          <article id="detail-view" class="detail-view hidden">
+            <header class="detail-header">
+              <p id="detail-type" class="eyebrow"></p>
+              <h2 id="detail-title"></h2>
+              <p id="detail-summary" class="detail-summary"></p>
+              <div id="detail-badges" class="badge-row"></div>
+              <div id="detail-actions" class="detail-action-row hidden"></div>
+            </header>
+
+            <section id="detail-preview" class="detail-preview hidden"></section>
+            <section class="detail-grid">
+              <div class="detail-body">
+                <div id="detail-content" class="prose"></div>
+              </div>
+              <aside class="detail-meta">
+                <section class="meta-card">
+                  <h3>Metadata</h3>
+                  <dl id="detail-metadata"></dl>
+                </section>
+                <section class="meta-card">
+                  <h3>Local Files</h3>
+                  <div id="detail-local-links" class="link-list"></div>
+                </section>
+                <section class="meta-card">
+                  <h3>Official Links</h3>
+                  <div id="detail-official-links" class="link-list"></div>
+                </section>
+                <section class="meta-card">
+                  <h3>Related Items</h3>
+                  <div id="detail-related" class="related-list"></div>
+                </section>
+              </aside>
+            </section>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div id="copy-feedback" class="copy-feedback hidden" aria-live="polite"></div>
+    <script src="./data.js"></script>
+    <script src="./content.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

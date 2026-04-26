@@ -1,0 +1,71 @@
+{
+  "id": "note-compare-systems-vs-mda",
+  "entity_type": "card",
+  "title": "Advanced Game Design: A Systems Approach vs MDA: A Formal Approach to Game Design and Game Research",
+  "summary": "Use MDA as the compact alignment frame, then use A Systems Approach to reason through how the interacting loops actually create or break that alignment.",
+  "card_kind": "comparison_note",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "note",
+  "source_work_id": "advanced-game-design-a-systems-approach",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking",
+    "economy-loops",
+    "design-fundamentals",
+    "formalism"
+  ],
+  "related_work_ids": [
+    "advanced-game-design-a-systems-approach",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [
+    "work-advanced-game-design-a-systems-approach",
+    "work-mda-formal-approach"
+  ],
+  "official_links": [
+    "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246",
+    "https://users.cs.northwestern.edu/~hunicke/MDA.pdf"
+  ],
+  "local_links": [],
+  "body_markdown": "# Advanced Game Design: A Systems Approach vs MDA: A Formal Approach to Game Design and Game Research\n\n> Use MDA as the compact alignment frame, then use A Systems Approach to reason through how the interacting loops actually create or break that alignment.\n\n## Comparison Axis\n\n- mid-level systems reasoning vs compact formal framing\n\n## Advanced Game Design: A Systems Approach 更强在什么地方\n\n- 中层系统梳理\n- 循环关系审查\n- 体系化设计复盘\n- 中层方法论\n- Use when: You need a concise way to align mechanics, dynamics, and aesthetics across the team.\n\n## MDA: A Formal Approach to Game Design and Game Research 更强在什么地方\n\n- Use when: You need to unpack how multiple loops and dependencies interact after that top-line alignment is clear.\n\n## 如何一起使用\n\n- Start with MDA for the frame and escalate to A Systems Approach when the system still feels tangled.\n\n## Advanced Game Design: A Systems Approach 的结构证据\n\n- 这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。\n\n## MDA: A Formal Approach to Game Design and Game Research 的结构证据\n\n- 这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。\n",
+  "body_html": "<h1 id=\"advanced-game-design-a-systems-approach-vs-mda-a-formal-approach-to-game-design-and-game-research\">Advanced Game Design: A Systems Approach vs MDA: A Formal Approach to Game Design and Game Research</h1>\n<blockquote>Use MDA as the compact alignment frame, then use A Systems Approach to reason through how the interacting loops actually create or break that alignment.</blockquote>\n<h2 id=\"comparison-axis\">Comparison Axis</h2>\n<ul><li>mid-level systems reasoning vs compact formal framing</li></ul>\n<h2 id=\"advanced-game-design-a-systems-approach-更强在什么地方\">Advanced Game Design: A Systems Approach 更强在什么地方</h2>\n<ul><li>中层系统梳理</li><li>循环关系审查</li><li>体系化设计复盘</li><li>中层方法论</li><li>Use when: You need a concise way to align mechanics, dynamics, and aesthetics across the team.</li></ul>\n<h2 id=\"mda-a-formal-approach-to-game-design-and-game-research-更强在什么地方\">MDA: A Formal Approach to Game Design and Game Research 更强在什么地方</h2>\n<ul><li>Use when: You need to unpack how multiple loops and dependencies interact after that top-line alignment is clear.</li></ul>\n<h2 id=\"如何一起使用\">如何一起使用</h2>\n<ul><li>Start with MDA for the frame and escalate to A Systems Approach when the system still feels tangled.</li></ul>\n<h2 id=\"advanced-game-design-a-systems-approach-的结构证据\">Advanced Game Design: A Systems Approach 的结构证据</h2>\n<ul><li>这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。</li></ul>\n<h2 id=\"mda-a-formal-approach-to-game-design-and-game-research-的结构证据\">MDA: A Formal Approach to Game Design and Game Research 的结构证据</h2>\n<ul><li>这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Advanced Game Design: A Systems Approach vs MDA: A Formal Approach to Game Design and Game Research",
+      "id": "advanced-game-design-a-systems-approach-vs-mda-a-formal-approach-to-game-design-and-game-research"
+    },
+    {
+      "level": 2,
+      "text": "Comparison Axis",
+      "id": "comparison-axis"
+    },
+    {
+      "level": 2,
+      "text": "Advanced Game Design: A Systems Approach 更强在什么地方",
+      "id": "advanced-game-design-a-systems-approach-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "MDA: A Formal Approach to Game Design and Game Research 更强在什么地方",
+      "id": "mda-a-formal-approach-to-game-design-and-game-research-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "如何一起使用",
+      "id": "如何一起使用"
+    },
+    {
+      "level": 2,
+      "text": "Advanced Game Design: A Systems Approach 的结构证据",
+      "id": "advanced-game-design-a-systems-approach-的结构证据"
+    },
+    {
+      "level": 2,
+      "text": "MDA: A Formal Approach to Game Design and Game Research 的结构证据",
+      "id": "mda-a-formal-approach-to-game-design-and-game-research-的结构证据"
+    }
+  ],
+  "search_text": "Advanced Game Design: A Systems Approach MDA: A Formal Approach to Game Design and Game Research mid-level systems reasoning vs compact formal framing Use MDA as the compact alignment frame, then use A Systems Approach to reason through how the interacting loops actually create or break that alignment. You need a concise way to align mechanics, dynamics, and aesthetics across the team. You need to unpack how multiple loops and dependencies interact after that top-line alignment is clear. Start with MDA for the frame and escalate to A Systems Approach when the system still feels tangled. 中层系统梳理 循环关系审查 体系化设计复盘"
+}

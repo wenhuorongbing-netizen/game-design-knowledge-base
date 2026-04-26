@@ -1,0 +1,62 @@
+{
+  "id": "prompt-dialogue-writing",
+  "entity_type": "card",
+  "title": "对话写作 Prompt 模板",
+  "summary": "把角色对话压成身份、关系、信息效率和可玩性兼顾的文本方案。",
+  "card_kind": "prompt_template",
+  "phase_group": "content-narrative",
+  "deliverable_type": "dialogue-writing",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "worldbuilding",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "play-matters",
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "prompt-worldbuilding",
+    "checklist-narrative-structure-review"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 对话写作 Prompt 模板\n\n## 适用场景\n\n当角色会说话了，但文本还在“交代信息”和“立角色”之间打架时使用。\n\n## 使用前提供\n\n- 角色身份、关系和当前场景目标\n- 玩家此刻最需要知道的信息\n- 这段对话要推动的任务或情绪\n- 角色口吻和禁区\n- 当前对话的问题，如啰嗦、平、信息塞车\n\n## 预期输出\n\n1. 对话目标\n2. 角色关系张力\n3. 信息分配\n4. 示例对话\n5. 删减建议\n6. 可交互点\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏对话写作者。\n请把下面的场景信息整理成一段既能立角色、又不拖垮节奏的游戏对话方案。\n\n输入：\n- 角色与关系：{{characters_and_relationships}}\n- 当前场景目标：{{scene_goal}}\n- 玩家必须知道的信息：{{must_know_info}}\n- 任务/情绪推进：{{quest_or_emotion_goal}}\n- 角色口吻：{{voice_constraints}}\n- 当前问题：{{dialogue_problems}}\n\n请输出：\n1. 对话目标：这段对话最该完成什么。\n2. 关系张力：角色之间最重要的拉扯是什么。\n3. 信息分配：哪些信息明说，哪些留白。\n4. 示例对话：写一段可直接进游戏的版本。\n5. 删减建议：哪些句子最容易变成废话。\n6. 交互点：玩家在哪些地方适合介入或选择。\n\n要求：\n- 不要用纯 exposition 对话。\n- 角色说话方式要能区分身份和关系。\n- 优先保证游戏节奏，不要把对话写成小说段落。\n```\n\n## 二次追问\n\n- 改成更短、更适合高频交互的版本。\n- 只保留任务信息最小化版本。\n",
+  "body_html": "<h1 id=\"对话写作-prompt-模板\">对话写作 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当角色会说话了，但文本还在“交代信息”和“立角色”之间打架时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>角色身份、关系和当前场景目标</li><li>玩家此刻最需要知道的信息</li><li>这段对话要推动的任务或情绪</li><li>角色口吻和禁区</li><li>当前对话的问题，如啰嗦、平、信息塞车</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>对话目标</li><li>角色关系张力</li><li>信息分配</li><li>示例对话</li><li>删减建议</li><li>可交互点</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏对话写作者。\n请把下面的场景信息整理成一段既能立角色、又不拖垮节奏的游戏对话方案。\n\n输入：\n- 角色与关系：{{characters_and_relationships}}\n- 当前场景目标：{{scene_goal}}\n- 玩家必须知道的信息：{{must_know_info}}\n- 任务/情绪推进：{{quest_or_emotion_goal}}\n- 角色口吻：{{voice_constraints}}\n- 当前问题：{{dialogue_problems}}\n\n请输出：\n1. 对话目标：这段对话最该完成什么。\n2. 关系张力：角色之间最重要的拉扯是什么。\n3. 信息分配：哪些信息明说，哪些留白。\n4. 示例对话：写一段可直接进游戏的版本。\n5. 删减建议：哪些句子最容易变成废话。\n6. 交互点：玩家在哪些地方适合介入或选择。\n\n要求：\n- 不要用纯 exposition 对话。\n- 角色说话方式要能区分身份和关系。\n- 优先保证游戏节奏，不要把对话写成小说段落。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>改成更短、更适合高频交互的版本。</li><li>只保留任务信息最小化版本。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "对话写作 Prompt 模板",
+      "id": "对话写作-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "对话写作 Prompt 模板 把角色对话压成身份、关系、信息效率和可玩性兼顾的文本方案。 当角色会说话了，但文本还在“交代信息”和“立角色”之间打架时使用。 角色身份、关系和当前场景目标 玩家此刻最需要知道的信息 这段对话要推动的任务或情绪 角色口吻和禁区 当前对话的问题，如啰嗦、平、信息塞车 对话目标 角色关系张力 信息分配 示例对话 删减建议 可交互点 worldbuilding prompt-design"
+}

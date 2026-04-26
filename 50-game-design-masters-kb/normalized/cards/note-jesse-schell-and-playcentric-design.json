@@ -1,0 +1,73 @@
+{
+  "id": "note-jesse-schell-and-playcentric-design",
+  "entity_type": "card",
+  "title": "Jesse Schell 与 Playcentric 视角",
+  "summary": "Jesse Schell 与 Playcentric 视角",
+  "card_kind": "reading_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "core-gameplay-judgment",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/notes/03-jesse-schell-and-playcentric-design.md",
+  "theme_tags": [
+    "design-fundamentals",
+    "player-motivation"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "03-jesse-schell-and-playcentric-design.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/notes/03-jesse-schell-and-playcentric-design.md"
+    }
+  ],
+  "body_markdown": "# Jesse Schell 与 Playcentric 视角\n\n## 为什么他重要\n\nJesse Schell 的强项不是告诉你某一种类型游戏该怎么做，而是教你如何从多个角度持续拷打一个设计。\n\n如果你的项目已经有很多内容、很多系统、很多理想，他特别有用，因为他能逼你把问题重新变得清楚。\n\n## 他的核心贡献\n\n- 设计不是单一学科，而是体验、机制、叙事、空间、界面、节奏、商业目标共同作用\n- 一个好设计需要不断换视角审查\n- 设计师的工作不是“堆功能”，而是“组织体验”\n\n## 什么时候该优先读他\n\n- 你觉得项目什么都有，但抓不住中心\n- 团队成员都在谈不同的游戏\n- 文档越来越多，但判断越来越慢\n\n## 最适合项目落地的用法\n\n不要试图一口气读完再行动。直接拿他的思路来做文档审查。\n\n可以先问：\n\n- 如果玩家只玩 20 分钟，他记住的是什么？\n- 如果删掉某个大系统，产品的独特性还在不在？\n- 当前系统设计是在服务幻想，还是在消耗幻想？\n- 玩家最常做的动作，是否也是最有趣的动作？\n\n## 搭配谁一起用\n\n- 搭配 Koster：检查“有趣”是否来自学习与掌握\n- 搭配 Fullerton：把问题落到原型和试玩流程\n- 搭配 Rogers：把审查结果转成更清楚的设计文档\n\n## 官方入口\n\n- `The Art of Game Design`: <https://schellgames.com/art-of-game-design>\n\n## 在这个知识库里怎么配套使用\n\n1. 先看 [catalog/04-master-map.md](../catalog/04-master-map.md)\n2. 再看 [notes/02-applying-the-kb-to-projects.md](02-applying-the-kb-to-projects.md)\n3. 最后回到你自己的项目文档，做一轮“删减与聚焦”审查\n",
+  "body_html": "<h1 id=\"jesse-schell-与-playcentric-视角\">Jesse Schell 与 Playcentric 视角</h1>\n<h2 id=\"为什么他重要\">为什么他重要</h2>\n<p>Jesse Schell 的强项不是告诉你某一种类型游戏该怎么做，而是教你如何从多个角度持续拷打一个设计。</p>\n<p>如果你的项目已经有很多内容、很多系统、很多理想，他特别有用，因为他能逼你把问题重新变得清楚。</p>\n<h2 id=\"他的核心贡献\">他的核心贡献</h2>\n<ul><li>设计不是单一学科，而是体验、机制、叙事、空间、界面、节奏、商业目标共同作用</li><li>一个好设计需要不断换视角审查</li><li>设计师的工作不是“堆功能”，而是“组织体验”</li></ul>\n<h2 id=\"什么时候该优先读他\">什么时候该优先读他</h2>\n<ul><li>你觉得项目什么都有，但抓不住中心</li><li>团队成员都在谈不同的游戏</li><li>文档越来越多，但判断越来越慢</li></ul>\n<h2 id=\"最适合项目落地的用法\">最适合项目落地的用法</h2>\n<p>不要试图一口气读完再行动。直接拿他的思路来做文档审查。</p>\n<p>可以先问：</p>\n<ul><li>如果玩家只玩 20 分钟，他记住的是什么？</li><li>如果删掉某个大系统，产品的独特性还在不在？</li><li>当前系统设计是在服务幻想，还是在消耗幻想？</li><li>玩家最常做的动作，是否也是最有趣的动作？</li></ul>\n<h2 id=\"搭配谁一起用\">搭配谁一起用</h2>\n<ul><li>搭配 Koster：检查“有趣”是否来自学习与掌握</li><li>搭配 Fullerton：把问题落到原型和试玩流程</li><li>搭配 Rogers：把审查结果转成更清楚的设计文档</li></ul>\n<h2 id=\"官方入口\">官方入口</h2>\n<ul><li><code>The Art of Game Design</code>: <a href=\"https://schellgames.com/art-of-game-design\" target=\"_blank\" rel=\"noreferrer\">https://schellgames.com/art-of-game-design</a></li></ul>\n<h2 id=\"在这个知识库里怎么配套使用\">在这个知识库里怎么配套使用</h2>\n<ol><li>先看 <a href=\"../catalog/04-master-map.md\" target=\"_blank\" rel=\"noreferrer\">catalog/04-master-map.md</a></li><li>再看 <a href=\"02-applying-the-kb-to-projects.md\" target=\"_blank\" rel=\"noreferrer\">notes/02-applying-the-kb-to-projects.md</a></li><li>最后回到你自己的项目文档，做一轮“删减与聚焦”审查</li></ol>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Jesse Schell 与 Playcentric 视角",
+      "id": "jesse-schell-与-playcentric-视角"
+    },
+    {
+      "level": 2,
+      "text": "为什么他重要",
+      "id": "为什么他重要"
+    },
+    {
+      "level": 2,
+      "text": "他的核心贡献",
+      "id": "他的核心贡献"
+    },
+    {
+      "level": 2,
+      "text": "什么时候该优先读他",
+      "id": "什么时候该优先读他"
+    },
+    {
+      "level": 2,
+      "text": "最适合项目落地的用法",
+      "id": "最适合项目落地的用法"
+    },
+    {
+      "level": 2,
+      "text": "搭配谁一起用",
+      "id": "搭配谁一起用"
+    },
+    {
+      "level": 2,
+      "text": "官方入口",
+      "id": "官方入口"
+    },
+    {
+      "level": 2,
+      "text": "在这个知识库里怎么配套使用",
+      "id": "在这个知识库里怎么配套使用"
+    }
+  ],
+  "search_text": "Jesse Schell 与 Playcentric 视角 # Jesse Schell 与 Playcentric 视角 ## 为什么他重要 Jesse Schell 的强项不是告诉你某一种类型游戏该怎么做，而是教你如何从多个角度持续拷打一个设计。 如果你的项目已经有很多内容、很多系统、很多理想，他特别有用，因为他能逼你把问题重新变得清楚。 ## 他的核心贡献 - 设计不是单一学科，而是体验、机制、叙事、空间、界面、节奏、商业目标共同作用 - 一个好设计需要不断换视角审查 - 设计师的工作不是“堆功能”，而是“组织体验” ## 什么时候该优先读他 - 你觉得项目什么都有，但抓不住中心 - 团队成员都在谈不同的游戏 - 文档越来越多，但判断越来越慢 ## 最适合项目落地的用法 不要试图一口气读完再行动。直接拿他的思路来做文档审查。 可以先问： - 如果玩家只玩 20 分钟，他记住的是什么？ - 如果删掉某个大系统，产品的独特性还在不在？ - 当前系统设计是在服务幻想，还是在消耗幻想？ - 玩家最常做的动作，是否也是最有趣的动作？ ## 搭配谁一起用 - 搭配 Koster：检查“有趣”是否来自学习与掌握 - 搭配 Fullerton：把问题落到原型和试玩流程 - 搭配 Rogers：把审查结果转成更清楚的设计文档 ## 官方入口 - `The Art of Game Design`: <https://schellgames.com/art-of-game-design> ## 在这个知识库里怎么配套使用 1. 先看 [catalog/04-master-map.md](../catalog/04-master-map.md) 2. 再看 [notes/02-applying-the-kb-to-projects.md](02-applying-the-kb-to-projects.md) 3. 最后回到你自己的项目文档，做一轮“删减与聚焦”审查 design-fundamentals player-motivation the-art-of-game-design game-design-workshop"
+}

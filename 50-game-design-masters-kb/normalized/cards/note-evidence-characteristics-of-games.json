@@ -1,0 +1,75 @@
+{
+  "id": "note-evidence-characteristics-of-games",
+  "entity_type": "card",
+  "title": "Characteristics of Games：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "note",
+  "source_work_id": "characteristics-of-games",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "formalism",
+    "economy-loops",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "characteristics-of-games",
+    "game-mechanics-advanced-game-design",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "related_card_ids": [
+    "work-characteristics-of-games",
+    "note-book-positioning-characteristics-of-games",
+    "note-chapter-map-characteristics-of-games"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+  ],
+  "local_links": [
+    {
+      "label": "characteristics-of-games-b0ae59f87d22.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json"
+    },
+    {
+      "label": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub"
+    }
+  ],
+  "body_markdown": "# Characteristics of Games：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Extract title: Characteristics of Games\n- Format: epub\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json`\n\n## TOC Anchors\n\n- Characteristics of Games\n- Foreword\n- Preface\n- Acknowledgments\n- Introduction\n\n## Sample Text Signals\n\n- : Characteristics of Games George Skaff Elias, Richard Garfield, and K. Robert Gutschera foreword by Eric Zimmerman drawings by Peter Whitley The MIT Press Cambridge, Massachusetts London, England\n- Characteristics of Games: Characteristics of Games Table of Contents Foreword Preface Acknowledgments Introduction 1 Basics 2 Multiplayer Games 3 Infrastructure 4 Games as Systems 5 Indeterminacy 6 Player Effort 7 Superstructure 8 Appendixes Bibliography Index List of tables Chapter 5…\n- Foreword: Foreword Foreword When Richard, Robert, and Skaff approached me about writing the foreword for their book and I cracked the first pages of the manuscript, I must admit I was taken by surprise. The book they had written goes against the grain. Unlike the spate…\n\n## Why It Matters For The KB\n\n- 当前定位：最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。\n- 主要用途：结构化拆解 / 规则审查 / 多人系统分析\n- 输出价值：分析语言 / 概念地图 / 术语标准\n",
+  "body_html": "<h1 id=\"characteristics-of-games：evidence-note\">Characteristics of Games：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Extract title: Characteristics of Games</li><li>Format: epub</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json</code></li></ul>\n<h2 id=\"toc-anchors\">TOC Anchors</h2>\n<ul><li>Characteristics of Games</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Introduction</li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>: Characteristics of Games George Skaff Elias, Richard Garfield, and K. Robert Gutschera foreword by Eric Zimmerman drawings by Peter Whitley The MIT Press Cambridge, Massachusetts London, England</li><li>Characteristics of Games: Characteristics of Games Table of Contents Foreword Preface Acknowledgments Introduction 1 Basics 2 Multiplayer Games 3 Infrastructure 4 Games as Systems 5 Indeterminacy 6 Player Effort 7 Superstructure 8 Appendixes Bibliography Index List of tables Chapter 5…</li><li>Foreword: Foreword Foreword When Richard, Robert, and Skaff approached me about writing the foreword for their book and I cracked the first pages of the manuscript, I must admit I was taken by surprise. The book they had written goes against the grain. Unlike the spate…</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。</li><li>主要用途：结构化拆解 / 规则审查 / 多人系统分析</li><li>输出价值：分析语言 / 概念地图 / 术语标准</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Characteristics of Games：Evidence Note",
+      "id": "characteristics-of-games：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "TOC Anchors",
+      "id": "toc-anchors"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    }
+  ],
+  "search_text": "Characteristics of Games 从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。 最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。 Characteristics of Games Foreword Preface Acknowledgments Introduction Characteristics of Games George Skaff Elias, Richard Garfield, and K. Robert Gutschera foreword by Eric Zimmerman drawings by Peter Whitley The MIT Press Cambridge, Massachusetts London, England Characteristics of Games Table of Contents Foreword Preface Acknowledgments Introduction 1 Basics 2 Multiplayer Games 3 Infrastructure 4 Games as Systems 5 Indeterminacy 6 Player Effort 7 Superstructure 8 Appendixes Bibliography Index List of tables Chapter 5… Foreword Foreword When Richard, Robert, and Skaff approached me about writing the foreword for their book and I cracked the first pages of the manuscript, I must admit I was taken by surprise. The book they had written goes against the grain. Unlike the spate…"
+}

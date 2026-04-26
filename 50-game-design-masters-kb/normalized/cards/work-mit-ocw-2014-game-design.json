@@ -1,0 +1,119 @@
+{
+  "id": "work-mit-ocw-2014-game-design",
+  "entity_type": "card",
+  "title": "MIT OCW: Game Design (Spring 2014)",
+  "summary": "MIT 的非数字游戏设计课，覆盖单机制、体验与美学、Perspective 以及规则写作规范。",
+  "card_kind": "source_overview",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "course",
+  "source_work_id": "mit-ocw-2014-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "formalism",
+    "playtesting"
+  ],
+  "related_work_ids": [
+    "rules-of-play",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/"
+  ],
+  "local_links": [
+    {
+      "label": "assignment-one-single-mechanic.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-one-single-mechanic.pdf"
+    },
+    {
+      "label": "assignment-three-perspective.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-three-perspective.pdf"
+    },
+    {
+      "label": "assignment-two-experience-and-aesthetics.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-two-experience-and-aesthetics.pdf"
+    },
+    {
+      "label": "journey-to-the-top-of-the-world.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/journey-to-the-top-of-the-world.pdf"
+    },
+    {
+      "label": "mutiny.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/mutiny.pdf"
+    },
+    {
+      "label": "roman-conquest-the-first-triumvirate.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/roman-conquest-the-first-triumvirate.pdf"
+    },
+    {
+      "label": "technicality.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/technicality.pdf"
+    },
+    {
+      "label": "written-rules-style-guide.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/written-rules-style-guide.pdf"
+    }
+  ],
+  "body_markdown": "# MIT OCW: Game Design (Spring 2014)\n\n## 基本信息\n\n- 作者：Philip B. Tan / Richard Eberhardt\n- 年份：2014\n- 类型：course\n- 来源：MIT OpenCourseWare\n\n## 摘要\n\nMIT 的非数字游戏设计课，覆盖单机制、体验与美学、Perspective 以及规则写作规范。\n\n## 核心要点\n\n- 对规则表达非常有帮助。\n- 适合把体验目标转回具体机制。\n- 规则写作规范能直接用于项目文档质量提升。\n\n## 适用场景\n\n适合用来重写玩法规则、可读性规范和规则说明文档。\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：单机制原型设计\n- 主题标签：设计基础 / 规则与形式化 / 试玩与迭代\n- 可用性：已下载开放全文\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-one-single-mechanic.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-three-perspective.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-two-experience-and-aesthetics.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/journey-to-the-top-of-the-world.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/mutiny.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/roman-conquest-the-first-triumvirate.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/technicality.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/written-rules-style-guide.pdf`\n\n## 官方链接\n\n- <https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2014-game-design/01-ocw.mit.edu-courses-cms-608-game-design-spring-2014-.html`\n\n## 相关条目\n\n- Rules of Play\n- Game Design Workshop\n",
+  "body_html": "<h1 id=\"mit-ocw-game-design-spring-2014\">MIT OCW: Game Design (Spring 2014)</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Philip B. Tan / Richard Eberhardt</li><li>年份：2014</li><li>类型：course</li><li>来源：MIT OpenCourseWare</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>MIT 的非数字游戏设计课，覆盖单机制、体验与美学、Perspective 以及规则写作规范。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>对规则表达非常有帮助。</li><li>适合把体验目标转回具体机制。</li><li>规则写作规范能直接用于项目文档质量提升。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>适合用来重写玩法规则、可读性规范和规则说明文档。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：单机制原型设计</li><li>主题标签：设计基础 / 规则与形式化 / 试玩与迭代</li><li>可用性：已下载开放全文</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-one-single-mechanic.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-three-perspective.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/assignment-two-experience-and-aesthetics.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/journey-to-the-top-of-the-world.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/mutiny.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/roman-conquest-the-first-triumvirate.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/technicality.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2014/written-rules-style-guide.pdf</code></li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/\" target=\"_blank\" rel=\"noreferrer\">https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2014-game-design/01-ocw.mit.edu-courses-cms-608-game-design-spring-2014-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Rules of Play</li><li>Game Design Workshop</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "MIT OCW: Game Design (Spring 2014)",
+      "id": "mit-ocw-game-design-spring-2014"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "MIT OCW: Game Design (Spring 2014) Philip B. Tan Richard Eberhardt MIT 的非数字游戏设计课，覆盖单机制、体验与美学、Perspective 以及规则写作规范。 对规则表达非常有帮助。 适合把体验目标转回具体机制。 规则写作规范能直接用于项目文档质量提升。 适合用来重写玩法规则、可读性规范和规则说明文档。 系统策划 文档负责人 玩法策划 UI/UX 核心玩法与系统设计 单机制原型设计 设计基础 规则与形式化 试玩与迭代 MIT OpenCourseWare This course is built around practical instruction in the design and analysis of non-­digital games. It provides students the texts, tools, references, and historical context to analyze and compare game designs across a variety of genres. In teams, students design, develop, and thoroughly test their original games to better understand the interaction and evolution of game rules. Covers various genres and types of games, including sports, game shows, games of chance, card games, schoolyard games, board games, and role-­playing games."
+}

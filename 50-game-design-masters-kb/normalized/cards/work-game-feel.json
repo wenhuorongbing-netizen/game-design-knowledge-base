@@ -1,0 +1,115 @@
+{
+  "id": "work-game-feel",
+  "entity_type": "card",
+  "title": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+  "summary": "从输入、响应、动画、音效、镜头和物理反馈等细部解释“手感”如何被构造出来，是把模糊体验拆回具体反馈层的经典书。",
+  "card_kind": "book_entry",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "book",
+  "source_work_id": "game-feel",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "hit-feel",
+    "ui-ux",
+    "combat"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282"
+  ],
+  "local_links": [
+    {
+      "label": "Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+    },
+    {
+      "label": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Game Feel: A Game Designer's Guide to Virtual Sensation\n\n## 基本信息\n\n- 作者：Steve Swink\n- 年份：2009\n- 类型：book\n- 来源：Routledge\n\n## 摘要\n\n从输入、响应、动画、音效、镜头和物理反馈等细部解释“手感”如何被构造出来，是把模糊体验拆回具体反馈层的经典书。\n\n## 核心要点\n\n- 它把“不爽”拆成可以修的具体反馈问题。\n- 适合战斗、移动、交互、UI 响应和打击感表达。\n- 它比纯美术方向更偏交互和控制体验。\n\n## 适用场景\n\n最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。\n\n## 知识定位\n\n- 关注领域：输入反馈 / 打击感 / 动画响应 / 控制体验 / 交互美学\n- 主要用途：打击感诊断 / 操作响应优化 / 体验层问题拆解\n- 推荐读法：围绕具体动作反查 / 按案例拆读 / 和试玩录像一起看\n- 价值类型：诊断框架 / 反馈词典 / 体验修正手册\n- 最适合介入的阶段：手感打磨 / 战斗迭代 / UI/UX 精修\n\n## 分类\n\n- 一级分类：美术、UI、体验表达\n- 二级输出物：动效与打击感表达\n- 主题标签：打击感 / UI/UX / 战斗\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析格式：pdf\n- 页数：377\n- 顶层目录预览：\n  - Game Feel: A Game Designer’s Guide to Virtual Sensation\n  - Table of Contents\n  - Acknowledgments\n  - About the Author\n  - Introduction\n  - About This Book\n  - Chapter 1. Defining Game Feel\n  - The Three Building Blocks of Game Feel\n  - Experiences of Game Feel\n  - Creating Game Feel\n  - Summary\n  - Chapter 2. Game Feel and Human Perception\n  - When and How Does Real-Time Control Exist?\n  - The Computer Side of Things\n\n## 来源状态\n\n- 私有书源：2 个\n- 其中待复核：2 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub`（用户提供；来源待复核；镜像站文件名标记）\n- `knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-920fb46fc882.json`（ok）\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json`（ok）\n\n## 官方链接\n\n- <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/game-feel/01-www.routledge.com-Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation-Swink-p-.html`\n\n## 相关条目\n\n- Level Up! The Guide to Great Video Game Design\n- Game Design Workshop\n",
+  "body_html": "<h1 id=\"game-feel-a-game-designers-guide-to-virtual-sensation\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Steve Swink</li><li>年份：2009</li><li>类型：book</li><li>来源：Routledge</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从输入、响应、动画、音效、镜头和物理反馈等细部解释“手感”如何被构造出来，是把模糊体验拆回具体反馈层的经典书。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它把“不爽”拆成可以修的具体反馈问题。</li><li>适合战斗、移动、交互、UI 响应和打击感表达。</li><li>它比纯美术方向更偏交互和控制体验。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：输入反馈 / 打击感 / 动画响应 / 控制体验 / 交互美学</li><li>主要用途：打击感诊断 / 操作响应优化 / 体验层问题拆解</li><li>推荐读法：围绕具体动作反查 / 按案例拆读 / 和试玩录像一起看</li><li>价值类型：诊断框架 / 反馈词典 / 体验修正手册</li><li>最适合介入的阶段：手感打磨 / 战斗迭代 / UI/UX 精修</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：美术、UI、体验表达</li><li>二级输出物：动效与打击感表达</li><li>主题标签：打击感 / UI/UX / 战斗</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析格式：pdf</li><li>页数：377</li><li>顶层目录预览：</li><li>Game Feel: A Game Designer’s Guide to Virtual Sensation</li><li>Table of Contents</li><li>Acknowledgments</li><li>About the Author</li><li>Introduction</li><li>About This Book</li><li>Chapter 1. Defining Game Feel</li><li>The Three Building Blocks of Game Feel</li><li>Experiences of Game Feel</li><li>Creating Game Feel</li><li>Summary</li><li>Chapter 2. Game Feel and Human Perception</li><li>When and How Does Real-Time Control Exist?</li><li>The Computer Side of Things</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：2 个</li><li>其中待复核：2 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub</code>（用户提供；来源待复核；镜像站文件名标记）</li><li><code>knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-920fb46fc882.json</code>（ok）</li><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/game-feel/01-www.routledge.com-Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation-Swink-p-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Level Up! The Guide to Great Video Game Design</li><li>Game Design Workshop</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Game Feel: A Game Designer's Guide to Virtual Sensation Steve Swink 从输入、响应、动画、音效、镜头和物理反馈等细部解释“手感”如何被构造出来，是把模糊体验拆回具体反馈层的经典书。 它把“不爽”拆成可以修的具体反馈问题。 适合战斗、移动、交互、UI 响应和打击感表达。 它比纯美术方向更偏交互和控制体验。 最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。 玩法策划 UI/UX 程序 特效 输入反馈 打击感 动画响应 控制体验 交互美学 打击感诊断 操作响应优化 体验层问题拆解 围绕具体动作反查 按案例拆读 和试玩录像一起看 诊断框架 反馈词典 体验修正手册 手感打磨 战斗迭代 UI/UX 精修 Game Feel: A Game Designer’s Guide to Virtual Sensation Table of Contents Acknowledgments About the Author Introduction About This Book Chapter 1. Defining Game Feel The Three Building Blocks of Game Feel Experiences of Game Feel Creating Game Feel Summary Chapter 2. Game Feel and Human Perception When and How Does Real-Time Control Exist? The Computer Side of Things 美术、UI、体验表达 动效与打击感表达 打击感 UI/UX 战斗 Routledge / CRC Press"
+}

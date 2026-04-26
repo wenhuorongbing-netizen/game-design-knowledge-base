@@ -1,0 +1,56 @@
+{
+  "id": "checklist-numbers-economy",
+  "entity_type": "card",
+  "title": "数值与经济设计 Checklist",
+  "summary": "检查经济循环是否闭合、成长是否可控、奖励是否真正服务体验。",
+  "card_kind": "checklist",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "economy-system-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "economy-loops",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games"
+  ],
+  "related_card_ids": [
+    "phase-guide-numbers-economy",
+    "prompt-numbers-economy"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 数值与经济设计 Checklist\n\n## 适用场景\n\n用于经济系统 review、战斗数值 review，或检查“调一处崩三处”的问题。\n\n## 检查项\n\n- 每个资源都能说明来源、去向和存在理由。\n- 不存在长期无用或只能囤积的死资源。\n- 成长曲线有明确的短中长期目标层次。\n- 奖励频率与风险程度匹配，不会长期失真。\n- 关键指标如 TTK、升级时长、稀缺资源速度有目标区间。\n- 没有某个资源既负责节奏控制又负责爽感奖励又负责商业化门槛。\n- 调参顺序已明确，不会所有表同时乱改。\n\n## 通过标准\n\n- 团队能说清经济循环闭环。\n- 玩家被卡住时能追到具体资源与规则，而不是只能凭感觉调。\n- 奖励与成长共同服务目标体验。\n\n## 常见失败信号\n\n- 所有问题最后都靠加倍数或打折解决。\n- 资源系统靠例外规则维持平衡。\n- 奖励看起来很多，但没有真正改变玩家决策。\n",
+  "body_html": "<h1 id=\"数值与经济设计-checklist\">数值与经济设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于经济系统 review、战斗数值 review，或检查“调一处崩三处”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>每个资源都能说明来源、去向和存在理由。</li><li>不存在长期无用或只能囤积的死资源。</li><li>成长曲线有明确的短中长期目标层次。</li><li>奖励频率与风险程度匹配，不会长期失真。</li><li>关键指标如 TTK、升级时长、稀缺资源速度有目标区间。</li><li>没有某个资源既负责节奏控制又负责爽感奖励又负责商业化门槛。</li><li>调参顺序已明确，不会所有表同时乱改。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>团队能说清经济循环闭环。</li><li>玩家被卡住时能追到具体资源与规则，而不是只能凭感觉调。</li><li>奖励与成长共同服务目标体验。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>所有问题最后都靠加倍数或打折解决。</li><li>资源系统靠例外规则维持平衡。</li><li>奖励看起来很多，但没有真正改变玩家决策。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "数值与经济设计 Checklist",
+      "id": "数值与经济设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "数值与经济设计 Checklist 检查经济循环是否闭合、成长是否可控、奖励是否真正服务体验。 用于经济系统 review、战斗数值 review，或检查“调一处崩三处”的问题。 每个资源都能说明来源、去向和存在理由。 不存在长期无用或只能囤积的死资源。 成长曲线有明确的短中长期目标层次。 奖励频率与风险程度匹配，不会长期失真。 关键指标如 TTK、升级时长、稀缺资源速度有目标区间。 没有某个资源既负责节奏控制又负责爽感奖励又负责商业化门槛。 调参顺序已明确，不会所有表同时乱改。 团队能说清经济循环闭环。 玩家被卡住时能追到具体资源与规则，而不是只能凭感觉调。 奖励与成长共同服务目标体验。 所有问题最后都靠加倍数或打折解决。 资源系统靠例外规则维持平衡。 奖励看起来很多，但没有真正改变玩家决策。 economy-loops systems-thinking"
+}

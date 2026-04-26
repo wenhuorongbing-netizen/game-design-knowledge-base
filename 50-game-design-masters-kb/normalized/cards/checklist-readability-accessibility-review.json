@@ -1,0 +1,56 @@
+{
+  "id": "checklist-readability-accessibility-review",
+  "entity_type": "card",
+  "title": "可读性与可访问性评审 Checklist",
+  "summary": "检查视觉表达是否真正可读、可理解、可操作，而不是只在熟手眼里成立。",
+  "card_kind": "checklist",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "readability-accessibility-review",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "game-feel",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "prompt-art-ui-experience",
+    "prompt-hud-ui-structure-design"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 可读性与可访问性评审 Checklist\n\n## 适用场景\n\n用于 UI / HUD review、设备适配 review，或排查“看起来很美但玩家读不懂”。\n\n## 检查项\n\n- 关键状态和目标信息能在短时间内被识别。\n- 字号、对比和层级对目标设备可读。\n- 颜色不是唯一的信息通道。\n- 高频操作不依赖细小或难点的交互目标。\n- 视觉装饰不会遮蔽关键反馈和路径。\n- 动效速度不会妨碍理解和操作。\n- 新玩家和熟手都能快速找到下一步行动信息。\n\n## 通过标准\n\n- 玩家能在正常负荷下看清、看懂、做对。\n- 界面和视觉反馈没有排斥关键玩家群体。\n- 可读性是结构层成立的，而不是靠玩家适应。\n\n## 常见失败信号\n\n- 只有熟手才知道信息在哪。\n- 为了美观牺牲了判断速度。\n- 重要状态需要多次确认才能看清。\n",
+  "body_html": "<h1 id=\"可读性与可访问性评审-checklist\">可读性与可访问性评审 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于 UI / HUD review、设备适配 review，或排查“看起来很美但玩家读不懂”。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>关键状态和目标信息能在短时间内被识别。</li><li>字号、对比和层级对目标设备可读。</li><li>颜色不是唯一的信息通道。</li><li>高频操作不依赖细小或难点的交互目标。</li><li>视觉装饰不会遮蔽关键反馈和路径。</li><li>动效速度不会妨碍理解和操作。</li><li>新玩家和熟手都能快速找到下一步行动信息。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>玩家能在正常负荷下看清、看懂、做对。</li><li>界面和视觉反馈没有排斥关键玩家群体。</li><li>可读性是结构层成立的，而不是靠玩家适应。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>只有熟手才知道信息在哪。</li><li>为了美观牺牲了判断速度。</li><li>重要状态需要多次确认才能看清。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "可读性与可访问性评审 Checklist",
+      "id": "可读性与可访问性评审-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "可读性与可访问性评审 Checklist 检查视觉表达是否真正可读、可理解、可操作，而不是只在熟手眼里成立。 用于 UI / HUD review、设备适配 review，或排查“看起来很美但玩家读不懂”。 关键状态和目标信息能在短时间内被识别。 字号、对比和层级对目标设备可读。 颜色不是唯一的信息通道。 高频操作不依赖细小或难点的交互目标。 视觉装饰不会遮蔽关键反馈和路径。 动效速度不会妨碍理解和操作。 新玩家和熟手都能快速找到下一步行动信息。 玩家能在正常负荷下看清、看懂、做对。 界面和视觉反馈没有排斥关键玩家群体。 可读性是结构层成立的，而不是靠玩家适应。 只有熟手才知道信息在哪。 为了美观牺牲了判断速度。 重要状态需要多次确认才能看清。 ui-ux"
+}

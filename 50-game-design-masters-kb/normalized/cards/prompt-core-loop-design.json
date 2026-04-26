@@ -1,0 +1,63 @@
+{
+  "id": "prompt-core-loop-design",
+  "entity_type": "card",
+  "title": "核心循环设计 Prompt 模板",
+  "summary": "把玩家的动机、动作、回报和下一轮驱动力压成清晰闭环。",
+  "card_kind": "prompt_template",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "systems-thinking",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "mda-formal-approach",
+    "a-theory-of-fun-for-game-design"
+  ],
+  "related_card_ids": [
+    "prompt-core-gameplay-systems",
+    "prompt-combat-system-design"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 核心循环设计 Prompt 模板\n\n## 适用场景\n\n当团队一直在讲机制，但没人能用一句话说清“玩家反复在做什么、为什么继续做”时使用。\n\n## 使用前提供\n\n- 玩家目标与 fantasy\n- 核心动词和关键资源\n- 短期回报、中期目标、长期目标\n- 当前循环断点或无聊点\n- 想让玩家反复追求的感觉\n\n## 预期输出\n\n1. 核心循环 5-7 步\n2. 循环中的驱动力\n3. 回报与风险\n4. 断点与掉速点\n5. 最小验证方案\n\n## Prompt 模板\n\n```text\n你是一个世界级玩法设计师。\n请把下面的信息压成一个真正可运转的核心循环，而不是一串功能列表。\n\n输入：\n- 玩家目标：{{player_goal}}\n- 玩家 fantasy：{{player_fantasy}}\n- 核心动词：{{core_verbs}}\n- 关键资源：{{key_resources}}\n- 短中长期回报：{{rewards}}\n- 当前循环问题：{{loop_breakpoints}}\n- 目标感觉：{{target_feeling}}\n\n请输出：\n1. 核心循环：5-7 步闭环描述。\n2. 每一步驱动力：玩家为什么会愿意进入下一步。\n3. 风险与回报：哪里制造张力，哪里提供满足。\n4. 掉速点：循环最容易塌在哪里。\n5. 最小验证：先做什么能证明这个循环成立。\n\n要求：\n- 每一步都要有玩家动机。\n- 如果某一步只是为了串联流程、没有设计意义，要指出。\n- 最后给一句核心循环总结。\n```\n\n## 二次追问\n\n- 把核心循环压成适合纸面原型的版本。\n- 分析循环在哪一步最容易产生无聊感。\n",
+  "body_html": "<h1 id=\"核心循环设计-prompt-模板\">核心循环设计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当团队一直在讲机制，但没人能用一句话说清“玩家反复在做什么、为什么继续做”时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>玩家目标与 fantasy</li><li>核心动词和关键资源</li><li>短期回报、中期目标、长期目标</li><li>当前循环断点或无聊点</li><li>想让玩家反复追求的感觉</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>核心循环 5-7 步</li><li>循环中的驱动力</li><li>回报与风险</li><li>断点与掉速点</li><li>最小验证方案</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级玩法设计师。\n请把下面的信息压成一个真正可运转的核心循环，而不是一串功能列表。\n\n输入：\n- 玩家目标：{{player_goal}}\n- 玩家 fantasy：{{player_fantasy}}\n- 核心动词：{{core_verbs}}\n- 关键资源：{{key_resources}}\n- 短中长期回报：{{rewards}}\n- 当前循环问题：{{loop_breakpoints}}\n- 目标感觉：{{target_feeling}}\n\n请输出：\n1. 核心循环：5-7 步闭环描述。\n2. 每一步驱动力：玩家为什么会愿意进入下一步。\n3. 风险与回报：哪里制造张力，哪里提供满足。\n4. 掉速点：循环最容易塌在哪里。\n5. 最小验证：先做什么能证明这个循环成立。\n\n要求：\n- 每一步都要有玩家动机。\n- 如果某一步只是为了串联流程、没有设计意义，要指出。\n- 最后给一句核心循环总结。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把核心循环压成适合纸面原型的版本。</li><li>分析循环在哪一步最容易产生无聊感。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "核心循环设计 Prompt 模板",
+      "id": "核心循环设计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "核心循环设计 Prompt 模板 把玩家的动机、动作、回报和下一轮驱动力压成清晰闭环。 当团队一直在讲机制，但没人能用一句话说清“玩家反复在做什么、为什么继续做”时使用。 玩家目标与 fantasy 核心动词和关键资源 短期回报、中期目标、长期目标 当前循环断点或无聊点 想让玩家反复追求的感觉 核心循环 5-7 步 循环中的驱动力 回报与风险 断点与掉速点 最小验证方案 design-fundamentals systems-thinking prompt-design"
+}

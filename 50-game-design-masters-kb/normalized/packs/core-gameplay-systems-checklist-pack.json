@@ -1,0 +1,37 @@
+{
+  "id": "core-gameplay-systems-checklist-pack",
+  "title": "核心玩法与系统设计 Checklist Pack",
+  "summary": "Stage-specific review checklists for 核心玩法与系统设计.",
+  "phase_group": "core-gameplay-systems",
+  "phase_label": "核心玩法与系统设计",
+  "phase_groups": [
+    "core-gameplay-systems"
+  ],
+  "phase_labels": [
+    "核心玩法与系统设计"
+  ],
+  "type": "checklist_pack",
+  "kind_label": "Checklist Pack",
+  "card_ids": [
+    "checklist-single-mechanic-prototype-design",
+    "checklist-level-mechanic-design",
+    "checklist-core-gameplay-systems",
+    "checklist-onboarding-design"
+  ],
+  "count": 4,
+  "prompt_count": 0,
+  "checklist_count": 4,
+  "other_count": 0,
+  "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 核心玩法与系统设计 review pass.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Use 核心玩法与系统设计 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+    "Mark the failed checks first, then group them into a short fix order.",
+    "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+    "Repeat the checklist after the next meaningful revision."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/core-gameplay-systems-checklist-pack.md",
+  "generated_at": "2026-04-26T00:39:23.255Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

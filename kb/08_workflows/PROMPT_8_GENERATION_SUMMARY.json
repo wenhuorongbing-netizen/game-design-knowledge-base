@@ -1,0 +1,17 @@
+{
+  "total_workflows": 20,
+  "total_exercises": 85,
+  "total_prompts": 15,
+  "exercise_categories": {
+    "ideation": 15,
+    "rules_mechanics": 10,
+    "meaningful_decision": 10,
+    "systems_economy": 10,
+    "game_feel": 10,
+    "ui_feedback": 10,
+    "narrative_world": 10,
+    "ethics_community": 5,
+    "pitch_release": 5
+  },
+  "legal_note": "Original workflow, exercise, and prompt scaffolds. No high-risk source body text used."
+}

@@ -1,0 +1,253 @@
+{
+  "schema_version": "bookos.validation_issues.v1",
+  "generated_at": "2026-04-26",
+  "count": 41,
+  "issues": [
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "framework_ai-source-bounded-retrieval-framework",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-ai-source-governance",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-character-function",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-community-segmentation",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-core-loop-to-prototype",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-ethics-review",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-game-feel-audit",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-narrative-function-map",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-playtest-findings",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-release-readiness",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "application_apply-source-sink-economy-map",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_claim-graph-review-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_concept-card-evidence-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_core-loop-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_dossier-promotion-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_economy-source-sink-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_game-feel-audit-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_hallucination-audit-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_legal-sidecar-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_mechanic-spec-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_playtest-plan-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_project-overlay-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_quote-card-safety-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_release-readiness-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_source-governance-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "checklist_ui-feedback-checklist",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_character-review",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_claim-graph-audit",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_concept-comparison",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_core-loop-critique",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_dossier-note-ingestion",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_economy-balance-critique",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_evidence-gap-finder",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_framework-extraction-from-user-notes",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_game-feel-critique",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_narrative-premise-critique",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_playtest-analysis",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_project-overlay-generation",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_release-page-critique",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_source-bounded-card-extraction",
+      "message": "Card has no related_works."
+    },
+    {
+      "severity": "warning",
+      "rule": "card_without_related_work",
+      "entity_id": "prompt_ui-feedback-critique",
+      "message": "Card has no related_works."
+    }
+  ]
+}

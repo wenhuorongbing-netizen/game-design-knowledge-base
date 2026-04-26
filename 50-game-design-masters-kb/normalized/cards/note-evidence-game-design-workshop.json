@@ -1,0 +1,80 @@
+{
+  "id": "note-evidence-game-design-workshop",
+  "entity_type": "card",
+  "title": "Game Design Workshop：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "gameplay-acceptance",
+  "resource_kind": "note",
+  "source_work_id": "game-design-workshop",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-workshop",
+    "game-design-concepts-course",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "related_card_ids": [
+    "work-game-design-workshop",
+    "note-book-positioning-game-design-workshop",
+    "note-chapter-map-game-design-workshop"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+  ],
+  "local_links": [
+    {
+      "label": "game-design-workshop-26b8de8e4e67.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json"
+    },
+    {
+      "label": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Game Design Workshop：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Extract title: Game Design Workshop; A Playcentric Approach to Creating Innovative Games\n- Format: pdf\n- Page count: 587\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json`\n\n## TOC Anchors\n\n- Foreword (p.21)\n- Preface (p.23)\n- Acknowledgments (p.25)\n- Introduction (p.31)\n- Part 1 Game Design Basics (p.34)\n- Chapter 1 The Role of the Game Designer (p.36)\n- Chapter 2 The Structure of Games (p.66)\n- Chapter 3 Working with Formal Elements (p.93)\n- Chapter 4 Working with Dramatic Elements (p.134)\n- Chapter 5 Working with System Dynamics (p.167)\n\n## Sample Text Signals\n\n- Page 2: Praise for the Previous Edition “Game Design Workshop is a truly great book, and has become, in my opinion, the de facto stan- dard text for beginner to intermediate level game design education. This updated new edition is extremely relevant, useful and inspi…\n- Page 3: “This book offers a thoughtful and comprehensive look at the field of game design. I’m particu - larly impressed with the way Tracy has managed to integrate the viewpoints and comments of so many diverse and notable designers with her own perceptive view of t…\n- Page 4: Game Design Workshop \"Create the digital games you love to play\". Discover an exercise-driven, non-technical approach to game design without the need for program- ming or artistic experience with Game Design Workshop, Fifth Edition. Tracy Fullerton demystifie…\n\n## Why It Matters For The KB\n\n- 当前定位：最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。\n- 主要用途：原型推进 / 试玩流程建设 / 设计文档规范化 / 团队训练\n- 输出价值：流程模板 / 教学骨架 / 试玩方法\n\n## Source Review Notes\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"game-design-workshop：evidence-note\">Game Design Workshop：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Extract title: Game Design Workshop; A Playcentric Approach to Creating Innovative Games</li><li>Format: pdf</li><li>Page count: 587</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json</code></li></ul>\n<h2 id=\"toc-anchors\">TOC Anchors</h2>\n<ul><li>Foreword (p.21)</li><li>Preface (p.23)</li><li>Acknowledgments (p.25)</li><li>Introduction (p.31)</li><li>Part 1 Game Design Basics (p.34)</li><li>Chapter 1 The Role of the Game Designer (p.36)</li><li>Chapter 2 The Structure of Games (p.66)</li><li>Chapter 3 Working with Formal Elements (p.93)</li><li>Chapter 4 Working with Dramatic Elements (p.134)</li><li>Chapter 5 Working with System Dynamics (p.167)</li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>Page 2: Praise for the Previous Edition “Game Design Workshop is a truly great book, and has become, in my opinion, the de facto stan- dard text for beginner to intermediate level game design education. This updated new edition is extremely relevant, useful and inspi…</li><li>Page 3: “This book offers a thoughtful and comprehensive look at the field of game design. I’m particu - larly impressed with the way Tracy has managed to integrate the viewpoints and comments of so many diverse and notable designers with her own perceptive view of t…</li><li>Page 4: Game Design Workshop &quot;Create the digital games you love to play&quot;. Discover an exercise-driven, non-technical approach to game design without the need for program- ming or artistic experience with Game Design Workshop, Fifth Edition. Tracy Fullerton demystifie…</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。</li><li>主要用途：原型推进 / 试玩流程建设 / 设计文档规范化 / 团队训练</li><li>输出价值：流程模板 / 教学骨架 / 试玩方法</li></ul>\n<h2 id=\"source-review-notes\">Source Review Notes</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Design Workshop：Evidence Note",
+      "id": "game-design-workshop：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "TOC Anchors",
+      "id": "toc-anchors"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    },
+    {
+      "level": 2,
+      "text": "Source Review Notes",
+      "id": "source-review-notes"
+    }
+  ],
+  "search_text": "Game Design Workshop 以 playcentric process 为中心，把玩家体验目标、原型、试玩、记录、迭代和团队表达串成一套面向生产的设计流程书。 最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。 Foreword Preface Acknowledgments Introduction Part 1 Game Design Basics Chapter 1 The Role of the Game Designer Chapter 2 The Structure of Games Chapter 3 Working with Formal Elements Chapter 4 Working with Dramatic Elements Chapter 5 Working with System Dynamics Praise for the Previous Edition “Game Design Workshop is a truly great book, and has become, in my opinion, the de facto stan- dard text for beginner to intermediate level game design education. This updated new edition is extremely relevant, useful and inspi… “This book offers a thoughtful and comprehensive look at the field of game design. I’m particu - larly impressed with the way Tracy has managed to integrate the viewpoints and comments of so many diverse and notable designers with her own perceptive view of t… Game Design Workshop \"Create the digital games you love to play\". Discover an exercise-driven, non-technical approach to game design without the need for program- ming or artistic experience with Game Design Workshop, Fifth Edition. Tracy Fullerton demystifie… 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+}

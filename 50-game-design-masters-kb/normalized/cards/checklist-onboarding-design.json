@@ -1,0 +1,56 @@
+{
+  "id": "checklist-onboarding-design",
+  "entity_type": "card",
+  "title": "新手引导设计 Checklist",
+  "summary": "检查前 5-10 分钟是否真的教会了玩家，而不是只展示了功能。",
+  "card_kind": "checklist",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "onboarding-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "ui-ux"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "prompt-core-gameplay-systems",
+    "checklist-core-gameplay-systems"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 新手引导设计 Checklist\n\n## 适用场景\n\n用于新手期设计 review、首玩试玩复盘，或排查“明明系统不复杂但玩家就是不会”的问题。\n\n## 检查项\n\n- 前 5 分钟只教最必要的动作和判断。\n- 教学顺序跟真实玩家任务顺序一致。\n- 每条教学后都有立即实践机会。\n- 失败反馈会告诉玩家哪里理解错，而不是只惩罚。\n- UI 提示不会抢走玩家对战场/场景的注意力。\n- 玩家在学会核心循环前不会被塞进太多并行系统。\n- 试玩记录能指出具体卡点，而不是只知道“新手流失”。\n\n## 通过标准\n\n- 新玩家能在短时间内完成首个完整循环。\n- 教学内容与后续正式玩法一致。\n- 教学结束后玩家知道接下来自己该做什么。\n\n## 常见失败信号\n\n- 教程像说明书，玩家只是在照本宣科。\n- 系统教会了，但玩家不知道为何而做。\n- 新手期把后续复杂度一次性前置。\n",
+  "body_html": "<h1 id=\"新手引导设计-checklist\">新手引导设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于新手期设计 review、首玩试玩复盘，或排查“明明系统不复杂但玩家就是不会”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>前 5 分钟只教最必要的动作和判断。</li><li>教学顺序跟真实玩家任务顺序一致。</li><li>每条教学后都有立即实践机会。</li><li>失败反馈会告诉玩家哪里理解错，而不是只惩罚。</li><li>UI 提示不会抢走玩家对战场/场景的注意力。</li><li>玩家在学会核心循环前不会被塞进太多并行系统。</li><li>试玩记录能指出具体卡点，而不是只知道“新手流失”。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>新玩家能在短时间内完成首个完整循环。</li><li>教学内容与后续正式玩法一致。</li><li>教学结束后玩家知道接下来自己该做什么。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>教程像说明书，玩家只是在照本宣科。</li><li>系统教会了，但玩家不知道为何而做。</li><li>新手期把后续复杂度一次性前置。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "新手引导设计 Checklist",
+      "id": "新手引导设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "新手引导设计 Checklist 检查前 5-10 分钟是否真的教会了玩家，而不是只展示了功能。 用于新手期设计 review、首玩试玩复盘，或排查“明明系统不复杂但玩家就是不会”的问题。 前 5 分钟只教最必要的动作和判断。 教学顺序跟真实玩家任务顺序一致。 每条教学后都有立即实践机会。 失败反馈会告诉玩家哪里理解错，而不是只惩罚。 UI 提示不会抢走玩家对战场/场景的注意力。 玩家在学会核心循环前不会被塞进太多并行系统。 试玩记录能指出具体卡点，而不是只知道“新手流失”。 新玩家能在短时间内完成首个完整循环。 教学内容与后续正式玩法一致。 教学结束后玩家知道接下来自己该做什么。 教程像说明书，玩家只是在照本宣科。 系统教会了，但玩家不知道为何而做。 新手期把后续复杂度一次性前置。 playtesting ui-ux"
+}

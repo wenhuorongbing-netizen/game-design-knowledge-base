@@ -1,0 +1,87 @@
+# 私有书籍解析报告
+
+- 生成时间：2026-04-26T00:39:22.850Z
+- 可解析文件：13
+- 成功或复用：13
+- 失败：0
+
+## 明细
+
+- `knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：advanced-game-design-a-systems-approach
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/advanced-game-design-a-systems-approach-383afdfefa9c.json`
+  - TOC 条数：0
+  - 样本文本段数：8
+- `knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：challenges-for-game-designers
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/challenges-for-game-designers-50c50beda57b.json`
+  - TOC 条数：0
+  - 样本文本段数：7
+- `knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub`
+  - 状态：ok
+  - 关联 work：characteristics-of-games
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json`
+  - TOC 条数：10
+  - 样本文本段数：10
+- `knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：game-design-workshop
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json`
+  - TOC 条数：486
+  - 样本文本段数：6
+- `knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub`
+  - 状态：ok
+  - 关联 work：game-feel
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-920fb46fc882.json`
+  - TOC 条数：8
+  - 样本文本段数：8
+- `knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：game-feel
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json`
+  - TOC 条数：158
+  - 样本文本段数：7
+- `knowledge/Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub`
+  - 状态：ok
+  - 关联 work：game-mechanics-advanced-game-design
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-mechanics-advanced-game-design-34af1b238ac7.json`
+  - TOC 条数：10
+  - 样本文本段数：10
+- `knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub`
+  - 状态：ok
+  - 关联 work：level-up
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json`
+  - TOC 条数：10
+  - 样本文本段数：10
+- `knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：play-matters
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json`
+  - TOC 条数：15
+  - 样本文本段数：6
+- `knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：the-aesthetic-of-play
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json`
+  - TOC 条数：24
+  - 样本文本段数：5
+- `knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf`
+  - 状态：ok
+  - 关联 work：the-art-of-game-design
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json`
+  - TOC 条数：43
+  - 样本文本段数：5
+- `knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：the-game-design-reader
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-game-design-reader-0d2c1d43ee51.json`
+  - TOC 条数：0
+  - 样本文本段数：6
+- `knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf`
+  - 状态：ok
+  - 关联 work：a-theory-of-fun-for-game-design
+  - 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json`
+  - TOC 条数：17
+  - 样本文本段数：8

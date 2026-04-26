@@ -1,0 +1,479 @@
+{
+  "id": "the-art-of-game-design",
+  "title": "The Art of Game Design: A Book of Lenses",
+  "authors": [
+    "Jesse Schell"
+  ],
+  "year": 2019,
+  "kind": "book",
+  "canonical_url": "https://schellgames.com/art-of-game-design",
+  "publisher_or_source": "Schell Games / CRC Press",
+  "language": "en",
+  "license": "Commercial",
+  "access_mode": "user_file_needed",
+  "source_ids": [
+    "schellgames",
+    "routledge"
+  ],
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "theme_tags": [
+    "design-fundamentals",
+    "systems-thinking",
+    "player-motivation"
+  ],
+  "summary": "以“镜头”问题库组织游戏设计审查，从体验、玩家、机制、界面、故事、世界、团队、技术、商业到伦理，建立一套跨学科的高层判断框架。",
+  "key_points": [
+    "它的强项不是给固定答案，而是逼团队持续问对问题。",
+    "目录本身就是一套从立项到交付的评审顺序。",
+    "非常适合把模糊概念压回可讨论、可争论、可复盘的设计语言。"
+  ],
+  "recommended_for": [
+    "主策",
+    "游戏总监",
+    "制作人"
+  ],
+  "official_links": [
+    "https://schellgames.com/art-of-game-design",
+    "https://www.routledge.com/link/link/p/book/9781138632059"
+  ],
+  "related_work_ids": [
+    "game-design-workshop",
+    "a-theory-of-fun-for-game-design",
+    "designing-virtual-worlds"
+  ],
+  "usage_relevance": "最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。",
+  "knowledge_domains": [
+    "体验设计",
+    "玩家动机",
+    "迭代方法",
+    "界面与反馈",
+    "商业与伦理"
+  ],
+  "purposes": [
+    "高层方向收敛",
+    "设计评审",
+    "跨团队对齐",
+    "问题清单构建"
+  ],
+  "reading_modes": [
+    "按章通读",
+    "按镜头反查",
+    "评审会前抽读"
+  ],
+  "value_types": [
+    "问题框架",
+    "评审语言",
+    "跨学科地图"
+  ],
+  "knowledge_lifecycle": [
+    "立项",
+    "pre-production",
+    "vertical slice review",
+    "上线后复盘"
+  ],
+  "entity_type": "work",
+  "slug": "the-art-of-game-design",
+  "phase_label": "立项与方向",
+  "deliverable_label": "游戏方向收敛",
+  "theme_labels": [
+    "设计基础",
+    "系统思维",
+    "玩家动机"
+  ],
+  "availability_label": "已有私有书源，但来源待复核",
+  "source_labels": [
+    "Schell Games",
+    "Routledge / CRC Press"
+  ],
+  "official_link_entries": [
+    {
+      "label": "schellgames.com",
+      "url": "https://schellgames.com/art-of-game-design"
+    },
+    {
+      "label": "routledge.com",
+      "url": "https://www.routledge.com/link/link/p/book/9781138632059"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "size_bytes": 15531690,
+      "extension": "pdf",
+      "sha256": "19c91c8916672174d08e148d24e83b6788649313a5bffaacf0232b966eeaba72",
+      "resource_kind": "book",
+      "user_supplied": true,
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "anna_archive_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ]
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://schellgames.com/art-of-game-design",
+      "source_id": "schellgames",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/01-schellgames.com-art-of-game-design.html",
+      "fetched_at": "2026-04-25T05:31:49.765Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://schellgames.com/art-of-game-design",
+        "title": "The Art Of Game Design | Schell Games",
+        "description": "We're a video game studio for hire. We work with and create games for some of the most beloved companies and brands across the globe. Let’s make amazing experiences together.",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": "WebPage"
+      }
+    },
+    {
+      "url": "https://www.routledge.com/link/link/p/book/9781138632059",
+      "source_id": "routledge",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/02-www.routledge.com-link-link-p-book-9781138632059.html",
+      "fetched_at": "2026-04-25T05:31:51.187Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://www.routledge.com/link/link/p/book/9781138632059",
+        "title": "The Art of Game Design A Book of Lenses, Third Edition",
+        "description": "The Art of Game Design guides you through the design process step-by-step, helping you to develop new and innovative games that will be played again and again.",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": ""
+      }
+    }
+  ],
+  "private_extracts": [
+    {
+      "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "matched_work_id": "the-art-of-game-design",
+      "extraction_status": "ok",
+      "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json",
+      "format": "pdf",
+      "section_count": 5,
+      "toc_count": 43,
+      "warnings": []
+    }
+  ],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": true,
+  "private_source_count": 1,
+  "private_extract_count": 1,
+  "metadata_summary": "We're a video game studio for hire. We work with and create games for some of the most beloved companies and brands across the globe. Let’s make amazing experiences together.",
+  "search_text": "The Art of Game Design: A Book of Lenses Jesse Schell 以“镜头”问题库组织游戏设计审查，从体验、玩家、机制、界面、故事、世界、团队、技术、商业到伦理，建立一套跨学科的高层判断框架。 它的强项不是给固定答案，而是逼团队持续问对问题。 目录本身就是一套从立项到交付的评审顺序。 非常适合把模糊概念压回可讨论、可争论、可复盘的设计语言。 最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。 主策 游戏总监 制作人 体验设计 玩家动机 迭代方法 界面与反馈 商业与伦理 高层方向收敛 设计评审 跨团队对齐 问题清单构建 按章通读 按镜头反查 评审会前抽读 问题框架 评审语言 跨学科地图 立项 pre-production vertical slice review 上线后复盘 CONTENTS table of lenses Acknowledgments HELLO Chapter 1: In the Beginning, There Is the Designer Chapter 2: The Designer Creates an Experience Chapter 3: The Experience Takes Place in a Venue Chapter 4: The Experience Rises Out of a Game Chapter 5: The Game Consists of Elements Chapter 6: The Elements Support a Theme Chapter 7: The Game Begins with an Idea Chapter 8: The Game Improves through Iteration Chapter 9: The Game Is Made for a Player Chapter 10: The Experience Is in the Player’s Mind 立项与方向 游戏方向收敛 设计基础 系统思维 玩家动机 Schell Games Routledge / CRC Press We're a video game studio for hire. We work with and create games for some of the most beloved companies and brands across the globe. Let’s make amazing experiences together.",
+  "content_markdown": "# The Art of Game Design: A Book of Lenses\n\n## 基本信息\n\n- 作者：Jesse Schell\n- 年份：2019\n- 类型：book\n- 来源：Schell Games / CRC Press\n\n## 摘要\n\n以“镜头”问题库组织游戏设计审查，从体验、玩家、机制、界面、故事、世界、团队、技术、商业到伦理，建立一套跨学科的高层判断框架。\n\n## 核心要点\n\n- 它的强项不是给固定答案，而是逼团队持续问对问题。\n- 目录本身就是一套从立项到交付的评审顺序。\n- 非常适合把模糊概念压回可讨论、可争论、可复盘的设计语言。\n\n## 适用场景\n\n最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。\n\n## 知识定位\n\n- 关注领域：体验设计 / 玩家动机 / 迭代方法 / 界面与反馈 / 商业与伦理\n- 主要用途：高层方向收敛 / 设计评审 / 跨团队对齐 / 问题清单构建\n- 推荐读法：按章通读 / 按镜头反查 / 评审会前抽读\n- 价值类型：问题框架 / 评审语言 / 跨学科地图\n- 最适合介入的阶段：立项 / pre-production / vertical slice review / 上线后复盘\n\n## 分类\n\n- 一级分类：立项与方向\n- 二级输出物：游戏方向收敛\n- 主题标签：设计基础 / 系统思维 / 玩家动机\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：The Art of Game Design: A Book of Lenses, Second Edition\n- 解析格式：pdf\n- 页数：594\n- 顶层目录预览：\n  - CONTENTS\n  - table of lenses\n  - Acknowledgments\n  - HELLO\n  - Chapter 1: In the Beginning, There Is the Designer\n  - Chapter 2: The Designer Creates an Experience\n  - Chapter 3: The Experience Takes Place in a Venue\n  - Chapter 4: The Experience Rises Out of a Game\n  - Chapter 5: The Game Consists of Elements\n  - Chapter 6: The Elements Support a Theme\n  - Chapter 7: The Game Begins with an Idea\n  - Chapter 8: The Game Improves through Iteration\n  - Chapter 9: The Game Is Made for a Player\n  - Chapter 10: The Experience Is in the Player’s Mind\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：Anna's Archive 标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n- 注意：解析文件版本与官方条目版本可能不一致：private=second, official=third\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf`（用户提供；来源待复核；Anna's Archive 标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json`（ok）\n\n## 官方链接\n\n- <https://schellgames.com/art-of-game-design>\n- <https://www.routledge.com/link/link/p/book/9781138632059>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/01-schellgames.com-art-of-game-design.html`\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/02-www.routledge.com-link-link-p-book-9781138632059.html`\n\n## 相关条目\n\n- Game Design Workshop\n- A Theory of Fun for Game Design\n- Designing Virtual Worlds\n",
+  "content_html": "<h1 id=\"the-art-of-game-design-a-book-of-lenses\">The Art of Game Design: A Book of Lenses</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Jesse Schell</li><li>年份：2019</li><li>类型：book</li><li>来源：Schell Games / CRC Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>以“镜头”问题库组织游戏设计审查，从体验、玩家、机制、界面、故事、世界、团队、技术、商业到伦理，建立一套跨学科的高层判断框架。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它的强项不是给固定答案，而是逼团队持续问对问题。</li><li>目录本身就是一套从立项到交付的评审顺序。</li><li>非常适合把模糊概念压回可讨论、可争论、可复盘的设计语言。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：体验设计 / 玩家动机 / 迭代方法 / 界面与反馈 / 商业与伦理</li><li>主要用途：高层方向收敛 / 设计评审 / 跨团队对齐 / 问题清单构建</li><li>推荐读法：按章通读 / 按镜头反查 / 评审会前抽读</li><li>价值类型：问题框架 / 评审语言 / 跨学科地图</li><li>最适合介入的阶段：立项 / pre-production / vertical slice review / 上线后复盘</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：立项与方向</li><li>二级输出物：游戏方向收敛</li><li>主题标签：设计基础 / 系统思维 / 玩家动机</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：The Art of Game Design: A Book of Lenses, Second Edition</li><li>解析格式：pdf</li><li>页数：594</li><li>顶层目录预览：</li><li>CONTENTS</li><li>table of lenses</li><li>Acknowledgments</li><li>HELLO</li><li>Chapter 1: In the Beginning, There Is the Designer</li><li>Chapter 2: The Designer Creates an Experience</li><li>Chapter 3: The Experience Takes Place in a Venue</li><li>Chapter 4: The Experience Rises Out of a Game</li><li>Chapter 5: The Game Consists of Elements</li><li>Chapter 6: The Elements Support a Theme</li><li>Chapter 7: The Game Begins with an Idea</li><li>Chapter 8: The Game Improves through Iteration</li><li>Chapter 9: The Game Is Made for a Player</li><li>Chapter 10: The Experience Is in the Player’s Mind</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：Anna&#39;s Archive 标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li><li>注意：解析文件版本与官方条目版本可能不一致：private=second, official=third</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf</code>（用户提供；来源待复核；Anna&#39;s Archive 标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://schellgames.com/art-of-game-design\" target=\"_blank\" rel=\"noreferrer\">https://schellgames.com/art-of-game-design</a></li><li><a href=\"https://www.routledge.com/link/link/p/book/9781138632059\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/link/link/p/book/9781138632059</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/01-schellgames.com-art-of-game-design.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/02-www.routledge.com-link-link-p-book-9781138632059.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Design Workshop</li><li>A Theory of Fun for Game Design</li><li>Designing Virtual Worlds</li></ul>",
+  "primary_private_extract": {
+    "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+    "matched_work_id": "the-art-of-game-design",
+    "extraction_status": "ok",
+    "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json",
+    "format": "pdf",
+    "section_count": 5,
+    "toc_count": 43,
+    "warnings": []
+  },
+  "primary_private_artifact": {
+    "format": "pdf",
+    "metadata": {
+      "title": "The Art of Game Design: A Book of Lenses, Second Edition",
+      "authors": [
+        "Schell, Jesse"
+      ],
+      "subject": "",
+      "producer": "Adobe PDF Library 11.0"
+    },
+    "page_count": 594,
+    "toc": [
+      {
+        "label": "Front Cover",
+        "depth": 0,
+        "page": 1
+      },
+      {
+        "label": "CONTENTS",
+        "depth": 0,
+        "page": 9
+      },
+      {
+        "label": "table of lenses",
+        "depth": 0,
+        "page": 29
+      },
+      {
+        "label": "Acknowledgments",
+        "depth": 0,
+        "page": 37
+      },
+      {
+        "label": "HELLO",
+        "depth": 0,
+        "page": 39
+      },
+      {
+        "label": "Chapter 1: In the Beginning, There Is the Designer",
+        "depth": 0,
+        "page": 47
+      },
+      {
+        "label": "Chapter 2: The Designer Creates an Experience",
+        "depth": 0,
+        "page": 55
+      },
+      {
+        "label": "Chapter 3: The Experience Takes Place in a Venue",
+        "depth": 0,
+        "page": 71
+      },
+      {
+        "label": "Chapter 4: The Experience Rises Out of a Game",
+        "depth": 0,
+        "page": 79
+      },
+      {
+        "label": "Chapter 5: The Game Consists of Elements",
+        "depth": 0,
+        "page": 95
+      },
+      {
+        "label": "Chapter 6: The Elements Support a Theme",
+        "depth": 0,
+        "page": 103
+      },
+      {
+        "label": "Chapter 7: The Game Begins with an Idea",
+        "depth": 0,
+        "page": 115
+      },
+      {
+        "label": "Chapter 8: The Game Improves through Iteration",
+        "depth": 0,
+        "page": 135
+      },
+      {
+        "label": "Chapter 9: The Game Is Made for a Player",
+        "depth": 0,
+        "page": 161
+      },
+      {
+        "label": "Chapter 10: The Experience Is in the Player’s Mind",
+        "depth": 0,
+        "page": 179
+      },
+      {
+        "label": "Chapter 11: The Player’s Mind Is Driven by the Player’s Motivation",
+        "depth": 0,
+        "page": 193
+      },
+      {
+        "label": "Chapter 12: Some Elements Are Game Mechanics",
+        "depth": 0,
+        "page": 203
+      },
+      {
+        "label": "Chapter 13: Game Mechanics Must Be in Balance",
+        "depth": 0,
+        "page": 247
+      },
+      {
+        "label": "Chapter 14: Game Mechanics Support Puzzles",
+        "depth": 0,
+        "page": 285
+      },
+      {
+        "label": "Chapter 15: Players Play Games through an Interface",
+        "depth": 0,
+        "page": 299
+      },
+      {
+        "label": "Chapter 16: Experiences Can Be Judged by Their Interest Curves",
+        "depth": 0,
+        "page": 325
+      },
+      {
+        "label": "Chapter 17: One Kind of Experience Is the Story",
+        "depth": 0,
+        "page": 341
+      },
+      {
+        "label": "Chapter 18: Story and Game Structures Can Be Artfully Merged with Indirect Control",
+        "depth": 0,
+        "page": 363
+      },
+      {
+        "label": "Chapter 19: Stories and Games Take Place in Worlds",
+        "depth": 0,
+        "page": 381
+      },
+      {
+        "label": "Chapter 20: Worlds Contain Characters",
+        "depth": 0,
+        "page": 391
+      },
+      {
+        "label": "Chapter 21: Worlds Contain Spaces",
+        "depth": 0,
+        "page": 413
+      },
+      {
+        "label": "Chapter 22: The Look and Feel of a World Is Defined by Its Aesthetics",
+        "depth": 0,
+        "page": 429
+      },
+      {
+        "label": "Chapter 23: Some Games Are Played with Other Players",
+        "depth": 0,
+        "page": 439
+      },
+      {
+        "label": "Chapter 24: Other Players Sometimes Form Communities",
+        "depth": 0,
+        "page": 445
+      },
+      {
+        "label": "Chapter 25: The Designer Usually Works with a Team",
+        "depth": 0,
+        "page": 459
+      },
+      {
+        "label": "Chapter 26: The Team Sometimes Communicates through Documents",
+        "depth": 0,
+        "page": 471
+      },
+      {
+        "label": "Chapter 27: Good Games Are Created through Playtesting",
+        "depth": 0,
+        "page": 479
+      },
+      {
+        "label": "Chapter 28: The Team Builds a Game with Technology",
+        "depth": 0,
+        "page": 495
+      },
+      {
+        "label": "Chapter 29: Your Game Will Probably Have a Client",
+        "depth": 0,
+        "page": 509
+      },
+      {
+        "label": "Chapter 30: The Designer Gives the Client a Pitch",
+        "depth": 0,
+        "page": 517
+      },
+      {
+        "label": "Chapter 31: The Designer and Client Want the Game to Make a Profit",
+        "depth": 0,
+        "page": 531
+      },
+      {
+        "label": "Chapter 32: Games Transform Their Players",
+        "depth": 0,
+        "page": 545
+      },
+      {
+        "label": "Chapter 33: Designers Have Certain Responsibilities",
+        "depth": 0,
+        "page": 563
+      },
+      {
+        "label": "Chapter 34: Each Designer Has a Purpose",
+        "depth": 0,
+        "page": 569
+      },
+      {
+        "label": "Goodbye",
+        "depth": 0,
+        "page": 573
+      },
+      {
+        "label": "Endnotes",
+        "depth": 0,
+        "page": 575
+      },
+      {
+        "label": "Bibliography",
+        "depth": 0,
+        "page": 589
+      },
+      {
+        "label": "Back Cover",
+        "depth": 0,
+        "page": 593
+      }
+    ],
+    "sample_sections": [
+      {
+        "label": "Page 1",
+        "location": {
+          "page": 1
+        },
+        "text": "TheArtGame Design of SCHELL Second Edition The Art Game Design ofThe Art Game Designof Jesse Schell Jesse Schell A Book of Lenses Second Edition The fundamentals of designing classic games from one of the world’s top designers Describes the deepest and most fundamental principles of game design Demonstrates how tactics used in board, card, and athletic games also work in top-quality video games Contains valuable insight from Jesse Schell, the former chair of the International Game Developers Association and award-winning designer of Disney online games. Features “… a marvelous introduction to game design by a true master of the form. Schell is the rarest of creatures: a gifted teacher who is also a talented and successful current game designer. This book re/f_lects Jesse’s skill at presenting information clearly and coherently, and the knowledge he has acquired as a master game designer.” —Noah Falstein , Chief Game Designer, Google “The Art of Game Design is one of a handful of books I continuously reference during production. Whether you’re just starting out or looking for ways to approach your design from a fresh perspective, this book is a must for your library.” —Neil Druckmann , Creative Director on The Last of Us at Naughty Dog Good game design happens when you view your game from as many perspectives as possible. Written by one of the world's top game designers, The Art of Game Design presents 100+ sets of questions, or different lenses, for viewing a game’s design, encompassing diverse fields such as psychology, architecture, music, visual design, film, software engineering, theme park design, mathematics, puzzle design, and anthropology. This Second Edition of a Game Developer Front Line Award winner: The Art of Game Design, Second Edition gives readers useful perspectives on how to make better game designs faster. It provides practical instruction on creating world-class games that will be played again and again. Computer Game Development"
+      },
+      {
+        "label": "Page 3",
+        "location": {
+          "page": 3
+        },
+        "text": "Second Edition"
+      },
+      {
+        "label": "Page 5",
+        "location": {
+          "page": 5
+        },
+        "text": "CRC Press is an imprint of the Taylor & Francis Group, an informa business Boca Raton London New York Carnegie Mellon University and Schell Games Pittsburgh, Pennsylvania, USA Second Edition"
+      },
+      {
+        "label": "Page 6",
+        "location": {
+          "page": 6
+        },
+        "text": "CRC Press Taylor & Francis Group 6000 Broken Sound Parkway NW, Suite 300 Boca Raton, FL 33487-2742 © 2015 by Taylor & Francis Group, LLC CRC Press is an imprint of Taylor & Francis Group, an Informa business No claim to original U.S. Government works Version Date: 20140929 International Standard Book Number-13: 978-1-4665-9867-6 (eBook - PDF) This book contains information obtained from authentic and highly regarded sources. Reasonable efforts have been made to publish reliable data and information, but the author and publisher cannot assume responsibility for the validity of all materials or the consequences of their use. The authors and publishers have attempted to trace the copyright holders of all material reproduced in this publication and apologize to copyright holders if permission to publish in this form has not been obtained. If any copyright material has not been acknowledged please write and let us know so we may rectify in any future reprint. Except as permitted under U.S. Copyright Law, no part of this book may be reprinted, reproduced, transmitted, or utilized in any form by any electronic, mechanical, or other means, now known or hereafter invented, including photocopying, microfilming, and recording, or in any information storage or retrieval system, without written permission from the publishers. For permission to photocopy or use material electronically from this work, please access www.copyright.com (http://www.copyright.com/) or contact the Copyright Clearance Center, Inc. (CCC), 222 Rosewood Drive, Danvers, MA 01923, 978-750-8400. CCC is a not-for-profit organization that provides licenses and registration for a variety of users. For organizations that have been granted a photocopy license by the CCC, a separate system of payment has been arranged. Trademark Notice: Product or corporate names may be trademarks or registered trademarks, and are used only for identification and explanation without intent to infringe. Visit the Taylor & Francis Web"
+      },
+      {
+        "label": "Page 7",
+        "location": {
+          "page": 7
+        },
+        "text": "For Nyra who always listens"
+      }
+    ],
+    "preview_text": "TheArtGame Design of SCHELL Second Edition The Art Game Design ofThe Art Game Designof Jesse Schell Jesse Schell A Book of Lenses Second Edition The fundamentals of designing classic games from one of the world’s top designers Describes the deepest and most fundamental principles of game design Demonstrates how tactics used in board, card, and athletic games also work in top-quality video games Contains valuable insight from Jesse Schell, the former chair of the International Game Developers Association and award-winning designer of Disney online games. Features “… a marvelous introduction to game design by a true master of the form. Schell is the rarest of creatures: a gifted teacher who is also a talented and successful current game designer. This book re/f_lects Jesse’s skill at presenting information clearly and coherently, and the knowledge he has acquired as a master game designer.” —Noah Falstein , Chief Game Designer, Google “The Art of Game Design is one of a handful of books I continuously reference during production. Whether you’re just starting out or looking for ways to approach your design from a fresh perspective, this book is a must for your library.” —Neil Druckman\n\nSecond Edition\n\nCRC Press is an imprint of the Taylor & Francis Group, an informa business Boca Raton London New York Carnegie Mellon University and Schell Games Pittsburgh, Pennsylvania, USA Second Edition",
+    "extraction_status": "ok",
+    "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+    "file_name": "The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf"
+  },
+  "primary_toc_preview": [
+    "CONTENTS",
+    "table of lenses",
+    "Acknowledgments",
+    "HELLO",
+    "Chapter 1: In the Beginning, There Is the Designer",
+    "Chapter 2: The Designer Creates an Experience",
+    "Chapter 3: The Experience Takes Place in a Venue",
+    "Chapter 4: The Experience Rises Out of a Game",
+    "Chapter 5: The Game Consists of Elements",
+    "Chapter 6: The Elements Support a Theme",
+    "Chapter 7: The Game Begins with an Idea",
+    "Chapter 8: The Game Improves through Iteration",
+    "Chapter 9: The Game Is Made for a Player",
+    "Chapter 10: The Experience Is in the Player’s Mind"
+  ],
+  "private_source_review_required_count": 1,
+  "private_source_provenance_flags": [
+    "anna_archive_name"
+  ],
+  "source_review_notes": [
+    "当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。",
+    "解析文件版本与官方条目版本可能不一致：private=second, official=third"
+  ],
+  "availability_effective_id": "manual_review"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "checklist-development-implementation",
+  "entity_type": "card",
+  "title": "开发实现审查 Checklist",
+  "summary": "检查技术方案是否真正支撑验证、协作和后续扩展。",
+  "card_kind": "checklist",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "related_card_ids": [
+    "phase-guide-development-implementation",
+    "prompt-development-implementation"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 开发实现审查 Checklist\n\n## 适用场景\n\n用于实现前 spec review、版本技术审查或判断“为什么越做越乱”。\n\n## 检查项\n\n- 模块边界已经定义，重复 ownership 明显减少。\n- 关键状态有单一真值来源。\n- 存档、输入和状态机不是散落在功能代码里的隐式逻辑。\n- 调试与工具需求被单独列出，而不是默认以后再做。\n- 性能预算与高风险平台已经写清楚。\n- 里程碑先保证可验证，再考虑豪华封装。\n- 若砍半周期，知道优先保留哪些模块。\n\n## 通过标准\n\n- 工程和策划对交付范围理解一致。\n- 出现 bug 或性能问题时能快速定位到模块边界。\n- 技术方案支持快速迭代，而不是拖慢验证。\n\n## 常见失败信号\n\n- 所有系统共用一套含糊的全局状态。\n- 关键风险被写成“后续优化”。\n- 工具、调试、观测能力完全缺失。\n",
+  "body_html": "<h1 id=\"开发实现审查-checklist\">开发实现审查 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于实现前 spec review、版本技术审查或判断“为什么越做越乱”。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>模块边界已经定义，重复 ownership 明显减少。</li><li>关键状态有单一真值来源。</li><li>存档、输入和状态机不是散落在功能代码里的隐式逻辑。</li><li>调试与工具需求被单独列出，而不是默认以后再做。</li><li>性能预算与高风险平台已经写清楚。</li><li>里程碑先保证可验证，再考虑豪华封装。</li><li>若砍半周期，知道优先保留哪些模块。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>工程和策划对交付范围理解一致。</li><li>出现 bug 或性能问题时能快速定位到模块边界。</li><li>技术方案支持快速迭代，而不是拖慢验证。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>所有系统共用一套含糊的全局状态。</li><li>关键风险被写成“后续优化”。</li><li>工具、调试、观测能力完全缺失。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "开发实现审查 Checklist",
+      "id": "开发实现审查-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "开发实现审查 Checklist 检查技术方案是否真正支撑验证、协作和后续扩展。 用于实现前 spec review、版本技术审查或判断“为什么越做越乱”。 模块边界已经定义，重复 ownership 明显减少。 关键状态有单一真值来源。 存档、输入和状态机不是散落在功能代码里的隐式逻辑。 调试与工具需求被单独列出，而不是默认以后再做。 性能预算与高风险平台已经写清楚。 里程碑先保证可验证，再考虑豪华封装。 若砍半周期，知道优先保留哪些模块。 工程和策划对交付范围理解一致。 出现 bug 或性能问题时能快速定位到模块边界。 技术方案支持快速迭代，而不是拖慢验证。 所有系统共用一套含糊的全局状态。 关键风险被写成“后续优化”。 工具、调试、观测能力完全缺失。 project-audit"
+}

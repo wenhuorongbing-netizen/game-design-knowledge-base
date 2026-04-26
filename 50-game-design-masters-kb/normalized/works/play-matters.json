@@ -1,0 +1,315 @@
+{
+  "id": "play-matters",
+  "title": "Play Matters",
+  "authors": [
+    "Miguel Sicart"
+  ],
+  "year": 2014,
+  "kind": "book",
+  "canonical_url": "https://mitpress.mit.edu/9780262534512/play-matters/",
+  "publisher_or_source": "MIT Press",
+  "language": "en",
+  "license": "Commercial",
+  "access_mode": "metadata_only",
+  "source_ids": [
+    "mit-press"
+  ],
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "theme_tags": [
+    "player-motivation",
+    "fun-theory"
+  ],
+  "summary": "从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。",
+  "key_points": [
+    "它偏体验哲学和社会层，不是玩法公式书。",
+    "适合补“玩家为什么愿意长期留在这个世界里”。",
+    "对身份、态度、长期沉浸和文化层判断有帮助。"
+  ],
+  "recommended_for": [
+    "主策",
+    "叙事设计",
+    "游戏总监"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262534512/play-matters/"
+  ],
+  "related_work_ids": [
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "usage_relevance": "最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。",
+  "knowledge_domains": [
+    "playfulness",
+    "身份与态度",
+    "体验哲学",
+    "文化语境"
+  ],
+  "purposes": [
+    "世界与身份审查",
+    "长期沉浸判断",
+    "高层体验补课"
+  ],
+  "reading_modes": [
+    "按论点通读",
+    "和世界观设计并读",
+    "复盘时回查"
+  ],
+  "value_types": [
+    "哲学视角",
+    "体验扩展层",
+    "身份感分析"
+  ],
+  "knowledge_lifecycle": [
+    "方向思考",
+    "世界观深化",
+    "长期运营复盘"
+  ],
+  "entity_type": "work",
+  "slug": "play-matters",
+  "phase_label": "内容与叙事",
+  "deliverable_label": "世界观设定",
+  "theme_labels": [
+    "玩家动机",
+    "乐趣与学习"
+  ],
+  "availability_label": "已有私有书源，但来源待复核",
+  "source_labels": [
+    "MIT Press"
+  ],
+  "official_link_entries": [
+    {
+      "label": "mitpress.mit.edu",
+      "url": "https://mitpress.mit.edu/9780262534512/play-matters/"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "size_bytes": 7862585,
+      "extension": "pdf",
+      "sha256": "f1ee20310d3361fb33f98fe01d1949888b61b3ee1a6f13d1cc927b0970de79bc",
+      "resource_kind": "book",
+      "user_supplied": true,
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ]
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://mitpress.mit.edu/9780262534512/play-matters/",
+      "source_id": "mit-press",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/play-matters/01-mitpress.mit.edu-9780262534512-play-matters-.html",
+      "fetched_at": "2026-04-25T05:32:07.262Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://mitpress.mit.edu/9780262534512/play-matters/",
+        "title": "Book Details - MIT Press",
+        "description": "MIT Press - Book Details",
+        "authors": [],
+        "isbn": "9780262534512",
+        "publisher": "",
+        "date_published": "2021-12-01T14:22:19+00:00",
+        "json_ld_type": "WebPage, ItemPage"
+      }
+    }
+  ],
+  "private_extracts": [
+    {
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "matched_work_id": "play-matters",
+      "extraction_status": "ok",
+      "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json",
+      "format": "pdf",
+      "section_count": 6,
+      "toc_count": 15,
+      "warnings": []
+    }
+  ],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": true,
+  "private_source_count": 1,
+  "private_extract_count": 1,
+  "metadata_summary": "MIT Press - Book Details",
+  "search_text": "Play Matters Miguel Sicart 从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。 它偏体验哲学和社会层，不是玩法公式书。 适合补“玩家为什么愿意长期留在这个世界里”。 对身份、态度、长期沉浸和文化层判断有帮助。 最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。 主策 叙事设计 游戏总监 playfulness 身份与态度 体验哲学 文化语境 世界与身份审查 长期沉浸判断 高层体验补课 按论点通读 和世界观设计并读 复盘时回查 哲学视角 体验扩展层 身份感分析 方向思考 世界观深化 长期运营复盘 Contents On Thinking Playfully Acknowledgments Instructions for Reading This Book 1 Play Is 2 Playfulness 3 Toys 4 Playgrounds 5 Beauty 6 Politics 7 Architects 8 Play in the Era of Computing Machinery Notes References 内容与叙事 世界观设定 玩家动机 乐趣与学习 MIT Press MIT Press - Book Details",
+  "content_markdown": "# Play Matters\n\n## 基本信息\n\n- 作者：Miguel Sicart\n- 年份：2014\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。\n\n## 核心要点\n\n- 它偏体验哲学和社会层，不是玩法公式书。\n- 适合补“玩家为什么愿意长期留在这个世界里”。\n- 对身份、态度、长期沉浸和文化层判断有帮助。\n\n## 适用场景\n\n最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。\n\n## 知识定位\n\n- 关注领域：playfulness / 身份与态度 / 体验哲学 / 文化语境\n- 主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课\n- 推荐读法：按论点通读 / 和世界观设计并读 / 复盘时回查\n- 价值类型：哲学视角 / 体验扩展层 / 身份感分析\n- 最适合介入的阶段：方向思考 / 世界观深化 / 长期运营复盘\n\n## 分类\n\n- 一级分类：内容与叙事\n- 二级输出物：世界观设定\n- 主题标签：玩家动机 / 乐趣与学习\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Play Matters\n- 解析格式：pdf\n- 页数：171\n- 顶层目录预览：\n  - Contents\n  - On Thinking Playfully\n  - Acknowledgments\n  - Instructions for Reading This Book\n  - 1 Play Is\n  - 2 Playfulness\n  - 3 Toys\n  - 4 Playgrounds\n  - 5 Beauty\n  - 6 Politics\n  - 7 Architects\n  - 8 Play in the Era of Computing Machinery\n  - Notes\n  - References\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json`（ok）\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262534512/play-matters/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/play-matters/01-mitpress.mit.edu-9780262534512-play-matters-.html`\n\n## 相关条目\n\n- The Aesthetic of Play\n- Designing Virtual Worlds\n",
+  "content_html": "<h1 id=\"play-matters\">Play Matters</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Miguel Sicart</li><li>年份：2014</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它偏体验哲学和社会层，不是玩法公式书。</li><li>适合补“玩家为什么愿意长期留在这个世界里”。</li><li>对身份、态度、长期沉浸和文化层判断有帮助。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：playfulness / 身份与态度 / 体验哲学 / 文化语境</li><li>主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课</li><li>推荐读法：按论点通读 / 和世界观设计并读 / 复盘时回查</li><li>价值类型：哲学视角 / 体验扩展层 / 身份感分析</li><li>最适合介入的阶段：方向思考 / 世界观深化 / 长期运营复盘</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：内容与叙事</li><li>二级输出物：世界观设定</li><li>主题标签：玩家动机 / 乐趣与学习</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Play Matters</li><li>解析格式：pdf</li><li>页数：171</li><li>顶层目录预览：</li><li>Contents</li><li>On Thinking Playfully</li><li>Acknowledgments</li><li>Instructions for Reading This Book</li><li>1 Play Is</li><li>2 Playfulness</li><li>3 Toys</li><li>4 Playgrounds</li><li>5 Beauty</li><li>6 Politics</li><li>7 Architects</li><li>8 Play in the Era of Computing Machinery</li><li>Notes</li><li>References</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262534512/play-matters/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262534512/play-matters/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/play-matters/01-mitpress.mit.edu-9780262534512-play-matters-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>The Aesthetic of Play</li><li>Designing Virtual Worlds</li></ul>",
+  "primary_private_extract": {
+    "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "matched_work_id": "play-matters",
+    "extraction_status": "ok",
+    "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json",
+    "format": "pdf",
+    "section_count": 6,
+    "toc_count": 15,
+    "warnings": []
+  },
+  "primary_private_artifact": {
+    "format": "pdf",
+    "metadata": {
+      "title": "Play Matters",
+      "authors": [
+        "Miguel Sicart"
+      ],
+      "subject": "",
+      "producer": "calibre (5.22.1) [https://calibre-ebook.com]"
+    },
+    "page_count": 171,
+    "toc": [
+      {
+        "label": "Contents",
+        "depth": 0,
+        "page": 6
+      },
+      {
+        "label": "On Thinking Playfully",
+        "depth": 0,
+        "page": 8
+      },
+      {
+        "label": "Acknowledgments",
+        "depth": 0,
+        "page": 10
+      },
+      {
+        "label": "Instructions for Reading This Book",
+        "depth": 0,
+        "page": 12
+      },
+      {
+        "label": "1 Play Is",
+        "depth": 0,
+        "page": 14
+      },
+      {
+        "label": "2 Playfulness",
+        "depth": 0,
+        "page": 32
+      },
+      {
+        "label": "3 Toys",
+        "depth": 0,
+        "page": 48
+      },
+      {
+        "label": "4 Playgrounds",
+        "depth": 0,
+        "page": 62
+      },
+      {
+        "label": "5 Beauty",
+        "depth": 0,
+        "page": 74
+      },
+      {
+        "label": "6 Politics",
+        "depth": 0,
+        "page": 84
+      },
+      {
+        "label": "7 Architects",
+        "depth": 0,
+        "page": 96
+      },
+      {
+        "label": "8 Play in the Era of Computing Machinery",
+        "depth": 0,
+        "page": 106
+      },
+      {
+        "label": "Notes",
+        "depth": 0,
+        "page": 116
+      },
+      {
+        "label": "References",
+        "depth": 0,
+        "page": 156
+      },
+      {
+        "label": "Index",
+        "depth": 0,
+        "page": 170
+      }
+    ],
+    "sample_sections": [
+      {
+        "label": "Page 2",
+        "location": {
+          "page": 2
+        },
+        "text": "Play Matters"
+      },
+      {
+        "label": "Page 3",
+        "location": {
+          "page": 3
+        },
+        "text": "Playful Thinking Jesper Juul, Geoffrey Long, and William Uricchio, editors The Art of Failure: An Essay on the Pain of Playing Video Games, Jesper Juul, 2013 Uncertainty in Games, Greg Costikyan, 2013 Play Matters, Miguel Sicart, 2014"
+      },
+      {
+        "label": "Page 4",
+        "location": {
+          "page": 4
+        },
+        "text": "The MIT Press Cambridge, Massachusetts London, England Play Matters Miguel Sicart"
+      },
+      {
+        "label": "Page 5",
+        "location": {
+          "page": 5
+        },
+        "text": "© 2014 Massachusetts Institute of Technology All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher. MIT Press books may be purchased at special quantity discounts for business or sales promotional use. For information, please email special_sales@mitpress.mit.edu. This book was set in Stone by the MIT Press. Printed and bound in the United States of America. Library of Congress Cataloging-in-Publication Data Sicart, Miguel, 1978– Play matters / Miguel Sicart. p. cm. — (Playful thinking) Includes bibliographical references and index. ISBN 978-0-262-02792-2 (hardcover : alk. paper) 1. Play—Psychological aspects. I. Title. BF717.S49 2014 155—dc23 2014003660 10 9 8 7 6 5 4 3 2 1"
+      },
+      {
+        "label": "Page 6",
+        "location": {
+          "page": 6
+        },
+        "text": "Contents On Thinking Playfully vii Acknowledgments ix Instructions for Reading This Book xi 1 Play Is 1 2 Playfulness 19 3 Toys 35 4 Playgrounds 49 5 Beauty 61 6 Politics 71 7 Architects 83 8 Play in the Era of Computing Machinery 93 Notes 103 References 143 Index 157"
+      },
+      {
+        "label": "Page 8",
+        "location": {
+          "page": 8
+        },
+        "text": "On Thinking Playfully Many people (we series editors included) find video games exhil- arating, but it can be just as interesting to ponder why that is so. What do video games do? What can they be used for? How do they work? How do they relate to the rest of the world? Why is play both so important and so powerful? Playful Thinking is a series of short, readable, and argu- mentative books that share some playfulness and excitement with the games that they are about. Each book in the series is small enough to fit in a backpack or coat pocket, and combines depth with readability for any reader interested in playing more thoughtfully or thinking more playfully. This includes, but is by no means limited to, academics, game makers, and curious players. So, we are casting our net wide. Each book in our series pro- vides a blend of new insights and interesting arguments with overviews of knowledge from game studies and other areas. You will see this reflected not just in the range of titles in our series, but in the range of authors creating them. Our basic assumption is simple: video games are such a flourishing medium that any new perspective on them is likely to show us something unseen or forgotten, including those from such unconventional voices"
+      }
+    ],
+    "preview_text": "Play Matters\n\nPlayful Thinking Jesper Juul, Geoffrey Long, and William Uricchio, editors The Art of Failure: An Essay on the Pain of Playing Video Games, Jesper Juul, 2013 Uncertainty in Games, Greg Costikyan, 2013 Play Matters, Miguel Sicart, 2014\n\nThe MIT Press Cambridge, Massachusetts London, England Play Matters Miguel Sicart",
+    "extraction_status": "ok",
+    "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "file_name": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+  },
+  "primary_toc_preview": [
+    "Contents",
+    "On Thinking Playfully",
+    "Acknowledgments",
+    "Instructions for Reading This Book",
+    "1 Play Is",
+    "2 Playfulness",
+    "3 Toys",
+    "4 Playgrounds",
+    "5 Beauty",
+    "6 Politics",
+    "7 Architects",
+    "8 Play in the Era of Computing Machinery",
+    "Notes",
+    "References"
+  ],
+  "private_source_review_required_count": 1,
+  "private_source_provenance_flags": [
+    "mirror_library_name"
+  ],
+  "source_review_notes": [
+    "当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+  ],
+  "availability_effective_id": "manual_review"
+}

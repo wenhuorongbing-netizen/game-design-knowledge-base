@@ -1,0 +1,62 @@
+{
+  "id": "prompt-development-implementation",
+  "entity_type": "card",
+  "title": "开发实现 Prompt 模板",
+  "summary": "把设计意图落成技术方案、模块边界、状态流和里程碑。",
+  "card_kind": "prompt_template",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "game-design-workshop",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "related_card_ids": [
+    "phase-guide-development-implementation",
+    "checklist-development-implementation"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 开发实现 Prompt 模板\n\n## 适用场景\n\n当你已经有玩法方向，但还缺一份能让工程和策划同时执行的技术方案 spec 时使用。\n\n## 使用前提供\n\n- 目标平台与技术栈\n- 核心系统模块\n- 存档、状态机、输入、网络或工具需求\n- 性能预算与风险平台\n- 开发周期、里程碑与当前 blocker\n\n## 预期输出\n\n1. 技术方案 spec\n2. 模块边界与依赖\n3. 状态与数据流\n4. 存档/输入系统设计\n5. 工具链与调试需求\n6. 性能风险与优化顺序\n7. 里程碑拆分\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏工程负责人和技术设计顾问。\n请把下面的设计目标整理成一份工程可执行的实现 spec。\n\n输入：\n- 平台与技术栈：{{platform_and_stack}}\n- 核心玩法模块：{{core_modules}}\n- 状态/数据问题：{{state_and_data_concerns}}\n- 存档/输入/网络需求：{{save_input_network_requirements}}\n- 工具与调试需求：{{tooling_needs}}\n- 性能预算：{{performance_budgets}}\n- 周期与 blocker：{{timeline_and_blockers}}\n\n请输出：\n1. 技术方案概览：为什么这样分层。\n2. 模块边界：每个模块负责什么，不负责什么。\n3. 状态与数据流：关键状态如何流转，谁拥有真值。\n4. 存档/状态机/输入系统：最低可行实现方案。\n5. 工具链：哪些内部工具最值得先做。\n6. 性能与风险：最可能炸的点和优先优化顺序。\n7. 里程碑：按周或按里程碑拆成最小交付。\n\n要求：\n- 不要输出泛泛架构图名词堆砌。\n- 对每个重要模块给出清晰 ownership。\n- 优先保留最能支撑验证的实现，不要先做豪华基础设施。\n```\n\n## 二次追问\n\n- 把里程碑再细化成任务列表。\n- 单独展开存档 / 输入 / 状态机模块。\n",
+  "body_html": "<h1 id=\"开发实现-prompt-模板\">开发实现 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当你已经有玩法方向，但还缺一份能让工程和策划同时执行的技术方案 spec 时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>目标平台与技术栈</li><li>核心系统模块</li><li>存档、状态机、输入、网络或工具需求</li><li>性能预算与风险平台</li><li>开发周期、里程碑与当前 blocker</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>技术方案 spec</li><li>模块边界与依赖</li><li>状态与数据流</li><li>存档/输入系统设计</li><li>工具链与调试需求</li><li>性能风险与优化顺序</li><li>里程碑拆分</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏工程负责人和技术设计顾问。\n请把下面的设计目标整理成一份工程可执行的实现 spec。\n\n输入：\n- 平台与技术栈：{{platform_and_stack}}\n- 核心玩法模块：{{core_modules}}\n- 状态/数据问题：{{state_and_data_concerns}}\n- 存档/输入/网络需求：{{save_input_network_requirements}}\n- 工具与调试需求：{{tooling_needs}}\n- 性能预算：{{performance_budgets}}\n- 周期与 blocker：{{timeline_and_blockers}}\n\n请输出：\n1. 技术方案概览：为什么这样分层。\n2. 模块边界：每个模块负责什么，不负责什么。\n3. 状态与数据流：关键状态如何流转，谁拥有真值。\n4. 存档/状态机/输入系统：最低可行实现方案。\n5. 工具链：哪些内部工具最值得先做。\n6. 性能与风险：最可能炸的点和优先优化顺序。\n7. 里程碑：按周或按里程碑拆成最小交付。\n\n要求：\n- 不要输出泛泛架构图名词堆砌。\n- 对每个重要模块给出清晰 ownership。\n- 优先保留最能支撑验证的实现，不要先做豪华基础设施。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把里程碑再细化成任务列表。</li><li>单独展开存档 / 输入 / 状态机模块。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "开发实现 Prompt 模板",
+      "id": "开发实现-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "开发实现 Prompt 模板 把设计意图落成技术方案、模块边界、状态流和里程碑。 当你已经有玩法方向，但还缺一份能让工程和策划同时执行的技术方案 spec 时使用。 目标平台与技术栈 核心系统模块 存档、状态机、输入、网络或工具需求 性能预算与风险平台 开发周期、里程碑与当前 blocker 技术方案 spec 模块边界与依赖 状态与数据流 存档/输入系统设计 工具链与调试需求 性能风险与优化顺序 里程碑拆分 project-audit prompt-design"
+}

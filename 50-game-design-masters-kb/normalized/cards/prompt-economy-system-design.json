@@ -1,0 +1,62 @@
+{
+  "id": "prompt-economy-system-design",
+  "entity_type": "card",
+  "title": "经济系统设计 Prompt 模板",
+  "summary": "把资源和货币系统整理成层级、流向、稀缺关系与调参点。",
+  "card_kind": "prompt_template",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "economy-system-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "economy-loops",
+    "systems-thinking",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games"
+  ],
+  "related_card_ids": [
+    "prompt-numbers-economy",
+    "checklist-numbers-economy"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 经济系统设计 Prompt 模板\n\n## 适用场景\n\n当经济系统开始膨胀，资源名词越来越多，却没人能说清每个资源到底干什么时使用。\n\n## 使用前提供\n\n- 全部货币与资源\n- 短中长期消耗目标\n- 稀缺资源与爆点资源\n- 玩家获取方式与损失方式\n- 当前经济症状，如通胀、囤积、无意义 grind\n\n## 预期输出\n\n1. 经济层级\n2. 资源职责划分\n3. 获取/消耗流向\n4. 稀缺控制\n5. 风险点\n6. 调参与监控建议\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏经济设计师。\n请把以下经济系统整理成一个职责清晰、可维护的系统方案。\n\n输入：\n- 货币与资源：{{resources}}\n- 短中长期目标：{{short_mid_long_goals}}\n- 获取方式：{{earning_methods}}\n- 消耗方式：{{spending_methods}}\n- 稀缺资源：{{scarce_resources}}\n- 当前症状：{{economy_symptoms}}\n\n请输出：\n1. 经济层级：哪些资源负责日常、成长、稀缺、 prestige。\n2. 资源职责：每个资源该解决什么，不该解决什么。\n3. 获取/消耗流：玩家如何进入和离开每条资源链。\n4. 稀缺控制：哪些门槛在控节奏，哪些在控选择。\n5. 风险：通胀、囤积、失真、低价值资源。\n6. 调参建议：最先监控和最先动刀的点。\n\n要求：\n- 指出可以合并掉的冗余资源。\n- 区分“有价值的稀缺”和“令人烦躁的卡点”。\n- 最后给一个简版资源结构图描述。\n```\n\n## 二次追问\n\n- 把经济系统压成一张资源流表。\n- 单独对稀缺资源做风险演算。\n",
+  "body_html": "<h1 id=\"经济系统设计-prompt-模板\">经济系统设计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当经济系统开始膨胀，资源名词越来越多，却没人能说清每个资源到底干什么时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>全部货币与资源</li><li>短中长期消耗目标</li><li>稀缺资源与爆点资源</li><li>玩家获取方式与损失方式</li><li>当前经济症状，如通胀、囤积、无意义 grind</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>经济层级</li><li>资源职责划分</li><li>获取/消耗流向</li><li>稀缺控制</li><li>风险点</li><li>调参与监控建议</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏经济设计师。\n请把以下经济系统整理成一个职责清晰、可维护的系统方案。\n\n输入：\n- 货币与资源：{{resources}}\n- 短中长期目标：{{short_mid_long_goals}}\n- 获取方式：{{earning_methods}}\n- 消耗方式：{{spending_methods}}\n- 稀缺资源：{{scarce_resources}}\n- 当前症状：{{economy_symptoms}}\n\n请输出：\n1. 经济层级：哪些资源负责日常、成长、稀缺、 prestige。\n2. 资源职责：每个资源该解决什么，不该解决什么。\n3. 获取/消耗流：玩家如何进入和离开每条资源链。\n4. 稀缺控制：哪些门槛在控节奏，哪些在控选择。\n5. 风险：通胀、囤积、失真、低价值资源。\n6. 调参建议：最先监控和最先动刀的点。\n\n要求：\n- 指出可以合并掉的冗余资源。\n- 区分“有价值的稀缺”和“令人烦躁的卡点”。\n- 最后给一个简版资源结构图描述。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把经济系统压成一张资源流表。</li><li>单独对稀缺资源做风险演算。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "经济系统设计 Prompt 模板",
+      "id": "经济系统设计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "经济系统设计 Prompt 模板 把资源和货币系统整理成层级、流向、稀缺关系与调参点。 当经济系统开始膨胀，资源名词越来越多，却没人能说清每个资源到底干什么时使用。 全部货币与资源 短中长期消耗目标 稀缺资源与爆点资源 玩家获取方式与损失方式 当前经济症状，如通胀、囤积、无意义 grind 经济层级 资源职责划分 获取/消耗流向 稀缺控制 风险点 调参与监控建议 economy-loops systems-thinking prompt-design"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "checklist-growth-curve-design",
+  "entity_type": "card",
+  "title": "成长曲线设计 Checklist",
+  "summary": "检查成长是否真的带来新理解，而不是只是数字更大。",
+  "card_kind": "checklist",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "growth-curve-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "economy-loops",
+    "fun-theory"
+  ],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "game-mechanics-advanced-game-design"
+  ],
+  "related_card_ids": [
+    "prompt-numbers-economy",
+    "checklist-numbers-economy"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 成长曲线设计 Checklist\n\n## 适用场景\n\n用于成长系统 review、长期进度 review，或诊断“升级很多但没变强感”的问题。\n\n## 检查项\n\n- 成长每个阶段都带来新决策或新理解。\n- 升级不仅提高数值，也改变玩家行为选择。\n- 短期奖励、中期 build、长期目标彼此区分清楚。\n- 卡关时玩家知道缺的是什么，而不是只觉得更 grind。\n- 成长门槛不会与核心乐趣脱节。\n- 重复行为不会成为唯一进度来源。\n- 后期成长不会让前期系统全部失效。\n\n## 通过标准\n\n- 成长能持续提供掌握感或身份差异。\n- 玩家知道为什么要追求下一个阶段。\n- 成长路径和项目体验目标一致。\n\n## 常见失败信号\n\n- 升级只意味着打得更久、刷得更多。\n- 后期所有 build 都收敛成同一个答案。\n- 成长系统像外接模块，和玩法循环无关。\n",
+  "body_html": "<h1 id=\"成长曲线设计-checklist\">成长曲线设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于成长系统 review、长期进度 review，或诊断“升级很多但没变强感”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>成长每个阶段都带来新决策或新理解。</li><li>升级不仅提高数值，也改变玩家行为选择。</li><li>短期奖励、中期 build、长期目标彼此区分清楚。</li><li>卡关时玩家知道缺的是什么，而不是只觉得更 grind。</li><li>成长门槛不会与核心乐趣脱节。</li><li>重复行为不会成为唯一进度来源。</li><li>后期成长不会让前期系统全部失效。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>成长能持续提供掌握感或身份差异。</li><li>玩家知道为什么要追求下一个阶段。</li><li>成长路径和项目体验目标一致。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>升级只意味着打得更久、刷得更多。</li><li>后期所有 build 都收敛成同一个答案。</li><li>成长系统像外接模块，和玩法循环无关。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "成长曲线设计 Checklist",
+      "id": "成长曲线设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "成长曲线设计 Checklist 检查成长是否真的带来新理解，而不是只是数字更大。 用于成长系统 review、长期进度 review，或诊断“升级很多但没变强感”的问题。 成长每个阶段都带来新决策或新理解。 升级不仅提高数值，也改变玩家行为选择。 短期奖励、中期 build、长期目标彼此区分清楚。 卡关时玩家知道缺的是什么，而不是只觉得更 grind。 成长门槛不会与核心乐趣脱节。 重复行为不会成为唯一进度来源。 后期成长不会让前期系统全部失效。 成长能持续提供掌握感或身份差异。 玩家知道为什么要追求下一个阶段。 成长路径和项目体验目标一致。 升级只意味着打得更久、刷得更多。 后期所有 build 都收敛成同一个答案。 成长系统像外接模块，和玩法循环无关。 economy-loops fun-theory"
+}

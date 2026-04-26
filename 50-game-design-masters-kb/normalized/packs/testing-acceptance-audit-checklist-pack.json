@@ -1,0 +1,37 @@
+{
+  "id": "testing-acceptance-audit-checklist-pack",
+  "title": "测试、验收与审计 Checklist Pack",
+  "summary": "Stage-specific review checklists for 测试、验收与审计.",
+  "phase_group": "testing-acceptance-audit",
+  "phase_label": "测试、验收与审计",
+  "phase_groups": [
+    "testing-acceptance-audit"
+  ],
+  "phase_labels": [
+    "测试、验收与审计"
+  ],
+  "type": "checklist_pack",
+  "kind_label": "Checklist Pack",
+  "card_ids": [
+    "checklist-build-acceptance",
+    "checklist-testing-acceptance-audit",
+    "checklist-regression-checklist",
+    "note-applying-the-kb-to-projects"
+  ],
+  "count": 4,
+  "prompt_count": 0,
+  "checklist_count": 4,
+  "other_count": 0,
+  "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 测试、验收与审计 review pass.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Use 测试、验收与审计 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+    "Mark the failed checks first, then group them into a short fix order.",
+    "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+    "Repeat the checklist after the next meaningful revision."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/testing-acceptance-audit-checklist-pack.md",
+  "generated_at": "2026-04-26T00:39:23.261Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

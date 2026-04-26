@@ -1,0 +1,57 @@
+{
+  "id": "checklist-resource-production-consumption",
+  "entity_type": "card",
+  "title": "资源产出消耗设计 Checklist",
+  "summary": "检查资源流是否真的形成节奏与选择，而不是只形成等待与堆积。",
+  "card_kind": "checklist",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "resource-production-consumption",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "economy-loops",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games",
+    "a-theory-of-fun-for-game-design"
+  ],
+  "related_card_ids": [
+    "prompt-economy-system-design",
+    "prompt-currency-system-design"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 资源产出消耗设计 Checklist\n\n## 适用场景\n\n用于资源循环 review、制作/生存系统 review，或排查“资源很多但决策很少”。\n\n## 检查项\n\n- 每种资源都能说明主要来源和主要去向。\n- 产出速度与消耗压力形成真实决策，而不是纯等待。\n- 玩家能通过玩法改变资源结构，而不是只能被动接受。\n- 资源之间存在清楚的层级和转换关系。\n- 资源短缺能制造张力，但不会长期让玩家失去行动权。\n- 过剩资源不会长期堆积成无意义数字。\n- 资源循环与核心玩法、成长、世界规则保持一致。\n\n## 通过标准\n\n- 资源系统推动玩家做选择。\n- 资源压力与爽感是结构性的，而不是临时调出来的。\n- 资源循环可被解释、观测和调优。\n\n## 常见失败信号\n\n- 资源系统只是在拖时长。\n- 玩家永远缺同一种东西，其他资源都没意义。\n- 资源转换只是层层套娃，没有新决策。\n",
+  "body_html": "<h1 id=\"资源产出消耗设计-checklist\">资源产出消耗设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于资源循环 review、制作/生存系统 review，或排查“资源很多但决策很少”。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>每种资源都能说明主要来源和主要去向。</li><li>产出速度与消耗压力形成真实决策，而不是纯等待。</li><li>玩家能通过玩法改变资源结构，而不是只能被动接受。</li><li>资源之间存在清楚的层级和转换关系。</li><li>资源短缺能制造张力，但不会长期让玩家失去行动权。</li><li>过剩资源不会长期堆积成无意义数字。</li><li>资源循环与核心玩法、成长、世界规则保持一致。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>资源系统推动玩家做选择。</li><li>资源压力与爽感是结构性的，而不是临时调出来的。</li><li>资源循环可被解释、观测和调优。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>资源系统只是在拖时长。</li><li>玩家永远缺同一种东西，其他资源都没意义。</li><li>资源转换只是层层套娃，没有新决策。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "资源产出消耗设计 Checklist",
+      "id": "资源产出消耗设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "资源产出消耗设计 Checklist 检查资源流是否真的形成节奏与选择，而不是只形成等待与堆积。 用于资源循环 review、制作/生存系统 review，或排查“资源很多但决策很少”。 每种资源都能说明主要来源和主要去向。 产出速度与消耗压力形成真实决策，而不是纯等待。 玩家能通过玩法改变资源结构，而不是只能被动接受。 资源之间存在清楚的层级和转换关系。 资源短缺能制造张力，但不会长期让玩家失去行动权。 过剩资源不会长期堆积成无意义数字。 资源循环与核心玩法、成长、世界规则保持一致。 资源系统推动玩家做选择。 资源压力与爽感是结构性的，而不是临时调出来的。 资源循环可被解释、观测和调优。 资源系统只是在拖时长。 玩家永远缺同一种东西，其他资源都没意义。 资源转换只是层层套娃，没有新决策。 economy-loops systems-thinking"
+}

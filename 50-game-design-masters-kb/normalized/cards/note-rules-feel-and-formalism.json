@@ -1,0 +1,80 @@
+{
+  "id": "note-rules-feel-and-formalism",
+  "entity_type": "card",
+  "title": "规则、手感与形式化设计",
+  "summary": "规则、手感与形式化设计",
+  "card_kind": "reading_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/notes/06-rules-feel-and-formalism.md",
+  "theme_tags": [
+    "formalism",
+    "hit-feel",
+    "ui-ux"
+  ],
+  "related_work_ids": [
+    "rules-of-play",
+    "game-feel",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "06-rules-feel-and-formalism.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/notes/06-rules-feel-and-formalism.md"
+    }
+  ],
+  "body_markdown": "# 规则、手感与形式化设计\n\n这一组更偏“把东西做明白”，而不是“给你灵感”。\n\n## Salen / Zimmerman\n\n代表作：\n\n- `Rules of Play`\n\n他们的价值在于给你一套足够严肃的语言来谈规则、系统和意义。\n\n最适合处理：\n\n- 文档定义模糊\n- 规则能跑，但别人看不懂\n- 机制之间关系说不清\n\n## Elias / Garfield / Gutschera\n\n代表作：\n\n- `Characteristics of Games`\n\n他们擅长把游戏拆成状态、信息、动作、冲突、不确定性、收益这些基础结构。\n\n最适合处理：\n\n- 经济系统设计\n- 决策空间分析\n- 玩家信息是否充分\n\n## Steve Swink\n\n代表作：\n\n- `Game Feel`\n\n他研究的是“为什么有些动作光是按下去就舒服，有些则像在推石头”。\n\n最适合处理：\n\n- 移动反馈\n- 攻击命中感\n- 角色控制响应\n- 动作信息层\n\n## Ernest Adams / Joris Dormans\n\n代表作：\n\n- `Game Mechanics: Advanced Game Design`\n\n他们非常适合处理资源循环、进度机制、系统耦合和涌现。\n\n最适合处理：\n\n- 经济环\n- 正负反馈\n- 平衡问题\n- 复杂机制建模\n\n## Scott Rogers\n\n代表作：\n\n- `Level Up!`\n\n他比起纯理论，更贴近“怎么把设计说给团队听、写给团队做、做给玩家玩”。\n\n最适合处理：\n\n- 设计文档表达\n- 关卡与引导\n- 生产流程中的设计沟通\n\n## Brian Upton / Miguel Sicart / Stenros & Montola\n\n这一组是“玩法如何承载意义”的中高阶补充。\n\n- Brian Upton：体验是怎样一步步生成的\n- Miguel Sicart：玩不仅是执行规则，也是人的态度和行为方式\n- Stenros / Montola：规则不只存在于说明书，还存在于玩家、社群和材料本身\n\n## 对当前项目的落地提示\n\n如果你发现问题是：\n\n- “文档很长，但规则说不清”：\n  - 先看 `Rules of Play`\n  - 再看 MIT 2014 `written-rules-style-guide.pdf`\n\n- “系统很多，但经济关系越来越乱”：\n  - 先看 `Game Mechanics`\n  - 再看 `Characteristics of Games`\n\n- “战斗有数值，但没有爽感”：\n  - 先看 `Game Feel`\n\n- “团队老是在谈大词，但缺少可执行定义”：\n  - 先用 Rogers 的方法把内容压成简洁设计表达\n\n## 官方入口\n\n- `Rules of Play`: <https://mitpress.mit.edu/9780262240451/rules-of-play>\n- `Characteristics of Games`: <https://mitpress.mit.edu/9780262542692/characteristics-of-games/>\n- `Game Feel`: <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282>\n- `Game Mechanics`: <https://www.informit.com/store/product.aspx?isbn=9780132946681>\n- `Level Up!`: <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx>\n- `The Aesthetic of Play`: <https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/>\n- `Play Matters`: <https://mitpress.mit.edu/9780262534512/play-matters/>\n- `The Rule Book`: <https://mitpress.mit.edu/9780262377539/the-rule-book/>\n",
+  "body_html": "<h1 id=\"规则、手感与形式化设计\">规则、手感与形式化设计</h1>\n<p>这一组更偏“把东西做明白”，而不是“给你灵感”。</p>\n<h2 id=\"salen-zimmerman\">Salen / Zimmerman</h2>\n<p>代表作：</p>\n<ul><li><code>Rules of Play</code></li></ul>\n<p>他们的价值在于给你一套足够严肃的语言来谈规则、系统和意义。</p>\n<p>最适合处理：</p>\n<ul><li>文档定义模糊</li><li>规则能跑，但别人看不懂</li><li>机制之间关系说不清</li></ul>\n<h2 id=\"elias-garfield-gutschera\">Elias / Garfield / Gutschera</h2>\n<p>代表作：</p>\n<ul><li><code>Characteristics of Games</code></li></ul>\n<p>他们擅长把游戏拆成状态、信息、动作、冲突、不确定性、收益这些基础结构。</p>\n<p>最适合处理：</p>\n<ul><li>经济系统设计</li><li>决策空间分析</li><li>玩家信息是否充分</li></ul>\n<h2 id=\"steve-swink\">Steve Swink</h2>\n<p>代表作：</p>\n<ul><li><code>Game Feel</code></li></ul>\n<p>他研究的是“为什么有些动作光是按下去就舒服，有些则像在推石头”。</p>\n<p>最适合处理：</p>\n<ul><li>移动反馈</li><li>攻击命中感</li><li>角色控制响应</li><li>动作信息层</li></ul>\n<h2 id=\"ernest-adams-joris-dormans\">Ernest Adams / Joris Dormans</h2>\n<p>代表作：</p>\n<ul><li><code>Game Mechanics: Advanced Game Design</code></li></ul>\n<p>他们非常适合处理资源循环、进度机制、系统耦合和涌现。</p>\n<p>最适合处理：</p>\n<ul><li>经济环</li><li>正负反馈</li><li>平衡问题</li><li>复杂机制建模</li></ul>\n<h2 id=\"scott-rogers\">Scott Rogers</h2>\n<p>代表作：</p>\n<ul><li><code>Level Up!</code></li></ul>\n<p>他比起纯理论，更贴近“怎么把设计说给团队听、写给团队做、做给玩家玩”。</p>\n<p>最适合处理：</p>\n<ul><li>设计文档表达</li><li>关卡与引导</li><li>生产流程中的设计沟通</li></ul>\n<h2 id=\"brian-upton-miguel-sicart-stenros-montola\">Brian Upton / Miguel Sicart / Stenros &amp; Montola</h2>\n<p>这一组是“玩法如何承载意义”的中高阶补充。</p>\n<ul><li>Brian Upton：体验是怎样一步步生成的</li><li>Miguel Sicart：玩不仅是执行规则，也是人的态度和行为方式</li><li>Stenros / Montola：规则不只存在于说明书，还存在于玩家、社群和材料本身</li></ul>\n<h2 id=\"对当前项目的落地提示\">对当前项目的落地提示</h2>\n<p>如果你发现问题是：</p>\n<ul><li>“文档很长，但规则说不清”：</li><li>先看 <code>Rules of Play</code></li><li>再看 MIT 2014 <code>written-rules-style-guide.pdf</code></li></ul>\n<ul><li>“系统很多，但经济关系越来越乱”：</li><li>先看 <code>Game Mechanics</code></li><li>再看 <code>Characteristics of Games</code></li></ul>\n<ul><li>“战斗有数值，但没有爽感”：</li><li>先看 <code>Game Feel</code></li></ul>\n<ul><li>“团队老是在谈大词，但缺少可执行定义”：</li><li>先用 Rogers 的方法把内容压成简洁设计表达</li></ul>\n<h2 id=\"官方入口\">官方入口</h2>\n<ul><li><code>Rules of Play</code>: <a href=\"https://mitpress.mit.edu/9780262240451/rules-of-play\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262240451/rules-of-play</a></li><li><code>Characteristics of Games</code>: <a href=\"https://mitpress.mit.edu/9780262542692/characteristics-of-games/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262542692/characteristics-of-games/</a></li><li><code>Game Feel</code>: <a href=\"https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282</a></li><li><code>Game Mechanics</code>: <a href=\"https://www.informit.com/store/product.aspx?isbn=9780132946681\" target=\"_blank\" rel=\"noreferrer\">https://www.informit.com/store/product.aspx?isbn=9780132946681</a></li><li><code>Level Up!</code>: <a href=\"https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx\" target=\"_blank\" rel=\"noreferrer\">https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx</a></li><li><code>The Aesthetic of Play</code>: <a href=\"https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/</a></li><li><code>Play Matters</code>: <a href=\"https://mitpress.mit.edu/9780262534512/play-matters/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262534512/play-matters/</a></li><li><code>The Rule Book</code>: <a href=\"https://mitpress.mit.edu/9780262377539/the-rule-book/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262377539/the-rule-book/</a></li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "规则、手感与形式化设计",
+      "id": "规则、手感与形式化设计"
+    },
+    {
+      "level": 2,
+      "text": "Salen / Zimmerman",
+      "id": "salen-zimmerman"
+    },
+    {
+      "level": 2,
+      "text": "Elias / Garfield / Gutschera",
+      "id": "elias-garfield-gutschera"
+    },
+    {
+      "level": 2,
+      "text": "Steve Swink",
+      "id": "steve-swink"
+    },
+    {
+      "level": 2,
+      "text": "Ernest Adams / Joris Dormans",
+      "id": "ernest-adams-joris-dormans"
+    },
+    {
+      "level": 2,
+      "text": "Scott Rogers",
+      "id": "scott-rogers"
+    },
+    {
+      "level": 2,
+      "text": "Brian Upton / Miguel Sicart / Stenros & Montola",
+      "id": "brian-upton-miguel-sicart-stenros-montola"
+    },
+    {
+      "level": 2,
+      "text": "对当前项目的落地提示",
+      "id": "对当前项目的落地提示"
+    },
+    {
+      "level": 2,
+      "text": "官方入口",
+      "id": "官方入口"
+    }
+  ],
+  "search_text": "规则、手感与形式化设计 # 规则、手感与形式化设计 这一组更偏“把东西做明白”，而不是“给你灵感”。 ## Salen / Zimmerman 代表作： - `Rules of Play` 他们的价值在于给你一套足够严肃的语言来谈规则、系统和意义。 最适合处理： - 文档定义模糊 - 规则能跑，但别人看不懂 - 机制之间关系说不清 ## Elias / Garfield / Gutschera 代表作： - `Characteristics of Games` 他们擅长把游戏拆成状态、信息、动作、冲突、不确定性、收益这些基础结构。 最适合处理： - 经济系统设计 - 决策空间分析 - 玩家信息是否充分 ## Steve Swink 代表作： - `Game Feel` 他研究的是“为什么有些动作光是按下去就舒服，有些则像在推石头”。 最适合处理： - 移动反馈 - 攻击命中感 - 角色控制响应 - 动作信息层 ## Ernest Adams / Joris Dormans 代表作： - `Game Mechanics: Advanced Game Design` 他们非常适合处理资源循环、进度机制、系统耦合和涌现。 最适合处理： - 经济环 - 正负反馈 - 平衡问题 - 复杂机制建模 ## Scott Rogers 代表作： - `Level Up!` 他比起纯理论，更贴近“怎么把设计说给团队听、写给团队做、做给玩家玩”。 最适合处理： - 设计文档表达 - 关卡与引导 - 生产流程中的设计沟通 ## Brian Upton / Miguel Sicart / Stenros & Montola 这一组是“玩法如何承载意义”的中高阶补充。 - Brian Upton：体验是怎样一步步生成的 - Miguel Sicart：玩不仅是执行规则，也是人的态度和行为方式 - Stenros / Montola：规则不只存在于说明书，还存在于玩家、社群和材料本身 ## 对当前项目的落地提示 如果你发现问题是： - “文档很长，但规则说不清”： - 先看 `Rules of Play` - 再看 MIT 2014 `written-rules-style-guide.pdf` - “系统很多，但经济关系越来越乱”： - 先看 `Game Mechanics` - 再看 `Characteristics of Games` - “战斗有数值，但没有爽感”： - 先看 `Game Feel` - “团队老是在谈大词，但缺少可执行定义”： - 先用 Rogers 的方法把内容压成简洁设计表达 ## 官方入口 - `Rules of Play`: <https://mitpress.mit.edu/9780262240451/rules-of-play> - `Characteristics of Games`: <https://mitpress.mit.edu/9780262542692/characteristics-of-games/> - `Game Feel`: <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282> - `Game Mechanics`: <https://www.informit.com/store/product.aspx?isbn=9780132946681> - `Level Up!`: <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx> - `The Aesthetic of Play`: <https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/> - `Play Matters`: <https://mitpress.mit.edu/9780262534512/play-matters/> - `The Rule Book`: <https://mitpress.mit.edu/9780262377539/the-rule-book/> formalism hit-feel ui-ux rules-of-play game-feel mda-formal-approach"
+}

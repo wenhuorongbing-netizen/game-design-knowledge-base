@@ -1,0 +1,69 @@
+{
+  "id": "note-book-positioning-a-theory-of-fun-for-game-design",
+  "entity_type": "card",
+  "title": "A Theory of Fun for Game Design：知识定位",
+  "summary": "最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "difficulty-curve-design",
+  "resource_kind": "note",
+  "source_work_id": "a-theory-of-fun-for-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "player-motivation",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "the-art-of-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-a-theory-of-fun-for-game-design"
+  ],
+  "official_links": [
+    "https://www.theoryoffun.com/"
+  ],
+  "local_links": [
+    {
+      "label": "Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# A Theory of Fun for Game Design：知识定位\n\n## 这本书最适合解决什么\n\n最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。\n\n## 主要关注\n\n- 关注领域：乐趣理论 / 学习与模式 / 玩家成长 / 体验复盘\n- 主要用途：体验判断 / 成长曲线讨论 / 设计哲学补课\n- 推荐读法：按章通读 / 和系统设计并读 / 做设计复盘时回查\n- 价值类型：理论框架 / 体验解释器 / 复盘语言\n- 适用阶段：方向判断 / 体验复盘 / 高层设计训练\n\n## 和相邻书目的关系\n\n- The Art of Game Design: A Book of Lenses\n- Designing Virtual Worlds\n\n## 结构证据\n\n- Foreword (from the First Edition)\n- Prologue: My Grandfather\n- Chapter One: Why Write This Book?\n- Chapter Two: How the Brain Works\n- Chapter Three: What Games Are\n- Chapter Four: What Games Teach Us\n- Chapter Five: What Games Aren't\n- Chapter Six: Different Fun for Different Folks\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"a-theory-of-fun-for-game-design：知识定位\">A Theory of Fun for Game Design：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：乐趣理论 / 学习与模式 / 玩家成长 / 体验复盘</li><li>主要用途：体验判断 / 成长曲线讨论 / 设计哲学补课</li><li>推荐读法：按章通读 / 和系统设计并读 / 做设计复盘时回查</li><li>价值类型：理论框架 / 体验解释器 / 复盘语言</li><li>适用阶段：方向判断 / 体验复盘 / 高层设计训练</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>The Art of Game Design: A Book of Lenses</li><li>Designing Virtual Worlds</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Foreword (from the First Edition)</li><li>Prologue: My Grandfather</li><li>Chapter One: Why Write This Book?</li><li>Chapter Two: How the Brain Works</li><li>Chapter Three: What Games Are</li><li>Chapter Four: What Games Teach Us</li><li>Chapter Five: What Games Aren&#39;t</li><li>Chapter Six: Different Fun for Different Folks</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "A Theory of Fun for Game Design：知识定位",
+      "id": "a-theory-of-fun-for-game-design：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "A Theory of Fun for Game Design 从学习、模式识别和脑内奖赏机制出发解释“为什么游戏会好玩”，是把 fun 从口号变成可讨论理论的经典入口。 最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。 乐趣理论 学习与模式 玩家成长 体验复盘 体验判断 成长曲线讨论 设计哲学补课 按章通读 和系统设计并读 做设计复盘时回查 理论框架 体验解释器 复盘语言 方向判断 体验复盘 高层设计训练"
+}

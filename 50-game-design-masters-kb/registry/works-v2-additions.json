@@ -1,0 +1,78 @@
+[
+  {
+    "id": "the-game-design-reader",
+    "title": "The Game Design Reader: A Rules of Play Anthology",
+    "authors": [
+      "Katie Salen Tekinbaş",
+      "Eric Zimmerman"
+    ],
+    "year": 2005,
+    "kind": "book",
+    "canonical_url": "https://mitpress.mit.edu/9780262195362/the-game-design-reader",
+    "publisher_or_source": "MIT Press",
+    "language": "en",
+    "license": "Commercial",
+    "access_mode": "user_file_needed",
+    "source_ids": [
+      "mit-press"
+    ],
+    "phase_group": "initiation-direction",
+    "deliverable_type": "director-review",
+    "theme_tags": [
+      "design-fundamentals",
+      "formalism",
+      "systems-thinking"
+    ],
+    "summary": "一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。",
+    "key_points": [
+      "适合建立比单本教材更宽的设计语境。",
+      "适合把 Rules of Play 的形式语言接回案例、批评和研究传统。",
+      "适合作为团队高层设计评审和阅读小组的共读底座。"
+    ],
+    "recommended_for": [
+      "主策",
+      "系统策划",
+      "文档负责人",
+      "游戏总监"
+    ],
+    "official_links": [
+      "https://mitpress.mit.edu/9780262195362/the-game-design-reader"
+    ],
+    "related_work_ids": [
+      "rules-of-play",
+      "characteristics-of-games",
+      "the-rule-book"
+    ],
+    "usage_relevance": "最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。",
+    "knowledge_domains": [
+      "游戏定义与批评",
+      "规则与系统",
+      "游戏空间与叙事",
+      "游戏文化与社群",
+      "设计研究方法"
+    ],
+    "purposes": [
+      "高层设计审查",
+      "理论补课",
+      "阅读小组共读",
+      "跨书目比较"
+    ],
+    "reading_modes": [
+      "按主题抽读",
+      "按作者与论文反查",
+      "作为理论索引长期常备"
+    ],
+    "value_types": [
+      "案例库",
+      "批评视角",
+      "术语背景",
+      "经典文本入口"
+    ],
+    "knowledge_lifecycle": [
+      "立项前研究",
+      "方向校准",
+      "设计复盘",
+      "知识库扩写"
+    ]
+  }
+]

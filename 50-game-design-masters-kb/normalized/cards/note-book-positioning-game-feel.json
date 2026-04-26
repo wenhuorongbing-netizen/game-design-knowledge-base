@@ -1,0 +1,73 @@
+{
+  "id": "note-book-positioning-game-feel",
+  "entity_type": "card",
+  "title": "Game Feel: A Game Designer's Guide to Virtual Sensation：知识定位",
+  "summary": "最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "note",
+  "source_work_id": "game-feel",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "hit-feel",
+    "ui-ux",
+    "combat"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-game-feel"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282"
+  ],
+  "local_links": [
+    {
+      "label": "Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+    },
+    {
+      "label": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Game Feel: A Game Designer's Guide to Virtual Sensation：知识定位\n\n## 这本书最适合解决什么\n\n最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。\n\n## 主要关注\n\n- 关注领域：输入反馈 / 打击感 / 动画响应 / 控制体验 / 交互美学\n- 主要用途：打击感诊断 / 操作响应优化 / 体验层问题拆解\n- 推荐读法：围绕具体动作反查 / 按案例拆读 / 和试玩录像一起看\n- 价值类型：诊断框架 / 反馈词典 / 体验修正手册\n- 适用阶段：手感打磨 / 战斗迭代 / UI/UX 精修\n\n## 和相邻书目的关系\n\n- Level Up! The Guide to Great Video Game Design\n- Game Design Workshop\n\n## 结构证据\n\n- Game Feel: A Game Designer’s Guide to Virtual Sensation\n- Table of Contents\n- Acknowledgments\n- About the Author\n- Introduction\n- About This Book\n- Chapter 1. Defining Game Feel\n- The Three Building Blocks of Game Feel\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"game-feel-a-game-designers-guide-to-virtual-sensation：知识定位\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：输入反馈 / 打击感 / 动画响应 / 控制体验 / 交互美学</li><li>主要用途：打击感诊断 / 操作响应优化 / 体验层问题拆解</li><li>推荐读法：围绕具体动作反查 / 按案例拆读 / 和试玩录像一起看</li><li>价值类型：诊断框架 / 反馈词典 / 体验修正手册</li><li>适用阶段：手感打磨 / 战斗迭代 / UI/UX 精修</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Level Up! The Guide to Great Video Game Design</li><li>Game Design Workshop</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Game Feel: A Game Designer’s Guide to Virtual Sensation</li><li>Table of Contents</li><li>Acknowledgments</li><li>About the Author</li><li>Introduction</li><li>About This Book</li><li>Chapter 1. Defining Game Feel</li><li>The Three Building Blocks of Game Feel</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation：知识定位",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "Game Feel: A Game Designer's Guide to Virtual Sensation 从输入、响应、动画、音效、镜头和物理反馈等细部解释“手感”如何被构造出来，是把模糊体验拆回具体反馈层的经典书。 最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。 输入反馈 打击感 动画响应 控制体验 交互美学 打击感诊断 操作响应优化 体验层问题拆解 围绕具体动作反查 按案例拆读 和试玩录像一起看 诊断框架 反馈词典 体验修正手册 手感打磨 战斗迭代 UI/UX 精修"
+}

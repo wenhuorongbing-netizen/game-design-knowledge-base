@@ -1,0 +1,888 @@
+[
+    {
+        "id":  "game-design-concepts-course",
+        "title":  "Game Design Concepts",
+        "authors":  [
+                        "Ian Schreiber"
+                    ],
+        "year":  2009,
+        "kind":  "course",
+        "canonical_url":  "https://gamedesignconcepts.wordpress.com/",
+        "publisher_or_source":  "Game Design Concepts",
+        "language":  "en",
+        "license":  "CC BY 3.0 US",
+        "access_mode":  "downloaded_open",
+        "source_ids":  [
+                           "gamedesignconcepts"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "single-mechanic-prototype-design",
+        "theme_tags":  [
+                           "design-fundamentals",
+                           "playtesting",
+                           "prompt-design"
+                       ],
+        "summary":  "Ian Schreiber 的开放课程，覆盖游戏定义、形式要素、机制与动态、乐趣、叙事、试玩、平衡和 UI。",
+        "key_points":  [
+                           "适合建立全团队共同语言。",
+                           "特别适合原型、迭代和设计训练。",
+                           "可直接映射到 prompt 体系中的立项、玩法、平衡和试玩类母类。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "玩法策划",
+                                "制作人"
+                            ],
+        "official_links":  [
+                               "https://gamedesignconcepts.wordpress.com/",
+                               "https://gamedesignconcepts.wordpress.com/about/"
+                           ],
+        "seed_bundle":  "game-design-concepts",
+        "related_work_ids":  [
+                                 "game-design-workshop",
+                                 "challenges-for-game-designers",
+                                 "mit-ocw-2016-introduction-to-game-design-methods"
+                             ],
+        "usage_relevance":  "最适合把泛泛系统讨论重新压回可验证机制和迭代流程。"
+    },
+    {
+        "id":  "mit-ocw-2016-introduction-to-game-design-methods",
+        "title":  "MIT OCW: Introduction to Game Design Methods (Spring 2016)",
+        "authors":  [
+                        "Mikael Jakobsson",
+                        "Sara Verrilli"
+                    ],
+        "year":  2016,
+        "kind":  "course",
+        "canonical_url":  "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+        "publisher_or_source":  "MIT OpenCourseWare",
+        "language":  "en",
+        "license":  "CC BY-NC-SA 4.0",
+        "access_mode":  "downloaded_open",
+        "source_ids":  [
+                           "mit-ocw"
+                       ],
+        "phase_group":  "testing-acceptance-audit",
+        "deliverable_type":  "regression-checklist",
+        "theme_tags":  [
+                           "playtesting",
+                           "design-fundamentals",
+                           "project-audit"
+                       ],
+        "summary":  "MIT 的方法论课程材料，包含 board game analysis、research、pitch、paper prototyping 和 playtest 等完整作业链。",
+        "key_points":  [
+                           "非常适合把知识库转成训练流程。",
+                           "能直接沉淀成 prompt 和检查单。",
+                           "对“做完一个原型后怎么验证”特别有帮助。"
+                       ],
+        "recommended_for":  [
+                                "制作",
+                                "系统策划",
+                                "玩法策划",
+                                "测试"
+                            ],
+        "official_links":  [
+                               "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/"
+                           ],
+        "seed_bundle":  "mit-ocw-2016",
+        "related_work_ids":  [
+                                 "game-design-concepts-course",
+                                 "game-design-workshop"
+                             ],
+        "usage_relevance":  "最适合用于制作原型验证、试玩记录和审查模板。"
+    },
+    {
+        "id":  "mit-ocw-2014-game-design",
+        "title":  "MIT OCW: Game Design (Spring 2014)",
+        "authors":  [
+                        "Philip B. Tan",
+                        "Richard Eberhardt"
+                    ],
+        "year":  2014,
+        "kind":  "course",
+        "canonical_url":  "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+        "publisher_or_source":  "MIT OpenCourseWare",
+        "language":  "en",
+        "license":  "CC BY-NC-SA 4.0",
+        "access_mode":  "downloaded_open",
+        "source_ids":  [
+                           "mit-ocw"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "single-mechanic-prototype-design",
+        "theme_tags":  [
+                           "design-fundamentals",
+                           "formalism",
+                           "playtesting"
+                       ],
+        "summary":  "MIT 的非数字游戏设计课，覆盖单机制、体验与美学、Perspective 以及规则写作规范。",
+        "key_points":  [
+                           "对规则表达非常有帮助。",
+                           "适合把体验目标转回具体机制。",
+                           "规则写作规范能直接用于项目文档质量提升。"
+                       ],
+        "recommended_for":  [
+                                "系统策划",
+                                "文档负责人",
+                                "玩法策划",
+                                "UI/UX"
+                            ],
+        "official_links":  [
+                               "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/"
+                           ],
+        "seed_bundle":  "mit-ocw-2014",
+        "related_work_ids":  [
+                                 "rules-of-play",
+                                 "game-design-workshop"
+                             ],
+        "usage_relevance":  "适合用来重写玩法规则、可读性规范和规则说明文档。"
+    },
+    {
+        "id":  "mit-ocw-2010-game-design",
+        "title":  "MIT OCW: Game Design (Fall 2010)",
+        "authors":  [
+                        "Philip B. Tan",
+                        "Jason Begy"
+                    ],
+        "year":  2010,
+        "kind":  "course",
+        "canonical_url":  "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/",
+        "publisher_or_source":  "MIT OpenCourseWare",
+        "language":  "en",
+        "license":  "CC BY-NC-SA 4.0",
+        "access_mode":  "downloaded_open",
+        "source_ids":  [
+                           "mit-ocw"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "single-mechanic-prototype-design",
+        "theme_tags":  [
+                           "design-fundamentals",
+                           "formalism"
+                       ],
+        "summary":  "MIT 的更偏样例与规则资产的课程资源集，适合研究规则排版、卡片和板面交付物。",
+        "key_points":  [
+                           "是很实用的交付物样本库。",
+                           "适合建立规则文件与资产规格感。",
+                           "适合和 2014、2016 两套材料联动使用。"
+                       ],
+        "recommended_for":  [
+                                "系统策划",
+                                "制作",
+                                "UI/UX"
+                            ],
+        "official_links":  [
+                               "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/"
+                           ],
+        "seed_bundle":  "mit-ocw-2010",
+        "related_work_ids":  [
+                                 "mit-ocw-2014-game-design",
+                                 "game-design-workshop"
+                             ],
+        "usage_relevance":  "适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。"
+    },
+    {
+        "id":  "designing-virtual-worlds",
+        "title":  "Designing Virtual Worlds",
+        "authors":  [
+                        "Richard A. Bartle"
+                    ],
+        "year":  2003,
+        "kind":  "book",
+        "canonical_url":  "https://mud.co.uk/dvw/",
+        "publisher_or_source":  "Richard A. Bartle",
+        "language":  "en",
+        "license":  "CC BY-NC-ND 4.0",
+        "access_mode":  "downloaded_open",
+        "source_ids":  [
+                           "mud-co-uk"
+                       ],
+        "phase_group":  "content-narrative",
+        "deliverable_type":  "worldbuilding",
+        "theme_tags":  [
+                           "online-worlds",
+                           "player-motivation",
+                           "systems-thinking"
+                       ],
+        "summary":  "MMO 和虚拟世界设计经典，关注身份、社交结构、玩家类型和长期世界。",
+        "key_points":  [
+                           "研究长期世界与身份表达的必读材料。",
+                           "对社交动机和留存特别有价值。",
+                           "适合处理庄园、商队和长期世界关系。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "叙事设计",
+                                "运营"
+                            ],
+        "official_links":  [
+                               "https://mud.co.uk/dvw/",
+                               "https://mud.co.uk/richard/papers.htm"
+                           ],
+        "seed_bundle":  "richard-bartle",
+        "related_work_ids":  [
+                                 "a-theory-of-fun-for-game-design",
+                                 "the-art-of-game-design"
+                             ],
+        "usage_relevance":  "对长期世界、身份成长、社交结构和玩家留存最有帮助。"
+    },
+    {
+        "id":  "mda-formal-approach",
+        "title":  "MDA: A Formal Approach to Game Design and Game Research",
+        "authors":  [
+                        "Robin Hunicke",
+                        "Marc LeBlanc",
+                        "Robert Zubek"
+                    ],
+        "year":  2004,
+        "kind":  "paper",
+        "canonical_url":  "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+        "publisher_or_source":  "Northwestern University",
+        "language":  "en",
+        "license":  "Openly accessible PDF",
+        "access_mode":  "downloaded_open",
+        "source_ids":  [
+                           "northwestern-users"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "core-loop-design",
+        "theme_tags":  [
+                           "formalism",
+                           "systems-thinking",
+                           "design-fundamentals"
+                       ],
+        "summary":  "MDA 是最常用的机制-动态-美学分析框架，适合把抽象体验目标映射回系统结构。",
+        "key_points":  [
+                           "适合做体验目标对齐。",
+                           "适合查找机制与体验之间的断层。",
+                           "适合做设计复盘和评审语言。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "玩法策划",
+                                "项目审计"
+                            ],
+        "official_links":  [
+                               "https://users.cs.northwestern.edu/~hunicke/MDA.pdf"
+                           ],
+        "seed_bundle":  "mda-paper",
+        "related_work_ids":  [
+                                 "rules-of-play",
+                                 "game-mechanics-advanced-game-design",
+                                 "advanced-game-design-a-systems-approach"
+                             ],
+        "usage_relevance":  "适合审查经营、贸易、战斗等系统是否真的支撑目标体验。"
+    },
+    {
+        "id":  "the-art-of-game-design",
+        "title":  "The Art of Game Design: A Book of Lenses",
+        "authors":  [
+                        "Jesse Schell"
+                    ],
+        "year":  2019,
+        "kind":  "book",
+        "canonical_url":  "https://schellgames.com/art-of-game-design",
+        "publisher_or_source":  "Schell Games / CRC Press",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "schellgames",
+                           "routledge"
+                       ],
+        "phase_group":  "initiation-direction",
+        "deliverable_type":  "game-direction-convergence",
+        "theme_tags":  [
+                           "design-fundamentals",
+                           "systems-thinking",
+                           "player-motivation"
+                       ],
+        "summary":  "用镜头方法从体验、结构、空间、叙事、平衡和商业角度反复审查一个设计。",
+        "key_points":  [
+                           "特别适合上游方向收敛。",
+                           "是母类设计审查最强的主干书之一。",
+                           "能作为 prompt 体系的高层问题库。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "游戏总监",
+                                "制作人"
+                            ],
+        "official_links":  [
+                               "https://schellgames.com/art-of-game-design",
+                               "https://www.routledge.com/link/link/p/book/9781138632059"
+                           ],
+        "related_work_ids":  [
+                                 "game-design-workshop",
+                                 "a-theory-of-fun-for-game-design",
+                                 "designing-virtual-worlds"
+                             ],
+        "usage_relevance":  "适合作为总设计审查框架和高层问题清单。"
+    },
+    {
+        "id":  "rules-of-play",
+        "title":  "Rules of Play",
+        "authors":  [
+                        "Katie Salen Tekinbaş",
+                        "Eric Zimmerman"
+                    ],
+        "year":  2003,
+        "kind":  "book",
+        "canonical_url":  "https://mitpress.mit.edu/9780262240451/rules-of-play",
+        "publisher_or_source":  "MIT Press",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "mit-press"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "core-loop-design",
+        "theme_tags":  [
+                           "formalism",
+                           "design-fundamentals",
+                           "systems-thinking"
+                       ],
+        "summary":  "规则、系统、意义与设计语言的经典基础书。",
+        "key_points":  [
+                           "特别适合规则与系统语言统一。",
+                           "适合文档和审查术语标准化。",
+                           "适合作为形式化参考底座。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "文档负责人"
+                            ],
+        "official_links":  [
+                               "https://mitpress.mit.edu/9780262240451/rules-of-play"
+                           ],
+        "related_work_ids":  [
+                                 "mda-formal-approach",
+                                 "mit-ocw-2014-game-design"
+                             ],
+        "usage_relevance":  "适合清理规则描述、系统边界和设计语言。"
+    },
+    {
+        "id":  "characteristics-of-games",
+        "title":  "Characteristics of Games",
+        "authors":  [
+                        "George Skaff Elias",
+                        "Richard Garfield",
+                        "K. Robert Gutschera"
+                    ],
+        "year":  2012,
+        "kind":  "book",
+        "canonical_url":  "https://mitpress.mit.edu/9780262542692/characteristics-of-games/",
+        "publisher_or_source":  "MIT Press",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "mit-press"
+                       ],
+        "phase_group":  "numbers-economy",
+        "deliverable_type":  "numeric-framework-design",
+        "theme_tags":  [
+                           "formalism",
+                           "economy-loops",
+                           "systems-thinking"
+                       ],
+        "summary":  "从状态、信息、不确定性、冲突和结构要素分析游戏。",
+        "key_points":  [
+                           "适合做形式化机制拆解。",
+                           "适合资源与决策空间分析。",
+                           "适合和 Game Mechanics 联动。"
+                       ],
+        "recommended_for":  [
+                                "系统策划",
+                                "数值策划",
+                                "主策"
+                            ],
+        "official_links":  [
+                               "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+                           ],
+        "related_work_ids":  [
+                                 "game-mechanics-advanced-game-design",
+                                 "advanced-game-design-a-systems-approach"
+                             ],
+        "usage_relevance":  "适合梳理资源、信息、动作、不确定性和长期决策结构。"
+    },
+    {
+        "id":  "a-theory-of-fun-for-game-design",
+        "title":  "A Theory of Fun for Game Design",
+        "authors":  [
+                        "Raph Koster"
+                    ],
+        "year":  2013,
+        "kind":  "book",
+        "canonical_url":  "https://www.theoryoffun.com/",
+        "publisher_or_source":  "Theory of Fun / O\u0027Reilly",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "theoryoffun"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "difficulty-curve-design",
+        "theme_tags":  [
+                           "fun-theory",
+                           "player-motivation",
+                           "systems-thinking"
+                       ],
+        "summary":  "用学习和模式识别解释乐趣、重复和掌握感。",
+        "key_points":  [
+                           "特别适合找出无聊和重复的根源。",
+                           "适合分析成长曲线是否带来新理解。",
+                           "适合和高层设计审查联动。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "数值策划"
+                            ],
+        "official_links":  [
+                               "https://www.theoryoffun.com/"
+                           ],
+        "related_work_ids":  [
+                                 "the-art-of-game-design",
+                                 "designing-virtual-worlds"
+                             ],
+        "usage_relevance":  "适合检查经营、贸易、战斗等循环是否持续产生新掌握感。"
+    },
+    {
+        "id":  "game-design-workshop",
+        "title":  "Game Design Workshop",
+        "authors":  [
+                        "Tracy Fullerton"
+                    ],
+        "year":  2024,
+        "kind":  "book",
+        "canonical_url":  "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009",
+        "publisher_or_source":  "A K Peters / CRC Press",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "routledge"
+                       ],
+        "phase_group":  "testing-acceptance-audit",
+        "deliverable_type":  "gameplay-acceptance",
+        "theme_tags":  [
+                           "playtesting",
+                           "design-fundamentals",
+                           "prompt-design"
+                       ],
+        "summary":  "Playcentric 设计流程经典，覆盖原型、试玩、迭代和团队沟通。",
+        "key_points":  [
+                           "特别适合把设计转成流程。",
+                           "适合建立每轮评审产物格式。",
+                           "适合把知识库转成训练和工作流。"
+                       ],
+        "recommended_for":  [
+                                "制作",
+                                "主策",
+                                "玩法策划",
+                                "系统策划"
+                            ],
+        "official_links":  [
+                               "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+                           ],
+        "related_work_ids":  [
+                                 "game-design-concepts-course",
+                                 "mit-ocw-2016-introduction-to-game-design-methods"
+                             ],
+        "usage_relevance":  "适合直接指导原型、试玩和玩法迭代流程。"
+    },
+    {
+        "id":  "game-feel",
+        "title":  "Game Feel: A Game Designer\u0027s Guide to Virtual Sensation",
+        "authors":  [
+                        "Steve Swink"
+                    ],
+        "year":  2009,
+        "kind":  "book",
+        "canonical_url":  "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282",
+        "publisher_or_source":  "Routledge",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "routledge"
+                       ],
+        "phase_group":  "art-ui-experience",
+        "deliverable_type":  "motion-hit-feel-expression",
+        "theme_tags":  [
+                           "hit-feel",
+                           "ui-ux",
+                           "combat"
+                       ],
+        "summary":  "解释移动、响应、音效、动效和控制反馈如何构成“手感”。",
+        "key_points":  [
+                           "适合战斗和移动反馈问题。",
+                           "适合 UI 反馈和动作感。",
+                           "适合把‘不爽’拆成具体原因。"
+                       ],
+        "recommended_for":  [
+                                "玩法策划",
+                                "UI/UX",
+                                "程序",
+                                "特效"
+                            ],
+        "official_links":  [
+                               "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282"
+                           ],
+        "related_work_ids":  [
+                                 "level-up",
+                                 "game-design-workshop"
+                             ],
+        "usage_relevance":  "适合改进战斗、操作、反馈和信息回应层。"
+    },
+    {
+        "id":  "game-mechanics-advanced-game-design",
+        "title":  "Game Mechanics: Advanced Game Design",
+        "authors":  [
+                        "Ernest Adams",
+                        "Joris Dormans"
+                    ],
+        "year":  2012,
+        "kind":  "book",
+        "canonical_url":  "https://www.informit.com/store/product.aspx?isbn=9780132946681",
+        "publisher_or_source":  "InformIT / New Riders",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "user_file_needed",
+        "source_ids":  [
+                           "informit"
+                       ],
+        "phase_group":  "numbers-economy",
+        "deliverable_type":  "economy-system-design",
+        "theme_tags":  [
+                           "systems-thinking",
+                           "economy-loops",
+                           "formalism"
+                       ],
+        "summary":  "从机制结构、资源循环、Machinations 和平衡视角设计复杂系统。",
+        "key_points":  [
+                           "是数值与经济设计主干书之一。",
+                           "适合资源循环和平衡结构分析。",
+                           "适合把系统设计从直觉推进到可建模层。"
+                       ],
+        "recommended_for":  [
+                                "系统策划",
+                                "数值策划",
+                                "主策"
+                            ],
+        "official_links":  [
+                               "https://www.informit.com/store/product.aspx?isbn=9780132946681"
+                           ],
+        "related_work_ids":  [
+                                 "characteristics-of-games",
+                                 "advanced-game-design-a-systems-approach",
+                                 "mda-formal-approach"
+                             ],
+        "usage_relevance":  "适合处理贸易、成长、资源循环和战斗之间的系统耦合。"
+    },
+    {
+        "id":  "advanced-game-design-a-systems-approach",
+        "title":  "Advanced Game Design: A Systems Approach",
+        "authors":  [
+                        "Michael Sellers"
+                    ],
+        "year":  2018,
+        "kind":  "book",
+        "canonical_url":  "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246",
+        "publisher_or_source":  "InformIT / New Riders",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "metadata_only",
+        "source_ids":  [
+                           "informit"
+                       ],
+        "phase_group":  "numbers-economy",
+        "deliverable_type":  "numeric-framework-design",
+        "theme_tags":  [
+                           "systems-thinking",
+                           "economy-loops",
+                           "design-fundamentals"
+                       ],
+        "summary":  "将系统论与工业实践结合，强调整个体验、循环和设计推进方法。",
+        "key_points":  [
+                           "适合作为系统思维中层桥梁。",
+                           "适合把高层概念转成具体循环。",
+                           "适合和 MDA、Game Mechanics 搭配。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "数值策划"
+                            ],
+        "official_links":  [
+                               "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246"
+                           ],
+        "related_work_ids":  [
+                                 "game-mechanics-advanced-game-design",
+                                 "mda-formal-approach"
+                             ],
+        "usage_relevance":  "适合补复杂系统与全局体验之间的中层方法论。"
+    },
+    {
+        "id":  "level-up",
+        "title":  "Level Up! The Guide to Great Video Game Design",
+        "authors":  [
+                        "Scott Rogers"
+                    ],
+        "year":  2024,
+        "kind":  "book",
+        "canonical_url":  "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx",
+        "publisher_or_source":  "Wiley",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "metadata_only",
+        "source_ids":  [
+                           "wiley"
+                       ],
+        "phase_group":  "development-implementation",
+        "deliverable_type":  "technical-solution-spec",
+        "theme_tags":  [
+                           "ui-ux",
+                           "combat",
+                           "prompt-design"
+                       ],
+        "summary":  "更贴近商业开发流程的游戏设计实务书，覆盖文档、关卡、生产表达和落地沟通。",
+        "key_points":  [
+                           "适合设计文档表达和生产落地。",
+                           "适合和 Game Feel、Game Design Workshop 搭配。",
+                           "适合开发实现和策划之间的沟通桥梁。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "制作",
+                                "程序",
+                                "玩法策划"
+                            ],
+        "official_links":  [
+                               "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+                           ],
+        "related_work_ids":  [
+                                 "game-feel",
+                                 "game-design-workshop"
+                             ],
+        "usage_relevance":  "适合把高层设计转成可执行 spec、任务和团队可读文档。"
+    },
+    {
+        "id":  "challenges-for-game-designers",
+        "title":  "Challenges for Game Designers",
+        "authors":  [
+                        "Brenda Romero",
+                        "Ian Schreiber"
+                    ],
+        "year":  2009,
+        "kind":  "book",
+        "canonical_url":  "https://gamedesignconcepts.wordpress.com/",
+        "publisher_or_source":  "Ian Schreiber / Brenda Romero reference pages",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "metadata_only",
+        "source_ids":  [
+                           "gamedesignconcepts"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "single-mechanic-prototype-design",
+        "theme_tags":  [
+                           "playtesting",
+                           "prompt-design",
+                           "design-fundamentals"
+                       ],
+        "summary":  "通过大量非数字练习训练设计肌肉，适合把知识库扩展为训练体系。",
+        "key_points":  [
+                           "很适合做训练型 prompt。",
+                           "适合新成员训练和热身。",
+                           "适合与 Game Design Concepts 形成课程对。"
+                       ],
+        "recommended_for":  [
+                                "系统策划",
+                                "玩法策划",
+                                "新人培养"
+                            ],
+        "official_links":  [
+                               "https://gamedesignconcepts.wordpress.com/"
+                           ],
+        "related_work_ids":  [
+                                 "game-design-concepts-course",
+                                 "game-design-workshop"
+                             ],
+        "usage_relevance":  "适合制作题库式训练 prompt 和新人练习体系。"
+    },
+    {
+        "id":  "the-aesthetic-of-play",
+        "title":  "The Aesthetic of Play",
+        "authors":  [
+                        "Brian Upton"
+                    ],
+        "year":  2015,
+        "kind":  "book",
+        "canonical_url":  "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/",
+        "publisher_or_source":  "MIT Press",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "metadata_only",
+        "source_ids":  [
+                           "mit-press"
+                       ],
+        "phase_group":  "art-ui-experience",
+        "deliverable_type":  "player-flow-review",
+        "theme_tags":  [
+                           "fun-theory",
+                           "systems-thinking"
+                       ],
+        "summary":  "从体验生成和意义建构角度讨论 play、规则和叙事。",
+        "key_points":  [
+                           "适合‘体验为什么成立’这一层。",
+                           "适合处理玩法与意义之间的关系。",
+                           "适合作为高阶补充阅读。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "叙事设计",
+                                "UI/UX"
+                            ],
+        "official_links":  [
+                               "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+                           ],
+        "related_work_ids":  [
+                                 "play-matters",
+                                 "the-rule-book"
+                             ],
+        "usage_relevance":  "适合补体验层与叙事层判断。"
+    },
+    {
+        "id":  "play-matters",
+        "title":  "Play Matters",
+        "authors":  [
+                        "Miguel Sicart"
+                    ],
+        "year":  2014,
+        "kind":  "book",
+        "canonical_url":  "https://mitpress.mit.edu/9780262534512/play-matters/",
+        "publisher_or_source":  "MIT Press",
+        "language":  "en",
+        "license":  "Commercial",
+        "access_mode":  "metadata_only",
+        "source_ids":  [
+                           "mit-press"
+                       ],
+        "phase_group":  "content-narrative",
+        "deliverable_type":  "worldbuilding",
+        "theme_tags":  [
+                           "player-motivation",
+                           "fun-theory"
+                       ],
+        "summary":  "从玩本身而不是从具体对象出发，理解 playfulness 和设计。",
+        "key_points":  [
+                           "适合世界、身份和态度层分析。",
+                           "适合高层设计哲学与体验审查。",
+                           "适合作为内容与叙事类的次级强主题。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "叙事设计",
+                                "游戏总监"
+                            ],
+        "official_links":  [
+                               "https://mitpress.mit.edu/9780262534512/play-matters/"
+                           ],
+        "related_work_ids":  [
+                                 "the-aesthetic-of-play",
+                                 "designing-virtual-worlds"
+                             ],
+        "usage_relevance":  "适合补玩家为什么愿意长期留在世界中的判断。"
+    },
+    {
+        "id":  "the-rule-book",
+        "title":  "The Rule Book",
+        "authors":  [
+                        "Jaakko Stenros",
+                        "Markus Montola"
+                    ],
+        "year":  2024,
+        "kind":  "book",
+        "canonical_url":  "https://mitpress.mit.edu/9780262377539/the-rule-book/",
+        "publisher_or_source":  "MIT Press",
+        "language":  "en",
+        "license":  "Open access book page / commercial print",
+        "access_mode":  "metadata_only",
+        "source_ids":  [
+                           "mit-press"
+                       ],
+        "phase_group":  "core-gameplay-systems",
+        "deliverable_type":  "core-loop-design",
+        "theme_tags":  [
+                           "formalism",
+                           "systems-thinking"
+                       ],
+        "summary":  "把规则拆分为正式、内化、社会、外部和物质五类，适合重新理解规则边界。",
+        "key_points":  [
+                           "适合重新理解规则不只是说明书文本。",
+                           "适合做系统边界和社会规则分析。",
+                           "适合作为高阶规则理论补充。"
+                       ],
+        "recommended_for":  [
+                                "主策",
+                                "系统策划",
+                                "叙事设计"
+                            ],
+        "official_links":  [
+                               "https://mitpress.mit.edu/9780262377539/the-rule-book/"
+                           ],
+        "related_work_ids":  [
+                                 "rules-of-play",
+                                 "mda-formal-approach"
+                             ],
+        "usage_relevance":  "适合审查显性规则、隐性规则和社会规则之间的差距。"
+    },
+    {
+        "id":  "game-ai-pro-series",
+        "title":  "Game AI Pro",
+        "authors":  [
+                        "Steve Rabin et al."
+                    ],
+        "year":  2013,
+        "kind":  "book",
+        "canonical_url":  "https://www.gameaipro.com/",
+        "publisher_or_source":  "Game AI Pro",
+        "language":  "en",
+        "license":  "External-only in this knowledge base",
+        "access_mode":  "external_only",
+        "source_ids":  [
+                           "gameai-pro"
+                       ],
+        "phase_group":  "development-implementation",
+        "deliverable_type":  "technical-solution-spec",
+        "theme_tags":  [
+                           "systems-thinking"
+                       ],
+        "summary":  "AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。",
+        "key_points":  [
+                           "很适合开发实现层延伸研究。",
+                           "站点明确不应二次托管。",
+                           "V1 仅提供官方外链。"
+                       ],
+        "recommended_for":  [
+                                "程序",
+                                "系统策划",
+                                "技术策划"
+                            ],
+        "official_links":  [
+                               "https://www.gameaipro.com/"
+                           ],
+        "related_work_ids":  [
+                                 "game-mechanics-advanced-game-design"
+                             ],
+        "usage_relevance":  "适合后续扩展 AI、寻路、行为树和调试研究。"
+    }
+]

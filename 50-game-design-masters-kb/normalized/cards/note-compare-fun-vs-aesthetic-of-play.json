@@ -1,0 +1,70 @@
+{
+  "id": "note-compare-fun-vs-aesthetic-of-play",
+  "entity_type": "card",
+  "title": "A Theory of Fun for Game Design vs The Aesthetic of Play",
+  "summary": "Use Koster to understand why challenge and learning stay engaging, and use Upton to reason about agency, expression, and the lived shape of play.",
+  "card_kind": "comparison_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "difficulty-curve-design",
+  "resource_kind": "note",
+  "source_work_id": "a-theory-of-fun-for-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "player-motivation",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "work-a-theory-of-fun-for-game-design",
+    "work-the-aesthetic-of-play"
+  ],
+  "official_links": [
+    "https://www.theoryoffun.com/",
+    "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+  ],
+  "local_links": [],
+  "body_markdown": "# A Theory of Fun for Game Design vs The Aesthetic of Play\n\n> Use Koster to understand why challenge and learning stay engaging, and use Upton to reason about agency, expression, and the lived shape of play.\n\n## Comparison Axis\n\n- learning-and-pattern theory vs agency-and-play aesthetics\n\n## A Theory of Fun for Game Design 更强在什么地方\n\n- 体验判断\n- 成长曲线讨论\n- 设计哲学补课\n- 理论框架\n- Use when: You are asking why a loop stays engaging, when it becomes solved, or what the player is learning.\n\n## The Aesthetic of Play 更强在什么地方\n\n- 体验评审\n- 叙事-玩法关系分析\n- 高阶理论补课\n- 高阶视角\n- Use when: You are asking what kinds of expression, agency, or aesthetic stance the player actually inhabits while playing.\n\n## 如何一起使用\n\n- Treat Koster as the motivation model and Upton as the aesthetic framing for how that motivation is experienced.\n\n## A Theory of Fun for Game Design 的结构证据\n\n- Foreword (from the First Edition) (p.18)\n- Prologue: My Grandfather (p.20)\n- Chapter One: Why Write This Book? (p.22)\n- Chapter Two: How the Brain Works (p.32)\n- Chapter Three: What Games Are (p.54)\n\n## The Aesthetic of Play 的结构证据\n\n- Acknowledgments (p.10)\n- Introduction (p.12)\n- I Games (p.18)\n- 1 Defining Play (p.20)\n- 2 Interactivity (p.34)\n",
+  "body_html": "<h1 id=\"a-theory-of-fun-for-game-design-vs-the-aesthetic-of-play\">A Theory of Fun for Game Design vs The Aesthetic of Play</h1>\n<blockquote>Use Koster to understand why challenge and learning stay engaging, and use Upton to reason about agency, expression, and the lived shape of play.</blockquote>\n<h2 id=\"comparison-axis\">Comparison Axis</h2>\n<ul><li>learning-and-pattern theory vs agency-and-play aesthetics</li></ul>\n<h2 id=\"a-theory-of-fun-for-game-design-更强在什么地方\">A Theory of Fun for Game Design 更强在什么地方</h2>\n<ul><li>体验判断</li><li>成长曲线讨论</li><li>设计哲学补课</li><li>理论框架</li><li>Use when: You are asking why a loop stays engaging, when it becomes solved, or what the player is learning.</li></ul>\n<h2 id=\"the-aesthetic-of-play-更强在什么地方\">The Aesthetic of Play 更强在什么地方</h2>\n<ul><li>体验评审</li><li>叙事-玩法关系分析</li><li>高阶理论补课</li><li>高阶视角</li><li>Use when: You are asking what kinds of expression, agency, or aesthetic stance the player actually inhabits while playing.</li></ul>\n<h2 id=\"如何一起使用\">如何一起使用</h2>\n<ul><li>Treat Koster as the motivation model and Upton as the aesthetic framing for how that motivation is experienced.</li></ul>\n<h2 id=\"a-theory-of-fun-for-game-design-的结构证据\">A Theory of Fun for Game Design 的结构证据</h2>\n<ul><li>Foreword (from the First Edition) (p.18)</li><li>Prologue: My Grandfather (p.20)</li><li>Chapter One: Why Write This Book? (p.22)</li><li>Chapter Two: How the Brain Works (p.32)</li><li>Chapter Three: What Games Are (p.54)</li></ul>\n<h2 id=\"the-aesthetic-of-play-的结构证据\">The Aesthetic of Play 的结构证据</h2>\n<ul><li>Acknowledgments (p.10)</li><li>Introduction (p.12)</li><li>I Games (p.18)</li><li>1 Defining Play (p.20)</li><li>2 Interactivity (p.34)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "A Theory of Fun for Game Design vs The Aesthetic of Play",
+      "id": "a-theory-of-fun-for-game-design-vs-the-aesthetic-of-play"
+    },
+    {
+      "level": 2,
+      "text": "Comparison Axis",
+      "id": "comparison-axis"
+    },
+    {
+      "level": 2,
+      "text": "A Theory of Fun for Game Design 更强在什么地方",
+      "id": "a-theory-of-fun-for-game-design-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "The Aesthetic of Play 更强在什么地方",
+      "id": "the-aesthetic-of-play-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "如何一起使用",
+      "id": "如何一起使用"
+    },
+    {
+      "level": 2,
+      "text": "A Theory of Fun for Game Design 的结构证据",
+      "id": "a-theory-of-fun-for-game-design-的结构证据"
+    },
+    {
+      "level": 2,
+      "text": "The Aesthetic of Play 的结构证据",
+      "id": "the-aesthetic-of-play-的结构证据"
+    }
+  ],
+  "search_text": "A Theory of Fun for Game Design The Aesthetic of Play learning-and-pattern theory vs agency-and-play aesthetics Use Koster to understand why challenge and learning stay engaging, and use Upton to reason about agency, expression, and the lived shape of play. You are asking why a loop stays engaging, when it becomes solved, or what the player is learning. You are asking what kinds of expression, agency, or aesthetic stance the player actually inhabits while playing. Treat Koster as the motivation model and Upton as the aesthetic framing for how that motivation is experienced. 体验判断 成长曲线讨论 设计哲学补课 体验评审 叙事-玩法关系分析 高阶理论补课"
+}

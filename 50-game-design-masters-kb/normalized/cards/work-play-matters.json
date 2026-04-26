@@ -1,0 +1,110 @@
+{
+  "id": "work-play-matters",
+  "entity_type": "card",
+  "title": "Play Matters",
+  "summary": "从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。",
+  "card_kind": "book_entry",
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "resource_kind": "book",
+  "source_work_id": "play-matters",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "player-motivation",
+    "fun-theory"
+  ],
+  "related_work_ids": [
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262534512/play-matters/"
+  ],
+  "local_links": [
+    {
+      "label": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Play Matters\n\n## 基本信息\n\n- 作者：Miguel Sicart\n- 年份：2014\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。\n\n## 核心要点\n\n- 它偏体验哲学和社会层，不是玩法公式书。\n- 适合补“玩家为什么愿意长期留在这个世界里”。\n- 对身份、态度、长期沉浸和文化层判断有帮助。\n\n## 适用场景\n\n最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。\n\n## 知识定位\n\n- 关注领域：playfulness / 身份与态度 / 体验哲学 / 文化语境\n- 主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课\n- 推荐读法：按论点通读 / 和世界观设计并读 / 复盘时回查\n- 价值类型：哲学视角 / 体验扩展层 / 身份感分析\n- 最适合介入的阶段：方向思考 / 世界观深化 / 长期运营复盘\n\n## 分类\n\n- 一级分类：内容与叙事\n- 二级输出物：世界观设定\n- 主题标签：玩家动机 / 乐趣与学习\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Play Matters\n- 解析格式：pdf\n- 页数：171\n- 顶层目录预览：\n  - Contents\n  - On Thinking Playfully\n  - Acknowledgments\n  - Instructions for Reading This Book\n  - 1 Play Is\n  - 2 Playfulness\n  - 3 Toys\n  - 4 Playgrounds\n  - 5 Beauty\n  - 6 Politics\n  - 7 Architects\n  - 8 Play in the Era of Computing Machinery\n  - Notes\n  - References\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json`（ok）\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262534512/play-matters/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/play-matters/01-mitpress.mit.edu-9780262534512-play-matters-.html`\n\n## 相关条目\n\n- The Aesthetic of Play\n- Designing Virtual Worlds\n",
+  "body_html": "<h1 id=\"play-matters\">Play Matters</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Miguel Sicart</li><li>年份：2014</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它偏体验哲学和社会层，不是玩法公式书。</li><li>适合补“玩家为什么愿意长期留在这个世界里”。</li><li>对身份、态度、长期沉浸和文化层判断有帮助。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：playfulness / 身份与态度 / 体验哲学 / 文化语境</li><li>主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课</li><li>推荐读法：按论点通读 / 和世界观设计并读 / 复盘时回查</li><li>价值类型：哲学视角 / 体验扩展层 / 身份感分析</li><li>最适合介入的阶段：方向思考 / 世界观深化 / 长期运营复盘</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：内容与叙事</li><li>二级输出物：世界观设定</li><li>主题标签：玩家动机 / 乐趣与学习</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Play Matters</li><li>解析格式：pdf</li><li>页数：171</li><li>顶层目录预览：</li><li>Contents</li><li>On Thinking Playfully</li><li>Acknowledgments</li><li>Instructions for Reading This Book</li><li>1 Play Is</li><li>2 Playfulness</li><li>3 Toys</li><li>4 Playgrounds</li><li>5 Beauty</li><li>6 Politics</li><li>7 Architects</li><li>8 Play in the Era of Computing Machinery</li><li>Notes</li><li>References</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262534512/play-matters/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262534512/play-matters/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/play-matters/01-mitpress.mit.edu-9780262534512-play-matters-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>The Aesthetic of Play</li><li>Designing Virtual Worlds</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Play Matters",
+      "id": "play-matters"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Play Matters Miguel Sicart 从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。 它偏体验哲学和社会层，不是玩法公式书。 适合补“玩家为什么愿意长期留在这个世界里”。 对身份、态度、长期沉浸和文化层判断有帮助。 最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。 主策 叙事设计 游戏总监 playfulness 身份与态度 体验哲学 文化语境 世界与身份审查 长期沉浸判断 高层体验补课 按论点通读 和世界观设计并读 复盘时回查 哲学视角 体验扩展层 身份感分析 方向思考 世界观深化 长期运营复盘 Contents On Thinking Playfully Acknowledgments Instructions for Reading This Book 1 Play Is 2 Playfulness 3 Toys 4 Playgrounds 5 Beauty 6 Politics 7 Architects 8 Play in the Era of Computing Machinery Notes References 内容与叙事 世界观设定 玩家动机 乐趣与学习 MIT Press MIT Press - Book Details"
+}

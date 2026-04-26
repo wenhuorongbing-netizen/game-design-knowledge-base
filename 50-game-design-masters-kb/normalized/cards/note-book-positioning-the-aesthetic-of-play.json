@@ -1,0 +1,68 @@
+{
+  "id": "note-book-positioning-the-aesthetic-of-play",
+  "entity_type": "card",
+  "title": "The Aesthetic of Play：知识定位",
+  "summary": "最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "player-flow-review",
+  "resource_kind": "note",
+  "source_work_id": "the-aesthetic-of-play",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-aesthetic-of-play",
+    "play-matters",
+    "the-rule-book"
+  ],
+  "related_card_ids": [
+    "work-the-aesthetic-of-play"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+  ],
+  "local_links": [
+    {
+      "label": "The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# The Aesthetic of Play：知识定位\n\n## 这本书最适合解决什么\n\n最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。\n\n## 主要关注\n\n- 关注领域：体验美学 / 规则与意义 / 叙事体验关系\n- 主要用途：体验评审 / 叙事-玩法关系分析 / 高阶理论补课\n- 推荐读法：专题通读 / 与体验问题对照阅读 / 作为复盘补充\n- 价值类型：高阶视角 / 体验解释层\n- 适用阶段：方向深化 / 体验复盘 / 叙事审查\n\n## 和相邻书目的关系\n\n- Play Matters\n- The Rule Book\n\n## 结构证据\n\n- Contents\n- Acknowledgments\n- Introduction\n- I Games\n- 1 Defining Play\n- 2 Interactivity\n- 3 Play Spaces\n- 4 Heuristics\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"the-aesthetic-of-play：知识定位\">The Aesthetic of Play：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：体验美学 / 规则与意义 / 叙事体验关系</li><li>主要用途：体验评审 / 叙事-玩法关系分析 / 高阶理论补课</li><li>推荐读法：专题通读 / 与体验问题对照阅读 / 作为复盘补充</li><li>价值类型：高阶视角 / 体验解释层</li><li>适用阶段：方向深化 / 体验复盘 / 叙事审查</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Play Matters</li><li>The Rule Book</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Contents</li><li>Acknowledgments</li><li>Introduction</li><li>I Games</li><li>1 Defining Play</li><li>2 Interactivity</li><li>3 Play Spaces</li><li>4 Heuristics</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Aesthetic of Play：知识定位",
+      "id": "the-aesthetic-of-play：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "The Aesthetic of Play 从体验生成与意义建构的角度讨论 play、规则和叙事，适合用来分析‘为什么这个体验成立’而不只是‘它有哪些机制’。 最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。 体验美学 规则与意义 叙事体验关系 体验评审 叙事-玩法关系分析 高阶理论补课 专题通读 与体验问题对照阅读 作为复盘补充 高阶视角 体验解释层 方向深化 体验复盘 叙事审查"
+}

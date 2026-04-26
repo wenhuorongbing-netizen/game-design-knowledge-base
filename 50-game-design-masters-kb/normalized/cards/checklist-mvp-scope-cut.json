@@ -1,0 +1,56 @@
+{
+  "id": "checklist-mvp-scope-cut",
+  "entity_type": "card",
+  "title": "MVP 范围裁剪 Checklist",
+  "summary": "检查一个项目的首版范围是否已经被压到可验证、可交付、可止损。",
+  "card_kind": "checklist",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "mvp-scope-cut",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "prompt-initiation-direction",
+    "checklist-risk-precheck"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# MVP 范围裁剪 Checklist\n\n## 适用场景\n\n用于原型前、pre-production 前或 scope 膨胀后的一次硬裁剪。\n\n## 检查项\n\n- 首版只保留验证核心体验所必需的系统。\n- 可延后内容被明确标记，不再混在当前里程碑里。\n- 每个保留项都能回答“如果没有它，核心体验还成立吗”。\n- 世界观、内容量和生产规模没有先于验证目标。\n- 最贵的资产和技术项被延后或替换为轻量方案。\n- 首版完成后能得出清楚的 go / no-go 结论。\n- 如果周期砍半，团队已经知道下一轮继续删什么。\n\n## 通过标准\n\n- MVP 目标和最终完整版目标被区分清楚。\n- 团队知道当前版本是在验证，而不是在完工。\n- 范围缩减不会破坏项目身份。\n\n## 常见失败信号\n\n- 每个人都觉得自己那部分不能删。\n- 范围看起来像正式版的缩小复制，而不是验证版。\n- 删减只能靠砍内容量，不能砍系统复杂度。\n",
+  "body_html": "<h1 id=\"mvp-范围裁剪-checklist\">MVP 范围裁剪 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于原型前、pre-production 前或 scope 膨胀后的一次硬裁剪。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>首版只保留验证核心体验所必需的系统。</li><li>可延后内容被明确标记，不再混在当前里程碑里。</li><li>每个保留项都能回答“如果没有它，核心体验还成立吗”。</li><li>世界观、内容量和生产规模没有先于验证目标。</li><li>最贵的资产和技术项被延后或替换为轻量方案。</li><li>首版完成后能得出清楚的 go / no-go 结论。</li><li>如果周期砍半，团队已经知道下一轮继续删什么。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>MVP 目标和最终完整版目标被区分清楚。</li><li>团队知道当前版本是在验证，而不是在完工。</li><li>范围缩减不会破坏项目身份。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>每个人都觉得自己那部分不能删。</li><li>范围看起来像正式版的缩小复制，而不是验证版。</li><li>删减只能靠砍内容量，不能砍系统复杂度。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "MVP 范围裁剪 Checklist",
+      "id": "mvp-范围裁剪-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "MVP 范围裁剪 Checklist 检查一个项目的首版范围是否已经被压到可验证、可交付、可止损。 用于原型前、pre-production 前或 scope 膨胀后的一次硬裁剪。 首版只保留验证核心体验所必需的系统。 可延后内容被明确标记，不再混在当前里程碑里。 每个保留项都能回答“如果没有它，核心体验还成立吗”。 世界观、内容量和生产规模没有先于验证目标。 最贵的资产和技术项被延后或替换为轻量方案。 首版完成后能得出清楚的 go / no-go 结论。 如果周期砍半，团队已经知道下一轮继续删什么。 MVP 目标和最终完整版目标被区分清楚。 团队知道当前版本是在验证，而不是在完工。 范围缩减不会破坏项目身份。 每个人都觉得自己那部分不能删。 范围看起来像正式版的缩小复制，而不是验证版。 删减只能靠砍内容量，不能砍系统复杂度。 project-audit design-fundamentals"
+}

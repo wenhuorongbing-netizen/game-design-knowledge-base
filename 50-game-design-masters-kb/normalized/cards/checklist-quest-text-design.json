@@ -1,0 +1,56 @@
+{
+  "id": "checklist-quest-text-design",
+  "entity_type": "card",
+  "title": "任务文本设计 Checklist",
+  "summary": "检查任务文本是否清楚、可执行、符合角色与世界规则。",
+  "card_kind": "checklist",
+  "phase_group": "content-narrative",
+  "deliverable_type": "quest-text-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "worldbuilding",
+    "ui-ux"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "prompt-dialogue-writing",
+    "checklist-narrative-structure-review"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 任务文本设计 Checklist\n\n## 适用场景\n\n用于任务文案 review、日志文案 review，或排查“玩家看了字但还是不知道做什么”。\n\n## 检查项\n\n- 任务目标写成玩家可执行动作，而不是含糊愿望。\n- 文本长度与玩家阅读负担匹配。\n- 关键信息不会埋在背景描述里。\n- 角色口吻与世界观一致。\n- 玩家读完后能知道去哪里、做什么、为什么做。\n- 日志文本、接受文本、完成文本之间信息分工清楚。\n- 文本不会误导玩家做错误路径判断。\n\n## 通过标准\n\n- 任务文本既能说明目标，也能保留角色味道。\n- 玩家不需要二次猜测系统意图。\n- 文本支持行动，而不是只做装饰。\n\n## 常见失败信号\n\n- 文本很有风格，但任务目标不清楚。\n- 文本清楚了，但完全失去角色和世界语气。\n- 玩家只能靠 UI 高亮而不是文本理解任务。\n",
+  "body_html": "<h1 id=\"任务文本设计-checklist\">任务文本设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于任务文案 review、日志文案 review，或排查“玩家看了字但还是不知道做什么”。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>任务目标写成玩家可执行动作，而不是含糊愿望。</li><li>文本长度与玩家阅读负担匹配。</li><li>关键信息不会埋在背景描述里。</li><li>角色口吻与世界观一致。</li><li>玩家读完后能知道去哪里、做什么、为什么做。</li><li>日志文本、接受文本、完成文本之间信息分工清楚。</li><li>文本不会误导玩家做错误路径判断。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>任务文本既能说明目标，也能保留角色味道。</li><li>玩家不需要二次猜测系统意图。</li><li>文本支持行动，而不是只做装饰。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>文本很有风格，但任务目标不清楚。</li><li>文本清楚了，但完全失去角色和世界语气。</li><li>玩家只能靠 UI 高亮而不是文本理解任务。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "任务文本设计 Checklist",
+      "id": "任务文本设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "任务文本设计 Checklist 检查任务文本是否清楚、可执行、符合角色与世界规则。 用于任务文案 review、日志文案 review，或排查“玩家看了字但还是不知道做什么”。 任务目标写成玩家可执行动作，而不是含糊愿望。 文本长度与玩家阅读负担匹配。 关键信息不会埋在背景描述里。 角色口吻与世界观一致。 玩家读完后能知道去哪里、做什么、为什么做。 日志文本、接受文本、完成文本之间信息分工清楚。 文本不会误导玩家做错误路径判断。 任务文本既能说明目标，也能保留角色味道。 玩家不需要二次猜测系统意图。 文本支持行动，而不是只做装饰。 文本很有风格，但任务目标不清楚。 文本清楚了，但完全失去角色和世界语气。 玩家只能靠 UI 高亮而不是文本理解任务。 worldbuilding ui-ux"
+}

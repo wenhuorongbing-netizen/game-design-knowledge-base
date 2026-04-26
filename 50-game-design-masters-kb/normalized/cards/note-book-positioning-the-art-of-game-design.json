@@ -1,0 +1,71 @@
+{
+  "id": "note-book-positioning-the-art-of-game-design",
+  "entity_type": "card",
+  "title": "The Art of Game Design: A Book of Lenses：知识定位",
+  "summary": "最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "resource_kind": "note",
+  "source_work_id": "the-art-of-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "systems-thinking",
+    "player-motivation"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "a-theory-of-fun-for-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-the-art-of-game-design"
+  ],
+  "official_links": [
+    "https://schellgames.com/art-of-game-design",
+    "https://www.routledge.com/link/link/p/book/9781138632059"
+  ],
+  "local_links": [
+    {
+      "label": "The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf"
+    }
+  ],
+  "body_markdown": "# The Art of Game Design: A Book of Lenses：知识定位\n\n## 这本书最适合解决什么\n\n最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。\n\n## 主要关注\n\n- 关注领域：体验设计 / 玩家动机 / 迭代方法 / 界面与反馈 / 商业与伦理\n- 主要用途：高层方向收敛 / 设计评审 / 跨团队对齐 / 问题清单构建\n- 推荐读法：按章通读 / 按镜头反查 / 评审会前抽读\n- 价值类型：问题框架 / 评审语言 / 跨学科地图\n- 适用阶段：立项 / pre-production / vertical slice review / 上线后复盘\n\n## 和相邻书目的关系\n\n- Game Design Workshop\n- A Theory of Fun for Game Design\n- Designing Virtual Worlds\n\n## 结构证据\n\n- CONTENTS\n- table of lenses\n- Acknowledgments\n- HELLO\n- Chapter 1: In the Beginning, There Is the Designer\n- Chapter 2: The Designer Creates an Experience\n- Chapter 3: The Experience Takes Place in a Venue\n- Chapter 4: The Experience Rises Out of a Game\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n- 解析文件版本与官方条目版本可能不一致：private=second, official=third\n",
+  "body_html": "<h1 id=\"the-art-of-game-design-a-book-of-lenses：知识定位\">The Art of Game Design: A Book of Lenses：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：体验设计 / 玩家动机 / 迭代方法 / 界面与反馈 / 商业与伦理</li><li>主要用途：高层方向收敛 / 设计评审 / 跨团队对齐 / 问题清单构建</li><li>推荐读法：按章通读 / 按镜头反查 / 评审会前抽读</li><li>价值类型：问题框架 / 评审语言 / 跨学科地图</li><li>适用阶段：立项 / pre-production / vertical slice review / 上线后复盘</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Game Design Workshop</li><li>A Theory of Fun for Game Design</li><li>Designing Virtual Worlds</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>CONTENTS</li><li>table of lenses</li><li>Acknowledgments</li><li>HELLO</li><li>Chapter 1: In the Beginning, There Is the Designer</li><li>Chapter 2: The Designer Creates an Experience</li><li>Chapter 3: The Experience Takes Place in a Venue</li><li>Chapter 4: The Experience Rises Out of a Game</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li><li>解析文件版本与官方条目版本可能不一致：private=second, official=third</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Art of Game Design: A Book of Lenses：知识定位",
+      "id": "the-art-of-game-design-a-book-of-lenses：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "The Art of Game Design: A Book of Lenses 以“镜头”问题库组织游戏设计审查，从体验、玩家、机制、界面、故事、世界、团队、技术、商业到伦理，建立一套跨学科的高层判断框架。 最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。 体验设计 玩家动机 迭代方法 界面与反馈 商业与伦理 高层方向收敛 设计评审 跨团队对齐 问题清单构建 按章通读 按镜头反查 评审会前抽读 问题框架 评审语言 跨学科地图 立项 pre-production vertical slice review 上线后复盘"
+}

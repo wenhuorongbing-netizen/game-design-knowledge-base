@@ -1,0 +1,36 @@
+{
+  "id": "initiation-direction-checklist-pack",
+  "title": "立项与方向 Checklist Pack",
+  "summary": "Stage-specific review checklists for 立项与方向.",
+  "phase_group": "initiation-direction",
+  "phase_label": "立项与方向",
+  "phase_groups": [
+    "initiation-direction"
+  ],
+  "phase_labels": [
+    "立项与方向"
+  ],
+  "type": "checklist_pack",
+  "kind_label": "Checklist Pack",
+  "card_ids": [
+    "checklist-risk-precheck",
+    "checklist-initiation-direction",
+    "checklist-mvp-scope-cut"
+  ],
+  "count": 3,
+  "prompt_count": 0,
+  "checklist_count": 3,
+  "other_count": 0,
+  "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 立项与方向 review pass.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Use 立项与方向 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+    "Mark the failed checks first, then group them into a short fix order.",
+    "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+    "Repeat the checklist after the next meaningful revision."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/initiation-direction-checklist-pack.md",
+  "generated_at": "2026-04-26T00:39:23.254Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

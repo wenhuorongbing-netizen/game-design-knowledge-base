@@ -1,0 +1,45 @@
+{
+  "id": "balance-pack",
+  "title": "Balance Pack",
+  "summary": "Cross-phase bundle for economy architecture, combat numbers, reward logic, and balance review loops.",
+  "phase_group": "",
+  "phase_label": "Cross-phase",
+  "phase_groups": [
+    "numbers-economy"
+  ],
+  "phase_labels": [
+    "数值与经济设计"
+  ],
+  "type": "use_case_pack",
+  "kind_label": "Use Case Pack",
+  "card_ids": [
+    "prompt-numbers-economy",
+    "prompt-economy-system-design",
+    "prompt-currency-system-design",
+    "prompt-combat-balance",
+    "checklist-growth-curve-design",
+    "checklist-drop-reward-design",
+    "checklist-resource-production-consumption"
+  ],
+  "count": 7,
+  "prompt_count": 4,
+  "checklist_count": 3,
+  "other_count": 0,
+  "when_to_use": "Use this when the game has enough systems to show inflation, dead rewards, or unclear progression pressure.",
+  "required_inputs": [
+    "Key currencies and resource flows",
+    "Combat stats and progression targets",
+    "Reward tables, drop logic, or progression pacing",
+    "Current balance pain points or telemetry symptoms"
+  ],
+  "starter_steps": [
+    "Map the economy layers before touching individual numbers.",
+    "Separate currency roles from combat-balance roles.",
+    "Review growth curve and reward logic after the system frame is clear.",
+    "End with the smallest set of balance changes worth testing next."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/balance-pack.md",
+  "generated_at": "2026-04-26T00:39:23.272Z",
+  "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/balance-pack-ready-to-run.md",
+  "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/balance-pack-starter-prompt.md"
+}

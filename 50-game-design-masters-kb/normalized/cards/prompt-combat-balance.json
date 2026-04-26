@@ -1,0 +1,63 @@
+{
+  "id": "prompt-combat-balance",
+  "entity_type": "card",
+  "title": "战斗数值平衡 Prompt 模板",
+  "summary": "把战斗系统整理成 TTK、输出窗口、生存压力和风险回报的平衡结构。",
+  "card_kind": "prompt_template",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "combat-balance",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "combat",
+    "economy-loops",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games",
+    "game-feel"
+  ],
+  "related_card_ids": [
+    "prompt-combat-system-design",
+    "prompt-numbers-economy"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 战斗数值平衡 Prompt 模板\n\n## 适用场景\n\n当战斗已经能玩，但出现秒杀、刮痧、单一 build 或节奏失衡时使用。\n\n## 使用前提供\n\n- 玩家输出与防御结构\n- 敌人血量、伤害、护甲和行为频率\n- 关键战斗资源和冷却\n- 目标 TTK、容错和风险回报\n- 当前失衡症状\n\n## 预期输出\n\n1. 平衡目标\n2. 核心战斗指标\n3. 敌我数值关系\n4. 风险回报结构\n5. 失衡来源\n6. 调参顺序\n\n## Prompt 模板\n\n```text\n你是一个世界级战斗数值设计师。\n请根据以下战斗数据与目标，输出一份可操作的平衡分析方案。\n\n输入：\n- 玩家输出/防御：{{player_combat_stats}}\n- 敌人输出/防御：{{enemy_combat_stats}}\n- 资源与冷却：{{resources_and_cooldowns}}\n- 目标 TTK 与容错：{{target_ttk_and_margin}}\n- 风险回报预期：{{risk_reward_expectation}}\n- 当前症状：{{balance_symptoms}}\n\n请输出：\n1. 平衡目标：理想战斗节奏应该是什么。\n2. 核心指标：最该监控哪些数值关系。\n3. 敌我关系：输出、承伤、窗口、容错是否合理。\n4. 风险回报：高风险操作是否真的给出高回报。\n5. 症状来源：当前最可能导致失衡的机制或数值层。\n6. 调参顺序：先调哪些参数，再调哪些参数。\n\n要求：\n- 先指出结构问题，再谈具体数字。\n- 不要只给“削一点/加强一点”的建议。\n- 说明为什么会出现最优打法固化。\n```\n\n## 二次追问\n\n- 把平衡指标改成 boss 战版本。\n- 单独为高风险技能做收益校准。\n",
+  "body_html": "<h1 id=\"战斗数值平衡-prompt-模板\">战斗数值平衡 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当战斗已经能玩，但出现秒杀、刮痧、单一 build 或节奏失衡时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>玩家输出与防御结构</li><li>敌人血量、伤害、护甲和行为频率</li><li>关键战斗资源和冷却</li><li>目标 TTK、容错和风险回报</li><li>当前失衡症状</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>平衡目标</li><li>核心战斗指标</li><li>敌我数值关系</li><li>风险回报结构</li><li>失衡来源</li><li>调参顺序</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级战斗数值设计师。\n请根据以下战斗数据与目标，输出一份可操作的平衡分析方案。\n\n输入：\n- 玩家输出/防御：{{player_combat_stats}}\n- 敌人输出/防御：{{enemy_combat_stats}}\n- 资源与冷却：{{resources_and_cooldowns}}\n- 目标 TTK 与容错：{{target_ttk_and_margin}}\n- 风险回报预期：{{risk_reward_expectation}}\n- 当前症状：{{balance_symptoms}}\n\n请输出：\n1. 平衡目标：理想战斗节奏应该是什么。\n2. 核心指标：最该监控哪些数值关系。\n3. 敌我关系：输出、承伤、窗口、容错是否合理。\n4. 风险回报：高风险操作是否真的给出高回报。\n5. 症状来源：当前最可能导致失衡的机制或数值层。\n6. 调参顺序：先调哪些参数，再调哪些参数。\n\n要求：\n- 先指出结构问题，再谈具体数字。\n- 不要只给“削一点/加强一点”的建议。\n- 说明为什么会出现最优打法固化。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把平衡指标改成 boss 战版本。</li><li>单独为高风险技能做收益校准。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "战斗数值平衡 Prompt 模板",
+      "id": "战斗数值平衡-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "战斗数值平衡 Prompt 模板 把战斗系统整理成 TTK、输出窗口、生存压力和风险回报的平衡结构。 当战斗已经能玩，但出现秒杀、刮痧、单一 build 或节奏失衡时使用。 玩家输出与防御结构 敌人血量、伤害、护甲和行为频率 关键战斗资源和冷却 目标 TTK、容错和风险回报 当前失衡症状 平衡目标 核心战斗指标 敌我数值关系 风险回报结构 失衡来源 调参顺序 combat economy-loops prompt-design"
+}

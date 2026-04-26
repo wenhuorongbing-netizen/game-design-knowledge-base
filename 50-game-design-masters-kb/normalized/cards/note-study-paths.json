@@ -1,0 +1,63 @@
+{
+  "id": "note-study-paths",
+  "entity_type": "card",
+  "title": "阅读路径",
+  "summary": "阅读路径",
+  "card_kind": "reading_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/notes/01-study-paths.md",
+  "theme_tags": [
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-concepts-course",
+    "rules-of-play"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "01-study-paths.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/notes/01-study-paths.md"
+    }
+  ],
+  "body_markdown": "# 阅读路径\n\n下面不是“最全面”的路径，而是“最容易真的读完并产出结果”的路径。\n\n## 路径 A：7 天设计补底\n\n适合现在缺一套共同语言的人。\n\n1. `Game Design Concepts` Level 1 到 Level 3\n2. `Game Design Concepts` Level 5\n3. `Game Design Concepts` Level 8\n4. MIT 2014 `assignment-one-single-mechanic.pdf`\n5. MIT 2014 `assignment-two-experience-and-aesthetics.pdf`\n6. MIT 2014 `written-rules-style-guide.pdf`\n7. 用 `The Art of Game Design` 做一次自己的问题清单\n\n产出要求：\n\n- 写出你对“这个游戏到底是什么”的一句话定义\n- 写出三个核心机制\n- 写出一种目标体验\n\n## 路径 B：原型与试玩强化\n\n适合已经有方案，但不知道怎么把它做成“可验证原型”的人。\n\n1. `Game Design Concepts` Level 11 到 Level 15\n2. MIT 2016 `assignment-5-game-design-document-and-pitch.pdf`\n3. MIT 2016 `assignment-6-paper-prototyping.pdf`\n4. MIT 2016 `assignment-7-playtest.pdf`\n5. `Game Design Workshop`\n\n产出要求：\n\n- 一个最小纸面或表格原型\n- 一份试玩记录模板\n- 一轮 blind test 后的修改结论\n\n## 路径 C：系统策划 / 数值策划\n\n适合资源循环、成长曲线、经济关系复杂的项目。\n\n1. `Game Design Concepts` Level 16\n2. `A Theory of Fun for Game Design`\n3. `Characteristics of Games`\n4. `Game Mechanics: Advanced Game Design`\n5. `Advanced Game Design: A Systems Approach`\n\n产出要求：\n\n- 画出核心资源循环\n- 列出至少两个正反馈和两个负反馈\n- 标出最容易造成滚雪球的位置\n\n## 路径 D：叙事世界与长期沉浸\n\n适合世界观很强、周期很长、玩家身份感重要的项目。\n\n1. `Game Design Concepts` Level 9 到 Level 10\n2. `Designing Virtual Worlds`\n3. `Play Matters`\n4. `The Aesthetic of Play`\n\n产出要求：\n\n- 定义玩家在世界中的身份\n- 定义玩家为何持续留下来\n- 定义社交、经济、探索三类动机如何并存\n\n## 路径 E：直接服务当前项目\n\n如果你不想系统学习，只想立刻帮助当前项目：\n\n1. 先看 [02-applying-the-kb-to-projects.md](02-applying-the-kb-to-projects.md)\n2. 再补 `Game Design Concepts` Level 5, 8, 16\n3. 再读 MIT 2016 的 Pitch / Prototype / Playtest 三份 PDF\n4. 最后挑一本主干书：\n   - 想抓全局：`The Art of Game Design`\n   - 想抓流程：`Game Design Workshop`\n   - 想抓系统：`Game Mechanics`\n",
+  "body_html": "<h1 id=\"阅读路径\">阅读路径</h1>\n<p>下面不是“最全面”的路径，而是“最容易真的读完并产出结果”的路径。</p>\n<h2 id=\"路径-a：7-天设计补底\">路径 A：7 天设计补底</h2>\n<p>适合现在缺一套共同语言的人。</p>\n<ol><li><code>Game Design Concepts</code> Level 1 到 Level 3</li><li><code>Game Design Concepts</code> Level 5</li><li><code>Game Design Concepts</code> Level 8</li><li>MIT 2014 <code>assignment-one-single-mechanic.pdf</code></li><li>MIT 2014 <code>assignment-two-experience-and-aesthetics.pdf</code></li><li>MIT 2014 <code>written-rules-style-guide.pdf</code></li><li>用 <code>The Art of Game Design</code> 做一次自己的问题清单</li></ol>\n<p>产出要求：</p>\n<ul><li>写出你对“这个游戏到底是什么”的一句话定义</li><li>写出三个核心机制</li><li>写出一种目标体验</li></ul>\n<h2 id=\"路径-b：原型与试玩强化\">路径 B：原型与试玩强化</h2>\n<p>适合已经有方案，但不知道怎么把它做成“可验证原型”的人。</p>\n<ol><li><code>Game Design Concepts</code> Level 11 到 Level 15</li><li>MIT 2016 <code>assignment-5-game-design-document-and-pitch.pdf</code></li><li>MIT 2016 <code>assignment-6-paper-prototyping.pdf</code></li><li>MIT 2016 <code>assignment-7-playtest.pdf</code></li><li><code>Game Design Workshop</code></li></ol>\n<p>产出要求：</p>\n<ul><li>一个最小纸面或表格原型</li><li>一份试玩记录模板</li><li>一轮 blind test 后的修改结论</li></ul>\n<h2 id=\"路径-c：系统策划-数值策划\">路径 C：系统策划 / 数值策划</h2>\n<p>适合资源循环、成长曲线、经济关系复杂的项目。</p>\n<ol><li><code>Game Design Concepts</code> Level 16</li><li><code>A Theory of Fun for Game Design</code></li><li><code>Characteristics of Games</code></li><li><code>Game Mechanics: Advanced Game Design</code></li><li><code>Advanced Game Design: A Systems Approach</code></li></ol>\n<p>产出要求：</p>\n<ul><li>画出核心资源循环</li><li>列出至少两个正反馈和两个负反馈</li><li>标出最容易造成滚雪球的位置</li></ul>\n<h2 id=\"路径-d：叙事世界与长期沉浸\">路径 D：叙事世界与长期沉浸</h2>\n<p>适合世界观很强、周期很长、玩家身份感重要的项目。</p>\n<ol><li><code>Game Design Concepts</code> Level 9 到 Level 10</li><li><code>Designing Virtual Worlds</code></li><li><code>Play Matters</code></li><li><code>The Aesthetic of Play</code></li></ol>\n<p>产出要求：</p>\n<ul><li>定义玩家在世界中的身份</li><li>定义玩家为何持续留下来</li><li>定义社交、经济、探索三类动机如何并存</li></ul>\n<h2 id=\"路径-e：直接服务当前项目\">路径 E：直接服务当前项目</h2>\n<p>如果你不想系统学习，只想立刻帮助当前项目：</p>\n<ol><li>先看 <a href=\"02-applying-the-kb-to-projects.md\" target=\"_blank\" rel=\"noreferrer\">02-applying-the-kb-to-projects.md</a></li><li>再补 <code>Game Design Concepts</code> Level 5, 8, 16</li><li>再读 MIT 2016 的 Pitch / Prototype / Playtest 三份 PDF</li><li>最后挑一本主干书：</li></ol>\n<ul><li>想抓全局：<code>The Art of Game Design</code></li><li>想抓流程：<code>Game Design Workshop</code></li><li>想抓系统：<code>Game Mechanics</code></li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "阅读路径",
+      "id": "阅读路径"
+    },
+    {
+      "level": 2,
+      "text": "路径 A：7 天设计补底",
+      "id": "路径-a：7-天设计补底"
+    },
+    {
+      "level": 2,
+      "text": "路径 B：原型与试玩强化",
+      "id": "路径-b：原型与试玩强化"
+    },
+    {
+      "level": 2,
+      "text": "路径 C：系统策划 / 数值策划",
+      "id": "路径-c：系统策划-数值策划"
+    },
+    {
+      "level": 2,
+      "text": "路径 D：叙事世界与长期沉浸",
+      "id": "路径-d：叙事世界与长期沉浸"
+    },
+    {
+      "level": 2,
+      "text": "路径 E：直接服务当前项目",
+      "id": "路径-e：直接服务当前项目"
+    }
+  ],
+  "search_text": "阅读路径 # 阅读路径 下面不是“最全面”的路径，而是“最容易真的读完并产出结果”的路径。 ## 路径 A：7 天设计补底 适合现在缺一套共同语言的人。 1. `Game Design Concepts` Level 1 到 Level 3 2. `Game Design Concepts` Level 5 3. `Game Design Concepts` Level 8 4. MIT 2014 `assignment-one-single-mechanic.pdf` 5. MIT 2014 `assignment-two-experience-and-aesthetics.pdf` 6. MIT 2014 `written-rules-style-guide.pdf` 7. 用 `The Art of Game Design` 做一次自己的问题清单 产出要求： - 写出你对“这个游戏到底是什么”的一句话定义 - 写出三个核心机制 - 写出一种目标体验 ## 路径 B：原型与试玩强化 适合已经有方案，但不知道怎么把它做成“可验证原型”的人。 1. `Game Design Concepts` Level 11 到 Level 15 2. MIT 2016 `assignment-5-game-design-document-and-pitch.pdf` 3. MIT 2016 `assignment-6-paper-prototyping.pdf` 4. MIT 2016 `assignment-7-playtest.pdf` 5. `Game Design Workshop` 产出要求： - 一个最小纸面或表格原型 - 一份试玩记录模板 - 一轮 blind test 后的修改结论 ## 路径 C：系统策划 / 数值策划 适合资源循环、成长曲线、经济关系复杂的项目。 1. `Game Design Concepts` Level 16 2. `A Theory of Fun for Game Design` 3. `Characteristics of Games` 4. `Game Mechanics: Advanced Game Design` 5. `Advanced Game Design: A Systems Approach` 产出要求： - 画出核心资源循环 - 列出至少两个正反馈和两个负反馈 - 标出最容易造成滚雪球的位置 ## 路径 D：叙事世界与长期沉浸 适合世界观很强、周期很长、玩家身份感重要的项目。 1. `Game Design Concepts` Level 9 到 Level 10 2. `Designing Virtual Worlds` 3. `Play Matters` 4. `The Aesthetic of Play` 产出要求： - 定义玩家在世界中的身份 - 定义玩家为何持续留下来 - 定义社交、经济、探索三类动机如何并存 ## 路径 E：直接服务当前项目 如果你不想系统学习，只想立刻帮助当前项目： 1. 先看 [02-applying-the-kb-to-projects.md](02-applying-the-kb-to-projects.md) 2. 再补 `Game Design Concepts` Level 5, 8, 16 3. 再读 MIT 2016 的 Pitch / Prototype / Playtest 三份 PDF 4. 最后挑一本主干书： - 想抓全局：`The Art of Game Design` - 想抓流程：`Game Design Workshop` - 想抓系统：`Game Mechanics` design-fundamentals the-art-of-game-design game-design-concepts-course rules-of-play"
+}

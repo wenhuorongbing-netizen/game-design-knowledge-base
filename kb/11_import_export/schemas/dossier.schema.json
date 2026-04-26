@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bookos.bookdossier.schema.v1",
+  "title": "BookOS BookDossier",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "title",
+    "status",
+    "source_basis",
+    "confidence",
+    "phase_groups",
+    "domains",
+    "tags",
+    "related_entities",
+    "evidence_refs",
+    "created_at",
+    "updated_at",
+    "version",
+    "work_id"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "BookDossier"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_basis": {
+      "type": "string",
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "phase_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "body_excerpt_safe": {
+      "type": "string"
+    },
+    "source_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw": {
+      "type": "object"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "legal_status": {
+      "type": "string"
+    },
+    "ingestion_status": {
+      "type": "string"
+    },
+    "dossier_status": {
+      "type": "string"
+    },
+    "user_notes_available": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    }
+  }
+}

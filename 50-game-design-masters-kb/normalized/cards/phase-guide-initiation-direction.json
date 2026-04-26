@@ -1,0 +1,60 @@
+{
+  "id": "phase-guide-initiation-direction",
+  "entity_type": "card",
+  "title": "立项与方向导向卡",
+  "summary": "最上游的方向收敛、MVP 裁剪、竞品判断与风险预判。",
+  "card_kind": "phase_guide",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "the-game-design-reader"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 立项与方向导向卡\n\n## 这个阶段解决什么\n\n最上游的方向收敛、MVP 裁剪、竞品判断与风险预判。\n\n## 常见输出物\n\n- 游戏方向收敛\n- 核心玩法判断\n- 玩家画像与目标市场\n- 平台适配判断\n- 竞品拆解\n- 风险预判\n- MVP 范围裁剪\n- 游戏总监视角评审\n\n## 推荐先看\n\n- The Art of Game Design: A Book of Lenses\n- The Game Design Reader: A Rules of Play Anthology\n\n## 已本地可读\n\n- The Art of Game Design: A Book of Lenses\n- The Game Design Reader: A Rules of Play Anthology\n\n## 仍建议补齐\n\n- 当前这一类没有优先级很高的待补正版文件。\n\n## 对具体项目的落点\n\n- 先把这个阶段的问题收束成 游戏方向收敛 / 核心玩法判断 / 玩家画像与目标市场 这样的具体输出物。\n- 再用本类材料检查当前项目文档是否真的给出了可执行结论。\n",
+  "body_html": "<h1 id=\"立项与方向导向卡\">立项与方向导向卡</h1>\n<h2 id=\"这个阶段解决什么\">这个阶段解决什么</h2>\n<p>最上游的方向收敛、MVP 裁剪、竞品判断与风险预判。</p>\n<h2 id=\"常见输出物\">常见输出物</h2>\n<ul><li>游戏方向收敛</li><li>核心玩法判断</li><li>玩家画像与目标市场</li><li>平台适配判断</li><li>竞品拆解</li><li>风险预判</li><li>MVP 范围裁剪</li><li>游戏总监视角评审</li></ul>\n<h2 id=\"推荐先看\">推荐先看</h2>\n<ul><li>The Art of Game Design: A Book of Lenses</li><li>The Game Design Reader: A Rules of Play Anthology</li></ul>\n<h2 id=\"已本地可读\">已本地可读</h2>\n<ul><li>The Art of Game Design: A Book of Lenses</li><li>The Game Design Reader: A Rules of Play Anthology</li></ul>\n<h2 id=\"仍建议补齐\">仍建议补齐</h2>\n<ul><li>当前这一类没有优先级很高的待补正版文件。</li></ul>\n<h2 id=\"对具体项目的落点\">对具体项目的落点</h2>\n<ul><li>先把这个阶段的问题收束成 游戏方向收敛 / 核心玩法判断 / 玩家画像与目标市场 这样的具体输出物。</li><li>再用本类材料检查当前项目文档是否真的给出了可执行结论。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "立项与方向导向卡",
+      "id": "立项与方向导向卡"
+    },
+    {
+      "level": 2,
+      "text": "这个阶段解决什么",
+      "id": "这个阶段解决什么"
+    },
+    {
+      "level": 2,
+      "text": "常见输出物",
+      "id": "常见输出物"
+    },
+    {
+      "level": 2,
+      "text": "推荐先看",
+      "id": "推荐先看"
+    },
+    {
+      "level": 2,
+      "text": "已本地可读",
+      "id": "已本地可读"
+    },
+    {
+      "level": 2,
+      "text": "仍建议补齐",
+      "id": "仍建议补齐"
+    },
+    {
+      "level": 2,
+      "text": "对具体项目的落点",
+      "id": "对具体项目的落点"
+    }
+  ],
+  "search_text": "立项与方向 最上游的方向收敛、MVP 裁剪、竞品判断与风险预判。 游戏方向收敛 核心玩法判断 玩家画像与目标市场 平台适配判断 竞品拆解 风险预判 MVP 范围裁剪 游戏总监视角评审 The Art of Game Design: A Book of Lenses The Game Design Reader: A Rules of Play Anthology"
+}

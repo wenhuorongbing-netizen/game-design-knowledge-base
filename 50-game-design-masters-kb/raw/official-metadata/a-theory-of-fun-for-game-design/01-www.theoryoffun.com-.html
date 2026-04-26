@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Mate:400,400i" rel="stylesheet"> 
+	<title>A Theory of Fun for Game Design</title>
+	<meta name="Description" content="A Theory of Fun for Game Design official book website" />
+	<meta name="Keywords" content="game design videogames games training education fun theory gamification raph koster learning" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<LINK REL="icon" HREF="favicon.ico" TYPE="image/x-icon">
+	<LINK REL="shortcut icon" HREF="favicon.ico" TYPE="image/x-icon"> 
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+	<div id="header">
+	
+	<div id="headerspace">
+	</div>
+
+	<div id="strip">
+	<div id="website">
+	<a href = "https://www.raphkoster.com" target = "new">
+		<img src = "images/website.png" align=right>
+	</a>
+	</div>
+	<div id="twitter">
+	<a href = "http://www.twitter.com/raphkoster" target = "new">
+		<img src = "images/twitter.png" align=right>
+	</a>
+	</div>
+
+	</div>
+	</div>
+
+	<div id="nav">
+
+		<ul>
+		     <li><a href="index.shtml"><span>About</span></a></li>
+    			<li><a href="press.shtml"><span>Press</span></a></li>
+    			<li><a href="excerpt.shtml"><span>Excerpt</span></a></li>
+		     <li><a href="cartoons.shtml"><span>Cartoons</span></a></li>
+    			<li><a href="resources.shtml"><span>Resources</span></a></li>
+
+
+		</ul>
+
+	</div>
+
+
+<script type="text/javascript" src="jquery-1.7.min.js"></script>
+
+<script type="text/javascript">
+
+this.randomtip = function(){
+
+	var pause = 10000; // define the pause for each tip (in milliseconds) 
+	var length = $("#pullquote li").length; 
+	var temp = -1;		
+
+	this.getRan = function(){
+		// get the random number
+		var ran = Math.floor(Math.random()*length) + 1;
+		return ran;
+	};
+	this.show = function(){
+		var ran = getRan();
+		// to avoid repeating
+		while (ran == temp){
+			ran = getRan();
+		}; 
+		temp = ran;
+		$("#tips li").hide();	
+		$("#tips li:nth-child(" + ran + ")").fadeIn("fast");		
+	};
+	
+	show(); setInterval(show,pause);
+	
+};
+
+$(document).ready(function(){	
+	randomtip();
+});
+
+</script>
+
+	<div id="pullquote">
+		<ul id="tips">
+
+		<li>"It's the best game design book I have ever read. Please read it."
+		<p class = "cite">
+		-- David Jaffe,<br />director of <em>God of War</em>
+		</p></li>
+
+		<li>"An important and valuable book."
+		<p class = "cite">
+		-- Ernest Adams,<br />game designer
+		</p></li>
+
+		<li>"If you're interested in game design, get it and read it."
+		<p class = "cite">
+		-- Steve Jackson, designer of<br /><em>GURPS</em> and <em>Munchkin</em>
+		</p></li>
+
+
+		<li>"A welcome addition to the libraries of both gamers and non-gamers alike."
+		<p class = "cite">
+		-- Australian Journal of Emerging Technologies and Society
+		</p></li>
+
+		<li>One of "50 Books For Everyone In the Game Industry"
+		<p class = "cite">
+		-- EDGE Magazine
+		</p></li>
+
+		<li>One of the "Five Books You Should Read About Game Design."
+		<p class = "cite">
+		-- 1up.com
+		</p></li>
+
+		<li>"Whatever your game design experience, it will appear just right for you. At times it's breathtaking."
+		<p class = "cite">
+		-- Dr. Richard Bartle, co-inventor of <em>MUD</em>s
+		</p></li>
+
+		<li>"A convincing manifesto for why people do or don't have a good time in games."
+		<p class = "cite">
+		-- <em>Game Informer</em>
+		</p></li>
+
+		<li>"Please do yourself a favor and pick up a copy."
+		<p class = "cite">
+		-- Brenda Romero, game designer
+		</p></li>
+
+
+		<li>"You cannot possibly read it and not feel at least twice like your brain has been hit by lightning."
+		<p class = "cite">
+		-- Jessica Mulligan,<br />online gaming legend
+		</p></li>
+
+		<li>"The arcane mysteries of game design go poof with this delightful approach to the fundamentals of fun."
+		<p class = "cite">
+		-- <em>Computer Games</em> magazine
+		</p></li>
+
+		<li>"One of the best books for our industry. I hope everyone adds it to their bookshelf."
+		<p class = "cite">
+		-- Scott Miller,<br />co-founder of 3dRealms
+		</p></li>
+
+		<li><br /><br />"
+			<img src="images/star.png">
+			<img src="images/star.png">
+			<img src="images/star.png">
+			<img src="images/star.png">
+			"
+		<p class = "cite">
+		-- <em>Training Media Review</em>
+		</p></li>
+
+		<li>"Great sophistication yet without a trace of pretention or even an excess of big words."
+		<p class = "cite">
+		-- Michael Feldstein, <br />SUNY Learning Network
+		</p></li>
+
+		<li>"[One of] my very favorite books of all time."
+		<p class = "cite">
+		-- George "The Fat Man" Sanger, game audio legend
+		</p></li>
+
+		<li>"Well worth reading. A great deal of thoughtfulness crammed into few pages."
+		<p class = "cite">
+		-- Lee Sheldon,<br />writer and game designer
+		</p></li>
+
+		<li>"A fantastic book. It has truly inspired me."
+		<p class = "cite">
+		-- Reid Kimball,<br />designer, Ritual Entertainment
+		</p></li>
+
+		<li>"If you have any interest in game design, you should read this book."
+		<p class = "cite">
+		-- f13.net
+		</p></li>
+
+		<li>"Tackles the questions of fun and engagement in a fun and engaging way."
+		<p class = "cite">
+		-- <em>Learning Circuits</em>, American Society for Training and Development
+		</p></li>
+
+		<li>"The epilogue is practically a poem. I am going to try to get my parents to read this."
+		<p class = "cite">
+		-- Mike Hommel, Hamumu Software
+		</p></li>
+
+		<li>"Highly recommended for anyone working in entertainment today."
+		<p class = "cite">
+		-- Dan Arey, former creative director at Naughty Dog
+		</p></li>
+
+		<li>"This book is worth reading. You should go buy it and read it."
+		<p class = "cite">
+		-- Dave Sirlin,<br />game designer
+		</p></li>
+
+		<li>"Brilliant--not a game design primer, but a meditation on what it is that makes them fun."
+		<p class = "cite">
+		-- Greg Costikyan,<br />legendary game designer
+		</p></li>
+
+		<li>"I think I've handed out close to 15 copies of this book so far, including a copy to my mother."
+		<p class = "cite">
+		-- Paul Stephanouk,<br />game designer at Zynga
+		</p></li>
+
+		<li>"Anyone that wants to know what <strong>really</strong> makes a game fun needs to read this book."
+		<p class = "cite">
+		-- Chris Melissinos, curator, <em>The Art of Video Games</em> 
+		</p></li>
+
+		<li><br /><br />
+			"
+			<img src="images/star.png">
+			<img src="images/star.png">
+			<img src="images/star.png">
+			<img src="images/star.png">
+			<img src="images/star.png">"
+		<p class = "cite">
+		-- <em>Midwest Book Review</em>
+		</p></li>
+
+		<li>"Both intelligent and highly accessible."
+		<p class = "cite">
+		-- Steven Shaviro, professor at Wayne State University
+		</p></li>
+		<li>"Thoughtful... a discussion of games as learning tools, art, and societal shapers."
+		<p class = "cite">
+		-- Slashdot.org
+		</p></li>
+
+		<li>"A wide-ranging intellectual foray into what games mean, both to individuals and society."
+		<p class = "cite">
+		-- BlogCritics.org
+		</p></li>
+
+		<li>"...An important book. A manifesto for social responsibility and artistry in game design."
+		<p class = "cite">
+		-- <em>Nonprofit Online News</em>
+		</p></li>
+
+		<li>"What Campbell and Vogler did to storytelling, Koster has done to <strong>play</strong>."
+		<p class = "cite">
+		-- GameDev.net
+		</p></li>
+
+		<li>"It's a book I sincerely believe <strong>everyone</strong> should have read at least once in their lifetime."
+		<p class = "cite">
+		-- GameDev.net
+		</p></li>
+
+		<li>"I'll never look at game design in quite the same way again."
+		<p class = "cite">
+		-- Grimwell.com
+		</p></li>
+
+		<li>"May not be the Bible of game design, but I would certainly include it in the Apocrypha."
+		<p class = "cite">
+		-- Alan Emrich, Art Institute of California
+		</p></li>
+
+		<li>"It's my favorite work on this subject to date and I highly recommend it. "
+		<p class = "cite">
+		-- David Perry, game industry legend
+		</p></li>
+
+		<li>"An instant classic, fascinating to anyone who has ever made a game--or played one."
+		<p class = "cite">
+		-- Noah Falstein, industry legend
+		</p></li>
+
+		<li>"A book about fun which is actually fun to read. It reminds me of Scott McCloud's Understanding Comics."
+		<p class = "cite">
+		-- Professor Henry Jenkins, USC
+		</p></li>
+
+		<li>"Does for games what Understanding Comics did for sequential art."
+		<p class = "cite">
+		-- BoingBoing.net
+		</p></li>
+
+		<li>"An absolute classic on the theory of playing games."
+		<p class = "cite">
+		-- Tom Chatfield, author of <em>Fun Inc</em>
+		</p></li>
+
+		<li>"Non-gamers: Buy this for the gamer in your life. Gamers: Buy this for the non-gamer in your life."
+		<p class = "cite">
+		-- Cory Doctorow, author and activist
+		</p></li>
+
+		<li>"Well-written, timely, passionate and scientifically informed."
+		<p class = "cite">
+		-- Prof. Edward Castronova, Indiana University
+		</p></li>
+
+		<li>"Asks the important question about games: why are they fun, and what does that say about games and about us?"
+		<p class = "cite">
+		-- Clay Shirky, NYU
+		</p></li>
+
+		<li>Nominated for the Front Line Award for best game industry book.
+		<p class = "cite">
+		-- <em>Game Developer Magazine</em>
+		</p></li>
+
+		<li>Selected as one of the top ten game books. 
+		<p class = "cite">
+		-- <em>Game Informer</em>
+		</p></li>
+
+		<li>"A fascinating and unique book that should be required reading at the world's many video game college programs."
+		<p class = "cite">
+		-- <em>Game Informer</em>
+		</p></li>
+
+		<li>"An excellent, even foundational, read."
+		<p class = "cite">
+		-- <em>Learning Solutions Magazine</em>
+		</p></li>
+
+		<li>"A cleverly illustrated, easy-to-read book with lots of good ideas... well worth a quick read."
+		<p class = "cite">
+		-- <em>math-mom.com</em>
+		</p></li>
+
+		<li>"A truly astonishing piece of work."
+		<p class = "cite">
+		-- Prof. John Artz, George Washington University
+		</p></li>
+
+		<li>"A clear manifesto to bring more art into our game designs."
+		<p class = "cite">
+		-- Yehuda Berlinger, board game designer
+		</p></li>
+
+		<li>"A delightful read. This book fills the 'game apologist' niche in my bookshelf."
+		<p class = "cite">
+		-- Dan Cook, game designer
+		</p></li>
+
+		<li>"A very fun book :D executed in a witty entertaining style."
+		<p class = "cite">
+		-- Michael Samyn of <em>Tale of Tales</em>
+		</p></li>
+
+		<li>"Everyone involved in game design -- students, teachers, and professionals -- should read this."
+		<p class = "cite">
+		-- Ian Schreiber, co-author of <em>Challenges for Game Designers</em>
+		</p></li>
+
+		<li>"An incredibly relevant and enjoyable read. I highly recommend it."
+		<p class = "cite">
+		-- John Pile Jr, Asst Prof of Game Programming, Champlain College
+		</p></li>
+
+		<li>"A must read for all game creators."
+		<p class = "cite">
+		-- Starr Long, game producer
+		</p></li>
+
+		<li>"One of the key texts in video game design and criticism."
+		<p class = "cite">
+		-- <em>The Indianapolis Star</em>
+		</p></li>
+
+		<li>"A must for anyone interested in the subject. Learned and accessible."
+		<p class = "cite">
+		-- <em>Polygon</em>
+		</p></li>
+
+		<li>"A key games design text.. fascinating and informative."
+		<p class = "cite">
+		-- <em>The Guardian</em>
+		</p></li>
+
+		<li>"A vision for games that challenged me intellectually."
+		<p class = "cite">
+		-- <em>Stolendroids</em>
+		</p></li>
+
+		<li>"A must-read for everyone."
+		<p class = "cite">
+		-- Johannes Ippen, Wooga
+		</p></li>
+
+		<li>"...it ultimately winds up somewhere both interesting and right."
+
+		<p class = "cite">
+		-- Emily Short, narrative game designer
+		</p></li>
+
+
+		<li>One of the Top 5 Books Every Designer Should Read. "A delight to read."
+		<p class = "cite">
+		-- <em>Fuse</em>
+		</p></li>
+
+
+		</ul>
+	</div>
+
+	<div id="main">
+
+	<h1>Welcome!</h1>
+
+	<p>
+
+	An exploration of <strong>what fun is, and why games matter.</strong>
+	</p>
+
+	<p>
+Widely considered a classic.</p>
+
+<p>Used in dozens of university-level programs on game design all around the world.</p>
+
+<p>A go-to text for gamification, educators, trainers, and interaction designers.
+	</p>
+
+<div id="divider"></div>
+
+<h1>Raph's new book: POSTMORTEMS</h1>
+
+<a href = "https://amzn.to/2KxmDfg"><img src = "/images/postmortems-print-cover.jpg" align="right" style="border:1px solid black;"></a>	
+
+<p>The first volume of a set of collected essays, <a href = "https://amzn.to/2KxmDfg"><em>Postmortems</em></a> is an inspiring historical look back at the development of virtual worlds and MMORPGs, including behind the scenes design essays on MUDs, <em>Ultima Online, Star Wars Galaxies, Privateer Online, Metaplace, My Vineyard,</em> and more. Foreword by the legendary Lord British himself, Richard Garriott.</p>
+
+<div id="divider"></div>
+
+<h1>10th anniversary revised edition in full color!</h1>
+
+<a href = "http://www.raphkoster.com/gaming/gdco12/Koster_Raph_Theory_Fun_10.pdf"><img src = "http://www.theoryoffun.com/images/colorsample.jpg" width=150 height=112 align="right"></a>	
+
+<p>For the tenth anniversary of the release of the original book, O'Reilly has published a <b>fully revised</b> edition. There are changes in most every page, bringing the book up to date with the latest science and theory. And it's now in glossy <b>full color!</b></p>
+
+<div id="divider"></div>
+<table>
+<tr>
+	<td align = "top">
+		<center>
+		<a href="http://www.amazon.com/gp/product/1449363210/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449363210&linkCode=as2&tag=atheoroffunfo-20"><img border="0" src="/images/english-cover-2nd.jpg" width = 131 height = 186></a><img src="http://www.assoc-amazon.com/e/ir?t=atheoroffunfo-20&l=as2&o=1&a=1932111972&camp=217145&creative=399369" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+		<p class='tiny'>English 2nd edition from O'Reilly,
+		Foreword by Will Wright</p>
+
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.com/gp/product/1449363210/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449363210&linkCode=as2&tag=atheoroffunfo-20"><img src = "images/amazon.png"></a><img src="http://www.assoc-amazon.com/e/ir?t=atheoroffunfo-20&l=as2&o=1&a=1932111972&camp=217145&creative=399369" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+
+<p><iframe src="https://ws.amazon.com/widgets/q?_encoding=UTF8&tag=atheoroffunfo-20&asin=B00GK5SRFY&size=large&ServiceVersion=20061125&TemplateId=8012" style="width:102px;height:38px;" frameborder="0" scrolling="no"></iframe>
+		</p>
+
+		</center>
+      <td align="top">
+		<center>
+		<img src = "https://www.theoryoffun.com/images/japanesecover.gif"><br>
+		<p class='tiny'>Japanese from O'Reilly, Foreword by Masaya Matsuura</p>
+		<a href = "http://www.amazon.co.jp/%E3%80%8C%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E3%81%84%E3%80%8D%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E2%80%95%E6%A5%BD%E3%81%97%E3%81%84%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E3%82%8B%E7%90%86%E8%AB%96-Raph-Koster/dp/4873112559/ref=sr_1_1?ie=UTF8&qid=1322176313&sr=8-1" target="new"><img src = "images/amazon.png"></a>
+		</center>
+</tr>
+<tr>
+	<td>
+		<center>
+		<img src = "http://www.theoryoffun.com/images/chinese-trad-cover.png"><br>
+		<p class='tiny'>China 2nd ed from Southeast University Press</p>
+		</center>
+	<td>
+		<center>
+		<img src = "http://www.theoryoffun.com/images/korean-cover-2nd.jpg" width = 131 height = 186><br>
+		<p class='tiny'>Korean 2nd ed. from Banyangjangbon</p>
+		</center>
+</tr>
+<tr>
+	<td>
+		<center>
+		<img src = "http://www.theoryoffun.com/images/taiwanese-cover-2nd.jpg" width = 131 height = 186><br>
+		<p class='tiny'>Taiwan 2nd ed. from GoTop</p>
+		</center>
+	<td>
+		<center>
+		<img src = "http://www.theoryoffun.com/images/russian-cover.jpg" width = 131 height = 186><br>
+		<p class='tiny'>Russian 2nd ed. from DMK Press</p>
+		</center>
+</tr>
+
+</table>
+
+	<div id="divider"></div>
+
+	<h1>
+	About the author
+	</h1>
+
+		<img src = "images/author.png" align="left">	
+
+<p><strong>Raph Koster</strong> is a veteran game designer who has been professionally credited in almost every area of the game industry. He's been the lead designer and director of massive titles such as <em>Ultima Online</em> and <em>Star Wars Galaxies</em>; and he's contributed writing, art, soundtrack music, and programming to many more titles ranging from Facebook games to single-player titles for handheld consoles.</p>
+
+	<p>Koster is widely recognized as one of the world's top thinkers about game design, and is an in-demand speaker at conferences all over the world. In 2012, he was named an Online Game Legend at the Game Developers Conference Online. Visit his blog at <a href = "http://www.raphkoster.com">www.raphkoster.com</a>.</p>
+
+
+	</div>
+	<div id="footer">
+		<p>
+		All contents of this site Copyright 2005-2018 Raphael Koster</p>
+	</div>
+
+</div>
+
+</body>
+
+</html>

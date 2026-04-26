@@ -1,0 +1,196 @@
+{
+  "id": "mit-ocw-2016-introduction-to-game-design-methods",
+  "title": "MIT OCW: Introduction to Game Design Methods (Spring 2016)",
+  "authors": [
+    "Mikael Jakobsson",
+    "Sara Verrilli"
+  ],
+  "year": 2016,
+  "kind": "course",
+  "canonical_url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+  "publisher_or_source": "MIT OpenCourseWare",
+  "language": "en",
+  "license": "CC BY-NC-SA 4.0",
+  "access_mode": "downloaded_open",
+  "source_ids": [
+    "mit-ocw"
+  ],
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "regression-checklist",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals",
+    "project-audit"
+  ],
+  "summary": "MIT 的方法论课程材料，包含 board game analysis、research、pitch、paper prototyping 和 playtest 等完整作业链。",
+  "key_points": [
+    "非常适合把知识库转成训练流程。",
+    "能直接沉淀成 prompt 和检查单。",
+    "对“做完一个原型后怎么验证”特别有帮助。"
+  ],
+  "recommended_for": [
+    "制作",
+    "系统策划",
+    "玩法策划",
+    "测试"
+  ],
+  "official_links": [
+    "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/"
+  ],
+  "seed_bundle": "mit-ocw-2016",
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "game-design-workshop"
+  ],
+  "usage_relevance": "最适合用于制作原型验证、试玩记录和审查模板。",
+  "entity_type": "work",
+  "slug": "mit-ocw-2016-introduction-to-game-design-methods",
+  "phase_label": "测试、验收与审计",
+  "deliverable_label": "回归测试检查单",
+  "theme_labels": [
+    "试玩与迭代",
+    "设计基础",
+    "项目审计"
+  ],
+  "availability_label": "已下载开放全文",
+  "source_labels": [
+    "MIT OpenCourseWare"
+  ],
+  "official_link_entries": [
+    {
+      "label": "ocw.mit.edu",
+      "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-1-people-in-my-life-through-games.pdf",
+      "size_bytes": 180231,
+      "extension": "pdf",
+      "sha256": "64a7a813f35e2b8f0118ebd61573d677275cc4c36f1d427f2fa7aefdfd48339b",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-2-board-game-analysis-solution.pdf",
+      "size_bytes": 572248,
+      "extension": "pdf",
+      "sha256": "3641f11622e2525eae8ecfd2b14ed94e757ef6f5eb88c66f0829e69b052722fd",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-2-board-game-analysis.pdf",
+      "size_bytes": 126608,
+      "extension": "pdf",
+      "sha256": "2b691744004b89072a63814b4214c6a7852b7c07ce936f45ed1580a3c23e5473",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-3-scrabbleship-working-with-game-mechanics.pdf",
+      "size_bytes": 188556,
+      "extension": "pdf",
+      "sha256": "58970e0c1200a8481d0141585222b6757a50915c32674365787c991fcc157303",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-4-research.pdf",
+      "size_bytes": 688198,
+      "extension": "pdf",
+      "sha256": "1fb1929f71af7e7b58a7090ed67a2cb678eb0912acac8a7580973c0d6b554eec",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-5-game-design-document-and-pitch.pdf",
+      "size_bytes": 233743,
+      "extension": "pdf",
+      "sha256": "99de9b7a60f93a49c31dd8d20ff16dd38001fc40f9cbe6a8dd0ced4308f1eb21",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-6-paper-prototyping.pdf",
+      "size_bytes": 653009,
+      "extension": "pdf",
+      "sha256": "df975a42ab3b3126f8da02df87daa4b77db4e0ffe07119f4d8950ce4cc125f7a",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-7-playtest.pdf",
+      "size_bytes": 125454,
+      "extension": "pdf",
+      "sha256": "52c0aa49d8cf4c996be30908fa81c10c821e4674bd1b770f8f21392a9464e1b6",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-8-explorative-game-design-project.pdf",
+      "size_bytes": 590790,
+      "extension": "pdf",
+      "sha256": "c18a4c95987a3dc7f843bbb92ad705fbb53d61d60965fd03394f0acb89d213b2",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-8-step-4-oral-presentation-and-written-report.pdf",
+      "size_bytes": 140141,
+      "extension": "pdf",
+      "sha256": "f11cff17ac1a239ebf7863f468a86b5b1f9907204e022328a3367fcc6a2f02b2",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/high-level-design-template.pdf",
+      "size_bytes": 103691,
+      "extension": "pdf",
+      "sha256": "45eefe1a17cc26c8aaa379775c00a15aa6de615e8e30f44c241140375584d598",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+      "source_id": "mit-ocw",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2016-introduction-to-game-design-methods/01-ocw.mit.edu-courses-cms-301-introduction-to-game-design-methods-spring-2016-.html",
+      "fetched_at": "2026-04-25T05:31:43.601Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+        "title": "MIT OpenCourseWare",
+        "description": "This course is an introduction to the theory and practice of the process of designing games and playful experiences. Students are familiarized with methods, concepts, techniques, and literature used in the design of games. The strategy is process-oriented, focusing on aspects such as: Rapid prototyping, play testing, and design iteration using a player-centered approach.",
+        "authors": [],
+        "isbn": "",
+        "publisher": "MIT OpenCourseWare",
+        "date_published": "",
+        "json_ld_type": "WebPage"
+      }
+    }
+  ],
+  "private_extracts": [],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": false,
+  "private_source_count": 0,
+  "private_extract_count": 0,
+  "metadata_summary": "This course is an introduction to the theory and practice of the process of designing games and playful experiences. Students are familiarized with methods, concepts, techniques, and literature used in the design of games. The strategy is process-oriented, focusing on aspects such as: Rapid prototyping, play testing, and design iteration using a player-centered approach.",
+  "search_text": "MIT OCW: Introduction to Game Design Methods (Spring 2016) Mikael Jakobsson Sara Verrilli MIT 的方法论课程材料，包含 board game analysis、research、pitch、paper prototyping 和 playtest 等完整作业链。 非常适合把知识库转成训练流程。 能直接沉淀成 prompt 和检查单。 对“做完一个原型后怎么验证”特别有帮助。 最适合用于制作原型验证、试玩记录和审查模板。 制作 系统策划 玩法策划 测试 测试、验收与审计 回归测试检查单 试玩与迭代 设计基础 项目审计 MIT OpenCourseWare This course is an introduction to the theory and practice of the process of designing games and playful experiences. Students are familiarized with methods, concepts, techniques, and literature used in the design of games. The strategy is process-oriented, focusing on aspects such as: Rapid prototyping, play testing, and design iteration using a player-centered approach.",
+  "content_markdown": "# MIT OCW: Introduction to Game Design Methods (Spring 2016)\n\n## 基本信息\n\n- 作者：Mikael Jakobsson / Sara Verrilli\n- 年份：2016\n- 类型：course\n- 来源：MIT OpenCourseWare\n\n## 摘要\n\nMIT 的方法论课程材料，包含 board game analysis、research、pitch、paper prototyping 和 playtest 等完整作业链。\n\n## 核心要点\n\n- 非常适合把知识库转成训练流程。\n- 能直接沉淀成 prompt 和检查单。\n- 对“做完一个原型后怎么验证”特别有帮助。\n\n## 适用场景\n\n最适合用于制作原型验证、试玩记录和审查模板。\n\n## 分类\n\n- 一级分类：测试、验收与审计\n- 二级输出物：回归测试检查单\n- 主题标签：试玩与迭代 / 设计基础 / 项目审计\n- 可用性：已下载开放全文\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-1-people-in-my-life-through-games.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-2-board-game-analysis-solution.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-2-board-game-analysis.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-3-scrabbleship-working-with-game-mechanics.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-4-research.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-5-game-design-document-and-pitch.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-6-paper-prototyping.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-7-playtest.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-8-explorative-game-design-project.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-8-step-4-oral-presentation-and-written-report.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/high-level-design-template.pdf`\n\n## 官方链接\n\n- <https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2016-introduction-to-game-design-methods/01-ocw.mit.edu-courses-cms-301-introduction-to-game-design-methods-spring-2016-.html`\n\n## 相关条目\n\n- Game Design Concepts\n- Game Design Workshop\n",
+  "content_html": "<h1 id=\"mit-ocw-introduction-to-game-design-methods-spring-2016\">MIT OCW: Introduction to Game Design Methods (Spring 2016)</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Mikael Jakobsson / Sara Verrilli</li><li>年份：2016</li><li>类型：course</li><li>来源：MIT OpenCourseWare</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>MIT 的方法论课程材料，包含 board game analysis、research、pitch、paper prototyping 和 playtest 等完整作业链。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>非常适合把知识库转成训练流程。</li><li>能直接沉淀成 prompt 和检查单。</li><li>对“做完一个原型后怎么验证”特别有帮助。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合用于制作原型验证、试玩记录和审查模板。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：测试、验收与审计</li><li>二级输出物：回归测试检查单</li><li>主题标签：试玩与迭代 / 设计基础 / 项目审计</li><li>可用性：已下载开放全文</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-1-people-in-my-life-through-games.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-2-board-game-analysis-solution.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-2-board-game-analysis.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-3-scrabbleship-working-with-game-mechanics.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-4-research.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-5-game-design-document-and-pitch.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-6-paper-prototyping.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-7-playtest.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-8-explorative-game-design-project.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/assignment-8-step-4-oral-presentation-and-written-report.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2016/high-level-design-template.pdf</code></li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/\" target=\"_blank\" rel=\"noreferrer\">https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2016-introduction-to-game-design-methods/01-ocw.mit.edu-courses-cms-301-introduction-to-game-design-methods-spring-2016-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Design Concepts</li><li>Game Design Workshop</li></ul>",
+  "knowledge_domains": [],
+  "purposes": [],
+  "reading_modes": [],
+  "value_types": [],
+  "knowledge_lifecycle": [],
+  "primary_private_extract": null,
+  "primary_private_artifact": null,
+  "primary_toc_preview": [],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "downloaded_open"
+}

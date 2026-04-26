@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bookos.relationship.schema.v1",
+  "title": "BookOS Relationship Edge",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "edge_id",
+    "relationship_type",
+    "source_entity_id",
+    "target_entity_id",
+    "evidence_required",
+    "evidence_ids",
+    "source_basis",
+    "confidence",
+    "created_at"
+  ],
+  "properties": {
+    "edge_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relationship_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_required": {
+      "type": "boolean"
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_basis": {
+      "type": "string",
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

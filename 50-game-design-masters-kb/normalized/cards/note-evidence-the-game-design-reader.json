@@ -1,0 +1,75 @@
+{
+  "id": "note-evidence-the-game-design-reader",
+  "entity_type": "card",
+  "title": "The Game Design Reader: A Rules of Play Anthology：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "director-review",
+  "resource_kind": "note",
+  "source_work_id": "the-game-design-reader",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "formalism",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-game-design-reader",
+    "rules-of-play",
+    "characteristics-of-games",
+    "the-rule-book"
+  ],
+  "related_card_ids": [
+    "work-the-game-design-reader",
+    "note-book-positioning-the-game-design-reader"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262195362/the-game-design-reader"
+  ],
+  "local_links": [
+    {
+      "label": "the-game-design-reader-0d2c1d43ee51.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-game-design-reader-0d2c1d43ee51.json"
+    },
+    {
+      "label": "The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# The Game Design Reader: A Rules of Play Anthology：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Extract title: The game design reader : a Rules of play anthology\n- Format: pdf\n- Page count: 968\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-game-design-reader-0d2c1d43ee51.json`\n\n## Sample Text Signals\n\n- Page 1: is * Chick * Suits * Costikya * Gee * Mochan * St srk and Holopainen niderman * Hughes é ‘ Stor - ik Pactr _ ons Me i we we , ds Ve\" OA oa She. at\" AR ” ian ae re 3 bed ;\n- Page 7: The Game Design Reader A Rules of Play Anthology Katie Salen and Eric Zimmerman The MIT Press Cambridge, Massachusetts London, England book design and photography | Douglas Diaz and Katie Salen\n\n## Why It Matters For The KB\n\n- 当前定位：最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。\n- 主要用途：高层设计审查 / 理论补课 / 阅读小组共读 / 跨书目比较\n- 输出价值：案例库 / 批评视角 / 术语背景 / 经典文本入口\n\n## Source Review Notes\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"the-game-design-reader-a-rules-of-play-anthology：evidence-note\">The Game Design Reader: A Rules of Play Anthology：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Extract title: The game design reader : a Rules of play anthology</li><li>Format: pdf</li><li>Page count: 968</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-game-design-reader-0d2c1d43ee51.json</code></li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>Page 1: is <em> Chick </em> Suits <em> Costikya </em> Gee <em> Mochan </em> St srk and Holopainen niderman * Hughes é ‘ Stor - ik Pactr _ ons Me i we we , ds Ve&quot; OA oa She. at&quot; AR ” ian ae re 3 bed ;</li><li>Page 7: The Game Design Reader A Rules of Play Anthology Katie Salen and Eric Zimmerman The MIT Press Cambridge, Massachusetts London, England book design and photography | Douglas Diaz and Katie Salen</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。</li><li>主要用途：高层设计审查 / 理论补课 / 阅读小组共读 / 跨书目比较</li><li>输出价值：案例库 / 批评视角 / 术语背景 / 经典文本入口</li></ul>\n<h2 id=\"source-review-notes\">Source Review Notes</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Game Design Reader: A Rules of Play Anthology：Evidence Note",
+      "id": "the-game-design-reader-a-rules-of-play-anthology：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    },
+    {
+      "level": 2,
+      "text": "Source Review Notes",
+      "id": "source-review-notes"
+    }
+  ],
+  "search_text": "The Game Design Reader: A Rules of Play Anthology 一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。 最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。 is * Chick * Suits * Costikya * Gee * Mochan * St srk and Holopainen niderman * Hughes é ‘ Stor - ik Pactr _ ons Me i we we , ds Ve\" OA oa She. at\" AR ” ian ae re 3 bed ; The Game Design Reader A Rules of Play Anthology Katie Salen and Eric Zimmerman The MIT Press Cambridge, Massachusetts London, England book design and photography | Douglas Diaz and Katie Salen 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+}

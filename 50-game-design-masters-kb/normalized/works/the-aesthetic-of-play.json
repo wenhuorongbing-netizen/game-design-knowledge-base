@@ -1,0 +1,351 @@
+{
+  "id": "the-aesthetic-of-play",
+  "title": "The Aesthetic of Play",
+  "authors": [
+    "Brian Upton"
+  ],
+  "year": 2015,
+  "kind": "book",
+  "canonical_url": "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/",
+  "publisher_or_source": "MIT Press",
+  "language": "en",
+  "license": "Commercial",
+  "access_mode": "metadata_only",
+  "source_ids": [
+    "mit-press"
+  ],
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "player-flow-review",
+  "theme_tags": [
+    "fun-theory",
+    "systems-thinking"
+  ],
+  "summary": "从体验生成与意义建构的角度讨论 play、规则和叙事，适合用来分析‘为什么这个体验成立’而不只是‘它有哪些机制’。",
+  "key_points": [
+    "它是偏高阶的体验分析书。",
+    "适合补玩法与意义、叙事与体验之间的联系。",
+    "和 Play Matters 一起看时，一本偏哲学态度，一本偏体验结构。"
+  ],
+  "recommended_for": [
+    "主策",
+    "叙事设计",
+    "UI/UX"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+  ],
+  "related_work_ids": [
+    "play-matters",
+    "the-rule-book"
+  ],
+  "usage_relevance": "最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。",
+  "knowledge_domains": [
+    "体验美学",
+    "规则与意义",
+    "叙事体验关系"
+  ],
+  "purposes": [
+    "体验评审",
+    "叙事-玩法关系分析",
+    "高阶理论补课"
+  ],
+  "reading_modes": [
+    "专题通读",
+    "与体验问题对照阅读",
+    "作为复盘补充"
+  ],
+  "value_types": [
+    "高阶视角",
+    "体验解释层"
+  ],
+  "knowledge_lifecycle": [
+    "方向深化",
+    "体验复盘",
+    "叙事审查"
+  ],
+  "entity_type": "work",
+  "slug": "the-aesthetic-of-play",
+  "phase_label": "美术、UI、体验表达",
+  "deliverable_label": "玩家体验流畅度评审",
+  "theme_labels": [
+    "乐趣与学习",
+    "系统思维"
+  ],
+  "availability_label": "已有私有书源，但来源待复核",
+  "source_labels": [
+    "MIT Press"
+  ],
+  "official_link_entries": [
+    {
+      "label": "mitpress.mit.edu",
+      "url": "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "size_bytes": 4883796,
+      "extension": "pdf",
+      "sha256": "5c94bc1bc7fc1c2af99daad069d0b4599655da15d5d282725e660fd1e78b288a",
+      "resource_kind": "book",
+      "user_supplied": true,
+      "source_review_status": "needs_review",
+      "provenance_label": "third_party_mirror_inferred",
+      "provenance_flags": [
+        "mirror_library_name"
+      ],
+      "review_notes": [
+        "file name suggests a third-party mirror or repost source"
+      ]
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/",
+      "source_id": "mit-press",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-aesthetic-of-play/01-mitpress.mit.edu-9780262028516-the-aesthetic-of-play-.html",
+      "fetched_at": "2026-04-25T05:32:06.336Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/",
+        "title": "Book Details - MIT Press",
+        "description": "MIT Press - Book Details",
+        "authors": [],
+        "isbn": "9780262028516",
+        "publisher": "",
+        "date_published": "2021-12-01T14:22:19+00:00",
+        "json_ld_type": "WebPage, ItemPage"
+      }
+    }
+  ],
+  "private_extracts": [
+    {
+      "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "matched_work_id": "the-aesthetic-of-play",
+      "extraction_status": "ok",
+      "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json",
+      "format": "pdf",
+      "section_count": 5,
+      "toc_count": 24,
+      "warnings": []
+    }
+  ],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": true,
+  "private_source_count": 1,
+  "private_extract_count": 1,
+  "metadata_summary": "MIT Press - Book Details",
+  "search_text": "The Aesthetic of Play Brian Upton 从体验生成与意义建构的角度讨论 play、规则和叙事，适合用来分析‘为什么这个体验成立’而不只是‘它有哪些机制’。 它是偏高阶的体验分析书。 适合补玩法与意义、叙事与体验之间的联系。 和 Play Matters 一起看时，一本偏哲学态度，一本偏体验结构。 最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。 主策 叙事设计 UI/UX 体验美学 规则与意义 叙事体验关系 体验评审 叙事-玩法关系分析 高阶理论补课 专题通读 与体验问题对照阅读 作为复盘补充 高阶视角 体验解释层 方向深化 体验复盘 叙事审查 Contents Acknowledgments Introduction I Games 1 Defining Play 2 Interactivity 3 Play Spaces 4 Heuristics 5 Anticipation 6 Mastery II Minds 7 Understanding 8 Epistemology 9 Neurons 美术、UI、体验表达 玩家体验流畅度评审 乐趣与学习 系统思维 MIT Press MIT Press - Book Details",
+  "content_markdown": "# The Aesthetic of Play\n\n## 基本信息\n\n- 作者：Brian Upton\n- 年份：2015\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n从体验生成与意义建构的角度讨论 play、规则和叙事，适合用来分析‘为什么这个体验成立’而不只是‘它有哪些机制’。\n\n## 核心要点\n\n- 它是偏高阶的体验分析书。\n- 适合补玩法与意义、叙事与体验之间的联系。\n- 和 Play Matters 一起看时，一本偏哲学态度，一本偏体验结构。\n\n## 适用场景\n\n最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。\n\n## 知识定位\n\n- 关注领域：体验美学 / 规则与意义 / 叙事体验关系\n- 主要用途：体验评审 / 叙事-玩法关系分析 / 高阶理论补课\n- 推荐读法：专题通读 / 与体验问题对照阅读 / 作为复盘补充\n- 价值类型：高阶视角 / 体验解释层\n- 最适合介入的阶段：方向深化 / 体验复盘 / 叙事审查\n\n## 分类\n\n- 一级分类：美术、UI、体验表达\n- 二级输出物：玩家体验流畅度评审\n- 主题标签：乐趣与学习 / 系统思维\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：The Aesthetic of Play\n- 解析格式：pdf\n- 页数：335\n- 顶层目录预览：\n  - Contents\n  - Acknowledgments\n  - Introduction\n  - I Games\n  - 1 Defining Play\n  - 2 Interactivity\n  - 3 Play Spaces\n  - 4 Heuristics\n  - 5 Anticipation\n  - 6 Mastery\n  - II Minds\n  - 7 Understanding\n  - 8 Epistemology\n  - 9 Neurons\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json`（ok）\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/the-aesthetic-of-play/01-mitpress.mit.edu-9780262028516-the-aesthetic-of-play-.html`\n\n## 相关条目\n\n- Play Matters\n- The Rule Book\n",
+  "content_html": "<h1 id=\"the-aesthetic-of-play\">The Aesthetic of Play</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Brian Upton</li><li>年份：2015</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从体验生成与意义建构的角度讨论 play、规则和叙事，适合用来分析‘为什么这个体验成立’而不只是‘它有哪些机制’。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它是偏高阶的体验分析书。</li><li>适合补玩法与意义、叙事与体验之间的联系。</li><li>和 Play Matters 一起看时，一本偏哲学态度，一本偏体验结构。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：体验美学 / 规则与意义 / 叙事体验关系</li><li>主要用途：体验评审 / 叙事-玩法关系分析 / 高阶理论补课</li><li>推荐读法：专题通读 / 与体验问题对照阅读 / 作为复盘补充</li><li>价值类型：高阶视角 / 体验解释层</li><li>最适合介入的阶段：方向深化 / 体验复盘 / 叙事审查</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：美术、UI、体验表达</li><li>二级输出物：玩家体验流畅度评审</li><li>主题标签：乐趣与学习 / 系统思维</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：The Aesthetic of Play</li><li>解析格式：pdf</li><li>页数：335</li><li>顶层目录预览：</li><li>Contents</li><li>Acknowledgments</li><li>Introduction</li><li>I Games</li><li>1 Defining Play</li><li>2 Interactivity</li><li>3 Play Spaces</li><li>4 Heuristics</li><li>5 Anticipation</li><li>6 Mastery</li><li>II Minds</li><li>7 Understanding</li><li>8 Epistemology</li><li>9 Neurons</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/the-aesthetic-of-play/01-mitpress.mit.edu-9780262028516-the-aesthetic-of-play-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Play Matters</li><li>The Rule Book</li></ul>",
+  "primary_private_extract": {
+    "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "matched_work_id": "the-aesthetic-of-play",
+    "extraction_status": "ok",
+    "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json",
+    "format": "pdf",
+    "section_count": 5,
+    "toc_count": 24,
+    "warnings": []
+  },
+  "primary_private_artifact": {
+    "format": "pdf",
+    "metadata": {
+      "title": "The Aesthetic of Play",
+      "authors": [
+        "Upton, Brian"
+      ],
+      "subject": "",
+      "producer": "Acrobat Distiller 7.0.5 (Windows)"
+    },
+    "page_count": 335,
+    "toc": [
+      {
+        "label": "Contents",
+        "depth": 0,
+        "page": 8
+      },
+      {
+        "label": "Acknowledgments",
+        "depth": 0,
+        "page": 10
+      },
+      {
+        "label": "Introduction",
+        "depth": 0,
+        "page": 12
+      },
+      {
+        "label": "I Games",
+        "depth": 0,
+        "page": 18
+      },
+      {
+        "label": "1 Defining Play",
+        "depth": 1,
+        "page": 20
+      },
+      {
+        "label": "2 Interactivity",
+        "depth": 1,
+        "page": 34
+      },
+      {
+        "label": "3 Play Spaces",
+        "depth": 1,
+        "page": 50
+      },
+      {
+        "label": "4 Heuristics",
+        "depth": 1,
+        "page": 62
+      },
+      {
+        "label": "5 Anticipation",
+        "depth": 1,
+        "page": 84
+      },
+      {
+        "label": "6 Mastery",
+        "depth": 1,
+        "page": 104
+      },
+      {
+        "label": "II Minds",
+        "depth": 0,
+        "page": 126
+      },
+      {
+        "label": "7 Understanding",
+        "depth": 1,
+        "page": 128
+      },
+      {
+        "label": "8 Epistemology",
+        "depth": 1,
+        "page": 138
+      },
+      {
+        "label": "9 Neurons",
+        "depth": 1,
+        "page": 156
+      },
+      {
+        "label": "10 Signs",
+        "depth": 1,
+        "page": 172
+      },
+      {
+        "label": "III Stories",
+        "depth": 0,
+        "page": 192
+      },
+      {
+        "label": "11 Playing without Winning",
+        "depth": 1,
+        "page": 194
+      },
+      {
+        "label": "12 Performance",
+        "depth": 1,
+        "page": 210
+      },
+      {
+        "label": "13 Narrative Play",
+        "depth": 1,
+        "page": 226
+      },
+      {
+        "label": "14 Narrative Structure",
+        "depth": 1,
+        "page": 248
+      },
+      {
+        "label": "15 Play and Meaning",
+        "depth": 1,
+        "page": 270
+      },
+      {
+        "label": "16 Critical Play",
+        "depth": 1,
+        "page": 294
+      },
+      {
+        "label": "Bibliography",
+        "depth": 0,
+        "page": 318
+      },
+      {
+        "label": "Index",
+        "depth": 0,
+        "page": 330
+      }
+    ],
+    "sample_sections": [
+      {
+        "label": "Page 2",
+        "location": {
+          "page": 2
+        },
+        "text": "The Aesthetic of Play"
+      },
+      {
+        "label": "Page 4",
+        "location": {
+          "page": 4
+        },
+        "text": "The Aesthetic of Play Brian Upton The MIT Press Cambridge, Massachusetts London, England"
+      },
+      {
+        "label": "Page 5",
+        "location": {
+          "page": 5
+        },
+        "text": "© 2015 Massachusetts Institute of Technology All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher. MIT Press books may be purchased at special quantity discounts for business or sales promotional use. For information, email special_sales@mitpress.mit.edu. Set in Stone Sans and Stone Serif by Toppan Best-set Premedia Limited, Hong Kong. Printed and bound in the United States of America. Library of Congress Cataloging-in-Publication Data are available ISBN: 978-0-262-02851-6 (hardcover : alk. paper) 10 9 8 7 6 5 4 3 2 1"
+      },
+      {
+        "label": "Page 6",
+        "location": {
+          "page": 6
+        },
+        "text": "Everyone has some narrow talent. Mine happens to be the ability to explain complex subjects in clear language. Howard Upton This book is dedicated to my late father. He always had time to play."
+      },
+      {
+        "label": "Page 8",
+        "location": {
+          "page": 8
+        },
+        "text": "Contents Acknowledgments ix Introduction 1 I Games 1 Defining Play 9 2 Interactivity 23 3 Play Spaces 39 4 Heuristics 51 5 Anticipation 73 6 Mastery 93 II Minds 7 Understanding 117 8 Epistemology 127 9 Neurons 145 10 Signs 161 III Stories 11 Playing without Winning 183 12 Performance 199 13 Narrative Play 215 14 Narrative Structure 237 15 Play and Meaning 259 16 Critical Play 283 Bibliography 307 Index 319"
+      }
+    ],
+    "preview_text": "The Aesthetic of Play\n\nThe Aesthetic of Play Brian Upton The MIT Press Cambridge, Massachusetts London, England\n\n© 2015 Massachusetts Institute of Technology All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher. MIT Press books may be purchased at special quantity discounts for business or sales promotional use. For information, email special_sales@mitpress.mit.edu. Set in Stone Sans and Stone Serif by Toppan Best-set Premedia Limited, Hong Kong. Printed and bound in the United States of America. Library of Congress Cataloging-in-Publication Data are available ISBN: 978-0-262-02851-6 (hardcover : alk. paper) 10 9 8 7 6 5 4 3 2 1",
+    "extraction_status": "ok",
+    "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "file_name": "The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+  },
+  "primary_toc_preview": [
+    "Contents",
+    "Acknowledgments",
+    "Introduction",
+    "I Games",
+    "1 Defining Play",
+    "2 Interactivity",
+    "3 Play Spaces",
+    "4 Heuristics",
+    "5 Anticipation",
+    "6 Mastery",
+    "II Minds",
+    "7 Understanding",
+    "8 Epistemology",
+    "9 Neurons"
+  ],
+  "private_source_review_required_count": 1,
+  "private_source_provenance_flags": [
+    "mirror_library_name"
+  ],
+  "source_review_notes": [
+    "当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+  ],
+  "availability_effective_id": "manual_review"
+}

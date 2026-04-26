@@ -1,0 +1,61 @@
+{
+  "id": "phase-guide-numbers-economy",
+  "entity_type": "card",
+  "title": "数值与经济设计导向卡",
+  "summary": "战斗数值、资源消耗、经济系统、掉落奖励与商业化数值。",
+  "card_kind": "phase_guide",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [],
+  "related_work_ids": [
+    "advanced-game-design-a-systems-approach",
+    "characteristics-of-games",
+    "game-mechanics-advanced-game-design"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 数值与经济设计导向卡\n\n## 这个阶段解决什么\n\n战斗数值、资源消耗、经济系统、掉落奖励与商业化数值。\n\n## 常见输出物\n\n- 数值框架设计\n- 战斗数值平衡\n- 资源产出消耗设计\n- 经济系统设计\n- 货币系统设计\n- 成长曲线设计\n- 掉落与奖励设计\n- 商业化数值评估\n\n## 推荐先看\n\n- Advanced Game Design: A Systems Approach\n- Characteristics of Games\n- Game Mechanics: Advanced Game Design\n\n## 已本地可读\n\n- Advanced Game Design: A Systems Approach\n- Characteristics of Games\n- Game Mechanics: Advanced Game Design\n\n## 仍建议补齐\n\n- 当前这一类没有优先级很高的待补正版文件。\n\n## 对具体项目的落点\n\n- 先把这个阶段的问题收束成 数值框架设计 / 战斗数值平衡 / 资源产出消耗设计 这样的具体输出物。\n- 再用本类材料检查当前项目文档是否真的给出了可执行结论。\n",
+  "body_html": "<h1 id=\"数值与经济设计导向卡\">数值与经济设计导向卡</h1>\n<h2 id=\"这个阶段解决什么\">这个阶段解决什么</h2>\n<p>战斗数值、资源消耗、经济系统、掉落奖励与商业化数值。</p>\n<h2 id=\"常见输出物\">常见输出物</h2>\n<ul><li>数值框架设计</li><li>战斗数值平衡</li><li>资源产出消耗设计</li><li>经济系统设计</li><li>货币系统设计</li><li>成长曲线设计</li><li>掉落与奖励设计</li><li>商业化数值评估</li></ul>\n<h2 id=\"推荐先看\">推荐先看</h2>\n<ul><li>Advanced Game Design: A Systems Approach</li><li>Characteristics of Games</li><li>Game Mechanics: Advanced Game Design</li></ul>\n<h2 id=\"已本地可读\">已本地可读</h2>\n<ul><li>Advanced Game Design: A Systems Approach</li><li>Characteristics of Games</li><li>Game Mechanics: Advanced Game Design</li></ul>\n<h2 id=\"仍建议补齐\">仍建议补齐</h2>\n<ul><li>当前这一类没有优先级很高的待补正版文件。</li></ul>\n<h2 id=\"对具体项目的落点\">对具体项目的落点</h2>\n<ul><li>先把这个阶段的问题收束成 数值框架设计 / 战斗数值平衡 / 资源产出消耗设计 这样的具体输出物。</li><li>再用本类材料检查当前项目文档是否真的给出了可执行结论。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "数值与经济设计导向卡",
+      "id": "数值与经济设计导向卡"
+    },
+    {
+      "level": 2,
+      "text": "这个阶段解决什么",
+      "id": "这个阶段解决什么"
+    },
+    {
+      "level": 2,
+      "text": "常见输出物",
+      "id": "常见输出物"
+    },
+    {
+      "level": 2,
+      "text": "推荐先看",
+      "id": "推荐先看"
+    },
+    {
+      "level": 2,
+      "text": "已本地可读",
+      "id": "已本地可读"
+    },
+    {
+      "level": 2,
+      "text": "仍建议补齐",
+      "id": "仍建议补齐"
+    },
+    {
+      "level": 2,
+      "text": "对具体项目的落点",
+      "id": "对具体项目的落点"
+    }
+  ],
+  "search_text": "数值与经济设计 战斗数值、资源消耗、经济系统、掉落奖励与商业化数值。 数值框架设计 战斗数值平衡 资源产出消耗设计 经济系统设计 货币系统设计 成长曲线设计 掉落与奖励设计 商业化数值评估 Advanced Game Design: A Systems Approach Characteristics of Games Game Mechanics: Advanced Game Design"
+}

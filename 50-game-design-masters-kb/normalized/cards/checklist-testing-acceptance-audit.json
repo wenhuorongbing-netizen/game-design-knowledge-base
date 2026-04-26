@@ -1,0 +1,56 @@
+{
+  "id": "checklist-testing-acceptance-audit",
+  "entity_type": "card",
+  "title": "测试、验收与审计 Checklist",
+  "summary": "检查版本是否具备清楚的通过标准、回归边界和风险排序。",
+  "card_kind": "checklist",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "regression-checklist",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "playtesting"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2016-introduction-to-game-design-methods",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "phase-guide-testing-acceptance-audit",
+    "prompt-testing-acceptance-audit"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 测试、验收与审计 Checklist\n\n## 适用场景\n\n用于版本验收会、QA kickoff 或项目状态审计。\n\n## 检查项\n\n- 版本目标与通过标准已经写成玩家可执行任务。\n- 关键 bug 有严重度和影响路径，而不是一锅端待修。\n- 回归测试项覆盖核心循环、存档、输入和关键 UI。\n- 试玩问题有明确观察目标，不只是“随便玩玩看”。\n- stop ship 条件写清楚并被全员接受。\n- 下一轮优先级按体验风险而不是按谁声音大排序。\n- 每次构建都能复用同一套基础 smoke test。\n\n## 通过标准\n\n- 团队知道当前版本到底在验什么。\n- 严重问题能快速归类为阻塞 / 非阻塞。\n- 试玩与 QA 结果能直接驱动下一轮取舍。\n\n## 常见失败信号\n\n- 验收标准只写成主观句子，如“更流畅、更好玩”。\n- 版本会后仍然没人知道先修哪个问题。\n- 回归测试只能靠个人记忆。\n",
+  "body_html": "<h1 id=\"测试、验收与审计-checklist\">测试、验收与审计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于版本验收会、QA kickoff 或项目状态审计。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>版本目标与通过标准已经写成玩家可执行任务。</li><li>关键 bug 有严重度和影响路径，而不是一锅端待修。</li><li>回归测试项覆盖核心循环、存档、输入和关键 UI。</li><li>试玩问题有明确观察目标，不只是“随便玩玩看”。</li><li>stop ship 条件写清楚并被全员接受。</li><li>下一轮优先级按体验风险而不是按谁声音大排序。</li><li>每次构建都能复用同一套基础 smoke test。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>团队知道当前版本到底在验什么。</li><li>严重问题能快速归类为阻塞 / 非阻塞。</li><li>试玩与 QA 结果能直接驱动下一轮取舍。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>验收标准只写成主观句子，如“更流畅、更好玩”。</li><li>版本会后仍然没人知道先修哪个问题。</li><li>回归测试只能靠个人记忆。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "测试、验收与审计 Checklist",
+      "id": "测试、验收与审计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "测试、验收与审计 Checklist 检查版本是否具备清楚的通过标准、回归边界和风险排序。 用于版本验收会、QA kickoff 或项目状态审计。 版本目标与通过标准已经写成玩家可执行任务。 关键 bug 有严重度和影响路径，而不是一锅端待修。 回归测试项覆盖核心循环、存档、输入和关键 UI。 试玩问题有明确观察目标，不只是“随便玩玩看”。 stop ship 条件写清楚并被全员接受。 下一轮优先级按体验风险而不是按谁声音大排序。 每次构建都能复用同一套基础 smoke test。 团队知道当前版本到底在验什么。 严重问题能快速归类为阻塞 / 非阻塞。 试玩与 QA 结果能直接驱动下一轮取舍。 验收标准只写成主观句子，如“更流畅、更好玩”。 版本会后仍然没人知道先修哪个问题。 回归测试只能靠个人记忆。 project-audit playtesting"
+}

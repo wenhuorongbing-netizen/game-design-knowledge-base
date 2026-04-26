@@ -1,0 +1,62 @@
+{
+  "id": "prompt-motion-hit-feel-expression",
+  "entity_type": "card",
+  "title": "动效与打击感表达 Prompt 模板",
+  "summary": "把输入响应、命中反馈、镜头与音画配合整理成可执行的 hit-feel 方案。",
+  "card_kind": "prompt_template",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "hit-feel",
+    "ui-ux",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "prompt-art-ui-experience",
+    "prompt-combat-system-design"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 动效与打击感表达 Prompt 模板\n\n## 适用场景\n\n当团队觉得“手感不对”“动作发飘”“打中像没打中”时使用。\n\n## 使用前提供\n\n- 目标动作或战斗感觉\n- 输入延迟、角色响应、移动曲线\n- 命中、受击、位移、镜头和音效现状\n- 参考作品\n- 当前最明显的手感问题\n\n## 预期输出\n\n1. 目标 feel 描述\n2. 输入与响应链\n3. 命中与受击反馈\n4. 视觉/音频/镜头配合\n5. 过度表现风险\n6. 优先级最高的 polish 项\n\n## Prompt 模板\n\n```text\n你是一个世界级 game-feel 顾问。\n请把下面的问题整理成一份可执行的动效与打击感优化方案。\n\n输入：\n- 目标 feel：{{target_feel}}\n- 输入与响应：{{input_and_response}}\n- 命中/受击现状：{{hit_reaction_state}}\n- 镜头/音效/动效：{{camera_audio_vfx}}\n- 参考作品：{{references}}\n- 当前问题：{{current_feel_problems}}\n\n请输出：\n1. 目标 feel：玩家应该感受到什么。\n2. 响应链：输入到反馈之间每一步哪里在拖后腿。\n3. 命中反馈：命中、受击、错失、爆发各自要强调什么。\n4. 多模态配合：镜头、动画、音效、粒子如何分工。\n5. 风险：哪些过度表现会伤害可控性和可读性。\n6. 优先级：最值得先修的 5 个点。\n\n要求：\n- 先保玩家控制感，再谈视觉炫技。\n- 区分“反馈不足”和“动作设计本身有问题”。\n- 不要让 hit-feel 牺牲信息清晰度。\n```\n\n## 二次追问\n\n- 只围绕移动手感重做一版。\n- 只围绕近战命中反馈重做一版。\n",
+  "body_html": "<h1 id=\"动效与打击感表达-prompt-模板\">动效与打击感表达 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当团队觉得“手感不对”“动作发飘”“打中像没打中”时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>目标动作或战斗感觉</li><li>输入延迟、角色响应、移动曲线</li><li>命中、受击、位移、镜头和音效现状</li><li>参考作品</li><li>当前最明显的手感问题</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>目标 feel 描述</li><li>输入与响应链</li><li>命中与受击反馈</li><li>视觉/音频/镜头配合</li><li>过度表现风险</li><li>优先级最高的 polish 项</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级 game-feel 顾问。\n请把下面的问题整理成一份可执行的动效与打击感优化方案。\n\n输入：\n- 目标 feel：{{target_feel}}\n- 输入与响应：{{input_and_response}}\n- 命中/受击现状：{{hit_reaction_state}}\n- 镜头/音效/动效：{{camera_audio_vfx}}\n- 参考作品：{{references}}\n- 当前问题：{{current_feel_problems}}\n\n请输出：\n1. 目标 feel：玩家应该感受到什么。\n2. 响应链：输入到反馈之间每一步哪里在拖后腿。\n3. 命中反馈：命中、受击、错失、爆发各自要强调什么。\n4. 多模态配合：镜头、动画、音效、粒子如何分工。\n5. 风险：哪些过度表现会伤害可控性和可读性。\n6. 优先级：最值得先修的 5 个点。\n\n要求：\n- 先保玩家控制感，再谈视觉炫技。\n- 区分“反馈不足”和“动作设计本身有问题”。\n- 不要让 hit-feel 牺牲信息清晰度。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>只围绕移动手感重做一版。</li><li>只围绕近战命中反馈重做一版。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "动效与打击感表达 Prompt 模板",
+      "id": "动效与打击感表达-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "动效与打击感表达 Prompt 模板 把输入响应、命中反馈、镜头与音画配合整理成可执行的 hit-feel 方案。 当团队觉得“手感不对”“动作发飘”“打中像没打中”时使用。 目标动作或战斗感觉 输入延迟、角色响应、移动曲线 命中、受击、位移、镜头和音效现状 参考作品 当前最明显的手感问题 目标 feel 描述 输入与响应链 命中与受击反馈 视觉/音频/镜头配合 过度表现风险 优先级最高的 polish 项 hit-feel ui-ux prompt-design"
+}

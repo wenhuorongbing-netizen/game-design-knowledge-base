@@ -1,0 +1,55 @@
+{
+  "id": "checklist-performance-optimization",
+  "entity_type": "card",
+  "title": "性能优化 Checklist",
+  "summary": "检查性能问题是否被拆成可定位、可排序、可验证的优化工作，而不是一团“后面再优化”。",
+  "card_kind": "checklist",
+  "phase_group": "development-implementation",
+  "deliverable_type": "performance-optimization",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "related_card_ids": [
+    "prompt-development-implementation",
+    "checklist-development-implementation"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 性能优化 Checklist\n\n## 适用场景\n\n用于性能 review、移植前审查或判断当前卡顿到底来自哪里。\n\n## 检查项\n\n- 目标平台和帧率/内存预算明确。\n- 性能问题被拆成渲染、逻辑、IO、资源加载等来源。\n- 最常见卡顿场景有稳定复现方法。\n- 关键指标能被采集或观测，而不是凭感觉。\n- 高成本系统已按优先级排序。\n- 优化不会先破坏验证效率和开发效率。\n- “后面优化”不再是无边界借口。\n\n## 通过标准\n\n- 团队知道先测什么、先砍什么、先观察什么。\n- 优化顺序服从项目当前阶段目标。\n- 性能问题可以被持续跟踪。\n\n## 常见失败信号\n\n- 所有问题都被归结为“机器太差”。\n- 没有固定场景能复现卡顿。\n- 优化动作全是随机试错。\n",
+  "body_html": "<h1 id=\"性能优化-checklist\">性能优化 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于性能 review、移植前审查或判断当前卡顿到底来自哪里。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>目标平台和帧率/内存预算明确。</li><li>性能问题被拆成渲染、逻辑、IO、资源加载等来源。</li><li>最常见卡顿场景有稳定复现方法。</li><li>关键指标能被采集或观测，而不是凭感觉。</li><li>高成本系统已按优先级排序。</li><li>优化不会先破坏验证效率和开发效率。</li><li>“后面优化”不再是无边界借口。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>团队知道先测什么、先砍什么、先观察什么。</li><li>优化顺序服从项目当前阶段目标。</li><li>性能问题可以被持续跟踪。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>所有问题都被归结为“机器太差”。</li><li>没有固定场景能复现卡顿。</li><li>优化动作全是随机试错。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "性能优化 Checklist",
+      "id": "性能优化-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "性能优化 Checklist 检查性能问题是否被拆成可定位、可排序、可验证的优化工作，而不是一团“后面再优化”。 用于性能 review、移植前审查或判断当前卡顿到底来自哪里。 目标平台和帧率/内存预算明确。 性能问题被拆成渲染、逻辑、IO、资源加载等来源。 最常见卡顿场景有稳定复现方法。 关键指标能被采集或观测，而不是凭感觉。 高成本系统已按优先级排序。 优化不会先破坏验证效率和开发效率。 “后面优化”不再是无边界借口。 团队知道先测什么、先砍什么、先观察什么。 优化顺序服从项目当前阶段目标。 性能问题可以被持续跟踪。 所有问题都被归结为“机器太差”。 没有固定场景能复现卡顿。 优化动作全是随机试错。 project-audit"
+}

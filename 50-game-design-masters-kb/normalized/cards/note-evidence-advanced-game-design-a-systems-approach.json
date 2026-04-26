@@ -1,0 +1,74 @@
+{
+  "id": "note-evidence-advanced-game-design-a-systems-approach",
+  "entity_type": "card",
+  "title": "Advanced Game Design: A Systems Approach：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "note",
+  "source_work_id": "advanced-game-design-a-systems-approach",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking",
+    "economy-loops",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "advanced-game-design-a-systems-approach",
+    "game-mechanics-advanced-game-design",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [
+    "work-advanced-game-design-a-systems-approach",
+    "note-book-positioning-advanced-game-design-a-systems-approach"
+  ],
+  "official_links": [
+    "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246"
+  ],
+  "local_links": [
+    {
+      "label": "advanced-game-design-a-systems-approach-383afdfefa9c.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/advanced-game-design-a-systems-approach-383afdfefa9c.json"
+    },
+    {
+      "label": "Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Advanced Game Design: A Systems Approach：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Extract title: Advanced game design : a systems approach\n- Format: pdf\n- Page count: 468\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/advanced-game-design-a-systems-approach-383afdfefa9c.json`\n\n## Sample Text Signals\n\n- Page 4: The Pearson Addison-Wesley Game Design and Development Series | H FROM CONCEPT TO PLAYABLE GAME Wy vy | ARCHITECTING NETWORKED GAMES we WITH UNITY” AND C# | 4 | | a GAMES, DESIGN =; PLAY A DETAILED APPROACH TO ITERATIVE GAME DESIGN | M U LTIPLAYER | Oa , | ’ …\n- Page 5: Advanced Game Design A Systems Approach Michael Sellers vv Addison-Wesley Boston e« Columbus « Indianapolis « New York ¢ San Francisco Amsterdam e« Cape Town e Dubai « London « Madrid « Milan Munich « Paris « Montreal « Toronto « Delhi « Mexico City Sao Paulo…\n- Page 8: or - ose ome: ers a ANten ta: send Dy aint tol eet ang C tue ee) toy Ponape b, Alea dane ney a ’ apie wits GAN Oe 3, tee RE sda sta te mncpriwnae ds ae ss, ia ali capitals, 8 ‘th haar aed $i Mlimate hay ee : le sg ‘woe dr is hee aie Fe po chai! feaversecungue…\n\n## Why It Matters For The KB\n\n- 当前定位：最适合处理中层系统结构、玩法之间的依赖关系以及“为什么整体体验不成立”这类跨系统问题。\n- 主要用途：中层系统梳理 / 循环关系审查 / 体系化设计复盘\n- 输出价值：中层方法论 / 结构桥梁 / 系统语言\n\n## Source Review Notes\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"advanced-game-design-a-systems-approach：evidence-note\">Advanced Game Design: A Systems Approach：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Extract title: Advanced game design : a systems approach</li><li>Format: pdf</li><li>Page count: 468</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/advanced-game-design-a-systems-approach-383afdfefa9c.json</code></li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>Page 4: The Pearson Addison-Wesley Game Design and Development Series | H FROM CONCEPT TO PLAYABLE GAME Wy vy | ARCHITECTING NETWORKED GAMES we WITH UNITY” AND C# | 4 | | a GAMES, DESIGN =; PLAY A DETAILED APPROACH TO ITERATIVE GAME DESIGN | M U LTIPLAYER | Oa , | ’ …</li><li>Page 5: Advanced Game Design A Systems Approach Michael Sellers vv Addison-Wesley Boston e« Columbus « Indianapolis « New York ¢ San Francisco Amsterdam e« Cape Town e Dubai « London « Madrid « Milan Munich « Paris « Montreal « Toronto « Delhi « Mexico City Sao Paulo…</li><li>Page 8: or - ose ome: ers a ANten ta: send Dy aint tol eet ang C tue ee) toy Ponape b, Alea dane ney a ’ apie wits GAN Oe 3, tee RE sda sta te mncpriwnae ds ae ss, ia ali capitals, 8 ‘th haar aed $i Mlimate hay ee : le sg ‘woe dr is hee aie Fe po chai! feaversecungue…</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合处理中层系统结构、玩法之间的依赖关系以及“为什么整体体验不成立”这类跨系统问题。</li><li>主要用途：中层系统梳理 / 循环关系审查 / 体系化设计复盘</li><li>输出价值：中层方法论 / 结构桥梁 / 系统语言</li></ul>\n<h2 id=\"source-review-notes\">Source Review Notes</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Advanced Game Design: A Systems Approach：Evidence Note",
+      "id": "advanced-game-design-a-systems-approach：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    },
+    {
+      "level": 2,
+      "text": "Source Review Notes",
+      "id": "source-review-notes"
+    }
+  ],
+  "search_text": "Advanced Game Design: A Systems Approach 把系统思维直接对接到游戏生产，强调从体验目标、循环关系和整体行为出发理解设计，而不是把系统拆成互不相干的局部技巧。 最适合处理中层系统结构、玩法之间的依赖关系以及“为什么整体体验不成立”这类跨系统问题。 The Pearson Addison-Wesley Game Design and Development Series | H FROM CONCEPT TO PLAYABLE GAME Wy vy | ARCHITECTING NETWORKED GAMES we WITH UNITY” AND C# | 4 | | a GAMES, DESIGN =; PLAY A DETAILED APPROACH TO ITERATIVE GAME DESIGN | M U LTIPLAYER | Oa , | ’ … Advanced Game Design A Systems Approach Michael Sellers vv Addison-Wesley Boston e« Columbus « Indianapolis « New York ¢ San Francisco Amsterdam e« Cape Town e Dubai « London « Madrid « Milan Munich « Paris « Montreal « Toronto « Delhi « Mexico City Sao Paulo… or - ose ome: ers a ANten ta: send Dy aint tol eet ang C tue ee) toy Ponape b, Alea dane ney a ’ apie wits GAN Oe 3, tee RE sda sta te mncpriwnae ds ae ss, ia ali capitals, 8 ‘th haar aed $i Mlimate hay ee : le sg ‘woe dr is hee aie Fe po chai! feaversecungue… 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "gamedesignconcepts",
+    "name": "Game Design Concepts",
+    "base_url": "https://gamedesignconcepts.wordpress.com/",
+    "source_type": "blog-course",
+    "acquisition_policy": "open_fulltext_fetch",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 500,
+    "notes": "CC BY 3.0 US on the official About page."
+  },
+  {
+    "id": "mit-ocw",
+    "name": "MIT OpenCourseWare",
+    "base_url": "https://ocw.mit.edu/",
+    "source_type": "course-platform",
+    "acquisition_policy": "open_fulltext_fetch",
+    "allowed_file_types": ["html", "pdf"],
+    "rate_limit_ms": 700,
+    "notes": "Used only for explicitly listed game design resources."
+  },
+  {
+    "id": "mud-co-uk",
+    "name": "Richard A. Bartle",
+    "base_url": "https://mud.co.uk/",
+    "source_type": "author-site",
+    "acquisition_policy": "open_fulltext_fetch",
+    "allowed_file_types": ["pdf", "docx", "html"],
+    "rate_limit_ms": 700,
+    "notes": "Author-hosted and explicitly licensed materials only."
+  },
+  {
+    "id": "northwestern-users",
+    "name": "Northwestern Users",
+    "base_url": "https://users.cs.northwestern.edu/",
+    "source_type": "university-host",
+    "acquisition_policy": "open_fulltext_fetch",
+    "allowed_file_types": ["pdf"],
+    "rate_limit_ms": 700,
+    "notes": "Used for the official MDA PDF only."
+  },
+  {
+    "id": "schellgames",
+    "name": "Schell Games",
+    "base_url": "https://schellgames.com/",
+    "source_type": "official-book-page",
+    "acquisition_policy": "official_metadata_only",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 800,
+    "notes": "Metadata only for The Art of Game Design."
+  },
+  {
+    "id": "routledge",
+    "name": "Routledge / CRC Press",
+    "base_url": "https://www.routledge.com/",
+    "source_type": "publisher",
+    "acquisition_policy": "official_metadata_only",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 900,
+    "notes": "Commercial books: official metadata only."
+  },
+  {
+    "id": "mit-press",
+    "name": "MIT Press",
+    "base_url": "https://mitpress.mit.edu/",
+    "source_type": "publisher",
+    "acquisition_policy": "open_metadata_fetch",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 900,
+    "notes": "Commercial and OA book pages. Metadata only in V1."
+  },
+  {
+    "id": "theoryoffun",
+    "name": "Theory of Fun",
+    "base_url": "https://www.theoryoffun.com/",
+    "source_type": "author-site",
+    "acquisition_policy": "open_metadata_fetch",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 900,
+    "notes": "Author site metadata and context only."
+  },
+  {
+    "id": "informit",
+    "name": "InformIT",
+    "base_url": "https://www.informit.com/",
+    "source_type": "publisher-store",
+    "acquisition_policy": "official_metadata_only",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 900,
+    "notes": "Commercial title metadata only."
+  },
+  {
+    "id": "wiley",
+    "name": "Wiley",
+    "base_url": "https://www.wiley.com/",
+    "source_type": "publisher",
+    "acquisition_policy": "official_metadata_only",
+    "allowed_file_types": ["html"],
+    "rate_limit_ms": 900,
+    "notes": "Commercial title metadata only."
+  },
+  {
+    "id": "gameai-pro",
+    "name": "Game AI Pro",
+    "base_url": "https://www.gameaipro.com/",
+    "source_type": "book-series-site",
+    "acquisition_policy": "external_link_only",
+    "allowed_file_types": ["html", "pdf"],
+    "rate_limit_ms": 900,
+    "notes": "Site allows downloads but forbids redistribution elsewhere; keep external-only in V1."
+  },
+  {
+    "id": "local-user",
+    "name": "User supplied files",
+    "base_url": "",
+    "source_type": "local",
+    "acquisition_policy": "user_supplied_fulltext",
+    "allowed_file_types": ["pdf", "epub", "md", "txt", "json"],
+    "rate_limit_ms": 0,
+    "notes": "Only files the user manually places in incoming/user-supplied/."
+  }
+]

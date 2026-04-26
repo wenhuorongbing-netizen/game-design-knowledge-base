@@ -1,0 +1,727 @@
+{
+  "schema_version": "bookos.prompt_library.v1",
+  "updated_date": "2026-04-26",
+  "total_prompts": 15,
+  "prompts": [
+    {
+      "prompt_id": "prompt_summarize-user-notes-into-cards",
+      "title": "Summarize User Notes Into Cards",
+      "use_case": "Convert user-authored notes into source-governed card drafts.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Convert user-authored notes into source-governed card drafts. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_turn-card-into-lens",
+      "title": "Turn Card Into Lens",
+      "use_case": "Convert a concept or framework card into an original diagnostic lens.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Convert a concept or framework card into an original diagnostic lens. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_turn-lens-into-checklist",
+      "title": "Turn Lens Into Checklist",
+      "use_case": "Convert diagnostic questions into a review checklist.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Convert diagnostic questions into a review checklist. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_run-design-audit",
+      "title": "Run Design Audit",
+      "use_case": "Evaluate a design artifact with linked cards and lenses.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Evaluate a design artifact with linked cards and lenses. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_run-game-feel-audit",
+      "title": "Run Game Feel Audit",
+      "use_case": "Review input, response, context, polish, and tuning risks.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Review input, response, context, polish, and tuning risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_run-balance-audit",
+      "title": "Run Balance Audit",
+      "use_case": "Inspect economy, progression, sources, sinks, and balance risks.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_generate-playtest-questions",
+      "title": "Generate Playtest Questions",
+      "use_case": "Create testable playtest questions from a prototype goal.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Create testable playtest questions from a prototype goal. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_classify-note-by-taxonomy",
+      "title": "Classify Note By Taxonomy",
+      "use_case": "Route a note into phase groups, domains, cards, and lessons.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Route a note into phase groups, domains, cards, and lessons. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_detect-unsupported-claims",
+      "title": "Detect Unsupported Claims",
+      "use_case": "Find claims that lack source_basis, confidence, or evidence refs.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Find claims that lack source_basis, confidence, or evidence refs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_propose-project-applications",
+      "title": "Propose Project Applications",
+      "use_case": "Turn general KB items into project overlay candidates.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Turn general KB items into project overlay candidates. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_generate-forum-discussion-prompts",
+      "title": "Generate Forum Discussion Prompts",
+      "use_case": "Create structured forum prompts for critique and evidence gathering.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Create structured forum prompts for critique and evidence gathering. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_compare-two-concepts",
+      "title": "Compare Two Concepts",
+      "use_case": "Compare two concepts without inventing source claims.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Compare two concepts without inventing source claims. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_create-exercises-from-concepts",
+      "title": "Create Exercises From Concepts",
+      "use_case": "Generate original practice tasks from concept cards.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Generate original practice tasks from concept cards. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_produce-design-decision-log",
+      "title": "Produce Design Decision Log",
+      "use_case": "Turn findings into a decision with rationale, evidence, and next test.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Turn findings into a decision with rationale, evidence, and next test. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "prompt_id": "prompt_update-project-overlay",
+      "title": "Update Project Overlay",
+      "use_case": "Update project-specific applications from workflow outputs.",
+      "required_context": [
+        "Relevant KB object IDs and their source_basis/confidence.",
+        "User-provided artifact or notes.",
+        "Any project constraints, if this is project-facing."
+      ],
+      "user_inputs": [
+        "artifact_or_notes",
+        "desired_output",
+        "known_constraints",
+        "evidence_refs_if_available"
+      ],
+      "guardrails": [
+        "Do not use high-risk source body text.",
+        "Do not invent book claims.",
+        "Label assumptions separately from evidence.",
+        "Return source_basis and confidence for every substantive claim."
+      ],
+      "prompt_text": "You are using the BookOS Game Design KB. Task: Update project-specific applications from workflow outputs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "expected_output_format": [
+        "summary",
+        "source_basis_map",
+        "confidence_map",
+        "findings_or_generated_objects",
+        "missing_evidence",
+        "next_actions"
+      ],
+      "failure_modes": [
+        "Inventing facts from missing source material.",
+        "Treating draft cards or lenses as verified.",
+        "Skipping project constraints.",
+        "Producing generic advice with no output artifact."
+      ],
+      "review_checklist": [
+        "Every claim has source_basis and confidence.",
+        "Unsupported assumptions are marked.",
+        "The output artifact is usable.",
+        "Next actions are concrete."
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    }
+  ]
+}

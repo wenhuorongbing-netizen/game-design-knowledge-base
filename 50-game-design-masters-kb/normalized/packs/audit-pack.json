@@ -1,0 +1,51 @@
+{
+  "id": "audit-pack",
+  "title": "Audit Pack",
+  "summary": "Cross-phase bundle for status review, risk discovery, regression checking, and delivery-quality audits.",
+  "phase_group": "",
+  "phase_label": "Cross-phase",
+  "phase_groups": [
+    "testing-acceptance-audit",
+    "development-implementation",
+    "art-ui-experience",
+    "initiation-direction"
+  ],
+  "phase_labels": [
+    "测试、验收与审计",
+    "开发实现",
+    "美术、UI、体验表达",
+    "立项与方向"
+  ],
+  "type": "use_case_pack",
+  "kind_label": "Use Case Pack",
+  "card_ids": [
+    "prompt-project-status-audit",
+    "prompt-bug-triage",
+    "checklist-build-acceptance",
+    "checklist-regression-checklist",
+    "checklist-performance-optimization",
+    "checklist-readability-accessibility-review",
+    "checklist-risk-precheck"
+  ],
+  "count": 7,
+  "prompt_count": 2,
+  "checklist_count": 5,
+  "other_count": 0,
+  "when_to_use": "Use this when a build feels unstable, unclear, late, or over-scoped and you need a structured review pass.",
+  "required_inputs": [
+    "Current build or branch state",
+    "Known blockers, bugs, and risk areas",
+    "Recent regressions or quality complaints",
+    "Performance, UI, or onboarding pain points"
+  ],
+  "starter_steps": [
+    "Run a project-status audit to expose the current bottlenecks.",
+    "Triage the known bugs and regression risk first.",
+    "Review build acceptance, performance, and readability together.",
+    "End with a concrete risk list and a fix order."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/audit-pack.md",
+  "generated_at": "2026-04-26T00:39:23.267Z",
+  "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/audit-pack-ready-to-run.md",
+  "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/audit-pack-starter-prompt.md"
+}

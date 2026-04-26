@@ -1,0 +1,857 @@
+{
+  "format": "pdf",
+  "metadata": {
+    "title": "",
+    "authors": [],
+    "subject": "",
+    "producer": ""
+  },
+  "page_count": 377,
+  "toc": [
+    {
+      "label": "Front Cover",
+      "depth": 0,
+      "page": 1
+    },
+    {
+      "label": "Game Feel: A Game Designer’s Guide to Virtual Sensation",
+      "depth": 0,
+      "page": 4
+    },
+    {
+      "label": "Copyright Page",
+      "depth": 0,
+      "page": 5
+    },
+    {
+      "label": "Table of Contents",
+      "depth": 0,
+      "page": 8
+    },
+    {
+      "label": "Acknowledgments",
+      "depth": 0,
+      "page": 10
+    },
+    {
+      "label": "About the Author",
+      "depth": 0,
+      "page": 12
+    },
+    {
+      "label": "Introduction",
+      "depth": 0,
+      "page": 14
+    },
+    {
+      "label": "About This Book",
+      "depth": 1,
+      "page": 15
+    },
+    {
+      "label": "Chapter 1. Defining Game Feel",
+      "depth": 0,
+      "page": 20
+    },
+    {
+      "label": "The Three Building Blocks of Game Feel",
+      "depth": 1,
+      "page": 21
+    },
+    {
+      "label": "Experiences of Game Feel",
+      "depth": 1,
+      "page": 29
+    },
+    {
+      "label": "Creating Game Feel",
+      "depth": 1,
+      "page": 33
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 51
+    },
+    {
+      "label": "Chapter 2. Game Feel and Human Perception",
+      "depth": 0,
+      "page": 54
+    },
+    {
+      "label": "When and How Does Real-Time Control Exist?",
+      "depth": 1,
+      "page": 54
+    },
+    {
+      "label": "The Computer Side of Things",
+      "depth": 1,
+      "page": 62
+    },
+    {
+      "label": "Some Implications of Perception for Game Feel",
+      "depth": 1,
+      "page": 66
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 78
+    },
+    {
+      "label": "Chapter 3. The Game Feel Model of Interactivity",
+      "depth": 0,
+      "page": 80
+    },
+    {
+      "label": "The Human Processor",
+      "depth": 1,
+      "page": 82
+    },
+    {
+      "label": "The Computer",
+      "depth": 1,
+      "page": 83
+    },
+    {
+      "label": "The Senses",
+      "depth": 1,
+      "page": 84
+    },
+    {
+      "label": "The Player's Intent",
+      "depth": 1,
+      "page": 85
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 86
+    },
+    {
+      "label": "Chapter 4. Mechanics of Game Feel",
+      "depth": 0,
+      "page": 88
+    },
+    {
+      "label": "Mechanics: Game Feel Atoms",
+      "depth": 1,
+      "page": 89
+    },
+    {
+      "label": "Applying the Criteria",
+      "depth": 1,
+      "page": 90
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 99
+    },
+    {
+      "label": "Chapter 5. Beyond Intuition: Metrics for Game Feel",
+      "depth": 0,
+      "page": 100
+    },
+    {
+      "label": "Why Measure Game Feel?",
+      "depth": 1,
+      "page": 100
+    },
+    {
+      "label": "Soft Metrics vs. Hard Metrics",
+      "depth": 1,
+      "page": 101
+    },
+    {
+      "label": "What's Important to Measure",
+      "depth": 1,
+      "page": 103
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 119
+    },
+    {
+      "label": "Chapter 6. Input Metrics",
+      "depth": 0,
+      "page": 120
+    },
+    {
+      "label": "Micro Level: Individual Inputs",
+      "depth": 1,
+      "page": 121
+    },
+    {
+      "label": "Input Measurement Examples",
+      "depth": 1,
+      "page": 127
+    },
+    {
+      "label": "Macro Level: The Input Device as a Whole",
+      "depth": 1,
+      "page": 134
+    },
+    {
+      "label": "Tactile Level: The Importance of Physical Design",
+      "depth": 1,
+      "page": 136
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 137
+    },
+    {
+      "label": "Chapter 7. Response Metrics",
+      "depth": 0,
+      "page": 138
+    },
+    {
+      "label": "Attack, Decay, Sustain and Release",
+      "depth": 1,
+      "page": 140
+    },
+    {
+      "label": "Input and Response Sensitivity",
+      "depth": 1,
+      "page": 154
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 156
+    },
+    {
+      "label": "Chapter 8. Context Metrics",
+      "depth": 0,
+      "page": 158
+    },
+    {
+      "label": "High-Level Context: The Impression of Space",
+      "depth": 1,
+      "page": 158
+    },
+    {
+      "label": "Impressions of Speed and Motion",
+      "depth": 1,
+      "page": 160
+    },
+    {
+      "label": "The Impression of Size",
+      "depth": 1,
+      "page": 163
+    },
+    {
+      "label": "Medium-Level Context",
+      "depth": 1,
+      "page": 164
+    },
+    {
+      "label": "Low-Level Context",
+      "depth": 1,
+      "page": 166
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 168
+    },
+    {
+      "label": "Chapter 9. Polish Metrics",
+      "depth": 0,
+      "page": 170
+    },
+    {
+      "label": "The Feel of Everyday Things",
+      "depth": 1,
+      "page": 171
+    },
+    {
+      "label": "Types of Polish",
+      "depth": 1,
+      "page": 174
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 189
+    },
+    {
+      "label": "Chapter 10. Metaphor Metrics",
+      "depth": 0,
+      "page": 190
+    },
+    {
+      "label": "Real, Iconic and Abstract",
+      "depth": 1,
+      "page": 194
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 196
+    },
+    {
+      "label": "Chapter 11. Rules Metrics",
+      "depth": 0,
+      "page": 198
+    },
+    {
+      "label": "High-Level Rules",
+      "depth": 1,
+      "page": 199
+    },
+    {
+      "label": "Medium-Level Rules",
+      "depth": 1,
+      "page": 201
+    },
+    {
+      "label": "Low-Level Rules",
+      "depth": 1,
+      "page": 202
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 205
+    },
+    {
+      "label": "Chapter 12. Asteroids",
+      "depth": 0,
+      "page": 206
+    },
+    {
+      "label": "The Feel of Asteroids",
+      "depth": 1,
+      "page": 207
+    },
+    {
+      "label": "Input",
+      "depth": 1,
+      "page": 208
+    },
+    {
+      "label": "Response",
+      "depth": 1,
+      "page": 208
+    },
+    {
+      "label": "Simulation",
+      "depth": 1,
+      "page": 210
+    },
+    {
+      "label": "Context",
+      "depth": 1,
+      "page": 215
+    },
+    {
+      "label": "Polish",
+      "depth": 1,
+      "page": 216
+    },
+    {
+      "label": "Metaphor",
+      "depth": 1,
+      "page": 216
+    },
+    {
+      "label": "Rules",
+      "depth": 1,
+      "page": 217
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 217
+    },
+    {
+      "label": "Chapter 13. Super Mario Brothers",
+      "depth": 0,
+      "page": 220
+    },
+    {
+      "label": "Input",
+      "depth": 1,
+      "page": 222
+    },
+    {
+      "label": "Response",
+      "depth": 1,
+      "page": 223
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 247
+    },
+    {
+      "label": "Chapter 14. Bionic Commando",
+      "depth": 0,
+      "page": 248
+    },
+    {
+      "label": "Input",
+      "depth": 1,
+      "page": 249
+    },
+    {
+      "label": "Response",
+      "depth": 1,
+      "page": 249
+    },
+    {
+      "label": "Context",
+      "depth": 1,
+      "page": 258
+    },
+    {
+      "label": "Polish",
+      "depth": 1,
+      "page": 260
+    },
+    {
+      "label": "Metaphor",
+      "depth": 1,
+      "page": 262
+    },
+    {
+      "label": "Rules",
+      "depth": 1,
+      "page": 262
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 264
+    },
+    {
+      "label": "Chapter 15. Super Mario 64",
+      "depth": 0,
+      "page": 266
+    },
+    {
+      "label": "What's Important?",
+      "depth": 1,
+      "page": 267
+    },
+    {
+      "label": "Input",
+      "depth": 1,
+      "page": 269
+    },
+    {
+      "label": "Response",
+      "depth": 1,
+      "page": 271
+    },
+    {
+      "label": "Running Speed and Direction",
+      "depth": 1,
+      "page": 274
+    },
+    {
+      "label": "Modulating Upward Velocity",
+      "depth": 1,
+      "page": 277
+    },
+    {
+      "label": "Switches to Ducking or Sliding States",
+      "depth": 1,
+      "page": 281
+    },
+    {
+      "label": "Triggering Attack Moves",
+      "depth": 1,
+      "page": 283
+    },
+    {
+      "label": "Context",
+      "depth": 1,
+      "page": 287
+    },
+    {
+      "label": "Polish",
+      "depth": 1,
+      "page": 290
+    },
+    {
+      "label": "Metaphor",
+      "depth": 1,
+      "page": 292
+    },
+    {
+      "label": "Rules",
+      "depth": 1,
+      "page": 293
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 294
+    },
+    {
+      "label": "Chapter 16. Raptor Safari",
+      "depth": 0,
+      "page": 296
+    },
+    {
+      "label": "Game Overview",
+      "depth": 1,
+      "page": 296
+    },
+    {
+      "label": "Input",
+      "depth": 1,
+      "page": 299
+    },
+    {
+      "label": "Response",
+      "depth": 1,
+      "page": 300
+    },
+    {
+      "label": "Context",
+      "depth": 1,
+      "page": 308
+    },
+    {
+      "label": "Polish",
+      "depth": 1,
+      "page": 310
+    },
+    {
+      "label": "Metaphor",
+      "depth": 1,
+      "page": 312
+    },
+    {
+      "label": "Rules",
+      "depth": 1,
+      "page": 313
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 314
+    },
+    {
+      "label": "Chapter 17. Principles of Game Feel",
+      "depth": 0,
+      "page": 316
+    },
+    {
+      "label": "Predictable Results",
+      "depth": 1,
+      "page": 317
+    },
+    {
+      "label": "Instantaneous Response",
+      "depth": 1,
+      "page": 319
+    },
+    {
+      "label": "Easy but Deep",
+      "depth": 1,
+      "page": 321
+    },
+    {
+      "label": "Novelty",
+      "depth": 1,
+      "page": 322
+    },
+    {
+      "label": "Appealing Response",
+      "depth": 1,
+      "page": 323
+    },
+    {
+      "label": "Organic Motion",
+      "depth": 1,
+      "page": 324
+    },
+    {
+      "label": "Harmony",
+      "depth": 1,
+      "page": 325
+    },
+    {
+      "label": "Ownership",
+      "depth": 1,
+      "page": 327
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 328
+    },
+    {
+      "label": "Chapter 18. Games I Want to Make",
+      "depth": 0,
+      "page": 330
+    },
+    {
+      "label": "1,000 Marios",
+      "depth": 1,
+      "page": 330
+    },
+    {
+      "label": "Window on the World",
+      "depth": 1,
+      "page": 333
+    },
+    {
+      "label": "Spatial Relationships and Intimacy",
+      "depth": 1,
+      "page": 334
+    },
+    {
+      "label": "Invisible Avatars",
+      "depth": 1,
+      "page": 337
+    },
+    {
+      "label": "Tune",
+      "depth": 1,
+      "page": 337
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 339
+    },
+    {
+      "label": "Chapter 19. The Future of Game Feel",
+      "depth": 0,
+      "page": 340
+    },
+    {
+      "label": "The Future of Input",
+      "depth": 1,
+      "page": 340
+    },
+    {
+      "label": "The Future of Response",
+      "depth": 1,
+      "page": 347
+    },
+    {
+      "label": "The Future of Context",
+      "depth": 1,
+      "page": 353
+    },
+    {
+      "label": "The Future of Polish",
+      "depth": 1,
+      "page": 358
+    },
+    {
+      "label": "The Future of Metaphor",
+      "depth": 1,
+      "page": 359
+    },
+    {
+      "label": "The Future of Rules",
+      "depth": 1,
+      "page": 361
+    },
+    {
+      "label": "Summary",
+      "depth": 1,
+      "page": 363
+    },
+    {
+      "label": "Index",
+      "depth": 0,
+      "page": 364
+    },
+    {
+      "label": "A",
+      "depth": 1,
+      "page": 364
+    },
+    {
+      "label": "B",
+      "depth": 1,
+      "page": 364
+    },
+    {
+      "label": "C",
+      "depth": 1,
+      "page": 365
+    },
+    {
+      "label": "D",
+      "depth": 1,
+      "page": 366
+    },
+    {
+      "label": "E",
+      "depth": 1,
+      "page": 366
+    },
+    {
+      "label": "F",
+      "depth": 1,
+      "page": 366
+    },
+    {
+      "label": "G",
+      "depth": 1,
+      "page": 367
+    },
+    {
+      "label": "H",
+      "depth": 1,
+      "page": 368
+    },
+    {
+      "label": "I",
+      "depth": 1,
+      "page": 369
+    },
+    {
+      "label": "J",
+      "depth": 1,
+      "page": 369
+    },
+    {
+      "label": "K",
+      "depth": 1,
+      "page": 369
+    },
+    {
+      "label": "L",
+      "depth": 1,
+      "page": 369
+    },
+    {
+      "label": "M",
+      "depth": 1,
+      "page": 370
+    },
+    {
+      "label": "N",
+      "depth": 1,
+      "page": 371
+    },
+    {
+      "label": "O",
+      "depth": 1,
+      "page": 371
+    },
+    {
+      "label": "P",
+      "depth": 1,
+      "page": 372
+    },
+    {
+      "label": "Q",
+      "depth": 1,
+      "page": 373
+    },
+    {
+      "label": "R",
+      "depth": 1,
+      "page": 373
+    },
+    {
+      "label": "S",
+      "depth": 1,
+      "page": 373
+    },
+    {
+      "label": "T",
+      "depth": 1,
+      "page": 376
+    },
+    {
+      "label": "U",
+      "depth": 1,
+      "page": 376
+    },
+    {
+      "label": "V",
+      "depth": 1,
+      "page": 376
+    },
+    {
+      "label": "W",
+      "depth": 1,
+      "page": 377
+    },
+    {
+      "label": "X",
+      "depth": 1,
+      "page": 377
+    },
+    {
+      "label": "Y",
+      "depth": 1,
+      "page": 377
+    },
+    {
+      "label": "Z",
+      "depth": 1,
+      "page": 377
+    }
+  ],
+  "sample_sections": [
+    {
+      "label": "Page 2",
+      "location": {
+        "page": 2
+      },
+      "text": "Game Feel"
+    },
+    {
+      "label": "Page 3",
+      "location": {
+        "page": 3
+      },
+      "text": "Morgan Kaufmann Game Design Books Better Game Characters by Design (9781558609211) Katherine Isbister Game Design Workshop, Second Edition (9780240809748) Tracy Fullerton The Art of Game Design (9780123694966) Jesse Schell Game Usability (9780123744470) Katherine Isbister & Noah Schaffer (Eds.) Game Feel (9780123743282) Steve Swink"
+    },
+    {
+      "label": "Page 4",
+      "location": {
+        "page": 4
+      },
+      "text": "Game Feel A Game Designer’s Guide to Virtual Sensation Steve Swink AMSTERDAM • BOSTON • HEIDELBERG • LONDON NEW YORK • OXFORD • PARIS • SAN DIEGO SAN FRANCISCO • SINGAPORE • SYDNEY • TOKYO Morgan Kaufmann Publishers is an imprint of Elsevier"
+    },
+    {
+      "label": "Page 5",
+      "location": {
+        "page": 5
+      },
+      "text": "Morgan Kaufmann Publishers is an imprint of Elsevier. 30 Corporate Drive, Suite 400, Burlington, MA 01803, USA This book is printed on acid-free paper. © 2009 Elsevier, Inc. All rights reserved. Designations used by companies to distinguish their products are often claimed as trademarks or registered trademarks. In all instances in which Morgan Kaufmann Publishers is aware of a claim, the product names appear in initial capital or all capital letters. Readers, however, should contact the appropriate companies for more complete information regarding trademarks and registration. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means—electronic, mechanical, photocopying, scanning, or otherwise—without prior written permission of the publisher. Permissions may be sought directly from Elsevier’s Science & Technology Rights Department in Oxford, UK: phone: ( /H1100144) 1865 843830, fax: ( /H1100144) 1865 853333, E-mail: permissions@elsevier.com. You may also complete your request online via the Elsevier homepage ( http://elsevier.com ), by selecting “ Support & Contact ” then “ Copyright and Permission ” and then “ Obtaining Permissions. ” Library of Congress Cataloging-in-Publication Data Swink, Steve. Game feel: a game designer’s guide to virtual sensation/Steve Swink. p. cm. Includes index. ISBN 978-0-12-374328-2 (pbk. : alk. paper) 1. Computer games—Programming. 2. Computer games—Design. 3. Human-computer interaction. I. Title. QA76.9.H85S935 2009 794.8’1526—dc22 2008035742 ISBN: 978-0-12-374328-2 For information on all Morgan Kaufmann publications, visit our Web site at www.mkp.com or www.books.elsevier.com Printed in the United States of America 08 09 10 11 12 13 10 9 8 7 6 5 4 3 2 1"
+    },
+    {
+      "label": "Page 6",
+      "location": {
+        "page": 6
+      },
+      "text": "Dedication For people who struggle and make beautiful things"
+    },
+    {
+      "label": "Page 7",
+      "location": {
+        "page": 7
+      },
+      "text": "This page intentionally left blank"
+    },
+    {
+      "label": "Page 8",
+      "location": {
+        "page": 8
+      },
+      "text": "vii TABLE OF CONTENTS Acknowledgments ............................................................................................................................................ix About the Author ..............................................................................................................................................xi Introduction .......................................................................................................................................................xiii 1. Defining Game Feel ..................................................................................................................................1 2. Game Feel and Human Perception ................................................................................................. 35 3. The Game Feel Model of Interactivity ............................................................................................ 61 4. Mechanics of Game Feel ..................................................................................................................... 69 5. Beyond Intuition: Metrics for Game Feel ....................................................................................... 81 6. Input Metrics ..........................................................................................................................................101 7. Response Metrics .................................................................................................................................119 8. Context Metrics .....................................................................................................................................139 9. Polish Metrics .........................................................................................................................................151 10. Metaphor Metrics .................................................................................................................................171 1"
+    }
+  ],
+  "preview_text": "Game Feel\n\nMorgan Kaufmann Game Design Books Better Game Characters by Design (9781558609211) Katherine Isbister Game Design Workshop, Second Edition (9780240809748) Tracy Fullerton The Art of Game Design (9780123694966) Jesse Schell Game Usability (9780123744470) Katherine Isbister & Noah Schaffer (Eds.) Game Feel (9780123743282) Steve Swink\n\nGame Feel A Game Designer’s Guide to Virtual Sensation Steve Swink AMSTERDAM • BOSTON • HEIDELBERG • LONDON NEW YORK • OXFORD • PARIS • SAN DIEGO SAN FRANCISCO • SINGAPORE • SYDNEY • TOKYO Morgan Kaufmann Publishers is an imprint of Elsevier",
+  "extraction_status": "ok",
+  "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "file_name": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "checklist-pre-release-check",
+  "entity_type": "card",
+  "title": "发布前检查 Checklist",
+  "summary": "检查项目在对外试玩、上架或发版本前是否已经满足最基本的发布条件。",
+  "card_kind": "checklist",
+  "phase_group": "operations-release",
+  "deliverable_type": "pre-release-check",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "release-ops",
+    "project-audit"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "prompt-store-page-copy",
+    "checklist-build-acceptance"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 发布前检查 Checklist\n\n## 适用场景\n\n用于外部 demo、封测、商店页上线或公开活动前的最后一轮通读。\n\n## 检查项\n\n- 版本目标和对外承诺一致。\n- 最容易触发的 blocker 已有结论。\n- 商店页文案、截图、视频和实际版本体验方向一致。\n- 最基本的新手路径可在外部环境下走通。\n- 已知高风险问题有公开说明或内部预案。\n- 反馈收集方式已经准备好。\n- 团队知道发布后第一时间要盯什么。\n\n## 通过标准\n\n- 对外版本不会因为基础问题完全失焦。\n- 玩家第一印象与文案承诺一致。\n- 团队具备发布后的响应准备。\n\n## 常见失败信号\n\n- 对外承诺超过当前版本实际可交付。\n- 出了问题没人知道先看哪里。\n- 发布被当成结束，而不是下一轮输入开始。\n",
+  "body_html": "<h1 id=\"发布前检查-checklist\">发布前检查 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于外部 demo、封测、商店页上线或公开活动前的最后一轮通读。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>版本目标和对外承诺一致。</li><li>最容易触发的 blocker 已有结论。</li><li>商店页文案、截图、视频和实际版本体验方向一致。</li><li>最基本的新手路径可在外部环境下走通。</li><li>已知高风险问题有公开说明或内部预案。</li><li>反馈收集方式已经准备好。</li><li>团队知道发布后第一时间要盯什么。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>对外版本不会因为基础问题完全失焦。</li><li>玩家第一印象与文案承诺一致。</li><li>团队具备发布后的响应准备。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>对外承诺超过当前版本实际可交付。</li><li>出了问题没人知道先看哪里。</li><li>发布被当成结束，而不是下一轮输入开始。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "发布前检查 Checklist",
+      "id": "发布前检查-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "发布前检查 Checklist 检查项目在对外试玩、上架或发版本前是否已经满足最基本的发布条件。 用于外部 demo、封测、商店页上线或公开活动前的最后一轮通读。 版本目标和对外承诺一致。 最容易触发的 blocker 已有结论。 商店页文案、截图、视频和实际版本体验方向一致。 最基本的新手路径可在外部环境下走通。 已知高风险问题有公开说明或内部预案。 反馈收集方式已经准备好。 团队知道发布后第一时间要盯什么。 对外版本不会因为基础问题完全失焦。 玩家第一印象与文案承诺一致。 团队具备发布后的响应准备。 对外承诺超过当前版本实际可交付。 出了问题没人知道先看哪里。 发布被当成结束，而不是下一轮输入开始。 release-ops project-audit"
+}

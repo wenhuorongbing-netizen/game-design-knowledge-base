@@ -1,0 +1,74 @@
+{
+  "id": "note-evidence-challenges-for-game-designers",
+  "entity_type": "card",
+  "title": "Challenges for Game Designers：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "note",
+  "source_work_id": "challenges-for-game-designers",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "prompt-design",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "challenges-for-game-designers",
+    "game-design-concepts-course",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-challenges-for-game-designers",
+    "note-book-positioning-challenges-for-game-designers"
+  ],
+  "official_links": [
+    "https://gamedesignconcepts.wordpress.com/"
+  ],
+  "local_links": [
+    {
+      "label": "challenges-for-game-designers-50c50beda57b.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/challenges-for-game-designers-50c50beda57b.json"
+    },
+    {
+      "label": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Challenges for Game Designers：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Format: pdf\n- Page count: 347\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/challenges-for-game-designers-50c50beda57b.json`\n\n## Sample Text Signals\n\n- Page 2: CHALLENGES FOR GAME DESIGNERS BRENDA BRATHWAITE AND IAN SCHREIBER Australia, Brazil, Japan, Korea, Mexico, Singapore, Spain, United Kingdom, United States Charles River Media A part of Course Technology, Cengage Learning\n- Page 4: Acknowledgments There were many people who contributed to the making of this book. One of Brenda’s MFA candidates at the Savannah College of Art and Design, game de- signer David McDonough, was offered the opportunity to assist in the development of the non-d…\n- Page 5: About the Authors As a 26-year veteran of the video games industry, Brenda Brathwaite is a game designer and Chair of the Interactive Design and Game Development department at the Savannah College of Art and Design. She has worked on 22 internationally known …\n\n## Why It Matters For The KB\n\n- 当前定位：最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。\n- 主要用途：新人训练 / 练习题库 / 课程化输出\n- 输出价值：训练体系 / 题库 / 练习骨架\n\n## Source Review Notes\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"challenges-for-game-designers：evidence-note\">Challenges for Game Designers：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Format: pdf</li><li>Page count: 347</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/challenges-for-game-designers-50c50beda57b.json</code></li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>Page 2: CHALLENGES FOR GAME DESIGNERS BRENDA BRATHWAITE AND IAN SCHREIBER Australia, Brazil, Japan, Korea, Mexico, Singapore, Spain, United Kingdom, United States Charles River Media A part of Course Technology, Cengage Learning</li><li>Page 4: Acknowledgments There were many people who contributed to the making of this book. One of Brenda’s MFA candidates at the Savannah College of Art and Design, game de- signer David McDonough, was offered the opportunity to assist in the development of the non-d…</li><li>Page 5: About the Authors As a 26-year veteran of the video games industry, Brenda Brathwaite is a game designer and Chair of the Interactive Design and Game Development department at the Savannah College of Art and Design. She has worked on 22 internationally known …</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。</li><li>主要用途：新人训练 / 练习题库 / 课程化输出</li><li>输出价值：训练体系 / 题库 / 练习骨架</li></ul>\n<h2 id=\"source-review-notes\">Source Review Notes</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Challenges for Game Designers：Evidence Note",
+      "id": "challenges-for-game-designers：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    },
+    {
+      "level": 2,
+      "text": "Source Review Notes",
+      "id": "source-review-notes"
+    }
+  ],
+  "search_text": "Challenges for Game Designers 通过大量练习和题目，把设计思维从抽象知识拉回到手上的练习肌肉，是面向训练和教学价值极高的书。 最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。 CHALLENGES FOR GAME DESIGNERS BRENDA BRATHWAITE AND IAN SCHREIBER Australia, Brazil, Japan, Korea, Mexico, Singapore, Spain, United Kingdom, United States Charles River Media A part of Course Technology, Cengage Learning Acknowledgments There were many people who contributed to the making of this book. One of Brenda’s MFA candidates at the Savannah College of Art and Design, game de- signer David McDonough, was offered the opportunity to assist in the development of the non-d… About the Authors As a 26-year veteran of the video games industry, Brenda Brathwaite is a game designer and Chair of the Interactive Design and Game Development department at the Savannah College of Art and Design. She has worked on 22 internationally known … 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+}

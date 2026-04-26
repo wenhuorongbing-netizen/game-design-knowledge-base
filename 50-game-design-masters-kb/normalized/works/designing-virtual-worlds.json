@@ -1,0 +1,145 @@
+{
+  "id": "designing-virtual-worlds",
+  "title": "Designing Virtual Worlds",
+  "authors": [
+    "Richard A. Bartle"
+  ],
+  "year": 2003,
+  "kind": "book",
+  "canonical_url": "https://mud.co.uk/dvw/",
+  "publisher_or_source": "Richard A. Bartle",
+  "language": "en",
+  "license": "CC BY-NC-ND 4.0",
+  "access_mode": "downloaded_open",
+  "source_ids": [
+    "mud-co-uk"
+  ],
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "theme_tags": [
+    "online-worlds",
+    "player-motivation",
+    "systems-thinking"
+  ],
+  "summary": "MMO 和虚拟世界设计经典，关注身份、社交结构、玩家类型和长期世界。",
+  "key_points": [
+    "研究长期世界与身份表达的必读材料。",
+    "对社交动机和留存特别有价值。",
+    "适合处理庄园、商队和长期世界关系。"
+  ],
+  "recommended_for": [
+    "主策",
+    "系统策划",
+    "叙事设计",
+    "运营"
+  ],
+  "official_links": [
+    "https://mud.co.uk/dvw/",
+    "https://mud.co.uk/richard/papers.htm"
+  ],
+  "seed_bundle": "richard-bartle",
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "the-art-of-game-design"
+  ],
+  "usage_relevance": "对长期世界、身份成长、社交结构和玩家留存最有帮助。",
+  "entity_type": "work",
+  "slug": "designing-virtual-worlds",
+  "phase_label": "内容与叙事",
+  "deliverable_label": "世界观设定",
+  "theme_labels": [
+    "在线世界",
+    "玩家动机",
+    "系统思维"
+  ],
+  "availability_label": "已下载开放全文",
+  "source_labels": [
+    "Richard A. Bartle"
+  ],
+  "official_link_entries": [
+    {
+      "label": "mud.co.uk",
+      "url": "https://mud.co.uk/dvw/"
+    },
+    {
+      "label": "mud.co.uk",
+      "url": "https://mud.co.uk/richard/papers.htm"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/richard-bartle/designing-virtual-worlds.docx",
+      "size_bytes": 2404035,
+      "extension": "docx",
+      "sha256": "d2f2b81d6b1fab4b5fd23958ba5f38221ea16f630792a4881c0b7e65dab003f6",
+      "resource_kind": "book",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/richard-bartle/designing-virtual-worlds.pdf",
+      "size_bytes": 5205807,
+      "extension": "pdf",
+      "sha256": "1f1581ddb94a2566738eecb0b1e57e7d5c40bd678dd4118d8420eb6b54303090",
+      "resource_kind": "book",
+      "user_supplied": false
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://mud.co.uk/dvw/",
+      "source_id": "mud-co-uk",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/01-mud.co.uk-dvw-.html",
+      "fetched_at": "2026-04-25T05:31:45.901Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://mud.co.uk/dvw/",
+        "title": "Introduction",
+        "description": "",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": ""
+      }
+    },
+    {
+      "url": "https://mud.co.uk/richard/papers.htm",
+      "source_id": "mud-co-uk",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/02-mud.co.uk-richard-papers.htm.html",
+      "fetched_at": "2026-04-25T05:31:46.644Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://mud.co.uk/richard/papers.htm",
+        "title": "",
+        "description": "",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": ""
+      }
+    }
+  ],
+  "private_extracts": [],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": false,
+  "private_source_count": 0,
+  "private_extract_count": 0,
+  "metadata_summary": "",
+  "search_text": "Designing Virtual Worlds Richard A. Bartle MMO 和虚拟世界设计经典，关注身份、社交结构、玩家类型和长期世界。 研究长期世界与身份表达的必读材料。 对社交动机和留存特别有价值。 适合处理庄园、商队和长期世界关系。 对长期世界、身份成长、社交结构和玩家留存最有帮助。 主策 系统策划 叙事设计 运营 内容与叙事 世界观设定 在线世界 玩家动机 系统思维 Richard A. Bartle",
+  "content_markdown": "# Designing Virtual Worlds\n\n## 基本信息\n\n- 作者：Richard A. Bartle\n- 年份：2003\n- 类型：book\n- 来源：Richard A. Bartle\n\n## 摘要\n\nMMO 和虚拟世界设计经典，关注身份、社交结构、玩家类型和长期世界。\n\n## 核心要点\n\n- 研究长期世界与身份表达的必读材料。\n- 对社交动机和留存特别有价值。\n- 适合处理庄园、商队和长期世界关系。\n\n## 适用场景\n\n对长期世界、身份成长、社交结构和玩家留存最有帮助。\n\n## 分类\n\n- 一级分类：内容与叙事\n- 二级输出物：世界观设定\n- 主题标签：在线世界 / 玩家动机 / 系统思维\n- 可用性：已下载开放全文\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/50-game-design-masters-kb/raw/open-web/richard-bartle/designing-virtual-worlds.docx`\n- `knowledge/50-game-design-masters-kb/raw/open-web/richard-bartle/designing-virtual-worlds.pdf`\n\n## 官方链接\n\n- <https://mud.co.uk/dvw/>\n- <https://mud.co.uk/richard/papers.htm>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/01-mud.co.uk-dvw-.html`\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/02-mud.co.uk-richard-papers.htm.html`\n\n## 相关条目\n\n- A Theory of Fun for Game Design\n- The Art of Game Design: A Book of Lenses\n",
+  "content_html": "<h1 id=\"designing-virtual-worlds\">Designing Virtual Worlds</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Richard A. Bartle</li><li>年份：2003</li><li>类型：book</li><li>来源：Richard A. Bartle</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>MMO 和虚拟世界设计经典，关注身份、社交结构、玩家类型和长期世界。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>研究长期世界与身份表达的必读材料。</li><li>对社交动机和留存特别有价值。</li><li>适合处理庄园、商队和长期世界关系。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>对长期世界、身份成长、社交结构和玩家留存最有帮助。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：内容与叙事</li><li>二级输出物：世界观设定</li><li>主题标签：在线世界 / 玩家动机 / 系统思维</li><li>可用性：已下载开放全文</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/open-web/richard-bartle/designing-virtual-worlds.docx</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/richard-bartle/designing-virtual-worlds.pdf</code></li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mud.co.uk/dvw/\" target=\"_blank\" rel=\"noreferrer\">https://mud.co.uk/dvw/</a></li><li><a href=\"https://mud.co.uk/richard/papers.htm\" target=\"_blank\" rel=\"noreferrer\">https://mud.co.uk/richard/papers.htm</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/01-mud.co.uk-dvw-.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/02-mud.co.uk-richard-papers.htm.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>A Theory of Fun for Game Design</li><li>The Art of Game Design: A Book of Lenses</li></ul>",
+  "knowledge_domains": [],
+  "purposes": [],
+  "reading_modes": [],
+  "value_types": [],
+  "knowledge_lifecycle": [],
+  "primary_private_extract": null,
+  "primary_private_artifact": null,
+  "primary_toc_preview": [],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "downloaded_open"
+}

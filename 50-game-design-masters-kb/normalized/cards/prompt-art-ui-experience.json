@@ -1,0 +1,63 @@
+{
+  "id": "prompt-art-ui-experience",
+  "entity_type": "card",
+  "title": "美术、UI、体验表达 Prompt 模板",
+  "summary": "把视觉方向、HUD 结构、动效与可读性约束统一成可执行审查结论。",
+  "card_kind": "prompt_template",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "hud-ui-structure-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux",
+    "hit-feel",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "phase-guide-art-ui-experience",
+    "checklist-art-ui-experience"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 美术、UI、体验表达 Prompt 模板\n\n## 适用场景\n\n当一个项目已经能玩，但界面拥挤、反馈发虚、风格不统一或移动阅读性差时使用。\n\n## 使用前提供\n\n- 视觉方向与参考图\n- HUD / 菜单 / 信息层级现状\n- 目标设备、分辨率与输入方式\n- 当前反馈问题，例如打击感不足、动效拖沓、信息读不清\n- 可访问性或发行平台限制\n\n## 预期输出\n\n1. 美术方向\n2. HUD / UI 结构设计\n3. 视觉层级与可读性\n4. 动效与打击感表达\n5. 资产规格\n6. 可访问性风险\n7. 优先级最高的 polish 项\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏 UI / UX / art direction 顾问。\n请根据以下输入，把视觉表达和交互反馈整理成一份可执行的审查结论。\n\n输入：\n- 目标视觉方向：{{visual_direction}}\n- 参考作品：{{reference_titles}}\n- 当前 HUD / UI：{{hud_ui_state}}\n- 目标设备与输入方式：{{devices_and_input}}\n- 当前反馈问题：{{feedback_issues}}\n- 可访问性与平台限制：{{accessibility_constraints}}\n\n请输出：\n1. 美术方向：最应该保留的视觉 identity。\n2. HUD / UI 结构：信息层级、常驻元素、上下文元素。\n3. 可读性：字号、对比、留白、聚焦点问题。\n4. 动效与打击感：输入反馈、命中反馈、状态切换反馈。\n5. 资产规格：关键界面或美术资源需要怎样的规格约束。\n6. 可访问性风险：颜色、对比、操作复杂度、拥挤度。\n7. 优先级：最值得先修的 5 个 polish 项。\n\n要求：\n- 以玩家阅读和操作负担为中心。\n- 不要只说“做得更酷、更统一”，要指出具体结构问题。\n- 说明哪些问题影响理解，哪些问题只影响质感。\n```\n\n## 二次追问\n\n- 把 HUD 结构细化成 wireframe 级描述。\n- 单独输出 hit-feel polish 清单。\n",
+  "body_html": "<h1 id=\"美术、ui、体验表达-prompt-模板\">美术、UI、体验表达 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当一个项目已经能玩，但界面拥挤、反馈发虚、风格不统一或移动阅读性差时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>视觉方向与参考图</li><li>HUD / 菜单 / 信息层级现状</li><li>目标设备、分辨率与输入方式</li><li>当前反馈问题，例如打击感不足、动效拖沓、信息读不清</li><li>可访问性或发行平台限制</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>美术方向</li><li>HUD / UI 结构设计</li><li>视觉层级与可读性</li><li>动效与打击感表达</li><li>资产规格</li><li>可访问性风险</li><li>优先级最高的 polish 项</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏 UI / UX / art direction 顾问。\n请根据以下输入，把视觉表达和交互反馈整理成一份可执行的审查结论。\n\n输入：\n- 目标视觉方向：{{visual_direction}}\n- 参考作品：{{reference_titles}}\n- 当前 HUD / UI：{{hud_ui_state}}\n- 目标设备与输入方式：{{devices_and_input}}\n- 当前反馈问题：{{feedback_issues}}\n- 可访问性与平台限制：{{accessibility_constraints}}\n\n请输出：\n1. 美术方向：最应该保留的视觉 identity。\n2. HUD / UI 结构：信息层级、常驻元素、上下文元素。\n3. 可读性：字号、对比、留白、聚焦点问题。\n4. 动效与打击感：输入反馈、命中反馈、状态切换反馈。\n5. 资产规格：关键界面或美术资源需要怎样的规格约束。\n6. 可访问性风险：颜色、对比、操作复杂度、拥挤度。\n7. 优先级：最值得先修的 5 个 polish 项。\n\n要求：\n- 以玩家阅读和操作负担为中心。\n- 不要只说“做得更酷、更统一”，要指出具体结构问题。\n- 说明哪些问题影响理解，哪些问题只影响质感。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把 HUD 结构细化成 wireframe 级描述。</li><li>单独输出 hit-feel polish 清单。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "美术、UI、体验表达 Prompt 模板",
+      "id": "美术、ui、体验表达-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "美术、UI、体验表达 Prompt 模板 把视觉方向、HUD 结构、动效与可读性约束统一成可执行审查结论。 当一个项目已经能玩，但界面拥挤、反馈发虚、风格不统一或移动阅读性差时使用。 视觉方向与参考图 HUD / 菜单 / 信息层级现状 目标设备、分辨率与输入方式 当前反馈问题，例如打击感不足、动效拖沓、信息读不清 可访问性或发行平台限制 美术方向 HUD / UI 结构设计 视觉层级与可读性 动效与打击感表达 资产规格 可访问性风险 优先级最高的 polish 项 ui-ux hit-feel prompt-design"
+}

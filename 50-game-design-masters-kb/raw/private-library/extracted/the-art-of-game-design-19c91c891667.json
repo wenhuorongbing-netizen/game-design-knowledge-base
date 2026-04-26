@@ -1,0 +1,270 @@
+{
+  "format": "pdf",
+  "metadata": {
+    "title": "The Art of Game Design: A Book of Lenses, Second Edition",
+    "authors": [
+      "Schell, Jesse"
+    ],
+    "subject": "",
+    "producer": "Adobe PDF Library 11.0"
+  },
+  "page_count": 594,
+  "toc": [
+    {
+      "label": "Front Cover",
+      "depth": 0,
+      "page": 1
+    },
+    {
+      "label": "CONTENTS",
+      "depth": 0,
+      "page": 9
+    },
+    {
+      "label": "table of lenses",
+      "depth": 0,
+      "page": 29
+    },
+    {
+      "label": "Acknowledgments",
+      "depth": 0,
+      "page": 37
+    },
+    {
+      "label": "HELLO",
+      "depth": 0,
+      "page": 39
+    },
+    {
+      "label": "Chapter 1: In the Beginning, There Is the Designer",
+      "depth": 0,
+      "page": 47
+    },
+    {
+      "label": "Chapter 2: The Designer Creates an Experience",
+      "depth": 0,
+      "page": 55
+    },
+    {
+      "label": "Chapter 3: The Experience Takes Place in a Venue",
+      "depth": 0,
+      "page": 71
+    },
+    {
+      "label": "Chapter 4: The Experience Rises Out of a Game",
+      "depth": 0,
+      "page": 79
+    },
+    {
+      "label": "Chapter 5: The Game Consists of Elements",
+      "depth": 0,
+      "page": 95
+    },
+    {
+      "label": "Chapter 6: The Elements Support a Theme",
+      "depth": 0,
+      "page": 103
+    },
+    {
+      "label": "Chapter 7: The Game Begins with an Idea",
+      "depth": 0,
+      "page": 115
+    },
+    {
+      "label": "Chapter 8: The Game Improves through Iteration",
+      "depth": 0,
+      "page": 135
+    },
+    {
+      "label": "Chapter 9: The Game Is Made for a Player",
+      "depth": 0,
+      "page": 161
+    },
+    {
+      "label": "Chapter 10: The Experience Is in the Player’s Mind",
+      "depth": 0,
+      "page": 179
+    },
+    {
+      "label": "Chapter 11: The Player’s Mind Is Driven by the Player’s Motivation",
+      "depth": 0,
+      "page": 193
+    },
+    {
+      "label": "Chapter 12: Some Elements Are Game Mechanics",
+      "depth": 0,
+      "page": 203
+    },
+    {
+      "label": "Chapter 13: Game Mechanics Must Be in Balance",
+      "depth": 0,
+      "page": 247
+    },
+    {
+      "label": "Chapter 14: Game Mechanics Support Puzzles",
+      "depth": 0,
+      "page": 285
+    },
+    {
+      "label": "Chapter 15: Players Play Games through an Interface",
+      "depth": 0,
+      "page": 299
+    },
+    {
+      "label": "Chapter 16: Experiences Can Be Judged by Their Interest Curves",
+      "depth": 0,
+      "page": 325
+    },
+    {
+      "label": "Chapter 17: One Kind of Experience Is the Story",
+      "depth": 0,
+      "page": 341
+    },
+    {
+      "label": "Chapter 18: Story and Game Structures Can Be Artfully Merged with Indirect Control",
+      "depth": 0,
+      "page": 363
+    },
+    {
+      "label": "Chapter 19: Stories and Games Take Place in Worlds",
+      "depth": 0,
+      "page": 381
+    },
+    {
+      "label": "Chapter 20: Worlds Contain Characters",
+      "depth": 0,
+      "page": 391
+    },
+    {
+      "label": "Chapter 21: Worlds Contain Spaces",
+      "depth": 0,
+      "page": 413
+    },
+    {
+      "label": "Chapter 22: The Look and Feel of a World Is Defined by Its Aesthetics",
+      "depth": 0,
+      "page": 429
+    },
+    {
+      "label": "Chapter 23: Some Games Are Played with Other Players",
+      "depth": 0,
+      "page": 439
+    },
+    {
+      "label": "Chapter 24: Other Players Sometimes Form Communities",
+      "depth": 0,
+      "page": 445
+    },
+    {
+      "label": "Chapter 25: The Designer Usually Works with a Team",
+      "depth": 0,
+      "page": 459
+    },
+    {
+      "label": "Chapter 26: The Team Sometimes Communicates through Documents",
+      "depth": 0,
+      "page": 471
+    },
+    {
+      "label": "Chapter 27: Good Games Are Created through Playtesting",
+      "depth": 0,
+      "page": 479
+    },
+    {
+      "label": "Chapter 28: The Team Builds a Game with Technology",
+      "depth": 0,
+      "page": 495
+    },
+    {
+      "label": "Chapter 29: Your Game Will Probably Have a Client",
+      "depth": 0,
+      "page": 509
+    },
+    {
+      "label": "Chapter 30: The Designer Gives the Client a Pitch",
+      "depth": 0,
+      "page": 517
+    },
+    {
+      "label": "Chapter 31: The Designer and Client Want the Game to Make a Profit",
+      "depth": 0,
+      "page": 531
+    },
+    {
+      "label": "Chapter 32: Games Transform Their Players",
+      "depth": 0,
+      "page": 545
+    },
+    {
+      "label": "Chapter 33: Designers Have Certain Responsibilities",
+      "depth": 0,
+      "page": 563
+    },
+    {
+      "label": "Chapter 34: Each Designer Has a Purpose",
+      "depth": 0,
+      "page": 569
+    },
+    {
+      "label": "Goodbye",
+      "depth": 0,
+      "page": 573
+    },
+    {
+      "label": "Endnotes",
+      "depth": 0,
+      "page": 575
+    },
+    {
+      "label": "Bibliography",
+      "depth": 0,
+      "page": 589
+    },
+    {
+      "label": "Back Cover",
+      "depth": 0,
+      "page": 593
+    }
+  ],
+  "sample_sections": [
+    {
+      "label": "Page 1",
+      "location": {
+        "page": 1
+      },
+      "text": "TheArtGame Design of SCHELL Second Edition The Art Game Design ofThe Art Game Designof Jesse Schell Jesse Schell A Book of Lenses Second Edition The fundamentals of designing classic games from one of the world’s top designers Describes the deepest and most fundamental principles of game design Demonstrates how tactics used in board, card, and athletic games also work in top-quality video games Contains valuable insight from Jesse Schell, the former chair of the International Game Developers Association and award-winning designer of Disney online games. Features “… a marvelous introduction to game design by a true master of the form. Schell is the rarest of creatures: a gifted teacher who is also a talented and successful current game designer. This book re/f_lects Jesse’s skill at presenting information clearly and coherently, and the knowledge he has acquired as a master game designer.” —Noah Falstein , Chief Game Designer, Google “The Art of Game Design is one of a handful of books I continuously reference during production. Whether you’re just starting out or looking for ways to approach your design from a fresh perspective, this book is a must for your library.” —Neil Druckmann , Creative Director on The Last of Us at Naughty Dog Good game design happens when you view your game from as many perspectives as possible. Written by one of the world's top game designers, The Art of Game Design presents 100+ sets of questions, or different lenses, for viewing a game’s design, encompassing diverse fields such as psychology, architecture, music, visual design, film, software engineering, theme park design, mathematics, puzzle design, and anthropology. This Second Edition of a Game Developer Front Line Award winner: The Art of Game Design, Second Edition gives readers useful perspectives on how to make better game designs faster. It provides practical instruction on creating world-class games that will be played again and again. Computer Game Development"
+    },
+    {
+      "label": "Page 3",
+      "location": {
+        "page": 3
+      },
+      "text": "Second Edition"
+    },
+    {
+      "label": "Page 5",
+      "location": {
+        "page": 5
+      },
+      "text": "CRC Press is an imprint of the Taylor & Francis Group, an informa business Boca Raton London New York Carnegie Mellon University and Schell Games Pittsburgh, Pennsylvania, USA Second Edition"
+    },
+    {
+      "label": "Page 6",
+      "location": {
+        "page": 6
+      },
+      "text": "CRC Press Taylor & Francis Group 6000 Broken Sound Parkway NW, Suite 300 Boca Raton, FL 33487-2742 © 2015 by Taylor & Francis Group, LLC CRC Press is an imprint of Taylor & Francis Group, an Informa business No claim to original U.S. Government works Version Date: 20140929 International Standard Book Number-13: 978-1-4665-9867-6 (eBook - PDF) This book contains information obtained from authentic and highly regarded sources. Reasonable efforts have been made to publish reliable data and information, but the author and publisher cannot assume responsibility for the validity of all materials or the consequences of their use. The authors and publishers have attempted to trace the copyright holders of all material reproduced in this publication and apologize to copyright holders if permission to publish in this form has not been obtained. If any copyright material has not been acknowledged please write and let us know so we may rectify in any future reprint. Except as permitted under U.S. Copyright Law, no part of this book may be reprinted, reproduced, transmitted, or utilized in any form by any electronic, mechanical, or other means, now known or hereafter invented, including photocopying, microfilming, and recording, or in any information storage or retrieval system, without written permission from the publishers. For permission to photocopy or use material electronically from this work, please access www.copyright.com (http://www.copyright.com/) or contact the Copyright Clearance Center, Inc. (CCC), 222 Rosewood Drive, Danvers, MA 01923, 978-750-8400. CCC is a not-for-profit organization that provides licenses and registration for a variety of users. For organizations that have been granted a photocopy license by the CCC, a separate system of payment has been arranged. Trademark Notice: Product or corporate names may be trademarks or registered trademarks, and are used only for identification and explanation without intent to infringe. Visit the Taylor & Francis Web"
+    },
+    {
+      "label": "Page 7",
+      "location": {
+        "page": 7
+      },
+      "text": "For Nyra who always listens"
+    }
+  ],
+  "preview_text": "TheArtGame Design of SCHELL Second Edition The Art Game Design ofThe Art Game Designof Jesse Schell Jesse Schell A Book of Lenses Second Edition The fundamentals of designing classic games from one of the world’s top designers Describes the deepest and most fundamental principles of game design Demonstrates how tactics used in board, card, and athletic games also work in top-quality video games Contains valuable insight from Jesse Schell, the former chair of the International Game Developers Association and award-winning designer of Disney online games. Features “… a marvelous introduction to game design by a true master of the form. Schell is the rarest of creatures: a gifted teacher who is also a talented and successful current game designer. This book re/f_lects Jesse’s skill at presenting information clearly and coherently, and the knowledge he has acquired as a master game designer.” —Noah Falstein , Chief Game Designer, Google “The Art of Game Design is one of a handful of books I continuously reference during production. Whether you’re just starting out or looking for ways to approach your design from a fresh perspective, this book is a must for your library.” —Neil Druckman\n\nSecond Edition\n\nCRC Press is an imprint of the Taylor & Francis Group, an informa business Boca Raton London New York Carnegie Mellon University and Schell Games Pittsburgh, Pennsylvania, USA Second Edition",
+  "extraction_status": "ok",
+  "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+  "file_name": "The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf"
+}

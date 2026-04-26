@@ -1,0 +1,353 @@
+# KB State
+
+## Current Milestone
+
+Prompt 10 complete: coverage audit, legal audit, hallucination audit, usability audit, knowledge-gap backlog, and release package are established.
+
+## Completed Tasks
+
+- read Prompt 1 governance and state files
+- rebuilt `kb/01_sources/sources.json` as a SourceDocument registry
+- rebuilt `kb/03_works/works.json` as a GameDesignWork registry
+- quarantined high-risk uploaded book files as `metadata_only_quarantined`
+- created a sidecar template for user legal confirmation and manual notes
+- updated the source audit report
+- updated the high-risk quarantine report
+- created the required work registry table
+- created author and phase browsing indexes
+- registered detected uploaded works and user-prompt-referenced works
+- finalized the eight production phase groups
+- finalized the 26 cross-domain knowledge domains
+- defined graph-ready entity types for sources, works, dossiers, cards, workflows, prompts, projects, forum discussion, decisions, and playtests
+- defined controlled relationship types for provenance, routing, validation, project application, containment, comparison, and versioning
+- created controlled tag categories for phase, domain, artifact, difficulty, confidence, source basis, role, player experience, risk, and AI workflow
+- created machine-readable `ontology.json` and `relationship_types.json`
+- finalized the reusable BookDossier template
+- created a machine-readable dossier schema
+- generated one draft dossier shell for each registered GameDesignWork
+- created the dossier index
+- created the dossier completion matrix
+- added user-note slots, quote slots, pending claim slots, pending concept slots, and planned card slots to every dossier
+- preserved metadata-only legal boundaries for all high-risk sources
+- finalized the universal card template and machine-readable card schema
+- implemented all Prompt 5 card types in schema and folder structure
+- generated 109 unique concept card drafts from the requested concept inventory
+- generated 15 framework card drafts
+- generated 15 checklist card drafts
+- generated 15 prompt card drafts
+- generated 10 application card drafts
+- created placeholder README files for quote, comparison, exercise, anti-pattern, and case-study cards
+- created `CONCEPT_INVENTORY.md`
+- created `CLAIM_GRAPH.md` and `claim_graph.json`
+- created `EVIDENCE_GAPS.md`
+- recorded 164 conservative draft claims with no duplicate claim IDs
+- preserved legal boundaries by marking generated cards as `weak` or `unsupported_draft`
+- replaced the placeholder lens template with a full DesignLens template
+- created a machine-readable lens schema
+- generated 104 original diagnostic lens drafts
+- covered all required Prompt 6 lens families
+- added an extra AI-assisted design and KB governance lens family for source-bounded use
+- created `DESIGN_LENS_BANK.md` with a navigable lens-to-card mapping table
+- grouped lenses by all 8 production phase groups
+- grouped lenses by 19 lens domains
+- linked every lens to existing Prompt 5 concept or framework cards
+- verified that every lens has diagnostic questions and the required AI review prompt
+- verified that related card IDs have no broken references
+- preserved legal boundaries by marking all generated lenses as `unsupported_draft`
+- replaced the placeholder lesson template with a full Lesson template
+- created a machine-readable lesson schema
+- generated 10 curriculum tracks
+- generated 84 lesson cards across beginner, intermediate, advanced, and professional levels
+- created `MASTERCLASS_CURRICULUM.md`
+- created `TRACK_INDEX.md`
+- created `90_DAY_STUDY_PLAN.md`
+- created `assessment_rubrics.md`
+- linked every lesson to at least 3 concept cards
+- linked every lesson to at least 2 design lenses
+- linked every lesson to Prompt 5 claim graph entries
+- linked every lesson to exercise, forum, project application, project overlay, and future workflow placeholders
+- created exercise placeholder, project overlay placeholder, and future workflow pack placeholder indexes
+- verified that lesson card, lens, and claim links have no broken references
+- preserved legal boundaries by marking all generated lessons as `unsupported_draft`
+- replaced the placeholder workflow template with a full WorkflowPack template
+- created a machine-readable workflow pack schema
+- generated 20 required workflow packs under `/kb/08_workflows/packs`
+- created `WORKFLOW_PACK_INDEX.md`
+- generated 85 original exercises under `/kb/08_workflows/exercises`
+- created `EXERCISE_LIBRARY.md` with category coverage
+- generated 15 reusable AI prompt templates under `/kb/08_workflows/prompts`
+- created `PROMPT_LIBRARY.md`
+- created machine-readable `workflow_index.json`, `exercise_index.json`, and `prompt_index.json`
+- linked every workflow to Prompt 5 cards, Prompt 6 lenses, Prompt 7 lessons, output artifacts, and prompt templates
+- verified all workflow, exercise, lens, lesson, card, and prompt links resolve
+- verified Prompt 8 file counts: 20 workflow packs, 85 exercises, and 15 prompt templates
+- preserved legal boundaries by marking all generated workflows, exercises, and prompt templates as `unsupported_draft`
+- created a standalone documentation-KB importer under `/tools/kb_importer/import_kb.js`
+- finalized the Markdown frontmatter standard for BookOS entity import
+- finalized the JSON schema plan
+- generated 11 normalized JSON schema files under `/kb/11_import_export/schemas`
+- finalized the seed import plan
+- created the search index model
+- created the graph model
+- generated `all_entities.json`
+- generated `all_relationships.json`
+- generated `search_index.json`
+- generated `graph_nodes.json`
+- generated `graph_edges.json`
+- generated `validation_issues.json`
+- generated `graph_overview.md`
+- generated `import_report.md`
+- exported 856 normalized entities
+- exported 8,383 relationship edges
+- exported 734 safe search documents
+- validated that JSON exports parse successfully
+- validated that `metadata_only` search excerpts are suppressed
+- validated that the importer detects missing source basis, missing confidence, unsupported verified claims, high-risk source misuse, broken links, duplicate IDs, missing routing, card work gaps, missing lens questions, missing workflow outputs, missing lesson exercises, and missing prompt guardrails
+- preserved legal boundaries by reading generated KB Markdown and curated JSON registries only
+- generated `LEGAL_AUDIT_REPORT.md`
+- generated `COVERAGE_MATRIX.md`
+- generated `HALLUCINATION_AUDIT.md`
+- generated `USABILITY_AUDIT.md`
+- generated `KNOWLEDGE_GAP_BACKLOG.md`
+- generated `RELEASE_CHECKLIST.md`
+- generated `RELEASE_NOTES.md`
+- generated `KB_README.md`
+- generated `NEXT_30_DAYS_PLAN.md`
+- generated `NEXT_90_DAYS_PLAN.md`
+- generated `RELEASE_REPORT.md`
+- audited the KB against legal source rules
+- audited phase/domain coverage across works, dossiers, concept cards, lenses, lessons, exercises, and workflow packs
+- audited claim graph and card scaffolds for hallucination risk
+- audited eight practical usability scenarios
+- converted remaining warnings and missing evidence into a structured backlog
+- confirmed the KB is release-ready for BookOS draft integration
+- confirmed the KB is not yet a verified source-backed book-derived corpus
+- preserved legal boundaries by treating all high-risk sources as metadata-only
+
+## Current Assumptions
+
+- no uploaded commercial book file has an approved legal sidecar yet
+- filenames and file sizes are safe metadata
+- user prompts and `knowledge/rebuild_instruction.md` are usable as user manual notes or process instructions
+- the legacy `knowledge/50-game-design-masters-kb` snapshot is not trusted as verified source-backed knowledge
+- domain and phase mappings are navigation metadata, not source-body claims
+- example concepts, cards, lenses, and workflow packs in ontology files are placeholders unless later backed by legal sources or user notes
+- every Prompt 4 dossier is a `metadata_shell`, not a verified summary
+- Prompt 5 cards are retrieval and workflow scaffolds, not verified book knowledge
+- repeated concept names are merged into one card with combined routing metadata
+- Prompt 6 lenses are original diagnostic tools, not copied book lenses
+- Prompt 6 lens related works are routing metadata only, not evidence
+- Prompt 6 lens questions are practice scaffolds and need project or source validation before promotion
+- Prompt 7 lessons are original teaching scaffolds, not book summaries
+- Prompt 7 related dossiers are reading targets and metadata anchors only, not evidence
+- Prompt 8 workflows and exercises are original production scaffolds, not verified source-backed methods
+- Prompt 8 prompt templates are safe AI-operation scaffolds and must still enforce source governance during use
+- Prompt 7 project overlay links remain placeholders until Prompt 9 implements the data/application layer
+- Markdown remains the human canonical layer; JSON exports are generated import artifacts
+- Prompt 9 compatibility domain nodes are generated only to preserve older domain vocab links during import
+- Prompt 9 graph routing edges are navigation metadata, not source evidence
+- Prompt 9 remaining warnings are quality backlog items, not importer failures
+- Prompt 10 release readiness means BookOS-ready draft integration, not verified source-backed publication
+- Prompt 10 coverage ratings are structural coverage ratings, not evidence-strength ratings
+- Prompt 10 accepts 41 `card_without_related_work` warnings as non-blocking backlog
+- Prompt 10 identifies ProjectOverlay and forum normalization as the next major usability gaps
+
+## Legal Status Summary
+
+- 13 uploaded book-like files are `HIGH_RISK_SOURCE`
+- 1 archive container is `HIGH_RISK_CONTAINER`
+- all mirror-marked files remain `metadata_only_quarantined`
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 2
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 3
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 4
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 5
+- prompt-referenced works without files are registered as metadata-only candidates
+- Prompt 5 generated no quote cards because no `user_manual_quote`, `open_fulltext`, or legal quote source was provided
+- Prompt 5 generated no verified cards; all cards require evidence before promotion
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 6
+- Prompt 6 copied no proprietary lens wording
+- Prompt 6 generated no verified lenses; all lenses require legal/user/project evidence before promotion
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 7
+- Prompt 7 generated no verified lessons; all lessons require legal/user/project/playtest evidence before promotion
+- Prompt 7 lessons use Prompt 5 cards, Prompt 5 claims, and Prompt 6 lenses as draft scaffolds, not verified source doctrine
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 8
+- Prompt 8 copied no copyrighted exercise, workflow, or prompt text
+- Prompt 8 generated no verified workflows, exercises, or prompt templates; all require user/project/playtest evidence before promotion
+- Prompt 8 related cards, lenses, and lessons are routing links, not evidence claims
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 9
+- Prompt 9 importer did not unpack archives, read PDFs/EPUBs, extract quotes, or generate embeddings
+- Prompt 9 search index suppresses body excerpts for `metadata_only` and quarantined entities
+- Prompt 9 generated no verified knowledge claims
+- Prompt 9 detected no high-risk source body misuse in the export pass
+- no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 10
+- Prompt 10 legal audit found 0 unresolved legal violations
+- Prompt 10 hallucination audit found 0 critical hallucination issues
+- Prompt 10 release checklist passes all final acceptance gates for draft BookOS integration
+- source-backed masterclass release remains blocked until legal sidecars, user notes, project overlays, or playtest evidence are provided
+
+## Next Action
+
+Prompt 11: Project Overlay System and Project Application Records.
+
+Prompt 11 should implement project overlays, design decision logs, playtest log templates, and a sample project application flow that connects workflow outputs to real game development use while keeping general KB knowledge separate from project-specific claims.
+
+## Files Created Or Updated
+
+- `/kb/01_sources/sources.json`
+- `/kb/01_sources/SOURCE_AUDIT_REPORT.md`
+- `/kb/01_sources/high_risk_quarantine.md`
+- `/kb/01_sources/source_sidecar_template.yaml`
+- `/kb/03_works/works.json`
+- `/kb/03_works/WORK_REGISTRY.md`
+- `/kb/03_works/by_author/*.md`
+- `/kb/03_works/by_phase/01_project_direction.md`
+- `/kb/03_works/by_phase/02_core_play_systems.md`
+- `/kb/03_works/by_phase/03_numbers_economy.md`
+- `/kb/03_works/by_phase/04_content_narrative.md`
+- `/kb/03_works/by_phase/05_art_ui_experience.md`
+- `/kb/03_works/by_phase/06_development_implementation.md`
+- `/kb/03_works/by_phase/07_testing_acceptance_audit.md`
+- `/kb/03_works/by_phase/08_operations_release.md`
+- `/kb/02_ontology/MASTER_TAXONOMY.md`
+- `/kb/02_ontology/ENTITY_MODEL.md`
+- `/kb/02_ontology/RELATIONSHIP_MODEL.md`
+- `/kb/02_ontology/PHASE_GROUPS.md`
+- `/kb/02_ontology/TAG_SYSTEM.md`
+- `/kb/02_ontology/ontology.json`
+- `/kb/02_ontology/relationship_types.json`
+- `/kb/04_dossiers/dossier_template.md`
+- `/kb/04_dossiers/dossier_schema.json`
+- `/kb/04_dossiers/draft/*.md`
+- `/kb/04_dossiers/DOSSIER_INDEX.md`
+- `/kb/04_dossiers/DOSSIER_COMPLETION_MATRIX.md`
+- `/kb/05_cards/card_template.md`
+- `/kb/05_cards/card_schema.json`
+- `/kb/05_cards/CONCEPT_INVENTORY.md`
+- `/kb/05_cards/concept_cards/*.md`
+- `/kb/05_cards/framework_cards/*.md`
+- `/kb/05_cards/application_cards/*.md`
+- `/kb/05_cards/checklist_cards/*.md`
+- `/kb/05_cards/prompt_cards/*.md`
+- `/kb/05_cards/quote_cards/README.md`
+- `/kb/05_cards/comparison_cards/README.md`
+- `/kb/05_cards/exercise_cards/README.md`
+- `/kb/05_cards/anti_pattern_cards/README.md`
+- `/kb/05_cards/case_study_cards/README.md`
+- `/kb/05_cards/CLAIM_GRAPH.md`
+- `/kb/05_cards/claim_graph.json`
+- `/kb/05_cards/EVIDENCE_GAPS.md`
+- `/kb/05_cards/PROMPT_5_GENERATION_SUMMARY.json`
+- `/kb/11_import_export/generate_prompt5_cards.js`
+- `/kb/06_lenses/lens_template.md`
+- `/kb/06_lenses/lens_schema.json`
+- `/kb/06_lenses/DESIGN_LENS_BANK.md`
+- `/kb/06_lenses/cards/*.md`
+- `/kb/06_lenses/by_phase/*.md`
+- `/kb/06_lenses/by_domain/*.md`
+- `/kb/06_lenses/lens_index.json`
+- `/kb/06_lenses/PROMPT_6_GENERATION_SUMMARY.json`
+- `/kb/11_import_export/generate_prompt6_lenses.js`
+- `/kb/07_lessons/lesson_template.md`
+- `/kb/07_lessons/lesson_schema.json`
+- `/kb/07_lessons/MASTERCLASS_CURRICULUM.md`
+- `/kb/07_lessons/TRACK_INDEX.md`
+- `/kb/07_lessons/90_DAY_STUDY_PLAN.md`
+- `/kb/07_lessons/lesson_cards/*.md`
+- `/kb/07_lessons/assessment_rubrics.md`
+- `/kb/07_lessons/EXERCISE_PLACEHOLDERS.md`
+- `/kb/07_lessons/FUTURE_WORKFLOW_PACK_PLACEHOLDERS.md`
+- `/kb/07_lessons/PROJECT_OVERLAY_PLACEHOLDERS.md`
+- `/kb/07_lessons/lesson_index.json`
+- `/kb/07_lessons/PROMPT_7_GENERATION_SUMMARY.json`
+- `/kb/11_import_export/generate_prompt7_lessons.js`
+- `/kb/08_workflows/workflow_pack_template.md`
+- `/kb/08_workflows/workflow_pack_schema.json`
+- `/kb/08_workflows/WORKFLOW_PACK_INDEX.md`
+- `/kb/08_workflows/packs/*.md`
+- `/kb/08_workflows/EXERCISE_LIBRARY.md`
+- `/kb/08_workflows/exercises/*.md`
+- `/kb/08_workflows/PROMPT_LIBRARY.md`
+- `/kb/08_workflows/prompts/*.md`
+- `/kb/08_workflows/workflow_index.json`
+- `/kb/08_workflows/exercise_index.json`
+- `/kb/08_workflows/prompt_index.json`
+- `/kb/08_workflows/PROMPT_8_GENERATION_SUMMARY.json`
+- `/kb/11_import_export/generate_prompt8_workflows.js`
+- `/tools/kb_importer/import_kb.js`
+- `/kb/11_import_export/markdown_frontmatter_schema.md`
+- `/kb/11_import_export/json_schema_plan.md`
+- `/kb/11_import_export/seed_import_plan.md`
+- `/kb/11_import_export/search_index_model.md`
+- `/kb/11_import_export/graph_model.md`
+- `/kb/11_import_export/graph_overview.md`
+- `/kb/11_import_export/import_report.md`
+- `/kb/11_import_export/schemas/*.json`
+- `/kb/11_import_export/export/all_entities.json`
+- `/kb/11_import_export/export/all_relationships.json`
+- `/kb/11_import_export/export/search_index.json`
+- `/kb/11_import_export/export/graph_nodes.json`
+- `/kb/11_import_export/export/graph_edges.json`
+- `/kb/11_import_export/export/validation_issues.json`
+- `/kb/11_import_export/generate_prompt10_quality.js`
+- `/kb/12_quality/LEGAL_AUDIT_REPORT.md`
+- `/kb/12_quality/COVERAGE_MATRIX.md`
+- `/kb/12_quality/HALLUCINATION_AUDIT.md`
+- `/kb/12_quality/USABILITY_AUDIT.md`
+- `/kb/12_quality/KNOWLEDGE_GAP_BACKLOG.md`
+- `/kb/12_quality/RELEASE_CHECKLIST.md`
+- `/kb/12_quality/RELEASE_NOTES.md`
+- `/kb/12_quality/KB_README.md`
+- `/kb/12_quality/NEXT_30_DAYS_PLAN.md`
+- `/kb/12_quality/NEXT_90_DAYS_PLAN.md`
+- `/kb/12_quality/RELEASE_REPORT.md`
+- `/kb/KB_STATE.md`
+- `/kb/IMPLEMENTATION_LOG.md`
+- `/kb/TODO.md`
+
+## Open Questions
+
+- which uploaded files can the user legally certify with sidecars
+- whether the user wants official metadata enrichment from publisher, library, or DOI pages in a later prompt
+- whether the legacy KB should be fully ignored or selectively reintroduced through user notes
+- which user notes should be attached first
+- whether any source sidecars are ready for legal promotion
+- which Prompt 5 cards should be promoted first after legal/user evidence is attached
+- which Prompt 6 lenses should be tested on a real project first
+- which Prompt 7 tracks should be used first by the user
+- which Prompt 8 workflow packs should be tested on a real project first
+- which project overlay entities should connect to workflow outputs first
+- whether the 41 `card_without_related_work` warnings should be fixed by adding related works, marking them as general governance cards, or exempting specific card families
+- which downstream BookOS database shape should consume the Prompt 9 exports first
+- which sample project should be used for the first ProjectOverlay
+- which workflow outputs should become design decisions first
+- whether playtest logs or design decision logs should be implemented first in Prompt 11
+
+## Do-Not-Redo List
+
+- do not ingest high-risk book body text
+- do not summarize high-risk chapters
+- do not extract quotes from high-risk files
+- do not generate embeddings from quarantined files
+- do not treat the old legacy KB as verified
+- do not promote domain routing into source-backed doctrine
+- do not treat example ontology cards, lenses, or workflows as source-backed content
+- do not treat Prompt 4 dossier shells as verified book summaries
+- do not create cards from pending dossier sections without user notes or legal source support
+- do not treat Prompt 5 card drafts as verified knowledge
+- do not create quote cards unless the quote source basis permits it
+- do not create design lenses in Prompt 6 as if they came from a book unless allowed evidence exists
+- do not treat Prompt 6 lenses as copied or verified book lenses
+- do not use lens related works as evidence unless legal source refs are attached
+- do not create Prompt 7 lessons as book-derived lessons unless allowed evidence exists
+- do not treat Prompt 7 lessons as verified curriculum knowledge
+- do not create Prompt 8 workflows from high-risk book bodies
+- do not treat Prompt 8 workflows or exercises as verified methods without user/project/playtest evidence
+- do not let Prompt 8 AI prompts bypass source_basis, confidence, or high-risk quarantine rules
+- do not build Prompt 9 import automation that reads quarantined source body text
+- do not edit generated JSON exports by hand; regenerate them with `/tools/kb_importer/import_kb.js`
+- do not treat Prompt 9 compatibility domain nodes as new theory claims
+- do not treat routing edges as evidence edges
+- do not ignore remaining validation warnings during Prompt 10 hardening
+- do not treat Prompt 10 release-ready status as verified source-backed status
+- do not merge project-specific findings into the general KB without ProjectOverlay boundaries
+- do not promote workflow outputs into general recommendations without evidence

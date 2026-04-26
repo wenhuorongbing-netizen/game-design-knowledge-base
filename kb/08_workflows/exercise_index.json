@@ -1,0 +1,4762 @@
+{
+  "schema_version": "bookos.exercises.v1",
+  "updated_date": "2026-04-26",
+  "total_exercises": 85,
+  "exercises": [
+    {
+      "exercise_id": "exercise_ideation_01",
+      "title": "Ideation Exercise 01: invert a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_02",
+      "title": "Ideation Exercise 02: map a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_03",
+      "title": "Ideation Exercise 03: stress-test a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_04",
+      "title": "Ideation Exercise 04: compare a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_05",
+      "title": "Ideation Exercise 05: prototype a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_06",
+      "title": "Ideation Exercise 06: audit a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_07",
+      "title": "Ideation Exercise 07: rewrite a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_08",
+      "title": "Ideation Exercise 08: observe a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_09",
+      "title": "Ideation Exercise 09: cut a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_10",
+      "title": "Ideation Exercise 10: compress a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_11",
+      "title": "Ideation Exercise 11: invert a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_12",
+      "title": "Ideation Exercise 12: map a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_13",
+      "title": "Ideation Exercise 13: stress-test a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_14",
+      "title": "Ideation Exercise 14: compare a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ideation_15",
+      "title": "Ideation Exercise 15: prototype a design assumption",
+      "category": "ideation",
+      "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ideation one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_ideation",
+        "concept_problem-statement",
+        "concept_experience-goal",
+        "concept_pitch"
+      ],
+      "related_lenses": [
+        "lens_project-direction_emotional-goal",
+        "lens_player-experience_agency"
+      ],
+      "phase_groups": [
+        "立项与方向"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_01",
+      "title": "Rules / Mechanics Exercise 01: invert a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_02",
+      "title": "Rules / Mechanics Exercise 02: map a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_03",
+      "title": "Rules / Mechanics Exercise 03: stress-test a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_04",
+      "title": "Rules / Mechanics Exercise 04: compare a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_05",
+      "title": "Rules / Mechanics Exercise 05: prototype a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_06",
+      "title": "Rules / Mechanics Exercise 06: audit a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_07",
+      "title": "Rules / Mechanics Exercise 07: rewrite a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_08",
+      "title": "Rules / Mechanics Exercise 08: observe a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_09",
+      "title": "Rules / Mechanics Exercise 09: cut a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_rules_mechanics_10",
+      "title": "Rules / Mechanics Exercise 10: compress a design assumption",
+      "category": "rules_mechanics",
+      "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Rules / Mechanics one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+      "related_cards": [
+        "concept_rules",
+        "concept_mechanics",
+        "concept_procedures",
+        "concept_objectives"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_core-loop",
+        "lens_mechanics-and-rules_depth-versus-complexity"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_01",
+      "title": "Meaningful Decision Exercise 01: invert a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_02",
+      "title": "Meaningful Decision Exercise 02: map a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_03",
+      "title": "Meaningful Decision Exercise 03: stress-test a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_04",
+      "title": "Meaningful Decision Exercise 04: compare a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_05",
+      "title": "Meaningful Decision Exercise 05: prototype a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_06",
+      "title": "Meaningful Decision Exercise 06: audit a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_07",
+      "title": "Meaningful Decision Exercise 07: rewrite a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_08",
+      "title": "Meaningful Decision Exercise 08: observe a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_09",
+      "title": "Meaningful Decision Exercise 09: cut a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_meaningful_decision_10",
+      "title": "Meaningful Decision Exercise 10: compress a design assumption",
+      "category": "meaningful_decision",
+      "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Meaningful Decision one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_01_foundations_05_meaningful-decisions",
+      "related_cards": [
+        "concept_meaningful-decisions",
+        "concept_tradeoffs",
+        "concept_dilemmas",
+        "concept_risk-versus-reward"
+      ],
+      "related_lenses": [
+        "lens_mechanics-and-rules_meaningful-decisions",
+        "lens_mechanics-and-rules_tradeoffs"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_01",
+      "title": "Systems / Economy Exercise 01: invert a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_02",
+      "title": "Systems / Economy Exercise 02: map a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_03",
+      "title": "Systems / Economy Exercise 03: stress-test a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_04",
+      "title": "Systems / Economy Exercise 04: compare a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_05",
+      "title": "Systems / Economy Exercise 05: prototype a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_06",
+      "title": "Systems / Economy Exercise 06: audit a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_07",
+      "title": "Systems / Economy Exercise 07: rewrite a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_08",
+      "title": "Systems / Economy Exercise 08: observe a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_09",
+      "title": "Systems / Economy Exercise 09: cut a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_systems_economy_10",
+      "title": "Systems / Economy Exercise 10: compress a design assumption",
+      "category": "systems_economy",
+      "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Systems / Economy one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_04_systems_economy_01_games-as-systems",
+      "related_cards": [
+        "concept_system",
+        "concept_loop",
+        "concept_economy",
+        "concept_source",
+        "concept_sink"
+      ],
+      "related_lenses": [
+        "lens_systems-and-economy_source-sink-balance",
+        "lens_systems-and-economy_feedback-loops"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_01",
+      "title": "Game Feel Exercise 01: invert a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_02",
+      "title": "Game Feel Exercise 02: map a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_03",
+      "title": "Game Feel Exercise 03: stress-test a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_04",
+      "title": "Game Feel Exercise 04: compare a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_05",
+      "title": "Game Feel Exercise 05: prototype a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_06",
+      "title": "Game Feel Exercise 06: audit a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_07",
+      "title": "Game Feel Exercise 07: rewrite a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_08",
+      "title": "Game Feel Exercise 08: observe a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_09",
+      "title": "Game Feel Exercise 09: cut a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_game_feel_10",
+      "title": "Game Feel Exercise 10: compress a design assumption",
+      "category": "game_feel",
+      "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Game Feel one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_game-feel",
+        "concept_input-metric",
+        "concept_response-metric",
+        "concept_feedback"
+      ],
+      "related_lenses": [
+        "lens_game-feel_feedback-timing",
+        "lens_game-feel_input-responsiveness"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_01",
+      "title": "UI / Feedback Exercise 01: invert a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_02",
+      "title": "UI / Feedback Exercise 02: map a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_03",
+      "title": "UI / Feedback Exercise 03: stress-test a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_04",
+      "title": "UI / Feedback Exercise 04: compare a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_05",
+      "title": "UI / Feedback Exercise 05: prototype a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_06",
+      "title": "UI / Feedback Exercise 06: audit a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_07",
+      "title": "UI / Feedback Exercise 07: rewrite a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_08",
+      "title": "UI / Feedback Exercise 08: observe a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_09",
+      "title": "UI / Feedback Exercise 09: cut a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ui_feedback_10",
+      "title": "UI / Feedback Exercise 10: compress a design assumption",
+      "category": "ui_feedback",
+      "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "UI / Feedback one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+      "related_cards": [
+        "concept_interface",
+        "concept_feedback",
+        "concept_mental-model",
+        "concept_player-rights"
+      ],
+      "related_lenses": [
+        "lens_player-experience_accessibility",
+        "lens_player-experience_onboarding"
+      ],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_01",
+      "title": "Narrative / World Exercise 01: invert a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_02",
+      "title": "Narrative / World Exercise 02: map a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_03",
+      "title": "Narrative / World Exercise 03: stress-test a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_04",
+      "title": "Narrative / World Exercise 04: compare a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_05",
+      "title": "Narrative / World Exercise 05: prototype a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_06",
+      "title": "Narrative / World Exercise 06: audit a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_07",
+      "title": "Narrative / World Exercise 07: rewrite a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_08",
+      "title": "Narrative / World Exercise 08: observe a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_09",
+      "title": "Narrative / World Exercise 09: cut a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_narrative_world_10",
+      "title": "Narrative / World Exercise 10: compress a design assumption",
+      "category": "narrative_world",
+      "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Narrative / World one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+      "related_cards": [
+        "concept_story",
+        "concept_premise",
+        "concept_worldbuilding",
+        "concept_character-function"
+      ],
+      "related_lenses": [
+        "lens_narrative-world-character_environmental-storytelling",
+        "lens_narrative-world-character_story-function"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ethics_community_01",
+      "title": "Ethics / Community Exercise 01: invert a design assumption",
+      "category": "ethics_community",
+      "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ethics / Community one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_ethics",
+        "concept_responsibility",
+        "concept_community",
+        "concept_griefing"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_responsibility",
+        "lens_ai-assisted-design-and-kb-governance_legal-source-gate"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ethics_community_02",
+      "title": "Ethics / Community Exercise 02: map a design assumption",
+      "category": "ethics_community",
+      "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ethics / Community one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_ethics",
+        "concept_responsibility",
+        "concept_community",
+        "concept_griefing"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_responsibility",
+        "lens_ai-assisted-design-and-kb-governance_legal-source-gate"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ethics_community_03",
+      "title": "Ethics / Community Exercise 03: stress-test a design assumption",
+      "category": "ethics_community",
+      "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ethics / Community one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_ethics",
+        "concept_responsibility",
+        "concept_community",
+        "concept_griefing"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_responsibility",
+        "lens_ai-assisted-design-and-kb-governance_legal-source-gate"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ethics_community_04",
+      "title": "Ethics / Community Exercise 04: compare a design assumption",
+      "category": "ethics_community",
+      "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ethics / Community one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_ethics",
+        "concept_responsibility",
+        "concept_community",
+        "concept_griefing"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_responsibility",
+        "lens_ai-assisted-design-and-kb-governance_legal-source-gate"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_ethics_community_05",
+      "title": "Ethics / Community Exercise 05: prototype a design assumption",
+      "category": "ethics_community",
+      "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Ethics / Community one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_ethics",
+        "concept_responsibility",
+        "concept_community",
+        "concept_griefing"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_responsibility",
+        "lens_ai-assisted-design-and-kb-governance_legal-source-gate"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_pitch_release_01",
+      "title": "Pitch / Release Exercise 01: invert a design assumption",
+      "category": "pitch_release",
+      "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Pitch / Release one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_pitch",
+        "concept_audience",
+        "concept_business-model",
+        "concept_release-readiness"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_launch-readiness",
+        "lens_project-direction_audience"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_pitch_release_02",
+      "title": "Pitch / Release Exercise 02: map a design assumption",
+      "category": "pitch_release",
+      "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "beginner",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Pitch / Release one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_pitch",
+        "concept_audience",
+        "concept_business-model",
+        "concept_release-readiness"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_launch-readiness",
+        "lens_project-direction_audience"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_pitch_release_03",
+      "title": "Pitch / Release Exercise 03: stress-test a design assumption",
+      "category": "pitch_release",
+      "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "60 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Pitch / Release one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_pitch",
+        "concept_audience",
+        "concept_business-model",
+        "concept_release-readiness"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_launch-readiness",
+        "lens_project-direction_audience"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_pitch_release_04",
+      "title": "Pitch / Release Exercise 04: compare a design assumption",
+      "category": "pitch_release",
+      "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "intermediate",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "group",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Pitch / Release one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_pitch",
+        "concept_audience",
+        "concept_business-model",
+        "concept_release-readiness"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_launch-readiness",
+        "lens_project-direction_audience"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    },
+    {
+      "exercise_id": "exercise_pitch_release_05",
+      "title": "Pitch / Release Exercise 05: prototype a design assumption",
+      "category": "pitch_release",
+      "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
+      "difficulty": "advanced",
+      "estimated_time": "30 minutes",
+      "solo_or_group": "solo",
+      "materials": [
+        "timer",
+        "blank worksheet",
+        "current game idea or prototype note",
+        "linked cards and lenses"
+      ],
+      "setup": "Choose one concrete artifact. State the intended player experience and current evidence before starting.",
+      "steps": [
+        "Write the current assumption in one sentence.",
+        "Use the linked cards as vocabulary anchors.",
+        "Run the linked lenses and record three findings.",
+        "Create the expected output artifact.",
+        "Mark missing evidence and one next experiment."
+      ],
+      "constraints": [
+        "Do not use book body text.",
+        "Do not cite a card or lens as verified unless it has evidence.",
+        "Keep the output reviewable in one page or one board."
+      ],
+      "expected_output": "Pitch / Release one-page exercise output with assumptions, evidence gaps, and next action.",
+      "evaluation_rubric": [
+        "clarity",
+        "evidence discipline",
+        "design usefulness",
+        "testability",
+        "reflection quality"
+      ],
+      "related_lesson": "lesson_09_production_team_community_release_01_design-documentation",
+      "related_cards": [
+        "concept_pitch",
+        "concept_audience",
+        "concept_business-model",
+        "concept_release-readiness"
+      ],
+      "related_lenses": [
+        "lens_production-release-community_launch-readiness",
+        "lens_project-direction_audience"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "运营与发布"
+      ],
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "status": "draft",
+      "created_at": "2026-04-26",
+      "updated_at": "2026-04-26"
+    }
+  ]
+}

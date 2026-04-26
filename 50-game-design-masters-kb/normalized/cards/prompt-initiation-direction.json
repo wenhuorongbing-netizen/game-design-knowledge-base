@@ -1,0 +1,63 @@
+{
+  "id": "prompt-initiation-direction",
+  "entity_type": "card",
+  "title": "立项与方向 Prompt 模板",
+  "summary": "把模糊项目概念收束成方向判断、目标市场、平台适配和 MVP 裁剪结论。",
+  "card_kind": "prompt_template",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "project-audit",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "game-design-concepts-course"
+  ],
+  "related_card_ids": [
+    "phase-guide-initiation-direction",
+    "checklist-initiation-direction"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 立项与方向 Prompt 模板\n\n## 适用场景\n\n当一个项目还停留在概念、愿景、题材或一堆好点子阶段时，用它把高层讨论压回“做什么、不做什么、先验证什么”。\n\n## 使用前提供\n\n- 项目一句话概念与核心 fantasy\n- 目标玩家、目标市场与参考竞品\n- 平台、发行、预算、周期和团队约束\n- 必须保留的创意与当前最大不确定性\n- 你已经讨论过但仍然分歧很大的方向点\n\n## 预期输出\n\n1. 方向收敛结论\n2. 核心玩法判断\n3. 玩家画像与目标市场\n4. 平台适配判断\n5. 主要风险预判\n6. MVP 范围裁剪\n7. 下一轮验证动作\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏总监、系统设计研究者和项目审查顾问。\n请不要按岗位分工回答，而是按“开发阶段 -> 输出物”组织分析。\n\n项目背景：\n- 项目名：{{project_name}}\n- 一句话概念：{{one_sentence_pitch}}\n- 核心 fantasy：{{core_fantasy}}\n- 目标玩家：{{target_players}}\n- 参考竞品：{{comparables}}\n- 平台：{{platforms}}\n- 商业/发行约束：{{business_constraints}}\n- 团队与周期：{{team_and_timeline}}\n- 当前不确定点：{{top_unknowns}}\n- 必须保留元素：{{must_keep}}\n\n请输出：\n1. 方向收敛结论：一句话说明应该做什么，不该做什么。\n2. 核心玩法判断：当前概念真正可成立的玩法核心是什么。\n3. 玩家画像与目标市场：最应该服务谁，为什么。\n4. 平台适配判断：哪些平台适合，哪些平台会拉垮设计。\n5. 风险预判：列出 3-5 个最高风险，并给出验证方法。\n6. MVP 范围裁剪：保留项、推迟项、删除项。\n7. 下一轮验证动作：一周内应该做的最小验证件。\n\n要求：\n- 结论必须可执行，避免空泛愿景描述。\n- 明确指出互相冲突的目标。\n- 需要做取舍时，优先保留最能定义项目 identity 的部分。\n```\n\n## 二次追问\n\n- 再给出两个方向变体：更商业化 / 更作者性。\n- 如果团队资源砍半，重新给出 MVP。\n",
+  "body_html": "<h1 id=\"立项与方向-prompt-模板\">立项与方向 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当一个项目还停留在概念、愿景、题材或一堆好点子阶段时，用它把高层讨论压回“做什么、不做什么、先验证什么”。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>项目一句话概念与核心 fantasy</li><li>目标玩家、目标市场与参考竞品</li><li>平台、发行、预算、周期和团队约束</li><li>必须保留的创意与当前最大不确定性</li><li>你已经讨论过但仍然分歧很大的方向点</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>方向收敛结论</li><li>核心玩法判断</li><li>玩家画像与目标市场</li><li>平台适配判断</li><li>主要风险预判</li><li>MVP 范围裁剪</li><li>下一轮验证动作</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏总监、系统设计研究者和项目审查顾问。\n请不要按岗位分工回答，而是按“开发阶段 -&gt; 输出物”组织分析。\n\n项目背景：\n- 项目名：{{project_name}}\n- 一句话概念：{{one_sentence_pitch}}\n- 核心 fantasy：{{core_fantasy}}\n- 目标玩家：{{target_players}}\n- 参考竞品：{{comparables}}\n- 平台：{{platforms}}\n- 商业/发行约束：{{business_constraints}}\n- 团队与周期：{{team_and_timeline}}\n- 当前不确定点：{{top_unknowns}}\n- 必须保留元素：{{must_keep}}\n\n请输出：\n1. 方向收敛结论：一句话说明应该做什么，不该做什么。\n2. 核心玩法判断：当前概念真正可成立的玩法核心是什么。\n3. 玩家画像与目标市场：最应该服务谁，为什么。\n4. 平台适配判断：哪些平台适合，哪些平台会拉垮设计。\n5. 风险预判：列出 3-5 个最高风险，并给出验证方法。\n6. MVP 范围裁剪：保留项、推迟项、删除项。\n7. 下一轮验证动作：一周内应该做的最小验证件。\n\n要求：\n- 结论必须可执行，避免空泛愿景描述。\n- 明确指出互相冲突的目标。\n- 需要做取舍时，优先保留最能定义项目 identity 的部分。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>再给出两个方向变体：更商业化 / 更作者性。</li><li>如果团队资源砍半，重新给出 MVP。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "立项与方向 Prompt 模板",
+      "id": "立项与方向-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "立项与方向 Prompt 模板 把模糊项目概念收束成方向判断、目标市场、平台适配和 MVP 裁剪结论。 当一个项目还停留在概念、愿景、题材或一堆好点子阶段时，用它把高层讨论压回“做什么、不做什么、先验证什么”。 项目一句话概念与核心 fantasy 目标玩家、目标市场与参考竞品 平台、发行、预算、周期和团队约束 必须保留的创意与当前最大不确定性 你已经讨论过但仍然分歧很大的方向点 方向收敛结论 核心玩法判断 玩家画像与目标市场 平台适配判断 主要风险预判 MVP 范围裁剪 下一轮验证动作 design-fundamentals project-audit prompt-design"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "content-narrative-prompt-pack",
+  "title": "内容与叙事 Prompt Pack",
+  "summary": "Stage-specific prompt templates for 内容与叙事.",
+  "phase_group": "content-narrative",
+  "phase_label": "内容与叙事",
+  "phase_groups": [
+    "content-narrative"
+  ],
+  "phase_labels": [
+    "内容与叙事"
+  ],
+  "type": "prompt_pack",
+  "kind_label": "Prompt Pack",
+  "card_ids": [
+    "prompt-dialogue-writing",
+    "prompt-worldbuilding"
+  ],
+  "count": 2,
+  "prompt_count": 2,
+  "checklist_count": 0,
+  "other_count": 0,
+  "when_to_use": "Use this when the current task belongs to 内容与叙事 and you want reusable drafting prompts instead of starting from scratch.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Pick the prompt template in 内容与叙事 Prompt Pack that matches the deliverable you need right now.",
+    "Fill in the placeholders with project-specific constraints instead of generic design language.",
+    "Keep only one answer path per prompt run so the result remains editable.",
+    "Pass the output into a checklist or implementation review before treating it as final."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/content-narrative-prompt-pack.md",
+  "generated_at": "2026-04-26T00:39:23.257Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

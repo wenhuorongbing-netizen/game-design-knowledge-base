@@ -1,0 +1,111 @@
+{
+  "id": "work-advanced-game-design-a-systems-approach",
+  "entity_type": "card",
+  "title": "Advanced Game Design: A Systems Approach",
+  "summary": "把系统思维直接对接到游戏生产，强调从体验目标、循环关系和整体行为出发理解设计，而不是把系统拆成互不相干的局部技巧。",
+  "card_kind": "book_entry",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "book",
+  "source_work_id": "advanced-game-design-a-systems-approach",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking",
+    "economy-loops",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246"
+  ],
+  "local_links": [
+    {
+      "label": "Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Advanced Game Design: A Systems Approach\n\n## 基本信息\n\n- 作者：Michael Sellers\n- 年份：2018\n- 类型：book\n- 来源：InformIT / New Riders\n\n## 摘要\n\n把系统思维直接对接到游戏生产，强调从体验目标、循环关系和整体行为出发理解设计，而不是把系统拆成互不相干的局部技巧。\n\n## 核心要点\n\n- 它是高层设计与细节系统之间的桥。\n- 适合把抽象的“系统感”压回具体循环和依赖关系。\n- 和 MDA、Game Mechanics 结合时价值最高。\n\n## 适用场景\n\n最适合处理中层系统结构、玩法之间的依赖关系以及“为什么整体体验不成立”这类跨系统问题。\n\n## 知识定位\n\n- 关注领域：系统思维 / 循环关系 / 体验目标映射 / 复杂性管理\n- 主要用途：中层系统梳理 / 循环关系审查 / 体系化设计复盘\n- 推荐读法：按概念通读 / 与 MDA 和 Game Mechanics 对照 / 围绕具体项目结构反查\n- 价值类型：中层方法论 / 结构桥梁 / 系统语言\n- 最适合介入的阶段：方向细化 / 系统方案评审 / 跨系统复盘\n\n## 分类\n\n- 一级分类：数值与经济设计\n- 二级输出物：数值框架设计\n- 主题标签：系统思维 / 经济循环 / 设计基础\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Advanced game design : a systems approach\n- 解析格式：pdf\n- 页数：468\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/advanced-game-design-a-systems-approach-383afdfefa9c.json`（ok）\n\n## 官方链接\n\n- <https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/advanced-game-design-a-systems-approach/01-www.informit.com-store-advanced-game-design-a-systems-approach-9780134668246.html`\n\n## 相关条目\n\n- Game Mechanics: Advanced Game Design\n- MDA: A Formal Approach to Game Design and Game Research\n",
+  "body_html": "<h1 id=\"advanced-game-design-a-systems-approach\">Advanced Game Design: A Systems Approach</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Michael Sellers</li><li>年份：2018</li><li>类型：book</li><li>来源：InformIT / New Riders</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>把系统思维直接对接到游戏生产，强调从体验目标、循环关系和整体行为出发理解设计，而不是把系统拆成互不相干的局部技巧。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它是高层设计与细节系统之间的桥。</li><li>适合把抽象的“系统感”压回具体循环和依赖关系。</li><li>和 MDA、Game Mechanics 结合时价值最高。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合处理中层系统结构、玩法之间的依赖关系以及“为什么整体体验不成立”这类跨系统问题。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：系统思维 / 循环关系 / 体验目标映射 / 复杂性管理</li><li>主要用途：中层系统梳理 / 循环关系审查 / 体系化设计复盘</li><li>推荐读法：按概念通读 / 与 MDA 和 Game Mechanics 对照 / 围绕具体项目结构反查</li><li>价值类型：中层方法论 / 结构桥梁 / 系统语言</li><li>最适合介入的阶段：方向细化 / 系统方案评审 / 跨系统复盘</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：数值与经济设计</li><li>二级输出物：数值框架设计</li><li>主题标签：系统思维 / 经济循环 / 设计基础</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Advanced game design : a systems approach</li><li>解析格式：pdf</li><li>页数：468</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/advanced-game-design-a-systems-approach-383afdfefa9c.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246\" target=\"_blank\" rel=\"noreferrer\">https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/advanced-game-design-a-systems-approach/01-www.informit.com-store-advanced-game-design-a-systems-approach-9780134668246.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li><li>MDA: A Formal Approach to Game Design and Game Research</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Advanced Game Design: A Systems Approach",
+      "id": "advanced-game-design-a-systems-approach"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Advanced Game Design: A Systems Approach Michael Sellers 把系统思维直接对接到游戏生产，强调从体验目标、循环关系和整体行为出发理解设计，而不是把系统拆成互不相干的局部技巧。 它是高层设计与细节系统之间的桥。 适合把抽象的“系统感”压回具体循环和依赖关系。 和 MDA、Game Mechanics 结合时价值最高。 最适合处理中层系统结构、玩法之间的依赖关系以及“为什么整体体验不成立”这类跨系统问题。 主策 系统策划 数值策划 系统思维 循环关系 体验目标映射 复杂性管理 中层系统梳理 循环关系审查 体系化设计复盘 按概念通读 与 MDA 和 Game Mechanics 对照 围绕具体项目结构反查 中层方法论 结构桥梁 系统语言 方向细化 系统方案评审 跨系统复盘 数值与经济设计 数值框架设计 系统思维 经济循环 设计基础 InformIT In Advanced Game Design, pioneering game designer and instructor Michael Sellers situates game design practices in a strong theoretical framework of systems thinking, enabling designers to think more deeply and clearly about their work, so they can produce better, more engaging games for any device or platform."
+}

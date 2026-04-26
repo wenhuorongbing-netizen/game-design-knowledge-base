@@ -1,0 +1,66 @@
+{
+  "id": "phase-guide-core-gameplay-systems",
+  "entity_type": "card",
+  "title": "核心玩法与系统设计导向卡",
+  "summary": "核心循环、单机制原型、战斗、关卡、成长循环与 Meta progression。",
+  "card_kind": "phase_guide",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "challenges-for-game-designers",
+    "game-design-concepts-course",
+    "mda-formal-approach",
+    "mit-ocw-2010-game-design",
+    "mit-ocw-2014-game-design",
+    "rules-of-play",
+    "the-rule-book"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 核心玩法与系统设计导向卡\n\n## 这个阶段解决什么\n\n核心循环、单机制原型、战斗、关卡、成长循环与 Meta progression。\n\n## 常见输出物\n\n- 核心循环设计\n- 单机制原型设计\n- 战斗系统设计\n- 关卡机制设计\n- 生存/成长/资源循环设计\n- 失败条件与胜利条件设计\n- 难度曲线设计\n- 新手引导设计\n- Meta progression 设计\n\n## 推荐先看\n\n- A Theory of Fun for Game Design\n- Challenges for Game Designers\n- Game Design Concepts\n- MDA: A Formal Approach to Game Design and Game Research\n- MIT OCW: Game Design (Fall 2010)\n- MIT OCW: Game Design (Spring 2014)\n\n## 已本地可读\n\n- A Theory of Fun for Game Design\n- Challenges for Game Designers\n- Game Design Concepts\n- MDA: A Formal Approach to Game Design and Game Research\n- MIT OCW: Game Design (Fall 2010)\n- MIT OCW: Game Design (Spring 2014)\n\n## 仍建议补齐\n\n- Rules of Play\n\n## 对具体项目的落点\n\n- 先把这个阶段的问题收束成 核心循环设计 / 单机制原型设计 / 战斗系统设计 这样的具体输出物。\n- 再用本类材料检查当前项目文档是否真的给出了可执行结论。\n",
+  "body_html": "<h1 id=\"核心玩法与系统设计导向卡\">核心玩法与系统设计导向卡</h1>\n<h2 id=\"这个阶段解决什么\">这个阶段解决什么</h2>\n<p>核心循环、单机制原型、战斗、关卡、成长循环与 Meta progression。</p>\n<h2 id=\"常见输出物\">常见输出物</h2>\n<ul><li>核心循环设计</li><li>单机制原型设计</li><li>战斗系统设计</li><li>关卡机制设计</li><li>生存/成长/资源循环设计</li><li>失败条件与胜利条件设计</li><li>难度曲线设计</li><li>新手引导设计</li><li>Meta progression 设计</li></ul>\n<h2 id=\"推荐先看\">推荐先看</h2>\n<ul><li>A Theory of Fun for Game Design</li><li>Challenges for Game Designers</li><li>Game Design Concepts</li><li>MDA: A Formal Approach to Game Design and Game Research</li><li>MIT OCW: Game Design (Fall 2010)</li><li>MIT OCW: Game Design (Spring 2014)</li></ul>\n<h2 id=\"已本地可读\">已本地可读</h2>\n<ul><li>A Theory of Fun for Game Design</li><li>Challenges for Game Designers</li><li>Game Design Concepts</li><li>MDA: A Formal Approach to Game Design and Game Research</li><li>MIT OCW: Game Design (Fall 2010)</li><li>MIT OCW: Game Design (Spring 2014)</li></ul>\n<h2 id=\"仍建议补齐\">仍建议补齐</h2>\n<ul><li>Rules of Play</li></ul>\n<h2 id=\"对具体项目的落点\">对具体项目的落点</h2>\n<ul><li>先把这个阶段的问题收束成 核心循环设计 / 单机制原型设计 / 战斗系统设计 这样的具体输出物。</li><li>再用本类材料检查当前项目文档是否真的给出了可执行结论。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "核心玩法与系统设计导向卡",
+      "id": "核心玩法与系统设计导向卡"
+    },
+    {
+      "level": 2,
+      "text": "这个阶段解决什么",
+      "id": "这个阶段解决什么"
+    },
+    {
+      "level": 2,
+      "text": "常见输出物",
+      "id": "常见输出物"
+    },
+    {
+      "level": 2,
+      "text": "推荐先看",
+      "id": "推荐先看"
+    },
+    {
+      "level": 2,
+      "text": "已本地可读",
+      "id": "已本地可读"
+    },
+    {
+      "level": 2,
+      "text": "仍建议补齐",
+      "id": "仍建议补齐"
+    },
+    {
+      "level": 2,
+      "text": "对具体项目的落点",
+      "id": "对具体项目的落点"
+    }
+  ],
+  "search_text": "核心玩法与系统设计 核心循环、单机制原型、战斗、关卡、成长循环与 Meta progression。 核心循环设计 单机制原型设计 战斗系统设计 关卡机制设计 生存/成长/资源循环设计 失败条件与胜利条件设计 难度曲线设计 新手引导设计 Meta progression 设计 A Theory of Fun for Game Design Challenges for Game Designers Game Design Concepts MDA: A Formal Approach to Game Design and Game Research MIT OCW: Game Design (Fall 2010) MIT OCW: Game Design (Spring 2014) Rules of Play The Rule Book"
+}

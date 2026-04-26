@@ -1,0 +1,298 @@
+{
+  "id": "game-design-concepts-course",
+  "title": "Game Design Concepts",
+  "authors": [
+    "Ian Schreiber"
+  ],
+  "year": 2009,
+  "kind": "course",
+  "canonical_url": "https://gamedesignconcepts.wordpress.com/",
+  "publisher_or_source": "Game Design Concepts",
+  "language": "en",
+  "license": "CC BY 3.0 US",
+  "access_mode": "downloaded_open",
+  "source_ids": [
+    "gamedesignconcepts"
+  ],
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "theme_tags": [
+    "design-fundamentals",
+    "playtesting",
+    "prompt-design"
+  ],
+  "summary": "Ian Schreiber 的开放课程，覆盖游戏定义、形式要素、机制与动态、乐趣、叙事、试玩、平衡和 UI。",
+  "key_points": [
+    "适合建立全团队共同语言。",
+    "特别适合原型、迭代和设计训练。",
+    "可直接映射到 prompt 体系中的立项、玩法、平衡和试玩类母类。"
+  ],
+  "recommended_for": [
+    "主策",
+    "系统策划",
+    "玩法策划",
+    "制作人"
+  ],
+  "official_links": [
+    "https://gamedesignconcepts.wordpress.com/",
+    "https://gamedesignconcepts.wordpress.com/about/"
+  ],
+  "seed_bundle": "game-design-concepts",
+  "related_work_ids": [
+    "game-design-workshop",
+    "challenges-for-game-designers",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "usage_relevance": "最适合把泛泛系统讨论重新压回可验证机制和迭代流程。",
+  "entity_type": "work",
+  "slug": "game-design-concepts-course",
+  "phase_label": "核心玩法与系统设计",
+  "deliverable_label": "单机制原型设计",
+  "theme_labels": [
+    "设计基础",
+    "试玩与迭代",
+    "Prompt 设计"
+  ],
+  "availability_label": "已下载开放全文",
+  "source_labels": [
+    "Game Design Concepts"
+  ],
+  "official_link_entries": [
+    {
+      "label": "gamedesignconcepts.wordpress.com",
+      "url": "https://gamedesignconcepts.wordpress.com/"
+    },
+    {
+      "label": "gamedesignconcepts.wordpress.com",
+      "url": "https://gamedesignconcepts.wordpress.com/about/"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/01-level-1-overview-what-is-a-game.html",
+      "size_bytes": 370384,
+      "extension": "html",
+      "sha256": "69a7c9fa758104bd3342ca31f1f0f2aef71fbb1eb851e48cbbc7dc4f39df93c9",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/02-level-2-game-design-iteration-and-rapid-prototyping.html",
+      "size_bytes": 227899,
+      "extension": "html",
+      "sha256": "38fe7b1e155ed43f1bf8bde92957aa620ef18db4f0e8a4d3875b495f1c782ea1",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/03-level-3-formal-elements-of-games.html",
+      "size_bytes": 260085,
+      "extension": "html",
+      "sha256": "bc39f6eb60f2771b7c370684d334a465a649dc278ee5c3a43ec90caf52c0a01d",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/04-level-4-the-early-stages-of-the-design-process.html",
+      "size_bytes": 212259,
+      "extension": "html",
+      "sha256": "61253a3fd5f3daf058a654c8738229de378ec830c411b99637e628cf13a6818c",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/05-level-5-mechanics-and-dynamics.html",
+      "size_bytes": 162923,
+      "extension": "html",
+      "sha256": "b0503999f0dc5c45fdbd4984f3448238a93e11268c84f036e153150269fd470b",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/06-level-6-games-and-art.html",
+      "size_bytes": 167573,
+      "extension": "html",
+      "sha256": "aea1145abd94a06a075aed10ffed82870995b4d04e08a0686431086fb37a430d",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/07-level-7-decision-making-and-flow-theory.html",
+      "size_bytes": 215973,
+      "extension": "html",
+      "sha256": "94b30dadf8209728ec861f213e45a44ec8173dbac0b9c39ed01463f569690b9f",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/08-level-8-kinds-of-fun-kinds-of-players.html",
+      "size_bytes": 191642,
+      "extension": "html",
+      "sha256": "aef60d420b91cf63021c26bc830fd981617fa7476fcec8f41ef40fb0ce4ba369",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/09-level-9-stories-and-games.html",
+      "size_bytes": 161532,
+      "extension": "html",
+      "sha256": "fa1ab4fa4467efa2c213990c09a3b842cb8c542fd17dae61502e8fcd41a71b12",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/10-level-10-nonlinear-storytelling.html",
+      "size_bytes": 170575,
+      "extension": "html",
+      "sha256": "b3e45b9365643bc38970774e565ab23c2b68fa5b6ef40ea60ae40ca278e6481d",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/11-level-11-design-project-overview.html",
+      "size_bytes": 122604,
+      "extension": "html",
+      "sha256": "4dfa0b06fafcb5bf318cbd43b62e75b896e6c3f02cb8e3587326bbd678f51406",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/12-level-12-solo-testing.html",
+      "size_bytes": 104052,
+      "extension": "html",
+      "sha256": "2ee9af9e1905d14e5790d877d762932fd7ac347ef0253458be595a03bd5b0aa6",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/13-level-13-playing-with-designers.html",
+      "size_bytes": 105011,
+      "extension": "html",
+      "sha256": "697f603712540dc546c52f2c163ce7d809784b7eacf214684d461afd328a245d",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/14-level-14-playing-with-non-designers.html",
+      "size_bytes": 106574,
+      "extension": "html",
+      "sha256": "1008cbc02ac0a0b38db4f6d79311cf1bd4c7c547a1add27123dc3f02324ab6a8",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/15-level-15-blindtesting.html",
+      "size_bytes": 101421,
+      "extension": "html",
+      "sha256": "51e9bfcdbeed5d33c2cd9eb46b3de92e8cfeaa332c0f978ac65bb7ecd148120b",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/16-level-16-game-balance.html",
+      "size_bytes": 126883,
+      "extension": "html",
+      "sha256": "b09dbe9871269ff6765c7c45f6b6599ad194002218e2c41c3a93384e81457066",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/17-level-17-user-interfaces.html",
+      "size_bytes": 153535,
+      "extension": "html",
+      "sha256": "92e3ec52ce66323b8f389ee3dc53a9432e6a663022ae9f64daef20247a11422f",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/18-level-18-the-final-iteration.html",
+      "size_bytes": 107822,
+      "extension": "html",
+      "sha256": "e1a96a0ad2518ac6efc8243508b895c9de86c6760eeb8e10758bf5d62c1bf222",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/19-level-19-game-criticism-and-analysis.html",
+      "size_bytes": 103544,
+      "extension": "html",
+      "sha256": "d06583d3ef62ad5cba43ffa6286198698fa5916fd625fb4489a31afe7fe6c761",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/20-level-20-course-summary-and-next-steps.html",
+      "size_bytes": 126175,
+      "extension": "html",
+      "sha256": "71b67b8719c0ee4f9996b2fd7fd35faea70bc26a3ab87c4d086f6da4cfebcab2",
+      "resource_kind": "article",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/about.html",
+      "size_bytes": 80453,
+      "extension": "html",
+      "sha256": "e09bfddbfe55b3f99302486178ec8b2837a2397b1440d38c1e664bb877cfbf93",
+      "resource_kind": "course",
+      "user_supplied": false
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://gamedesignconcepts.wordpress.com/",
+      "source_id": "gamedesignconcepts",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/01-gamedesignconcepts.wordpress.com-.html",
+      "fetched_at": "2026-04-25T05:31:42.300Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://gamedesignconcepts.wordpress.com/",
+        "title": "Game Design Concepts",
+        "description": "An experiment in game design and teaching",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": ""
+      }
+    },
+    {
+      "url": "https://gamedesignconcepts.wordpress.com/about/",
+      "source_id": "gamedesignconcepts",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/02-gamedesignconcepts.wordpress.com-about-.html",
+      "fetched_at": "2026-04-25T05:31:42.837Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://gamedesignconcepts.wordpress.com/about/",
+        "title": "Game Design Concepts",
+        "description": "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": ""
+      }
+    }
+  ],
+  "private_extracts": [],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": false,
+  "private_source_count": 0,
+  "private_extract_count": 0,
+  "metadata_summary": "An experiment in game design and teaching",
+  "search_text": "Game Design Concepts Ian Schreiber Ian Schreiber 的开放课程，覆盖游戏定义、形式要素、机制与动态、乐趣、叙事、试玩、平衡和 UI。 适合建立全团队共同语言。 特别适合原型、迭代和设计训练。 可直接映射到 prompt 体系中的立项、玩法、平衡和试玩类母类。 最适合把泛泛系统讨论重新压回可验证机制和迭代流程。 主策 系统策划 玩法策划 制作人 核心玩法与系统设计 单机制原型设计 设计基础 试玩与迭代 Prompt 设计 Game Design Concepts An experiment in game design and teaching",
+  "content_markdown": "# Game Design Concepts\n\n## 基本信息\n\n- 作者：Ian Schreiber\n- 年份：2009\n- 类型：course\n- 来源：Game Design Concepts\n\n## 摘要\n\nIan Schreiber 的开放课程，覆盖游戏定义、形式要素、机制与动态、乐趣、叙事、试玩、平衡和 UI。\n\n## 核心要点\n\n- 适合建立全团队共同语言。\n- 特别适合原型、迭代和设计训练。\n- 可直接映射到 prompt 体系中的立项、玩法、平衡和试玩类母类。\n\n## 适用场景\n\n最适合把泛泛系统讨论重新压回可验证机制和迭代流程。\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：单机制原型设计\n- 主题标签：设计基础 / 试玩与迭代 / Prompt 设计\n- 可用性：已下载开放全文\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/01-level-1-overview-what-is-a-game.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/02-level-2-game-design-iteration-and-rapid-prototyping.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/03-level-3-formal-elements-of-games.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/04-level-4-the-early-stages-of-the-design-process.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/05-level-5-mechanics-and-dynamics.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/06-level-6-games-and-art.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/07-level-7-decision-making-and-flow-theory.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/08-level-8-kinds-of-fun-kinds-of-players.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/09-level-9-stories-and-games.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/10-level-10-nonlinear-storytelling.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/11-level-11-design-project-overview.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/12-level-12-solo-testing.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/13-level-13-playing-with-designers.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/14-level-14-playing-with-non-designers.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/15-level-15-blindtesting.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/16-level-16-game-balance.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/17-level-17-user-interfaces.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/18-level-18-the-final-iteration.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/19-level-19-game-criticism-and-analysis.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/20-level-20-course-summary-and-next-steps.html`\n- `knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/about.html`\n\n## 官方链接\n\n- <https://gamedesignconcepts.wordpress.com/>\n- <https://gamedesignconcepts.wordpress.com/about/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/01-gamedesignconcepts.wordpress.com-.html`\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/02-gamedesignconcepts.wordpress.com-about-.html`\n\n## 相关条目\n\n- Game Design Workshop\n- Challenges for Game Designers\n- MIT OCW: Introduction to Game Design Methods (Spring 2016)\n",
+  "content_html": "<h1 id=\"game-design-concepts\">Game Design Concepts</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Ian Schreiber</li><li>年份：2009</li><li>类型：course</li><li>来源：Game Design Concepts</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>Ian Schreiber 的开放课程，覆盖游戏定义、形式要素、机制与动态、乐趣、叙事、试玩、平衡和 UI。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>适合建立全团队共同语言。</li><li>特别适合原型、迭代和设计训练。</li><li>可直接映射到 prompt 体系中的立项、玩法、平衡和试玩类母类。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合把泛泛系统讨论重新压回可验证机制和迭代流程。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：单机制原型设计</li><li>主题标签：设计基础 / 试玩与迭代 / Prompt 设计</li><li>可用性：已下载开放全文</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/01-level-1-overview-what-is-a-game.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/02-level-2-game-design-iteration-and-rapid-prototyping.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/03-level-3-formal-elements-of-games.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/04-level-4-the-early-stages-of-the-design-process.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/05-level-5-mechanics-and-dynamics.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/06-level-6-games-and-art.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/07-level-7-decision-making-and-flow-theory.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/08-level-8-kinds-of-fun-kinds-of-players.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/09-level-9-stories-and-games.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/10-level-10-nonlinear-storytelling.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/11-level-11-design-project-overview.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/12-level-12-solo-testing.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/13-level-13-playing-with-designers.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/14-level-14-playing-with-non-designers.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/15-level-15-blindtesting.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/16-level-16-game-balance.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/17-level-17-user-interfaces.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/18-level-18-the-final-iteration.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/19-level-19-game-criticism-and-analysis.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/20-level-20-course-summary-and-next-steps.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/game-design-concepts/about.html</code></li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://gamedesignconcepts.wordpress.com/\" target=\"_blank\" rel=\"noreferrer\">https://gamedesignconcepts.wordpress.com/</a></li><li><a href=\"https://gamedesignconcepts.wordpress.com/about/\" target=\"_blank\" rel=\"noreferrer\">https://gamedesignconcepts.wordpress.com/about/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/01-gamedesignconcepts.wordpress.com-.html</code></li><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/02-gamedesignconcepts.wordpress.com-about-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Design Workshop</li><li>Challenges for Game Designers</li><li>MIT OCW: Introduction to Game Design Methods (Spring 2016)</li></ul>",
+  "knowledge_domains": [],
+  "purposes": [],
+  "reading_modes": [],
+  "value_types": [],
+  "knowledge_lifecycle": [],
+  "primary_private_extract": null,
+  "primary_private_artifact": null,
+  "primary_toc_preview": [],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "downloaded_open"
+}

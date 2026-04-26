@@ -1,0 +1,56 @@
+{
+  "id": "checklist-single-mechanic-prototype-design",
+  "entity_type": "card",
+  "title": "单机制原型 Checklist",
+  "summary": "检查一个原型是否真的只在验证一个机制，而不是偷带了半个游戏。",
+  "card_kind": "checklist",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2014-game-design",
+    "game-design-concepts-course"
+  ],
+  "related_card_ids": [
+    "prompt-core-gameplay-systems",
+    "prompt-core-loop-design"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 单机制原型 Checklist\n\n## 适用场景\n\n用于纸面原型、玩法实验或团队在“先做一个小实验”时的范围把控。\n\n## 检查项\n\n- 原型要验证的机制命题只有一个主轴。\n- 辅助系统不会掩盖主机制的成败。\n- 胜负或反馈足够快，能在短时间内重复测试。\n- 试玩者能在极少说明下开始使用该机制。\n- 评价指标对应机制本身，而不是美术包装或故事包装。\n- 原型失败后仍能明确知道是机制问题还是实现噪音。\n- 如果要扩展，也知道下一步只加哪一个变量。\n\n## 通过标准\n\n- 原型结果足以支持删、改、保留的判断。\n- 主机制成功与否不会被其他系统噪音遮住。\n- 一轮试玩就能获得有效结论。\n\n## 常见失败信号\n\n- 原型越做越像完整游戏切片。\n- 试玩后不知道到底在验证什么。\n- 主机制没站住，但大家在讨论包装。\n",
+  "body_html": "<h1 id=\"单机制原型-checklist\">单机制原型 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于纸面原型、玩法实验或团队在“先做一个小实验”时的范围把控。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>原型要验证的机制命题只有一个主轴。</li><li>辅助系统不会掩盖主机制的成败。</li><li>胜负或反馈足够快，能在短时间内重复测试。</li><li>试玩者能在极少说明下开始使用该机制。</li><li>评价指标对应机制本身，而不是美术包装或故事包装。</li><li>原型失败后仍能明确知道是机制问题还是实现噪音。</li><li>如果要扩展，也知道下一步只加哪一个变量。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>原型结果足以支持删、改、保留的判断。</li><li>主机制成功与否不会被其他系统噪音遮住。</li><li>一轮试玩就能获得有效结论。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>原型越做越像完整游戏切片。</li><li>试玩后不知道到底在验证什么。</li><li>主机制没站住，但大家在讨论包装。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "单机制原型 Checklist",
+      "id": "单机制原型-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "单机制原型 Checklist 检查一个原型是否真的只在验证一个机制，而不是偷带了半个游戏。 用于纸面原型、玩法实验或团队在“先做一个小实验”时的范围把控。 原型要验证的机制命题只有一个主轴。 辅助系统不会掩盖主机制的成败。 胜负或反馈足够快，能在短时间内重复测试。 试玩者能在极少说明下开始使用该机制。 评价指标对应机制本身，而不是美术包装或故事包装。 原型失败后仍能明确知道是机制问题还是实现噪音。 如果要扩展，也知道下一步只加哪一个变量。 原型结果足以支持删、改、保留的判断。 主机制成功与否不会被其他系统噪音遮住。 一轮试玩就能获得有效结论。 原型越做越像完整游戏切片。 试玩后不知道到底在验证什么。 主机制没站住，但大家在讨论包装。 playtesting design-fundamentals"
+}

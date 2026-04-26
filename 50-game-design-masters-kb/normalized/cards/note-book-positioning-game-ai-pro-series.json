@@ -1,0 +1,51 @@
+{
+  "id": "note-book-positioning-game-ai-pro-series",
+  "entity_type": "card",
+  "title": "Game AI Pro：知识定位",
+  "summary": "适合后续扩展 AI、寻路、行为树和调试研究。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "note",
+  "source_work_id": "game-ai-pro-series",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "game-ai-pro-series",
+    "game-mechanics-advanced-game-design"
+  ],
+  "related_card_ids": [
+    "work-game-ai-pro-series"
+  ],
+  "official_links": [
+    "https://www.gameaipro.com/"
+  ],
+  "local_links": [],
+  "body_markdown": "# Game AI Pro：知识定位\n\n## 这本书最适合解决什么\n\n适合后续扩展 AI、寻路、行为树和调试研究。\n\n## 主要关注\n\n\n## 和相邻书目的关系\n\n- Game Mechanics: Advanced Game Design\n",
+  "body_html": "<h1 id=\"game-ai-pro：知识定位\">Game AI Pro：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>适合后续扩展 AI、寻路、行为树和调试研究。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game AI Pro：知识定位",
+      "id": "game-ai-pro：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    }
+  ],
+  "search_text": "Game AI Pro AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。 适合后续扩展 AI、寻路、行为树和调试研究。"
+}

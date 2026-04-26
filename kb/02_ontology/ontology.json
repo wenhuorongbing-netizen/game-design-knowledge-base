@@ -1,0 +1,181 @@
+{
+  "schema_version": "bookos.ontology.v1",
+  "updated_date": "2026-04-26",
+  "governance": {
+    "source_basis_required": true,
+    "confidence_required": true,
+    "source_ids_required_for_knowledge_objects": true,
+    "claim_scope_required_for_claim_like_objects": true,
+    "high_risk_body_ingest_allowed": false,
+    "default_draft_basis": "unsupported_draft"
+  },
+  "phase_groups": [
+    {
+      "phase_id": "phase_project_direction",
+      "name": "立项与方向",
+      "purpose": "Decide what game should exist, who it serves, what it promises, and what should be excluded.",
+      "typical_deliverables": ["vision_brief", "target_player_profile", "mvp_scope_cut", "risk_register", "design_pillars"],
+      "domain_ids": ["play_theory", "player_experience", "player_psychology", "formal_elements", "prototyping", "business_pitch_release", "ethics_responsibility", "prompt_engineering_game_design"]
+    },
+    {
+      "phase_id": "phase_core_play_systems",
+      "name": "核心玩法与系统设计",
+      "purpose": "Define repeatable play, core mechanics, loops, goals, rules, feedback, and player decisions.",
+      "typical_deliverables": ["core_loop_diagram", "mechanic_spec", "system_map", "rules_table", "onboarding_sketch"],
+      "domain_ids": ["rules_and_mechanics", "formal_elements", "systems_thinking", "loops_parts_wholes", "chance_skill_decisions", "game_feel", "prototyping", "playtesting"]
+    },
+    {
+      "phase_id": "phase_numbers_economy",
+      "name": "数值与经济设计",
+      "purpose": "Shape resources, quantities, pacing, costs, rewards, scarcity, balance, and progression.",
+      "typical_deliverables": ["economy_map", "resource_loop_diagram", "reward_table", "progression_curve", "balance_test_matrix"],
+      "domain_ids": ["economy_and_balance", "systems_thinking", "loops_parts_wholes", "chance_skill_decisions", "playtesting", "business_pitch_release", "ethics_responsibility"]
+    },
+    {
+      "phase_id": "phase_content_narrative",
+      "name": "内容与叙事",
+      "purpose": "Create meaning-bearing story, world, character, mission, dialogue, and content structures.",
+      "typical_deliverables": ["world_bible", "narrative_premise", "quest_structure", "character_sheet", "dialogue_sample"],
+      "domain_ids": ["narrative_story_structure", "worldbuilding", "character_design", "player_experience", "ui_ux_feedback", "ethics_responsibility"]
+    },
+    {
+      "phase_id": "phase_art_ui_experience",
+      "name": "美术 / UI / 体验表达",
+      "purpose": "Make the game readable, expressive, responsive, coherent, accessible, and satisfying moment to moment.",
+      "typical_deliverables": ["art_direction_brief", "hud_structure", "feedback_spec", "input_response_map", "readability_audit"],
+      "domain_ids": ["game_feel", "input_response_context_polish", "ui_ux_feedback", "player_experience", "character_design", "space_level_design", "ethics_responsibility"]
+    },
+    {
+      "phase_id": "phase_development_implementation",
+      "name": "开发实现",
+      "purpose": "Translate design into playable software, tools, data, runtime systems, and maintainable implementation.",
+      "typical_deliverables": ["technical_design_spec", "prototype_plan", "state_machine_spec", "input_system_spec", "performance_risk_note"],
+      "domain_ids": ["prototyping", "iteration_production", "loops_parts_wholes", "game_feel", "ui_ux_feedback", "prompt_engineering_game_design"]
+    },
+    {
+      "phase_id": "phase_testing_acceptance_audit",
+      "name": "测试 / 验收 / 审计",
+      "purpose": "Validate assumptions, inspect quality, triage bugs, audit evidence, and decide acceptance.",
+      "typical_deliverables": ["playtest_plan", "observation_log", "balance_report", "usability_audit", "acceptance_checklist"],
+      "domain_ids": ["playtesting", "player_experience", "game_feel", "ui_ux_feedback", "economy_and_balance", "iteration_production", "prompt_engineering_game_design"]
+    },
+    {
+      "phase_id": "phase_operations_release",
+      "name": "运营与发布",
+      "purpose": "Prepare launch, communicate value, sustain player interest, and learn from post-release behavior.",
+      "typical_deliverables": ["release_checklist", "store_page_copy", "roadmap", "event_plan", "retention_review"],
+      "domain_ids": ["business_pitch_release", "multiplayer_community", "player_psychology", "ethics_responsibility", "iteration_production", "prompt_engineering_game_design"]
+    }
+  ],
+  "domains": [
+    {"domain_id": "play_theory", "name": "Play Theory", "phase_ids": ["phase_project_direction", "phase_core_play_systems"], "related_domains": ["player_experience", "formal_elements", "ethics_responsibility"]},
+    {"domain_id": "player_experience", "name": "Player Experience", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_art_ui_experience", "phase_testing_acceptance_audit"], "related_domains": ["game_feel", "ui_ux_feedback", "playtesting"]},
+    {"domain_id": "player_psychology", "name": "Player Psychology", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_content_narrative", "phase_operations_release"], "related_domains": ["fun_learning_mastery", "multiplayer_community", "character_design"]},
+    {"domain_id": "fun_learning_mastery", "name": "Fun, Learning, and Mastery", "phase_ids": ["phase_core_play_systems", "phase_testing_acceptance_audit"], "related_domains": ["player_psychology", "playtesting", "economy_and_balance"]},
+    {"domain_id": "rules_and_mechanics", "name": "Rules and Mechanics", "phase_ids": ["phase_core_play_systems", "phase_numbers_economy"], "related_domains": ["formal_elements", "systems_thinking", "chance_skill_decisions"]},
+    {"domain_id": "formal_elements", "name": "Formal Elements", "phase_ids": ["phase_project_direction", "phase_core_play_systems"], "related_domains": ["rules_and_mechanics", "systems_thinking", "play_theory"]},
+    {"domain_id": "systems_thinking", "name": "Systems Thinking", "phase_ids": ["phase_core_play_systems", "phase_numbers_economy", "phase_testing_acceptance_audit"], "related_domains": ["loops_parts_wholes", "economy_and_balance", "playtesting"]},
+    {"domain_id": "loops_parts_wholes", "name": "Loops, Parts, and Wholes", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_development_implementation"], "related_domains": ["systems_thinking", "prototyping", "iteration_production"]},
+    {"domain_id": "economy_and_balance", "name": "Economy and Balance", "phase_ids": ["phase_numbers_economy", "phase_testing_acceptance_audit", "phase_operations_release"], "related_domains": ["systems_thinking", "chance_skill_decisions", "playtesting"]},
+    {"domain_id": "chance_skill_decisions", "name": "Chance, Skill, and Meaningful Decisions", "phase_ids": ["phase_core_play_systems", "phase_numbers_economy", "phase_testing_acceptance_audit"], "related_domains": ["rules_and_mechanics", "economy_and_balance", "player_experience"]},
+    {"domain_id": "game_feel", "name": "Game Feel", "phase_ids": ["phase_core_play_systems", "phase_art_ui_experience", "phase_testing_acceptance_audit"], "related_domains": ["input_response_context_polish", "ui_ux_feedback", "prototyping"]},
+    {"domain_id": "input_response_context_polish", "name": "Input / Response / Context / Polish", "phase_ids": ["phase_core_play_systems", "phase_art_ui_experience", "phase_development_implementation"], "related_domains": ["game_feel", "ui_ux_feedback", "prototyping"]},
+    {"domain_id": "ui_ux_feedback", "name": "UI / UX / Feedback", "phase_ids": ["phase_art_ui_experience", "phase_testing_acceptance_audit"], "related_domains": ["player_experience", "game_feel", "playtesting"]},
+    {"domain_id": "narrative_story_structure", "name": "Narrative and Story Structure", "phase_ids": ["phase_content_narrative", "phase_project_direction"], "related_domains": ["worldbuilding", "character_design", "player_experience"]},
+    {"domain_id": "worldbuilding", "name": "Worldbuilding", "phase_ids": ["phase_content_narrative", "phase_art_ui_experience"], "related_domains": ["narrative_story_structure", "character_design", "player_experience"]},
+    {"domain_id": "character_design", "name": "Character Design", "phase_ids": ["phase_content_narrative", "phase_art_ui_experience", "phase_testing_acceptance_audit"], "related_domains": ["player_psychology", "narrative_story_structure", "ui_ux_feedback"]},
+    {"domain_id": "space_level_design", "name": "Space and Level Design", "phase_ids": ["phase_core_play_systems", "phase_content_narrative", "phase_art_ui_experience", "phase_development_implementation"], "related_domains": ["game_feel", "ui_ux_feedback", "prototyping"]},
+    {"domain_id": "prototyping", "name": "Prototyping", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_development_implementation", "phase_testing_acceptance_audit"], "related_domains": ["playtesting", "iteration_production", "design_exercises"]},
+    {"domain_id": "playtesting", "name": "Playtesting", "phase_ids": ["phase_core_play_systems", "phase_testing_acceptance_audit"], "related_domains": ["prototyping", "player_experience", "iteration_production"]},
+    {"domain_id": "iteration_production", "name": "Iteration and Production", "phase_ids": ["phase_development_implementation", "phase_testing_acceptance_audit", "phase_operations_release"], "related_domains": ["prototyping", "playtesting", "business_pitch_release"]},
+    {"domain_id": "multiplayer_community", "name": "Multiplayer and Community", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_operations_release"], "related_domains": ["player_psychology", "ethics_responsibility", "business_pitch_release"]},
+    {"domain_id": "ethics_responsibility", "name": "Ethics and Responsibility", "phase_ids": ["phase_project_direction", "phase_art_ui_experience", "phase_operations_release"], "related_domains": ["player_psychology", "ui_ux_feedback", "business_pitch_release"]},
+    {"domain_id": "business_pitch_release", "name": "Business, Pitch, and Release", "phase_ids": ["phase_project_direction", "phase_operations_release"], "related_domains": ["multiplayer_community", "iteration_production", "player_experience"]},
+    {"domain_id": "education_serious_games", "name": "Education, Serious Games, and Transformation", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_testing_acceptance_audit"], "related_domains": ["fun_learning_mastery", "playtesting", "ethics_responsibility"]},
+    {"domain_id": "design_exercises", "name": "Design Exercises", "phase_ids": ["phase_core_play_systems", "phase_development_implementation", "phase_testing_acceptance_audit"], "related_domains": ["prototyping", "playtesting", "rules_and_mechanics"]},
+    {"domain_id": "prompt_engineering_game_design", "name": "Prompt Engineering for Game Design", "phase_ids": ["phase_project_direction", "phase_core_play_systems", "phase_numbers_economy", "phase_content_narrative", "phase_art_ui_experience", "phase_development_implementation", "phase_testing_acceptance_audit", "phase_operations_release"], "related_domains": ["iteration_production", "playtesting", "ethics_responsibility"]}
+  ],
+  "entity_types": [
+    "PhaseGroup",
+    "Domain",
+    "SourceDocument",
+    "GameDesignWork",
+    "Author",
+    "BookDossier",
+    "ChapterNode",
+    "Concept",
+    "Claim",
+    "Evidence",
+    "Quote",
+    "Framework",
+    "DesignLens",
+    "Exercise",
+    "Lesson",
+    "KnowledgeCard",
+    "WorkflowPack",
+    "PromptTemplate",
+    "PromptRun",
+    "Project",
+    "ProjectOverlay",
+    "DesignDecision",
+    "PlaytestLog",
+    "ForumThread",
+    "Comment",
+    "UserNote",
+    "Tag"
+  ],
+  "required_knowledge_fields": [
+    "id",
+    "entity_type",
+    "title",
+    "source_basis",
+    "confidence",
+    "source_ids",
+    "claim_scope",
+    "phase_ids",
+    "domain_ids",
+    "tags",
+    "created_at",
+    "updated_at",
+    "review_status"
+  ],
+  "controlled_enums": {
+    "source_basis": [
+      "open_fulltext",
+      "official_metadata",
+      "user_legal_file",
+      "user_manual_note",
+      "user_manual_quote",
+      "derived_from_user_note",
+      "derived_from_public_metadata",
+      "metadata_only",
+      "unsupported_draft"
+    ],
+    "confidence": [
+      "verified",
+      "strong",
+      "medium",
+      "weak",
+      "unsupported_draft",
+      "user_interpretation",
+      "ai_hypothesis"
+    ],
+    "claim_scope": [
+      "source_stated",
+      "user_interpretation",
+      "ai_hypothesis",
+      "project_application",
+      "playtest_observation"
+    ],
+    "knowledge_state": [
+      "intake",
+      "draft",
+      "source_backed",
+      "reviewed",
+      "project_applied",
+      "playtest_tested",
+      "deprecated",
+      "quarantined"
+    ]
+  }
+}

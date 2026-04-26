@@ -1,0 +1,532 @@
+{
+  "generated_at": "2026-04-26T00:39:22.216Z",
+  "refresh": false,
+  "records": [
+    {
+      "work_id": "game-design-concepts-course",
+      "title": "Game Design Concepts",
+      "access_mode": "downloaded_open",
+      "pages": [
+        {
+          "url": "https://gamedesignconcepts.wordpress.com/",
+          "source_id": "gamedesignconcepts",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/01-gamedesignconcepts.wordpress.com-.html",
+          "fetched_at": "2026-04-25T05:31:42.300Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://gamedesignconcepts.wordpress.com/",
+            "title": "Game Design Concepts",
+            "description": "An experiment in game design and teaching",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        },
+        {
+          "url": "https://gamedesignconcepts.wordpress.com/about/",
+          "source_id": "gamedesignconcepts",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-concepts-course/02-gamedesignconcepts.wordpress.com-about-.html",
+          "fetched_at": "2026-04-25T05:31:42.837Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://gamedesignconcepts.wordpress.com/about/",
+            "title": "Game Design Concepts",
+            "description": "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "mit-ocw-2016-introduction-to-game-design-methods",
+      "title": "MIT OCW: Introduction to Game Design Methods (Spring 2016)",
+      "access_mode": "downloaded_open",
+      "pages": [
+        {
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+          "source_id": "mit-ocw",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2016-introduction-to-game-design-methods/01-ocw.mit.edu-courses-cms-301-introduction-to-game-design-methods-spring-2016-.html",
+          "fetched_at": "2026-04-25T05:31:43.601Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+            "title": "MIT OpenCourseWare",
+            "description": "This course is an introduction to the theory and practice of the process of designing games and playful experiences. Students are familiarized with methods, concepts, techniques, and literature used in the design of games. The strategy is process-oriented, focusing on aspects such as: Rapid prototyping, play testing, and design iteration using a player-centered approach.",
+            "authors": [],
+            "isbn": "",
+            "publisher": "MIT OpenCourseWare",
+            "date_published": "",
+            "json_ld_type": "WebPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "mit-ocw-2014-game-design",
+      "title": "MIT OCW: Game Design (Spring 2014)",
+      "access_mode": "downloaded_open",
+      "pages": [
+        {
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+          "source_id": "mit-ocw",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2014-game-design/01-ocw.mit.edu-courses-cms-608-game-design-spring-2014-.html",
+          "fetched_at": "2026-04-25T05:31:44.331Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+            "title": "MIT OpenCourseWare",
+            "description": "This course is built around practical instruction in the design and analysis of non-­digital games. It provides students the texts, tools, references, and historical context to analyze and compare game designs across a variety of genres. In teams, students design, develop, and thoroughly test their original games to better understand the interaction and evolution of game rules. Covers various genres and types of games, including sports, game shows, games of chance, card games, schoolyard games, board games, and role-­playing games.",
+            "authors": [],
+            "isbn": "",
+            "publisher": "MIT OpenCourseWare",
+            "date_published": "",
+            "json_ld_type": "WebPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "mit-ocw-2010-game-design",
+      "title": "MIT OCW: Game Design (Fall 2010)",
+      "access_mode": "downloaded_open",
+      "pages": [
+        {
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/",
+          "source_id": "mit-ocw",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2010-game-design/01-ocw.mit.edu-courses-cms-608-game-design-fall-2010-.html",
+          "fetched_at": "2026-04-25T05:31:45.047Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/",
+            "title": "MIT OpenCourseWare",
+            "description": "This course provides practical instruction in the design and analysis of non-digital games. Students cover the texts, tools, references and historical context to analyze and compare game designs across a variety of genres, including sports, game shows, games of chance, card games, schoolyard games, board games, and role–playing games. In teams, students design, develop, and thoroughly test their original games to understand the interaction and evolution of game rules. Students taking the graduate version complete additional assignments.",
+            "authors": [],
+            "isbn": "",
+            "publisher": "MIT OpenCourseWare",
+            "date_published": "",
+            "json_ld_type": "WebPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "designing-virtual-worlds",
+      "title": "Designing Virtual Worlds",
+      "access_mode": "downloaded_open",
+      "pages": [
+        {
+          "url": "https://mud.co.uk/dvw/",
+          "source_id": "mud-co-uk",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/01-mud.co.uk-dvw-.html",
+          "fetched_at": "2026-04-25T05:31:45.901Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mud.co.uk/dvw/",
+            "title": "Introduction",
+            "description": "",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        },
+        {
+          "url": "https://mud.co.uk/richard/papers.htm",
+          "source_id": "mud-co-uk",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/designing-virtual-worlds/02-mud.co.uk-richard-papers.htm.html",
+          "fetched_at": "2026-04-25T05:31:46.644Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mud.co.uk/richard/papers.htm",
+            "title": "",
+            "description": "",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "mda-formal-approach",
+      "title": "MDA: A Formal Approach to Game Design and Game Research",
+      "access_mode": "downloaded_open",
+      "pages": [
+        {
+          "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+          "source_id": "northwestern-users",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mda-formal-approach/01-users.cs.northwestern.edu-~hunicke-MDA.pdf.html",
+          "fetched_at": "2026-04-25T05:31:48.389Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+            "title": "",
+            "description": "",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "the-art-of-game-design",
+      "title": "The Art of Game Design: A Book of Lenses",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://schellgames.com/art-of-game-design",
+          "source_id": "schellgames",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/01-schellgames.com-art-of-game-design.html",
+          "fetched_at": "2026-04-25T05:31:49.765Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://schellgames.com/art-of-game-design",
+            "title": "The Art Of Game Design | Schell Games",
+            "description": "We're a video game studio for hire. We work with and create games for some of the most beloved companies and brands across the globe. Let’s make amazing experiences together.",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": "WebPage"
+          }
+        },
+        {
+          "url": "https://www.routledge.com/link/link/p/book/9781138632059",
+          "source_id": "routledge",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-art-of-game-design/02-www.routledge.com-link-link-p-book-9781138632059.html",
+          "fetched_at": "2026-04-25T05:31:51.187Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://www.routledge.com/link/link/p/book/9781138632059",
+            "title": "The Art of Game Design A Book of Lenses, Third Edition",
+            "description": "The Art of Game Design guides you through the design process step-by-step, helping you to develop new and innovative games that will be played again and again.",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "rules-of-play",
+      "title": "Rules of Play",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://mitpress.mit.edu/9780262240451/rules-of-play",
+          "source_id": "mit-press",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/rules-of-play/01-mitpress.mit.edu-9780262240451-rules-of-play.html",
+          "fetched_at": "2026-04-25T05:31:52.448Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mitpress.mit.edu/9780262240451/rules-of-play",
+            "title": "Book Details - MIT Press",
+            "description": "MIT Press - Book Details",
+            "authors": [],
+            "isbn": "9780262240451",
+            "publisher": "",
+            "date_published": "2021-12-01T14:22:19+00:00",
+            "json_ld_type": "WebPage, ItemPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "characteristics-of-games",
+      "title": "Characteristics of Games",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://mitpress.mit.edu/9780262542692/characteristics-of-games/",
+          "source_id": "mit-press",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/characteristics-of-games/01-mitpress.mit.edu-9780262542692-characteristics-of-games-.html",
+          "fetched_at": "2026-04-25T05:31:53.377Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mitpress.mit.edu/9780262542692/characteristics-of-games/",
+            "title": "Book Details - MIT Press",
+            "description": "MIT Press - Book Details",
+            "authors": [],
+            "isbn": "9780262542692",
+            "publisher": "",
+            "date_published": "2021-12-01T14:22:19+00:00",
+            "json_ld_type": "WebPage, ItemPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "a-theory-of-fun-for-game-design",
+      "title": "A Theory of Fun for Game Design",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://www.theoryoffun.com/",
+          "source_id": "theoryoffun",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/a-theory-of-fun-for-game-design/01-www.theoryoffun.com-.html",
+          "fetched_at": "2026-04-25T05:31:54.810Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://www.theoryoffun.com/",
+            "title": "Welcome!",
+            "description": "A Theory of Fun for Game Design official book website",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "game-design-workshop",
+      "title": "Game Design Workshop",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009",
+          "source_id": "routledge",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-workshop/01-www.routledge.com-Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innova.html",
+          "fetched_at": "2026-04-25T05:32:00.028Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009",
+            "title": "Game Design Workshop A Playcentric Approach to Creating Innovative Games",
+            "description": "“Create the digital games you love to play.” Discover an exercise-driven, non-technical approach to game design without the need for programming or artistic",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "game-feel",
+      "title": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282",
+          "source_id": "routledge",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-feel/01-www.routledge.com-Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation-Swink-p-.html",
+          "fetched_at": "2026-04-25T05:32:01.562Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282",
+            "title": "Game Feel A Game Designer's Guide to Virtual Sensation",
+            "description": "",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "game-mechanics-advanced-game-design",
+      "title": "Game Mechanics: Advanced Game Design",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://www.informit.com/store/product.aspx?isbn=9780132946681",
+          "source_id": "informit",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/game-mechanics-advanced-game-design/01-www.informit.com-store-product.aspx.html",
+          "fetched_at": "2026-04-25T05:32:02.743Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://www.informit.com/store/product.aspx?isbn=9780132946681",
+            "title": "Game Mechanics: Advanced Game Design",
+            "description": "",
+            "authors": [],
+            "isbn": "0-13-294668-8",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "advanced-game-design-a-systems-approach",
+      "title": "Advanced Game Design: A Systems Approach",
+      "access_mode": "metadata_only",
+      "pages": [
+        {
+          "url": "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246",
+          "source_id": "informit",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/advanced-game-design-a-systems-approach/01-www.informit.com-store-advanced-game-design-a-systems-approach-9780134668246.html",
+          "fetched_at": "2026-04-25T05:32:03.769Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246",
+            "title": "Advanced Game Design: A Systems Approach",
+            "description": "In Advanced Game Design, pioneering game designer and instructor Michael Sellers situates game design practices in a strong theoretical framework of systems thinking, enabling designers to think more deeply and clearly about their work, so they can produce better, more engaging games for any device or platform.",
+            "authors": [],
+            "isbn": "0-13-466824-3",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "level-up",
+      "title": "Level Up! The Guide to Great Video Game Design",
+      "access_mode": "metadata_only",
+      "pages": []
+    },
+    {
+      "work_id": "challenges-for-game-designers",
+      "title": "Challenges for Game Designers",
+      "access_mode": "metadata_only",
+      "pages": [
+        {
+          "url": "https://gamedesignconcepts.wordpress.com/",
+          "source_id": "gamedesignconcepts",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/challenges-for-game-designers/01-gamedesignconcepts.wordpress.com-.html",
+          "fetched_at": "2026-04-25T05:32:05.353Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://gamedesignconcepts.wordpress.com/",
+            "title": "Game Design Concepts",
+            "description": "An experiment in game design and teaching",
+            "authors": [],
+            "isbn": "",
+            "publisher": "",
+            "date_published": "",
+            "json_ld_type": ""
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "the-aesthetic-of-play",
+      "title": "The Aesthetic of Play",
+      "access_mode": "metadata_only",
+      "pages": [
+        {
+          "url": "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/",
+          "source_id": "mit-press",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-aesthetic-of-play/01-mitpress.mit.edu-9780262028516-the-aesthetic-of-play-.html",
+          "fetched_at": "2026-04-25T05:32:06.336Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/",
+            "title": "Book Details - MIT Press",
+            "description": "MIT Press - Book Details",
+            "authors": [],
+            "isbn": "9780262028516",
+            "publisher": "",
+            "date_published": "2021-12-01T14:22:19+00:00",
+            "json_ld_type": "WebPage, ItemPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "play-matters",
+      "title": "Play Matters",
+      "access_mode": "metadata_only",
+      "pages": [
+        {
+          "url": "https://mitpress.mit.edu/9780262534512/play-matters/",
+          "source_id": "mit-press",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/play-matters/01-mitpress.mit.edu-9780262534512-play-matters-.html",
+          "fetched_at": "2026-04-25T05:32:07.262Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mitpress.mit.edu/9780262534512/play-matters/",
+            "title": "Book Details - MIT Press",
+            "description": "MIT Press - Book Details",
+            "authors": [],
+            "isbn": "9780262534512",
+            "publisher": "",
+            "date_published": "2021-12-01T14:22:19+00:00",
+            "json_ld_type": "WebPage, ItemPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "the-rule-book",
+      "title": "The Rule Book",
+      "access_mode": "metadata_only",
+      "pages": [
+        {
+          "url": "https://mitpress.mit.edu/9780262377539/the-rule-book/",
+          "source_id": "mit-press",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-rule-book/01-mitpress.mit.edu-9780262377539-the-rule-book-.html",
+          "fetched_at": "2026-04-25T05:32:08.197Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mitpress.mit.edu/9780262377539/the-rule-book/",
+            "title": "Book Details - MIT Press",
+            "description": "MIT Press - Book Details",
+            "authors": [],
+            "isbn": "9780262377539",
+            "publisher": "",
+            "date_published": "2021-12-01T14:22:19+00:00",
+            "json_ld_type": "WebPage, ItemPage"
+          }
+        }
+      ]
+    },
+    {
+      "work_id": "game-ai-pro-series",
+      "title": "Game AI Pro",
+      "access_mode": "external_only",
+      "pages": []
+    },
+    {
+      "work_id": "the-game-design-reader",
+      "title": "The Game Design Reader: A Rules of Play Anthology",
+      "access_mode": "user_file_needed",
+      "pages": [
+        {
+          "url": "https://mitpress.mit.edu/9780262195362/the-game-design-reader",
+          "source_id": "mit-press",
+          "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/the-game-design-reader/01-mitpress.mit.edu-9780262195362-the-game-design-reader.html",
+          "fetched_at": "2026-04-26T00:26:18.611Z",
+          "status": "reused",
+          "metadata": {
+            "url": "https://mitpress.mit.edu/9780262195362/the-game-design-reader",
+            "title": "Book Details - MIT Press",
+            "description": "MIT Press - Book Details",
+            "authors": [],
+            "isbn": "9780262195362",
+            "publisher": "",
+            "date_published": "2021-12-01T14:22:19+00:00",
+            "json_ld_type": "WebPage, ItemPage"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "work_id": "level-up",
+      "url": "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx",
+      "message": "Failed to fetch text https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx: 403 Forbidden"
+    }
+  ]
+}

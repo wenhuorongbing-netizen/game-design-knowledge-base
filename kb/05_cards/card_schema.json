@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bookos.game_design.card.schema.v1",
+  "title": "BookOS Game Design Knowledge Card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "card_id",
+    "card_type",
+    "title",
+    "aliases",
+    "one_sentence_summary",
+    "detailed_explanation",
+    "source_basis",
+    "confidence",
+    "evidence_refs",
+    "related_works",
+    "related_dossiers",
+    "related_concepts",
+    "related_lenses",
+    "phase_groups",
+    "domains",
+    "production_roles",
+    "when_to_use",
+    "when_not_to_use",
+    "required_inputs",
+    "output_artifacts",
+    "common_misunderstandings",
+    "examples_or_placeholders",
+    "application_to_project",
+    "discussion_prompts",
+    "AI_prompt_hooks",
+    "status",
+    "version",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "card_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "card_type": {
+      "type": "string",
+      "enum": [
+        "concept_card",
+        "framework_card",
+        "quote_card",
+        "comparison_card",
+        "application_card",
+        "checklist_card",
+        "prompt_card",
+        "exercise_card",
+        "anti_pattern_card",
+        "case_study_card"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "one_sentence_summary": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "detailed_explanation": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "source_basis": {
+      "type": "string",
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_works": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_dossiers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_concepts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_lenses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phase_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "production_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "when_to_use": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "when_not_to_use": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "required_inputs": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "output_artifacts": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "common_misunderstandings": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "examples_or_placeholders": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "application_to_project": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "discussion_prompts": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "AI_prompt_hooks": {
+      "type": [
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "needs_evidence",
+        "user_review_needed",
+        "verified",
+        "retired"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

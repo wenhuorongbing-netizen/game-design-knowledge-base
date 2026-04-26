@@ -1,0 +1,36 @@
+{
+  "id": "development-implementation-checklist-pack",
+  "title": "开发实现 Checklist Pack",
+  "summary": "Stage-specific review checklists for 开发实现.",
+  "phase_group": "development-implementation",
+  "phase_label": "开发实现",
+  "phase_groups": [
+    "development-implementation"
+  ],
+  "phase_labels": [
+    "开发实现"
+  ],
+  "type": "checklist_pack",
+  "kind_label": "Checklist Pack",
+  "card_ids": [
+    "checklist-save-state-input-systems",
+    "checklist-development-implementation",
+    "checklist-performance-optimization"
+  ],
+  "count": 3,
+  "prompt_count": 0,
+  "checklist_count": 3,
+  "other_count": 0,
+  "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 开发实现 review pass.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Use 开发实现 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+    "Mark the failed checks first, then group them into a short fix order.",
+    "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+    "Repeat the checklist after the next meaningful revision."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/development-implementation-checklist-pack.md",
+  "generated_at": "2026-04-26T00:39:23.260Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

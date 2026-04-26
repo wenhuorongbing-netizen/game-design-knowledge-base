@@ -1,0 +1,66 @@
+{
+  "id": "note-concept-seeds-game-feel",
+  "entity_type": "card",
+  "title": "Game Feel: A Game Designer's Guide to Virtual Sensation：Concept Seeds",
+  "summary": "Game Feel: A Game Designer’s Guide to Virtual Sensation / Defining Game Feel / The Three Building Blocks of Game Feel / Experiences of Game Feel / Creating Gam…",
+  "card_kind": "concept_seed_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "note",
+  "source_work_id": "game-feel",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "hit-feel",
+    "ui-ux",
+    "combat"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-game-feel",
+    "note-book-positioning-game-feel",
+    "note-chapter-map-game-feel"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282"
+  ],
+  "local_links": [
+    {
+      "label": "game-feel-18ac41107c35.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json"
+    }
+  ],
+  "body_markdown": "# Game Feel: A Game Designer's Guide to Virtual Sensation：Concept Seeds\n\n## 可继续长成卡片的概念种子\n\n- Game Feel: A Game Designer’s Guide to Virtual Sensation\n- Defining Game Feel\n- The Three Building Blocks of Game Feel\n- Experiences of Game Feel\n- Creating Game Feel\n- Game Feel and Human Perception\n- When and How Does Real-Time Control Exist?\n- The Computer Side of Things\n- Some Implications of Perception for Game Feel\n- The Game Feel Model of Interactivity\n\n## 这本书最可能回答的问题\n\n- 最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。\n- 围绕“打击感诊断”去检索相关章节和证据。\n- 围绕“操作响应优化”去检索相关章节和证据。\n- 围绕“体验层问题拆解”去检索相关章节和证据。\n\n## AI 引用建议\n\n- 先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。\n- 如果需要更稳的回答，优先同时引用这本书的 `book entry`、`chapter map note` 和这张 `concept seeds` 卡。\n\n## Evidence Anchors\n\n- Game Feel: A Game Designer’s Guide to Virtual Sensation (p.4)\n- Acknowledgments (p.10)\n- Introduction (p.14)\n- About This Book (p.15)\n- Chapter 1. Defining Game Feel (p.20)\n- The Three Building Blocks of Game Feel (p.21)\n",
+  "body_html": "<h1 id=\"game-feel-a-game-designers-guide-to-virtual-sensation：concept-seeds\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation：Concept Seeds</h1>\n<h2 id=\"可继续长成卡片的概念种子\">可继续长成卡片的概念种子</h2>\n<ul><li>Game Feel: A Game Designer’s Guide to Virtual Sensation</li><li>Defining Game Feel</li><li>The Three Building Blocks of Game Feel</li><li>Experiences of Game Feel</li><li>Creating Game Feel</li><li>Game Feel and Human Perception</li><li>When and How Does Real-Time Control Exist?</li><li>The Computer Side of Things</li><li>Some Implications of Perception for Game Feel</li><li>The Game Feel Model of Interactivity</li></ul>\n<h2 id=\"这本书最可能回答的问题\">这本书最可能回答的问题</h2>\n<ul><li>最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。</li><li>围绕“打击感诊断”去检索相关章节和证据。</li><li>围绕“操作响应优化”去检索相关章节和证据。</li><li>围绕“体验层问题拆解”去检索相关章节和证据。</li></ul>\n<h2 id=\"ai-引用建议\">AI 引用建议</h2>\n<ul><li>先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。</li><li>如果需要更稳的回答，优先同时引用这本书的 <code>book entry</code>、<code>chapter map note</code> 和这张 <code>concept seeds</code> 卡。</li></ul>\n<h2 id=\"evidence-anchors\">Evidence Anchors</h2>\n<ul><li>Game Feel: A Game Designer’s Guide to Virtual Sensation (p.4)</li><li>Acknowledgments (p.10)</li><li>Introduction (p.14)</li><li>About This Book (p.15)</li><li>Chapter 1. Defining Game Feel (p.20)</li><li>The Three Building Blocks of Game Feel (p.21)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation：Concept Seeds",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation：concept-seeds"
+    },
+    {
+      "level": 2,
+      "text": "可继续长成卡片的概念种子",
+      "id": "可继续长成卡片的概念种子"
+    },
+    {
+      "level": 2,
+      "text": "这本书最可能回答的问题",
+      "id": "这本书最可能回答的问题"
+    },
+    {
+      "level": 2,
+      "text": "AI 引用建议",
+      "id": "ai-引用建议"
+    },
+    {
+      "level": 2,
+      "text": "Evidence Anchors",
+      "id": "evidence-anchors"
+    }
+  ],
+  "search_text": "Game Feel: A Game Designer's Guide to Virtual Sensation Game Feel: A Game Designer’s Guide to Virtual Sensation Defining Game Feel The Three Building Blocks of Game Feel Experiences of Game Feel Creating Game Feel Game Feel and Human Perception When and How Does Real-Time Control Exist? The Computer Side of Things Some Implications of Perception for Game Feel The Game Feel Model of Interactivity 最适合在战斗、移动、操作反馈和镜头/音效表现层卡住时介入，而不是在高层方向阶段读完就结束。 打击感诊断 操作响应优化 体验层问题拆解 Game Feel: A Game Designer’s Guide to Virtual Sensation Table of Contents Acknowledgments About the Author Introduction About This Book Chapter 1. Defining Game Feel The Three Building Blocks of Game Feel Experiences of Game Feel Creating Game Feel Summary Chapter 2. Game Feel and Human Perception When and How Does Real-Time Control Exist? The Computer Side of Things"
+}

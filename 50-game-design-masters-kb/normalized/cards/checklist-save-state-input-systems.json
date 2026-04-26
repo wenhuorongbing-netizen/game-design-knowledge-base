@@ -1,0 +1,55 @@
+{
+  "id": "checklist-save-state-input-systems",
+  "entity_type": "card",
+  "title": "存档 / 状态机 / 输入系统 Checklist",
+  "summary": "检查基础运行系统是否已经足够稳定，不会成为后续迭代的隐形炸点。",
+  "card_kind": "checklist",
+  "phase_group": "development-implementation",
+  "deliverable_type": "save-state-input-systems",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "related_card_ids": [
+    "prompt-development-implementation",
+    "checklist-development-implementation"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 存档 / 状态机 / 输入系统 Checklist\n\n## 适用场景\n\n用于系统底座 review、版本稳定性 review，或定位“功能都在加，但基础越来越脆”的问题。\n\n## 检查项\n\n- 关键状态有单一真值来源。\n- 存档内容和运行时状态边界清楚。\n- 输入映射、输入缓冲和禁用条件有统一规则。\n- 状态切换不是散落在各个功能里的隐式 if/else。\n- 异常中断和恢复路径有最小处理方案。\n- 调试时能观察到当前状态与输入。\n- 这些系统能在原型阶段先用简化版稳定跑起来。\n\n## 通过标准\n\n- 基础系统不再靠约定俗成维持。\n- 新增玩法时不会反复打穿底层状态逻辑。\n- bug 定位可以从状态和输入链路切入。\n\n## 常见失败信号\n\n- 任何新功能都能随意改全局状态。\n- 玩家卡死或读档异常时无法解释当前状态。\n- 输入冲突只能靠加补丁修。\n",
+  "body_html": "<h1 id=\"存档-状态机-输入系统-checklist\">存档 / 状态机 / 输入系统 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于系统底座 review、版本稳定性 review，或定位“功能都在加，但基础越来越脆”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>关键状态有单一真值来源。</li><li>存档内容和运行时状态边界清楚。</li><li>输入映射、输入缓冲和禁用条件有统一规则。</li><li>状态切换不是散落在各个功能里的隐式 if/else。</li><li>异常中断和恢复路径有最小处理方案。</li><li>调试时能观察到当前状态与输入。</li><li>这些系统能在原型阶段先用简化版稳定跑起来。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>基础系统不再靠约定俗成维持。</li><li>新增玩法时不会反复打穿底层状态逻辑。</li><li>bug 定位可以从状态和输入链路切入。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>任何新功能都能随意改全局状态。</li><li>玩家卡死或读档异常时无法解释当前状态。</li><li>输入冲突只能靠加补丁修。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "存档 / 状态机 / 输入系统 Checklist",
+      "id": "存档-状态机-输入系统-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "存档 / 状态机 / 输入系统 Checklist 检查基础运行系统是否已经足够稳定，不会成为后续迭代的隐形炸点。 用于系统底座 review、版本稳定性 review，或定位“功能都在加，但基础越来越脆”的问题。 关键状态有单一真值来源。 存档内容和运行时状态边界清楚。 输入映射、输入缓冲和禁用条件有统一规则。 状态切换不是散落在各个功能里的隐式 if/else。 异常中断和恢复路径有最小处理方案。 调试时能观察到当前状态与输入。 这些系统能在原型阶段先用简化版稳定跑起来。 基础系统不再靠约定俗成维持。 新增玩法时不会反复打穿底层状态逻辑。 bug 定位可以从状态和输入链路切入。 任何新功能都能随意改全局状态。 玩家卡死或读档异常时无法解释当前状态。 输入冲突只能靠加补丁修。 project-audit"
+}

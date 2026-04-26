@@ -1,0 +1,25 @@
+{
+  "total_tracks": 10,
+  "total_lessons": 84,
+  "lessons_by_track": {
+    "Track 1 - Foundations of Game Design": 8,
+    "Track 2 - Play and Player Experience": 7,
+    "Track 3 - Mechanics, Rules, and Formal Systems": 9,
+    "Track 4 - Systems and Economy": 9,
+    "Track 5 - Game Feel and Interaction": 10,
+    "Track 6 - UI / UX / Feedback": 8,
+    "Track 7 - Narrative, World, and Character": 8,
+    "Track 8 - Prototyping, Playtesting, and Iteration": 9,
+    "Track 9 - Production, Team, Community, and Release": 8,
+    "Track 10 - Advanced Design Studio": 8
+  },
+  "lessons_by_level": {
+    "beginner": 15,
+    "intermediate": 32,
+    "advanced": 14,
+    "professional": 23
+  },
+  "exercise_placeholders": 84,
+  "future_workflow_pack_placeholders": 84,
+  "project_overlay_placeholders": 84
+}

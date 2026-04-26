@@ -1,0 +1,1021 @@
+{
+  "generated_at": "2026-04-26T00:39:23.274Z",
+  "stats": {
+    "prompt_count": 24,
+    "checklist_count": 25,
+    "pack_count": 24,
+    "use_case_pack_count": 6
+  },
+  "packs": [
+    {
+      "id": "initiation-direction-prompt-pack",
+      "title": "立项与方向 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 立项与方向.",
+      "phase_group": "initiation-direction",
+      "phase_label": "立项与方向",
+      "phase_groups": [
+        "initiation-direction"
+      ],
+      "phase_labels": [
+        "立项与方向"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-competitive-breakdown",
+        "prompt-initiation-direction",
+        "prompt-platform-fit-evaluation",
+        "prompt-player-market-definition"
+      ],
+      "count": 4,
+      "prompt_count": 4,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 立项与方向 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 立项与方向 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/initiation-direction-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.252Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "initiation-direction-checklist-pack",
+      "title": "立项与方向 Checklist Pack",
+      "summary": "Stage-specific review checklists for 立项与方向.",
+      "phase_group": "initiation-direction",
+      "phase_label": "立项与方向",
+      "phase_groups": [
+        "initiation-direction"
+      ],
+      "phase_labels": [
+        "立项与方向"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-risk-precheck",
+        "checklist-initiation-direction",
+        "checklist-mvp-scope-cut"
+      ],
+      "count": 3,
+      "prompt_count": 0,
+      "checklist_count": 3,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 立项与方向 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 立项与方向 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/initiation-direction-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.254Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "core-gameplay-systems-prompt-pack",
+      "title": "核心玩法与系统设计 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 核心玩法与系统设计.",
+      "phase_group": "core-gameplay-systems",
+      "phase_label": "核心玩法与系统设计",
+      "phase_groups": [
+        "core-gameplay-systems"
+      ],
+      "phase_labels": [
+        "核心玩法与系统设计"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-core-gameplay-systems",
+        "prompt-core-loop-design",
+        "prompt-combat-system-design"
+      ],
+      "count": 3,
+      "prompt_count": 3,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 核心玩法与系统设计 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 核心玩法与系统设计 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/core-gameplay-systems-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.254Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "core-gameplay-systems-checklist-pack",
+      "title": "核心玩法与系统设计 Checklist Pack",
+      "summary": "Stage-specific review checklists for 核心玩法与系统设计.",
+      "phase_group": "core-gameplay-systems",
+      "phase_label": "核心玩法与系统设计",
+      "phase_groups": [
+        "core-gameplay-systems"
+      ],
+      "phase_labels": [
+        "核心玩法与系统设计"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-single-mechanic-prototype-design",
+        "checklist-level-mechanic-design",
+        "checklist-core-gameplay-systems",
+        "checklist-onboarding-design"
+      ],
+      "count": 4,
+      "prompt_count": 0,
+      "checklist_count": 4,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 核心玩法与系统设计 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 核心玩法与系统设计 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/core-gameplay-systems-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.255Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "numbers-economy-prompt-pack",
+      "title": "数值与经济设计 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 数值与经济设计.",
+      "phase_group": "numbers-economy",
+      "phase_label": "数值与经济设计",
+      "phase_groups": [
+        "numbers-economy"
+      ],
+      "phase_labels": [
+        "数值与经济设计"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-currency-system-design",
+        "prompt-economy-system-design",
+        "prompt-numbers-economy",
+        "prompt-combat-balance"
+      ],
+      "count": 4,
+      "prompt_count": 4,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 数值与经济设计 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 数值与经济设计 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/numbers-economy-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.256Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "numbers-economy-checklist-pack",
+      "title": "数值与经济设计 Checklist Pack",
+      "summary": "Stage-specific review checklists for 数值与经济设计.",
+      "phase_group": "numbers-economy",
+      "phase_label": "数值与经济设计",
+      "phase_groups": [
+        "numbers-economy"
+      ],
+      "phase_labels": [
+        "数值与经济设计"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-growth-curve-design",
+        "checklist-drop-reward-design",
+        "checklist-numbers-economy",
+        "checklist-resource-production-consumption"
+      ],
+      "count": 4,
+      "prompt_count": 0,
+      "checklist_count": 4,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 数值与经济设计 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 数值与经济设计 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/numbers-economy-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.256Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "content-narrative-prompt-pack",
+      "title": "内容与叙事 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 内容与叙事.",
+      "phase_group": "content-narrative",
+      "phase_label": "内容与叙事",
+      "phase_groups": [
+        "content-narrative"
+      ],
+      "phase_labels": [
+        "内容与叙事"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-dialogue-writing",
+        "prompt-worldbuilding"
+      ],
+      "count": 2,
+      "prompt_count": 2,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 内容与叙事 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 内容与叙事 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/content-narrative-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.257Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "content-narrative-checklist-pack",
+      "title": "内容与叙事 Checklist Pack",
+      "summary": "Stage-specific review checklists for 内容与叙事.",
+      "phase_group": "content-narrative",
+      "phase_label": "内容与叙事",
+      "phase_groups": [
+        "content-narrative"
+      ],
+      "phase_labels": [
+        "内容与叙事"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-quest-text-design",
+        "checklist-narrative-structure-review"
+      ],
+      "count": 2,
+      "prompt_count": 0,
+      "checklist_count": 2,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 内容与叙事 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 内容与叙事 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/content-narrative-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.257Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "art-ui-experience-prompt-pack",
+      "title": "美术、UI、体验表达 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 美术、UI、体验表达.",
+      "phase_group": "art-ui-experience",
+      "phase_label": "美术、UI、体验表达",
+      "phase_groups": [
+        "art-ui-experience"
+      ],
+      "phase_labels": [
+        "美术、UI、体验表达"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-motion-hit-feel-expression",
+        "prompt-art-ui-experience",
+        "prompt-hud-ui-structure-design"
+      ],
+      "count": 3,
+      "prompt_count": 3,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 美术、UI、体验表达 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 美术、UI、体验表达 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/art-ui-experience-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.258Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "art-ui-experience-checklist-pack",
+      "title": "美术、UI、体验表达 Checklist Pack",
+      "summary": "Stage-specific review checklists for 美术、UI、体验表达.",
+      "phase_group": "art-ui-experience",
+      "phase_label": "美术、UI、体验表达",
+      "phase_groups": [
+        "art-ui-experience"
+      ],
+      "phase_labels": [
+        "美术、UI、体验表达"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-readability-accessibility-review",
+        "checklist-art-ui-experience",
+        "checklist-player-flow-review"
+      ],
+      "count": 3,
+      "prompt_count": 0,
+      "checklist_count": 3,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 美术、UI、体验表达 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 美术、UI、体验表达 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/art-ui-experience-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.259Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "development-implementation-prompt-pack",
+      "title": "开发实现 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 开发实现.",
+      "phase_group": "development-implementation",
+      "phase_label": "开发实现",
+      "phase_groups": [
+        "development-implementation"
+      ],
+      "phase_labels": [
+        "开发实现"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-toolchain-development",
+        "prompt-development-implementation",
+        "prompt-prototype-implementation"
+      ],
+      "count": 3,
+      "prompt_count": 3,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 开发实现 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 开发实现 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/development-implementation-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.259Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "development-implementation-checklist-pack",
+      "title": "开发实现 Checklist Pack",
+      "summary": "Stage-specific review checklists for 开发实现.",
+      "phase_group": "development-implementation",
+      "phase_label": "开发实现",
+      "phase_groups": [
+        "development-implementation"
+      ],
+      "phase_labels": [
+        "开发实现"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-save-state-input-systems",
+        "checklist-development-implementation",
+        "checklist-performance-optimization"
+      ],
+      "count": 3,
+      "prompt_count": 0,
+      "checklist_count": 3,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 开发实现 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 开发实现 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/development-implementation-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.260Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "testing-acceptance-audit-prompt-pack",
+      "title": "测试、验收与审计 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 测试、验收与审计.",
+      "phase_group": "testing-acceptance-audit",
+      "phase_label": "测试、验收与审计",
+      "phase_groups": [
+        "testing-acceptance-audit"
+      ],
+      "phase_labels": [
+        "测试、验收与审计"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-testing-acceptance-audit",
+        "prompt-project-status-audit",
+        "prompt-bug-triage"
+      ],
+      "count": 3,
+      "prompt_count": 3,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 测试、验收与审计 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 测试、验收与审计 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/testing-acceptance-audit-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.261Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "testing-acceptance-audit-checklist-pack",
+      "title": "测试、验收与审计 Checklist Pack",
+      "summary": "Stage-specific review checklists for 测试、验收与审计.",
+      "phase_group": "testing-acceptance-audit",
+      "phase_label": "测试、验收与审计",
+      "phase_groups": [
+        "testing-acceptance-audit"
+      ],
+      "phase_labels": [
+        "测试、验收与审计"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-build-acceptance",
+        "checklist-testing-acceptance-audit",
+        "checklist-regression-checklist",
+        "note-applying-the-kb-to-projects"
+      ],
+      "count": 4,
+      "prompt_count": 0,
+      "checklist_count": 4,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 测试、验收与审计 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 测试、验收与审计 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/testing-acceptance-audit-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.261Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "operations-release-prompt-pack",
+      "title": "运营与发布 Prompt Pack",
+      "summary": "Stage-specific prompt templates for 运营与发布.",
+      "phase_group": "operations-release",
+      "phase_label": "运营与发布",
+      "phase_groups": [
+        "operations-release"
+      ],
+      "phase_labels": [
+        "运营与发布"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-retention-optimization",
+        "prompt-store-page-copy"
+      ],
+      "count": 2,
+      "prompt_count": 2,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when the current task belongs to 运营与发布 and you want reusable drafting prompts instead of starting from scratch.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in 运营与发布 Prompt Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/operations-release-prompt-pack.md",
+      "generated_at": "2026-04-26T00:39:23.262Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "operations-release-checklist-pack",
+      "title": "运营与发布 Checklist Pack",
+      "summary": "Stage-specific review checklists for 运营与发布.",
+      "phase_group": "operations-release",
+      "phase_label": "运营与发布",
+      "phase_groups": [
+        "operations-release"
+      ],
+      "phase_labels": [
+        "运营与发布"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-pre-release-check",
+        "checklist-update-roadmap"
+      ],
+      "count": 2,
+      "prompt_count": 0,
+      "checklist_count": 2,
+      "other_count": 0,
+      "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 运营与发布 review pass.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use 运营与发布 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/operations-release-checklist-pack.md",
+      "generated_at": "2026-04-26T00:39:23.263Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "all-prompts-pack",
+      "title": "All Prompts Pack",
+      "summary": "Full-library export of every prompt template card.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "testing-acceptance-audit",
+        "art-ui-experience",
+        "content-narrative",
+        "development-implementation",
+        "core-gameplay-systems",
+        "numbers-economy",
+        "initiation-direction",
+        "operations-release"
+      ],
+      "phase_labels": [
+        "测试、验收与审计",
+        "美术、UI、体验表达",
+        "内容与叙事",
+        "开发实现",
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "立项与方向",
+        "运营与发布"
+      ],
+      "type": "prompt_pack",
+      "kind_label": "Prompt Pack",
+      "card_ids": [
+        "prompt-testing-acceptance-audit",
+        "prompt-motion-hit-feel-expression",
+        "prompt-dialogue-writing",
+        "prompt-toolchain-development",
+        "prompt-core-gameplay-systems",
+        "prompt-core-loop-design",
+        "prompt-currency-system-design",
+        "prompt-economy-system-design",
+        "prompt-competitive-breakdown",
+        "prompt-development-implementation",
+        "prompt-initiation-direction",
+        "prompt-retention-optimization",
+        "prompt-art-ui-experience",
+        "prompt-platform-fit-evaluation",
+        "prompt-store-page-copy",
+        "prompt-worldbuilding",
+        "prompt-numbers-economy",
+        "prompt-player-market-definition",
+        "prompt-project-status-audit",
+        "prompt-prototype-implementation",
+        "prompt-combat-balance",
+        "prompt-combat-system-design",
+        "prompt-bug-triage",
+        "prompt-hud-ui-structure-design"
+      ],
+      "count": 24,
+      "prompt_count": 24,
+      "checklist_count": 0,
+      "other_count": 0,
+      "when_to_use": "Use this when you want the whole prompt layer in one file for large-scale rewriting, comparison, or offline browsing.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Pick the prompt template in All Prompts Pack that matches the deliverable you need right now.",
+        "Fill in the placeholders with project-specific constraints instead of generic design language.",
+        "Keep only one answer path per prompt run so the result remains editable.",
+        "Pass the output into a checklist or implementation review before treating it as final."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/all-prompts-pack.md",
+      "generated_at": "2026-04-26T00:39:23.263Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "all-checklists-pack",
+      "title": "All Checklists Pack",
+      "summary": "Full-library export of every checklist card.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "testing-acceptance-audit",
+        "numbers-economy",
+        "development-implementation",
+        "core-gameplay-systems",
+        "operations-release",
+        "initiation-direction",
+        "art-ui-experience",
+        "content-narrative"
+      ],
+      "phase_labels": [
+        "测试、验收与审计",
+        "数值与经济设计",
+        "开发实现",
+        "核心玩法与系统设计",
+        "运营与发布",
+        "立项与方向",
+        "美术、UI、体验表达",
+        "内容与叙事"
+      ],
+      "type": "checklist_pack",
+      "kind_label": "Checklist Pack",
+      "card_ids": [
+        "checklist-build-acceptance",
+        "checklist-testing-acceptance-audit",
+        "checklist-growth-curve-design",
+        "checklist-save-state-input-systems",
+        "checklist-single-mechanic-prototype-design",
+        "checklist-drop-reward-design",
+        "checklist-pre-release-check",
+        "checklist-risk-precheck",
+        "checklist-update-roadmap",
+        "checklist-level-mechanic-design",
+        "checklist-core-gameplay-systems",
+        "checklist-regression-checklist",
+        "checklist-development-implementation",
+        "checklist-readability-accessibility-review",
+        "checklist-initiation-direction",
+        "checklist-art-ui-experience",
+        "checklist-quest-text-design",
+        "note-applying-the-kb-to-projects",
+        "checklist-numbers-economy",
+        "checklist-player-flow-review",
+        "checklist-onboarding-design",
+        "checklist-performance-optimization",
+        "checklist-narrative-structure-review",
+        "checklist-resource-production-consumption",
+        "checklist-mvp-scope-cut"
+      ],
+      "count": 25,
+      "prompt_count": 0,
+      "checklist_count": 25,
+      "other_count": 0,
+      "when_to_use": "Use this when you want a broad review layer that spans multiple phases without switching files.",
+      "required_inputs": [],
+      "starter_steps": [
+        "Use All Checklists Pack as a review pass after a draft, prototype, or build already exists.",
+        "Mark the failed checks first, then group them into a short fix order.",
+        "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+        "Repeat the checklist after the next meaningful revision."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/all-checklists-pack.md",
+      "generated_at": "2026-04-26T00:39:23.264Z",
+      "starter_relative_markdown_path": "",
+      "starter_prompt_relative_markdown_path": ""
+    },
+    {
+      "id": "spec-pack",
+      "title": "Spec Pack",
+      "summary": "Cross-phase bundle for turning a game idea into a structured design and implementation spec.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "initiation-direction",
+        "core-gameplay-systems",
+        "numbers-economy",
+        "development-implementation",
+        "art-ui-experience"
+      ],
+      "phase_labels": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "开发实现",
+        "美术、UI、体验表达"
+      ],
+      "type": "use_case_pack",
+      "kind_label": "Use Case Pack",
+      "card_ids": [
+        "prompt-initiation-direction",
+        "prompt-core-loop-design",
+        "prompt-economy-system-design",
+        "prompt-development-implementation",
+        "prompt-hud-ui-structure-design",
+        "checklist-mvp-scope-cut",
+        "checklist-development-implementation"
+      ],
+      "count": 7,
+      "prompt_count": 5,
+      "checklist_count": 2,
+      "other_count": 0,
+      "when_to_use": "Use this when you need to align direction, lock the gameplay frame, and turn it into an executable implementation plan.",
+      "required_inputs": [
+        "One-sentence pitch and project identity",
+        "Target players, market, and reference titles",
+        "Core loop assumptions and economy goals",
+        "Platform, scope, and team constraints"
+      ],
+      "starter_steps": [
+        "Start with direction framing and core loop definition.",
+        "Resolve the economy and scope assumptions before implementation detail.",
+        "Turn the approved design into a technical spec and HUD structure.",
+        "Finish with MVP trimming and implementation review."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/spec-pack.md",
+      "generated_at": "2026-04-26T00:39:23.265Z",
+      "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/spec-pack-ready-to-run.md",
+      "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/spec-pack-starter-prompt.md"
+    },
+    {
+      "id": "audit-pack",
+      "title": "Audit Pack",
+      "summary": "Cross-phase bundle for status review, risk discovery, regression checking, and delivery-quality audits.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "testing-acceptance-audit",
+        "development-implementation",
+        "art-ui-experience",
+        "initiation-direction"
+      ],
+      "phase_labels": [
+        "测试、验收与审计",
+        "开发实现",
+        "美术、UI、体验表达",
+        "立项与方向"
+      ],
+      "type": "use_case_pack",
+      "kind_label": "Use Case Pack",
+      "card_ids": [
+        "prompt-project-status-audit",
+        "prompt-bug-triage",
+        "checklist-build-acceptance",
+        "checklist-regression-checklist",
+        "checklist-performance-optimization",
+        "checklist-readability-accessibility-review",
+        "checklist-risk-precheck"
+      ],
+      "count": 7,
+      "prompt_count": 2,
+      "checklist_count": 5,
+      "other_count": 0,
+      "when_to_use": "Use this when a build feels unstable, unclear, late, or over-scoped and you need a structured review pass.",
+      "required_inputs": [
+        "Current build or branch state",
+        "Known blockers, bugs, and risk areas",
+        "Recent regressions or quality complaints",
+        "Performance, UI, or onboarding pain points"
+      ],
+      "starter_steps": [
+        "Run a project-status audit to expose the current bottlenecks.",
+        "Triage the known bugs and regression risk first.",
+        "Review build acceptance, performance, and readability together.",
+        "End with a concrete risk list and a fix order."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/audit-pack.md",
+      "generated_at": "2026-04-26T00:39:23.267Z",
+      "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/audit-pack-ready-to-run.md",
+      "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/audit-pack-starter-prompt.md"
+    },
+    {
+      "id": "prototyping-pack",
+      "title": "Prototyping Pack",
+      "summary": "Cross-phase bundle for validating a concept quickly through loop design, prototype implementation, and playtest framing.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "initiation-direction",
+        "core-gameplay-systems",
+        "development-implementation",
+        "testing-acceptance-audit"
+      ],
+      "phase_labels": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试、验收与审计"
+      ],
+      "type": "use_case_pack",
+      "kind_label": "Use Case Pack",
+      "card_ids": [
+        "prompt-initiation-direction",
+        "prompt-core-gameplay-systems",
+        "prompt-core-loop-design",
+        "prompt-prototype-implementation",
+        "checklist-single-mechanic-prototype-design",
+        "checklist-onboarding-design",
+        "prompt-testing-acceptance-audit"
+      ],
+      "count": 7,
+      "prompt_count": 5,
+      "checklist_count": 2,
+      "other_count": 0,
+      "when_to_use": "Use this when the project is still proving whether the core idea is worth scaling up.",
+      "required_inputs": [
+        "Core fantasy and target player",
+        "Single mechanic or loop hypothesis",
+        "Prototype platform and implementation constraints",
+        "Playtest questions you need answered"
+      ],
+      "starter_steps": [
+        "Frame the direction and define the smallest fun loop.",
+        "Pick the one mechanic or interaction the prototype must prove.",
+        "Build only the minimum playable implementation.",
+        "Use the testing card to define what success or failure means."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/prototyping-pack.md",
+      "generated_at": "2026-04-26T00:39:23.268Z",
+      "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/prototyping-pack-ready-to-run.md",
+      "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/prototyping-pack-starter-prompt.md"
+    },
+    {
+      "id": "release-pack",
+      "title": "Release Pack",
+      "summary": "Cross-phase bundle for preparing a playable release candidate, external messaging, and post-launch planning.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "operations-release",
+        "testing-acceptance-audit",
+        "initiation-direction"
+      ],
+      "phase_labels": [
+        "运营与发布",
+        "测试、验收与审计",
+        "立项与方向"
+      ],
+      "type": "use_case_pack",
+      "kind_label": "Use Case Pack",
+      "card_ids": [
+        "prompt-store-page-copy",
+        "checklist-pre-release-check",
+        "checklist-build-acceptance",
+        "prompt-retention-optimization",
+        "checklist-update-roadmap",
+        "prompt-platform-fit-evaluation"
+      ],
+      "count": 6,
+      "prompt_count": 3,
+      "checklist_count": 3,
+      "other_count": 0,
+      "when_to_use": "Use this when a project is moving from internal development into public testing, store presence, or release preparation.",
+      "required_inputs": [
+        "Target release window and platform set",
+        "Current build quality and known defects",
+        "Store-facing fantasy, hook, and audience",
+        "Retention goals and live-ops expectations"
+      ],
+      "starter_steps": [
+        "Validate the release target and platform fit first.",
+        "Run pre-release and build-acceptance checks before marketing polish.",
+        "Write store copy and retention framing against the real build.",
+        "Close with a concrete post-launch update roadmap."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/release-pack.md",
+      "generated_at": "2026-04-26T00:39:23.269Z",
+      "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/release-pack-ready-to-run.md",
+      "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/release-pack-starter-prompt.md"
+    },
+    {
+      "id": "narrative-pack",
+      "title": "Narrative Pack",
+      "summary": "Cross-phase bundle for worldbuilding, dialogue, quest text, and narrative structure reviews.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "content-narrative"
+      ],
+      "phase_labels": [
+        "内容与叙事"
+      ],
+      "type": "use_case_pack",
+      "kind_label": "Use Case Pack",
+      "card_ids": [
+        "prompt-worldbuilding",
+        "prompt-dialogue-writing",
+        "checklist-narrative-structure-review",
+        "checklist-quest-text-design"
+      ],
+      "count": 4,
+      "prompt_count": 2,
+      "checklist_count": 2,
+      "other_count": 0,
+      "when_to_use": "Use this when story content exists but lacks a clear structure, tone, or production-ready text workflow.",
+      "required_inputs": [
+        "World premise and role of the player",
+        "Main cast, faction, or conflict outline",
+        "Narrative format and delivery constraints",
+        "Samples of current dialogue or quest text"
+      ],
+      "starter_steps": [
+        "Establish the world and narrative frame first.",
+        "Write dialogue only after the structure and role logic are stable.",
+        "Review quest text and narrative beats as production outputs.",
+        "Use the final checklist to catch inconsistency and readability drift."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/narrative-pack.md",
+      "generated_at": "2026-04-26T00:39:23.271Z",
+      "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/narrative-pack-ready-to-run.md",
+      "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/narrative-pack-starter-prompt.md"
+    },
+    {
+      "id": "balance-pack",
+      "title": "Balance Pack",
+      "summary": "Cross-phase bundle for economy architecture, combat numbers, reward logic, and balance review loops.",
+      "phase_group": "",
+      "phase_label": "Cross-phase",
+      "phase_groups": [
+        "numbers-economy"
+      ],
+      "phase_labels": [
+        "数值与经济设计"
+      ],
+      "type": "use_case_pack",
+      "kind_label": "Use Case Pack",
+      "card_ids": [
+        "prompt-numbers-economy",
+        "prompt-economy-system-design",
+        "prompt-currency-system-design",
+        "prompt-combat-balance",
+        "checklist-growth-curve-design",
+        "checklist-drop-reward-design",
+        "checklist-resource-production-consumption"
+      ],
+      "count": 7,
+      "prompt_count": 4,
+      "checklist_count": 3,
+      "other_count": 0,
+      "when_to_use": "Use this when the game has enough systems to show inflation, dead rewards, or unclear progression pressure.",
+      "required_inputs": [
+        "Key currencies and resource flows",
+        "Combat stats and progression targets",
+        "Reward tables, drop logic, or progression pacing",
+        "Current balance pain points or telemetry symptoms"
+      ],
+      "starter_steps": [
+        "Map the economy layers before touching individual numbers.",
+        "Separate currency roles from combat-balance roles.",
+        "Review growth curve and reward logic after the system frame is clear.",
+        "End with the smallest set of balance changes worth testing next."
+      ],
+      "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/balance-pack.md",
+      "generated_at": "2026-04-26T00:39:23.272Z",
+      "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/balance-pack-ready-to-run.md",
+      "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/balance-pack-starter-prompt.md"
+    }
+  ]
+}

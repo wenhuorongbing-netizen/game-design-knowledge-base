@@ -1,0 +1,112 @@
+{
+  "id": "work-the-game-design-reader",
+  "entity_type": "card",
+  "title": "The Game Design Reader: A Rules of Play Anthology",
+  "summary": "一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。",
+  "card_kind": "book_entry",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "director-review",
+  "resource_kind": "book",
+  "source_work_id": "the-game-design-reader",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "formalism",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "rules-of-play",
+    "characteristics-of-games",
+    "the-rule-book"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262195362/the-game-design-reader"
+  ],
+  "local_links": [
+    {
+      "label": "The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# The Game Design Reader: A Rules of Play Anthology\n\n## 基本信息\n\n- 作者：Katie Salen Tekinbaş / Eric Zimmerman\n- 年份：2005\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。\n\n## 核心要点\n\n- 适合建立比单本教材更宽的设计语境。\n- 适合把 Rules of Play 的形式语言接回案例、批评和研究传统。\n- 适合作为团队高层设计评审和阅读小组的共读底座。\n\n## 适用场景\n\n最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。\n\n## 知识定位\n\n- 关注领域：游戏定义与批评 / 规则与系统 / 游戏空间与叙事 / 游戏文化与社群 / 设计研究方法\n- 主要用途：高层设计审查 / 理论补课 / 阅读小组共读 / 跨书目比较\n- 推荐读法：按主题抽读 / 按作者与论文反查 / 作为理论索引长期常备\n- 价值类型：案例库 / 批评视角 / 术语背景 / 经典文本入口\n- 最适合介入的阶段：立项前研究 / 方向校准 / 设计复盘 / 知识库扩写\n\n## 分类\n\n- 一级分类：立项与方向\n- 二级输出物：游戏总监视角评审\n- 主题标签：设计基础 / 规则与形式化 / 系统思维\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：The game design reader : a Rules of play anthology\n- 解析格式：pdf\n- 页数：968\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-game-design-reader-0d2c1d43ee51.json`（ok）\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262195362/the-game-design-reader>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/the-game-design-reader/01-mitpress.mit.edu-9780262195362-the-game-design-reader.html`\n\n## 相关条目\n\n- Rules of Play\n- Characteristics of Games\n- The Rule Book\n",
+  "body_html": "<h1 id=\"the-game-design-reader-a-rules-of-play-anthology\">The Game Design Reader: A Rules of Play Anthology</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Katie Salen Tekinbaş / Eric Zimmerman</li><li>年份：2005</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>适合建立比单本教材更宽的设计语境。</li><li>适合把 Rules of Play 的形式语言接回案例、批评和研究传统。</li><li>适合作为团队高层设计评审和阅读小组的共读底座。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：游戏定义与批评 / 规则与系统 / 游戏空间与叙事 / 游戏文化与社群 / 设计研究方法</li><li>主要用途：高层设计审查 / 理论补课 / 阅读小组共读 / 跨书目比较</li><li>推荐读法：按主题抽读 / 按作者与论文反查 / 作为理论索引长期常备</li><li>价值类型：案例库 / 批评视角 / 术语背景 / 经典文本入口</li><li>最适合介入的阶段：立项前研究 / 方向校准 / 设计复盘 / 知识库扩写</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：立项与方向</li><li>二级输出物：游戏总监视角评审</li><li>主题标签：设计基础 / 规则与形式化 / 系统思维</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：The game design reader : a Rules of play anthology</li><li>解析格式：pdf</li><li>页数：968</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-game-design-reader-0d2c1d43ee51.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262195362/the-game-design-reader\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262195362/the-game-design-reader</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/the-game-design-reader/01-mitpress.mit.edu-9780262195362-the-game-design-reader.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Rules of Play</li><li>Characteristics of Games</li><li>The Rule Book</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Game Design Reader: A Rules of Play Anthology",
+      "id": "the-game-design-reader-a-rules-of-play-anthology"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "The Game Design Reader: A Rules of Play Anthology Katie Salen Tekinbaş Eric Zimmerman 一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。 适合建立比单本教材更宽的设计语境。 适合把 Rules of Play 的形式语言接回案例、批评和研究传统。 适合作为团队高层设计评审和阅读小组的共读底座。 最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。 主策 系统策划 文档负责人 游戏总监 游戏定义与批评 规则与系统 游戏空间与叙事 游戏文化与社群 设计研究方法 高层设计审查 理论补课 阅读小组共读 跨书目比较 按主题抽读 按作者与论文反查 作为理论索引长期常备 案例库 批评视角 术语背景 经典文本入口 立项前研究 方向校准 设计复盘 知识库扩写 立项与方向 游戏总监视角评审 设计基础 规则与形式化 系统思维 MIT Press MIT Press - Book Details"
+}

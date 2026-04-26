@@ -1,0 +1,63 @@
+{
+  "id": "prompt-numbers-economy",
+  "entity_type": "card",
+  "title": "数值与经济设计 Prompt 模板",
+  "summary": "把资源、货币、成长、奖励与风险映射成可平衡的数值框架。",
+  "card_kind": "prompt_template",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "economy-loops",
+    "systems-thinking",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "related_card_ids": [
+    "phase-guide-numbers-economy",
+    "checklist-numbers-economy"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 数值与经济设计 Prompt 模板\n\n## 适用场景\n\n当资源循环已经存在，但产出、消耗、奖励和成长开始互相打架时使用。\n\n## 使用前提供\n\n- 全部货币、资源与成长维度\n- 每个资源的产出与消耗路径\n- 目标 session cadence 与付费/非付费约束\n- 当前平衡症状，例如通胀、卡点、奖励感不足\n- 你想控制的关键指标，如 TTK、进度速度、留存压力\n\n## 预期输出\n\n1. 数值框架设计\n2. 资源 faucet / sink 地图\n3. 成长曲线与 gating\n4. 掉落与奖励规则\n5. 平衡风险\n6. 测试与调参顺序\n\n## Prompt 模板\n\n```text\n你是一个世界级数值与经济设计师。\n请把下面的系统描述整理成一个能调、能测、能扩展的数值框架。\n\n输入：\n- 货币/资源：{{currencies_and_resources}}\n- 产出路径：{{faucets}}\n- 消耗路径：{{sinks}}\n- 成长维度：{{progression_axes}}\n- 目标节奏：{{session_cadence}}\n- 商业化或非商业约束：{{monetization_constraints}}\n- 当前失衡症状：{{balance_symptoms}}\n- 关键指标：{{critical_metrics}}\n\n请输出：\n1. 数值框架：核心资源与层级关系。\n2. Faucet/Sink 地图：每个资源如何进入和离开系统。\n3. 成长曲线：短期、中期、长期目标与 gating。\n4. 奖励设计：掉落、奖励频率、风险回报关系。\n5. 风险：通胀、枯竭、无效资源、最优解固化等。\n6. 调参顺序：先调什么，再调什么，为什么。\n\n要求：\n- 把每个数值层的目的说清楚。\n- 明确指出哪些资源不应该同时承担多个冲突职责。\n- 如果存在商业化，单独指出其对平衡的扭曲风险。\n```\n\n## 二次追问\n\n- 把成长曲线再拆成 early / mid / late game 三段。\n- 为掉落与奖励给出一个最小表格草案。\n",
+  "body_html": "<h1 id=\"数值与经济设计-prompt-模板\">数值与经济设计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当资源循环已经存在，但产出、消耗、奖励和成长开始互相打架时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>全部货币、资源与成长维度</li><li>每个资源的产出与消耗路径</li><li>目标 session cadence 与付费/非付费约束</li><li>当前平衡症状，例如通胀、卡点、奖励感不足</li><li>你想控制的关键指标，如 TTK、进度速度、留存压力</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>数值框架设计</li><li>资源 faucet / sink 地图</li><li>成长曲线与 gating</li><li>掉落与奖励规则</li><li>平衡风险</li><li>测试与调参顺序</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级数值与经济设计师。\n请把下面的系统描述整理成一个能调、能测、能扩展的数值框架。\n\n输入：\n- 货币/资源：{{currencies_and_resources}}\n- 产出路径：{{faucets}}\n- 消耗路径：{{sinks}}\n- 成长维度：{{progression_axes}}\n- 目标节奏：{{session_cadence}}\n- 商业化或非商业约束：{{monetization_constraints}}\n- 当前失衡症状：{{balance_symptoms}}\n- 关键指标：{{critical_metrics}}\n\n请输出：\n1. 数值框架：核心资源与层级关系。\n2. Faucet/Sink 地图：每个资源如何进入和离开系统。\n3. 成长曲线：短期、中期、长期目标与 gating。\n4. 奖励设计：掉落、奖励频率、风险回报关系。\n5. 风险：通胀、枯竭、无效资源、最优解固化等。\n6. 调参顺序：先调什么，再调什么，为什么。\n\n要求：\n- 把每个数值层的目的说清楚。\n- 明确指出哪些资源不应该同时承担多个冲突职责。\n- 如果存在商业化，单独指出其对平衡的扭曲风险。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把成长曲线再拆成 early / mid / late game 三段。</li><li>为掉落与奖励给出一个最小表格草案。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "数值与经济设计 Prompt 模板",
+      "id": "数值与经济设计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "数值与经济设计 Prompt 模板 把资源、货币、成长、奖励与风险映射成可平衡的数值框架。 当资源循环已经存在，但产出、消耗、奖励和成长开始互相打架时使用。 全部货币、资源与成长维度 每个资源的产出与消耗路径 目标 session cadence 与付费/非付费约束 当前平衡症状，例如通胀、卡点、奖励感不足 你想控制的关键指标，如 TTK、进度速度、留存压力 数值框架设计 资源 faucet / sink 地图 成长曲线与 gating 掉落与奖励规则 平衡风险 测试与调参顺序 economy-loops systems-thinking prompt-design"
+}

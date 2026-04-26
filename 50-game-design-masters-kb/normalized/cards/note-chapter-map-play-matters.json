@@ -1,0 +1,59 @@
+{
+  "id": "note-chapter-map-play-matters",
+  "entity_type": "card",
+  "title": "Play Matters：章节地图",
+  "summary": "Contents / On Thinking Playfully / Acknowledgments / Instructions for Reading This Book / 1 Play Is / 2 Playfulness / 3 Toys / 4 Playgrounds / 5 Beauty / 6 Pol…",
+  "card_kind": "chapter_map_note",
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "resource_kind": "note",
+  "source_work_id": "play-matters",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "player-motivation",
+    "fun-theory"
+  ],
+  "related_work_ids": [
+    "play-matters",
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-play-matters",
+    "note-book-positioning-play-matters"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262534512/play-matters/"
+  ],
+  "local_links": [
+    {
+      "label": "play-matters-f1ee20310d33.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json"
+    }
+  ],
+  "body_markdown": "# Play Matters：章节地图\n\n## 顶层结构\n\n1. Contents\n2. On Thinking Playfully\n3. Acknowledgments\n4. Instructions for Reading This Book\n5. 1 Play Is\n6. 2 Playfulness\n7. 3 Toys\n8. 4 Playgrounds\n9. 5 Beauty\n10. 6 Politics\n11. 7 Architects\n12. 8 Play in the Era of Computing Machinery\n13. Notes\n14. References\n\n## 如何使用这份结构\n\n- 把它当作 内容与叙事 / 世界观设定 的阅读地图，而不是逐字摘抄模板。\n- 先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。\n- 如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。\n\n## 解析依据\n\n- 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json`\n- 解析标题：Play Matters\n",
+  "body_html": "<h1 id=\"play-matters：章节地图\">Play Matters：章节地图</h1>\n<h2 id=\"顶层结构\">顶层结构</h2>\n<ol><li>Contents</li><li>On Thinking Playfully</li><li>Acknowledgments</li><li>Instructions for Reading This Book</li><li>1 Play Is</li><li>2 Playfulness</li><li>3 Toys</li><li>4 Playgrounds</li><li>5 Beauty</li><li>6 Politics</li><li>7 Architects</li><li>8 Play in the Era of Computing Machinery</li><li>Notes</li><li>References</li></ol>\n<h2 id=\"如何使用这份结构\">如何使用这份结构</h2>\n<ul><li>把它当作 内容与叙事 / 世界观设定 的阅读地图，而不是逐字摘抄模板。</li><li>先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。</li><li>如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。</li></ul>\n<h2 id=\"解析依据\">解析依据</h2>\n<ul><li>工件：<code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json</code></li><li>解析标题：Play Matters</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Play Matters：章节地图",
+      "id": "play-matters：章节地图"
+    },
+    {
+      "level": 2,
+      "text": "顶层结构",
+      "id": "顶层结构"
+    },
+    {
+      "level": 2,
+      "text": "如何使用这份结构",
+      "id": "如何使用这份结构"
+    },
+    {
+      "level": 2,
+      "text": "解析依据",
+      "id": "解析依据"
+    }
+  ],
+  "search_text": "Play Matters Contents On Thinking Playfully Acknowledgments Instructions for Reading This Book 1 Play Is 2 Playfulness 3 Toys 4 Playgrounds 5 Beauty 6 Politics 7 Architects 8 Play in the Era of Computing Machinery Notes References 内容与叙事 世界观设定"
+}

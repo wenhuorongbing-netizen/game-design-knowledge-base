@@ -1,0 +1,71 @@
+{
+  "id": "note-compare-feel-vs-level-up",
+  "entity_type": "card",
+  "title": "Game Feel: A Game Designer's Guide to Virtual Sensation vs Level Up! The Guide to Great Video Game Design",
+  "summary": "Use Game Feel to diagnose response quality and feedback timing, then use Level Up to express the resulting work as production-ready tasks and specs.",
+  "card_kind": "comparison_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "note",
+  "source_work_id": "game-feel",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "hit-feel",
+    "ui-ux",
+    "combat",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up"
+  ],
+  "related_card_ids": [
+    "work-game-feel",
+    "work-level-up"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282",
+    "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+  ],
+  "local_links": [],
+  "body_markdown": "# Game Feel: A Game Designer's Guide to Virtual Sensation vs Level Up! The Guide to Great Video Game Design\n\n> Use Game Feel to diagnose response quality and feedback timing, then use Level Up to express the resulting work as production-ready tasks and specs.\n\n## Comparison Axis\n\n- moment-to-moment sensation vs production-facing implementation language\n\n## Game Feel: A Game Designer's Guide to Virtual Sensation 更强在什么地方\n\n- 打击感诊断\n- 操作响应优化\n- 体验层问题拆解\n- 诊断框架\n- Use when: The game works mechanically, but movement, combat, or interaction still feels dead or muddy.\n\n## Level Up! The Guide to Great Video Game Design 更强在什么地方\n\n- spec 写作\n- 交付物表达\n- 跨职能沟通\n- 落地模板\n- Use when: The team understands the problem but needs concrete documentation, task framing, and implementation-facing language.\n\n## 如何一起使用\n\n- Let Game Feel define the sensory diagnosis, then let Level Up translate it into deliverables for the team.\n\n## Game Feel: A Game Designer's Guide to Virtual Sensation 的结构证据\n\n- Game Feel: A Game Designer’s Guide to Virtual Sensation (p.4)\n- Acknowledgments (p.10)\n- Introduction (p.14)\n- About This Book (p.15)\n- Chapter 1. Defining Game Feel (p.20)\n\n## Level Up! The Guide to Great Video Game Design 的结构证据\n\n- Level Up!: The Guide to Great Video Game Design\n",
+  "body_html": "<h1 id=\"game-feel-a-game-designers-guide-to-virtual-sensation-vs-level-up-the-guide-to-great-video-game-design\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation vs Level Up! The Guide to Great Video Game Design</h1>\n<blockquote>Use Game Feel to diagnose response quality and feedback timing, then use Level Up to express the resulting work as production-ready tasks and specs.</blockquote>\n<h2 id=\"comparison-axis\">Comparison Axis</h2>\n<ul><li>moment-to-moment sensation vs production-facing implementation language</li></ul>\n<h2 id=\"game-feel-a-game-designers-guide-to-virtual-sensation-更强在什么地方\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation 更强在什么地方</h2>\n<ul><li>打击感诊断</li><li>操作响应优化</li><li>体验层问题拆解</li><li>诊断框架</li><li>Use when: The game works mechanically, but movement, combat, or interaction still feels dead or muddy.</li></ul>\n<h2 id=\"level-up-the-guide-to-great-video-game-design-更强在什么地方\">Level Up! The Guide to Great Video Game Design 更强在什么地方</h2>\n<ul><li>spec 写作</li><li>交付物表达</li><li>跨职能沟通</li><li>落地模板</li><li>Use when: The team understands the problem but needs concrete documentation, task framing, and implementation-facing language.</li></ul>\n<h2 id=\"如何一起使用\">如何一起使用</h2>\n<ul><li>Let Game Feel define the sensory diagnosis, then let Level Up translate it into deliverables for the team.</li></ul>\n<h2 id=\"game-feel-a-game-designers-guide-to-virtual-sensation-的结构证据\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation 的结构证据</h2>\n<ul><li>Game Feel: A Game Designer’s Guide to Virtual Sensation (p.4)</li><li>Acknowledgments (p.10)</li><li>Introduction (p.14)</li><li>About This Book (p.15)</li><li>Chapter 1. Defining Game Feel (p.20)</li></ul>\n<h2 id=\"level-up-the-guide-to-great-video-game-design-的结构证据\">Level Up! The Guide to Great Video Game Design 的结构证据</h2>\n<ul><li>Level Up!: The Guide to Great Video Game Design</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation vs Level Up! The Guide to Great Video Game Design",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation-vs-level-up-the-guide-to-great-video-game-design"
+    },
+    {
+      "level": 2,
+      "text": "Comparison Axis",
+      "id": "comparison-axis"
+    },
+    {
+      "level": 2,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation 更强在什么地方",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "Level Up! The Guide to Great Video Game Design 更强在什么地方",
+      "id": "level-up-the-guide-to-great-video-game-design-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "如何一起使用",
+      "id": "如何一起使用"
+    },
+    {
+      "level": 2,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation 的结构证据",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation-的结构证据"
+    },
+    {
+      "level": 2,
+      "text": "Level Up! The Guide to Great Video Game Design 的结构证据",
+      "id": "level-up-the-guide-to-great-video-game-design-的结构证据"
+    }
+  ],
+  "search_text": "Game Feel: A Game Designer's Guide to Virtual Sensation Level Up! The Guide to Great Video Game Design moment-to-moment sensation vs production-facing implementation language Use Game Feel to diagnose response quality and feedback timing, then use Level Up to express the resulting work as production-ready tasks and specs. The game works mechanically, but movement, combat, or interaction still feels dead or muddy. The team understands the problem but needs concrete documentation, task framing, and implementation-facing language. Let Game Feel define the sensory diagnosis, then let Level Up translate it into deliverables for the team. 打击感诊断 操作响应优化 体验层问题拆解 spec 写作 交付物表达 跨职能沟通"
+}

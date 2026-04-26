@@ -1,0 +1,75 @@
+{
+  "format": "pdf",
+  "metadata": {
+    "title": "Advanced game design : a systems approach",
+    "authors": [
+      "Sellers, Michael (Game designer), author"
+    ],
+    "subject": "Video games -- Programming; Games -- Design and construction; Video games -- Design; Computer games -- Programming",
+    "producer": "Internet Archive PDF 1.4.24; including mupdf and pymupdf/skimage"
+  },
+  "page_count": 468,
+  "toc": [],
+  "sample_sections": [
+    {
+      "label": "Page 1",
+      "location": {
+        "page": 1
+      },
+      "text": "A SYSTEMS APPROACH ADVANCED G ame Des Michael SELLERS"
+    },
+    {
+      "label": "Page 2",
+      "location": {
+        "page": 2
+      },
+      "text": "a a + — oe"
+    },
+    {
+      "label": "Page 3",
+      "location": {
+        "page": 3
+      },
+      "text": "University of South Wales AMANITA 2061993 Advanced Game Design"
+    },
+    {
+      "label": "Page 4",
+      "location": {
+        "page": 4
+      },
+      "text": "The Pearson Addison-Wesley Game Design and Development Series | H FROM CONCEPT TO PLAYABLE GAME Wy vy | ARCHITECTING NETWORKED GAMES we WITH UNITY” AND C# | 4 | | a GAMES, DESIGN =; PLAY A DETAILED APPROACH TO ITERATIVE GAME DESIGN | M U LTIPLAYER | Oa , | ’ GAME: SIRS | | © at Oe We | Programming One | CaIRe) a : | OO he? | ® ase saa ca A v4 | % es: t Shiny Giboon BOND ay Mitch McCAFFREY Colleen MACKLIN | John SHARP v4 Sey MADHAV | i | j | i Essai ca tentnerrateenteasernioeess nereeenmanveveneenivereventventerttrrtentnttecerer/VrPenWVtreRniaWerettWwwtttiee/entnlCoteHtivebPttnrwerteRtrerrteTtenrittetdewrteteeeaentedenventee/te/eniiee/tehirerirdntenirerrrnmretorderteretdennvenTennneestecene ST | Visit informit.com/series/gamedesign for a complete list of available publications. Essential References for Game Designers and Developers | practical guides, written by distinguished professors and industry gurus, cover basic tenets of game design and development using a straightforward, common-sense approach. The books encourage readers to try things on their own and think for themselves, making it easier for anyone to learn how to design and develop digital games for both computers and mobile devices. Make sure to connect with us! informit.com/socialconnect Pearson fi Addison-Wesley Informit.com safari"
+    },
+    {
+      "label": "Page 5",
+      "location": {
+        "page": 5
+      },
+      "text": "Advanced Game Design A Systems Approach Michael Sellers vv Addison-Wesley Boston e« Columbus « Indianapolis « New York ¢ San Francisco Amsterdam e« Cape Town e Dubai « London « Madrid « Milan Munich « Paris « Montreal « Toronto « Delhi « Mexico City Sao Paulo « Sidney « Hong Kong « Seoul « Singapore « Taipei « Tokyo |"
+    },
+    {
+      "label": "Page 6",
+      "location": {
+        "page": 6
+      },
+      "text": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and the publisher was aware of a trademark claim, the designations have been printed with initial capital letters or in all capitals. The author and publisher have taken care in the preparation of this book, but make no expressed or implied warranty of any kind and assume no responsibility for errors or omissions. No liability is assumed for incidental or consequential damages in connection with or arising out of the use of the information or programs contained herein. For information about buying this title in bulk quantities, or for special sales opportunities (which may include electronic versions; custom cover designs; and content particular to your business, training goals, marketing focus, or branding interests), please contact our corporate sales department at corpsales@pearsoned.com or (800) 382-3419. For government sales inquiries, please contact governmentsales@pearsoned.com. For questions about sales outside the U.S., please contact intlcs@pearsoned.com. Visit us on the Web: informit.com/aw Library of Congress Control Number: 2017953924 Copyright © 2018 Pearson Education, Inc. All rights reserved. Printed in the United States of America. This publication is protected by copyright, and permission must be obtained from the publisher prior to any prohibited reproduction, storage in a retrieval system, or transmission in any form or by any means, electronic, mechanical, photocopying, recording, or likewise. For information regarding permissions, request forms and the appropriate contacts within the Pearson Education Global Rights & Permissions Department, please visit www.pearsoned.com/permissions/. ISBN-13: 978-0-13-466760-7 ISBN-10: 0-13-466760-3 i is Editor-in-Chief Mark Taub Executive Editor Laura Lewin Development Editor Chris Zahn Managing Editor Sandra Schroeder Senior Project Editor Lori Lyon"
+    },
+    {
+      "label": "Page 7",
+      "location": {
+        "page": 7
+      },
+      "text": "Dedicated to all those creating and becoming the next generation of game designers."
+    },
+    {
+      "label": "Page 8",
+      "location": {
+        "page": 8
+      },
+      "text": "or - ose ome: ers a ANten ta: send Dy aint tol eet ang C tue ee) toy Ponape b, Alea dane ney a ’ apie wits GAN Oe 3, tee RE sda sta te mncpriwnae ds ae ss, ia ali capitals, 8 ‘th haar aed $i Mlimate hay ee : le sg ‘woe dr is hee aie Fe po chai! feaversecunguerann yy pies ouas etl midi Koeoivee iiinaditones _—_ 7 saneanereamanesnee ages ote hater — one tine css ili. ar | ‘Ee ie al ei Lok | ; Wegee eed on eld a Je, the Erie M. hey a7) i age her valiay aren at Ader, Thee Giubtitaianh is pa Dts ted ° ‘ : ea pew eae Pa ciaa ot tan “he pales pele to any prohibited 7 veotrandes Be a! iA, Oy iveareure tanner ay Uber. oe Ly-any adiand, Rapa WS ome genta cepytog, seceeheng, it RR eoe Pipe at mrmation ons dui Technica! Extiterrs ye eetas acters el alpha teat Poatyan f fuel Daniel Cou iy LAr, (ote wa! Rita hil a a rrnisions/, . Clan Gon beahah 7 ad 4 i‘, re 7 } : 5 4 x A ti ; Publishing Coordinaeh ‘Souetawy Mai | Caver a Crust Peivarsiin C= a, “me ="
+    }
+  ],
+  "preview_text": "A SYSTEMS APPROACH ADVANCED G ame Des Michael SELLERS\n\na a + — oe\n\nUniversity of South Wales AMANITA 2061993 Advanced Game Design",
+  "extraction_status": "ok",
+  "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "file_name": "Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+}

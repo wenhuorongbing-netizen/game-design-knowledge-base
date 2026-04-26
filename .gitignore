@@ -1,0 +1,26 @@
+# Local/private source materials and archives
+*.pdf
+*.epub
+*.mobi
+*.azw3
+*.cbz
+*.cbr
+*.7z
+*.zip
+*.rar
+
+# Dependency and build artifacts
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Environment and editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+

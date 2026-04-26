@@ -1,0 +1,70 @@
+{
+  "id": "note-compare-mechanics-vs-characteristics",
+  "entity_type": "card",
+  "title": "Game Mechanics: Advanced Game Design vs Characteristics of Games",
+  "summary": "Use Game Mechanics to model loops and internal economy, and use Characteristics of Games to describe uncertainty, information, and player effort precisely.",
+  "card_kind": "comparison_note",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "economy-system-design",
+  "resource_kind": "note",
+  "source_work_id": "game-mechanics-advanced-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking",
+    "economy-loops",
+    "formalism"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games"
+  ],
+  "related_card_ids": [
+    "work-game-mechanics-advanced-game-design",
+    "work-characteristics-of-games"
+  ],
+  "official_links": [
+    "https://www.informit.com/store/product.aspx?isbn=9780132946681",
+    "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+  ],
+  "local_links": [],
+  "body_markdown": "# Game Mechanics: Advanced Game Design vs Characteristics of Games\n\n> Use Game Mechanics to model loops and internal economy, and use Characteristics of Games to describe uncertainty, information, and player effort precisely.\n\n## Comparison Axis\n\n- system modeling vs game-analysis vocabulary\n\n## Game Mechanics: Advanced Game Design 更强在什么地方\n\n- 经济系统设计\n- 数值框架分析\n- 反馈回路审查\n- 复杂系统建模\n- Use when: You need to model resources, progression, or feedback loops and want a system-level representation.\n\n## Characteristics of Games 更强在什么地方\n\n- 结构化拆解\n- 规则审查\n- 多人系统分析\n- 分析语言\n- Use when: You need a sharper language for rules, information exposure, multiplayer structure, and formal analysis.\n\n## 如何一起使用\n\n- Describe the system with Characteristics first, then model the loop behavior with Game Mechanics.\n\n## Game Mechanics: Advanced Game Design 的结构证据\n\n- 这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。\n\n## Characteristics of Games 的结构证据\n\n- Characteristics of Games\n- Foreword\n- Preface\n- Acknowledgments\n- Introduction\n",
+  "body_html": "<h1 id=\"game-mechanics-advanced-game-design-vs-characteristics-of-games\">Game Mechanics: Advanced Game Design vs Characteristics of Games</h1>\n<blockquote>Use Game Mechanics to model loops and internal economy, and use Characteristics of Games to describe uncertainty, information, and player effort precisely.</blockquote>\n<h2 id=\"comparison-axis\">Comparison Axis</h2>\n<ul><li>system modeling vs game-analysis vocabulary</li></ul>\n<h2 id=\"game-mechanics-advanced-game-design-更强在什么地方\">Game Mechanics: Advanced Game Design 更强在什么地方</h2>\n<ul><li>经济系统设计</li><li>数值框架分析</li><li>反馈回路审查</li><li>复杂系统建模</li><li>Use when: You need to model resources, progression, or feedback loops and want a system-level representation.</li></ul>\n<h2 id=\"characteristics-of-games-更强在什么地方\">Characteristics of Games 更强在什么地方</h2>\n<ul><li>结构化拆解</li><li>规则审查</li><li>多人系统分析</li><li>分析语言</li><li>Use when: You need a sharper language for rules, information exposure, multiplayer structure, and formal analysis.</li></ul>\n<h2 id=\"如何一起使用\">如何一起使用</h2>\n<ul><li>Describe the system with Characteristics first, then model the loop behavior with Game Mechanics.</li></ul>\n<h2 id=\"game-mechanics-advanced-game-design-的结构证据\">Game Mechanics: Advanced Game Design 的结构证据</h2>\n<ul><li>这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。</li></ul>\n<h2 id=\"characteristics-of-games-的结构证据\">Characteristics of Games 的结构证据</h2>\n<ul><li>Characteristics of Games</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Introduction</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Mechanics: Advanced Game Design vs Characteristics of Games",
+      "id": "game-mechanics-advanced-game-design-vs-characteristics-of-games"
+    },
+    {
+      "level": 2,
+      "text": "Comparison Axis",
+      "id": "comparison-axis"
+    },
+    {
+      "level": 2,
+      "text": "Game Mechanics: Advanced Game Design 更强在什么地方",
+      "id": "game-mechanics-advanced-game-design-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "Characteristics of Games 更强在什么地方",
+      "id": "characteristics-of-games-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "如何一起使用",
+      "id": "如何一起使用"
+    },
+    {
+      "level": 2,
+      "text": "Game Mechanics: Advanced Game Design 的结构证据",
+      "id": "game-mechanics-advanced-game-design-的结构证据"
+    },
+    {
+      "level": 2,
+      "text": "Characteristics of Games 的结构证据",
+      "id": "characteristics-of-games-的结构证据"
+    }
+  ],
+  "search_text": "Game Mechanics: Advanced Game Design Characteristics of Games system modeling vs game-analysis vocabulary Use Game Mechanics to model loops and internal economy, and use Characteristics of Games to describe uncertainty, information, and player effort precisely. You need to model resources, progression, or feedback loops and want a system-level representation. You need a sharper language for rules, information exposure, multiplayer structure, and formal analysis. Describe the system with Characteristics first, then model the loop behavior with Game Mechanics. 经济系统设计 数值框架分析 反馈回路审查 复杂系统建模 结构化拆解 规则审查 多人系统分析"
+}

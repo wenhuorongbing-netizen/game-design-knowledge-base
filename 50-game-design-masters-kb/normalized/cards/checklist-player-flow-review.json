@@ -1,0 +1,56 @@
+{
+  "id": "checklist-player-flow-review",
+  "entity_type": "card",
+  "title": "玩家体验流畅度评审 Checklist",
+  "summary": "检查玩家是否被界面、反馈、切换和等待打断了体验节奏。",
+  "card_kind": "checklist",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "player-flow-review",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux",
+    "hit-feel"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "prompt-art-ui-experience",
+    "checklist-art-ui-experience"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 玩家体验流畅度评审 Checklist\n\n## 适用场景\n\n用于体验 polish review，或排查“没有大 bug 但玩起来总觉得卡、堵、断”的问题。\n\n## 检查项\n\n- 玩家最常见任务不会频繁被弹窗或层级跳转打断。\n- 关键状态切换有足够快且明确的反馈。\n- 等待、加载、过场和确认步骤数量可控。\n- 失败和重试的链路足够短。\n- 从一个系统跳到另一个系统时不会丢失上下文。\n- 需要玩家注意的信号强度与其重要性匹配。\n- 高频动作不会因为 UI 或动画过度而变慢。\n\n## 通过标准\n\n- 玩家能持续保持在目标任务流里。\n- 系统切换不会制造无谓摩擦。\n- 节奏问题可以被定位到具体节点。\n\n## 常见失败信号\n\n- 体验被大量小停顿切碎。\n- 玩家总在问“我接下来去哪/看哪”。\n- 界面和动画为了表现自己而压过了操作节奏。\n",
+  "body_html": "<h1 id=\"玩家体验流畅度评审-checklist\">玩家体验流畅度评审 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于体验 polish review，或排查“没有大 bug 但玩起来总觉得卡、堵、断”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>玩家最常见任务不会频繁被弹窗或层级跳转打断。</li><li>关键状态切换有足够快且明确的反馈。</li><li>等待、加载、过场和确认步骤数量可控。</li><li>失败和重试的链路足够短。</li><li>从一个系统跳到另一个系统时不会丢失上下文。</li><li>需要玩家注意的信号强度与其重要性匹配。</li><li>高频动作不会因为 UI 或动画过度而变慢。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>玩家能持续保持在目标任务流里。</li><li>系统切换不会制造无谓摩擦。</li><li>节奏问题可以被定位到具体节点。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>体验被大量小停顿切碎。</li><li>玩家总在问“我接下来去哪/看哪”。</li><li>界面和动画为了表现自己而压过了操作节奏。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "玩家体验流畅度评审 Checklist",
+      "id": "玩家体验流畅度评审-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "玩家体验流畅度评审 Checklist 检查玩家是否被界面、反馈、切换和等待打断了体验节奏。 用于体验 polish review，或排查“没有大 bug 但玩起来总觉得卡、堵、断”的问题。 玩家最常见任务不会频繁被弹窗或层级跳转打断。 关键状态切换有足够快且明确的反馈。 等待、加载、过场和确认步骤数量可控。 失败和重试的链路足够短。 从一个系统跳到另一个系统时不会丢失上下文。 需要玩家注意的信号强度与其重要性匹配。 高频动作不会因为 UI 或动画过度而变慢。 玩家能持续保持在目标任务流里。 系统切换不会制造无谓摩擦。 节奏问题可以被定位到具体节点。 体验被大量小停顿切碎。 玩家总在问“我接下来去哪/看哪”。 界面和动画为了表现自己而压过了操作节奏。 ui-ux hit-feel"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "note-compare-rules-vs-reader",
+  "entity_type": "card",
+  "title": "Rules of Play vs The Game Design Reader: A Rules of Play Anthology",
+  "summary": "Use Rules of Play to establish common design language, then use The Game Design Reader to widen that language with criticism, history, and case-driven context.",
+  "card_kind": "comparison_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "resource_kind": "note",
+  "source_work_id": "rules-of-play",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "formalism",
+    "design-fundamentals",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "rules-of-play",
+    "the-game-design-reader"
+  ],
+  "related_card_ids": [
+    "work-rules-of-play",
+    "work-the-game-design-reader"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262240451/rules-of-play",
+    "https://mitpress.mit.edu/9780262195362/the-game-design-reader"
+  ],
+  "local_links": [],
+  "body_markdown": "# Rules of Play vs The Game Design Reader: A Rules of Play Anthology\n\n> Use Rules of Play to establish common design language, then use The Game Design Reader to widen that language with criticism, history, and case-driven context.\n\n## Comparison Axis\n\n- core design framework vs anthology of critical and historical context\n\n## Rules of Play 更强在什么地方\n\n- 术语统一\n- 规则审查\n- 设计写作支撑\n- 基础框架\n- Use when: The team needs a stable framework for rules, systems, play, and meaning.\n\n## The Game Design Reader: A Rules of Play Anthology 更强在什么地方\n\n- 高层设计审查\n- 理论补课\n- 阅读小组共读\n- 跨书目比较\n- Use when: The team needs broader theoretical range, critical context, or shared reading for deeper design discussion.\n\n## 如何一起使用\n\n- Anchor the vocabulary with Rules of Play, then use the anthology to test and expand the team's conceptual range.\n\n## Rules of Play 的结构证据\n\n- 这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。\n\n## The Game Design Reader: A Rules of Play Anthology 的结构证据\n\n- 这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。\n",
+  "body_html": "<h1 id=\"rules-of-play-vs-the-game-design-reader-a-rules-of-play-anthology\">Rules of Play vs The Game Design Reader: A Rules of Play Anthology</h1>\n<blockquote>Use Rules of Play to establish common design language, then use The Game Design Reader to widen that language with criticism, history, and case-driven context.</blockquote>\n<h2 id=\"comparison-axis\">Comparison Axis</h2>\n<ul><li>core design framework vs anthology of critical and historical context</li></ul>\n<h2 id=\"rules-of-play-更强在什么地方\">Rules of Play 更强在什么地方</h2>\n<ul><li>术语统一</li><li>规则审查</li><li>设计写作支撑</li><li>基础框架</li><li>Use when: The team needs a stable framework for rules, systems, play, and meaning.</li></ul>\n<h2 id=\"the-game-design-reader-a-rules-of-play-anthology-更强在什么地方\">The Game Design Reader: A Rules of Play Anthology 更强在什么地方</h2>\n<ul><li>高层设计审查</li><li>理论补课</li><li>阅读小组共读</li><li>跨书目比较</li><li>Use when: The team needs broader theoretical range, critical context, or shared reading for deeper design discussion.</li></ul>\n<h2 id=\"如何一起使用\">如何一起使用</h2>\n<ul><li>Anchor the vocabulary with Rules of Play, then use the anthology to test and expand the team&#39;s conceptual range.</li></ul>\n<h2 id=\"rules-of-play-的结构证据\">Rules of Play 的结构证据</h2>\n<ul><li>这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。</li></ul>\n<h2 id=\"the-game-design-reader-a-rules-of-play-anthology-的结构证据\">The Game Design Reader: A Rules of Play Anthology 的结构证据</h2>\n<ul><li>这本书当前没有提取出足够强的 TOC anchors，优先参考它的 work 条目和 evidence note。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Rules of Play vs The Game Design Reader: A Rules of Play Anthology",
+      "id": "rules-of-play-vs-the-game-design-reader-a-rules-of-play-anthology"
+    },
+    {
+      "level": 2,
+      "text": "Comparison Axis",
+      "id": "comparison-axis"
+    },
+    {
+      "level": 2,
+      "text": "Rules of Play 更强在什么地方",
+      "id": "rules-of-play-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "The Game Design Reader: A Rules of Play Anthology 更强在什么地方",
+      "id": "the-game-design-reader-a-rules-of-play-anthology-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "如何一起使用",
+      "id": "如何一起使用"
+    },
+    {
+      "level": 2,
+      "text": "Rules of Play 的结构证据",
+      "id": "rules-of-play-的结构证据"
+    },
+    {
+      "level": 2,
+      "text": "The Game Design Reader: A Rules of Play Anthology 的结构证据",
+      "id": "the-game-design-reader-a-rules-of-play-anthology-的结构证据"
+    }
+  ],
+  "search_text": "Rules of Play The Game Design Reader: A Rules of Play Anthology core design framework vs anthology of critical and historical context Use Rules of Play to establish common design language, then use The Game Design Reader to widen that language with criticism, history, and case-driven context. The team needs a stable framework for rules, systems, play, and meaning. The team needs broader theoretical range, critical context, or shared reading for deeper design discussion. Anchor the vocabulary with Rules of Play, then use the anthology to test and expand the team's conceptual range. 术语统一 规则审查 设计写作支撑 高层设计审查 理论补课 阅读小组共读 跨书目比较"
+}

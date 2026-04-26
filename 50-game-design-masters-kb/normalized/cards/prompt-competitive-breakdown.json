@@ -1,0 +1,63 @@
+{
+  "id": "prompt-competitive-breakdown",
+  "entity_type": "card",
+  "title": "竞品拆解 Prompt 模板",
+  "summary": "把竞品分析压成方向判断、结构差异和可借鉴/不可抄用的结论。",
+  "card_kind": "prompt_template",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "competitive-breakdown",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "project-audit",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "level-up"
+  ],
+  "related_card_ids": [
+    "prompt-initiation-direction",
+    "checklist-initiation-direction"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 竞品拆解 Prompt 模板\n\n## 适用场景\n\n当团队正在拿竞品做方向参照，但讨论停留在“像不像、酷不酷、卖得好不好”时使用。\n\n## 使用前提供\n\n- 你的项目一句话概念\n- 3-5 个直接竞品\n- 每个竞品最强与最弱的地方\n- 你最想借鉴和最怕重复的部分\n- 当前项目的资源和平台约束\n\n## 预期输出\n\n1. 竞品分层\n2. 核心差异判断\n3. 可借鉴要素\n4. 不可照搬要素\n5. 机会区间\n6. 对当前项目的方向建议\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏总监和竞品拆解顾问。\n请不要写市场套话，而是把竞品分析压成对项目方向有帮助的结论。\n\n输入：\n- 我们的项目：{{project_pitch}}\n- 竞品列表：{{competitors}}\n- 竞品优点：{{competitor_strengths}}\n- 竞品弱点：{{competitor_weaknesses}}\n- 想借鉴的部分：{{wanted_lessons}}\n- 不想重复的部分：{{avoid_copying}}\n- 资源/平台约束：{{constraints}}\n\n请输出：\n1. 竞品分层：哪些是直接竞品，哪些只是题材或情绪参考。\n2. 核心差异：我们的项目最应该和他们在哪些点拉开。\n3. 可借鉴要素：哪些机制、表达、节奏值得学。\n4. 不可照搬要素：哪些设计在我们的约束下会失真。\n5. 机会区间：还有哪些需求或体验没有被满足。\n6. 方向建议：这份竞品拆解会怎样改变我们的立项结论。\n\n要求：\n- 明确指出“看起来像机会、实际上是陷阱”的点。\n- 区分题材相似、体验相似、系统相似。\n- 最后给出一句方向建议。\n```\n\n## 二次追问\n\n- 按 PC / 主机 / 移动端分别重做一版判断。\n- 只围绕核心循环再拆一层竞品差异。\n",
+  "body_html": "<h1 id=\"竞品拆解-prompt-模板\">竞品拆解 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当团队正在拿竞品做方向参照，但讨论停留在“像不像、酷不酷、卖得好不好”时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>你的项目一句话概念</li><li>3-5 个直接竞品</li><li>每个竞品最强与最弱的地方</li><li>你最想借鉴和最怕重复的部分</li><li>当前项目的资源和平台约束</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>竞品分层</li><li>核心差异判断</li><li>可借鉴要素</li><li>不可照搬要素</li><li>机会区间</li><li>对当前项目的方向建议</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏总监和竞品拆解顾问。\n请不要写市场套话，而是把竞品分析压成对项目方向有帮助的结论。\n\n输入：\n- 我们的项目：{{project_pitch}}\n- 竞品列表：{{competitors}}\n- 竞品优点：{{competitor_strengths}}\n- 竞品弱点：{{competitor_weaknesses}}\n- 想借鉴的部分：{{wanted_lessons}}\n- 不想重复的部分：{{avoid_copying}}\n- 资源/平台约束：{{constraints}}\n\n请输出：\n1. 竞品分层：哪些是直接竞品，哪些只是题材或情绪参考。\n2. 核心差异：我们的项目最应该和他们在哪些点拉开。\n3. 可借鉴要素：哪些机制、表达、节奏值得学。\n4. 不可照搬要素：哪些设计在我们的约束下会失真。\n5. 机会区间：还有哪些需求或体验没有被满足。\n6. 方向建议：这份竞品拆解会怎样改变我们的立项结论。\n\n要求：\n- 明确指出“看起来像机会、实际上是陷阱”的点。\n- 区分题材相似、体验相似、系统相似。\n- 最后给出一句方向建议。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>按 PC / 主机 / 移动端分别重做一版判断。</li><li>只围绕核心循环再拆一层竞品差异。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "竞品拆解 Prompt 模板",
+      "id": "竞品拆解-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "竞品拆解 Prompt 模板 把竞品分析压成方向判断、结构差异和可借鉴/不可抄用的结论。 当团队正在拿竞品做方向参照，但讨论停留在“像不像、酷不酷、卖得好不好”时使用。 你的项目一句话概念 3-5 个直接竞品 每个竞品最强与最弱的地方 你最想借鉴和最怕重复的部分 当前项目的资源和平台约束 竞品分层 核心差异判断 可借鉴要素 不可照搬要素 机会区间 对当前项目的方向建议 design-fundamentals project-audit prompt-design"
+}

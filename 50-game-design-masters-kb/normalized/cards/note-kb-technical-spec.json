@@ -1,0 +1,590 @@
+{
+  "id": "note-kb-technical-spec",
+  "entity_type": "card",
+  "title": "游戏设计知识库技术规格书",
+  "summary": "游戏设计知识库技术规格书",
+  "card_kind": "spec_template",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/catalog/05-kb-technical-spec.md",
+  "theme_tags": [
+    "project-audit",
+    "prompt-design"
+  ],
+  "related_work_ids": [],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "05-kb-technical-spec.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/catalog/05-kb-technical-spec.md"
+    }
+  ],
+  "body_markdown": "# 游戏设计知识库技术规格书\n\n## 1. 文档目的\n\n本文定义一个可在当前仓库内实现的、本地优先、合法合规的“游戏设计知识库系统”。\n\n系统目标不是简单下载 PDF，而是构建一套可持续运行的研究与检索基础设施，使你能：\n\n- 从网上抓取合法可获取的游戏设计书籍、文章、课程和研究素材。\n- 对受版权保护的商业书只抓官方元数据、目录、摘要和购买入口。\n- 接收你后续手动提供的正版电子书或导出笔记。\n- 按“开发阶段大类 + 输出物子类”组织知识，而不是按岗位头衔。\n- 在本地静态页面中完成浏览、过滤、检索、阅读和缺失材料盘点。\n\n本文是后续实现阶段的唯一技术依据。你回复 `build` 后，后续实现必须严格按本 spec 落地。\n\n---\n\n## 2. 产品目标\n\n### 2.1 核心目标\n\n构建一个面向游戏设计研究与 prompt 生产的本地知识库，服务以下工作流：\n\n1. 收集来源\n2. 归档原始材料\n3. 标准化元数据\n4. 提炼知识卡片\n5. 映射到开发阶段分类\n6. 提供搜索与阅读入口\n7. 输出“还缺哪些正版材料”的清单\n\n### 2.2 成功标准\n\n- V1 能稳定抓取开放许可或允许本地归档的来源。\n- V1 能索引受版权保护书籍的官方信息，但不非法保存全文。\n- V1 能接收你手动补充的正版电子书，并纳入统一索引。\n- V1 能按你给定的 8 个大类组织知识，并默认优先展示 6 个母类。\n- V1 能生成一份机器可读的知识库索引和一份人类可读的缺失材料清单。\n- V1 不依赖 Python、不依赖数据库服务、不依赖外部后端。\n\n---\n\n## 3. 非目标\n\n以下内容明确不做：\n\n- 不破解 DRM。\n- 不下载盗版商业书。\n- 不抓取版权状态不明确的第三方 PDF 镜像站。\n- 不做云端账号系统。\n- 不做在线协作编辑。\n- 不做向量数据库或 LLM 服务端。\n- 不做图像 OCR 作为 V1 必选功能。\n\n---\n\n## 4. 设计原则\n\n### 4.1 合法优先\n\n所有源按权限分级：\n\n- 可抓全文并本地保存\n- 只抓官方元数据\n- 只保留外链\n- 必须等待用户提供正版文件\n\n### 4.2 本地优先\n\n所有数据、索引、页面都在仓库内生成，可离线浏览。\n\n### 4.3 结构优先于囤积\n\n先建立统一 schema、分类法、来源注册表，再扩大采集量。\n\n### 4.4 实现约束清晰\n\nV1 只使用：\n\n- Node.js 内置能力\n- HTML / CSS / 原生 JS\n- JSON / Markdown / 本地文件系统\n\n### 4.5 面向任务而不是头衔\n\n第一层按开发阶段大类组织。\n\n第二层按输出物子类组织。\n\n第三层用主题标签承接低频但风格强的内容。\n\n---\n\n## 5. V1 信息架构\n\n## 5.1 分类总览\n\n知识库 schema 支持 8 个一级大类。\n\n门户默认优先展示 6 个母类。\n\n### 一级大类\n\n1. 立项与方向\n2. 核心玩法与系统设计\n3. 数值与经济设计\n4. 内容与叙事\n5. 美术、UI、体验表达\n6. 开发实现\n7. 测试、验收与审计\n8. 运营与发布\n\n### V1 默认主展示的 6 个母类\n\n1. 立项与方向\n2. 核心玩法与系统设计\n3. 数值与经济设计\n4. 开发实现\n5. 测试、验收与审计\n6. 美术、UI、体验表达\n\n### V1 次级展示类\n\n- 内容与叙事\n- 运营与发布\n\n这两个类在 schema 中完整存在，但 UI 默认收纳到“扩展分类”区域。\n\n## 5.2 二级分类：输出物子类\n\n二级分类不是岗位，不是学科，而是你真正会点开的交付物。\n\n### 立项与方向\n\n- 游戏方向收敛\n- 核心玩法判断\n- 玩家画像与目标市场\n- 平台适配判断\n- 竞品拆解\n- 风险预判\n- MVP 范围裁剪\n- 游戏总监视角评审\n\n### 核心玩法与系统设计\n\n- 核心循环设计\n- 单机制原型设计\n- 战斗系统设计\n- 关卡机制设计\n- 生存/成长/资源循环设计\n- 失败条件与胜利条件设计\n- 难度曲线设计\n- 新手引导设计\n- Meta progression 设计\n\n### 数值与经济设计\n\n- 数值框架设计\n- 战斗数值平衡\n- 资源产出消耗设计\n- 经济系统设计\n- 货币系统设计\n- 成长曲线设计\n- 掉落与奖励设计\n- 商业化数值评估\n\n### 内容与叙事\n\n- 世界观设定\n- 剧情主线设计\n- 支线任务设计\n- 角色设定\n- 对话写作\n- 任务文本设计\n- 叙事结构评审\n- 内容生成约束\n\n### 美术、UI、体验表达\n\n- 游戏美术方向\n- HUD / UI 结构设计\n- 视觉风格统一\n- 场景与角色资产规格\n- 动效与打击感表达\n- 技术美术规范\n- 可读性与可访问性评审\n- 玩家体验流畅度评审\n\n### 开发实现\n\n- 技术方案 spec\n- 原型实现 prompt\n- 客户端开发\n- 工具链开发\n- 存档/状态机/输入系统\n- 性能优化\n- 重构与 cleanup\n- bug 修复\n\n### 测试、验收与审计\n\n- 玩法验收\n- 版本验收\n- 平衡性验收\n- 新手体验验收\n- UI / 可用性验收\n- Bug triage\n- 回归测试检查单\n- 项目状态审计\n\n### 运营与发布\n\n- 发布前检查\n- 商店页文案\n- 分享传播机制设计\n- 评分/排行榜机制\n- 留存优化\n- 活动策划\n- 社群传播点设计\n- 更新路线图\n\n## 5.3 第三层：主题标签\n\n第三层用来承接低频但风格强的主题，不做主入口。\n\n主题标签示例：\n\n- 世界观\n- 对话\n- 美术风格\n- 商业化\n- 打击感\n- 新手引导\n- MMO\n- 生存\n- Roguelite\n- 卡牌\n- 经济循环\n- 叙事结构\n- UI 可读性\n\n---\n\n## 6. 资源类型\n\nV1 支持以下资源类型：\n\n- 书籍\n- 书籍章节\n- 论文\n- 博客文章\n- 课程页面\n- 课程 PDF\n- 演讲或讲稿\n- 设计模板\n- 检查单\n- Prompt 模板\n- 知识卡片\n- 内部笔记\n\nV1 不把“美术素材站抓图”作为主目标。\n\n这里的“素材”限定为研究材料和设计参考物，不是游戏生产资产库。\n\n---\n\n## 7. 合法性与抓取策略\n\n## 7.1 抓取政策枚举\n\n每个来源必须声明 `acquisition_policy`：\n\n- `open_fulltext_fetch`\n- `open_metadata_fetch`\n- `official_metadata_only`\n- `external_link_only`\n- `user_supplied_fulltext`\n- `manual_review`\n\n## 7.2 各政策含义\n\n### `open_fulltext_fetch`\n\n允许抓取并在仓库中保存全文或原始文件。\n\n适用：\n\n- CC 许可课程材料\n- 作者授权 PDF\n- MIT OCW 课程 PDF\n\n### `open_metadata_fetch`\n\n允许抓元数据、摘要、目录或公开页面，但不一定保存整本文件。\n\n适用：\n\n- 开放访问书目页\n- 官方目录页\n\n### `official_metadata_only`\n\n只抓官方元数据，不保存全文。\n\n适用：\n\n- 商业书出版页\n- 出版社样章页\n- 官方介绍页\n\n### `external_link_only`\n\n只保留链接和人工摘要，不抓文件。\n\n适用：\n\n- 对方明确不允许再托管\n- 页面复杂且版权边界易混淆\n\n### `user_supplied_fulltext`\n\n系统可以接收本地文件，但必须由用户手动提供。\n\n适用：\n\n- 你已购买的电子书\n- 你自己导出的笔记、批注、目录\n\n### `manual_review`\n\n默认不自动抓取，等人工判定。\n\n## 7.3 V1 明确允许抓取并本地保存的来源\n\n- `Game Design Concepts`\n- MIT OCW 游戏设计课程 PDF\n- Richard Bartle 官方授权 PDF / DOCX\n- MDA 论文官方 PDF\n\n## 7.4 V1 只抓官方元数据的来源\n\n- Schell Games / Routledge 上的 `The Art of Game Design`\n- MIT Press 商业书页\n- Routledge 商业书页\n- InformIT / Pearson 商业书页\n- Wiley 商业书页\n\n## 7.5 V1 只保留外链的来源\n\n- `Game AI Pro`\n\n原因：\n\n- 官方站点允许个人下载\n- 但页面明确禁止其他站点重新分发或托管\n- 仓库存档会构成再托管风险\n\n---\n\n## 8. V1 来源清单\n\n## 8.1 开放全文来源\n\n### `Game Design Concepts`\n\n- 类型：课程 / 博客\n- 用途：设计基础、迭代、原型、平衡、叙事\n- 官方站点：<https://gamedesignconcepts.wordpress.com/>\n- 许可页：<https://gamedesignconcepts.wordpress.com/about/>\n- 抓取方式：HTML 页面抓取 + 本地快照\n\n### MIT OpenCourseWare\n\n- 类型：课程 / PDF\n- 用途：作业样例、规则写作、原型、Playtest\n- 官方站点：\n  - <https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/>\n  - <https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/>\n  - <https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/>\n- 抓取方式：课程页解析 + PDF 直链下载\n\n### Richard Bartle\n\n- 类型：作者站 / 授权书籍\n- 用途：在线世界、玩家类型、身份与社交系统\n- 官方站点：\n  - <https://mud.co.uk/dvw/>\n  - <https://mud.co.uk/richard/papers.htm>\n- 抓取方式：PDF / DOCX 直链下载\n\n### MDA\n\n- 类型：论文\n- 用途：Mechanics / Dynamics / Aesthetics 分析框架\n- 官方 PDF：<https://users.cs.northwestern.edu/~hunicke/MDA.pdf>\n- 抓取方式：PDF 直链下载\n\n## 8.2 官方元数据来源\n\n### 商业书官方页面\n\n- `The Art of Game Design`\n  - <https://schellgames.com/art-of-game-design>\n  - <https://www.routledge.com/link/link/p/book/9781138632059>\n- `Rules of Play`\n  - <https://mitpress.mit.edu/9780262240451/rules-of-play>\n- `Characteristics of Games`\n  - <https://mitpress.mit.edu/9780262542692/characteristics-of-games/>\n- `Game Design Workshop`\n  - <https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009>\n- `Game Feel`\n  - <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282>\n- `Game Mechanics: Advanced Game Design`\n  - <https://www.informit.com/store/product.aspx?isbn=9780132946681>\n- `Advanced Game Design: A Systems Approach`\n  - <https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246>\n- `A Theory of Fun for Game Design`\n  - <https://www.theoryoffun.com/>\n- `Level Up! The Guide to Great Video Game Design`\n  - <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx>\n- `The Rule Book`\n  - <https://mitpress.mit.edu/9780262377539/the-rule-book/>\n\n---\n\n## 9. 数据模型\n\nV1 不使用数据库。\n\n所有内容使用 JSON + Markdown + 原始文件落盘。\n\n## 9.1 实体类型\n\n### Source\n\n定义外部来源站点与抓取策略。\n\n字段：\n\n- `id`\n- `name`\n- `base_url`\n- `source_type`\n- `acquisition_policy`\n- `allowed_file_types`\n- `rate_limit_ms`\n- `notes`\n\n### Work\n\n表示一本书、一门课、一篇论文或一个材料集合。\n\n字段：\n\n- `id`\n- `title`\n- `authors`\n- `year`\n- `kind`\n- `canonical_url`\n- `publisher_or_source`\n- `language`\n- `license`\n- `access_mode`\n- `summary`\n- `topics`\n- `keywords`\n\n### Resource\n\n表示某个具体页面、PDF、HTML 快照、样章、用户文件或外链。\n\n字段：\n\n- `id`\n- `work_id`\n- `resource_kind`\n- `source_id`\n- `remote_url`\n- `local_path`\n- `mime_type`\n- `fetch_status`\n- `checksum`\n- `fetched_at`\n- `last_modified`\n\n### Knowledge Card\n\n这是知识库的核心阅读对象。\n\n字段：\n\n- `id`\n- `title`\n- `work_id`\n- `card_kind`\n- `phase_group`\n- `deliverable_type`\n- `theme_tags`\n- `summary`\n- `key_points`\n- `usage_relevance`\n- `recommended_for`\n- `related_cards`\n- `source_refs`\n- `availability`\n\n### Material Request\n\n表示系统识别出的缺失材料。\n\n字段：\n\n- `id`\n- `title`\n- `author`\n- `priority`\n- `reason`\n- `preferred_format`\n- `official_links`\n- `status`\n\n## 9.2 枚举字段\n\n### `kind`\n\n- `book`\n- `paper`\n- `article`\n- `course`\n- `talk`\n- `template`\n- `checklist`\n- `prompt_pack`\n- `note`\n\n### `card_kind`\n\n- `source_overview`\n- `concept_card`\n- `reading_note`\n- `prompt_template`\n- `checklist`\n- `spec_template`\n- `example_case`\n- `book_entry`\n\n### `availability`\n\n- `downloaded_open`\n- `metadata_only`\n- `external_only`\n- `user_file_needed`\n\n---\n\n## 10. 文件结构\n\n实现必须使用以下目录结构：\n\n```text\nfounder-of-the-north/\n  kb-tools/\n    sync-open-sources.mjs\n    sync-official-metadata.mjs\n    ingest-user-files.mjs\n    normalize-library.mjs\n    build-kb-index.mjs\n    build-kb-portal-data.mjs\n    report-missing-materials.mjs\n    validate-kb.mjs\n\n  kb-portal/\n    index.html\n    styles.css\n    app.js\n    data.js\n    content.js\n\n  knowledge/\n    50-game-design-masters-kb/\n      README.md\n      catalog/\n      notes/\n      registry/\n        sources.json\n        works.json\n        material-requests.json\n        taxonomy.json\n      incoming/\n        user-supplied/\n      raw/\n        open-web/\n        official-metadata/\n      normalized/\n        works/\n        cards/\n      indexes/\n        library-index.json\n        search-index.json\n      reports/\n        missing-materials.md\n        source-audit.md\n```\n\n说明：\n\n- `kb-tools/` 放 Node 脚本。\n- `kb-portal/` 放独立静态门户，不改现有 `docs-portal/`。\n- `registry/` 放来源注册表与分类法。\n- `incoming/user-supplied/` 放你手工提供的正版文件。\n- `raw/` 保存原始抓取结果。\n- `normalized/` 保存标准化后的结构化内容。\n- `indexes/` 保存门户所需 JSON。\n- `reports/` 保存自动生成的人类可读报告。\n\n---\n\n## 11. 抓取与处理流水线\n\n## 11.1 步骤 1：建立来源注册表\n\n输入：\n\n- 固定 JSON 清单\n\n输出：\n\n- `registry/sources.json`\n- `registry/works.json`\n- `registry/taxonomy.json`\n\n要求：\n\n- 每个来源必须声明抓取政策\n- 每个作品必须声明可用性和官方入口\n\n## 11.2 步骤 2：抓取开放全文来源\n\n脚本：\n\n- `kb-tools/sync-open-sources.mjs`\n\n功能：\n\n- 拉取允许本地保存的 HTML / PDF / DOCX\n- 保存到 `raw/open-web/`\n- 记录抓取时间、URL、大小、checksum\n\n约束：\n\n- 严格按白名单来源抓取\n- 默认 1 请求串行，带最小延迟\n- 不实现站点递归爬虫\n- 只抓注册表中显式列出的 URL\n\n## 11.3 步骤 3：抓取官方元数据\n\n脚本：\n\n- `kb-tools/sync-official-metadata.mjs`\n\n功能：\n\n- 抓取官方书籍页标题、作者、摘要、目录、ISBN、出版信息、购买页\n- 保存到 `raw/official-metadata/`\n\n约束：\n\n- 不下载商业书全文\n- 不保存超过页面允许范围的受版权内容\n\n## 11.4 步骤 4：接收用户文件\n\n脚本：\n\n- `kb-tools/ingest-user-files.mjs`\n\n输入目录：\n\n- `knowledge/50-game-design-masters-kb/incoming/user-supplied/`\n\n支持格式：\n\n- `.pdf`\n- `.epub`\n- `.md`\n- `.txt`\n- `.json`\n\nV1 约束：\n\n- 优先支持文本型 PDF、EPUB、Markdown、TXT\n- 不强制支持图片扫描 PDF 的 OCR\n\n文件命名规范：\n\n`Author - Title (Edition, Year).ext`\n\n若无法标准命名，可允许配套 sidecar：\n\n`Author - Title.meta.json`\n\n## 11.5 步骤 5：标准化\n\n脚本：\n\n- `kb-tools/normalize-library.mjs`\n\n功能：\n\n- 为所有 Work 生成统一 JSON\n- 为所有资源生成统一索引项\n- 为重点来源生成知识卡片\n\n输出：\n\n- `normalized/works/*.json`\n- `normalized/cards/*.md`\n- `normalized/cards/*.json`\n\n标准化要求：\n\n- 生成统一 slug\n- 去重 canonical URL\n- 统一作者数组格式\n- 统一许可证与可用性枚举\n- 自动补全 phase group 与 deliverable type\n\n## 11.6 步骤 6：建立索引\n\n脚本：\n\n- `kb-tools/build-kb-index.mjs`\n\n输出：\n\n- `indexes/library-index.json`\n- `indexes/search-index.json`\n\nV1 搜索策略：\n\n- 不使用向量\n- 不使用第三方搜索库\n- 使用预拼接的 `search_text`\n- 前端使用大小写无关子串匹配\n- 中文搜索使用直接子串匹配\n\n## 11.7 步骤 7：生成门户数据\n\n脚本：\n\n- `kb-tools/build-kb-portal-data.mjs`\n\n输出：\n\n- `kb-portal/data.js`\n- `kb-portal/content.js`\n\n要求：\n\n- `data.js` 存放列表页数据与 taxonomy\n- `content.js` 存放卡片正文与摘要\n\n## 11.8 步骤 8：生成缺失材料报告\n\n脚本：\n\n- `kb-tools/report-missing-materials.mjs`\n\n输出：\n\n- `reports/missing-materials.md`\n- `registry/material-requests.json`\n\n要求：\n\n- 报告必须按优先级排序\n- 必须说明为什么需要这本书\n- 必须说明建议你提供的文件格式\n\n## 11.9 步骤 9：校验\n\n脚本：\n\n- `kb-tools/validate-kb.mjs`\n\n校验内容：\n\n- JSON schema 是否完整\n- 引用的本地文件是否存在\n- taxonomy 值是否合法\n- 重复 slug 检查\n- 缺失 summary 检查\n- 链接可用性仅做格式校验，不做强制联网校验\n\n---\n\n## 12. 门户功能规格\n\n门户是一个独立静态页面应用，路径为 `kb-portal/index.html`。\n\n## 12.1 页面结构\n\n### 左侧\n\n- 一级分类导航\n- 二级输出物过滤\n- 来源类型过滤\n- 可用性过滤\n- 搜索框\n\n### 中间\n\n- 卡片列表\n- 卡片摘要\n- 排序选项\n\n### 右侧\n\n- 详情阅读区\n- 元数据面板\n- 相关条目\n- 官方入口\n- 本地文件打开链接\n\n## 12.2 必须支持的过滤器\n\n- 一级分类\n- 二级输出物\n- 资源类型\n- 可用性\n- 来源\n- 是否已本地下载\n- 是否需要用户补充\n\n## 12.3 必须支持的列表模式\n\n- 所有条目\n- 仅开放全文\n- 仅商业书元数据\n- 仅用户待补材料\n- 仅 prompt / checklist / spec 类卡片\n\n## 12.4 条目详情页必须展示\n\n- 标题\n- 作者\n- 年份\n- 一级分类\n- 二级输出物\n- 摘要\n- 核心要点\n- 适用场景\n- 获取方式\n- 官方链接\n- 本地文件链接\n- 相关条目\n\n## 12.5 门户视觉约束\n\n- 不复用现有 `docs-portal` 的项目文档 taxonomy\n- 视觉可借鉴现有 portal 的阅读优先布局\n- 必须清晰区分“已下载全文”和“只有官方入口”\n\n---\n\n## 13. 初始内容策略\n\nV1 初始内容分 4 层：\n\n### 层 1：已下载开放材料\n\n- `Game Design Concepts`\n- MIT OCW\n- Richard Bartle\n- MDA\n\n### 层 2：商业书官方条目\n\n- 仅元数据\n- 仅官方链接\n- 仅短摘要\n\n### 层 3：知识卡片\n\n每本核心书或课程至少要有一张 `book_entry` 或 `source_overview` 卡片。\n\n### 层 4：Prompt 导向卡片\n\n针对 6 个母类，每个类至少要有 1 组导向卡片：\n\n- 立项与方向\n- 核心玩法与系统设计\n- 数值与经济设计\n- 开发实现\n- 测试、验收与审计\n- 美术、UI、体验表达\n\n这些导向卡片先是知识入口，不在 V1 强制生成完整 prompt 文本库。\n\n---\n\n## 14. 需要你后续获取并提供的材料\n\n下列材料如果能提供正版电子版，知识库质量会明显提升。\n\n优先级定义：\n\n- P0：强烈建议第一时间提供\n- P1：建议第二批提供\n- P2：可选\n\n## 14.1 P0 必要材料\n\n### `The Art of Game Design: A Book of Lenses`\n\n- 作者：Jesse Schell\n- 原因：这是“立项与方向”和“核心玩法判断”的最高价值主干书之一\n- 期望格式：DRM-free EPUB / 文本型 PDF / 你自己的阅读笔记导出\n- 官方入口：\n  - <https://schellgames.com/art-of-game-design>\n  - <https://www.routledge.com/link/link/p/book/9781138632059>\n\n### `Game Design Workshop`\n\n- 作者：Tracy Fullerton\n- 原因：这是“原型、试玩、迭代”最重要的流程书\n- 期望格式：EPUB / 文本型 PDF\n- 官方入口：\n  - <https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009>\n\n### `Game Mechanics: Advanced Game Design`\n\n- 作者：Ernest Adams, Joris Dormans\n- 原因：这是“数值与经济设计”以及系统建模的核心书\n- 期望格式：EPUB / 文本型 PDF\n- 官方入口：\n  - <https://www.informit.com/store/product.aspx?isbn=9780132946681>\n\n### `Game Feel`\n\n- 作者：Steve Swink\n- 原因：这是“打击感、动效反馈、控制响应”的主干书\n- 期望格式：EPUB / 文本型 PDF\n- 官方入口：\n  - <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282>\n\n### `Rules of Play`\n\n- 作者：Katie Salen Tekinbaş, Eric Zimmerman\n- 原因：这是“规则、系统、意义”语言体系的核心书\n- 期望格式：EPUB / 文本型 PDF\n- 官方入口：\n  - <https://mitpress.mit.edu/9780262240451/rules-of-play>\n\n## 14.2 P1 高价值材料\n\n### `Characteristics of Games`\n\n- 作者：George Skaff Elias, Richard Garfield, K. Robert Gutschera\n- 原因：适合建立形式化分析卡片\n- 官方入口：\n  - <https://mitpress.mit.edu/9780262542692/characteristics-of-games/>\n\n### `A Theory of Fun for Game Design`\n\n- 作者：Raph Koster\n- 原因：适合“好玩、学习、掌握、重复感”分析\n- 官方入口：\n  - <https://www.theoryoffun.com/>\n\n### `Level Up! The Guide to Great Video Game Design`\n\n- 作者：Scott Rogers\n- 原因：适合“设计文档、生产表达、关卡与流程”\n- 官方入口：\n  - <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx>\n\n### `Challenges for Game Designers`\n\n- 作者：Brenda Romero, Ian Schreiber\n- 原因：适合把知识库扩展成训练型 prompt 库\n- 期望格式：EPUB / 文本型 PDF / 你自己的题目摘录\n\n## 14.3 P2 可选材料\n\n### `Advanced Game Design: A Systems Approach`\n\n- 作者：Michael Sellers\n- 官方入口：\n  - <https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246>\n\n### `The Aesthetic of Play`\n\n- 作者：Brian Upton\n- 官方入口：\n  - <https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/>\n\n### `Play Matters`\n\n- 作者：Miguel Sicart\n- 官方入口：\n  - <https://mitpress.mit.edu/9780262534512/play-matters/>\n\n### `The Rule Book`\n\n- 作者：Jaakko Stenros, Markus Montola\n- 说明：这是 MIT Press 开放获取书，可以先抓元数据与官方 OA 页，后续如需要再做更深卡片\n- 官方入口：\n  - <https://mitpress.mit.edu/9780262377539/the-rule-book/>\n\n## 14.4 用户提供格式要求\n\n推荐优先级如下：\n\n1. EPUB\n2. 文本型 PDF\n3. 你自己的摘要 / 读书笔记 Markdown\n4. 扫描 PDF 仅在没有其他版本时使用\n\n如果某本书只有 DRM 平台版本，V1 不强求导入原文。你可以先提供：\n\n- 目录\n- 你手抄或导出的重点摘录\n- 章节笔记\n\n系统一样可以索引这些内容。\n\n---\n\n## 15. 实施阶段\n\n## Phase 0：脚手架\n\n- 建立目录结构\n- 建立 taxonomy\n- 建立来源注册表\n\n## Phase 1：抓取器\n\n- 完成开放来源抓取\n- 完成商业书元数据抓取\n- 完成用户文件接收\n\n## Phase 2：标准化层\n\n- 统一 Work / Resource / Card schema\n- 生成 normalized JSON\n- 生成卡片 Markdown\n\n## Phase 3：索引与报告\n\n- 生成 library index\n- 生成 search index\n- 生成 missing materials 报告\n\n## Phase 4：门户\n\n- 构建静态浏览器\n- 接入 filters\n- 接入详情阅读\n\n## Phase 5：内容填充\n\n- 为 6 个母类建立首批导向卡片\n- 为核心书单建立条目\n- 为开放来源生成入口卡片\n\n---\n\n## 16. 验收标准\n\n系统被视为完成，必须同时满足：\n\n1. 仓库中存在独立 `kb-portal/`，可直接打开浏览。\n2. 仓库中存在独立 `kb-tools/`，所有脚本可由 Node 直接执行。\n3. 能成功重建开放来源索引，不依赖手工编辑。\n4. 能生成商业书元数据卡片，不下载商业书全文。\n5. 能扫描 `incoming/user-supplied/` 并纳入索引。\n6. 能按 8 类 schema 分类，且门户默认主展示 6 个母类。\n7. 能生成 `missing-materials.md`。\n8. 不修改现有 `docs-portal` 的逻辑与 taxonomy。\n\n---\n\n## 17. 后续扩展但不属于 V1\n\n- 卡片级双向链接网络\n- 阅读进度状态\n- 引文高亮与片段引用\n- OCR 接入\n- 嵌入向量检索\n- 自动 prompt 组合器\n- 从知识卡片生成项目专用设计审查模板\n\n---\n\n## 18. 实现决策总结\n\n这套系统在 V1 的关键取舍如下：\n\n- 用文件系统，不用数据库\n- 用 Node 原生能力，不用 Python\n- 用静态门户，不用服务端\n- 先做合法来源与用户提供材料的统一入口，不碰盗版抓取\n- 先做 8 类 schema，默认突出 6 个母类\n- 先做“知识入口 + 资料盘点”，再做完整 prompt 工厂\n\n这就是后续 `build` 阶段必须遵守的实现边界。\n",
+  "body_html": "<h1 id=\"游戏设计知识库技术规格书\">游戏设计知识库技术规格书</h1>\n<h2 id=\"1-文档目的\">1. 文档目的</h2>\n<p>本文定义一个可在当前仓库内实现的、本地优先、合法合规的“游戏设计知识库系统”。</p>\n<p>系统目标不是简单下载 PDF，而是构建一套可持续运行的研究与检索基础设施，使你能：</p>\n<ul><li>从网上抓取合法可获取的游戏设计书籍、文章、课程和研究素材。</li><li>对受版权保护的商业书只抓官方元数据、目录、摘要和购买入口。</li><li>接收你后续手动提供的正版电子书或导出笔记。</li><li>按“开发阶段大类 + 输出物子类”组织知识，而不是按岗位头衔。</li><li>在本地静态页面中完成浏览、过滤、检索、阅读和缺失材料盘点。</li></ul>\n<p>本文是后续实现阶段的唯一技术依据。你回复 <code>build</code> 后，后续实现必须严格按本 spec 落地。</p>\n<hr>\n<h2 id=\"2-产品目标\">2. 产品目标</h2>\n<h3 id=\"21-核心目标\">2.1 核心目标</h3>\n<p>构建一个面向游戏设计研究与 prompt 生产的本地知识库，服务以下工作流：</p>\n<ol><li>收集来源</li><li>归档原始材料</li><li>标准化元数据</li><li>提炼知识卡片</li><li>映射到开发阶段分类</li><li>提供搜索与阅读入口</li><li>输出“还缺哪些正版材料”的清单</li></ol>\n<h3 id=\"22-成功标准\">2.2 成功标准</h3>\n<ul><li>V1 能稳定抓取开放许可或允许本地归档的来源。</li><li>V1 能索引受版权保护书籍的官方信息，但不非法保存全文。</li><li>V1 能接收你手动补充的正版电子书，并纳入统一索引。</li><li>V1 能按你给定的 8 个大类组织知识，并默认优先展示 6 个母类。</li><li>V1 能生成一份机器可读的知识库索引和一份人类可读的缺失材料清单。</li><li>V1 不依赖 Python、不依赖数据库服务、不依赖外部后端。</li></ul>\n<hr>\n<h2 id=\"3-非目标\">3. 非目标</h2>\n<p>以下内容明确不做：</p>\n<ul><li>不破解 DRM。</li><li>不下载盗版商业书。</li><li>不抓取版权状态不明确的第三方 PDF 镜像站。</li><li>不做云端账号系统。</li><li>不做在线协作编辑。</li><li>不做向量数据库或 LLM 服务端。</li><li>不做图像 OCR 作为 V1 必选功能。</li></ul>\n<hr>\n<h2 id=\"4-设计原则\">4. 设计原则</h2>\n<h3 id=\"41-合法优先\">4.1 合法优先</h3>\n<p>所有源按权限分级：</p>\n<ul><li>可抓全文并本地保存</li><li>只抓官方元数据</li><li>只保留外链</li><li>必须等待用户提供正版文件</li></ul>\n<h3 id=\"42-本地优先\">4.2 本地优先</h3>\n<p>所有数据、索引、页面都在仓库内生成，可离线浏览。</p>\n<h3 id=\"43-结构优先于囤积\">4.3 结构优先于囤积</h3>\n<p>先建立统一 schema、分类法、来源注册表，再扩大采集量。</p>\n<h3 id=\"44-实现约束清晰\">4.4 实现约束清晰</h3>\n<p>V1 只使用：</p>\n<ul><li>Node.js 内置能力</li><li>HTML / CSS / 原生 JS</li><li>JSON / Markdown / 本地文件系统</li></ul>\n<h3 id=\"45-面向任务而不是头衔\">4.5 面向任务而不是头衔</h3>\n<p>第一层按开发阶段大类组织。</p>\n<p>第二层按输出物子类组织。</p>\n<p>第三层用主题标签承接低频但风格强的内容。</p>\n<hr>\n<h2 id=\"5-v1-信息架构\">5. V1 信息架构</h2>\n<h2 id=\"51-分类总览\">5.1 分类总览</h2>\n<p>知识库 schema 支持 8 个一级大类。</p>\n<p>门户默认优先展示 6 个母类。</p>\n<h3 id=\"一级大类\">一级大类</h3>\n<ol><li>立项与方向</li><li>核心玩法与系统设计</li><li>数值与经济设计</li><li>内容与叙事</li><li>美术、UI、体验表达</li><li>开发实现</li><li>测试、验收与审计</li><li>运营与发布</li></ol>\n<h3 id=\"v1-默认主展示的-6-个母类\">V1 默认主展示的 6 个母类</h3>\n<ol><li>立项与方向</li><li>核心玩法与系统设计</li><li>数值与经济设计</li><li>开发实现</li><li>测试、验收与审计</li><li>美术、UI、体验表达</li></ol>\n<h3 id=\"v1-次级展示类\">V1 次级展示类</h3>\n<ul><li>内容与叙事</li><li>运营与发布</li></ul>\n<p>这两个类在 schema 中完整存在，但 UI 默认收纳到“扩展分类”区域。</p>\n<h2 id=\"52-二级分类：输出物子类\">5.2 二级分类：输出物子类</h2>\n<p>二级分类不是岗位，不是学科，而是你真正会点开的交付物。</p>\n<h3 id=\"立项与方向\">立项与方向</h3>\n<ul><li>游戏方向收敛</li><li>核心玩法判断</li><li>玩家画像与目标市场</li><li>平台适配判断</li><li>竞品拆解</li><li>风险预判</li><li>MVP 范围裁剪</li><li>游戏总监视角评审</li></ul>\n<h3 id=\"核心玩法与系统设计\">核心玩法与系统设计</h3>\n<ul><li>核心循环设计</li><li>单机制原型设计</li><li>战斗系统设计</li><li>关卡机制设计</li><li>生存/成长/资源循环设计</li><li>失败条件与胜利条件设计</li><li>难度曲线设计</li><li>新手引导设计</li><li>Meta progression 设计</li></ul>\n<h3 id=\"数值与经济设计\">数值与经济设计</h3>\n<ul><li>数值框架设计</li><li>战斗数值平衡</li><li>资源产出消耗设计</li><li>经济系统设计</li><li>货币系统设计</li><li>成长曲线设计</li><li>掉落与奖励设计</li><li>商业化数值评估</li></ul>\n<h3 id=\"内容与叙事\">内容与叙事</h3>\n<ul><li>世界观设定</li><li>剧情主线设计</li><li>支线任务设计</li><li>角色设定</li><li>对话写作</li><li>任务文本设计</li><li>叙事结构评审</li><li>内容生成约束</li></ul>\n<h3 id=\"美术、ui、体验表达\">美术、UI、体验表达</h3>\n<ul><li>游戏美术方向</li><li>HUD / UI 结构设计</li><li>视觉风格统一</li><li>场景与角色资产规格</li><li>动效与打击感表达</li><li>技术美术规范</li><li>可读性与可访问性评审</li><li>玩家体验流畅度评审</li></ul>\n<h3 id=\"开发实现\">开发实现</h3>\n<ul><li>技术方案 spec</li><li>原型实现 prompt</li><li>客户端开发</li><li>工具链开发</li><li>存档/状态机/输入系统</li><li>性能优化</li><li>重构与 cleanup</li><li>bug 修复</li></ul>\n<h3 id=\"测试、验收与审计\">测试、验收与审计</h3>\n<ul><li>玩法验收</li><li>版本验收</li><li>平衡性验收</li><li>新手体验验收</li><li>UI / 可用性验收</li><li>Bug triage</li><li>回归测试检查单</li><li>项目状态审计</li></ul>\n<h3 id=\"运营与发布\">运营与发布</h3>\n<ul><li>发布前检查</li><li>商店页文案</li><li>分享传播机制设计</li><li>评分/排行榜机制</li><li>留存优化</li><li>活动策划</li><li>社群传播点设计</li><li>更新路线图</li></ul>\n<h2 id=\"53-第三层：主题标签\">5.3 第三层：主题标签</h2>\n<p>第三层用来承接低频但风格强的主题，不做主入口。</p>\n<p>主题标签示例：</p>\n<ul><li>世界观</li><li>对话</li><li>美术风格</li><li>商业化</li><li>打击感</li><li>新手引导</li><li>MMO</li><li>生存</li><li>Roguelite</li><li>卡牌</li><li>经济循环</li><li>叙事结构</li><li>UI 可读性</li></ul>\n<hr>\n<h2 id=\"6-资源类型\">6. 资源类型</h2>\n<p>V1 支持以下资源类型：</p>\n<ul><li>书籍</li><li>书籍章节</li><li>论文</li><li>博客文章</li><li>课程页面</li><li>课程 PDF</li><li>演讲或讲稿</li><li>设计模板</li><li>检查单</li><li>Prompt 模板</li><li>知识卡片</li><li>内部笔记</li></ul>\n<p>V1 不把“美术素材站抓图”作为主目标。</p>\n<p>这里的“素材”限定为研究材料和设计参考物，不是游戏生产资产库。</p>\n<hr>\n<h2 id=\"7-合法性与抓取策略\">7. 合法性与抓取策略</h2>\n<h2 id=\"71-抓取政策枚举\">7.1 抓取政策枚举</h2>\n<p>每个来源必须声明 <code>acquisition_policy</code>：</p>\n<ul><li><code>open_fulltext_fetch</code></li><li><code>open_metadata_fetch</code></li><li><code>official_metadata_only</code></li><li><code>external_link_only</code></li><li><code>user_supplied_fulltext</code></li><li><code>manual_review</code></li></ul>\n<h2 id=\"72-各政策含义\">7.2 各政策含义</h2>\n<h3 id=\"open_fulltext_fetch\"><code>open_fulltext_fetch</code></h3>\n<p>允许抓取并在仓库中保存全文或原始文件。</p>\n<p>适用：</p>\n<ul><li>CC 许可课程材料</li><li>作者授权 PDF</li><li>MIT OCW 课程 PDF</li></ul>\n<h3 id=\"open_metadata_fetch\"><code>open_metadata_fetch</code></h3>\n<p>允许抓元数据、摘要、目录或公开页面，但不一定保存整本文件。</p>\n<p>适用：</p>\n<ul><li>开放访问书目页</li><li>官方目录页</li></ul>\n<h3 id=\"official_metadata_only\"><code>official_metadata_only</code></h3>\n<p>只抓官方元数据，不保存全文。</p>\n<p>适用：</p>\n<ul><li>商业书出版页</li><li>出版社样章页</li><li>官方介绍页</li></ul>\n<h3 id=\"external_link_only\"><code>external_link_only</code></h3>\n<p>只保留链接和人工摘要，不抓文件。</p>\n<p>适用：</p>\n<ul><li>对方明确不允许再托管</li><li>页面复杂且版权边界易混淆</li></ul>\n<h3 id=\"user_supplied_fulltext\"><code>user_supplied_fulltext</code></h3>\n<p>系统可以接收本地文件，但必须由用户手动提供。</p>\n<p>适用：</p>\n<ul><li>你已购买的电子书</li><li>你自己导出的笔记、批注、目录</li></ul>\n<h3 id=\"manual_review\"><code>manual_review</code></h3>\n<p>默认不自动抓取，等人工判定。</p>\n<h2 id=\"73-v1-明确允许抓取并本地保存的来源\">7.3 V1 明确允许抓取并本地保存的来源</h2>\n<ul><li><code>Game Design Concepts</code></li><li>MIT OCW 游戏设计课程 PDF</li><li>Richard Bartle 官方授权 PDF / DOCX</li><li>MDA 论文官方 PDF</li></ul>\n<h2 id=\"74-v1-只抓官方元数据的来源\">7.4 V1 只抓官方元数据的来源</h2>\n<ul><li>Schell Games / Routledge 上的 <code>The Art of Game Design</code></li><li>MIT Press 商业书页</li><li>Routledge 商业书页</li><li>InformIT / Pearson 商业书页</li><li>Wiley 商业书页</li></ul>\n<h2 id=\"75-v1-只保留外链的来源\">7.5 V1 只保留外链的来源</h2>\n<ul><li><code>Game AI Pro</code></li></ul>\n<p>原因：</p>\n<ul><li>官方站点允许个人下载</li><li>但页面明确禁止其他站点重新分发或托管</li><li>仓库存档会构成再托管风险</li></ul>\n<hr>\n<h2 id=\"8-v1-来源清单\">8. V1 来源清单</h2>\n<h2 id=\"81-开放全文来源\">8.1 开放全文来源</h2>\n<h3 id=\"game-design-concepts\"><code>Game Design Concepts</code></h3>\n<ul><li>类型：课程 / 博客</li><li>用途：设计基础、迭代、原型、平衡、叙事</li><li>官方站点：<a href=\"https://gamedesignconcepts.wordpress.com/\" target=\"_blank\" rel=\"noreferrer\">https://gamedesignconcepts.wordpress.com/</a></li><li>许可页：<a href=\"https://gamedesignconcepts.wordpress.com/about/\" target=\"_blank\" rel=\"noreferrer\">https://gamedesignconcepts.wordpress.com/about/</a></li><li>抓取方式：HTML 页面抓取 + 本地快照</li></ul>\n<h3 id=\"mit-opencourseware\">MIT OpenCourseWare</h3>\n<ul><li>类型：课程 / PDF</li><li>用途：作业样例、规则写作、原型、Playtest</li><li>官方站点：</li><li><a href=\"https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/\" target=\"_blank\" rel=\"noreferrer\">https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/</a></li><li><a href=\"https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/\" target=\"_blank\" rel=\"noreferrer\">https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/</a></li><li><a href=\"https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/\" target=\"_blank\" rel=\"noreferrer\">https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/</a></li><li>抓取方式：课程页解析 + PDF 直链下载</li></ul>\n<h3 id=\"richard-bartle\">Richard Bartle</h3>\n<ul><li>类型：作者站 / 授权书籍</li><li>用途：在线世界、玩家类型、身份与社交系统</li><li>官方站点：</li><li><a href=\"https://mud.co.uk/dvw/\" target=\"_blank\" rel=\"noreferrer\">https://mud.co.uk/dvw/</a></li><li><a href=\"https://mud.co.uk/richard/papers.htm\" target=\"_blank\" rel=\"noreferrer\">https://mud.co.uk/richard/papers.htm</a></li><li>抓取方式：PDF / DOCX 直链下载</li></ul>\n<h3 id=\"mda\">MDA</h3>\n<ul><li>类型：论文</li><li>用途：Mechanics / Dynamics / Aesthetics 分析框架</li><li>官方 PDF：<a href=\"https://users.cs.northwestern.edu/~hunicke/MDA.pdf\" target=\"_blank\" rel=\"noreferrer\">https://users.cs.northwestern.edu/~hunicke/MDA.pdf</a></li><li>抓取方式：PDF 直链下载</li></ul>\n<h2 id=\"82-官方元数据来源\">8.2 官方元数据来源</h2>\n<h3 id=\"商业书官方页面\">商业书官方页面</h3>\n<ul><li><code>The Art of Game Design</code></li><li><a href=\"https://schellgames.com/art-of-game-design\" target=\"_blank\" rel=\"noreferrer\">https://schellgames.com/art-of-game-design</a></li><li><a href=\"https://www.routledge.com/link/link/p/book/9781138632059\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/link/link/p/book/9781138632059</a></li><li><code>Rules of Play</code></li><li><a href=\"https://mitpress.mit.edu/9780262240451/rules-of-play\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262240451/rules-of-play</a></li><li><code>Characteristics of Games</code></li><li><a href=\"https://mitpress.mit.edu/9780262542692/characteristics-of-games/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262542692/characteristics-of-games/</a></li><li><code>Game Design Workshop</code></li><li><a href=\"https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009</a></li><li><code>Game Feel</code></li><li><a href=\"https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282</a></li><li><code>Game Mechanics: Advanced Game Design</code></li><li><a href=\"https://www.informit.com/store/product.aspx?isbn=9780132946681\" target=\"_blank\" rel=\"noreferrer\">https://www.informit.com/store/product.aspx?isbn=9780132946681</a></li><li><code>Advanced Game Design: A Systems Approach</code></li><li><a href=\"https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246\" target=\"_blank\" rel=\"noreferrer\">https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246</a></li><li><code>A Theory of Fun for Game Design</code></li><li><a href=\"https://www.theoryoffun.com/\" target=\"_blank\" rel=\"noreferrer\">https://www.theoryoffun.com/</a></li><li><code>Level Up! The Guide to Great Video Game Design</code></li><li><a href=\"https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx\" target=\"_blank\" rel=\"noreferrer\">https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx</a></li><li><code>The Rule Book</code></li><li><a href=\"https://mitpress.mit.edu/9780262377539/the-rule-book/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262377539/the-rule-book/</a></li></ul>\n<hr>\n<h2 id=\"9-数据模型\">9. 数据模型</h2>\n<p>V1 不使用数据库。</p>\n<p>所有内容使用 JSON + Markdown + 原始文件落盘。</p>\n<h2 id=\"91-实体类型\">9.1 实体类型</h2>\n<h3 id=\"source\">Source</h3>\n<p>定义外部来源站点与抓取策略。</p>\n<p>字段：</p>\n<ul><li><code>id</code></li><li><code>name</code></li><li><code>base_url</code></li><li><code>source_type</code></li><li><code>acquisition_policy</code></li><li><code>allowed_file_types</code></li><li><code>rate_limit_ms</code></li><li><code>notes</code></li></ul>\n<h3 id=\"work\">Work</h3>\n<p>表示一本书、一门课、一篇论文或一个材料集合。</p>\n<p>字段：</p>\n<ul><li><code>id</code></li><li><code>title</code></li><li><code>authors</code></li><li><code>year</code></li><li><code>kind</code></li><li><code>canonical_url</code></li><li><code>publisher_or_source</code></li><li><code>language</code></li><li><code>license</code></li><li><code>access_mode</code></li><li><code>summary</code></li><li><code>topics</code></li><li><code>keywords</code></li></ul>\n<h3 id=\"resource\">Resource</h3>\n<p>表示某个具体页面、PDF、HTML 快照、样章、用户文件或外链。</p>\n<p>字段：</p>\n<ul><li><code>id</code></li><li><code>work_id</code></li><li><code>resource_kind</code></li><li><code>source_id</code></li><li><code>remote_url</code></li><li><code>local_path</code></li><li><code>mime_type</code></li><li><code>fetch_status</code></li><li><code>checksum</code></li><li><code>fetched_at</code></li><li><code>last_modified</code></li></ul>\n<h3 id=\"knowledge-card\">Knowledge Card</h3>\n<p>这是知识库的核心阅读对象。</p>\n<p>字段：</p>\n<ul><li><code>id</code></li><li><code>title</code></li><li><code>work_id</code></li><li><code>card_kind</code></li><li><code>phase_group</code></li><li><code>deliverable_type</code></li><li><code>theme_tags</code></li><li><code>summary</code></li><li><code>key_points</code></li><li><code>usage_relevance</code></li><li><code>recommended_for</code></li><li><code>related_cards</code></li><li><code>source_refs</code></li><li><code>availability</code></li></ul>\n<h3 id=\"material-request\">Material Request</h3>\n<p>表示系统识别出的缺失材料。</p>\n<p>字段：</p>\n<ul><li><code>id</code></li><li><code>title</code></li><li><code>author</code></li><li><code>priority</code></li><li><code>reason</code></li><li><code>preferred_format</code></li><li><code>official_links</code></li><li><code>status</code></li></ul>\n<h2 id=\"92-枚举字段\">9.2 枚举字段</h2>\n<h3 id=\"kind\"><code>kind</code></h3>\n<ul><li><code>book</code></li><li><code>paper</code></li><li><code>article</code></li><li><code>course</code></li><li><code>talk</code></li><li><code>template</code></li><li><code>checklist</code></li><li><code>prompt_pack</code></li><li><code>note</code></li></ul>\n<h3 id=\"card_kind\"><code>card_kind</code></h3>\n<ul><li><code>source_overview</code></li><li><code>concept_card</code></li><li><code>reading_note</code></li><li><code>prompt_template</code></li><li><code>checklist</code></li><li><code>spec_template</code></li><li><code>example_case</code></li><li><code>book_entry</code></li></ul>\n<h3 id=\"availability\"><code>availability</code></h3>\n<ul><li><code>downloaded_open</code></li><li><code>metadata_only</code></li><li><code>external_only</code></li><li><code>user_file_needed</code></li></ul>\n<hr>\n<h2 id=\"10-文件结构\">10. 文件结构</h2>\n<p>实现必须使用以下目录结构：</p>\n<pre><code class=\"language-text\">founder-of-the-north/\n  kb-tools/\n    sync-open-sources.mjs\n    sync-official-metadata.mjs\n    ingest-user-files.mjs\n    normalize-library.mjs\n    build-kb-index.mjs\n    build-kb-portal-data.mjs\n    report-missing-materials.mjs\n    validate-kb.mjs\n\n  kb-portal/\n    index.html\n    styles.css\n    app.js\n    data.js\n    content.js\n\n  knowledge/\n    50-game-design-masters-kb/\n      README.md\n      catalog/\n      notes/\n      registry/\n        sources.json\n        works.json\n        material-requests.json\n        taxonomy.json\n      incoming/\n        user-supplied/\n      raw/\n        open-web/\n        official-metadata/\n      normalized/\n        works/\n        cards/\n      indexes/\n        library-index.json\n        search-index.json\n      reports/\n        missing-materials.md\n        source-audit.md</code></pre>\n<p>说明：</p>\n<ul><li><code>kb-tools/</code> 放 Node 脚本。</li><li><code>kb-portal/</code> 放独立静态门户，不改现有 <code>docs-portal/</code>。</li><li><code>registry/</code> 放来源注册表与分类法。</li><li><code>incoming/user-supplied/</code> 放你手工提供的正版文件。</li><li><code>raw/</code> 保存原始抓取结果。</li><li><code>normalized/</code> 保存标准化后的结构化内容。</li><li><code>indexes/</code> 保存门户所需 JSON。</li><li><code>reports/</code> 保存自动生成的人类可读报告。</li></ul>\n<hr>\n<h2 id=\"11-抓取与处理流水线\">11. 抓取与处理流水线</h2>\n<h2 id=\"111-步骤-1：建立来源注册表\">11.1 步骤 1：建立来源注册表</h2>\n<p>输入：</p>\n<ul><li>固定 JSON 清单</li></ul>\n<p>输出：</p>\n<ul><li><code>registry/sources.json</code></li><li><code>registry/works.json</code></li><li><code>registry/taxonomy.json</code></li></ul>\n<p>要求：</p>\n<ul><li>每个来源必须声明抓取政策</li><li>每个作品必须声明可用性和官方入口</li></ul>\n<h2 id=\"112-步骤-2：抓取开放全文来源\">11.2 步骤 2：抓取开放全文来源</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/sync-open-sources.mjs</code></li></ul>\n<p>功能：</p>\n<ul><li>拉取允许本地保存的 HTML / PDF / DOCX</li><li>保存到 <code>raw/open-web/</code></li><li>记录抓取时间、URL、大小、checksum</li></ul>\n<p>约束：</p>\n<ul><li>严格按白名单来源抓取</li><li>默认 1 请求串行，带最小延迟</li><li>不实现站点递归爬虫</li><li>只抓注册表中显式列出的 URL</li></ul>\n<h2 id=\"113-步骤-3：抓取官方元数据\">11.3 步骤 3：抓取官方元数据</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/sync-official-metadata.mjs</code></li></ul>\n<p>功能：</p>\n<ul><li>抓取官方书籍页标题、作者、摘要、目录、ISBN、出版信息、购买页</li><li>保存到 <code>raw/official-metadata/</code></li></ul>\n<p>约束：</p>\n<ul><li>不下载商业书全文</li><li>不保存超过页面允许范围的受版权内容</li></ul>\n<h2 id=\"114-步骤-4：接收用户文件\">11.4 步骤 4：接收用户文件</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/ingest-user-files.mjs</code></li></ul>\n<p>输入目录：</p>\n<ul><li><code>knowledge/50-game-design-masters-kb/incoming/user-supplied/</code></li></ul>\n<p>支持格式：</p>\n<ul><li><code>.pdf</code></li><li><code>.epub</code></li><li><code>.md</code></li><li><code>.txt</code></li><li><code>.json</code></li></ul>\n<p>V1 约束：</p>\n<ul><li>优先支持文本型 PDF、EPUB、Markdown、TXT</li><li>不强制支持图片扫描 PDF 的 OCR</li></ul>\n<p>文件命名规范：</p>\n<p><code>Author - Title (Edition, Year).ext</code></p>\n<p>若无法标准命名，可允许配套 sidecar：</p>\n<p><code>Author - Title.meta.json</code></p>\n<h2 id=\"115-步骤-5：标准化\">11.5 步骤 5：标准化</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/normalize-library.mjs</code></li></ul>\n<p>功能：</p>\n<ul><li>为所有 Work 生成统一 JSON</li><li>为所有资源生成统一索引项</li><li>为重点来源生成知识卡片</li></ul>\n<p>输出：</p>\n<ul><li><code>normalized/works/*.json</code></li><li><code>normalized/cards/*.md</code></li><li><code>normalized/cards/*.json</code></li></ul>\n<p>标准化要求：</p>\n<ul><li>生成统一 slug</li><li>去重 canonical URL</li><li>统一作者数组格式</li><li>统一许可证与可用性枚举</li><li>自动补全 phase group 与 deliverable type</li></ul>\n<h2 id=\"116-步骤-6：建立索引\">11.6 步骤 6：建立索引</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/build-kb-index.mjs</code></li></ul>\n<p>输出：</p>\n<ul><li><code>indexes/library-index.json</code></li><li><code>indexes/search-index.json</code></li></ul>\n<p>V1 搜索策略：</p>\n<ul><li>不使用向量</li><li>不使用第三方搜索库</li><li>使用预拼接的 <code>search_text</code></li><li>前端使用大小写无关子串匹配</li><li>中文搜索使用直接子串匹配</li></ul>\n<h2 id=\"117-步骤-7：生成门户数据\">11.7 步骤 7：生成门户数据</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/build-kb-portal-data.mjs</code></li></ul>\n<p>输出：</p>\n<ul><li><code>kb-portal/data.js</code></li><li><code>kb-portal/content.js</code></li></ul>\n<p>要求：</p>\n<ul><li><code>data.js</code> 存放列表页数据与 taxonomy</li><li><code>content.js</code> 存放卡片正文与摘要</li></ul>\n<h2 id=\"118-步骤-8：生成缺失材料报告\">11.8 步骤 8：生成缺失材料报告</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/report-missing-materials.mjs</code></li></ul>\n<p>输出：</p>\n<ul><li><code>reports/missing-materials.md</code></li><li><code>registry/material-requests.json</code></li></ul>\n<p>要求：</p>\n<ul><li>报告必须按优先级排序</li><li>必须说明为什么需要这本书</li><li>必须说明建议你提供的文件格式</li></ul>\n<h2 id=\"119-步骤-9：校验\">11.9 步骤 9：校验</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/validate-kb.mjs</code></li></ul>\n<p>校验内容：</p>\n<ul><li>JSON schema 是否完整</li><li>引用的本地文件是否存在</li><li>taxonomy 值是否合法</li><li>重复 slug 检查</li><li>缺失 summary 检查</li><li>链接可用性仅做格式校验，不做强制联网校验</li></ul>\n<hr>\n<h2 id=\"12-门户功能规格\">12. 门户功能规格</h2>\n<p>门户是一个独立静态页面应用，路径为 <code>kb-portal/index.html</code>。</p>\n<h2 id=\"121-页面结构\">12.1 页面结构</h2>\n<h3 id=\"左侧\">左侧</h3>\n<ul><li>一级分类导航</li><li>二级输出物过滤</li><li>来源类型过滤</li><li>可用性过滤</li><li>搜索框</li></ul>\n<h3 id=\"中间\">中间</h3>\n<ul><li>卡片列表</li><li>卡片摘要</li><li>排序选项</li></ul>\n<h3 id=\"右侧\">右侧</h3>\n<ul><li>详情阅读区</li><li>元数据面板</li><li>相关条目</li><li>官方入口</li><li>本地文件打开链接</li></ul>\n<h2 id=\"122-必须支持的过滤器\">12.2 必须支持的过滤器</h2>\n<ul><li>一级分类</li><li>二级输出物</li><li>资源类型</li><li>可用性</li><li>来源</li><li>是否已本地下载</li><li>是否需要用户补充</li></ul>\n<h2 id=\"123-必须支持的列表模式\">12.3 必须支持的列表模式</h2>\n<ul><li>所有条目</li><li>仅开放全文</li><li>仅商业书元数据</li><li>仅用户待补材料</li><li>仅 prompt / checklist / spec 类卡片</li></ul>\n<h2 id=\"124-条目详情页必须展示\">12.4 条目详情页必须展示</h2>\n<ul><li>标题</li><li>作者</li><li>年份</li><li>一级分类</li><li>二级输出物</li><li>摘要</li><li>核心要点</li><li>适用场景</li><li>获取方式</li><li>官方链接</li><li>本地文件链接</li><li>相关条目</li></ul>\n<h2 id=\"125-门户视觉约束\">12.5 门户视觉约束</h2>\n<ul><li>不复用现有 <code>docs-portal</code> 的项目文档 taxonomy</li><li>视觉可借鉴现有 portal 的阅读优先布局</li><li>必须清晰区分“已下载全文”和“只有官方入口”</li></ul>\n<hr>\n<h2 id=\"13-初始内容策略\">13. 初始内容策略</h2>\n<p>V1 初始内容分 4 层：</p>\n<h3 id=\"层-1：已下载开放材料\">层 1：已下载开放材料</h3>\n<ul><li><code>Game Design Concepts</code></li><li>MIT OCW</li><li>Richard Bartle</li><li>MDA</li></ul>\n<h3 id=\"层-2：商业书官方条目\">层 2：商业书官方条目</h3>\n<ul><li>仅元数据</li><li>仅官方链接</li><li>仅短摘要</li></ul>\n<h3 id=\"层-3：知识卡片\">层 3：知识卡片</h3>\n<p>每本核心书或课程至少要有一张 <code>book_entry</code> 或 <code>source_overview</code> 卡片。</p>\n<h3 id=\"层-4：prompt-导向卡片\">层 4：Prompt 导向卡片</h3>\n<p>针对 6 个母类，每个类至少要有 1 组导向卡片：</p>\n<ul><li>立项与方向</li><li>核心玩法与系统设计</li><li>数值与经济设计</li><li>开发实现</li><li>测试、验收与审计</li><li>美术、UI、体验表达</li></ul>\n<p>这些导向卡片先是知识入口，不在 V1 强制生成完整 prompt 文本库。</p>\n<hr>\n<h2 id=\"14-需要你后续获取并提供的材料\">14. 需要你后续获取并提供的材料</h2>\n<p>下列材料如果能提供正版电子版，知识库质量会明显提升。</p>\n<p>优先级定义：</p>\n<ul><li>P0：强烈建议第一时间提供</li><li>P1：建议第二批提供</li><li>P2：可选</li></ul>\n<h2 id=\"141-p0-必要材料\">14.1 P0 必要材料</h2>\n<h3 id=\"the-art-of-game-design-a-book-of-lenses\"><code>The Art of Game Design: A Book of Lenses</code></h3>\n<ul><li>作者：Jesse Schell</li><li>原因：这是“立项与方向”和“核心玩法判断”的最高价值主干书之一</li><li>期望格式：DRM-free EPUB / 文本型 PDF / 你自己的阅读笔记导出</li><li>官方入口：</li><li><a href=\"https://schellgames.com/art-of-game-design\" target=\"_blank\" rel=\"noreferrer\">https://schellgames.com/art-of-game-design</a></li><li><a href=\"https://www.routledge.com/link/link/p/book/9781138632059\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/link/link/p/book/9781138632059</a></li></ul>\n<h3 id=\"game-design-workshop\"><code>Game Design Workshop</code></h3>\n<ul><li>作者：Tracy Fullerton</li><li>原因：这是“原型、试玩、迭代”最重要的流程书</li><li>期望格式：EPUB / 文本型 PDF</li><li>官方入口：</li><li><a href=\"https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009</a></li></ul>\n<h3 id=\"game-mechanics-advanced-game-design\"><code>Game Mechanics: Advanced Game Design</code></h3>\n<ul><li>作者：Ernest Adams, Joris Dormans</li><li>原因：这是“数值与经济设计”以及系统建模的核心书</li><li>期望格式：EPUB / 文本型 PDF</li><li>官方入口：</li><li><a href=\"https://www.informit.com/store/product.aspx?isbn=9780132946681\" target=\"_blank\" rel=\"noreferrer\">https://www.informit.com/store/product.aspx?isbn=9780132946681</a></li></ul>\n<h3 id=\"game-feel\"><code>Game Feel</code></h3>\n<ul><li>作者：Steve Swink</li><li>原因：这是“打击感、动效反馈、控制响应”的主干书</li><li>期望格式：EPUB / 文本型 PDF</li><li>官方入口：</li><li><a href=\"https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282</a></li></ul>\n<h3 id=\"rules-of-play\"><code>Rules of Play</code></h3>\n<ul><li>作者：Katie Salen Tekinbaş, Eric Zimmerman</li><li>原因：这是“规则、系统、意义”语言体系的核心书</li><li>期望格式：EPUB / 文本型 PDF</li><li>官方入口：</li><li><a href=\"https://mitpress.mit.edu/9780262240451/rules-of-play\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262240451/rules-of-play</a></li></ul>\n<h2 id=\"142-p1-高价值材料\">14.2 P1 高价值材料</h2>\n<h3 id=\"characteristics-of-games\"><code>Characteristics of Games</code></h3>\n<ul><li>作者：George Skaff Elias, Richard Garfield, K. Robert Gutschera</li><li>原因：适合建立形式化分析卡片</li><li>官方入口：</li><li><a href=\"https://mitpress.mit.edu/9780262542692/characteristics-of-games/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262542692/characteristics-of-games/</a></li></ul>\n<h3 id=\"a-theory-of-fun-for-game-design\"><code>A Theory of Fun for Game Design</code></h3>\n<ul><li>作者：Raph Koster</li><li>原因：适合“好玩、学习、掌握、重复感”分析</li><li>官方入口：</li><li><a href=\"https://www.theoryoffun.com/\" target=\"_blank\" rel=\"noreferrer\">https://www.theoryoffun.com/</a></li></ul>\n<h3 id=\"level-up-the-guide-to-great-video-game-design\"><code>Level Up! The Guide to Great Video Game Design</code></h3>\n<ul><li>作者：Scott Rogers</li><li>原因：适合“设计文档、生产表达、关卡与流程”</li><li>官方入口：</li><li><a href=\"https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx\" target=\"_blank\" rel=\"noreferrer\">https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx</a></li></ul>\n<h3 id=\"challenges-for-game-designers\"><code>Challenges for Game Designers</code></h3>\n<ul><li>作者：Brenda Romero, Ian Schreiber</li><li>原因：适合把知识库扩展成训练型 prompt 库</li><li>期望格式：EPUB / 文本型 PDF / 你自己的题目摘录</li></ul>\n<h2 id=\"143-p2-可选材料\">14.3 P2 可选材料</h2>\n<h3 id=\"advanced-game-design-a-systems-approach\"><code>Advanced Game Design: A Systems Approach</code></h3>\n<ul><li>作者：Michael Sellers</li><li>官方入口：</li><li><a href=\"https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246\" target=\"_blank\" rel=\"noreferrer\">https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246</a></li></ul>\n<h3 id=\"the-aesthetic-of-play\"><code>The Aesthetic of Play</code></h3>\n<ul><li>作者：Brian Upton</li><li>官方入口：</li><li><a href=\"https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/</a></li></ul>\n<h3 id=\"play-matters\"><code>Play Matters</code></h3>\n<ul><li>作者：Miguel Sicart</li><li>官方入口：</li><li><a href=\"https://mitpress.mit.edu/9780262534512/play-matters/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262534512/play-matters/</a></li></ul>\n<h3 id=\"the-rule-book\"><code>The Rule Book</code></h3>\n<ul><li>作者：Jaakko Stenros, Markus Montola</li><li>说明：这是 MIT Press 开放获取书，可以先抓元数据与官方 OA 页，后续如需要再做更深卡片</li><li>官方入口：</li><li><a href=\"https://mitpress.mit.edu/9780262377539/the-rule-book/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262377539/the-rule-book/</a></li></ul>\n<h2 id=\"144-用户提供格式要求\">14.4 用户提供格式要求</h2>\n<p>推荐优先级如下：</p>\n<ol><li>EPUB</li><li>文本型 PDF</li><li>你自己的摘要 / 读书笔记 Markdown</li><li>扫描 PDF 仅在没有其他版本时使用</li></ol>\n<p>如果某本书只有 DRM 平台版本，V1 不强求导入原文。你可以先提供：</p>\n<ul><li>目录</li><li>你手抄或导出的重点摘录</li><li>章节笔记</li></ul>\n<p>系统一样可以索引这些内容。</p>\n<hr>\n<h2 id=\"15-实施阶段\">15. 实施阶段</h2>\n<h2 id=\"phase-0：脚手架\">Phase 0：脚手架</h2>\n<ul><li>建立目录结构</li><li>建立 taxonomy</li><li>建立来源注册表</li></ul>\n<h2 id=\"phase-1：抓取器\">Phase 1：抓取器</h2>\n<ul><li>完成开放来源抓取</li><li>完成商业书元数据抓取</li><li>完成用户文件接收</li></ul>\n<h2 id=\"phase-2：标准化层\">Phase 2：标准化层</h2>\n<ul><li>统一 Work / Resource / Card schema</li><li>生成 normalized JSON</li><li>生成卡片 Markdown</li></ul>\n<h2 id=\"phase-3：索引与报告\">Phase 3：索引与报告</h2>\n<ul><li>生成 library index</li><li>生成 search index</li><li>生成 missing materials 报告</li></ul>\n<h2 id=\"phase-4：门户\">Phase 4：门户</h2>\n<ul><li>构建静态浏览器</li><li>接入 filters</li><li>接入详情阅读</li></ul>\n<h2 id=\"phase-5：内容填充\">Phase 5：内容填充</h2>\n<ul><li>为 6 个母类建立首批导向卡片</li><li>为核心书单建立条目</li><li>为开放来源生成入口卡片</li></ul>\n<hr>\n<h2 id=\"16-验收标准\">16. 验收标准</h2>\n<p>系统被视为完成，必须同时满足：</p>\n<ol><li>仓库中存在独立 <code>kb-portal/</code>，可直接打开浏览。</li><li>仓库中存在独立 <code>kb-tools/</code>，所有脚本可由 Node 直接执行。</li><li>能成功重建开放来源索引，不依赖手工编辑。</li><li>能生成商业书元数据卡片，不下载商业书全文。</li><li>能扫描 <code>incoming/user-supplied/</code> 并纳入索引。</li><li>能按 8 类 schema 分类，且门户默认主展示 6 个母类。</li><li>能生成 <code>missing-materials.md</code>。</li><li>不修改现有 <code>docs-portal</code> 的逻辑与 taxonomy。</li></ol>\n<hr>\n<h2 id=\"17-后续扩展但不属于-v1\">17. 后续扩展但不属于 V1</h2>\n<ul><li>卡片级双向链接网络</li><li>阅读进度状态</li><li>引文高亮与片段引用</li><li>OCR 接入</li><li>嵌入向量检索</li><li>自动 prompt 组合器</li><li>从知识卡片生成项目专用设计审查模板</li></ul>\n<hr>\n<h2 id=\"18-实现决策总结\">18. 实现决策总结</h2>\n<p>这套系统在 V1 的关键取舍如下：</p>\n<ul><li>用文件系统，不用数据库</li><li>用 Node 原生能力，不用 Python</li><li>用静态门户，不用服务端</li><li>先做合法来源与用户提供材料的统一入口，不碰盗版抓取</li><li>先做 8 类 schema，默认突出 6 个母类</li><li>先做“知识入口 + 资料盘点”，再做完整 prompt 工厂</li></ul>\n<p>这就是后续 <code>build</code> 阶段必须遵守的实现边界。</p>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "游戏设计知识库技术规格书",
+      "id": "游戏设计知识库技术规格书"
+    },
+    {
+      "level": 2,
+      "text": "1. 文档目的",
+      "id": "1-文档目的"
+    },
+    {
+      "level": 2,
+      "text": "2. 产品目标",
+      "id": "2-产品目标"
+    },
+    {
+      "level": 3,
+      "text": "2.1 核心目标",
+      "id": "21-核心目标"
+    },
+    {
+      "level": 3,
+      "text": "2.2 成功标准",
+      "id": "22-成功标准"
+    },
+    {
+      "level": 2,
+      "text": "3. 非目标",
+      "id": "3-非目标"
+    },
+    {
+      "level": 2,
+      "text": "4. 设计原则",
+      "id": "4-设计原则"
+    },
+    {
+      "level": 3,
+      "text": "4.1 合法优先",
+      "id": "41-合法优先"
+    },
+    {
+      "level": 3,
+      "text": "4.2 本地优先",
+      "id": "42-本地优先"
+    },
+    {
+      "level": 3,
+      "text": "4.3 结构优先于囤积",
+      "id": "43-结构优先于囤积"
+    },
+    {
+      "level": 3,
+      "text": "4.4 实现约束清晰",
+      "id": "44-实现约束清晰"
+    },
+    {
+      "level": 3,
+      "text": "4.5 面向任务而不是头衔",
+      "id": "45-面向任务而不是头衔"
+    },
+    {
+      "level": 2,
+      "text": "5. V1 信息架构",
+      "id": "5-v1-信息架构"
+    },
+    {
+      "level": 2,
+      "text": "5.1 分类总览",
+      "id": "51-分类总览"
+    },
+    {
+      "level": 3,
+      "text": "一级大类",
+      "id": "一级大类"
+    },
+    {
+      "level": 3,
+      "text": "V1 默认主展示的 6 个母类",
+      "id": "v1-默认主展示的-6-个母类"
+    },
+    {
+      "level": 3,
+      "text": "V1 次级展示类",
+      "id": "v1-次级展示类"
+    },
+    {
+      "level": 2,
+      "text": "5.2 二级分类：输出物子类",
+      "id": "52-二级分类：输出物子类"
+    },
+    {
+      "level": 3,
+      "text": "立项与方向",
+      "id": "立项与方向"
+    },
+    {
+      "level": 3,
+      "text": "核心玩法与系统设计",
+      "id": "核心玩法与系统设计"
+    },
+    {
+      "level": 3,
+      "text": "数值与经济设计",
+      "id": "数值与经济设计"
+    },
+    {
+      "level": 3,
+      "text": "内容与叙事",
+      "id": "内容与叙事"
+    },
+    {
+      "level": 3,
+      "text": "美术、UI、体验表达",
+      "id": "美术、ui、体验表达"
+    },
+    {
+      "level": 3,
+      "text": "开发实现",
+      "id": "开发实现"
+    },
+    {
+      "level": 3,
+      "text": "测试、验收与审计",
+      "id": "测试、验收与审计"
+    },
+    {
+      "level": 3,
+      "text": "运营与发布",
+      "id": "运营与发布"
+    },
+    {
+      "level": 2,
+      "text": "5.3 第三层：主题标签",
+      "id": "53-第三层：主题标签"
+    },
+    {
+      "level": 2,
+      "text": "6. 资源类型",
+      "id": "6-资源类型"
+    },
+    {
+      "level": 2,
+      "text": "7. 合法性与抓取策略",
+      "id": "7-合法性与抓取策略"
+    },
+    {
+      "level": 2,
+      "text": "7.1 抓取政策枚举",
+      "id": "71-抓取政策枚举"
+    },
+    {
+      "level": 2,
+      "text": "7.2 各政策含义",
+      "id": "72-各政策含义"
+    },
+    {
+      "level": 3,
+      "text": "`open_fulltext_fetch`",
+      "id": "open_fulltext_fetch"
+    },
+    {
+      "level": 3,
+      "text": "`open_metadata_fetch`",
+      "id": "open_metadata_fetch"
+    },
+    {
+      "level": 3,
+      "text": "`official_metadata_only`",
+      "id": "official_metadata_only"
+    },
+    {
+      "level": 3,
+      "text": "`external_link_only`",
+      "id": "external_link_only"
+    },
+    {
+      "level": 3,
+      "text": "`user_supplied_fulltext`",
+      "id": "user_supplied_fulltext"
+    },
+    {
+      "level": 3,
+      "text": "`manual_review`",
+      "id": "manual_review"
+    },
+    {
+      "level": 2,
+      "text": "7.3 V1 明确允许抓取并本地保存的来源",
+      "id": "73-v1-明确允许抓取并本地保存的来源"
+    },
+    {
+      "level": 2,
+      "text": "7.4 V1 只抓官方元数据的来源",
+      "id": "74-v1-只抓官方元数据的来源"
+    },
+    {
+      "level": 2,
+      "text": "7.5 V1 只保留外链的来源",
+      "id": "75-v1-只保留外链的来源"
+    },
+    {
+      "level": 2,
+      "text": "8. V1 来源清单",
+      "id": "8-v1-来源清单"
+    },
+    {
+      "level": 2,
+      "text": "8.1 开放全文来源",
+      "id": "81-开放全文来源"
+    },
+    {
+      "level": 3,
+      "text": "`Game Design Concepts`",
+      "id": "game-design-concepts"
+    },
+    {
+      "level": 3,
+      "text": "MIT OpenCourseWare",
+      "id": "mit-opencourseware"
+    },
+    {
+      "level": 3,
+      "text": "Richard Bartle",
+      "id": "richard-bartle"
+    },
+    {
+      "level": 3,
+      "text": "MDA",
+      "id": "mda"
+    },
+    {
+      "level": 2,
+      "text": "8.2 官方元数据来源",
+      "id": "82-官方元数据来源"
+    },
+    {
+      "level": 3,
+      "text": "商业书官方页面",
+      "id": "商业书官方页面"
+    },
+    {
+      "level": 2,
+      "text": "9. 数据模型",
+      "id": "9-数据模型"
+    },
+    {
+      "level": 2,
+      "text": "9.1 实体类型",
+      "id": "91-实体类型"
+    },
+    {
+      "level": 3,
+      "text": "Source",
+      "id": "source"
+    },
+    {
+      "level": 3,
+      "text": "Work",
+      "id": "work"
+    },
+    {
+      "level": 3,
+      "text": "Resource",
+      "id": "resource"
+    },
+    {
+      "level": 3,
+      "text": "Knowledge Card",
+      "id": "knowledge-card"
+    },
+    {
+      "level": 3,
+      "text": "Material Request",
+      "id": "material-request"
+    },
+    {
+      "level": 2,
+      "text": "9.2 枚举字段",
+      "id": "92-枚举字段"
+    },
+    {
+      "level": 3,
+      "text": "`kind`",
+      "id": "kind"
+    },
+    {
+      "level": 3,
+      "text": "`card_kind`",
+      "id": "card_kind"
+    },
+    {
+      "level": 3,
+      "text": "`availability`",
+      "id": "availability"
+    },
+    {
+      "level": 2,
+      "text": "10. 文件结构",
+      "id": "10-文件结构"
+    },
+    {
+      "level": 2,
+      "text": "11. 抓取与处理流水线",
+      "id": "11-抓取与处理流水线"
+    },
+    {
+      "level": 2,
+      "text": "11.1 步骤 1：建立来源注册表",
+      "id": "111-步骤-1：建立来源注册表"
+    },
+    {
+      "level": 2,
+      "text": "11.2 步骤 2：抓取开放全文来源",
+      "id": "112-步骤-2：抓取开放全文来源"
+    },
+    {
+      "level": 2,
+      "text": "11.3 步骤 3：抓取官方元数据",
+      "id": "113-步骤-3：抓取官方元数据"
+    },
+    {
+      "level": 2,
+      "text": "11.4 步骤 4：接收用户文件",
+      "id": "114-步骤-4：接收用户文件"
+    },
+    {
+      "level": 2,
+      "text": "11.5 步骤 5：标准化",
+      "id": "115-步骤-5：标准化"
+    },
+    {
+      "level": 2,
+      "text": "11.6 步骤 6：建立索引",
+      "id": "116-步骤-6：建立索引"
+    },
+    {
+      "level": 2,
+      "text": "11.7 步骤 7：生成门户数据",
+      "id": "117-步骤-7：生成门户数据"
+    },
+    {
+      "level": 2,
+      "text": "11.8 步骤 8：生成缺失材料报告",
+      "id": "118-步骤-8：生成缺失材料报告"
+    },
+    {
+      "level": 2,
+      "text": "11.9 步骤 9：校验",
+      "id": "119-步骤-9：校验"
+    },
+    {
+      "level": 2,
+      "text": "12. 门户功能规格",
+      "id": "12-门户功能规格"
+    },
+    {
+      "level": 2,
+      "text": "12.1 页面结构",
+      "id": "121-页面结构"
+    },
+    {
+      "level": 3,
+      "text": "左侧",
+      "id": "左侧"
+    },
+    {
+      "level": 3,
+      "text": "中间",
+      "id": "中间"
+    },
+    {
+      "level": 3,
+      "text": "右侧",
+      "id": "右侧"
+    },
+    {
+      "level": 2,
+      "text": "12.2 必须支持的过滤器",
+      "id": "122-必须支持的过滤器"
+    },
+    {
+      "level": 2,
+      "text": "12.3 必须支持的列表模式",
+      "id": "123-必须支持的列表模式"
+    },
+    {
+      "level": 2,
+      "text": "12.4 条目详情页必须展示",
+      "id": "124-条目详情页必须展示"
+    },
+    {
+      "level": 2,
+      "text": "12.5 门户视觉约束",
+      "id": "125-门户视觉约束"
+    },
+    {
+      "level": 2,
+      "text": "13. 初始内容策略",
+      "id": "13-初始内容策略"
+    },
+    {
+      "level": 3,
+      "text": "层 1：已下载开放材料",
+      "id": "层-1：已下载开放材料"
+    },
+    {
+      "level": 3,
+      "text": "层 2：商业书官方条目",
+      "id": "层-2：商业书官方条目"
+    },
+    {
+      "level": 3,
+      "text": "层 3：知识卡片",
+      "id": "层-3：知识卡片"
+    },
+    {
+      "level": 3,
+      "text": "层 4：Prompt 导向卡片",
+      "id": "层-4：prompt-导向卡片"
+    },
+    {
+      "level": 2,
+      "text": "14. 需要你后续获取并提供的材料",
+      "id": "14-需要你后续获取并提供的材料"
+    },
+    {
+      "level": 2,
+      "text": "14.1 P0 必要材料",
+      "id": "141-p0-必要材料"
+    },
+    {
+      "level": 3,
+      "text": "`The Art of Game Design: A Book of Lenses`",
+      "id": "the-art-of-game-design-a-book-of-lenses"
+    },
+    {
+      "level": 3,
+      "text": "`Game Design Workshop`",
+      "id": "game-design-workshop"
+    },
+    {
+      "level": 3,
+      "text": "`Game Mechanics: Advanced Game Design`",
+      "id": "game-mechanics-advanced-game-design"
+    },
+    {
+      "level": 3,
+      "text": "`Game Feel`",
+      "id": "game-feel"
+    },
+    {
+      "level": 3,
+      "text": "`Rules of Play`",
+      "id": "rules-of-play"
+    },
+    {
+      "level": 2,
+      "text": "14.2 P1 高价值材料",
+      "id": "142-p1-高价值材料"
+    },
+    {
+      "level": 3,
+      "text": "`Characteristics of Games`",
+      "id": "characteristics-of-games"
+    },
+    {
+      "level": 3,
+      "text": "`A Theory of Fun for Game Design`",
+      "id": "a-theory-of-fun-for-game-design"
+    },
+    {
+      "level": 3,
+      "text": "`Level Up! The Guide to Great Video Game Design`",
+      "id": "level-up-the-guide-to-great-video-game-design"
+    },
+    {
+      "level": 3,
+      "text": "`Challenges for Game Designers`",
+      "id": "challenges-for-game-designers"
+    },
+    {
+      "level": 2,
+      "text": "14.3 P2 可选材料",
+      "id": "143-p2-可选材料"
+    },
+    {
+      "level": 3,
+      "text": "`Advanced Game Design: A Systems Approach`",
+      "id": "advanced-game-design-a-systems-approach"
+    },
+    {
+      "level": 3,
+      "text": "`The Aesthetic of Play`",
+      "id": "the-aesthetic-of-play"
+    },
+    {
+      "level": 3,
+      "text": "`Play Matters`",
+      "id": "play-matters"
+    },
+    {
+      "level": 3,
+      "text": "`The Rule Book`",
+      "id": "the-rule-book"
+    },
+    {
+      "level": 2,
+      "text": "14.4 用户提供格式要求",
+      "id": "144-用户提供格式要求"
+    },
+    {
+      "level": 2,
+      "text": "15. 实施阶段",
+      "id": "15-实施阶段"
+    },
+    {
+      "level": 2,
+      "text": "Phase 0：脚手架",
+      "id": "phase-0：脚手架"
+    },
+    {
+      "level": 2,
+      "text": "Phase 1：抓取器",
+      "id": "phase-1：抓取器"
+    },
+    {
+      "level": 2,
+      "text": "Phase 2：标准化层",
+      "id": "phase-2：标准化层"
+    },
+    {
+      "level": 2,
+      "text": "Phase 3：索引与报告",
+      "id": "phase-3：索引与报告"
+    },
+    {
+      "level": 2,
+      "text": "Phase 4：门户",
+      "id": "phase-4：门户"
+    },
+    {
+      "level": 2,
+      "text": "Phase 5：内容填充",
+      "id": "phase-5：内容填充"
+    },
+    {
+      "level": 2,
+      "text": "16. 验收标准",
+      "id": "16-验收标准"
+    },
+    {
+      "level": 2,
+      "text": "17. 后续扩展但不属于 V1",
+      "id": "17-后续扩展但不属于-v1"
+    },
+    {
+      "level": 2,
+      "text": "18. 实现决策总结",
+      "id": "18-实现决策总结"
+    }
+  ],
+  "search_text": "游戏设计知识库技术规格书 # 游戏设计知识库技术规格书 ## 1. 文档目的 本文定义一个可在当前仓库内实现的、本地优先、合法合规的“游戏设计知识库系统”。 系统目标不是简单下载 PDF，而是构建一套可持续运行的研究与检索基础设施，使你能： - 从网上抓取合法可获取的游戏设计书籍、文章、课程和研究素材。 - 对受版权保护的商业书只抓官方元数据、目录、摘要和购买入口。 - 接收你后续手动提供的正版电子书或导出笔记。 - 按“开发阶段大类 + 输出物子类”组织知识，而不是按岗位头衔。 - 在本地静态页面中完成浏览、过滤、检索、阅读和缺失材料盘点。 本文是后续实现阶段的唯一技术依据。你回复 `build` 后，后续实现必须严格按本 spec 落地。 --- ## 2. 产品目标 ### 2.1 核心目标 构建一个面向游戏设计研究与 prompt 生产的本地知识库，服务以下工作流： 1. 收集来源 2. 归档原始材料 3. 标准化元数据 4. 提炼知识卡片 5. 映射到开发阶段分类 6. 提供搜索与阅读入口 7. 输出“还缺哪些正版材料”的清单 ### 2.2 成功标准 - V1 能稳定抓取开放许可或允许本地归档的来源。 - V1 能索引受版权保护书籍的官方信息，但不非法保存全文。 - V1 能接收你手动补充的正版电子书，并纳入统一索引。 - V1 能按你给定的 8 个大类组织知识，并默认优先展示 6 个母类。 - V1 能生成一份机器可读的知识库索引和一份人类可读的缺失材料清单。 - V1 不依赖 Python、不依赖数据库服务、不依赖外部后端。 --- ## 3. 非目标 以下内容明确不做： - 不破解 DRM。 - 不下载盗版商业书。 - 不抓取版权状态不明确的第三方 PDF 镜像站。 - 不做云端账号系统。 - 不做在线协作编辑。 - 不做向量数据库或 LLM 服务端。 - 不做图像 OCR 作为 V1 必选功能。 --- ## 4. 设计原则 ### 4.1 合法优先 所有源按权限分级： - 可抓全文并本地保存 - 只抓官方元数据 - 只保留外链 - 必须等待用户提供正版文件 ### 4.2 本地优先 所有数据、索引、页面都在仓库内生成，可离线浏览。 ### 4.3 结构优先于囤积 先建立统一 schema、分类法、来源注册表，再扩大采集量。 ### 4.4 实现约束清晰 V1 只使用： - Node.js 内置能力 - HTML / CSS / 原生 JS - JSON / Markdown / 本地文件系统 ### 4.5 面向任务而不是头衔 第一层按开发阶段大类组织。 第二层按输出物子类组织。 第三层用主题标签承接低频但风格强的内容。 --- ## 5. V1 信息架构 ## 5.1 分类总览 知识库 schema 支持 8 个一级大类。 门户默认优先展示 6 个母类。 ### 一级大类 1. 立项与方向 2. 核心玩法与系统设计 3. 数值与经济设计 4. 内容与叙事 5. 美术、UI、体验表达 6. 开发实现 7. 测试、验收与审计 8. 运营与发布 ### V1 默认主展示的 6 个母类 1. 立项与方向 2. 核心玩法与系统设计 3. 数值与经济设计 4. 开发实现 5. 测试、验收与审计 6. 美术、UI、体验表达 ### V1 次级展示类 - 内容与叙事 - 运营与发布 这两个类在 schema 中完整存在，但 UI 默认收纳到“扩展分类”区域。 ## 5.2 二级分类：输出物子类 二级分类不是岗位，不是学科，而是你真正会点开的交付物。 ### 立项与方向 - 游戏方向收敛 - 核心玩法判断 - 玩家画像与目标市场 - 平台适配判断 - 竞品拆解 - 风险预判 - MVP 范围裁剪 - 游戏总监视角评审 ### 核心玩法与系统设计 - 核心循环设计 - 单机制原型设计 - 战斗系统设计 - 关卡机制设计 - 生存/成长/资源循环设计 - 失败条件与胜利条件设计 - 难度曲线设计 - 新手引导设计 - Meta progression 设计 ### 数值与经济设计 - 数值框架设计 - 战斗数值平衡 - 资源产出消耗设计 - 经济系统设计 - 货币系统设计 - 成长曲线设计 - 掉落与奖励设计 - 商业化数值评估 ### 内容与叙事 - 世界观设定 - 剧情主线设计 - 支线任务设计 - 角色设定 - 对话写作 - 任务文本设计 - 叙事结构评审 - 内容生成约束 ### 美术、UI、体验表达 - 游戏美术方向 - HUD / UI 结构设计 - 视觉风格统一 - 场景与角色资产规格 - 动效与打击感表达 - 技术美术规范 - 可读性与可访问性评审 - 玩家体验流畅度评审 ### 开发实现 - 技术方案 spec - 原型实现 prompt - 客户端开发 - 工具链开发 - 存档/状态机/输入系统 - 性能优化 - 重构与 cleanup - bug 修复 ### 测试、验收与审计 - 玩法验收 - 版本验收 - 平衡性验收 - 新手体验验收 - UI / 可用性验收 - Bug triage - 回归测试检查单 - 项目状态审计 ### 运营与发布 - 发布前检查 - 商店页文案 - 分享传播机制设计 - 评分/排行榜机制 - 留存优化 - 活动策划 - 社群传播点设计 - 更新路线图 ## 5.3 第三层：主题标签 第三层用来承接低频但风格强的主题，不做主入口。 主题标签示例： - 世界观 - 对话 - 美术风格 - 商业化 - 打击感 - 新手引导 - MMO - 生存 - Roguelite - 卡牌 - 经济循环 - 叙事结构 - UI 可读性 --- ## 6. 资源类型 V1 支持以下资源类型： - 书籍 - 书籍章节 - 论文 - 博客文章 - 课程页面 - 课程 PDF - 演讲或讲稿 - 设计模板 - 检查单 - Prompt 模板 - 知识卡片 - 内部笔记 V1 不把“美术素材站抓图”作为主目标。 这里的“素材”限定为研究材料和设计参考物，不是游戏生产资产库。 --- ## 7. 合法性与抓取策略 ## 7.1 抓取政策枚举 每个来源必须声明 `acquisition_policy`： - `open_fulltext_fetch` - `open_metadata_fetch` - `official_metadata_only` - `external_link_only` - `user_supplied_fulltext` - `manual_review` ## 7.2 各政策含义 ### `open_fulltext_fetch` 允许抓取并在仓库中保存全文或原始文件。 适用： - CC 许可课程材料 - 作者授权 PDF - MIT OCW 课程 PDF ### `open_metadata_fetch` 允许抓元数据、摘要、目录或公开页面，但不一定保存整本文件。 适用： - 开放访问书目页 - 官方目录页 ### `official_metadata_only` 只抓官方元数据，不保存全文。 适用： - 商业书出版页 - 出版社样章页 - 官方介绍页 ### `external_link_only` 只保留链接和人工摘要，不抓文件。 适用： - 对方明确不允许再托管 - 页面复杂且版权边界易混淆 ### `user_supplied_fulltext` 系统可以接收本地文件，但必须由用户手动提供。 适用： - 你已购买的电子书 - 你自己导出的笔记、批注、目录 ### `manual_review` 默认不自动抓取，等人工判定。 ## 7.3 V1 明确允许抓取并本地保存的来源 - `Game Design Concepts` - MIT OCW 游戏设计课程 PDF - Richard Bartle 官方授权 PDF / DOCX - MDA 论文官方 PDF ## 7.4 V1 只抓官方元数据的来源 - Schell Games / Routledge 上的 `The Art of Game Design` - MIT Press 商业书页 - Routledge 商业书页 - InformIT / Pearson 商业书页 - Wiley 商业书页 ## 7.5 V1 只保留外链的来源 - `Game AI Pro` 原因： - 官方站点允许个人下载 - 但页面明确禁止其他站点重新分发或托管 - 仓库存档会构成再托管风险 --- ## 8. V1 来源清单 ## 8.1 开放全文来源 ### `Game Design Concepts` - 类型：课程 / 博客 - 用途：设计基础、迭代、原型、平衡、叙事 - 官方站点：<https://gamedesignconcepts.wordpress.com/> - 许可页：<https://gamedesignconcepts.wordpress.com/about/> - 抓取方式：HTML 页面抓取 + 本地快照 ### MIT OpenCourseWare - 类型：课程 / PDF - 用途：作业样例、规则写作、原型、Playtest - 官方站点： - <https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/> - <https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/> - <https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/> - 抓取方式：课程页解析 + PDF 直链下载 ### Richard Bartle - 类型：作者站 / 授权书籍 - 用途：在线世界、玩家类型、身份与社交系统 - 官方站点： - <https://mud.co.uk/dvw/> - <https://mud.co.uk/richard/papers.htm> - 抓取方式：PDF / DOCX 直链下载 ### MDA - 类型：论文 - 用途：Mechanics / Dynamics / Aesthetics 分析框架 - 官方 PDF：<https://users.cs.northwestern.edu/~hunicke/MDA.pdf> - 抓取方式：PDF 直链下载 ## 8.2 官方元数据来源 ### 商业书官方页面 - `The Art of Game Design` - <https://schellgames.com/art-of-game-design> - <https://www.routledge.com/link/link/p/book/9781138632059> - `Rules of Play` - <https://mitpress.mit.edu/9780262240451/rules-of-play> - `Characteristics of Games` - <https://mitpress.mit.edu/9780262542692/characteristics-of-games/> - `Game Design Workshop` - <https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009> - `Game Feel` - <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282> - `Game Mechanics: Advanced Game Design` - <https://www.informit.com/store/product.aspx?isbn=9780132946681> - `Advanced Game Design: A Systems Approach` - <https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246> - `A Theory of Fun for Game Design` - <https://www.theoryoffun.com/> - `Level Up! The Guide to Great Video Game Design` - <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx> - `The Rule Book` - <https://mitpress.mit.edu/9780262377539/the-rule-book/> --- ## 9. 数据模型 V1 不使用数据库。 所有内容使用 JSON + Markdown + 原始文件落盘。 ## 9.1 实体类型 ### Source 定义外部来源站点与抓取策略。 字段： - `id` - `name` - `base_url` - `source_type` - `acquisition_policy` - `allowed_file_types` - `rate_limit_ms` - `notes` ### Work 表示一本书、一门课、一篇论文或一个材料集合。 字段： - `id` - `title` - `authors` - `year` - `kind` - `canonical_url` - `publisher_or_source` - `language` - `license` - `access_mode` - `summary` - `topics` - `keywords` ### Resource 表示某个具体页面、PDF、HTML 快照、样章、用户文件或外链。 字段： - `id` - `work_id` - `resource_kind` - `source_id` - `remote_url` - `local_path` - `mime_type` - `fetch_status` - `checksum` - `fetched_at` - `last_modified` ### Knowledge Card 这是知识库的核心阅读对象。 字段： - `id` - `title` - `work_id` - `card_kind` - `phase_group` - `deliverable_type` - `theme_tags` - `summary` - `key_points` - `usage_relevance` - `recommended_for` - `related_cards` - `source_refs` - `availability` ### Material Request 表示系统识别出的缺失材料。 字段： - `id` - `title` - `author` - `priority` - `reason` - `preferred_format` - `official_links` - `status` ## 9.2 枚举字段 ### `kind` - `book` - `paper` - `article` - `course` - `talk` - `template` - `checklist` - `prompt_pack` - `note` ### `card_kind` - `source_overview` - `concept_card` - `reading_note` - `prompt_template` - `checklist` - `spec_template` - `example_case` - `book_entry` ### `availability` - `downloaded_open` - `metadata_only` - `external_only` - `user_file_needed` --- ## 10. 文件结构 实现必须使用以下目录结构： ```text founder-of-the-north/ kb-tools/ sync-open-sources.mjs sync-official-metadata.mjs ingest-user-files.mjs normalize-library.mjs build-kb-index.mjs build-kb-portal-data.mjs report-missing-materials.mjs validate-kb.mjs kb-portal/ index.html styles.css app.js data.js content.js knowledge/ 50-game-design-masters-kb/ README.md catalog/ notes/ registry/ sources.json works.json material-requests.json taxonomy.json incoming/ user-supplied/ raw/ open-web/ official-metadata/ normalized/ works/ cards/ indexes/ library-index.json search-index.json reports/ missing-materials.md source-audit.md ``` 说明： - `kb-tools/` 放 Node 脚本。 - `kb-portal/` 放独立静态门户，不改现有 `docs-portal/`。 - `registry/` 放来源注册表与分类法。 - `incoming/user-supplied/` 放你手工提供的正版文件。 - `raw/` 保存原始抓取结果。 - `normalized/` 保存标准化后的结构化内容。 - `indexes/` 保存门户所需 JSON。 - `reports/` 保存自动生成的人类可读报告。 --- ## 11. 抓取与处理流水线 ## 11.1 步骤 1：建立来源注册表 输入： - 固定 JSON 清单 输出： - `registry/sources.json` - `registry/works.json` - `registry/taxonomy.json` 要求： - 每个来源必须声明抓取政策 - 每个作品必须声明可用性和官方入口 ## 11.2 步骤 2：抓取开放全文来源 脚本： - `kb-tools/sync-open-sources.mjs` 功能： - 拉取允许本地保存的 HTML / PDF / DOCX - 保存到 `raw/open-web/` - 记录抓取时间、URL、大小、checksum 约束： - 严格按白名单来源抓取 - 默认 1 请求串行，带最小延迟 - 不实现站点递归爬虫 - 只抓注册表中显式列出的 URL ## 11.3 步骤 3：抓取官方元数据 脚本： - `kb-tools/sync-official-metadata.mjs` 功能： - 抓取官方书籍页标题、作者、摘要、目录、ISBN、出版信息、购买页 - 保存到 `raw/official-metadata/` 约束： - 不下载商业书全文 - 不保存超过页面允许范围的受版权内容 ## 11.4 步骤 4：接收用户文件 脚本： - `kb-tools/ingest-user-files.mjs` 输入目录： - `knowledge/50-game-design-masters-kb/incoming/user-supplied/` 支持格式： - `.pdf` - `.epub` - `.md` - `.txt` - `.json` V1 约束： - 优先支持文本型 PDF、EPUB、Markdown、TXT - 不强制支持图片扫描 PDF 的 OCR 文件命名规范： `Author - Title (Edition, Year).ext` 若无法标准命名，可允许配套 sidecar： `Author - Title.meta.json` ## 11.5 步骤 5：标准化 脚本： - `kb-tools/normalize-library.mjs` 功能： - 为所有 Work 生成统一 JSON - 为所有资源生成统一索引项 - 为重点来源生成知识卡片 输出： - `normalized/works/*.json` - `normalized/cards/*.md` - `normalized/cards/*.json` 标准化要求： - 生成统一 slug - 去重 canonical URL - 统一作者数组格式 - 统一许可证与可用性枚举 - 自动补全 phase group 与 deliverable type ## 11.6 步骤 6：建立索引 脚本： - `kb-tools/build-kb-index.mjs` 输出： - `indexes/library-index.json` - `indexes/search-index.json` V1 搜索策略： - 不使用向量 - 不使用第三方搜索库 - 使用预拼接的 `search_text` - 前端使用大小写无关子串匹配 - 中文搜索使用直接子串匹配 ## 11.7 步骤 7：生成门户数据 脚本： - `kb-tools/build-kb-portal-data.mjs` 输出： - `kb-portal/data.js` - `kb-portal/content.js` 要求： - `data.js` 存放列表页数据与 taxonomy - `content.js` 存放卡片正文与摘要 ## 11.8 步骤 8：生成缺失材料报告 脚本： - `kb-tools/report-missing-materials.mjs` 输出： - `reports/missing-materials.md` - `registry/material-requests.json` 要求： - 报告必须按优先级排序 - 必须说明为什么需要这本书 - 必须说明建议你提供的文件格式 ## 11.9 步骤 9：校验 脚本： - `kb-tools/validate-kb.mjs` 校验内容： - JSON schema 是否完整 - 引用的本地文件是否存在 - taxonomy 值是否合法 - 重复 slug 检查 - 缺失 summary 检查 - 链接可用性仅做格式校验，不做强制联网校验 --- ## 12. 门户功能规格 门户是一个独立静态页面应用，路径为 `kb-portal/index.html`。 ## 12.1 页面结构 ### 左侧 - 一级分类导航 - 二级输出物过滤 - 来源类型过滤 - 可用性过滤 - 搜索框 ### 中间 - 卡片列表 - 卡片摘要 - 排序选项 ### 右侧 - 详情阅读区 - 元数据面板 - 相关条目 - 官方入口 - 本地文件打开链接 ## 12.2 必须支持的过滤器 - 一级分类 - 二级输出物 - 资源类型 - 可用性 - 来源 - 是否已本地下载 - 是否需要用户补充 ## 12.3 必须支持的列表模式 - 所有条目 - 仅开放全文 - 仅商业书元数据 - 仅用户待补材料 - 仅 prompt / checklist / spec 类卡片 ## 12.4 条目详情页必须展示 - 标题 - 作者 - 年份 - 一级分类 - 二级输出物 - 摘要 - 核心要点 - 适用场景 - 获取方式 - 官方链接 - 本地文件链接 - 相关条目 ## 12.5 门户视觉约束 - 不复用现有 `docs-portal` 的项目文档 taxonomy - 视觉可借鉴现有 portal 的阅读优先布局 - 必须清晰区分“已下载全文”和“只有官方入口” --- ## 13. 初始内容策略 V1 初始内容分 4 层： ### 层 1：已下载开放材料 - `Game Design Concepts` - MIT OCW - Richard Bartle - MDA ### 层 2：商业书官方条目 - 仅元数据 - 仅官方链接 - 仅短摘要 ### 层 3：知识卡片 每本核心书或课程至少要有一张 `book_entry` 或 `source_overview` 卡片。 ### 层 4：Prompt 导向卡片 针对 6 个母类，每个类至少要有 1 组导向卡片： - 立项与方向 - 核心玩法与系统设计 - 数值与经济设计 - 开发实现 - 测试、验收与审计 - 美术、UI、体验表达 这些导向卡片先是知识入口，不在 V1 强制生成完整 prompt 文本库。 --- ## 14. 需要你后续获取并提供的材料 下列材料如果能提供正版电子版，知识库质量会明显提升。 优先级定义： - P0：强烈建议第一时间提供 - P1：建议第二批提供 - P2：可选 ## 14.1 P0 必要材料 ### `The Art of Game Design: A Book of Lenses` - 作者：Jesse Schell - 原因：这是“立项与方向”和“核心玩法判断”的最高价值主干书之一 - 期望格式：DRM-free EPUB / 文本型 PDF / 你自己的阅读笔记导出 - 官方入口： - <https://schellgames.com/art-of-game-design> - <https://www.routledge.com/link/link/p/book/9781138632059> ### `Game Design Workshop` - 作者：Tracy Fullerton - 原因：这是“原型、试玩、迭代”最重要的流程书 - 期望格式：EPUB / 文本型 PDF - 官方入口： - <https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009> ### `Game Mechanics: Advanced Game Design` - 作者：Ernest Adams, Joris Dormans - 原因：这是“数值与经济设计”以及系统建模的核心书 - 期望格式：EPUB / 文本型 PDF - 官方入口： - <https://www.informit.com/store/product.aspx?isbn=9780132946681> ### `Game Feel` - 作者：Steve Swink - 原因：这是“打击感、动效反馈、控制响应”的主干书 - 期望格式：EPUB / 文本型 PDF - 官方入口： - <https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282> ### `Rules of Play` - 作者：Katie Salen Tekinbaş, Eric Zimmerman - 原因：这是“规则、系统、意义”语言体系的核心书 - 期望格式：EPUB / 文本型 PDF - 官方入口： - <https://mitpress.mit.edu/9780262240451/rules-of-play> ## 14.2 P1 高价值材料 ### `Characteristics of Games` - 作者：George Skaff Elias, Richard Garfield, K. Robert Gutschera - 原因：适合建立形式化分析卡片 - 官方入口： - <https://mitpress.mit.edu/9780262542692/characteristics-of-games/> ### `A Theory of Fun for Game Design` - 作者：Raph Koster - 原因：适合“好玩、学习、掌握、重复感”分析 - 官方入口： - <https://www.theoryoffun.com/> ### `Level Up! The Guide to Great Video Game Design` - 作者：Scott Rogers - 原因：适合“设计文档、生产表达、关卡与流程” - 官方入口： - <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx> ### `Challenges for Game Designers` - 作者：Brenda Romero, Ian Schreiber - 原因：适合把知识库扩展成训练型 prompt 库 - 期望格式：EPUB / 文本型 PDF / 你自己的题目摘录 ## 14.3 P2 可选材料 ### `Advanced Game Design: A Systems Approach` - 作者：Michael Sellers - 官方入口： - <https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246> ### `The Aesthetic of Play` - 作者：Brian Upton - 官方入口： - <https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/> ### `Play Matters` - 作者：Miguel Sicart - 官方入口： - <https://mitpress.mit.edu/9780262534512/play-matters/> ### `The Rule Book` - 作者：Jaakko Stenros, Markus Montola - 说明：这是 MIT Press 开放获取书，可以先抓元数据与官方 OA 页，后续如需要再做更深卡片 - 官方入口： - <https://mitpress.mit.edu/9780262377539/the-rule-book/> ## 14.4 用户提供格式要求 推荐优先级如下： 1. EPUB 2. 文本型 PDF 3. 你自己的摘要 / 读书笔记 Markdown 4. 扫描 PDF 仅在没有其他版本时使用 如果某本书只有 DRM 平台版本，V1 不强求导入原文。你可以先提供： - 目录 - 你手抄或导出的重点摘录 - 章节笔记 系统一样可以索引这些内容。 --- ## 15. 实施阶段 ## Phase 0：脚手架 - 建立目录结构 - 建立 taxonomy - 建立来源注册表 ## Phase 1：抓取器 - 完成开放来源抓取 - 完成商业书元数据抓取 - 完成用户文件接收 ## Phase 2：标准化层 - 统一 Work / Resource / Card schema - 生成 normalized JSON - 生成卡片 Markdown ## Phase 3：索引与报告 - 生成 library index - 生成 search index - 生成 missing materials 报告 ## Phase 4：门户 - 构建静态浏览器 - 接入 filters - 接入详情阅读 ## Phase 5：内容填充 - 为 6 个母类建立首批导向卡片 - 为核心书单建立条目 - 为开放来源生成入口卡片 --- ## 16. 验收标准 系统被视为完成，必须同时满足： 1. 仓库中存在独立 `kb-portal/`，可直接打开浏览。 2. 仓库中存在独立 `kb-tools/`，所有脚本可由 Node 直接执行。 3. 能成功重建开放来源索引，不依赖手工编辑。 4. 能生成商业书元数据卡片，不下载商业书全文。 5. 能扫描 `incoming/user-supplied/` 并纳入索引。 6. 能按 8 类 schema 分类，且门户默认主展示 6 个母类。 7. 能生成 `missing-materials.md`。 8. 不修改现有 `docs-portal` 的逻辑与 taxonomy。 --- ## 17. 后续扩展但不属于 V1 - 卡片级双向链接网络 - 阅读进度状态 - 引文高亮与片段引用 - OCR 接入 - 嵌入向量检索 - 自动 prompt 组合器 - 从知识卡片生成项目专用设计审查模板 --- ## 18. 实现决策总结 这套系统在 V1 的关键取舍如下： - 用文件系统，不用数据库 - 用 Node 原生能力，不用 Python - 用静态门户，不用服务端 - 先做合法来源与用户提供材料的统一入口，不碰盗版抓取 - 先做 8 类 schema，默认突出 6 个母类 - 先做“知识入口 + 资料盘点”，再做完整 prompt 工厂 这就是后续 `build` 阶段必须遵守的实现边界。 project-audit prompt-design"
+}

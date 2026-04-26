@@ -1,0 +1,81 @@
+{
+  "id": "game-ai-pro-series",
+  "title": "Game AI Pro",
+  "authors": [
+    "Steve Rabin et al."
+  ],
+  "year": 2013,
+  "kind": "book",
+  "canonical_url": "https://www.gameaipro.com/",
+  "publisher_or_source": "Game AI Pro",
+  "language": "en",
+  "license": "External-only in this knowledge base",
+  "access_mode": "external_only",
+  "source_ids": [
+    "gameai-pro"
+  ],
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "theme_tags": [
+    "systems-thinking"
+  ],
+  "summary": "AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。",
+  "key_points": [
+    "很适合开发实现层延伸研究。",
+    "站点明确不应二次托管。",
+    "V1 仅提供官方外链。"
+  ],
+  "recommended_for": [
+    "程序",
+    "系统策划",
+    "技术策划"
+  ],
+  "official_links": [
+    "https://www.gameaipro.com/"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design"
+  ],
+  "usage_relevance": "适合后续扩展 AI、寻路、行为树和调试研究。",
+  "entity_type": "work",
+  "slug": "game-ai-pro-series",
+  "phase_label": "开发实现",
+  "deliverable_label": "技术方案 spec",
+  "theme_labels": [
+    "系统思维"
+  ],
+  "availability_label": "仅外链",
+  "source_labels": [
+    "Game AI Pro"
+  ],
+  "official_link_entries": [
+    {
+      "label": "gameaipro.com",
+      "url": "https://www.gameaipro.com/"
+    }
+  ],
+  "local_files": [],
+  "official_metadata_pages": [],
+  "private_extracts": [],
+  "downloaded": false,
+  "needs_user_file": false,
+  "has_private_source": false,
+  "private_source_count": 0,
+  "private_extract_count": 0,
+  "metadata_summary": "",
+  "search_text": "Game AI Pro Steve Rabin et al. AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。 很适合开发实现层延伸研究。 站点明确不应二次托管。 V1 仅提供官方外链。 适合后续扩展 AI、寻路、行为树和调试研究。 程序 系统策划 技术策划 开发实现 技术方案 spec 系统思维 Game AI Pro",
+  "content_markdown": "# Game AI Pro\n\n## 基本信息\n\n- 作者：Steve Rabin et al.\n- 年份：2013\n- 类型：book\n- 来源：Game AI Pro\n\n## 摘要\n\nAI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。\n\n## 核心要点\n\n- 很适合开发实现层延伸研究。\n- 站点明确不应二次托管。\n- V1 仅提供官方外链。\n\n## 适用场景\n\n适合后续扩展 AI、寻路、行为树和调试研究。\n\n## 分类\n\n- 一级分类：开发实现\n- 二级输出物：技术方案 spec\n- 主题标签：系统思维\n- 可用性：仅外链\n\n## 获取方式\n\n- 当前只保留外链，不在仓库内托管源文件。\n\n## 官方链接\n\n- <https://www.gameaipro.com/>\n\n## 相关条目\n\n- Game Mechanics: Advanced Game Design\n",
+  "content_html": "<h1 id=\"game-ai-pro\">Game AI Pro</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Steve Rabin et al.</li><li>年份：2013</li><li>类型：book</li><li>来源：Game AI Pro</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>很适合开发实现层延伸研究。</li><li>站点明确不应二次托管。</li><li>V1 仅提供官方外链。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>适合后续扩展 AI、寻路、行为树和调试研究。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：开发实现</li><li>二级输出物：技术方案 spec</li><li>主题标签：系统思维</li><li>可用性：仅外链</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>当前只保留外链，不在仓库内托管源文件。</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://www.gameaipro.com/\" target=\"_blank\" rel=\"noreferrer\">https://www.gameaipro.com/</a></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li></ul>",
+  "knowledge_domains": [],
+  "purposes": [],
+  "reading_modes": [],
+  "value_types": [],
+  "knowledge_lifecycle": [],
+  "primary_private_extract": null,
+  "primary_private_artifact": null,
+  "primary_toc_preview": [],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "external_only"
+}

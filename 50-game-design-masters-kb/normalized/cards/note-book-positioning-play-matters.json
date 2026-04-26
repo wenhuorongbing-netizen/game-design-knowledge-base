@@ -1,0 +1,68 @@
+{
+  "id": "note-book-positioning-play-matters",
+  "entity_type": "card",
+  "title": "Play Matters：知识定位",
+  "summary": "最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "resource_kind": "note",
+  "source_work_id": "play-matters",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "player-motivation",
+    "fun-theory"
+  ],
+  "related_work_ids": [
+    "play-matters",
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-play-matters"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262534512/play-matters/"
+  ],
+  "local_links": [
+    {
+      "label": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Play Matters：知识定位\n\n## 这本书最适合解决什么\n\n最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。\n\n## 主要关注\n\n- 关注领域：playfulness / 身份与态度 / 体验哲学 / 文化语境\n- 主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课\n- 推荐读法：按论点通读 / 和世界观设计并读 / 复盘时回查\n- 价值类型：哲学视角 / 体验扩展层 / 身份感分析\n- 适用阶段：方向思考 / 世界观深化 / 长期运营复盘\n\n## 和相邻书目的关系\n\n- The Aesthetic of Play\n- Designing Virtual Worlds\n\n## 结构证据\n\n- Contents\n- On Thinking Playfully\n- Acknowledgments\n- Instructions for Reading This Book\n- 1 Play Is\n- 2 Playfulness\n- 3 Toys\n- 4 Playgrounds\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"play-matters：知识定位\">Play Matters：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：playfulness / 身份与态度 / 体验哲学 / 文化语境</li><li>主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课</li><li>推荐读法：按论点通读 / 和世界观设计并读 / 复盘时回查</li><li>价值类型：哲学视角 / 体验扩展层 / 身份感分析</li><li>适用阶段：方向思考 / 世界观深化 / 长期运营复盘</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>The Aesthetic of Play</li><li>Designing Virtual Worlds</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Contents</li><li>On Thinking Playfully</li><li>Acknowledgments</li><li>Instructions for Reading This Book</li><li>1 Play Is</li><li>2 Playfulness</li><li>3 Toys</li><li>4 Playgrounds</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Play Matters：知识定位",
+      "id": "play-matters：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "Play Matters 从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。 最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。 playfulness 身份与态度 体验哲学 文化语境 世界与身份审查 长期沉浸判断 高层体验补课 按论点通读 和世界观设计并读 复盘时回查 哲学视角 体验扩展层 身份感分析 方向思考 世界观深化 长期运营复盘"
+}

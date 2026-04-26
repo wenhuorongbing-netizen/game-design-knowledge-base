@@ -1,0 +1,80 @@
+{
+  "id": "work-the-rule-book",
+  "entity_type": "card",
+  "title": "The Rule Book",
+  "summary": "把规则拆分为正式、内化、社会、外部和物质五类，适合重新理解规则边界。",
+  "card_kind": "book_entry",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "resource_kind": "book",
+  "source_work_id": "the-rule-book",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "formalism",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "rules-of-play",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262377539/the-rule-book/"
+  ],
+  "local_links": [],
+  "body_markdown": "# The Rule Book\n\n## 基本信息\n\n- 作者：Jaakko Stenros / Markus Montola\n- 年份：2024\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n把规则拆分为正式、内化、社会、外部和物质五类，适合重新理解规则边界。\n\n## 核心要点\n\n- 适合重新理解规则不只是说明书文本。\n- 适合做系统边界和社会规则分析。\n- 适合作为高阶规则理论补充。\n\n## 适用场景\n\n适合审查显性规则、隐性规则和社会规则之间的差距。\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：核心循环设计\n- 主题标签：规则与形式化 / 系统思维\n- 可用性：仅官方元数据\n\n## 获取方式\n\n- 当前只保留官方元数据与定位信息，不对外托管商业书正文。\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262377539/the-rule-book/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/the-rule-book/01-mitpress.mit.edu-9780262377539-the-rule-book-.html`\n\n## 相关条目\n\n- Rules of Play\n- MDA: A Formal Approach to Game Design and Game Research\n",
+  "body_html": "<h1 id=\"the-rule-book\">The Rule Book</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Jaakko Stenros / Markus Montola</li><li>年份：2024</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>把规则拆分为正式、内化、社会、外部和物质五类，适合重新理解规则边界。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>适合重新理解规则不只是说明书文本。</li><li>适合做系统边界和社会规则分析。</li><li>适合作为高阶规则理论补充。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>适合审查显性规则、隐性规则和社会规则之间的差距。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：核心循环设计</li><li>主题标签：规则与形式化 / 系统思维</li><li>可用性：仅官方元数据</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>当前只保留官方元数据与定位信息，不对外托管商业书正文。</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262377539/the-rule-book/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262377539/the-rule-book/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/the-rule-book/01-mitpress.mit.edu-9780262377539-the-rule-book-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Rules of Play</li><li>MDA: A Formal Approach to Game Design and Game Research</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Rule Book",
+      "id": "the-rule-book"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "The Rule Book Jaakko Stenros Markus Montola 把规则拆分为正式、内化、社会、外部和物质五类，适合重新理解规则边界。 适合重新理解规则不只是说明书文本。 适合做系统边界和社会规则分析。 适合作为高阶规则理论补充。 适合审查显性规则、隐性规则和社会规则之间的差距。 主策 系统策划 叙事设计 核心玩法与系统设计 核心循环设计 规则与形式化 系统思维 MIT Press MIT Press - Book Details"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "work-level-up",
+  "entity_type": "card",
+  "title": "Level Up! The Guide to Great Video Game Design",
+  "summary": "一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。",
+  "card_kind": "book_entry",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "book",
+  "source_work_id": "level-up",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux",
+    "combat",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+  ],
+  "local_links": [
+    {
+      "label": "Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+    }
+  ],
+  "body_markdown": "# Level Up! The Guide to Great Video Game Design\n\n## 基本信息\n\n- 作者：Scott Rogers\n- 年份：2024\n- 类型：book\n- 来源：Wiley\n\n## 摘要\n\n一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。\n\n## 核心要点\n\n- 它偏制作现场语言，能把设计想法转成团队可执行说明。\n- 适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。\n- 更像生产手册，而不是纯理论书。\n\n## 适用场景\n\n最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。\n\n## 知识定位\n\n- 关注领域：设计文档 / 关卡与任务表达 / 制作沟通 / 商业开发流程\n- 主要用途：spec 写作 / 交付物表达 / 跨职能沟通\n- 推荐读法：按生产问题反查 / 写文档时并读 / 与 Workshop 结合使用\n- 价值类型：落地模板 / 生产语言 / 表达桥梁\n- 最适合介入的阶段：pre-production / production handoff / 文档整理\n\n## 分类\n\n- 一级分类：开发实现\n- 二级输出物：技术方案 spec\n- 主题标签：UI/UX / 战斗 / Prompt 设计\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Level Up!: The Guide to Great Video Game Design\n- 解析格式：epub\n- 顶层目录预览：\n  - Level Up!: The Guide to Great Video Game Design\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json`（ok）\n\n## 官方链接\n\n- <https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx>\n\n## 相关条目\n\n- Game Feel: A Game Designer's Guide to Virtual Sensation\n- Game Design Workshop\n",
+  "body_html": "<h1 id=\"level-up-the-guide-to-great-video-game-design\">Level Up! The Guide to Great Video Game Design</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Scott Rogers</li><li>年份：2024</li><li>类型：book</li><li>来源：Wiley</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它偏制作现场语言，能把设计想法转成团队可执行说明。</li><li>适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。</li><li>更像生产手册，而不是纯理论书。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：设计文档 / 关卡与任务表达 / 制作沟通 / 商业开发流程</li><li>主要用途：spec 写作 / 交付物表达 / 跨职能沟通</li><li>推荐读法：按生产问题反查 / 写文档时并读 / 与 Workshop 结合使用</li><li>价值类型：落地模板 / 生产语言 / 表达桥梁</li><li>最适合介入的阶段：pre-production / production handoff / 文档整理</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：开发实现</li><li>二级输出物：技术方案 spec</li><li>主题标签：UI/UX / 战斗 / Prompt 设计</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Level Up!: The Guide to Great Video Game Design</li><li>解析格式：epub</li><li>顶层目录预览：</li><li>Level Up!: The Guide to Great Video Game Design</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/level-up-2d0c631a9566.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx\" target=\"_blank\" rel=\"noreferrer\">https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx</a></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Feel: A Game Designer&#39;s Guide to Virtual Sensation</li><li>Game Design Workshop</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Level Up! The Guide to Great Video Game Design",
+      "id": "level-up-the-guide-to-great-video-game-design"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Level Up! The Guide to Great Video Game Design Scott Rogers 一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。 它偏制作现场语言，能把设计想法转成团队可执行说明。 适合和 Game Feel、Workshop 搭配，一本抓落地，一本抓流程，一本抓体验。 更像生产手册，而不是纯理论书。 最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。 主策 制作 程序 玩法策划 设计文档 关卡与任务表达 制作沟通 商业开发流程 spec 写作 交付物表达 跨职能沟通 按生产问题反查 写文档时并读 与 Workshop 结合使用 落地模板 生产语言 表达桥梁 pre-production production handoff 文档整理 Level Up!: The Guide to Great Video Game Design 开发实现 技术方案 spec UI/UX 战斗 Prompt 设计 Wiley"
+}

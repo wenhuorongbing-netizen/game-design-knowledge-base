@@ -1,0 +1,187 @@
+{
+  "phase_groups": [
+    {
+      "id": "initiation-direction",
+      "label": "立项与方向",
+      "description": "最上游的方向收敛、MVP 裁剪、竞品判断与风险预判。",
+      "featured": true,
+      "sort_order": 10
+    },
+    {
+      "id": "core-gameplay-systems",
+      "label": "核心玩法与系统设计",
+      "description": "核心循环、单机制原型、战斗、关卡、成长循环与 Meta progression。",
+      "featured": true,
+      "sort_order": 20
+    },
+    {
+      "id": "numbers-economy",
+      "label": "数值与经济设计",
+      "description": "战斗数值、资源消耗、经济系统、掉落奖励与商业化数值。",
+      "featured": true,
+      "sort_order": 30
+    },
+    {
+      "id": "content-narrative",
+      "label": "内容与叙事",
+      "description": "世界观、角色、主支线、文本和叙事结构评审。",
+      "featured": false,
+      "sort_order": 40
+    },
+    {
+      "id": "art-ui-experience",
+      "label": "美术、UI、体验表达",
+      "description": "HUD、视觉方向、动效、可读性、可访问性与整体体验表达。",
+      "featured": true,
+      "sort_order": 50
+    },
+    {
+      "id": "development-implementation",
+      "label": "开发实现",
+      "description": "技术方案、原型实现、状态机、输入系统、工具链、优化和重构。",
+      "featured": true,
+      "sort_order": 60
+    },
+    {
+      "id": "testing-acceptance-audit",
+      "label": "测试、验收与审计",
+      "description": "玩法验收、版本验收、Bug triage、回归检查与项目审计。",
+      "featured": true,
+      "sort_order": 70
+    },
+    {
+      "id": "operations-release",
+      "label": "运营与发布",
+      "description": "发布前检查、留存优化、活动策划、传播机制和更新路线图。",
+      "featured": false,
+      "sort_order": 80
+    }
+  ],
+  "deliverable_types": [
+    { "id": "game-direction-convergence", "phase_group_id": "initiation-direction", "label": "游戏方向收敛" },
+    { "id": "core-gameplay-judgment", "phase_group_id": "initiation-direction", "label": "核心玩法判断" },
+    { "id": "player-market-definition", "phase_group_id": "initiation-direction", "label": "玩家画像与目标市场" },
+    { "id": "platform-fit-evaluation", "phase_group_id": "initiation-direction", "label": "平台适配判断" },
+    { "id": "competitive-breakdown", "phase_group_id": "initiation-direction", "label": "竞品拆解" },
+    { "id": "risk-precheck", "phase_group_id": "initiation-direction", "label": "风险预判" },
+    { "id": "mvp-scope-cut", "phase_group_id": "initiation-direction", "label": "MVP 范围裁剪" },
+    { "id": "director-review", "phase_group_id": "initiation-direction", "label": "游戏总监视角评审" },
+
+    { "id": "core-loop-design", "phase_group_id": "core-gameplay-systems", "label": "核心循环设计" },
+    { "id": "single-mechanic-prototype-design", "phase_group_id": "core-gameplay-systems", "label": "单机制原型设计" },
+    { "id": "combat-system-design", "phase_group_id": "core-gameplay-systems", "label": "战斗系统设计" },
+    { "id": "level-mechanic-design", "phase_group_id": "core-gameplay-systems", "label": "关卡机制设计" },
+    { "id": "survival-growth-resource-loop", "phase_group_id": "core-gameplay-systems", "label": "生存/成长/资源循环设计" },
+    { "id": "failure-victory-conditions", "phase_group_id": "core-gameplay-systems", "label": "失败条件与胜利条件设计" },
+    { "id": "difficulty-curve-design", "phase_group_id": "core-gameplay-systems", "label": "难度曲线设计" },
+    { "id": "onboarding-design", "phase_group_id": "core-gameplay-systems", "label": "新手引导设计" },
+    { "id": "meta-progression-design", "phase_group_id": "core-gameplay-systems", "label": "Meta progression 设计" },
+
+    { "id": "numeric-framework-design", "phase_group_id": "numbers-economy", "label": "数值框架设计" },
+    { "id": "combat-balance", "phase_group_id": "numbers-economy", "label": "战斗数值平衡" },
+    { "id": "resource-production-consumption", "phase_group_id": "numbers-economy", "label": "资源产出消耗设计" },
+    { "id": "economy-system-design", "phase_group_id": "numbers-economy", "label": "经济系统设计" },
+    { "id": "currency-system-design", "phase_group_id": "numbers-economy", "label": "货币系统设计" },
+    { "id": "growth-curve-design", "phase_group_id": "numbers-economy", "label": "成长曲线设计" },
+    { "id": "drop-reward-design", "phase_group_id": "numbers-economy", "label": "掉落与奖励设计" },
+    { "id": "monetization-balance-review", "phase_group_id": "numbers-economy", "label": "商业化数值评估" },
+
+    { "id": "worldbuilding", "phase_group_id": "content-narrative", "label": "世界观设定" },
+    { "id": "mainline-plot-design", "phase_group_id": "content-narrative", "label": "剧情主线设计" },
+    { "id": "sidequest-design", "phase_group_id": "content-narrative", "label": "支线任务设计" },
+    { "id": "character-design-sheet", "phase_group_id": "content-narrative", "label": "角色设定" },
+    { "id": "dialogue-writing", "phase_group_id": "content-narrative", "label": "对话写作" },
+    { "id": "quest-text-design", "phase_group_id": "content-narrative", "label": "任务文本设计" },
+    { "id": "narrative-structure-review", "phase_group_id": "content-narrative", "label": "叙事结构评审" },
+    { "id": "content-generation-constraints", "phase_group_id": "content-narrative", "label": "内容生成约束" },
+
+    { "id": "art-direction", "phase_group_id": "art-ui-experience", "label": "游戏美术方向" },
+    { "id": "hud-ui-structure-design", "phase_group_id": "art-ui-experience", "label": "HUD / UI 结构设计" },
+    { "id": "visual-style-consistency", "phase_group_id": "art-ui-experience", "label": "视觉风格统一" },
+    { "id": "asset-specs", "phase_group_id": "art-ui-experience", "label": "场景与角色资产规格" },
+    { "id": "motion-hit-feel-expression", "phase_group_id": "art-ui-experience", "label": "动效与打击感表达" },
+    { "id": "technical-art-standards", "phase_group_id": "art-ui-experience", "label": "技术美术规范" },
+    { "id": "readability-accessibility-review", "phase_group_id": "art-ui-experience", "label": "可读性与可访问性评审" },
+    { "id": "player-flow-review", "phase_group_id": "art-ui-experience", "label": "玩家体验流畅度评审" },
+
+    { "id": "technical-solution-spec", "phase_group_id": "development-implementation", "label": "技术方案 spec" },
+    { "id": "prototype-implementation-prompt", "phase_group_id": "development-implementation", "label": "原型实现 prompt" },
+    { "id": "client-development", "phase_group_id": "development-implementation", "label": "客户端开发" },
+    { "id": "toolchain-development", "phase_group_id": "development-implementation", "label": "工具链开发" },
+    { "id": "save-state-input-systems", "phase_group_id": "development-implementation", "label": "存档/状态机/输入系统" },
+    { "id": "performance-optimization", "phase_group_id": "development-implementation", "label": "性能优化" },
+    { "id": "refactor-cleanup", "phase_group_id": "development-implementation", "label": "重构与 cleanup" },
+    { "id": "bug-fix", "phase_group_id": "development-implementation", "label": "bug 修复" },
+
+    { "id": "gameplay-acceptance", "phase_group_id": "testing-acceptance-audit", "label": "玩法验收" },
+    { "id": "build-acceptance", "phase_group_id": "testing-acceptance-audit", "label": "版本验收" },
+    { "id": "balance-acceptance", "phase_group_id": "testing-acceptance-audit", "label": "平衡性验收" },
+    { "id": "onboarding-acceptance", "phase_group_id": "testing-acceptance-audit", "label": "新手体验验收" },
+    { "id": "ui-usability-acceptance", "phase_group_id": "testing-acceptance-audit", "label": "UI / 可用性验收" },
+    { "id": "bug-triage", "phase_group_id": "testing-acceptance-audit", "label": "Bug triage" },
+    { "id": "regression-checklist", "phase_group_id": "testing-acceptance-audit", "label": "回归测试检查单" },
+    { "id": "project-status-audit", "phase_group_id": "testing-acceptance-audit", "label": "项目状态审计" },
+
+    { "id": "pre-release-check", "phase_group_id": "operations-release", "label": "发布前检查" },
+    { "id": "store-page-copy", "phase_group_id": "operations-release", "label": "商店页文案" },
+    { "id": "sharing-loop-design", "phase_group_id": "operations-release", "label": "分享传播机制设计" },
+    { "id": "ratings-leaderboards", "phase_group_id": "operations-release", "label": "评分/排行榜机制" },
+    { "id": "retention-optimization", "phase_group_id": "operations-release", "label": "留存优化" },
+    { "id": "liveops-event-design", "phase_group_id": "operations-release", "label": "活动策划" },
+    { "id": "community-hooks", "phase_group_id": "operations-release", "label": "社群传播点设计" },
+    { "id": "update-roadmap", "phase_group_id": "operations-release", "label": "更新路线图" }
+  ],
+  "theme_tags": [
+    { "id": "design-fundamentals", "label": "设计基础" },
+    { "id": "playtesting", "label": "试玩与迭代" },
+    { "id": "formalism", "label": "规则与形式化" },
+    { "id": "fun-theory", "label": "乐趣与学习" },
+    { "id": "systems-thinking", "label": "系统思维" },
+    { "id": "economy-loops", "label": "经济循环" },
+    { "id": "combat", "label": "战斗" },
+    { "id": "ui-ux", "label": "UI/UX" },
+    { "id": "hit-feel", "label": "打击感" },
+    { "id": "worldbuilding", "label": "世界观" },
+    { "id": "online-worlds", "label": "在线世界" },
+    { "id": "player-motivation", "label": "玩家动机" },
+    { "id": "prompt-design", "label": "Prompt 设计" },
+    { "id": "project-audit", "label": "项目审计" },
+    { "id": "release-ops", "label": "发布与运营" }
+  ],
+  "resource_kinds": [
+    { "id": "book", "label": "书籍" },
+    { "id": "book-page", "label": "书籍官方页" },
+    { "id": "chapter", "label": "章节" },
+    { "id": "paper", "label": "论文" },
+    { "id": "article", "label": "文章" },
+    { "id": "course", "label": "课程" },
+    { "id": "course-pdf", "label": "课程 PDF" },
+    { "id": "metadata-page", "label": "元数据页" },
+    { "id": "knowledge-card", "label": "知识卡片" },
+    { "id": "note", "label": "笔记" },
+    { "id": "checklist", "label": "检查单" },
+    { "id": "prompt-guide", "label": "Prompt 导向卡" }
+  ],
+  "availability": [
+    { "id": "downloaded_open", "label": "已下载开放全文" },
+    { "id": "metadata_only", "label": "仅官方元数据" },
+    { "id": "external_only", "label": "仅外链" },
+    { "id": "user_file_needed", "label": "需要用户提供文件" },
+    { "id": "manual_review", "label": "待人工审查" }
+  ],
+  "card_kinds": [
+    { "id": "source_overview", "label": "来源概览" },
+    { "id": "book_entry", "label": "书籍条目" },
+    { "id": "book_positioning_note", "label": "书籍定位卡" },
+    { "id": "chapter_map_note", "label": "章节地图卡" },
+    { "id": "evidence_note", "label": "Evidence Note" },
+    { "id": "comparison_note", "label": "Comparison Note" },
+    { "id": "concept_seed_note", "label": "Concept Seed Note" },
+    { "id": "concept_card", "label": "概念卡片" },
+    { "id": "reading_note", "label": "阅读笔记" },
+    { "id": "prompt_template", "label": "Prompt 模板" },
+    { "id": "checklist", "label": "检查单" },
+    { "id": "spec_template", "label": "Spec 模板" },
+    { "id": "phase_guide", "label": "母类导向卡" }
+  ]
+}

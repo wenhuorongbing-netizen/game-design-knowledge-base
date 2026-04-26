@@ -1,0 +1,64 @@
+{
+  "id": "prompt-core-gameplay-systems",
+  "entity_type": "card",
+  "title": "核心玩法与系统设计 Prompt 模板",
+  "summary": "把核心 fantasy 压成核心循环、机制、状态变化和可验证原型。",
+  "card_kind": "prompt_template",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "playtesting",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "mit-ocw-2014-game-design",
+    "game-design-workshop",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [
+    "phase-guide-core-gameplay-systems",
+    "checklist-core-gameplay-systems"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 核心玩法与系统设计 Prompt 模板\n\n## 适用场景\n\n当你已经知道项目大方向，但不知道核心循环、战斗、成长或 onboarding 应该怎样互相咬合时使用。\n\n## 使用前提供\n\n- 玩家 fantasy 与主要目标\n- 玩家的核心动词集合\n- 关键资源、状态与反馈\n- 一局或一个循环的时长\n- 失败条件、胜利条件与当前痛点\n- 你最想验证的一条机制命题\n\n## 预期输出\n\n1. 核心循环设计\n2. 单机制原型切分\n3. 状态与资源流转\n4. 失败/胜利条件\n5. 难度曲线与 onboarding\n6. 最小验证原型方案\n7. 试玩问题清单\n\n## Prompt 模板\n\n```text\n你是一个世界级玩法设计师和系统设计研究者。\n请把以下概念拆成可测试的玩法系统，而不是写一篇概念介绍。\n\n输入：\n- 玩家 fantasy：{{player_fantasy}}\n- 核心目标：{{core_goal}}\n- 核心动词：{{core_verbs}}\n- 关键资源/状态：{{resources_and_states}}\n- 单局时长或循环长度：{{session_length}}\n- 当前担忧：{{current_pain_points}}\n- 最想验证的机制命题：{{mechanic_hypothesis}}\n\n请按以下结构输出：\n1. 核心循环：用 5-8 步描述一轮完整循环。\n2. 单机制原型：指出最小可独立验证的机制单元。\n3. 系统接口：说明战斗 / 关卡 / 成长 / 资源循环如何互相影响。\n4. 失败与胜利条件：给出具体条件与其设计意义。\n5. 难度与 onboarding：前 10 分钟如何教会玩家，后续如何抬升。\n6. 原型方案：做什么，不做什么，如何在一周内验证。\n7. 试玩问题：列出 5 个最应该观察的问题。\n\n要求：\n- 不要用“会很好玩”作为论证。\n- 所有结论都必须能落到原型和试玩。\n- 如果发现 fantasy 和机制冲突，要明确指出。\n```\n\n## 二次追问\n\n- 把核心循环压缩成一个纸面原型版本。\n- 把 onboarding 进一步细化成前 5 分钟脚本。\n",
+  "body_html": "<h1 id=\"核心玩法与系统设计-prompt-模板\">核心玩法与系统设计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当你已经知道项目大方向，但不知道核心循环、战斗、成长或 onboarding 应该怎样互相咬合时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>玩家 fantasy 与主要目标</li><li>玩家的核心动词集合</li><li>关键资源、状态与反馈</li><li>一局或一个循环的时长</li><li>失败条件、胜利条件与当前痛点</li><li>你最想验证的一条机制命题</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>核心循环设计</li><li>单机制原型切分</li><li>状态与资源流转</li><li>失败/胜利条件</li><li>难度曲线与 onboarding</li><li>最小验证原型方案</li><li>试玩问题清单</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级玩法设计师和系统设计研究者。\n请把以下概念拆成可测试的玩法系统，而不是写一篇概念介绍。\n\n输入：\n- 玩家 fantasy：{{player_fantasy}}\n- 核心目标：{{core_goal}}\n- 核心动词：{{core_verbs}}\n- 关键资源/状态：{{resources_and_states}}\n- 单局时长或循环长度：{{session_length}}\n- 当前担忧：{{current_pain_points}}\n- 最想验证的机制命题：{{mechanic_hypothesis}}\n\n请按以下结构输出：\n1. 核心循环：用 5-8 步描述一轮完整循环。\n2. 单机制原型：指出最小可独立验证的机制单元。\n3. 系统接口：说明战斗 / 关卡 / 成长 / 资源循环如何互相影响。\n4. 失败与胜利条件：给出具体条件与其设计意义。\n5. 难度与 onboarding：前 10 分钟如何教会玩家，后续如何抬升。\n6. 原型方案：做什么，不做什么，如何在一周内验证。\n7. 试玩问题：列出 5 个最应该观察的问题。\n\n要求：\n- 不要用“会很好玩”作为论证。\n- 所有结论都必须能落到原型和试玩。\n- 如果发现 fantasy 和机制冲突，要明确指出。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把核心循环压缩成一个纸面原型版本。</li><li>把 onboarding 进一步细化成前 5 分钟脚本。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "核心玩法与系统设计 Prompt 模板",
+      "id": "核心玩法与系统设计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "核心玩法与系统设计 Prompt 模板 把核心 fantasy 压成核心循环、机制、状态变化和可验证原型。 当你已经知道项目大方向，但不知道核心循环、战斗、成长或 onboarding 应该怎样互相咬合时使用。 玩家 fantasy 与主要目标 玩家的核心动词集合 关键资源、状态与反馈 一局或一个循环的时长 失败条件、胜利条件与当前痛点 你最想验证的一条机制命题 核心循环设计 单机制原型切分 状态与资源流转 失败/胜利条件 难度曲线与 onboarding 最小验证原型方案 试玩问题清单 design-fundamentals playtesting prompt-design"
+}

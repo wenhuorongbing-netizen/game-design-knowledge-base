@@ -1,0 +1,56 @@
+{
+  "id": "checklist-regression-checklist",
+  "entity_type": "card",
+  "title": "回归测试 Checklist",
+  "summary": "把版本的必测路径压成稳定、可复用的回归基线。",
+  "card_kind": "checklist",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "regression-checklist",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "playtesting"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2016-introduction-to-game-design-methods",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "checklist-testing-acceptance-audit",
+    "checklist-build-acceptance"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 回归测试 Checklist\n\n## 适用场景\n\n用于每次 build smoke test、版本回归和大改动后的最低保底检查。\n\n## 检查项\n\n- 核心循环至少跑通一轮。\n- 关键存档/读档路径过一遍。\n- 关键输入路径和重绑定/冲突场景过一遍。\n- 高风险 UI / HUD 交互过一遍。\n- 上一轮修复过的高优先级 bug 有针对性回归。\n- 跨系统切换链路至少走一遍。\n- 所有必测项都能被新成员读懂并执行。\n\n## 通过标准\n\n- 回归清单足够小，能持续执行。\n- 它覆盖的是最容易炸且最值钱的路径。\n- 版本风险不会因为“忘测”而失控。\n\n## 常见失败信号\n\n- 清单太长，团队根本不跑。\n- 清单过于泛泛，谁跑都得靠自己理解。\n- 修过的 bug 总在下个版本重复回来。\n",
+  "body_html": "<h1 id=\"回归测试-checklist\">回归测试 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于每次 build smoke test、版本回归和大改动后的最低保底检查。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>核心循环至少跑通一轮。</li><li>关键存档/读档路径过一遍。</li><li>关键输入路径和重绑定/冲突场景过一遍。</li><li>高风险 UI / HUD 交互过一遍。</li><li>上一轮修复过的高优先级 bug 有针对性回归。</li><li>跨系统切换链路至少走一遍。</li><li>所有必测项都能被新成员读懂并执行。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>回归清单足够小，能持续执行。</li><li>它覆盖的是最容易炸且最值钱的路径。</li><li>版本风险不会因为“忘测”而失控。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>清单太长，团队根本不跑。</li><li>清单过于泛泛，谁跑都得靠自己理解。</li><li>修过的 bug 总在下个版本重复回来。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "回归测试 Checklist",
+      "id": "回归测试-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "回归测试 Checklist 把版本的必测路径压成稳定、可复用的回归基线。 用于每次 build smoke test、版本回归和大改动后的最低保底检查。 核心循环至少跑通一轮。 关键存档/读档路径过一遍。 关键输入路径和重绑定/冲突场景过一遍。 高风险 UI / HUD 交互过一遍。 上一轮修复过的高优先级 bug 有针对性回归。 跨系统切换链路至少走一遍。 所有必测项都能被新成员读懂并执行。 回归清单足够小，能持续执行。 它覆盖的是最容易炸且最值钱的路径。 版本风险不会因为“忘测”而失控。 清单太长，团队根本不跑。 清单过于泛泛，谁跑都得靠自己理解。 修过的 bug 总在下个版本重复回来。 project-audit playtesting"
+}

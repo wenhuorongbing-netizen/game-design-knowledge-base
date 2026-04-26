@@ -1,0 +1,4503 @@
+{
+  "schema_version": "bookos.claim_graph.v1",
+  "updated_date": "2026-04-26",
+  "governance": {
+    "legal_rule": "No high-risk source body text was used. Claims are placeholders unless evidence_refs identify legally usable sources or user notes.",
+    "default_source_basis": "derived_from_public_metadata or unsupported_draft",
+    "default_confidence": "weak or unsupported_draft"
+  },
+  "counts": {
+    "claims": 164,
+    "concept_claims": 109,
+    "non_concept_claims": 55
+  },
+  "claims": [
+    {
+      "claim_id": "claim_play_tracked_as_draft_concept",
+      "claim_text": "play is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_play"
+      ],
+      "related_cards": [
+        "concept_play"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_playfulness_tracked_as_draft_concept",
+      "claim_text": "playfulness is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_playfulness"
+      ],
+      "related_cards": [
+        "concept_playfulness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_magic-circle_tracked_as_draft_concept",
+      "claim_text": "magic circle is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_magic-circle"
+      ],
+      "related_cards": [
+        "concept_magic-circle"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_play-as-context_tracked_as_draft_concept",
+      "claim_text": "play as context is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_play-as-context"
+      ],
+      "related_cards": [
+        "concept_play-as-context"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_play-as-appropriation_tracked_as_draft_concept",
+      "claim_text": "play as appropriation is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_play-as-appropriation"
+      ],
+      "related_cards": [
+        "concept_play-as-appropriation"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_play-as-disruption_tracked_as_draft_concept",
+      "claim_text": "play as disruption is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_play-as-disruption"
+      ],
+      "related_cards": [
+        "concept_play-as-disruption"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_play-as-free-movement-within-constraints_tracked_as_draft_concept",
+      "claim_text": "play as free movement within constraints is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_play-as-free-movement-within-constraints"
+      ],
+      "related_cards": [
+        "concept_play-as-free-movement-within-constraints"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_player-experience_tracked_as_draft_concept",
+      "claim_text": "player experience is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_player-experience"
+      ],
+      "related_cards": [
+        "concept_player-experience"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_pleasure_tracked_as_draft_concept",
+      "claim_text": "pleasure is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_pleasure"
+      ],
+      "related_cards": [
+        "concept_pleasure"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_fun_tracked_as_draft_concept",
+      "claim_text": "fun is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_fun"
+      ],
+      "related_cards": [
+        "concept_fun"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_challenge_tracked_as_draft_concept",
+      "claim_text": "challenge is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_challenge"
+      ],
+      "related_cards": [
+        "concept_challenge"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_mastery_tracked_as_draft_concept",
+      "claim_text": "mastery is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_mastery"
+      ],
+      "related_cards": [
+        "concept_mastery"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_learning_tracked_as_draft_concept",
+      "claim_text": "learning is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_learning"
+      ],
+      "related_cards": [
+        "concept_learning"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_flow_tracked_as_draft_concept",
+      "claim_text": "flow is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_flow"
+      ],
+      "related_cards": [
+        "concept_flow"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_curiosity_tracked_as_draft_concept",
+      "claim_text": "curiosity is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_curiosity"
+      ],
+      "related_cards": [
+        "concept_curiosity"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_uncertainty_tracked_as_draft_concept",
+      "claim_text": "uncertainty is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_uncertainty"
+      ],
+      "related_cards": [
+        "concept_uncertainty"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_tension_tracked_as_draft_concept",
+      "claim_text": "tension is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_tension"
+      ],
+      "related_cards": [
+        "concept_tension"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_agency_tracked_as_draft_concept",
+      "claim_text": "agency is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_agency"
+      ],
+      "related_cards": [
+        "concept_agency"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "play_theory",
+        "player_experience",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_game_tracked_as_draft_concept",
+      "claim_text": "game is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_game"
+      ],
+      "related_cards": [
+        "concept_game"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_rules_tracked_as_draft_concept",
+      "claim_text": "rules is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_rules"
+      ],
+      "related_cards": [
+        "concept_rules"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_mechanics_tracked_as_draft_concept",
+      "claim_text": "mechanics is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_mechanics"
+      ],
+      "related_cards": [
+        "concept_mechanics"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_dynamics_tracked_as_draft_concept",
+      "claim_text": "dynamics is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_dynamics"
+      ],
+      "related_cards": [
+        "concept_dynamics"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_aesthetics_tracked_as_draft_concept",
+      "claim_text": "aesthetics is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_aesthetics"
+      ],
+      "related_cards": [
+        "concept_aesthetics"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_formal-elements_tracked_as_draft_concept",
+      "claim_text": "formal elements is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_formal-elements"
+      ],
+      "related_cards": [
+        "concept_formal-elements"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_objectives_tracked_as_draft_concept",
+      "claim_text": "objectives is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_objectives"
+      ],
+      "related_cards": [
+        "concept_objectives"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_procedures_tracked_as_draft_concept",
+      "claim_text": "procedures is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_procedures"
+      ],
+      "related_cards": [
+        "concept_procedures"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_resources_tracked_as_draft_concept",
+      "claim_text": "resources is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_resources"
+      ],
+      "related_cards": [
+        "concept_resources"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_conflict_tracked_as_draft_concept",
+      "claim_text": "conflict is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_conflict"
+      ],
+      "related_cards": [
+        "concept_conflict"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_boundaries_tracked_as_draft_concept",
+      "claim_text": "boundaries is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_boundaries"
+      ],
+      "related_cards": [
+        "concept_boundaries"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_outcome_tracked_as_draft_concept",
+      "claim_text": "outcome is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_outcome"
+      ],
+      "related_cards": [
+        "concept_outcome"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_meaningful-decisions_tracked_as_draft_concept",
+      "claim_text": "meaningful decisions is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_meaningful-decisions"
+      ],
+      "related_cards": [
+        "concept_meaningful-decisions"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_tradeoffs_tracked_as_draft_concept",
+      "claim_text": "tradeoffs is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_tradeoffs"
+      ],
+      "related_cards": [
+        "concept_tradeoffs"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_dilemmas_tracked_as_draft_concept",
+      "claim_text": "dilemmas is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_dilemmas"
+      ],
+      "related_cards": [
+        "concept_dilemmas"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_risk-versus-reward_tracked_as_draft_concept",
+      "claim_text": "risk versus reward is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_risk-versus-reward"
+      ],
+      "related_cards": [
+        "concept_risk-versus-reward"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_chance_tracked_as_draft_concept",
+      "claim_text": "chance is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_chance"
+      ],
+      "related_cards": [
+        "concept_chance"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_skill_tracked_as_draft_concept",
+      "claim_text": "skill is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_skill"
+      ],
+      "related_cards": [
+        "concept_skill"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_twitch-skill_tracked_as_draft_concept",
+      "claim_text": "twitch skill is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_twitch-skill"
+      ],
+      "related_cards": [
+        "concept_twitch-skill"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_strategic-skill_tracked_as_draft_concept",
+      "claim_text": "strategic skill is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_strategic-skill"
+      ],
+      "related_cards": [
+        "concept_strategic-skill"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_balance_tracked_as_draft_concept",
+      "claim_text": "balance is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_balance"
+      ],
+      "related_cards": [
+        "concept_balance"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_system_tracked_as_draft_concept",
+      "claim_text": "system is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_system"
+      ],
+      "related_cards": [
+        "concept_system"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_part_tracked_as_draft_concept",
+      "claim_text": "part is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_part"
+      ],
+      "related_cards": [
+        "concept_part"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_loop_tracked_as_draft_concept",
+      "claim_text": "loop is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_loop"
+      ],
+      "related_cards": [
+        "concept_loop"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_whole_tracked_as_draft_concept",
+      "claim_text": "whole is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_whole"
+      ],
+      "related_cards": [
+        "concept_whole"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_emergence_tracked_as_draft_concept",
+      "claim_text": "emergence is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_emergence"
+      ],
+      "related_cards": [
+        "concept_emergence"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_feedback-loop_tracked_as_draft_concept",
+      "claim_text": "feedback loop is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_feedback-loop"
+      ],
+      "related_cards": [
+        "concept_feedback-loop"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_game-plus-player-system_tracked_as_draft_concept",
+      "claim_text": "game+player system is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_game-plus-player-system"
+      ],
+      "related_cards": [
+        "concept_game-plus-player-system"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_mental-model_tracked_as_draft_concept",
+      "claim_text": "mental model is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_mental-model"
+      ],
+      "related_cards": [
+        "concept_mental-model"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_progression-curve_tracked_as_draft_concept",
+      "claim_text": "progression curve is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_progression-curve"
+      ],
+      "related_cards": [
+        "concept_progression-curve"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_power-curve_tracked_as_draft_concept",
+      "claim_text": "power curve is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_power-curve"
+      ],
+      "related_cards": [
+        "concept_power-curve"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_economy_tracked_as_draft_concept",
+      "claim_text": "economy is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_economy"
+      ],
+      "related_cards": [
+        "concept_economy"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_source_tracked_as_draft_concept",
+      "claim_text": "source is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_source"
+      ],
+      "related_cards": [
+        "concept_source"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_sink_tracked_as_draft_concept",
+      "claim_text": "sink is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_sink"
+      ],
+      "related_cards": [
+        "concept_sink"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_faucet_tracked_as_draft_concept",
+      "claim_text": "faucet is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_faucet"
+      ],
+      "related_cards": [
+        "concept_faucet"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_drain_tracked_as_draft_concept",
+      "claim_text": "drain is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_drain"
+      ],
+      "related_cards": [
+        "concept_drain"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_transitive-balance_tracked_as_draft_concept",
+      "claim_text": "transitive balance is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_transitive-balance"
+      ],
+      "related_cards": [
+        "concept_transitive-balance"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_intransitive-balance_tracked_as_draft_concept",
+      "claim_text": "intransitive balance is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_intransitive-balance"
+      ],
+      "related_cards": [
+        "concept_intransitive-balance"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "economy_and_balance",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_game-feel_tracked_as_draft_concept",
+      "claim_text": "game feel is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_game-feel"
+      ],
+      "related_cards": [
+        "concept_game-feel"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_real-time-control_tracked_as_draft_concept",
+      "claim_text": "real-time control is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_real-time-control"
+      ],
+      "related_cards": [
+        "concept_real-time-control"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_simulated-space_tracked_as_draft_concept",
+      "claim_text": "simulated space is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_simulated-space"
+      ],
+      "related_cards": [
+        "concept_simulated-space"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_polish_tracked_as_draft_concept",
+      "claim_text": "polish is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_polish"
+      ],
+      "related_cards": [
+        "concept_polish"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_input-metric_tracked_as_draft_concept",
+      "claim_text": "input metric is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_input-metric"
+      ],
+      "related_cards": [
+        "concept_input-metric"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_response-metric_tracked_as_draft_concept",
+      "claim_text": "response metric is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_response-metric"
+      ],
+      "related_cards": [
+        "concept_response-metric"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_context-metric_tracked_as_draft_concept",
+      "claim_text": "context metric is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_context-metric"
+      ],
+      "related_cards": [
+        "concept_context-metric"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_polish-metric_tracked_as_draft_concept",
+      "claim_text": "polish metric is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_polish-metric"
+      ],
+      "related_cards": [
+        "concept_polish-metric"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_metaphor-metric_tracked_as_draft_concept",
+      "claim_text": "metaphor metric is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_metaphor-metric"
+      ],
+      "related_cards": [
+        "concept_metaphor-metric"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_rules-metric_tracked_as_draft_concept",
+      "claim_text": "rules metric is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_rules-metric"
+      ],
+      "related_cards": [
+        "concept_rules-metric"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_responsiveness_tracked_as_draft_concept",
+      "claim_text": "responsiveness is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_responsiveness"
+      ],
+      "related_cards": [
+        "concept_responsiveness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_tightness_tracked_as_draft_concept",
+      "claim_text": "tightness is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_tightness"
+      ],
+      "related_cards": [
+        "concept_tightness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_floatiness_tracked_as_draft_concept",
+      "claim_text": "floatiness is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_floatiness"
+      ],
+      "related_cards": [
+        "concept_floatiness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_juiciness_tracked_as_draft_concept",
+      "claim_text": "juiciness is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_juiciness"
+      ],
+      "related_cards": [
+        "concept_juiciness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_feedback_tracked_as_draft_concept",
+      "claim_text": "feedback is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_feedback"
+      ],
+      "related_cards": [
+        "concept_feedback"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_interface_tracked_as_draft_concept",
+      "claim_text": "interface is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_interface"
+      ],
+      "related_cards": [
+        "concept_interface"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_camera-feel_tracked_as_draft_concept",
+      "claim_text": "camera feel is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_camera-feel"
+      ],
+      "related_cards": [
+        "concept_camera-feel"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_avatar-feel_tracked_as_draft_concept",
+      "claim_text": "avatar feel is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_avatar-feel"
+      ],
+      "related_cards": [
+        "concept_avatar-feel"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_kinesthetic-prototype_tracked_as_draft_concept",
+      "claim_text": "kinesthetic prototype is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_kinesthetic-prototype"
+      ],
+      "related_cards": [
+        "concept_kinesthetic-prototype"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_ideation_tracked_as_draft_concept",
+      "claim_text": "ideation is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_ideation"
+      ],
+      "related_cards": [
+        "concept_ideation"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_problem-statement_tracked_as_draft_concept",
+      "claim_text": "problem statement is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_problem-statement"
+      ],
+      "related_cards": [
+        "concept_problem-statement"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_experience-goal_tracked_as_draft_concept",
+      "claim_text": "experience goal is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_experience-goal"
+      ],
+      "related_cards": [
+        "concept_experience-goal"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_playcentric-design_tracked_as_draft_concept",
+      "claim_text": "playcentric design is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_playcentric-design"
+      ],
+      "related_cards": [
+        "concept_playcentric-design"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_prototype_tracked_as_draft_concept",
+      "claim_text": "prototype is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_prototype"
+      ],
+      "related_cards": [
+        "concept_prototype"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_paper-prototype_tracked_as_draft_concept",
+      "claim_text": "paper prototype is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_paper-prototype"
+      ],
+      "related_cards": [
+        "concept_paper-prototype"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_digital-prototype_tracked_as_draft_concept",
+      "claim_text": "digital prototype is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_digital-prototype"
+      ],
+      "related_cards": [
+        "concept_digital-prototype"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_playtest_tracked_as_draft_concept",
+      "claim_text": "playtest is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_playtest"
+      ],
+      "related_cards": [
+        "concept_playtest"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_iteration_tracked_as_draft_concept",
+      "claim_text": "iteration is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_iteration"
+      ],
+      "related_cards": [
+        "concept_iteration"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_design-document_tracked_as_draft_concept",
+      "claim_text": "design document is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_design-document"
+      ],
+      "related_cards": [
+        "concept_design-document"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_pitch_tracked_as_draft_concept",
+      "claim_text": "pitch is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_pitch"
+      ],
+      "related_cards": [
+        "concept_pitch"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release",
+        "multiplayer_community",
+        "ethics_responsibility",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_production-phase_tracked_as_draft_concept",
+      "claim_text": "production phase is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_production-phase"
+      ],
+      "related_cards": [
+        "concept_production-phase"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_release-readiness_tracked_as_draft_concept",
+      "claim_text": "release readiness is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_release-readiness"
+      ],
+      "related_cards": [
+        "concept_release-readiness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_premise_tracked_as_draft_concept",
+      "claim_text": "premise is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_premise"
+      ],
+      "related_cards": [
+        "concept_premise"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_story_tracked_as_draft_concept",
+      "claim_text": "story is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_story"
+      ],
+      "related_cards": [
+        "concept_story"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_dramatic-arc_tracked_as_draft_concept",
+      "claim_text": "dramatic arc is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_dramatic-arc"
+      ],
+      "related_cards": [
+        "concept_dramatic-arc"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_emergent-story_tracked_as_draft_concept",
+      "claim_text": "emergent story is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_emergent-story"
+      ],
+      "related_cards": [
+        "concept_emergent-story"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_narrative-architecture_tracked_as_draft_concept",
+      "claim_text": "narrative architecture is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_narrative-architecture"
+      ],
+      "related_cards": [
+        "concept_narrative-architecture"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_worldbuilding_tracked_as_draft_concept",
+      "claim_text": "worldbuilding is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_worldbuilding"
+      ],
+      "related_cards": [
+        "concept_worldbuilding"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_character-function_tracked_as_draft_concept",
+      "claim_text": "character function is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_character-function"
+      ],
+      "related_cards": [
+        "concept_character-function"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_avatar_tracked_as_draft_concept",
+      "claim_text": "avatar is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_avatar"
+      ],
+      "related_cards": [
+        "concept_avatar"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_player-identity_tracked_as_draft_concept",
+      "claim_text": "player identity is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_player-identity"
+      ],
+      "related_cards": [
+        "concept_player-identity"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_status_tracked_as_draft_concept",
+      "claim_text": "status is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_status"
+      ],
+      "related_cards": [
+        "concept_status"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_transformation_tracked_as_draft_concept",
+      "claim_text": "transformation is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_transformation"
+      ],
+      "related_cards": [
+        "concept_transformation"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding",
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_multiplayer-pattern_tracked_as_draft_concept",
+      "claim_text": "multiplayer pattern is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_multiplayer-pattern"
+      ],
+      "related_cards": [
+        "concept_multiplayer-pattern"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_community_tracked_as_draft_concept",
+      "claim_text": "community is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_community"
+      ],
+      "related_cards": [
+        "concept_community"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_griefing_tracked_as_draft_concept",
+      "claim_text": "griefing is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_griefing"
+      ],
+      "related_cards": [
+        "concept_griefing"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_player-rights_tracked_as_draft_concept",
+      "claim_text": "player rights is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_player-rights"
+      ],
+      "related_cards": [
+        "concept_player-rights"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_ethics_tracked_as_draft_concept",
+      "claim_text": "ethics is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_ethics"
+      ],
+      "related_cards": [
+        "concept_ethics"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_responsibility_tracked_as_draft_concept",
+      "claim_text": "responsibility is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_responsibility"
+      ],
+      "related_cards": [
+        "concept_responsibility"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_transformational-games_tracked_as_draft_concept",
+      "claim_text": "transformational games is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_transformational-games"
+      ],
+      "related_cards": [
+        "concept_transformational-games"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_serious-games_tracked_as_draft_concept",
+      "claim_text": "serious games is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_serious-games"
+      ],
+      "related_cards": [
+        "concept_serious-games"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_business-model_tracked_as_draft_concept",
+      "claim_text": "business model is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_business-model"
+      ],
+      "related_cards": [
+        "concept_business-model"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_audience_tracked_as_draft_concept",
+      "claim_text": "audience is tracked as a draft game design vocabulary item in this KB and requires legal source evidence or user notes before it becomes a source-backed definition.",
+      "claim_type": "definition",
+      "source_basis": "derived_from_public_metadata",
+      "confidence": "weak",
+      "evidence_refs": [],
+      "related_concepts": [
+        "concept_audience"
+      ],
+      "related_cards": [
+        "concept_audience"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "ethics_responsibility",
+        "business_pitch_release",
+        "education_serious_games"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_mda-routing-scaffold_is_draft_structure",
+      "claim_text": "MDA Routing Scaffold is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_mda-routing-scaffold"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_formal-elements-map_is_draft_structure",
+      "claim_text": "Formal Elements Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_formal-elements-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计"
+      ],
+      "domains": [
+        "formal_game_design",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_core-loop-map_is_draft_structure",
+      "claim_text": "Core Loop Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_core-loop-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_game-feel-metrics-scaffold_is_draft_structure",
+      "claim_text": "Game Feel Metrics Scaffold is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_game-feel-metrics-scaffold"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "interactivity",
+        "ui_ux_feedback"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_source-sink-economy-map_is_draft_structure",
+      "claim_text": "Source-Sink Economy Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_source-sink-economy-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "economy_and_balance",
+        "systems_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_meaningful-decision-test_is_draft_structure",
+      "claim_text": "Meaningful Decision Test is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_meaningful-decision-test"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "rules_and_mechanics",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_player-motivation-hypothesis-map_is_draft_structure",
+      "claim_text": "Player Motivation Hypothesis Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_player-motivation-hypothesis-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "player_psychology",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_playtest-question-framework_is_draft_structure",
+      "claim_text": "Playtest Question Framework is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_playtest-question-framework"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "playtesting",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_prototype-assumption-matrix_is_draft_structure",
+      "claim_text": "Prototype Assumption Matrix is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_prototype-assumption-matrix"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prototyping",
+        "production_process"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_narrative-function-map_is_draft_structure",
+      "claim_text": "Narrative Function Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_narrative-function-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design",
+        "worldbuilding"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_character-function-sheet_is_draft_structure",
+      "claim_text": "Character Function Sheet is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_character-function-sheet"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_level-flow-map_is_draft_structure",
+      "claim_text": "Level Flow Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_level-flow-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "level_design",
+        "player_experience",
+        "ui_ux_feedback"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_ethics-risk-review_is_draft_structure",
+      "claim_text": "Ethics Risk Review is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_ethics-risk-review"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "ethics_responsibility",
+        "multiplayer_community"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_release-readiness-gate_is_draft_structure",
+      "claim_text": "Release Readiness Gate is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_release-readiness-gate"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计",
+        "运营与发布"
+      ],
+      "domains": [
+        "production_process",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_ai-source-bounded-retrieval-framework_is_draft_structure",
+      "claim_text": "AI Source-Bounded Retrieval Framework is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "framework_ai-source-bounded-retrieval-framework"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design",
+        "ai_assisted_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_source-governance-checklist_is_draft_structure",
+      "claim_text": "Source Governance Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_source-governance-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "ethics_responsibility",
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_legal-sidecar-checklist_is_draft_structure",
+      "claim_text": "Legal Sidecar Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_legal-sidecar-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "ethics_responsibility"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_concept-card-evidence-checklist_is_draft_structure",
+      "claim_text": "Concept Card Evidence Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_concept-card-evidence-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_core-loop-checklist_is_draft_structure",
+      "claim_text": "Core Loop Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_core-loop-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_mechanic-spec-checklist_is_draft_structure",
+      "claim_text": "Mechanic Spec Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_mechanic-spec-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "rules_and_mechanics",
+        "production_process"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_economy-source-sink-checklist_is_draft_structure",
+      "claim_text": "Economy Source Sink Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_economy-source-sink-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "economy_and_balance",
+        "systems_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_game-feel-audit-checklist_is_draft_structure",
+      "claim_text": "Game Feel Audit Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_game-feel-audit-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "ui_ux_feedback"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_ui-feedback-checklist_is_draft_structure",
+      "claim_text": "UI Feedback Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_ui-feedback-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "ui_ux_feedback",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_playtest-plan-checklist_is_draft_structure",
+      "claim_text": "Playtest Plan Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_playtest-plan-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "playtesting",
+        "player_experience"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_dossier-promotion-checklist_is_draft_structure",
+      "claim_text": "Dossier Promotion Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_dossier-promotion-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_quote-card-safety-checklist_is_draft_structure",
+      "claim_text": "Quote Card Safety Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_quote-card-safety-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "ethics_responsibility"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_project-overlay-checklist_is_draft_structure",
+      "claim_text": "Project Overlay Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_project-overlay-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "production_process"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_release-readiness-checklist_is_draft_structure",
+      "claim_text": "Release Readiness Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_release-readiness-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "运营与发布"
+      ],
+      "domains": [
+        "business_pitch_release",
+        "production_process"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_hallucination-audit-checklist_is_draft_structure",
+      "claim_text": "Hallucination Audit Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_hallucination-audit-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design",
+        "ethics_responsibility"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_claim-graph-review-checklist_is_draft_structure",
+      "claim_text": "Claim Graph Review Checklist is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "checklist_claim-graph-review-checklist"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_source-bounded-card-extraction_is_draft_structure",
+      "claim_text": "Source-Bounded Card Extraction Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_source-bounded-card-extraction"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_dossier-note-ingestion_is_draft_structure",
+      "claim_text": "Dossier Note Ingestion Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_dossier-note-ingestion"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_claim-graph-audit_is_draft_structure",
+      "claim_text": "Claim Graph Audit Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_claim-graph-audit"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_concept-comparison_is_draft_structure",
+      "claim_text": "Concept Comparison Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_concept-comparison"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "formal_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_framework-extraction-from-user-notes_is_draft_structure",
+      "claim_text": "Framework Extraction From User Notes Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_framework-extraction-from-user-notes"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_playtest-analysis_is_draft_structure",
+      "claim_text": "Playtest Analysis Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_playtest-analysis"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "playtesting"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_core-loop-critique_is_draft_structure",
+      "claim_text": "Core Loop Critique Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_core-loop-critique"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "rules_and_mechanics"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_economy-balance-critique_is_draft_structure",
+      "claim_text": "Economy Balance Critique Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_economy-balance-critique"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "economy_and_balance"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_game-feel-critique_is_draft_structure",
+      "claim_text": "Game Feel Critique Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_game-feel-critique"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_ui-feedback-critique_is_draft_structure",
+      "claim_text": "UI Feedback Critique Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_ui-feedback-critique"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "ui_ux_feedback"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_narrative-premise-critique_is_draft_structure",
+      "claim_text": "Narrative Premise Critique Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_narrative-premise-critique"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_character-review_is_draft_structure",
+      "claim_text": "Character Review Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_character-review"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_release-page-critique_is_draft_structure",
+      "claim_text": "Release Page Critique Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_release-page-critique"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "运营与发布"
+      ],
+      "domains": [
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_project-overlay-generation_is_draft_structure",
+      "claim_text": "Project Overlay Generation Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_project-overlay-generation"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "production_process",
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_evidence-gap-finder_is_draft_structure",
+      "claim_text": "Evidence Gap Finder Prompt is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "method",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "prompt_evidence-gap-finder"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-core-loop-to-prototype_is_draft_structure",
+      "claim_text": "Apply Core Loop To Prototype is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-core-loop-to-prototype"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "systems_design",
+        "prototyping"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-game-feel-audit_is_draft_structure",
+      "claim_text": "Apply Game Feel Audit is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-game-feel-audit"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "美术 / UI / 体验表达",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "game_feel",
+        "ui_ux_feedback"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-source-sink-economy-map_is_draft_structure",
+      "claim_text": "Apply Source Sink Economy Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-source-sink-economy-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "economy_and_balance"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-playtest-findings_is_draft_structure",
+      "claim_text": "Apply Playtest Findings is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-playtest-findings"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "测试 / 验收 / 审计",
+        "开发实现"
+      ],
+      "domains": [
+        "playtesting",
+        "production_process"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-narrative-function-map_is_draft_structure",
+      "claim_text": "Apply Narrative Function Map is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-narrative-function-map"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "内容与叙事",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "narrative_design"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-character-function_is_draft_structure",
+      "claim_text": "Apply Character Function is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-character-function"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "character_design",
+        "player_psychology"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-release-readiness_is_draft_structure",
+      "claim_text": "Apply Release Readiness is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-release-readiness"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "运营与发布"
+      ],
+      "domains": [
+        "business_pitch_release",
+        "production_process"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-ethics-review_is_draft_structure",
+      "claim_text": "Apply Ethics Review is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-ethics-review"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "运营与发布"
+      ],
+      "domains": [
+        "ethics_responsibility"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-community-segmentation_is_draft_structure",
+      "claim_text": "Apply Community Segmentation is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-community-segmentation"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "运营与发布"
+      ],
+      "domains": [
+        "multiplayer_community",
+        "business_pitch_release"
+      ],
+      "status": "needs_evidence"
+    },
+    {
+      "claim_id": "claim_apply-ai-source-governance_is_draft_structure",
+      "claim_text": "Apply AI Source Governance is a draft production structure and must not be treated as a source-backed method until evidence is attached.",
+      "claim_type": "application",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "evidence_refs": [],
+      "related_concepts": [],
+      "related_cards": [
+        "application_apply-ai-source-governance"
+      ],
+      "supports": [],
+      "challenges": [],
+      "contradicted_by": [],
+      "phase_groups": [
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "domains": [
+        "prompt_engineering_for_game_design",
+        "ethics_responsibility"
+      ],
+      "status": "needs_evidence"
+    }
+  ]
+}

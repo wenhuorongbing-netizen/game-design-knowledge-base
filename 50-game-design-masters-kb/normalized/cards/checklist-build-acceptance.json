@@ -1,0 +1,56 @@
+{
+  "id": "checklist-build-acceptance",
+  "entity_type": "card",
+  "title": "版本验收 Checklist",
+  "summary": "检查当前 build 是否达到可提交、可试玩、可继续迭代的最低门槛。",
+  "card_kind": "checklist",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "build-acceptance",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "playtesting"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2016-introduction-to-game-design-methods",
+    "game-design-concepts-course"
+  ],
+  "related_card_ids": [
+    "prompt-testing-acceptance-audit",
+    "checklist-testing-acceptance-audit"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 版本验收 Checklist\n\n## 适用场景\n\n用于每周 build review、对外试玩前检查，或确认一个版本是否值得继续基于其迭代。\n\n## 检查项\n\n- 核心循环可完整跑通至少一轮。\n- 关键任务和关键路径不会被 blocker 卡死。\n- 高严重度 bug 已经单独列出并有处理结论。\n- 回归高风险项至少过一遍 smoke test。\n- 本版本的目标玩家问题有对应观测点。\n- 试玩者能在最小引导下完成主要任务。\n- 团队对“这个版本算不算通过”已有统一口径。\n\n## 通过标准\n\n- 版本可用于验证当前阶段目标。\n- 严重缺陷不会掩盖真正想观察的体验问题。\n- 本次 build 的价值和局限都已明确。\n\n## 常见失败信号\n\n- 版本跑不通却仍试图讨论高层体验。\n- 所有问题都被当成同一个优先级。\n- 试玩后得不到与目标相关的结论。\n",
+  "body_html": "<h1 id=\"版本验收-checklist\">版本验收 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于每周 build review、对外试玩前检查，或确认一个版本是否值得继续基于其迭代。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>核心循环可完整跑通至少一轮。</li><li>关键任务和关键路径不会被 blocker 卡死。</li><li>高严重度 bug 已经单独列出并有处理结论。</li><li>回归高风险项至少过一遍 smoke test。</li><li>本版本的目标玩家问题有对应观测点。</li><li>试玩者能在最小引导下完成主要任务。</li><li>团队对“这个版本算不算通过”已有统一口径。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>版本可用于验证当前阶段目标。</li><li>严重缺陷不会掩盖真正想观察的体验问题。</li><li>本次 build 的价值和局限都已明确。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>版本跑不通却仍试图讨论高层体验。</li><li>所有问题都被当成同一个优先级。</li><li>试玩后得不到与目标相关的结论。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "版本验收 Checklist",
+      "id": "版本验收-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "版本验收 Checklist 检查当前 build 是否达到可提交、可试玩、可继续迭代的最低门槛。 用于每周 build review、对外试玩前检查，或确认一个版本是否值得继续基于其迭代。 核心循环可完整跑通至少一轮。 关键任务和关键路径不会被 blocker 卡死。 高严重度 bug 已经单独列出并有处理结论。 回归高风险项至少过一遍 smoke test。 本版本的目标玩家问题有对应观测点。 试玩者能在最小引导下完成主要任务。 团队对“这个版本算不算通过”已有统一口径。 版本可用于验证当前阶段目标。 严重缺陷不会掩盖真正想观察的体验问题。 本次 build 的价值和局限都已明确。 版本跑不通却仍试图讨论高层体验。 所有问题都被当成同一个优先级。 试玩后得不到与目标相关的结论。 project-audit playtesting"
+}

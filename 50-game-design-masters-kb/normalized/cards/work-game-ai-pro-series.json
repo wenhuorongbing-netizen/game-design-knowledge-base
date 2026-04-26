@@ -1,0 +1,73 @@
+{
+  "id": "work-game-ai-pro-series",
+  "entity_type": "card",
+  "title": "Game AI Pro",
+  "summary": "AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。",
+  "card_kind": "book_entry",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "book",
+  "source_work_id": "game-ai-pro-series",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://www.gameaipro.com/"
+  ],
+  "local_links": [],
+  "body_markdown": "# Game AI Pro\n\n## 基本信息\n\n- 作者：Steve Rabin et al.\n- 年份：2013\n- 类型：book\n- 来源：Game AI Pro\n\n## 摘要\n\nAI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。\n\n## 核心要点\n\n- 很适合开发实现层延伸研究。\n- 站点明确不应二次托管。\n- V1 仅提供官方外链。\n\n## 适用场景\n\n适合后续扩展 AI、寻路、行为树和调试研究。\n\n## 分类\n\n- 一级分类：开发实现\n- 二级输出物：技术方案 spec\n- 主题标签：系统思维\n- 可用性：仅外链\n\n## 获取方式\n\n- 当前只保留外链，不在仓库内托管源文件。\n\n## 官方链接\n\n- <https://www.gameaipro.com/>\n\n## 相关条目\n\n- Game Mechanics: Advanced Game Design\n",
+  "body_html": "<h1 id=\"game-ai-pro\">Game AI Pro</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Steve Rabin et al.</li><li>年份：2013</li><li>类型：book</li><li>来源：Game AI Pro</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>很适合开发实现层延伸研究。</li><li>站点明确不应二次托管。</li><li>V1 仅提供官方外链。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>适合后续扩展 AI、寻路、行为树和调试研究。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：开发实现</li><li>二级输出物：技术方案 spec</li><li>主题标签：系统思维</li><li>可用性：仅外链</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>当前只保留外链，不在仓库内托管源文件。</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://www.gameaipro.com/\" target=\"_blank\" rel=\"noreferrer\">https://www.gameaipro.com/</a></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game AI Pro",
+      "id": "game-ai-pro"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Game AI Pro Steve Rabin et al. AI 技术与工业实践章节集合。V1 仅保留外链，不做再托管。 很适合开发实现层延伸研究。 站点明确不应二次托管。 V1 仅提供官方外链。 适合后续扩展 AI、寻路、行为树和调试研究。 程序 系统策划 技术策划 开发实现 技术方案 spec 系统思维 Game AI Pro"
+}

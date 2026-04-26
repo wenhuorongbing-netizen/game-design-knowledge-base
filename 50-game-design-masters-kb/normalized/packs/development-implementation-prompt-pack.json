@@ -1,0 +1,36 @@
+{
+  "id": "development-implementation-prompt-pack",
+  "title": "开发实现 Prompt Pack",
+  "summary": "Stage-specific prompt templates for 开发实现.",
+  "phase_group": "development-implementation",
+  "phase_label": "开发实现",
+  "phase_groups": [
+    "development-implementation"
+  ],
+  "phase_labels": [
+    "开发实现"
+  ],
+  "type": "prompt_pack",
+  "kind_label": "Prompt Pack",
+  "card_ids": [
+    "prompt-toolchain-development",
+    "prompt-development-implementation",
+    "prompt-prototype-implementation"
+  ],
+  "count": 3,
+  "prompt_count": 3,
+  "checklist_count": 0,
+  "other_count": 0,
+  "when_to_use": "Use this when the current task belongs to 开发实现 and you want reusable drafting prompts instead of starting from scratch.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Pick the prompt template in 开发实现 Prompt Pack that matches the deliverable you need right now.",
+    "Fill in the placeholders with project-specific constraints instead of generic design language.",
+    "Keep only one answer path per prompt run so the result remains editable.",
+    "Pass the output into a checklist or implementation review before treating it as final."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/development-implementation-prompt-pack.md",
+  "generated_at": "2026-04-26T00:39:23.259Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

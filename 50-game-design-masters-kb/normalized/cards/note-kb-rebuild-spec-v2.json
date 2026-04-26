@@ -1,0 +1,249 @@
+{
+  "id": "note-kb-rebuild-spec-v2",
+  "entity_type": "card",
+  "title": "游戏设计知识库重构规格书 V2",
+  "summary": "游戏设计知识库重构规格书 V2",
+  "card_kind": "spec_template",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/catalog/06-kb-rebuild-spec-v2.md",
+  "theme_tags": [
+    "project-audit",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "game-mechanics-advanced-game-design"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "06-kb-rebuild-spec-v2.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/catalog/06-kb-rebuild-spec-v2.md"
+    }
+  ],
+  "body_markdown": "# 游戏设计知识库重构规格书 V2\n\n## 1. 重构目标\n\n这次重构不是继续补几张卡，而是把现有知识库从“人工整理的资料夹”升级为“知识优先、证据驱动、可持续扩展的游戏设计读书与研究系统”。\n\n目标有四个：\n\n1. 让已经放进仓库的书真正进入知识管线，而不是停留在目录里。\n2. 让 `works / cards / packs` 尽量建立在书本体的解析结果上，而不是长期依赖手工薄摘要。\n3. 让通用知识库与项目专属应用层分离，避免再次被单个项目绑架。\n4. 让门户重新回到“知识浏览优先”，工作流能力降为附加层。\n\n## 2. 当前版本的主要问题\n\n### 2.1 根目录书籍没有真正被 ingest\n\n当前脚本只扫描：\n\n- `knowledge/50-game-design-masters-kb/incoming/user-supplied/`\n\n但你把书放在了：\n\n- `knowledge/`\n\n这导致系统在“看起来有书”和“实际读到了书”之间断开。\n\n### 2.2 商业书条目大多是浅层定位，不是内容级理解\n\n当前 `work` 条目多数只有：\n\n- 标题\n- 作者\n- 手写摘要\n- 核心要点\n- 适用场景\n\n但缺少：\n\n- 目录级结构\n- 章节级证据\n- 提取样本文本\n- 可追溯的概念来源\n- 更可靠的定位与比较依据\n\n### 2.3 通用层与项目层一度混在一起\n\n虽然已经做过第一次拆分，但整体架构仍然需要明确：\n\n- 通用知识库只放 general 内容\n- 项目应用层只放 project overlay\n\n### 2.4 门户已经偏离“知识库”定位\n\n当前门户同时承担：\n\n- 阅读器\n- 搜索器\n- prompt 复制器\n- 项目工作台\n- blocker 流程工具\n\n这让“知识库”本体不够安静，也不够清楚。\n\n### 2.5 缺少书籍解析中间层\n\n当前从原始书籍到最终卡片，中间缺了一层稳定的“解析工件层”。\n\n必须补上的中间产物包括：\n\n- 元数据提取\n- 目录/章节映射\n- 样本文本提取\n- 提取质量报告\n- 匹配状态与人工覆写位\n\n## 3. 重构原则\n\n### 3.1 知识优先，不是工具优先\n\n门户、按钮、工作流都只是知识的壳。\n\n重构后必须保证：\n\n- 没有复杂工作流，知识库本体仍然成立\n- 不打开门户，文件系统层也能被 AI 和人类直接使用\n\n### 3.2 证据优先，不是印象优先\n\n每本书的定位、摘要、适用场景、衍生卡片，都应尽量能追溯到：\n\n- 书籍目录\n- 提取样本文本\n- 章节结构\n- 相关开放材料\n\n### 3.3 通用层与项目层分离\n\n`knowledge/50-game-design-masters-kb/` 只保留通用游戏设计知识。\n\n项目专属内容必须进入独立 overlay，例如：\n\n- `project-knowledge/<project-slug>/`\n\n### 3.4 私有书源允许参与分析，但不把知识库重新做成盗版镜像站\n\n重构后的处理原则：\n\n- 允许使用你本地提供的书进行私有解析\n- 不在卡片里长段复刻商业书正文\n- 以元数据、结构、摘要、概念、目录、适用场景、比较和衍生卡片为主\n\n### 3.5 先补管线，再补内容\n\n先解决：\n\n1. 发现书\n2. 匹配书\n3. 解析书\n4. 记录证据\n\n再解决：\n\n5. 重写 works\n6. 重写 notes\n7. 重写 cards\n8. 重写 portal 入口\n\n## 4. 目标架构\n\n## 4.1 四层结构\n\n### 第一层：来源层\n\n- `raw/open-web/`\n- `raw/official-metadata/`\n- `raw/private-library/`\n\n### 第二层：解析工件层\n\n用于承接用户提供书籍的结构化提取结果：\n\n- `raw/private-library/manifest.json`\n- `raw/private-library/extracted/*.json`\n- `raw/private-library/extract-manifest.json`\n\n### 第三层：标准化知识层\n\n- `normalized/works/`\n- `normalized/cards/`\n- `normalized/packs/`\n\n### 第四层：索引与展示层\n\n- `indexes/`\n- `reports/`\n- `kb-portal/`\n\n## 4.2 新增的核心中间产物\n\n### Private Library Manifest\n\n记录所有从 `knowledge/` 根目录发现的私有书源文件。\n\n字段至少包括：\n\n- `file_name`\n- `relative_path`\n- `extension`\n- `size_bytes`\n- `sha256`\n- `cleaned_name`\n- `matched_work_id`\n- `match_strategy`\n- `match_score`\n- `candidate_work_ids`\n- `duplicate_group`\n\n### Extracted Artifact\n\n记录对单本私有书的提取结果。\n\n字段至少包括：\n\n- `source_relative_path`\n- `format`\n- `metadata`\n- `toc`\n- `sample_sections`\n- `preview_text`\n- `extraction_status`\n- `warnings`\n\n### Knowledge Positioning\n\n每个 `work` 的定位不再只是一句“适用场景”，而应新增多维定位：\n\n- `knowledge_domains`\n- `purposes`\n- `reading_modes`\n- `value_types`\n- `knowledge_lifecycle`\n\n这些维度来自 `rebuild_instruction.md` 的思路，但收敛到当前游戏设计知识库范围内使用。\n\n## 5. 数据模型扩展\n\n## 5.1 Work 扩展字段\n\n在现有 `work` 基础上逐步扩展：\n\n- `usage_relevance`\n- `knowledge_domains`\n- `purposes`\n- `reading_modes`\n- `value_types`\n- `knowledge_lifecycle`\n- `has_private_source`\n- `private_source_count`\n- `extracted_artifact_ids`\n\n## 5.2 Card 扩展方向\n\n不是一次性加新表，而是逐步增加更有价值的 card 类型：\n\n- `book_positioning_note`\n- `chapter_map_note`\n- `evidence_note`\n- `comparison_note`\n- `concept_seed_note`\n\nV2 第一阶段不要求全部落地，但 schema 和命名需要先定下来。\n\n## 6. 新的处理流水线\n\n## 6.1 Phase 0：冻结与审计\n\n目标：\n\n- 记录当前版本问题\n- 确认哪些内容要保留，哪些要重写\n\n输出：\n\n- 本 spec\n- 初始缺陷列表\n\n## 6.2 Phase 1：私有书源发现与匹配\n\n脚本：\n\n- `kb-tools/discover-private-books.mjs`\n\n任务：\n\n- 扫描 `knowledge/` 根目录中的 `pdf / epub / txt / md`\n- 清洗脏文件名\n- 尝试匹配到已有 `work`\n- 产出私有书源 manifest\n- 输出匹配/未匹配/重复情况\n\n验收：\n\n- 不再出现“书在仓库里，但系统完全不知道”的情况\n\n## 6.3 Phase 2：书籍解析中间层\n\n脚本：\n\n- `kb-tools/extract-private-book-artifacts.mjs`\n- `kb-tools/extract_private_book_artifacts.py`\n\n任务：\n\n- 对匹配到的 `pdf / epub` 提取：\n  - 元数据\n  - 目录或近似章节结构\n  - 样本文本\n  - 预览正文\n- 写入 `raw/private-library/extracted/`\n\n验收：\n\n- 对每本导入书至少能产出一份结构化工件\n\n## 6.4 Phase 3：定位层重写\n\n任务：\n\n- 将 `works.json` 的浅层定位升级为多维定位\n- 把“这本书适合谁、解决什么问题、在知识生命周期中扮演什么角色”写清楚\n\n验收：\n\n- 核心商业书的 `work` 不再只是三行摘要\n\n## 6.5 Phase 4：基于书本体重写高价值 cards / notes\n\n优先级：\n\n1. `The Art of Game Design`\n2. `Game Design Workshop`\n3. `Game Mechanics`\n4. `Game Feel`\n5. `A Theory of Fun`\n6. `Characteristics of Games`\n7. `Level Up`\n\n任务：\n\n- 基于目录和样本文本重写 `works`\n- 重写对应 `notes`\n- 修补相关 `prompt/checklist` 的依据层\n\n验收：\n\n- 至少一批核心卡片能明确看出“读过书本体之后的升级”\n\n## 6.6 Phase 5：知识优先的门户收敛\n\n任务：\n\n- 保留工作台能力\n- 但让默认首页和默认浏览流回到：\n  - works\n  - cards\n  - packs\n  - search\n  - filters\n\n工作台能力改为次级入口。\n\n## 6.7 Phase 6：校验与审计\n\n任务：\n\n- 完整构建\n- 校验结构\n- 更新报告\n- 列出仍需人工补的书、未匹配条目和低质量提取\n\n## 7. 本轮重构的最低成功标准\n\n本轮被视为成功，至少要满足：\n\n1. 根目录书籍被系统发现并进入 manifest。\n2. 至少一批书被成功匹配到现有 `works`。\n3. 至少一批 `pdf / epub` 被提取出结构化工件。\n4. 缺失材料报告不再错误地把已放入仓库的书全部当成“待提供”。\n5. 通用知识库继续保持 general 优先。\n6. 项目专属内容继续留在 `project-knowledge/`。\n\n## 8. 本轮执行顺序\n\n本次执行严格按以下顺序进行：\n\n1. 写入本 spec\n2. 建立私有书源发现脚本\n3. 改造 ingest 流程，接入发现结果\n4. 建立书籍解析脚本\n5. 接入完整构建流水线\n6. 生成新的审计与状态报告\n7. 再开始重写内容层\n\n## 9. 风险与取舍\n\n### 风险 1：书籍来源文件名脏\n\n取舍：\n\n- 允许启发式匹配\n- 保留未匹配列表\n- 不强行瞎认\n\n### 风险 2：PDF / EPUB 提取质量不稳定\n\n取舍：\n\n- V2 先追求“可提取、可审计、可复查”\n- 不追求一次到位的全文结构化\n\n### 风险 3：内容重写量很大\n\n取舍：\n\n- 先重写核心主干书\n- 再向外围扩张\n\n### 风险 4：门户继续过重\n\n取舍：\n\n- 本轮先稳住底层数据层和知识层\n- 门户收敛放在后续阶段，但必须写入 spec\n\n## 10. 备注\n\n`knowledge/rebuild_instruction.md` 提供的是一个更大的“读书操作系统”方向。\n\n本次重构不会直接把当前仓库改造成完整 BookOS，但会吸收其中三个最关键的思想：\n\n1. 每本书都是一个活的知识对象\n2. 私有读书输入必须进入自动化管线\n3. messy 输入必须逐步转成结构化知识\n\n对当前仓库而言，这样的收敛是现实且正确的。\n",
+  "body_html": "<h1 id=\"游戏设计知识库重构规格书-v2\">游戏设计知识库重构规格书 V2</h1>\n<h2 id=\"1-重构目标\">1. 重构目标</h2>\n<p>这次重构不是继续补几张卡，而是把现有知识库从“人工整理的资料夹”升级为“知识优先、证据驱动、可持续扩展的游戏设计读书与研究系统”。</p>\n<p>目标有四个：</p>\n<ol><li>让已经放进仓库的书真正进入知识管线，而不是停留在目录里。</li><li>让 <code>works / cards / packs</code> 尽量建立在书本体的解析结果上，而不是长期依赖手工薄摘要。</li><li>让通用知识库与项目专属应用层分离，避免再次被单个项目绑架。</li><li>让门户重新回到“知识浏览优先”，工作流能力降为附加层。</li></ol>\n<h2 id=\"2-当前版本的主要问题\">2. 当前版本的主要问题</h2>\n<h3 id=\"21-根目录书籍没有真正被-ingest\">2.1 根目录书籍没有真正被 ingest</h3>\n<p>当前脚本只扫描：</p>\n<ul><li><code>knowledge/50-game-design-masters-kb/incoming/user-supplied/</code></li></ul>\n<p>但你把书放在了：</p>\n<ul><li><code>knowledge/</code></li></ul>\n<p>这导致系统在“看起来有书”和“实际读到了书”之间断开。</p>\n<h3 id=\"22-商业书条目大多是浅层定位，不是内容级理解\">2.2 商业书条目大多是浅层定位，不是内容级理解</h3>\n<p>当前 <code>work</code> 条目多数只有：</p>\n<ul><li>标题</li><li>作者</li><li>手写摘要</li><li>核心要点</li><li>适用场景</li></ul>\n<p>但缺少：</p>\n<ul><li>目录级结构</li><li>章节级证据</li><li>提取样本文本</li><li>可追溯的概念来源</li><li>更可靠的定位与比较依据</li></ul>\n<h3 id=\"23-通用层与项目层一度混在一起\">2.3 通用层与项目层一度混在一起</h3>\n<p>虽然已经做过第一次拆分，但整体架构仍然需要明确：</p>\n<ul><li>通用知识库只放 general 内容</li><li>项目应用层只放 project overlay</li></ul>\n<h3 id=\"24-门户已经偏离“知识库”定位\">2.4 门户已经偏离“知识库”定位</h3>\n<p>当前门户同时承担：</p>\n<ul><li>阅读器</li><li>搜索器</li><li>prompt 复制器</li><li>项目工作台</li><li>blocker 流程工具</li></ul>\n<p>这让“知识库”本体不够安静，也不够清楚。</p>\n<h3 id=\"25-缺少书籍解析中间层\">2.5 缺少书籍解析中间层</h3>\n<p>当前从原始书籍到最终卡片，中间缺了一层稳定的“解析工件层”。</p>\n<p>必须补上的中间产物包括：</p>\n<ul><li>元数据提取</li><li>目录/章节映射</li><li>样本文本提取</li><li>提取质量报告</li><li>匹配状态与人工覆写位</li></ul>\n<h2 id=\"3-重构原则\">3. 重构原则</h2>\n<h3 id=\"31-知识优先，不是工具优先\">3.1 知识优先，不是工具优先</h3>\n<p>门户、按钮、工作流都只是知识的壳。</p>\n<p>重构后必须保证：</p>\n<ul><li>没有复杂工作流，知识库本体仍然成立</li><li>不打开门户，文件系统层也能被 AI 和人类直接使用</li></ul>\n<h3 id=\"32-证据优先，不是印象优先\">3.2 证据优先，不是印象优先</h3>\n<p>每本书的定位、摘要、适用场景、衍生卡片，都应尽量能追溯到：</p>\n<ul><li>书籍目录</li><li>提取样本文本</li><li>章节结构</li><li>相关开放材料</li></ul>\n<h3 id=\"33-通用层与项目层分离\">3.3 通用层与项目层分离</h3>\n<p><code>knowledge/50-game-design-masters-kb/</code> 只保留通用游戏设计知识。</p>\n<p>项目专属内容必须进入独立 overlay，例如：</p>\n<ul><li><code>project-knowledge/&amp;lt;project-slug&amp;gt;/</code></li></ul>\n<h3 id=\"34-私有书源允许参与分析，但不把知识库重新做成盗版镜像站\">3.4 私有书源允许参与分析，但不把知识库重新做成盗版镜像站</h3>\n<p>重构后的处理原则：</p>\n<ul><li>允许使用你本地提供的书进行私有解析</li><li>不在卡片里长段复刻商业书正文</li><li>以元数据、结构、摘要、概念、目录、适用场景、比较和衍生卡片为主</li></ul>\n<h3 id=\"35-先补管线，再补内容\">3.5 先补管线，再补内容</h3>\n<p>先解决：</p>\n<ol><li>发现书</li><li>匹配书</li><li>解析书</li><li>记录证据</li></ol>\n<p>再解决：</p>\n<ol><li>重写 works</li><li>重写 notes</li><li>重写 cards</li><li>重写 portal 入口</li></ol>\n<h2 id=\"4-目标架构\">4. 目标架构</h2>\n<h2 id=\"41-四层结构\">4.1 四层结构</h2>\n<h3 id=\"第一层：来源层\">第一层：来源层</h3>\n<ul><li><code>raw/open-web/</code></li><li><code>raw/official-metadata/</code></li><li><code>raw/private-library/</code></li></ul>\n<h3 id=\"第二层：解析工件层\">第二层：解析工件层</h3>\n<p>用于承接用户提供书籍的结构化提取结果：</p>\n<ul><li><code>raw/private-library/manifest.json</code></li><li><code>raw/private-library/extracted/*.json</code></li><li><code>raw/private-library/extract-manifest.json</code></li></ul>\n<h3 id=\"第三层：标准化知识层\">第三层：标准化知识层</h3>\n<ul><li><code>normalized/works/</code></li><li><code>normalized/cards/</code></li><li><code>normalized/packs/</code></li></ul>\n<h3 id=\"第四层：索引与展示层\">第四层：索引与展示层</h3>\n<ul><li><code>indexes/</code></li><li><code>reports/</code></li><li><code>kb-portal/</code></li></ul>\n<h2 id=\"42-新增的核心中间产物\">4.2 新增的核心中间产物</h2>\n<h3 id=\"private-library-manifest\">Private Library Manifest</h3>\n<p>记录所有从 <code>knowledge/</code> 根目录发现的私有书源文件。</p>\n<p>字段至少包括：</p>\n<ul><li><code>file_name</code></li><li><code>relative_path</code></li><li><code>extension</code></li><li><code>size_bytes</code></li><li><code>sha256</code></li><li><code>cleaned_name</code></li><li><code>matched_work_id</code></li><li><code>match_strategy</code></li><li><code>match_score</code></li><li><code>candidate_work_ids</code></li><li><code>duplicate_group</code></li></ul>\n<h3 id=\"extracted-artifact\">Extracted Artifact</h3>\n<p>记录对单本私有书的提取结果。</p>\n<p>字段至少包括：</p>\n<ul><li><code>source_relative_path</code></li><li><code>format</code></li><li><code>metadata</code></li><li><code>toc</code></li><li><code>sample_sections</code></li><li><code>preview_text</code></li><li><code>extraction_status</code></li><li><code>warnings</code></li></ul>\n<h3 id=\"knowledge-positioning\">Knowledge Positioning</h3>\n<p>每个 <code>work</code> 的定位不再只是一句“适用场景”，而应新增多维定位：</p>\n<ul><li><code>knowledge_domains</code></li><li><code>purposes</code></li><li><code>reading_modes</code></li><li><code>value_types</code></li><li><code>knowledge_lifecycle</code></li></ul>\n<p>这些维度来自 <code>rebuild_instruction.md</code> 的思路，但收敛到当前游戏设计知识库范围内使用。</p>\n<h2 id=\"5-数据模型扩展\">5. 数据模型扩展</h2>\n<h2 id=\"51-work-扩展字段\">5.1 Work 扩展字段</h2>\n<p>在现有 <code>work</code> 基础上逐步扩展：</p>\n<ul><li><code>usage_relevance</code></li><li><code>knowledge_domains</code></li><li><code>purposes</code></li><li><code>reading_modes</code></li><li><code>value_types</code></li><li><code>knowledge_lifecycle</code></li><li><code>has_private_source</code></li><li><code>private_source_count</code></li><li><code>extracted_artifact_ids</code></li></ul>\n<h2 id=\"52-card-扩展方向\">5.2 Card 扩展方向</h2>\n<p>不是一次性加新表，而是逐步增加更有价值的 card 类型：</p>\n<ul><li><code>book_positioning_note</code></li><li><code>chapter_map_note</code></li><li><code>evidence_note</code></li><li><code>comparison_note</code></li><li><code>concept_seed_note</code></li></ul>\n<p>V2 第一阶段不要求全部落地，但 schema 和命名需要先定下来。</p>\n<h2 id=\"6-新的处理流水线\">6. 新的处理流水线</h2>\n<h2 id=\"61-phase-0：冻结与审计\">6.1 Phase 0：冻结与审计</h2>\n<p>目标：</p>\n<ul><li>记录当前版本问题</li><li>确认哪些内容要保留，哪些要重写</li></ul>\n<p>输出：</p>\n<ul><li>本 spec</li><li>初始缺陷列表</li></ul>\n<h2 id=\"62-phase-1：私有书源发现与匹配\">6.2 Phase 1：私有书源发现与匹配</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/discover-private-books.mjs</code></li></ul>\n<p>任务：</p>\n<ul><li>扫描 <code>knowledge/</code> 根目录中的 <code>pdf / epub / txt / md</code></li><li>清洗脏文件名</li><li>尝试匹配到已有 <code>work</code></li><li>产出私有书源 manifest</li><li>输出匹配/未匹配/重复情况</li></ul>\n<p>验收：</p>\n<ul><li>不再出现“书在仓库里，但系统完全不知道”的情况</li></ul>\n<h2 id=\"63-phase-2：书籍解析中间层\">6.3 Phase 2：书籍解析中间层</h2>\n<p>脚本：</p>\n<ul><li><code>kb-tools/extract-private-book-artifacts.mjs</code></li><li><code>kb-tools/extract_private_book_artifacts.py</code></li></ul>\n<p>任务：</p>\n<ul><li>对匹配到的 <code>pdf / epub</code> 提取：</li><li>元数据</li><li>目录或近似章节结构</li><li>样本文本</li><li>预览正文</li><li>写入 <code>raw/private-library/extracted/</code></li></ul>\n<p>验收：</p>\n<ul><li>对每本导入书至少能产出一份结构化工件</li></ul>\n<h2 id=\"64-phase-3：定位层重写\">6.4 Phase 3：定位层重写</h2>\n<p>任务：</p>\n<ul><li>将 <code>works.json</code> 的浅层定位升级为多维定位</li><li>把“这本书适合谁、解决什么问题、在知识生命周期中扮演什么角色”写清楚</li></ul>\n<p>验收：</p>\n<ul><li>核心商业书的 <code>work</code> 不再只是三行摘要</li></ul>\n<h2 id=\"65-phase-4：基于书本体重写高价值-cards-notes\">6.5 Phase 4：基于书本体重写高价值 cards / notes</h2>\n<p>优先级：</p>\n<ol><li><code>The Art of Game Design</code></li><li><code>Game Design Workshop</code></li><li><code>Game Mechanics</code></li><li><code>Game Feel</code></li><li><code>A Theory of Fun</code></li><li><code>Characteristics of Games</code></li><li><code>Level Up</code></li></ol>\n<p>任务：</p>\n<ul><li>基于目录和样本文本重写 <code>works</code></li><li>重写对应 <code>notes</code></li><li>修补相关 <code>prompt/checklist</code> 的依据层</li></ul>\n<p>验收：</p>\n<ul><li>至少一批核心卡片能明确看出“读过书本体之后的升级”</li></ul>\n<h2 id=\"66-phase-5：知识优先的门户收敛\">6.6 Phase 5：知识优先的门户收敛</h2>\n<p>任务：</p>\n<ul><li>保留工作台能力</li><li>但让默认首页和默认浏览流回到：</li><li>works</li><li>cards</li><li>packs</li><li>search</li><li>filters</li></ul>\n<p>工作台能力改为次级入口。</p>\n<h2 id=\"67-phase-6：校验与审计\">6.7 Phase 6：校验与审计</h2>\n<p>任务：</p>\n<ul><li>完整构建</li><li>校验结构</li><li>更新报告</li><li>列出仍需人工补的书、未匹配条目和低质量提取</li></ul>\n<h2 id=\"7-本轮重构的最低成功标准\">7. 本轮重构的最低成功标准</h2>\n<p>本轮被视为成功，至少要满足：</p>\n<ol><li>根目录书籍被系统发现并进入 manifest。</li><li>至少一批书被成功匹配到现有 <code>works</code>。</li><li>至少一批 <code>pdf / epub</code> 被提取出结构化工件。</li><li>缺失材料报告不再错误地把已放入仓库的书全部当成“待提供”。</li><li>通用知识库继续保持 general 优先。</li><li>项目专属内容继续留在 <code>project-knowledge/</code>。</li></ol>\n<h2 id=\"8-本轮执行顺序\">8. 本轮执行顺序</h2>\n<p>本次执行严格按以下顺序进行：</p>\n<ol><li>写入本 spec</li><li>建立私有书源发现脚本</li><li>改造 ingest 流程，接入发现结果</li><li>建立书籍解析脚本</li><li>接入完整构建流水线</li><li>生成新的审计与状态报告</li><li>再开始重写内容层</li></ol>\n<h2 id=\"9-风险与取舍\">9. 风险与取舍</h2>\n<h3 id=\"风险-1：书籍来源文件名脏\">风险 1：书籍来源文件名脏</h3>\n<p>取舍：</p>\n<ul><li>允许启发式匹配</li><li>保留未匹配列表</li><li>不强行瞎认</li></ul>\n<h3 id=\"风险-2：pdf-epub-提取质量不稳定\">风险 2：PDF / EPUB 提取质量不稳定</h3>\n<p>取舍：</p>\n<ul><li>V2 先追求“可提取、可审计、可复查”</li><li>不追求一次到位的全文结构化</li></ul>\n<h3 id=\"风险-3：内容重写量很大\">风险 3：内容重写量很大</h3>\n<p>取舍：</p>\n<ul><li>先重写核心主干书</li><li>再向外围扩张</li></ul>\n<h3 id=\"风险-4：门户继续过重\">风险 4：门户继续过重</h3>\n<p>取舍：</p>\n<ul><li>本轮先稳住底层数据层和知识层</li><li>门户收敛放在后续阶段，但必须写入 spec</li></ul>\n<h2 id=\"10-备注\">10. 备注</h2>\n<p><code>knowledge/rebuild_instruction.md</code> 提供的是一个更大的“读书操作系统”方向。</p>\n<p>本次重构不会直接把当前仓库改造成完整 BookOS，但会吸收其中三个最关键的思想：</p>\n<ol><li>每本书都是一个活的知识对象</li><li>私有读书输入必须进入自动化管线</li><li>messy 输入必须逐步转成结构化知识</li></ol>\n<p>对当前仓库而言，这样的收敛是现实且正确的。</p>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "游戏设计知识库重构规格书 V2",
+      "id": "游戏设计知识库重构规格书-v2"
+    },
+    {
+      "level": 2,
+      "text": "1. 重构目标",
+      "id": "1-重构目标"
+    },
+    {
+      "level": 2,
+      "text": "2. 当前版本的主要问题",
+      "id": "2-当前版本的主要问题"
+    },
+    {
+      "level": 3,
+      "text": "2.1 根目录书籍没有真正被 ingest",
+      "id": "21-根目录书籍没有真正被-ingest"
+    },
+    {
+      "level": 3,
+      "text": "2.2 商业书条目大多是浅层定位，不是内容级理解",
+      "id": "22-商业书条目大多是浅层定位，不是内容级理解"
+    },
+    {
+      "level": 3,
+      "text": "2.3 通用层与项目层一度混在一起",
+      "id": "23-通用层与项目层一度混在一起"
+    },
+    {
+      "level": 3,
+      "text": "2.4 门户已经偏离“知识库”定位",
+      "id": "24-门户已经偏离“知识库”定位"
+    },
+    {
+      "level": 3,
+      "text": "2.5 缺少书籍解析中间层",
+      "id": "25-缺少书籍解析中间层"
+    },
+    {
+      "level": 2,
+      "text": "3. 重构原则",
+      "id": "3-重构原则"
+    },
+    {
+      "level": 3,
+      "text": "3.1 知识优先，不是工具优先",
+      "id": "31-知识优先，不是工具优先"
+    },
+    {
+      "level": 3,
+      "text": "3.2 证据优先，不是印象优先",
+      "id": "32-证据优先，不是印象优先"
+    },
+    {
+      "level": 3,
+      "text": "3.3 通用层与项目层分离",
+      "id": "33-通用层与项目层分离"
+    },
+    {
+      "level": 3,
+      "text": "3.4 私有书源允许参与分析，但不把知识库重新做成盗版镜像站",
+      "id": "34-私有书源允许参与分析，但不把知识库重新做成盗版镜像站"
+    },
+    {
+      "level": 3,
+      "text": "3.5 先补管线，再补内容",
+      "id": "35-先补管线，再补内容"
+    },
+    {
+      "level": 2,
+      "text": "4. 目标架构",
+      "id": "4-目标架构"
+    },
+    {
+      "level": 2,
+      "text": "4.1 四层结构",
+      "id": "41-四层结构"
+    },
+    {
+      "level": 3,
+      "text": "第一层：来源层",
+      "id": "第一层：来源层"
+    },
+    {
+      "level": 3,
+      "text": "第二层：解析工件层",
+      "id": "第二层：解析工件层"
+    },
+    {
+      "level": 3,
+      "text": "第三层：标准化知识层",
+      "id": "第三层：标准化知识层"
+    },
+    {
+      "level": 3,
+      "text": "第四层：索引与展示层",
+      "id": "第四层：索引与展示层"
+    },
+    {
+      "level": 2,
+      "text": "4.2 新增的核心中间产物",
+      "id": "42-新增的核心中间产物"
+    },
+    {
+      "level": 3,
+      "text": "Private Library Manifest",
+      "id": "private-library-manifest"
+    },
+    {
+      "level": 3,
+      "text": "Extracted Artifact",
+      "id": "extracted-artifact"
+    },
+    {
+      "level": 3,
+      "text": "Knowledge Positioning",
+      "id": "knowledge-positioning"
+    },
+    {
+      "level": 2,
+      "text": "5. 数据模型扩展",
+      "id": "5-数据模型扩展"
+    },
+    {
+      "level": 2,
+      "text": "5.1 Work 扩展字段",
+      "id": "51-work-扩展字段"
+    },
+    {
+      "level": 2,
+      "text": "5.2 Card 扩展方向",
+      "id": "52-card-扩展方向"
+    },
+    {
+      "level": 2,
+      "text": "6. 新的处理流水线",
+      "id": "6-新的处理流水线"
+    },
+    {
+      "level": 2,
+      "text": "6.1 Phase 0：冻结与审计",
+      "id": "61-phase-0：冻结与审计"
+    },
+    {
+      "level": 2,
+      "text": "6.2 Phase 1：私有书源发现与匹配",
+      "id": "62-phase-1：私有书源发现与匹配"
+    },
+    {
+      "level": 2,
+      "text": "6.3 Phase 2：书籍解析中间层",
+      "id": "63-phase-2：书籍解析中间层"
+    },
+    {
+      "level": 2,
+      "text": "6.4 Phase 3：定位层重写",
+      "id": "64-phase-3：定位层重写"
+    },
+    {
+      "level": 2,
+      "text": "6.5 Phase 4：基于书本体重写高价值 cards / notes",
+      "id": "65-phase-4：基于书本体重写高价值-cards-notes"
+    },
+    {
+      "level": 2,
+      "text": "6.6 Phase 5：知识优先的门户收敛",
+      "id": "66-phase-5：知识优先的门户收敛"
+    },
+    {
+      "level": 2,
+      "text": "6.7 Phase 6：校验与审计",
+      "id": "67-phase-6：校验与审计"
+    },
+    {
+      "level": 2,
+      "text": "7. 本轮重构的最低成功标准",
+      "id": "7-本轮重构的最低成功标准"
+    },
+    {
+      "level": 2,
+      "text": "8. 本轮执行顺序",
+      "id": "8-本轮执行顺序"
+    },
+    {
+      "level": 2,
+      "text": "9. 风险与取舍",
+      "id": "9-风险与取舍"
+    },
+    {
+      "level": 3,
+      "text": "风险 1：书籍来源文件名脏",
+      "id": "风险-1：书籍来源文件名脏"
+    },
+    {
+      "level": 3,
+      "text": "风险 2：PDF / EPUB 提取质量不稳定",
+      "id": "风险-2：pdf-epub-提取质量不稳定"
+    },
+    {
+      "level": 3,
+      "text": "风险 3：内容重写量很大",
+      "id": "风险-3：内容重写量很大"
+    },
+    {
+      "level": 3,
+      "text": "风险 4：门户继续过重",
+      "id": "风险-4：门户继续过重"
+    },
+    {
+      "level": 2,
+      "text": "10. 备注",
+      "id": "10-备注"
+    }
+  ],
+  "search_text": "游戏设计知识库重构规格书 V2 # 游戏设计知识库重构规格书 V2 ## 1. 重构目标 这次重构不是继续补几张卡，而是把现有知识库从“人工整理的资料夹”升级为“知识优先、证据驱动、可持续扩展的游戏设计读书与研究系统”。 目标有四个： 1. 让已经放进仓库的书真正进入知识管线，而不是停留在目录里。 2. 让 `works / cards / packs` 尽量建立在书本体的解析结果上，而不是长期依赖手工薄摘要。 3. 让通用知识库与项目专属应用层分离，避免再次被单个项目绑架。 4. 让门户重新回到“知识浏览优先”，工作流能力降为附加层。 ## 2. 当前版本的主要问题 ### 2.1 根目录书籍没有真正被 ingest 当前脚本只扫描： - `knowledge/50-game-design-masters-kb/incoming/user-supplied/` 但你把书放在了： - `knowledge/` 这导致系统在“看起来有书”和“实际读到了书”之间断开。 ### 2.2 商业书条目大多是浅层定位，不是内容级理解 当前 `work` 条目多数只有： - 标题 - 作者 - 手写摘要 - 核心要点 - 适用场景 但缺少： - 目录级结构 - 章节级证据 - 提取样本文本 - 可追溯的概念来源 - 更可靠的定位与比较依据 ### 2.3 通用层与项目层一度混在一起 虽然已经做过第一次拆分，但整体架构仍然需要明确： - 通用知识库只放 general 内容 - 项目应用层只放 project overlay ### 2.4 门户已经偏离“知识库”定位 当前门户同时承担： - 阅读器 - 搜索器 - prompt 复制器 - 项目工作台 - blocker 流程工具 这让“知识库”本体不够安静，也不够清楚。 ### 2.5 缺少书籍解析中间层 当前从原始书籍到最终卡片，中间缺了一层稳定的“解析工件层”。 必须补上的中间产物包括： - 元数据提取 - 目录/章节映射 - 样本文本提取 - 提取质量报告 - 匹配状态与人工覆写位 ## 3. 重构原则 ### 3.1 知识优先，不是工具优先 门户、按钮、工作流都只是知识的壳。 重构后必须保证： - 没有复杂工作流，知识库本体仍然成立 - 不打开门户，文件系统层也能被 AI 和人类直接使用 ### 3.2 证据优先，不是印象优先 每本书的定位、摘要、适用场景、衍生卡片，都应尽量能追溯到： - 书籍目录 - 提取样本文本 - 章节结构 - 相关开放材料 ### 3.3 通用层与项目层分离 `knowledge/50-game-design-masters-kb/` 只保留通用游戏设计知识。 项目专属内容必须进入独立 overlay，例如： - `project-knowledge/<project-slug>/` ### 3.4 私有书源允许参与分析，但不把知识库重新做成盗版镜像站 重构后的处理原则： - 允许使用你本地提供的书进行私有解析 - 不在卡片里长段复刻商业书正文 - 以元数据、结构、摘要、概念、目录、适用场景、比较和衍生卡片为主 ### 3.5 先补管线，再补内容 先解决： 1. 发现书 2. 匹配书 3. 解析书 4. 记录证据 再解决： 5. 重写 works 6. 重写 notes 7. 重写 cards 8. 重写 portal 入口 ## 4. 目标架构 ## 4.1 四层结构 ### 第一层：来源层 - `raw/open-web/` - `raw/official-metadata/` - `raw/private-library/` ### 第二层：解析工件层 用于承接用户提供书籍的结构化提取结果： - `raw/private-library/manifest.json` - `raw/private-library/extracted/*.json` - `raw/private-library/extract-manifest.json` ### 第三层：标准化知识层 - `normalized/works/` - `normalized/cards/` - `normalized/packs/` ### 第四层：索引与展示层 - `indexes/` - `reports/` - `kb-portal/` ## 4.2 新增的核心中间产物 ### Private Library Manifest 记录所有从 `knowledge/` 根目录发现的私有书源文件。 字段至少包括： - `file_name` - `relative_path` - `extension` - `size_bytes` - `sha256` - `cleaned_name` - `matched_work_id` - `match_strategy` - `match_score` - `candidate_work_ids` - `duplicate_group` ### Extracted Artifact 记录对单本私有书的提取结果。 字段至少包括： - `source_relative_path` - `format` - `metadata` - `toc` - `sample_sections` - `preview_text` - `extraction_status` - `warnings` ### Knowledge Positioning 每个 `work` 的定位不再只是一句“适用场景”，而应新增多维定位： - `knowledge_domains` - `purposes` - `reading_modes` - `value_types` - `knowledge_lifecycle` 这些维度来自 `rebuild_instruction.md` 的思路，但收敛到当前游戏设计知识库范围内使用。 ## 5. 数据模型扩展 ## 5.1 Work 扩展字段 在现有 `work` 基础上逐步扩展： - `usage_relevance` - `knowledge_domains` - `purposes` - `reading_modes` - `value_types` - `knowledge_lifecycle` - `has_private_source` - `private_source_count` - `extracted_artifact_ids` ## 5.2 Card 扩展方向 不是一次性加新表，而是逐步增加更有价值的 card 类型： - `book_positioning_note` - `chapter_map_note` - `evidence_note` - `comparison_note` - `concept_seed_note` V2 第一阶段不要求全部落地，但 schema 和命名需要先定下来。 ## 6. 新的处理流水线 ## 6.1 Phase 0：冻结与审计 目标： - 记录当前版本问题 - 确认哪些内容要保留，哪些要重写 输出： - 本 spec - 初始缺陷列表 ## 6.2 Phase 1：私有书源发现与匹配 脚本： - `kb-tools/discover-private-books.mjs` 任务： - 扫描 `knowledge/` 根目录中的 `pdf / epub / txt / md` - 清洗脏文件名 - 尝试匹配到已有 `work` - 产出私有书源 manifest - 输出匹配/未匹配/重复情况 验收： - 不再出现“书在仓库里，但系统完全不知道”的情况 ## 6.3 Phase 2：书籍解析中间层 脚本： - `kb-tools/extract-private-book-artifacts.mjs` - `kb-tools/extract_private_book_artifacts.py` 任务： - 对匹配到的 `pdf / epub` 提取： - 元数据 - 目录或近似章节结构 - 样本文本 - 预览正文 - 写入 `raw/private-library/extracted/` 验收： - 对每本导入书至少能产出一份结构化工件 ## 6.4 Phase 3：定位层重写 任务： - 将 `works.json` 的浅层定位升级为多维定位 - 把“这本书适合谁、解决什么问题、在知识生命周期中扮演什么角色”写清楚 验收： - 核心商业书的 `work` 不再只是三行摘要 ## 6.5 Phase 4：基于书本体重写高价值 cards / notes 优先级： 1. `The Art of Game Design` 2. `Game Design Workshop` 3. `Game Mechanics` 4. `Game Feel` 5. `A Theory of Fun` 6. `Characteristics of Games` 7. `Level Up` 任务： - 基于目录和样本文本重写 `works` - 重写对应 `notes` - 修补相关 `prompt/checklist` 的依据层 验收： - 至少一批核心卡片能明确看出“读过书本体之后的升级” ## 6.6 Phase 5：知识优先的门户收敛 任务： - 保留工作台能力 - 但让默认首页和默认浏览流回到： - works - cards - packs - search - filters 工作台能力改为次级入口。 ## 6.7 Phase 6：校验与审计 任务： - 完整构建 - 校验结构 - 更新报告 - 列出仍需人工补的书、未匹配条目和低质量提取 ## 7. 本轮重构的最低成功标准 本轮被视为成功，至少要满足： 1. 根目录书籍被系统发现并进入 manifest。 2. 至少一批书被成功匹配到现有 `works`。 3. 至少一批 `pdf / epub` 被提取出结构化工件。 4. 缺失材料报告不再错误地把已放入仓库的书全部当成“待提供”。 5. 通用知识库继续保持 general 优先。 6. 项目专属内容继续留在 `project-knowledge/`。 ## 8. 本轮执行顺序 本次执行严格按以下顺序进行： 1. 写入本 spec 2. 建立私有书源发现脚本 3. 改造 ingest 流程，接入发现结果 4. 建立书籍解析脚本 5. 接入完整构建流水线 6. 生成新的审计与状态报告 7. 再开始重写内容层 ## 9. 风险与取舍 ### 风险 1：书籍来源文件名脏 取舍： - 允许启发式匹配 - 保留未匹配列表 - 不强行瞎认 ### 风险 2：PDF / EPUB 提取质量不稳定 取舍： - V2 先追求“可提取、可审计、可复查” - 不追求一次到位的全文结构化 ### 风险 3：内容重写量很大 取舍： - 先重写核心主干书 - 再向外围扩张 ### 风险 4：门户继续过重 取舍： - 本轮先稳住底层数据层和知识层 - 门户收敛放在后续阶段，但必须写入 spec ## 10. 备注 `knowledge/rebuild_instruction.md` 提供的是一个更大的“读书操作系统”方向。 本次重构不会直接把当前仓库改造成完整 BookOS，但会吸收其中三个最关键的思想： 1. 每本书都是一个活的知识对象 2. 私有读书输入必须进入自动化管线 3. messy 输入必须逐步转成结构化知识 对当前仓库而言，这样的收敛是现实且正确的。 project-audit systems-thinking the-art-of-game-design game-design-workshop game-mechanics-advanced-game-design"
+}

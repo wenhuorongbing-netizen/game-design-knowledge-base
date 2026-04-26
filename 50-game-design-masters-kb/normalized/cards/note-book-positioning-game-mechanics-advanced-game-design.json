@@ -1,0 +1,65 @@
+{
+  "id": "note-book-positioning-game-mechanics-advanced-game-design",
+  "entity_type": "card",
+  "title": "Game Mechanics: Advanced Game Design：知识定位",
+  "summary": "最适合处理资源产出消耗、战斗经济、成长循环、关卡-机制耦合和需要建模验证的系统，不适合只想要快速灵感时阅读。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "economy-system-design",
+  "resource_kind": "note",
+  "source_work_id": "game-mechanics-advanced-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "systems-thinking",
+    "economy-loops",
+    "formalism"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "characteristics-of-games",
+    "advanced-game-design-a-systems-approach",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [
+    "work-game-mechanics-advanced-game-design"
+  ],
+  "official_links": [
+    "https://www.informit.com/store/product.aspx?isbn=9780132946681"
+  ],
+  "local_links": [
+    {
+      "label": "Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+    }
+  ],
+  "body_markdown": "# Game Mechanics: Advanced Game Design：知识定位\n\n## 这本书最适合解决什么\n\n最适合处理资源产出消耗、战斗经济、成长循环、关卡-机制耦合和需要建模验证的系统，不适合只想要快速灵感时阅读。\n\n## 主要关注\n\n- 关注领域：mechanics / internal economy / Machinations / feedback loops / 系统平衡\n- 主要用途：经济系统设计 / 数值框架分析 / 反馈回路审查 / 复杂系统建模\n- 推荐读法：按章节通读 / 围绕具体系统反查 / 和自己的循环图并读\n- 价值类型：建模工具 / 结构分析语言 / 平衡方法论\n- 适用阶段：系统方案设计 / 数值框架搭建 / 中后期平衡 / 版本复盘\n\n## 和相邻书目的关系\n\n- Characteristics of Games\n- Advanced Game Design: A Systems Approach\n- MDA: A Formal Approach to Game Design and Game Research\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"game-mechanics-advanced-game-design：知识定位\">Game Mechanics: Advanced Game Design：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合处理资源产出消耗、战斗经济、成长循环、关卡-机制耦合和需要建模验证的系统，不适合只想要快速灵感时阅读。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：mechanics / internal economy / Machinations / feedback loops / 系统平衡</li><li>主要用途：经济系统设计 / 数值框架分析 / 反馈回路审查 / 复杂系统建模</li><li>推荐读法：按章节通读 / 围绕具体系统反查 / 和自己的循环图并读</li><li>价值类型：建模工具 / 结构分析语言 / 平衡方法论</li><li>适用阶段：系统方案设计 / 数值框架搭建 / 中后期平衡 / 版本复盘</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Characteristics of Games</li><li>Advanced Game Design: A Systems Approach</li><li>MDA: A Formal Approach to Game Design and Game Research</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Mechanics: Advanced Game Design：知识定位",
+      "id": "game-mechanics-advanced-game-design：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "Game Mechanics: Advanced Game Design 围绕 mechanics、internal economy、feedback loop 和 Machinations，把复杂系统设计从经验判断推进到可建模、可模拟、可分析的层级。 最适合处理资源产出消耗、战斗经济、成长循环、关卡-机制耦合和需要建模验证的系统，不适合只想要快速灵感时阅读。 mechanics internal economy Machinations feedback loops 系统平衡 经济系统设计 数值框架分析 反馈回路审查 复杂系统建模 按章节通读 围绕具体系统反查 和自己的循环图并读 建模工具 结构分析语言 平衡方法论 系统方案设计 数值框架搭建 中后期平衡 版本复盘"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "initiation-direction-prompt-pack",
+  "title": "立项与方向 Prompt Pack",
+  "summary": "Stage-specific prompt templates for 立项与方向.",
+  "phase_group": "initiation-direction",
+  "phase_label": "立项与方向",
+  "phase_groups": [
+    "initiation-direction"
+  ],
+  "phase_labels": [
+    "立项与方向"
+  ],
+  "type": "prompt_pack",
+  "kind_label": "Prompt Pack",
+  "card_ids": [
+    "prompt-competitive-breakdown",
+    "prompt-initiation-direction",
+    "prompt-platform-fit-evaluation",
+    "prompt-player-market-definition"
+  ],
+  "count": 4,
+  "prompt_count": 4,
+  "checklist_count": 0,
+  "other_count": 0,
+  "when_to_use": "Use this when the current task belongs to 立项与方向 and you want reusable drafting prompts instead of starting from scratch.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Pick the prompt template in 立项与方向 Prompt Pack that matches the deliverable you need right now.",
+    "Fill in the placeholders with project-specific constraints instead of generic design language.",
+    "Keep only one answer path per prompt run so the result remains editable.",
+    "Pass the output into a checklist or implementation review before treating it as final."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/initiation-direction-prompt-pack.md",
+  "generated_at": "2026-04-26T00:39:23.252Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

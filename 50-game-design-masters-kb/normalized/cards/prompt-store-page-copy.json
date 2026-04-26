@@ -1,0 +1,61 @@
+{
+  "id": "prompt-store-page-copy",
+  "entity_type": "card",
+  "title": "商店页文案 Prompt 模板",
+  "summary": "把项目卖点压成商店页 headline、短描述、长描述和 feature bullets。",
+  "card_kind": "prompt_template",
+  "phase_group": "operations-release",
+  "deliverable_type": "store-page-copy",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "release-ops",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "the-art-of-game-design"
+  ],
+  "related_card_ids": [
+    "checklist-pre-release-check",
+    "checklist-update-roadmap"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 商店页文案 Prompt 模板\n\n## 适用场景\n\n当项目准备对外曝光，但文案还停留在内部语言或世界观堆砌时使用。\n\n## 使用前提供\n\n- 项目一句话概念与目标玩家\n- 最想强调的 3-5 个卖点\n- 参考竞品商店页\n- 目标平台与商店限制\n- 最怕被误解的点\n\n## 预期输出\n\n1. headline\n2. short description\n3. feature bullets\n4. long description structure\n5. 误解风险\n6. A/B 方向\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏发行文案顾问。\n请把以下项目信息整理成适合商店页的对外文案结构。\n\n输入：\n- 项目概念：{{project_pitch}}\n- 目标玩家：{{target_players}}\n- 核心卖点：{{key_features}}\n- 参考商店页：{{reference_store_pages}}\n- 平台限制：{{store_constraints}}\n- 最怕被误解的点：{{misunderstandings}}\n\n请输出：\n1. headline：一行抓住项目定位。\n2. short description：简短说明玩家会做什么、为什么值得玩。\n3. feature bullets：3-6 条高强度卖点。\n4. long description 结构：分段说明项目体验。\n5. 误解风险：哪些说法会把玩家带偏。\n6. 两个文案方向：更系统导向 / 更情绪导向。\n\n要求：\n- 不要写内部术语。\n- 少讲概念，多讲玩家实际会做什么。\n- 必须能和竞品形成差异。\n```\n\n## 二次追问\n\n- 改成更偏 Steam 的写法。\n- 改成更偏主机商店的短文案版本。\n",
+  "body_html": "<h1 id=\"商店页文案-prompt-模板\">商店页文案 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当项目准备对外曝光，但文案还停留在内部语言或世界观堆砌时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>项目一句话概念与目标玩家</li><li>最想强调的 3-5 个卖点</li><li>参考竞品商店页</li><li>目标平台与商店限制</li><li>最怕被误解的点</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>headline</li><li>short description</li><li>feature bullets</li><li>long description structure</li><li>误解风险</li><li>A/B 方向</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏发行文案顾问。\n请把以下项目信息整理成适合商店页的对外文案结构。\n\n输入：\n- 项目概念：{{project_pitch}}\n- 目标玩家：{{target_players}}\n- 核心卖点：{{key_features}}\n- 参考商店页：{{reference_store_pages}}\n- 平台限制：{{store_constraints}}\n- 最怕被误解的点：{{misunderstandings}}\n\n请输出：\n1. headline：一行抓住项目定位。\n2. short description：简短说明玩家会做什么、为什么值得玩。\n3. feature bullets：3-6 条高强度卖点。\n4. long description 结构：分段说明项目体验。\n5. 误解风险：哪些说法会把玩家带偏。\n6. 两个文案方向：更系统导向 / 更情绪导向。\n\n要求：\n- 不要写内部术语。\n- 少讲概念，多讲玩家实际会做什么。\n- 必须能和竞品形成差异。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>改成更偏 Steam 的写法。</li><li>改成更偏主机商店的短文案版本。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "商店页文案 Prompt 模板",
+      "id": "商店页文案-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "商店页文案 Prompt 模板 把项目卖点压成商店页 headline、短描述、长描述和 feature bullets。 当项目准备对外曝光，但文案还停留在内部语言或世界观堆砌时使用。 项目一句话概念与目标玩家 最想强调的 3-5 个卖点 参考竞品商店页 目标平台与商店限制 最怕被误解的点 headline short description feature bullets long description structure 误解风险 A/B 方向 release-ops prompt-design"
+}

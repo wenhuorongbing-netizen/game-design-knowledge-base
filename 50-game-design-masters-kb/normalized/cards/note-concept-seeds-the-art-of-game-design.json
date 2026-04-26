@@ -1,0 +1,68 @@
+{
+  "id": "note-concept-seeds-the-art-of-game-design",
+  "entity_type": "card",
+  "title": "The Art of Game Design: A Book of Lenses：Concept Seeds",
+  "summary": "table of lenses / HELLO / In the Beginning, There Is the Designer / The Designer Creates an Experience / The Experience Takes Place in a Venue / The Experience…",
+  "card_kind": "concept_seed_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "resource_kind": "note",
+  "source_work_id": "the-art-of-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "systems-thinking",
+    "player-motivation"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "a-theory-of-fun-for-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-the-art-of-game-design",
+    "note-book-positioning-the-art-of-game-design",
+    "note-chapter-map-the-art-of-game-design"
+  ],
+  "official_links": [
+    "https://schellgames.com/art-of-game-design",
+    "https://www.routledge.com/link/link/p/book/9781138632059"
+  ],
+  "local_links": [
+    {
+      "label": "the-art-of-game-design-19c91c891667.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json"
+    }
+  ],
+  "body_markdown": "# The Art of Game Design: A Book of Lenses：Concept Seeds\n\n## 可继续长成卡片的概念种子\n\n- table of lenses\n- HELLO\n- In the Beginning, There Is the Designer\n- The Designer Creates an Experience\n- The Experience Takes Place in a Venue\n- The Experience Rises Out of a Game\n- The Game Consists of Elements\n- The Elements Support a Theme\n- The Game Begins with an Idea\n- The Game Improves through Iteration\n\n## 这本书最可能回答的问题\n\n- 最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。\n- 围绕“高层方向收敛”去检索相关章节和证据。\n- 围绕“设计评审”去检索相关章节和证据。\n- 围绕“跨团队对齐”去检索相关章节和证据。\n- 围绕“问题清单构建”去检索相关章节和证据。\n\n## AI 引用建议\n\n- 先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。\n- 如果需要更稳的回答，优先同时引用这本书的 `book entry`、`chapter map note` 和这张 `concept seeds` 卡。\n\n## Evidence Anchors\n\n- table of lenses (p.29)\n- Acknowledgments (p.37)\n- HELLO (p.39)\n- Chapter 1: In the Beginning, There Is the Designer (p.47)\n- Chapter 2: The Designer Creates an Experience (p.55)\n- Chapter 3: The Experience Takes Place in a Venue (p.71)\n",
+  "body_html": "<h1 id=\"the-art-of-game-design-a-book-of-lenses：concept-seeds\">The Art of Game Design: A Book of Lenses：Concept Seeds</h1>\n<h2 id=\"可继续长成卡片的概念种子\">可继续长成卡片的概念种子</h2>\n<ul><li>table of lenses</li><li>HELLO</li><li>In the Beginning, There Is the Designer</li><li>The Designer Creates an Experience</li><li>The Experience Takes Place in a Venue</li><li>The Experience Rises Out of a Game</li><li>The Game Consists of Elements</li><li>The Elements Support a Theme</li><li>The Game Begins with an Idea</li><li>The Game Improves through Iteration</li></ul>\n<h2 id=\"这本书最可能回答的问题\">这本书最可能回答的问题</h2>\n<ul><li>最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。</li><li>围绕“高层方向收敛”去检索相关章节和证据。</li><li>围绕“设计评审”去检索相关章节和证据。</li><li>围绕“跨团队对齐”去检索相关章节和证据。</li><li>围绕“问题清单构建”去检索相关章节和证据。</li></ul>\n<h2 id=\"ai-引用建议\">AI 引用建议</h2>\n<ul><li>先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。</li><li>如果需要更稳的回答，优先同时引用这本书的 <code>book entry</code>、<code>chapter map note</code> 和这张 <code>concept seeds</code> 卡。</li></ul>\n<h2 id=\"evidence-anchors\">Evidence Anchors</h2>\n<ul><li>table of lenses (p.29)</li><li>Acknowledgments (p.37)</li><li>HELLO (p.39)</li><li>Chapter 1: In the Beginning, There Is the Designer (p.47)</li><li>Chapter 2: The Designer Creates an Experience (p.55)</li><li>Chapter 3: The Experience Takes Place in a Venue (p.71)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Art of Game Design: A Book of Lenses：Concept Seeds",
+      "id": "the-art-of-game-design-a-book-of-lenses：concept-seeds"
+    },
+    {
+      "level": 2,
+      "text": "可继续长成卡片的概念种子",
+      "id": "可继续长成卡片的概念种子"
+    },
+    {
+      "level": 2,
+      "text": "这本书最可能回答的问题",
+      "id": "这本书最可能回答的问题"
+    },
+    {
+      "level": 2,
+      "text": "AI 引用建议",
+      "id": "ai-引用建议"
+    },
+    {
+      "level": 2,
+      "text": "Evidence Anchors",
+      "id": "evidence-anchors"
+    }
+  ],
+  "search_text": "The Art of Game Design: A Book of Lenses table of lenses HELLO In the Beginning, There Is the Designer The Designer Creates an Experience The Experience Takes Place in a Venue The Experience Rises Out of a Game The Game Consists of Elements The Elements Support a Theme The Game Begins with an Idea The Game Improves through Iteration 最适合在立项、方向收敛、设计评审、vertical slice 复盘和跨职能沟通时使用，而不是把它当成某一个单独系统的详细教程。 高层方向收敛 设计评审 跨团队对齐 问题清单构建 CONTENTS table of lenses Acknowledgments HELLO Chapter 1: In the Beginning, There Is the Designer Chapter 2: The Designer Creates an Experience Chapter 3: The Experience Takes Place in a Venue Chapter 4: The Experience Rises Out of a Game Chapter 5: The Game Consists of Elements Chapter 6: The Elements Support a Theme Chapter 7: The Game Begins with an Idea Chapter 8: The Game Improves through Iteration Chapter 9: The Game Is Made for a Player Chapter 10: The Experience Is in the Player’s Mind"
+}

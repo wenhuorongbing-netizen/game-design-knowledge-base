@@ -1,0 +1,69 @@
+{
+  "id": "note-book-positioning-level-up",
+  "entity_type": "card",
+  "title": "Level Up! The Guide to Great Video Game Design：知识定位",
+  "summary": "最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "note",
+  "source_work_id": "level-up",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux",
+    "combat",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "game-feel",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-level-up"
+  ],
+  "official_links": [
+    "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+  ],
+  "local_links": [
+    {
+      "label": "Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub"
+    }
+  ],
+  "body_markdown": "# Level Up! The Guide to Great Video Game Design：知识定位\n\n## 这本书最适合解决什么\n\n最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。\n\n## 主要关注\n\n- 关注领域：设计文档 / 关卡与任务表达 / 制作沟通 / 商业开发流程\n- 主要用途：spec 写作 / 交付物表达 / 跨职能沟通\n- 推荐读法：按生产问题反查 / 写文档时并读 / 与 Workshop 结合使用\n- 价值类型：落地模板 / 生产语言 / 表达桥梁\n- 适用阶段：pre-production / production handoff / 文档整理\n\n## 和相邻书目的关系\n\n- Game Feel: A Game Designer's Guide to Virtual Sensation\n- Game Design Workshop\n\n## 结构证据\n\n- Level Up!: The Guide to Great Video Game Design\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"level-up-the-guide-to-great-video-game-design：知识定位\">Level Up! The Guide to Great Video Game Design：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：设计文档 / 关卡与任务表达 / 制作沟通 / 商业开发流程</li><li>主要用途：spec 写作 / 交付物表达 / 跨职能沟通</li><li>推荐读法：按生产问题反查 / 写文档时并读 / 与 Workshop 结合使用</li><li>价值类型：落地模板 / 生产语言 / 表达桥梁</li><li>适用阶段：pre-production / production handoff / 文档整理</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Game Feel: A Game Designer&#39;s Guide to Virtual Sensation</li><li>Game Design Workshop</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Level Up!: The Guide to Great Video Game Design</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Level Up! The Guide to Great Video Game Design：知识定位",
+      "id": "level-up-the-guide-to-great-video-game-design：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "Level Up! The Guide to Great Video Game Design 一部偏商业生产语境的实务书，把玩法、关卡、文档、表达和团队沟通连到可执行交付物上，适合把抽象设计往落地层推进。 最适合在你已经有方向和机制，但需要把它们转成 spec、任务、关卡说明和跨团队沟通材料时介入。 设计文档 关卡与任务表达 制作沟通 商业开发流程 spec 写作 交付物表达 跨职能沟通 按生产问题反查 写文档时并读 与 Workshop 结合使用 落地模板 生产语言 表达桥梁 pre-production production handoff 文档整理"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "note-concept-seeds-game-design-workshop",
+  "entity_type": "card",
+  "title": "Game Design Workshop：Concept Seeds",
+  "summary": "Game Design Basics / The Role of the Game Designer / The Structure of Games / Working with Formal Elements / Working with Dramatic Elements / Working with Syst…",
+  "card_kind": "concept_seed_note",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "gameplay-acceptance",
+  "resource_kind": "note",
+  "source_work_id": "game-design-workshop",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-workshop",
+    "game-design-concepts-course",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "related_card_ids": [
+    "work-game-design-workshop",
+    "note-book-positioning-game-design-workshop",
+    "note-chapter-map-game-design-workshop"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+  ],
+  "local_links": [
+    {
+      "label": "game-design-workshop-26b8de8e4e67.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json"
+    }
+  ],
+  "body_markdown": "# Game Design Workshop：Concept Seeds\n\n## 可继续长成卡片的概念种子\n\n- Game Design Basics\n- The Role of the Game Designer\n- The Structure of Games\n- Working with Formal Elements\n- Working with Dramatic Elements\n- Working with System Dynamics\n- Designing a Game\n- Ideation\n- Prototyping\n- Digital Prototyping\n\n## 这本书最可能回答的问题\n\n- 最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。\n- 围绕“原型推进”去检索相关章节和证据。\n- 围绕“试玩流程建设”去检索相关章节和证据。\n- 围绕“设计文档规范化”去检索相关章节和证据。\n- 围绕“团队训练”去检索相关章节和证据。\n\n## AI 引用建议\n\n- 先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。\n- 如果需要更稳的回答，优先同时引用这本书的 `book entry`、`chapter map note` 和这张 `concept seeds` 卡。\n\n## Evidence Anchors\n\n- Foreword (p.21)\n- Preface (p.23)\n- Acknowledgments (p.25)\n- Introduction (p.31)\n- Part 1 Game Design Basics (p.34)\n- Chapter 1 The Role of the Game Designer (p.36)\n",
+  "body_html": "<h1 id=\"game-design-workshop：concept-seeds\">Game Design Workshop：Concept Seeds</h1>\n<h2 id=\"可继续长成卡片的概念种子\">可继续长成卡片的概念种子</h2>\n<ul><li>Game Design Basics</li><li>The Role of the Game Designer</li><li>The Structure of Games</li><li>Working with Formal Elements</li><li>Working with Dramatic Elements</li><li>Working with System Dynamics</li><li>Designing a Game</li><li>Ideation</li><li>Prototyping</li><li>Digital Prototyping</li></ul>\n<h2 id=\"这本书最可能回答的问题\">这本书最可能回答的问题</h2>\n<ul><li>最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。</li><li>围绕“原型推进”去检索相关章节和证据。</li><li>围绕“试玩流程建设”去检索相关章节和证据。</li><li>围绕“设计文档规范化”去检索相关章节和证据。</li><li>围绕“团队训练”去检索相关章节和证据。</li></ul>\n<h2 id=\"ai-引用建议\">AI 引用建议</h2>\n<ul><li>先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。</li><li>如果需要更稳的回答，优先同时引用这本书的 <code>book entry</code>、<code>chapter map note</code> 和这张 <code>concept seeds</code> 卡。</li></ul>\n<h2 id=\"evidence-anchors\">Evidence Anchors</h2>\n<ul><li>Foreword (p.21)</li><li>Preface (p.23)</li><li>Acknowledgments (p.25)</li><li>Introduction (p.31)</li><li>Part 1 Game Design Basics (p.34)</li><li>Chapter 1 The Role of the Game Designer (p.36)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Design Workshop：Concept Seeds",
+      "id": "game-design-workshop：concept-seeds"
+    },
+    {
+      "level": 2,
+      "text": "可继续长成卡片的概念种子",
+      "id": "可继续长成卡片的概念种子"
+    },
+    {
+      "level": 2,
+      "text": "这本书最可能回答的问题",
+      "id": "这本书最可能回答的问题"
+    },
+    {
+      "level": 2,
+      "text": "AI 引用建议",
+      "id": "ai-引用建议"
+    },
+    {
+      "level": 2,
+      "text": "Evidence Anchors",
+      "id": "evidence-anchors"
+    }
+  ],
+  "search_text": "Game Design Workshop Game Design Basics The Role of the Game Designer The Structure of Games Working with Formal Elements Working with Dramatic Elements Working with System Dynamics Designing a Game Ideation Prototyping Digital Prototyping 最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。 原型推进 试玩流程建设 设计文档规范化 团队训练 Endorsements Page Half Title Title Page Table of Contents Foreword Preface Acknowledgments Image Credits and Copyright Notices Introduction Part 1 Game Design Basics Chapter 1 The Role of the Game Designer Chapter 2 The Structure of Games Chapter 3 Working with Formal Elements Chapter 4 Working with Dramatic Elements"
+}

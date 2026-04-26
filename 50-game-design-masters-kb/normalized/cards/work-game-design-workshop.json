@@ -1,0 +1,111 @@
+{
+  "id": "work-game-design-workshop",
+  "entity_type": "card",
+  "title": "Game Design Workshop",
+  "summary": "以 playcentric process 为中心，把玩家体验目标、原型、试玩、记录、迭代和团队表达串成一套面向生产的设计流程书。",
+  "card_kind": "book_entry",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "gameplay-acceptance",
+  "resource_kind": "book",
+  "source_work_id": "game-design-workshop",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+  ],
+  "local_links": [
+    {
+      "label": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Game Design Workshop\n\n## 基本信息\n\n- 作者：Tracy Fullerton\n- 年份：2024\n- 类型：book\n- 来源：A K Peters / CRC Press\n\n## 摘要\n\n以 playcentric process 为中心，把玩家体验目标、原型、试玩、记录、迭代和团队表达串成一套面向生产的设计流程书。\n\n## 核心要点\n\n- 这本书最有价值的是流程，不是名词定义。\n- 它把“做原型”和“如何记录原型验证结果”放在同一条线上。\n- 很适合把知识库转成每周都能执行的设计实践。\n\n## 适用场景\n\n最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。\n\n## 知识定位\n\n- 关注领域：playcentric process / 原型方法 / 试玩组织 / 玩家体验目标 / 设计文档表达\n- 主要用途：原型推进 / 试玩流程建设 / 设计文档规范化 / 团队训练\n- 推荐读法：按流程顺序通读 / 原型阶段对照使用 / 按章节当 checklist 反查\n- 价值类型：流程模板 / 教学骨架 / 试玩方法\n- 最适合介入的阶段：pre-production / prototype sprint / playtest loop / 课程与训练\n\n## 分类\n\n- 一级分类：测试、验收与审计\n- 二级输出物：玩法验收\n- 主题标签：试玩与迭代 / 设计基础 / Prompt 设计\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Game Design Workshop; A Playcentric Approach to Creating Innovative Games\n- 解析格式：pdf\n- 页数：587\n- 顶层目录预览：\n  - Endorsements Page\n  - Half Title\n  - Title Page\n  - Table of Contents\n  - Foreword\n  - Preface\n  - Acknowledgments\n  - Image Credits and Copyright Notices\n  - Introduction\n  - Part 1 Game Design Basics\n  - Chapter 1 The Role of the Game Designer\n  - Chapter 2 The Structure of Games\n  - Chapter 3 Working with Formal Elements\n  - Chapter 4 Working with Dramatic Elements\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json`（ok）\n\n## 官方链接\n\n- <https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-workshop/01-www.routledge.com-Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innova.html`\n\n## 相关条目\n\n- Game Design Concepts\n- MIT OCW: Introduction to Game Design Methods (Spring 2016)\n",
+  "body_html": "<h1 id=\"game-design-workshop\">Game Design Workshop</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Tracy Fullerton</li><li>年份：2024</li><li>类型：book</li><li>来源：A K Peters / CRC Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>以 playcentric process 为中心，把玩家体验目标、原型、试玩、记录、迭代和团队表达串成一套面向生产的设计流程书。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>这本书最有价值的是流程，不是名词定义。</li><li>它把“做原型”和“如何记录原型验证结果”放在同一条线上。</li><li>很适合把知识库转成每周都能执行的设计实践。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：playcentric process / 原型方法 / 试玩组织 / 玩家体验目标 / 设计文档表达</li><li>主要用途：原型推进 / 试玩流程建设 / 设计文档规范化 / 团队训练</li><li>推荐读法：按流程顺序通读 / 原型阶段对照使用 / 按章节当 checklist 反查</li><li>价值类型：流程模板 / 教学骨架 / 试玩方法</li><li>最适合介入的阶段：pre-production / prototype sprint / playtest loop / 课程与训练</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：测试、验收与审计</li><li>二级输出物：玩法验收</li><li>主题标签：试玩与迭代 / 设计基础 / Prompt 设计</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Game Design Workshop; A Playcentric Approach to Creating Innovative Games</li><li>解析格式：pdf</li><li>页数：587</li><li>顶层目录预览：</li><li>Endorsements Page</li><li>Half Title</li><li>Title Page</li><li>Table of Contents</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Image Credits and Copyright Notices</li><li>Introduction</li><li>Part 1 Game Design Basics</li><li>Chapter 1 The Role of the Game Designer</li><li>Chapter 2 The Structure of Games</li><li>Chapter 3 Working with Formal Elements</li><li>Chapter 4 Working with Dramatic Elements</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-design-workshop-26b8de8e4e67.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009\" target=\"_blank\" rel=\"noreferrer\">https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/game-design-workshop/01-www.routledge.com-Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innova.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Design Concepts</li><li>MIT OCW: Introduction to Game Design Methods (Spring 2016)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Design Workshop",
+      "id": "game-design-workshop"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Game Design Workshop Tracy Fullerton 以 playcentric process 为中心，把玩家体验目标、原型、试玩、记录、迭代和团队表达串成一套面向生产的设计流程书。 这本书最有价值的是流程，不是名词定义。 它把“做原型”和“如何记录原型验证结果”放在同一条线上。 很适合把知识库转成每周都能执行的设计实践。 最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。 制作 主策 玩法策划 系统策划 playcentric process 原型方法 试玩组织 玩家体验目标 设计文档表达 原型推进 试玩流程建设 设计文档规范化 团队训练 按流程顺序通读 原型阶段对照使用 按章节当 checklist 反查 流程模板 教学骨架 试玩方法 pre-production prototype sprint playtest loop 课程与训练 Endorsements Page Half Title Title Page Table of Contents Foreword Preface Acknowledgments Image Credits and Copyright Notices Introduction Part 1 Game Design Basics Chapter 1 The Role of the Game Designer Chapter 2 The Structure of Games Chapter 3 Working with Formal Elements Chapter 4 Working with Dramatic Elements 测试、验收与审计 玩法验收 试玩与迭代 设计基础 Prompt 设计 Routledge / CRC Press “Create the digital games you love to play.” Discover an exercise-driven, non-technical approach to game design without the need for programming or artistic"
+}

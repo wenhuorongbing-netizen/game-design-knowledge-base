@@ -1,0 +1,61 @@
+{
+  "id": "prompt-project-status-audit",
+  "entity_type": "card",
+  "title": "项目状态审计 Prompt 模板",
+  "summary": "把当前项目进度压成阶段判断、风险排序和 stop/continue 建议。",
+  "card_kind": "prompt_template",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "project-status-audit",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2016-introduction-to-game-design-methods",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "prompt-testing-acceptance-audit",
+    "checklist-testing-acceptance-audit"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 项目状态审计 Prompt 模板\n\n## 适用场景\n\n用于 milestone review、版本停损判断，或团队觉得一直很忙但不确定到底有没有往前走时。\n\n## 使用前提供\n\n- 当前目标与本期范围\n- 已完成内容与未完成内容\n- 最近试玩/QA/用户反馈\n- 当前 blocker、技术债和制作债\n- 团队时间和资源变化\n\n## 预期输出\n\n1. 阶段判断\n2. 当前真实进展\n3. 关键阻塞\n4. 风险排序\n5. 建议的 stop/continue/pivot 结论\n6. 下一阶段最小目标\n\n## Prompt 模板\n\n```text\n你是一个世界级项目审计顾问。\n请基于下面的信息，对项目当前状态做一次严格的阶段审计。\n\n输入：\n- 当前目标：{{current_goal}}\n- 本期范围：{{current_scope}}\n- 已完成内容：{{done_items}}\n- 未完成内容：{{undone_items}}\n- 最新试玩/QA：{{latest_findings}}\n- blocker 与技术债：{{blockers_and_debt}}\n- 资源变化：{{resource_changes}}\n\n请输出：\n1. 阶段判断：项目现在更像立项、原型、生产还是 polishing，为什么。\n2. 真实进展：哪些进展是真的，哪些只是忙碌感。\n3. 阻塞：当前最大的 3-5 个阻塞项。\n4. 风险排序：现在最该先解决什么。\n5. 结论：continue / stop / pivot，并说明理由。\n6. 下一阶段目标：只保留最小可推进目标。\n\n要求：\n- 不要安慰式总结。\n- 明确指出伪进展。\n- 需要停损时直接说。\n```\n\n## 二次追问\n\n- 把下一阶段目标改成两周冲刺版本。\n- 只围绕最大 blocker 再展开一版解决路径。\n",
+  "body_html": "<h1 id=\"项目状态审计-prompt-模板\">项目状态审计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于 milestone review、版本停损判断，或团队觉得一直很忙但不确定到底有没有往前走时。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>当前目标与本期范围</li><li>已完成内容与未完成内容</li><li>最近试玩/QA/用户反馈</li><li>当前 blocker、技术债和制作债</li><li>团队时间和资源变化</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>阶段判断</li><li>当前真实进展</li><li>关键阻塞</li><li>风险排序</li><li>建议的 stop/continue/pivot 结论</li><li>下一阶段最小目标</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级项目审计顾问。\n请基于下面的信息，对项目当前状态做一次严格的阶段审计。\n\n输入：\n- 当前目标：{{current_goal}}\n- 本期范围：{{current_scope}}\n- 已完成内容：{{done_items}}\n- 未完成内容：{{undone_items}}\n- 最新试玩/QA：{{latest_findings}}\n- blocker 与技术债：{{blockers_and_debt}}\n- 资源变化：{{resource_changes}}\n\n请输出：\n1. 阶段判断：项目现在更像立项、原型、生产还是 polishing，为什么。\n2. 真实进展：哪些进展是真的，哪些只是忙碌感。\n3. 阻塞：当前最大的 3-5 个阻塞项。\n4. 风险排序：现在最该先解决什么。\n5. 结论：continue / stop / pivot，并说明理由。\n6. 下一阶段目标：只保留最小可推进目标。\n\n要求：\n- 不要安慰式总结。\n- 明确指出伪进展。\n- 需要停损时直接说。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把下一阶段目标改成两周冲刺版本。</li><li>只围绕最大 blocker 再展开一版解决路径。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "项目状态审计 Prompt 模板",
+      "id": "项目状态审计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "项目状态审计 Prompt 模板 把当前项目进度压成阶段判断、风险排序和 stop/continue 建议。 用于 milestone review、版本停损判断，或团队觉得一直很忙但不确定到底有没有往前走时。 当前目标与本期范围 已完成内容与未完成内容 最近试玩/QA/用户反馈 当前 blocker、技术债和制作债 团队时间和资源变化 阶段判断 当前真实进展 关键阻塞 风险排序 建议的 stop/continue/pivot 结论 下一阶段最小目标 project-audit prompt-design"
+}

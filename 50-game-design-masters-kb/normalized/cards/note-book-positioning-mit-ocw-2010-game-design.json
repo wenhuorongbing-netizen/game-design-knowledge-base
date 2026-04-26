@@ -1,0 +1,94 @@
+{
+  "id": "note-book-positioning-mit-ocw-2010-game-design",
+  "entity_type": "card",
+  "title": "MIT OCW: Game Design (Fall 2010)：知识定位",
+  "summary": "适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "note",
+  "source_work_id": "mit-ocw-2010-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "formalism"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2010-game-design",
+    "mit-ocw-2014-game-design",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-mit-ocw-2010-game-design"
+  ],
+  "official_links": [
+    "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/"
+  ],
+  "local_links": [
+    {
+      "label": "p1g1-cards.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-cards.pdf"
+    },
+    {
+      "label": "p1g1-rules.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-rules.pdf"
+    },
+    {
+      "label": "p1g3-cards.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-cards.pdf"
+    },
+    {
+      "label": "p1g3-rules.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-rules.pdf"
+    },
+    {
+      "label": "p1g4-cards-a.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-a.pdf"
+    },
+    {
+      "label": "p1g4-cards-b.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-b.pdf"
+    },
+    {
+      "label": "p1g4-rules.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-rules.pdf"
+    },
+    {
+      "label": "p2g1-board.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-board.pdf"
+    },
+    {
+      "label": "p2g1-cards.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-cards.pdf"
+    },
+    {
+      "label": "p2g1-rules.pdf",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-rules.pdf"
+    }
+  ],
+  "body_markdown": "# MIT OCW: Game Design (Fall 2010)：知识定位\n\n## 这本书最适合解决什么\n\n适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。\n\n## 主要关注\n\n\n## 和相邻书目的关系\n\n- MIT OCW: Game Design (Spring 2014)\n- Game Design Workshop\n",
+  "body_html": "<h1 id=\"mit-ocw-game-design-fall-2010：知识定位\">MIT OCW: Game Design (Fall 2010)：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>MIT OCW: Game Design (Spring 2014)</li><li>Game Design Workshop</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "MIT OCW: Game Design (Fall 2010)：知识定位",
+      "id": "mit-ocw-game-design-fall-2010：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    }
+  ],
+  "search_text": "MIT OCW: Game Design (Fall 2010) MIT 的更偏样例与规则资产的课程资源集，适合研究规则排版、卡片和板面交付物。 适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。"
+}

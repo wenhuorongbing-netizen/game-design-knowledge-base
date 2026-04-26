@@ -1,0 +1,69 @@
+{
+  "id": "note-book-positioning-game-design-workshop",
+  "entity_type": "card",
+  "title": "Game Design Workshop：知识定位",
+  "summary": "最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "testing-acceptance-audit",
+  "deliverable_type": "gameplay-acceptance",
+  "resource_kind": "note",
+  "source_work_id": "game-design-workshop",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-workshop",
+    "game-design-concepts-course",
+    "mit-ocw-2016-introduction-to-game-design-methods"
+  ],
+  "related_card_ids": [
+    "work-game-design-workshop"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+  ],
+  "local_links": [
+    {
+      "label": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Game Design Workshop：知识定位\n\n## 这本书最适合解决什么\n\n最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。\n\n## 主要关注\n\n- 关注领域：playcentric process / 原型方法 / 试玩组织 / 玩家体验目标 / 设计文档表达\n- 主要用途：原型推进 / 试玩流程建设 / 设计文档规范化 / 团队训练\n- 推荐读法：按流程顺序通读 / 原型阶段对照使用 / 按章节当 checklist 反查\n- 价值类型：流程模板 / 教学骨架 / 试玩方法\n- 适用阶段：pre-production / prototype sprint / playtest loop / 课程与训练\n\n## 和相邻书目的关系\n\n- Game Design Concepts\n- MIT OCW: Introduction to Game Design Methods (Spring 2016)\n\n## 结构证据\n\n- Endorsements Page\n- Half Title\n- Title Page\n- Table of Contents\n- Foreword\n- Preface\n- Acknowledgments\n- Image Credits and Copyright Notices\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"game-design-workshop：知识定位\">Game Design Workshop：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：playcentric process / 原型方法 / 试玩组织 / 玩家体验目标 / 设计文档表达</li><li>主要用途：原型推进 / 试玩流程建设 / 设计文档规范化 / 团队训练</li><li>推荐读法：按流程顺序通读 / 原型阶段对照使用 / 按章节当 checklist 反查</li><li>价值类型：流程模板 / 教学骨架 / 试玩方法</li><li>适用阶段：pre-production / prototype sprint / playtest loop / 课程与训练</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Game Design Concepts</li><li>MIT OCW: Introduction to Game Design Methods (Spring 2016)</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Endorsements Page</li><li>Half Title</li><li>Title Page</li><li>Table of Contents</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Image Credits and Copyright Notices</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Design Workshop：知识定位",
+      "id": "game-design-workshop：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "Game Design Workshop 以 playcentric process 为中心，把玩家体验目标、原型、试玩、记录、迭代和团队表达串成一套面向生产的设计流程书。 最适合在你已经有游戏方向、但需要把想法变成可测试原型、可复盘文档和可迭代流程时介入。 playcentric process 原型方法 试玩组织 玩家体验目标 设计文档表达 原型推进 试玩流程建设 设计文档规范化 团队训练 按流程顺序通读 原型阶段对照使用 按章节当 checklist 反查 流程模板 教学骨架 试玩方法 pre-production prototype sprint playtest loop 课程与训练"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "phase-guide-development-implementation",
+  "entity_type": "card",
+  "title": "开发实现导向卡",
+  "summary": "技术方案、原型实现、状态机、输入系统、工具链、优化和重构。",
+  "card_kind": "phase_guide",
+  "phase_group": "development-implementation",
+  "deliverable_type": "",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [],
+  "related_work_ids": [
+    "level-up",
+    "game-ai-pro-series"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 开发实现导向卡\n\n## 这个阶段解决什么\n\n技术方案、原型实现、状态机、输入系统、工具链、优化和重构。\n\n## 常见输出物\n\n- 技术方案 spec\n- 原型实现 prompt\n- 客户端开发\n- 工具链开发\n- 存档/状态机/输入系统\n- 性能优化\n- 重构与 cleanup\n- bug 修复\n\n## 推荐先看\n\n- Level Up! The Guide to Great Video Game Design\n- Game AI Pro\n\n## 已本地可读\n\n- Level Up! The Guide to Great Video Game Design\n\n## 仍建议补齐\n\n- 当前这一类没有优先级很高的待补正版文件。\n\n## 对具体项目的落点\n\n- 先把这个阶段的问题收束成 技术方案 spec / 原型实现 prompt / 客户端开发 这样的具体输出物。\n- 再用本类材料检查当前项目文档是否真的给出了可执行结论。\n",
+  "body_html": "<h1 id=\"开发实现导向卡\">开发实现导向卡</h1>\n<h2 id=\"这个阶段解决什么\">这个阶段解决什么</h2>\n<p>技术方案、原型实现、状态机、输入系统、工具链、优化和重构。</p>\n<h2 id=\"常见输出物\">常见输出物</h2>\n<ul><li>技术方案 spec</li><li>原型实现 prompt</li><li>客户端开发</li><li>工具链开发</li><li>存档/状态机/输入系统</li><li>性能优化</li><li>重构与 cleanup</li><li>bug 修复</li></ul>\n<h2 id=\"推荐先看\">推荐先看</h2>\n<ul><li>Level Up! The Guide to Great Video Game Design</li><li>Game AI Pro</li></ul>\n<h2 id=\"已本地可读\">已本地可读</h2>\n<ul><li>Level Up! The Guide to Great Video Game Design</li></ul>\n<h2 id=\"仍建议补齐\">仍建议补齐</h2>\n<ul><li>当前这一类没有优先级很高的待补正版文件。</li></ul>\n<h2 id=\"对具体项目的落点\">对具体项目的落点</h2>\n<ul><li>先把这个阶段的问题收束成 技术方案 spec / 原型实现 prompt / 客户端开发 这样的具体输出物。</li><li>再用本类材料检查当前项目文档是否真的给出了可执行结论。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "开发实现导向卡",
+      "id": "开发实现导向卡"
+    },
+    {
+      "level": 2,
+      "text": "这个阶段解决什么",
+      "id": "这个阶段解决什么"
+    },
+    {
+      "level": 2,
+      "text": "常见输出物",
+      "id": "常见输出物"
+    },
+    {
+      "level": 2,
+      "text": "推荐先看",
+      "id": "推荐先看"
+    },
+    {
+      "level": 2,
+      "text": "已本地可读",
+      "id": "已本地可读"
+    },
+    {
+      "level": 2,
+      "text": "仍建议补齐",
+      "id": "仍建议补齐"
+    },
+    {
+      "level": 2,
+      "text": "对具体项目的落点",
+      "id": "对具体项目的落点"
+    }
+  ],
+  "search_text": "开发实现 技术方案、原型实现、状态机、输入系统、工具链、优化和重构。 技术方案 spec 原型实现 prompt 客户端开发 工具链开发 存档/状态机/输入系统 性能优化 重构与 cleanup bug 修复 Level Up! The Guide to Great Video Game Design Game AI Pro"
+}

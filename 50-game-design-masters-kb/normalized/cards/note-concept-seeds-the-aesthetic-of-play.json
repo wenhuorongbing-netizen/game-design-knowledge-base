@@ -1,0 +1,65 @@
+{
+  "id": "note-concept-seeds-the-aesthetic-of-play",
+  "entity_type": "card",
+  "title": "The Aesthetic of Play：Concept Seeds",
+  "summary": "I Games / 1 Defining Play / 2 Interactivity / 3 Play Spaces / 4 Heuristics / 5 Anticipation / 6 Mastery / II Minds / 7 Understanding / 8 Epistemology",
+  "card_kind": "concept_seed_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "player-flow-review",
+  "resource_kind": "note",
+  "source_work_id": "the-aesthetic-of-play",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-aesthetic-of-play",
+    "play-matters",
+    "the-rule-book"
+  ],
+  "related_card_ids": [
+    "work-the-aesthetic-of-play",
+    "note-book-positioning-the-aesthetic-of-play",
+    "note-chapter-map-the-aesthetic-of-play"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+  ],
+  "local_links": [
+    {
+      "label": "the-aesthetic-of-play-5c94bc1bc7fc.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json"
+    }
+  ],
+  "body_markdown": "# The Aesthetic of Play：Concept Seeds\n\n## 可继续长成卡片的概念种子\n\n- I Games\n- 1 Defining Play\n- 2 Interactivity\n- 3 Play Spaces\n- 4 Heuristics\n- 5 Anticipation\n- 6 Mastery\n- II Minds\n- 7 Understanding\n- 8 Epistemology\n\n## 这本书最可能回答的问题\n\n- 最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。\n- 围绕“体验评审”去检索相关章节和证据。\n- 围绕“叙事-玩法关系分析”去检索相关章节和证据。\n- 围绕“高阶理论补课”去检索相关章节和证据。\n\n## AI 引用建议\n\n- 先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。\n- 如果需要更稳的回答，优先同时引用这本书的 `book entry`、`chapter map note` 和这张 `concept seeds` 卡。\n\n## Evidence Anchors\n\n- Acknowledgments (p.10)\n- Introduction (p.12)\n- I Games (p.18)\n- 1 Defining Play (p.20)\n- 2 Interactivity (p.34)\n- 3 Play Spaces (p.50)\n",
+  "body_html": "<h1 id=\"the-aesthetic-of-play：concept-seeds\">The Aesthetic of Play：Concept Seeds</h1>\n<h2 id=\"可继续长成卡片的概念种子\">可继续长成卡片的概念种子</h2>\n<ul><li>I Games</li><li>1 Defining Play</li><li>2 Interactivity</li><li>3 Play Spaces</li><li>4 Heuristics</li><li>5 Anticipation</li><li>6 Mastery</li><li>II Minds</li><li>7 Understanding</li><li>8 Epistemology</li></ul>\n<h2 id=\"这本书最可能回答的问题\">这本书最可能回答的问题</h2>\n<ul><li>最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。</li><li>围绕“体验评审”去检索相关章节和证据。</li><li>围绕“叙事-玩法关系分析”去检索相关章节和证据。</li><li>围绕“高阶理论补课”去检索相关章节和证据。</li></ul>\n<h2 id=\"ai-引用建议\">AI 引用建议</h2>\n<ul><li>先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。</li><li>如果需要更稳的回答，优先同时引用这本书的 <code>book entry</code>、<code>chapter map note</code> 和这张 <code>concept seeds</code> 卡。</li></ul>\n<h2 id=\"evidence-anchors\">Evidence Anchors</h2>\n<ul><li>Acknowledgments (p.10)</li><li>Introduction (p.12)</li><li>I Games (p.18)</li><li>1 Defining Play (p.20)</li><li>2 Interactivity (p.34)</li><li>3 Play Spaces (p.50)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Aesthetic of Play：Concept Seeds",
+      "id": "the-aesthetic-of-play：concept-seeds"
+    },
+    {
+      "level": 2,
+      "text": "可继续长成卡片的概念种子",
+      "id": "可继续长成卡片的概念种子"
+    },
+    {
+      "level": 2,
+      "text": "这本书最可能回答的问题",
+      "id": "这本书最可能回答的问题"
+    },
+    {
+      "level": 2,
+      "text": "AI 引用建议",
+      "id": "ai-引用建议"
+    },
+    {
+      "level": 2,
+      "text": "Evidence Anchors",
+      "id": "evidence-anchors"
+    }
+  ],
+  "search_text": "The Aesthetic of Play I Games 1 Defining Play 2 Interactivity 3 Play Spaces 4 Heuristics 5 Anticipation 6 Mastery II Minds 7 Understanding 8 Epistemology 最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。 体验评审 叙事-玩法关系分析 高阶理论补课 Contents Acknowledgments Introduction I Games 1 Defining Play 2 Interactivity 3 Play Spaces 4 Heuristics 5 Anticipation 6 Mastery II Minds 7 Understanding 8 Epistemology 9 Neurons"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "checklist-core-gameplay-systems",
+  "entity_type": "card",
+  "title": "核心玩法与系统设计 Checklist",
+  "summary": "检查玩法系统是否真的形成了可验证、可教学、可增长的循环。",
+  "card_kind": "checklist",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "mit-ocw-2016-introduction-to-game-design-methods",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [
+    "phase-guide-core-gameplay-systems",
+    "prompt-core-gameplay-systems"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 核心玩法与系统设计 Checklist\n\n## 适用场景\n\n用于原型评审、单机制设计 review，或检查“玩法散、系统多、没有核心”的问题。\n\n## 检查项\n\n- 核心循环已经能用 5-8 步清楚描述。\n- 玩家核心动词数量有限且各有功能差异。\n- 每个关键资源都能说明来源、用途和风险。\n- 失败条件与胜利条件不是装饰，而是真的塑造决策。\n- 前 5-10 分钟 onboarding 已经有具体教学方案。\n- 难度上升不是单纯堆数值，而是引入新理解。\n- 至少存在一个可一周内完成的验证原型。\n\n## 通过标准\n\n- 团队能指出当前系统里真正的最小验证件。\n- 试玩后能明确知道要删什么、保留什么。\n- 玩家行为和设计目标之间存在可观察映射。\n\n## 常见失败信号\n\n- 循环只能靠世界观讲解，无法靠系统本身站住。\n- 系统很多，但每个系统都像平行存在的功能块。\n- 试玩反馈只能得到“感觉还行/不太行”。\n",
+  "body_html": "<h1 id=\"核心玩法与系统设计-checklist\">核心玩法与系统设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于原型评审、单机制设计 review，或检查“玩法散、系统多、没有核心”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>核心循环已经能用 5-8 步清楚描述。</li><li>玩家核心动词数量有限且各有功能差异。</li><li>每个关键资源都能说明来源、用途和风险。</li><li>失败条件与胜利条件不是装饰，而是真的塑造决策。</li><li>前 5-10 分钟 onboarding 已经有具体教学方案。</li><li>难度上升不是单纯堆数值，而是引入新理解。</li><li>至少存在一个可一周内完成的验证原型。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>团队能指出当前系统里真正的最小验证件。</li><li>试玩后能明确知道要删什么、保留什么。</li><li>玩家行为和设计目标之间存在可观察映射。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>循环只能靠世界观讲解，无法靠系统本身站住。</li><li>系统很多，但每个系统都像平行存在的功能块。</li><li>试玩反馈只能得到“感觉还行/不太行”。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "核心玩法与系统设计 Checklist",
+      "id": "核心玩法与系统设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "核心玩法与系统设计 Checklist 检查玩法系统是否真的形成了可验证、可教学、可增长的循环。 用于原型评审、单机制设计 review，或检查“玩法散、系统多、没有核心”的问题。 核心循环已经能用 5-8 步清楚描述。 玩家核心动词数量有限且各有功能差异。 每个关键资源都能说明来源、用途和风险。 失败条件与胜利条件不是装饰，而是真的塑造决策。 前 5-10 分钟 onboarding 已经有具体教学方案。 难度上升不是单纯堆数值，而是引入新理解。 至少存在一个可一周内完成的验证原型。 团队能指出当前系统里真正的最小验证件。 试玩后能明确知道要删什么、保留什么。 玩家行为和设计目标之间存在可观察映射。 循环只能靠世界观讲解，无法靠系统本身站住。 系统很多，但每个系统都像平行存在的功能块。 试玩反馈只能得到“感觉还行/不太行”。 playtesting design-fundamentals"
+}

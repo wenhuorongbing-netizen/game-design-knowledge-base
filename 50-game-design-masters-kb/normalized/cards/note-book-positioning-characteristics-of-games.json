@@ -1,0 +1,64 @@
+{
+  "id": "note-book-positioning-characteristics-of-games",
+  "entity_type": "card",
+  "title": "Characteristics of Games：知识定位",
+  "summary": "最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "note",
+  "source_work_id": "characteristics-of-games",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "formalism",
+    "economy-loops",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "characteristics-of-games",
+    "game-mechanics-advanced-game-design",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "related_card_ids": [
+    "work-characteristics-of-games"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+  ],
+  "local_links": [
+    {
+      "label": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub"
+    }
+  ],
+  "body_markdown": "# Characteristics of Games：知识定位\n\n## 这本书最适合解决什么\n\n最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。\n\n## 主要关注\n\n- 关注领域：游戏分析框架 / 信息结构 / 不确定性 / 多人竞争 / 系统弧线\n- 主要用途：结构化拆解 / 规则审查 / 多人系统分析\n- 推荐读法：按章通读 / 作为分析词典反查 / 与具体案例并读\n- 价值类型：分析语言 / 概念地图 / 术语标准\n- 适用阶段：系统设计 / 规则评审 / 设计写作\n\n## 和相邻书目的关系\n\n- Game Mechanics: Advanced Game Design\n- Advanced Game Design: A Systems Approach\n\n## 结构证据\n\n- Characteristics of Games\n- Foreword\n- Preface\n- Acknowledgments\n- Introduction\n",
+  "body_html": "<h1 id=\"characteristics-of-games：知识定位\">Characteristics of Games：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：游戏分析框架 / 信息结构 / 不确定性 / 多人竞争 / 系统弧线</li><li>主要用途：结构化拆解 / 规则审查 / 多人系统分析</li><li>推荐读法：按章通读 / 作为分析词典反查 / 与具体案例并读</li><li>价值类型：分析语言 / 概念地图 / 术语标准</li><li>适用阶段：系统设计 / 规则评审 / 设计写作</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li><li>Advanced Game Design: A Systems Approach</li></ul>\n<h2 id=\"结构证据\">结构证据</h2>\n<ul><li>Characteristics of Games</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Introduction</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Characteristics of Games：知识定位",
+      "id": "characteristics-of-games：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "结构证据",
+      "id": "结构证据"
+    }
+  ],
+  "search_text": "Characteristics of Games 从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。 最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。 游戏分析框架 信息结构 不确定性 多人竞争 系统弧线 结构化拆解 规则审查 多人系统分析 按章通读 作为分析词典反查 与具体案例并读 分析语言 概念地图 术语标准 系统设计 规则评审 设计写作"
+}

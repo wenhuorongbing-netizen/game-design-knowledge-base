@@ -1,0 +1,65 @@
+{
+  "id": "note-book-positioning-the-game-design-reader",
+  "entity_type": "card",
+  "title": "The Game Design Reader: A Rules of Play Anthology：知识定位",
+  "summary": "最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "director-review",
+  "resource_kind": "note",
+  "source_work_id": "the-game-design-reader",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "formalism",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-game-design-reader",
+    "rules-of-play",
+    "characteristics-of-games",
+    "the-rule-book"
+  ],
+  "related_card_ids": [
+    "work-the-game-design-reader"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262195362/the-game-design-reader"
+  ],
+  "local_links": [
+    {
+      "label": "The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# The Game Design Reader: A Rules of Play Anthology：知识定位\n\n## 这本书最适合解决什么\n\n最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。\n\n## 主要关注\n\n- 关注领域：游戏定义与批评 / 规则与系统 / 游戏空间与叙事 / 游戏文化与社群 / 设计研究方法\n- 主要用途：高层设计审查 / 理论补课 / 阅读小组共读 / 跨书目比较\n- 推荐读法：按主题抽读 / 按作者与论文反查 / 作为理论索引长期常备\n- 价值类型：案例库 / 批评视角 / 术语背景 / 经典文本入口\n- 适用阶段：立项前研究 / 方向校准 / 设计复盘 / 知识库扩写\n\n## 和相邻书目的关系\n\n- Rules of Play\n- Characteristics of Games\n- The Rule Book\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"the-game-design-reader-a-rules-of-play-anthology：知识定位\">The Game Design Reader: A Rules of Play Anthology：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：游戏定义与批评 / 规则与系统 / 游戏空间与叙事 / 游戏文化与社群 / 设计研究方法</li><li>主要用途：高层设计审查 / 理论补课 / 阅读小组共读 / 跨书目比较</li><li>推荐读法：按主题抽读 / 按作者与论文反查 / 作为理论索引长期常备</li><li>价值类型：案例库 / 批评视角 / 术语背景 / 经典文本入口</li><li>适用阶段：立项前研究 / 方向校准 / 设计复盘 / 知识库扩写</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Rules of Play</li><li>Characteristics of Games</li><li>The Rule Book</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Game Design Reader: A Rules of Play Anthology：知识定位",
+      "id": "the-game-design-reader-a-rules-of-play-anthology：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "The Game Design Reader: A Rules of Play Anthology 一部面向游戏设计研究与批评的选集，用大量经典文章把规则、文化、空间、社区和玩法分析放回同一张地图里。 最适合在你需要扩大理论边界、统一设计讨论语言、或建立阅读型设计评审时介入，而不是拿来直接替代具体的实现方法书。 游戏定义与批评 规则与系统 游戏空间与叙事 游戏文化与社群 设计研究方法 高层设计审查 理论补课 阅读小组共读 跨书目比较 按主题抽读 按作者与论文反查 作为理论索引长期常备 案例库 批评视角 术语背景 经典文本入口 立项前研究 方向校准 设计复盘 知识库扩写"
+}

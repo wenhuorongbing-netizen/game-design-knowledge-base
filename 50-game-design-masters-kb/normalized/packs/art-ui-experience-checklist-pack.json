@@ -1,0 +1,36 @@
+{
+  "id": "art-ui-experience-checklist-pack",
+  "title": "美术、UI、体验表达 Checklist Pack",
+  "summary": "Stage-specific review checklists for 美术、UI、体验表达.",
+  "phase_group": "art-ui-experience",
+  "phase_label": "美术、UI、体验表达",
+  "phase_groups": [
+    "art-ui-experience"
+  ],
+  "phase_labels": [
+    "美术、UI、体验表达"
+  ],
+  "type": "checklist_pack",
+  "kind_label": "Checklist Pack",
+  "card_ids": [
+    "checklist-readability-accessibility-review",
+    "checklist-art-ui-experience",
+    "checklist-player-flow-review"
+  ],
+  "count": 3,
+  "prompt_count": 0,
+  "checklist_count": 3,
+  "other_count": 0,
+  "when_to_use": "Use this after a draft, prototype, or build exists and you need a concentrated 美术、UI、体验表达 review pass.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Use 美术、UI、体验表达 Checklist Pack as a review pass after a draft, prototype, or build already exists.",
+    "Mark the failed checks first, then group them into a short fix order.",
+    "Do not treat every failed line as equally important; separate identity risks from polish issues.",
+    "Repeat the checklist after the next meaningful revision."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/art-ui-experience-checklist-pack.md",
+  "generated_at": "2026-04-26T00:39:23.259Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

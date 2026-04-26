@@ -1,0 +1,60 @@
+{
+  "id": "note-chapter-map-game-feel",
+  "entity_type": "card",
+  "title": "Game Feel: A Game Designer's Guide to Virtual Sensation：章节地图",
+  "summary": "Game Feel: A Game Designer’s Guide to Virtual Sensation / Table of Contents / Acknowledgments / About the Author / Introduction / About This Book / Chapter 1. …",
+  "card_kind": "chapter_map_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "motion-hit-feel-expression",
+  "resource_kind": "note",
+  "source_work_id": "game-feel",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "hit-feel",
+    "ui-ux",
+    "combat"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-game-feel",
+    "note-book-positioning-game-feel"
+  ],
+  "official_links": [
+    "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282"
+  ],
+  "local_links": [
+    {
+      "label": "game-feel-18ac41107c35.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json"
+    }
+  ],
+  "body_markdown": "# Game Feel: A Game Designer's Guide to Virtual Sensation：章节地图\n\n## 顶层结构\n\n1. Game Feel: A Game Designer’s Guide to Virtual Sensation\n2. Table of Contents\n3. Acknowledgments\n4. About the Author\n5. Introduction\n6. About This Book\n7. Chapter 1. Defining Game Feel\n8. The Three Building Blocks of Game Feel\n9. Experiences of Game Feel\n10. Creating Game Feel\n11. Summary\n12. Chapter 2. Game Feel and Human Perception\n13. When and How Does Real-Time Control Exist?\n14. The Computer Side of Things\n\n## 如何使用这份结构\n\n- 把它当作 美术、UI、体验表达 / 动效与打击感表达 的阅读地图，而不是逐字摘抄模板。\n- 先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。\n- 如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。\n\n## 解析依据\n\n- 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json`\n",
+  "body_html": "<h1 id=\"game-feel-a-game-designers-guide-to-virtual-sensation：章节地图\">Game Feel: A Game Designer&#39;s Guide to Virtual Sensation：章节地图</h1>\n<h2 id=\"顶层结构\">顶层结构</h2>\n<ol><li>Game Feel: A Game Designer’s Guide to Virtual Sensation</li><li>Table of Contents</li><li>Acknowledgments</li><li>About the Author</li><li>Introduction</li><li>About This Book</li><li>Chapter 1. Defining Game Feel</li><li>The Three Building Blocks of Game Feel</li><li>Experiences of Game Feel</li><li>Creating Game Feel</li><li>Summary</li><li>Chapter 2. Game Feel and Human Perception</li><li>When and How Does Real-Time Control Exist?</li><li>The Computer Side of Things</li></ol>\n<h2 id=\"如何使用这份结构\">如何使用这份结构</h2>\n<ul><li>把它当作 美术、UI、体验表达 / 动效与打击感表达 的阅读地图，而不是逐字摘抄模板。</li><li>先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。</li><li>如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。</li></ul>\n<h2 id=\"解析依据\">解析依据</h2>\n<ul><li>工件：<code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/game-feel-18ac41107c35.json</code></li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Game Feel: A Game Designer's Guide to Virtual Sensation：章节地图",
+      "id": "game-feel-a-game-designers-guide-to-virtual-sensation：章节地图"
+    },
+    {
+      "level": 2,
+      "text": "顶层结构",
+      "id": "顶层结构"
+    },
+    {
+      "level": 2,
+      "text": "如何使用这份结构",
+      "id": "如何使用这份结构"
+    },
+    {
+      "level": 2,
+      "text": "解析依据",
+      "id": "解析依据"
+    }
+  ],
+  "search_text": "Game Feel: A Game Designer's Guide to Virtual Sensation Game Feel: A Game Designer’s Guide to Virtual Sensation Table of Contents Acknowledgments About the Author Introduction About This Book Chapter 1. Defining Game Feel The Three Building Blocks of Game Feel Experiences of Game Feel Creating Game Feel Summary Chapter 2. Game Feel and Human Perception When and How Does Real-Time Control Exist? The Computer Side of Things 美术、UI、体验表达 动效与打击感表达"
+}

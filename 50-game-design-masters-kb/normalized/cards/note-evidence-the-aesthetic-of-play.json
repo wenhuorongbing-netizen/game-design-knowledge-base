@@ -1,0 +1,79 @@
+{
+  "id": "note-evidence-the-aesthetic-of-play",
+  "entity_type": "card",
+  "title": "The Aesthetic of Play：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "player-flow-review",
+  "resource_kind": "note",
+  "source_work_id": "the-aesthetic-of-play",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-aesthetic-of-play",
+    "play-matters",
+    "the-rule-book"
+  ],
+  "related_card_ids": [
+    "work-the-aesthetic-of-play",
+    "note-book-positioning-the-aesthetic-of-play",
+    "note-chapter-map-the-aesthetic-of-play"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+  ],
+  "local_links": [
+    {
+      "label": "the-aesthetic-of-play-5c94bc1bc7fc.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json"
+    },
+    {
+      "label": "The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# The Aesthetic of Play：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Extract title: The Aesthetic of Play\n- Format: pdf\n- Page count: 335\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json`\n\n## TOC Anchors\n\n- Acknowledgments (p.10)\n- Introduction (p.12)\n- I Games (p.18)\n- 1 Defining Play (p.20)\n- 2 Interactivity (p.34)\n- 3 Play Spaces (p.50)\n- 4 Heuristics (p.62)\n- 5 Anticipation (p.84)\n- 6 Mastery (p.104)\n- II Minds (p.126)\n\n## Sample Text Signals\n\n- Page 6: Everyone has some narrow talent. Mine happens to be the ability to explain complex subjects in clear language. Howard Upton This book is dedicated to my late father. He always had time to play.\n- Page 8: Contents Acknowledgments ix Introduction 1 I Games 1 Defining Play 9 2 Interactivity 23 3 Play Spaces 39 4 Heuristics 51 5 Anticipation 73 6 Mastery 93 II Minds 7 Understanding 117 8 Epistemology 127 9 Neurons 145 10 Signs 161 III Stories 11 Playing without W…\n\n## Why It Matters For The KB\n\n- 当前定位：最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。\n- 主要用途：体验评审 / 叙事-玩法关系分析 / 高阶理论补课\n- 输出价值：高阶视角 / 体验解释层\n\n## Source Review Notes\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"the-aesthetic-of-play：evidence-note\">The Aesthetic of Play：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Extract title: The Aesthetic of Play</li><li>Format: pdf</li><li>Page count: 335</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-aesthetic-of-play-5c94bc1bc7fc.json</code></li></ul>\n<h2 id=\"toc-anchors\">TOC Anchors</h2>\n<ul><li>Acknowledgments (p.10)</li><li>Introduction (p.12)</li><li>I Games (p.18)</li><li>1 Defining Play (p.20)</li><li>2 Interactivity (p.34)</li><li>3 Play Spaces (p.50)</li><li>4 Heuristics (p.62)</li><li>5 Anticipation (p.84)</li><li>6 Mastery (p.104)</li><li>II Minds (p.126)</li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>Page 6: Everyone has some narrow talent. Mine happens to be the ability to explain complex subjects in clear language. Howard Upton This book is dedicated to my late father. He always had time to play.</li><li>Page 8: Contents Acknowledgments ix Introduction 1 I Games 1 Defining Play 9 2 Interactivity 23 3 Play Spaces 39 4 Heuristics 51 5 Anticipation 73 6 Mastery 93 II Minds 7 Understanding 117 8 Epistemology 127 9 Neurons 145 10 Signs 161 III Stories 11 Playing without W…</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。</li><li>主要用途：体验评审 / 叙事-玩法关系分析 / 高阶理论补课</li><li>输出价值：高阶视角 / 体验解释层</li></ul>\n<h2 id=\"source-review-notes\">Source Review Notes</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Aesthetic of Play：Evidence Note",
+      "id": "the-aesthetic-of-play：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "TOC Anchors",
+      "id": "toc-anchors"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    },
+    {
+      "level": 2,
+      "text": "Source Review Notes",
+      "id": "source-review-notes"
+    }
+  ],
+  "search_text": "The Aesthetic of Play 从体验生成与意义建构的角度讨论 play、规则和叙事，适合用来分析‘为什么这个体验成立’而不只是‘它有哪些机制’。 最适合处理体验层和意义层的判断，尤其是在团队已经有基础设计语言之后，用来做更深的审查。 Acknowledgments Introduction I Games 1 Defining Play 2 Interactivity 3 Play Spaces 4 Heuristics 5 Anticipation 6 Mastery II Minds Everyone has some narrow talent. Mine happens to be the ability to explain complex subjects in clear language. Howard Upton This book is dedicated to my late father. He always had time to play. Contents Acknowledgments ix Introduction 1 I Games 1 Defining Play 9 2 Interactivity 23 3 Play Spaces 39 4 Heuristics 51 5 Anticipation 73 6 Mastery 93 II Minds 7 Understanding 117 8 Epistemology 127 9 Neurons 145 10 Signs 161 III Stories 11 Playing without W… 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+}

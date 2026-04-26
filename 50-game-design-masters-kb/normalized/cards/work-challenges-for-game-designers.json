@@ -1,0 +1,106 @@
+{
+  "id": "work-challenges-for-game-designers",
+  "entity_type": "card",
+  "title": "Challenges for Game Designers",
+  "summary": "通过大量练习和题目，把设计思维从抽象知识拉回到手上的练习肌肉，是面向训练和教学价值极高的书。",
+  "card_kind": "book_entry",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "book",
+  "source_work_id": "challenges-for-game-designers",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "prompt-design",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://gamedesignconcepts.wordpress.com/"
+  ],
+  "local_links": [
+    {
+      "label": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Challenges for Game Designers\n\n## 基本信息\n\n- 作者：Brenda Romero / Ian Schreiber\n- 年份：2009\n- 类型：book\n- 来源：Ian Schreiber / Brenda Romero reference pages\n\n## 摘要\n\n通过大量练习和题目，把设计思维从抽象知识拉回到手上的练习肌肉，是面向训练和教学价值极高的书。\n\n## 核心要点\n\n- 它的价值在于练，不在于记。\n- 适合新人成长、课程设计和团队热身。\n- 和 Game Design Concepts 一起用时最像完整训练体系。\n\n## 适用场景\n\n最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。\n\n## 知识定位\n\n- 关注领域：设计训练 / 非数字原型 / 题目驱动学习 / 团队教学\n- 主要用途：新人训练 / 练习题库 / 课程化输出\n- 推荐读法：按练习推进 / 团队共做 / 作为训练 prompt 库\n- 价值类型：训练体系 / 题库 / 练习骨架\n- 最适合介入的阶段：团队训练 / 课程化学习 / 设计热身\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：单机制原型设计\n- 主题标签：试玩与迭代 / Prompt 设计 / 设计基础\n- 可用性：已有私有书源，但来源待复核\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/challenges-for-game-designers-50c50beda57b.json`（ok）\n\n## 官方链接\n\n- <https://gamedesignconcepts.wordpress.com/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/challenges-for-game-designers/01-gamedesignconcepts.wordpress.com-.html`\n\n## 相关条目\n\n- Game Design Concepts\n- Game Design Workshop\n",
+  "body_html": "<h1 id=\"challenges-for-game-designers\">Challenges for Game Designers</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Brenda Romero / Ian Schreiber</li><li>年份：2009</li><li>类型：book</li><li>来源：Ian Schreiber / Brenda Romero reference pages</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>通过大量练习和题目，把设计思维从抽象知识拉回到手上的练习肌肉，是面向训练和教学价值极高的书。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它的价值在于练，不在于记。</li><li>适合新人成长、课程设计和团队热身。</li><li>和 Game Design Concepts 一起用时最像完整训练体系。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：设计训练 / 非数字原型 / 题目驱动学习 / 团队教学</li><li>主要用途：新人训练 / 练习题库 / 课程化输出</li><li>推荐读法：按练习推进 / 团队共做 / 作为训练 prompt 库</li><li>价值类型：训练体系 / 题库 / 练习骨架</li><li>最适合介入的阶段：团队训练 / 课程化学习 / 设计热身</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：单机制原型设计</li><li>主题标签：试玩与迭代 / Prompt 设计 / 设计基础</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/challenges-for-game-designers-50c50beda57b.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://gamedesignconcepts.wordpress.com/\" target=\"_blank\" rel=\"noreferrer\">https://gamedesignconcepts.wordpress.com/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/challenges-for-game-designers/01-gamedesignconcepts.wordpress.com-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Design Concepts</li><li>Game Design Workshop</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Challenges for Game Designers",
+      "id": "challenges-for-game-designers"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Challenges for Game Designers Brenda Romero Ian Schreiber 通过大量练习和题目，把设计思维从抽象知识拉回到手上的练习肌肉，是面向训练和教学价值极高的书。 它的价值在于练，不在于记。 适合新人成长、课程设计和团队热身。 和 Game Design Concepts 一起用时最像完整训练体系。 最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。 系统策划 玩法策划 新人培养 设计训练 非数字原型 题目驱动学习 团队教学 新人训练 练习题库 课程化输出 按练习推进 团队共做 作为训练 prompt 库 训练体系 题库 练习骨架 团队训练 课程化学习 设计热身 核心玩法与系统设计 单机制原型设计 试玩与迭代 Prompt 设计 设计基础 Game Design Concepts An experiment in game design and teaching"
+}

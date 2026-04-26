@@ -1,0 +1,63 @@
+{
+  "id": "note-master-map",
+  "entity_type": "card",
+  "title": "设计大师地图",
+  "summary": "设计大师地图",
+  "card_kind": "reading_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "director-review",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/catalog/04-master-map.md",
+  "theme_tags": [
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "designing-virtual-worlds",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "04-master-map.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/catalog/04-master-map.md"
+    }
+  ],
+  "body_markdown": "# 设计大师地图\n\n这张表的用途是帮你在具体问题面前快速选人，而不是平均用力。\n\n| 设计者 / 著作群 | 最强领域 | 他最擅长回答的问题 | 先看哪里 |\n| --- | --- | --- | --- |\n| Jesse Schell | 全局设计审查 | 这个游戏整体上为什么值得存在？体验目标是否统一？ | [notes/03-jesse-schell-and-playcentric-design.md](../notes/03-jesse-schell-and-playcentric-design.md) |\n| Tracy Fullerton | 原型、试玩、迭代流程 | 现在该做什么原型，怎么验证，怎么改？ | [notes/03-jesse-schell-and-playcentric-design.md](../notes/03-jesse-schell-and-playcentric-design.md) |\n| Ian Schreiber / Brenda Romero | 训练设计肌肉 | 我到底有没有在设计，还是只是在脑补？ | [notes/04-schreiber-romero-and-exercise-driven-design.md](../notes/04-schreiber-romero-and-exercise-driven-design.md) |\n| Salen / Zimmerman | 规则与系统语言 | 规则、系统、意义到底怎么说清？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) |\n| Raph Koster | 好玩的本质 | 玩家正在学习什么？哪里开始无聊？ | [notes/05-koster-crawford-bartle-and-systems-thinking.md](../notes/05-koster-crawford-bartle-and-systems-thinking.md) |\n| Chris Crawford | 交互本体 | 这真的是互动，还是只是包装过的线性内容？ | [notes/05-koster-crawford-bartle-and-systems-thinking.md](../notes/05-koster-crawford-bartle-and-systems-thinking.md) |\n| Richard Bartle | 虚拟世界与社交动机 | 长周期世界如何承载身份、社交、动机分化？ | [notes/05-koster-crawford-bartle-and-systems-thinking.md](../notes/05-koster-crawford-bartle-and-systems-thinking.md) |\n| Steve Swink | 手感与反馈 | 为什么角色“能动”，但玩家不觉得爽？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) |\n| Adams / Dormans | 机制与系统经济 | 数值、资源、节奏为什么越调越乱？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) |\n| Scott Rogers | 商业落地与设计表达 | 怎么把想法写成别人能懂、能做、能卖的文档？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) |\n| Brian Upton / Miguel Sicart / Stenros & Montola | 体验、意义、规则哲学 | 这个玩法为什么有意义，而不只是可运行？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) |\n\n## 快速决策\n\n### 如果你现在的问题是“产品方向不稳”\n\n- 先看 Jesse Schell\n- 再看 Tracy Fullerton\n- 最后回到 `Game Design Concepts` Level 1 到 Level 5\n\n### 如果你现在的问题是“数值和系统耦合很乱”\n\n- 先看 Adams / Dormans\n- 再看 Koster\n- 再补 `Game Design Concepts` 的平衡与测试部分\n\n### 如果你现在的问题是“世界很大，但玩家动机不成立”\n\n- 先看 Bartle\n- 再看 Koster\n- 再用 Schell 做一次体验目标清理\n\n### 如果你现在的问题是“战斗能跑，但手感弱”\n\n- 先看 Steve Swink\n- 再看 Scott Rogers\n- 最后用 MIT 的规则写作材料检查信息可读性\n",
+  "body_html": "<h1 id=\"设计大师地图\">设计大师地图</h1>\n<p>这张表的用途是帮你在具体问题面前快速选人，而不是平均用力。</p>\n<p>| 设计者 / 著作群 | 最强领域 | 他最擅长回答的问题 | 先看哪里 | | --- | --- | --- | --- | | Jesse Schell | 全局设计审查 | 这个游戏整体上为什么值得存在？体验目标是否统一？ | <a href=\"../notes/03-jesse-schell-and-playcentric-design.md\" target=\"_blank\" rel=\"noreferrer\">notes/03-jesse-schell-and-playcentric-design.md</a> | | Tracy Fullerton | 原型、试玩、迭代流程 | 现在该做什么原型，怎么验证，怎么改？ | <a href=\"../notes/03-jesse-schell-and-playcentric-design.md\" target=\"_blank\" rel=\"noreferrer\">notes/03-jesse-schell-and-playcentric-design.md</a> | | Ian Schreiber / Brenda Romero | 训练设计肌肉 | 我到底有没有在设计，还是只是在脑补？ | <a href=\"../notes/04-schreiber-romero-and-exercise-driven-design.md\" target=\"_blank\" rel=\"noreferrer\">notes/04-schreiber-romero-and-exercise-driven-design.md</a> | | Salen / Zimmerman | 规则与系统语言 | 规则、系统、意义到底怎么说清？ | <a href=\"../notes/06-rules-feel-and-formalism.md\" target=\"_blank\" rel=\"noreferrer\">notes/06-rules-feel-and-formalism.md</a> | | Raph Koster | 好玩的本质 | 玩家正在学习什么？哪里开始无聊？ | <a href=\"../notes/05-koster-crawford-bartle-and-systems-thinking.md\" target=\"_blank\" rel=\"noreferrer\">notes/05-koster-crawford-bartle-and-systems-thinking.md</a> | | Chris Crawford | 交互本体 | 这真的是互动，还是只是包装过的线性内容？ | <a href=\"../notes/05-koster-crawford-bartle-and-systems-thinking.md\" target=\"_blank\" rel=\"noreferrer\">notes/05-koster-crawford-bartle-and-systems-thinking.md</a> | | Richard Bartle | 虚拟世界与社交动机 | 长周期世界如何承载身份、社交、动机分化？ | <a href=\"../notes/05-koster-crawford-bartle-and-systems-thinking.md\" target=\"_blank\" rel=\"noreferrer\">notes/05-koster-crawford-bartle-and-systems-thinking.md</a> | | Steve Swink | 手感与反馈 | 为什么角色“能动”，但玩家不觉得爽？ | <a href=\"../notes/06-rules-feel-and-formalism.md\" target=\"_blank\" rel=\"noreferrer\">notes/06-rules-feel-and-formalism.md</a> | | Adams / Dormans | 机制与系统经济 | 数值、资源、节奏为什么越调越乱？ | <a href=\"../notes/06-rules-feel-and-formalism.md\" target=\"_blank\" rel=\"noreferrer\">notes/06-rules-feel-and-formalism.md</a> | | Scott Rogers | 商业落地与设计表达 | 怎么把想法写成别人能懂、能做、能卖的文档？ | <a href=\"../notes/06-rules-feel-and-formalism.md\" target=\"_blank\" rel=\"noreferrer\">notes/06-rules-feel-and-formalism.md</a> | | Brian Upton / Miguel Sicart / Stenros &amp; Montola | 体验、意义、规则哲学 | 这个玩法为什么有意义，而不只是可运行？ | <a href=\"../notes/06-rules-feel-and-formalism.md\" target=\"_blank\" rel=\"noreferrer\">notes/06-rules-feel-and-formalism.md</a> |</p>\n<h2 id=\"快速决策\">快速决策</h2>\n<h3 id=\"如果你现在的问题是“产品方向不稳”\">如果你现在的问题是“产品方向不稳”</h3>\n<ul><li>先看 Jesse Schell</li><li>再看 Tracy Fullerton</li><li>最后回到 <code>Game Design Concepts</code> Level 1 到 Level 5</li></ul>\n<h3 id=\"如果你现在的问题是“数值和系统耦合很乱”\">如果你现在的问题是“数值和系统耦合很乱”</h3>\n<ul><li>先看 Adams / Dormans</li><li>再看 Koster</li><li>再补 <code>Game Design Concepts</code> 的平衡与测试部分</li></ul>\n<h3 id=\"如果你现在的问题是“世界很大，但玩家动机不成立”\">如果你现在的问题是“世界很大，但玩家动机不成立”</h3>\n<ul><li>先看 Bartle</li><li>再看 Koster</li><li>再用 Schell 做一次体验目标清理</li></ul>\n<h3 id=\"如果你现在的问题是“战斗能跑，但手感弱”\">如果你现在的问题是“战斗能跑，但手感弱”</h3>\n<ul><li>先看 Steve Swink</li><li>再看 Scott Rogers</li><li>最后用 MIT 的规则写作材料检查信息可读性</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "设计大师地图",
+      "id": "设计大师地图"
+    },
+    {
+      "level": 2,
+      "text": "快速决策",
+      "id": "快速决策"
+    },
+    {
+      "level": 3,
+      "text": "如果你现在的问题是“产品方向不稳”",
+      "id": "如果你现在的问题是“产品方向不稳”"
+    },
+    {
+      "level": 3,
+      "text": "如果你现在的问题是“数值和系统耦合很乱”",
+      "id": "如果你现在的问题是“数值和系统耦合很乱”"
+    },
+    {
+      "level": 3,
+      "text": "如果你现在的问题是“世界很大，但玩家动机不成立”",
+      "id": "如果你现在的问题是“世界很大，但玩家动机不成立”"
+    },
+    {
+      "level": 3,
+      "text": "如果你现在的问题是“战斗能跑，但手感弱”",
+      "id": "如果你现在的问题是“战斗能跑，但手感弱”"
+    }
+  ],
+  "search_text": "设计大师地图 # 设计大师地图 这张表的用途是帮你在具体问题面前快速选人，而不是平均用力。 | 设计者 / 著作群 | 最强领域 | 他最擅长回答的问题 | 先看哪里 | | --- | --- | --- | --- | | Jesse Schell | 全局设计审查 | 这个游戏整体上为什么值得存在？体验目标是否统一？ | [notes/03-jesse-schell-and-playcentric-design.md](../notes/03-jesse-schell-and-playcentric-design.md) | | Tracy Fullerton | 原型、试玩、迭代流程 | 现在该做什么原型，怎么验证，怎么改？ | [notes/03-jesse-schell-and-playcentric-design.md](../notes/03-jesse-schell-and-playcentric-design.md) | | Ian Schreiber / Brenda Romero | 训练设计肌肉 | 我到底有没有在设计，还是只是在脑补？ | [notes/04-schreiber-romero-and-exercise-driven-design.md](../notes/04-schreiber-romero-and-exercise-driven-design.md) | | Salen / Zimmerman | 规则与系统语言 | 规则、系统、意义到底怎么说清？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) | | Raph Koster | 好玩的本质 | 玩家正在学习什么？哪里开始无聊？ | [notes/05-koster-crawford-bartle-and-systems-thinking.md](../notes/05-koster-crawford-bartle-and-systems-thinking.md) | | Chris Crawford | 交互本体 | 这真的是互动，还是只是包装过的线性内容？ | [notes/05-koster-crawford-bartle-and-systems-thinking.md](../notes/05-koster-crawford-bartle-and-systems-thinking.md) | | Richard Bartle | 虚拟世界与社交动机 | 长周期世界如何承载身份、社交、动机分化？ | [notes/05-koster-crawford-bartle-and-systems-thinking.md](../notes/05-koster-crawford-bartle-and-systems-thinking.md) | | Steve Swink | 手感与反馈 | 为什么角色“能动”，但玩家不觉得爽？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) | | Adams / Dormans | 机制与系统经济 | 数值、资源、节奏为什么越调越乱？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) | | Scott Rogers | 商业落地与设计表达 | 怎么把想法写成别人能懂、能做、能卖的文档？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) | | Brian Upton / Miguel Sicart / Stenros & Montola | 体验、意义、规则哲学 | 这个玩法为什么有意义，而不只是可运行？ | [notes/06-rules-feel-and-formalism.md](../notes/06-rules-feel-and-formalism.md) | ## 快速决策 ### 如果你现在的问题是“产品方向不稳” - 先看 Jesse Schell - 再看 Tracy Fullerton - 最后回到 `Game Design Concepts` Level 1 到 Level 5 ### 如果你现在的问题是“数值和系统耦合很乱” - 先看 Adams / Dormans - 再看 Koster - 再补 `Game Design Concepts` 的平衡与测试部分 ### 如果你现在的问题是“世界很大，但玩家动机不成立” - 先看 Bartle - 再看 Koster - 再用 Schell 做一次体验目标清理 ### 如果你现在的问题是“战斗能跑，但手感弱” - 先看 Steve Swink - 再看 Scott Rogers - 最后用 MIT 的规则写作材料检查信息可读性 systems-thinking the-art-of-game-design designing-virtual-worlds mda-formal-approach"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "checklist-level-mechanic-design",
+  "entity_type": "card",
+  "title": "关卡机制设计 Checklist",
+  "summary": "检查关卡是否真的在教、测、变奏和回收机制，而不是只换皮放敌人。",
+  "card_kind": "checklist",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "level-mechanic-design",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "playtesting"
+  ],
+  "related_work_ids": [
+    "mit-ocw-2014-game-design",
+    "game-design-workshop",
+    "game-design-concepts-course"
+  ],
+  "related_card_ids": [
+    "prompt-core-gameplay-systems",
+    "prompt-core-loop-design"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 关卡机制设计 Checklist\n\n## 适用场景\n\n用于关卡设计 review、原型到量产过渡时，或排查“关卡能过但没意思”的问题。\n\n## 检查项\n\n- 关卡明确知道自己在教什么、测什么、变奏什么。\n- 机制引入顺序不会一下子堆满。\n- 空间、敌人、资源和节奏共同服务同一设计目的。\n- 关卡挑战来自机制组合，而不只是堆数量和数值。\n- 失败反馈能帮助玩家理解机制，而不是只重复受罚。\n- 关卡结束后玩家对系统理解发生变化。\n- 重复关卡不会只靠换素材和换敌人维持新鲜感。\n\n## 通过标准\n\n- 关卡推进和系统学习互相支撑。\n- 玩家通过关卡后能掌握新判断或新技巧。\n- 关卡内容服务整体循环，而不是单独自嗨。\n\n## 常见失败信号\n\n- 关卡只是战斗和场景的容器。\n- 机制变化没有被空间与节奏放大。\n- 难度提升只靠更厚的血条和更多的怪。\n",
+  "body_html": "<h1 id=\"关卡机制设计-checklist\">关卡机制设计 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于关卡设计 review、原型到量产过渡时，或排查“关卡能过但没意思”的问题。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>关卡明确知道自己在教什么、测什么、变奏什么。</li><li>机制引入顺序不会一下子堆满。</li><li>空间、敌人、资源和节奏共同服务同一设计目的。</li><li>关卡挑战来自机制组合，而不只是堆数量和数值。</li><li>失败反馈能帮助玩家理解机制，而不是只重复受罚。</li><li>关卡结束后玩家对系统理解发生变化。</li><li>重复关卡不会只靠换素材和换敌人维持新鲜感。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>关卡推进和系统学习互相支撑。</li><li>玩家通过关卡后能掌握新判断或新技巧。</li><li>关卡内容服务整体循环，而不是单独自嗨。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>关卡只是战斗和场景的容器。</li><li>机制变化没有被空间与节奏放大。</li><li>难度提升只靠更厚的血条和更多的怪。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "关卡机制设计 Checklist",
+      "id": "关卡机制设计-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "关卡机制设计 Checklist 检查关卡是否真的在教、测、变奏和回收机制，而不是只换皮放敌人。 用于关卡设计 review、原型到量产过渡时，或排查“关卡能过但没意思”的问题。 关卡明确知道自己在教什么、测什么、变奏什么。 机制引入顺序不会一下子堆满。 空间、敌人、资源和节奏共同服务同一设计目的。 关卡挑战来自机制组合，而不只是堆数量和数值。 失败反馈能帮助玩家理解机制，而不是只重复受罚。 关卡结束后玩家对系统理解发生变化。 重复关卡不会只靠换素材和换敌人维持新鲜感。 关卡推进和系统学习互相支撑。 玩家通过关卡后能掌握新判断或新技巧。 关卡内容服务整体循环，而不是单独自嗨。 关卡只是战斗和场景的容器。 机制变化没有被空间与节奏放大。 难度提升只靠更厚的血条和更多的怪。 design-fundamentals playtesting"
+}

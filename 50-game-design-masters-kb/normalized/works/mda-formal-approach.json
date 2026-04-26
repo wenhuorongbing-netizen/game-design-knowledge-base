@@ -1,0 +1,118 @@
+{
+  "id": "mda-formal-approach",
+  "title": "MDA: A Formal Approach to Game Design and Game Research",
+  "authors": [
+    "Robin Hunicke",
+    "Marc LeBlanc",
+    "Robert Zubek"
+  ],
+  "year": 2004,
+  "kind": "paper",
+  "canonical_url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+  "publisher_or_source": "Northwestern University",
+  "language": "en",
+  "license": "Openly accessible PDF",
+  "access_mode": "downloaded_open",
+  "source_ids": [
+    "northwestern-users"
+  ],
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "theme_tags": [
+    "formalism",
+    "systems-thinking",
+    "design-fundamentals"
+  ],
+  "summary": "MDA 是最常用的机制-动态-美学分析框架，适合把抽象体验目标映射回系统结构。",
+  "key_points": [
+    "适合做体验目标对齐。",
+    "适合查找机制与体验之间的断层。",
+    "适合做设计复盘和评审语言。"
+  ],
+  "recommended_for": [
+    "主策",
+    "系统策划",
+    "玩法策划",
+    "项目审计"
+  ],
+  "official_links": [
+    "https://users.cs.northwestern.edu/~hunicke/MDA.pdf"
+  ],
+  "seed_bundle": "mda-paper",
+  "related_work_ids": [
+    "rules-of-play",
+    "game-mechanics-advanced-game-design",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "usage_relevance": "适合审查经营、贸易、战斗等系统是否真的支撑目标体验。",
+  "entity_type": "work",
+  "slug": "mda-formal-approach",
+  "phase_label": "核心玩法与系统设计",
+  "deliverable_label": "核心循环设计",
+  "theme_labels": [
+    "规则与形式化",
+    "系统思维",
+    "设计基础"
+  ],
+  "availability_label": "已下载开放全文",
+  "source_labels": [
+    "Northwestern Users"
+  ],
+  "official_link_entries": [
+    {
+      "label": "users.cs.northwestern.edu",
+      "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mda/mda-formal-approach.pdf",
+      "size_bytes": 279913,
+      "extension": "pdf",
+      "sha256": "f024c53fde7d44d340fc34a29edb96c1524d806dd56d74449f9e33ae28251773",
+      "resource_kind": "paper",
+      "user_supplied": false
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+      "source_id": "northwestern-users",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mda-formal-approach/01-users.cs.northwestern.edu-~hunicke-MDA.pdf.html",
+      "fetched_at": "2026-04-25T05:31:48.389Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+        "title": "",
+        "description": "",
+        "authors": [],
+        "isbn": "",
+        "publisher": "",
+        "date_published": "",
+        "json_ld_type": ""
+      }
+    }
+  ],
+  "private_extracts": [],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": false,
+  "private_source_count": 0,
+  "private_extract_count": 0,
+  "metadata_summary": "",
+  "search_text": "MDA: A Formal Approach to Game Design and Game Research Robin Hunicke Marc LeBlanc Robert Zubek MDA 是最常用的机制-动态-美学分析框架，适合把抽象体验目标映射回系统结构。 适合做体验目标对齐。 适合查找机制与体验之间的断层。 适合做设计复盘和评审语言。 适合审查经营、贸易、战斗等系统是否真的支撑目标体验。 主策 系统策划 玩法策划 项目审计 核心玩法与系统设计 核心循环设计 规则与形式化 系统思维 设计基础 Northwestern Users",
+  "content_markdown": "# MDA: A Formal Approach to Game Design and Game Research\n\n## 基本信息\n\n- 作者：Robin Hunicke / Marc LeBlanc / Robert Zubek\n- 年份：2004\n- 类型：paper\n- 来源：Northwestern University\n\n## 摘要\n\nMDA 是最常用的机制-动态-美学分析框架，适合把抽象体验目标映射回系统结构。\n\n## 核心要点\n\n- 适合做体验目标对齐。\n- 适合查找机制与体验之间的断层。\n- 适合做设计复盘和评审语言。\n\n## 适用场景\n\n适合审查经营、贸易、战斗等系统是否真的支撑目标体验。\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：核心循环设计\n- 主题标签：规则与形式化 / 系统思维 / 设计基础\n- 可用性：已下载开放全文\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/50-game-design-masters-kb/raw/open-web/mda/mda-formal-approach.pdf`\n\n## 官方链接\n\n- <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/mda-formal-approach/01-users.cs.northwestern.edu-~hunicke-MDA.pdf.html`\n\n## 相关条目\n\n- Rules of Play\n- Game Mechanics: Advanced Game Design\n- Advanced Game Design: A Systems Approach\n",
+  "content_html": "<h1 id=\"mda-a-formal-approach-to-game-design-and-game-research\">MDA: A Formal Approach to Game Design and Game Research</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Robin Hunicke / Marc LeBlanc / Robert Zubek</li><li>年份：2004</li><li>类型：paper</li><li>来源：Northwestern University</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>MDA 是最常用的机制-动态-美学分析框架，适合把抽象体验目标映射回系统结构。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>适合做体验目标对齐。</li><li>适合查找机制与体验之间的断层。</li><li>适合做设计复盘和评审语言。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>适合审查经营、贸易、战斗等系统是否真的支撑目标体验。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：核心循环设计</li><li>主题标签：规则与形式化 / 系统思维 / 设计基础</li><li>可用性：已下载开放全文</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mda/mda-formal-approach.pdf</code></li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://users.cs.northwestern.edu/~hunicke/MDA.pdf\" target=\"_blank\" rel=\"noreferrer\">https://users.cs.northwestern.edu/~hunicke/MDA.pdf</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/mda-formal-approach/01-users.cs.northwestern.edu-~hunicke-MDA.pdf.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Rules of Play</li><li>Game Mechanics: Advanced Game Design</li><li>Advanced Game Design: A Systems Approach</li></ul>",
+  "knowledge_domains": [],
+  "purposes": [],
+  "reading_modes": [],
+  "value_types": [],
+  "knowledge_lifecycle": [],
+  "primary_private_extract": null,
+  "primary_private_artifact": null,
+  "primary_toc_preview": [],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "downloaded_open"
+}

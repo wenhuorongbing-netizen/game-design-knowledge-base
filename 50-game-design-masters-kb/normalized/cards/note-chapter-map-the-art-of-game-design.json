@@ -1,0 +1,62 @@
+{
+  "id": "note-chapter-map-the-art-of-game-design",
+  "entity_type": "card",
+  "title": "The Art of Game Design: A Book of Lenses：章节地图",
+  "summary": "CONTENTS / table of lenses / Acknowledgments / HELLO / Chapter 1: In the Beginning, There Is the Designer / Chapter 2: The Designer Creates an Experience / Cha…",
+  "card_kind": "chapter_map_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "resource_kind": "note",
+  "source_work_id": "the-art-of-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "systems-thinking",
+    "player-motivation"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "a-theory-of-fun-for-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-the-art-of-game-design",
+    "note-book-positioning-the-art-of-game-design"
+  ],
+  "official_links": [
+    "https://schellgames.com/art-of-game-design",
+    "https://www.routledge.com/link/link/p/book/9781138632059"
+  ],
+  "local_links": [
+    {
+      "label": "the-art-of-game-design-19c91c891667.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json"
+    }
+  ],
+  "body_markdown": "# The Art of Game Design: A Book of Lenses：章节地图\n\n## 顶层结构\n\n1. CONTENTS\n2. table of lenses\n3. Acknowledgments\n4. HELLO\n5. Chapter 1: In the Beginning, There Is the Designer\n6. Chapter 2: The Designer Creates an Experience\n7. Chapter 3: The Experience Takes Place in a Venue\n8. Chapter 4: The Experience Rises Out of a Game\n9. Chapter 5: The Game Consists of Elements\n10. Chapter 6: The Elements Support a Theme\n11. Chapter 7: The Game Begins with an Idea\n12. Chapter 8: The Game Improves through Iteration\n13. Chapter 9: The Game Is Made for a Player\n14. Chapter 10: The Experience Is in the Player’s Mind\n\n## 如何使用这份结构\n\n- 把它当作 立项与方向 / 游戏方向收敛 的阅读地图，而不是逐字摘抄模板。\n- 先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。\n- 如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。\n\n## 解析依据\n\n- 工件：`knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json`\n- 解析标题：The Art of Game Design: A Book of Lenses, Second Edition\n",
+  "body_html": "<h1 id=\"the-art-of-game-design-a-book-of-lenses：章节地图\">The Art of Game Design: A Book of Lenses：章节地图</h1>\n<h2 id=\"顶层结构\">顶层结构</h2>\n<ol><li>CONTENTS</li><li>table of lenses</li><li>Acknowledgments</li><li>HELLO</li><li>Chapter 1: In the Beginning, There Is the Designer</li><li>Chapter 2: The Designer Creates an Experience</li><li>Chapter 3: The Experience Takes Place in a Venue</li><li>Chapter 4: The Experience Rises Out of a Game</li><li>Chapter 5: The Game Consists of Elements</li><li>Chapter 6: The Elements Support a Theme</li><li>Chapter 7: The Game Begins with an Idea</li><li>Chapter 8: The Game Improves through Iteration</li><li>Chapter 9: The Game Is Made for a Player</li><li>Chapter 10: The Experience Is in the Player’s Mind</li></ol>\n<h2 id=\"如何使用这份结构\">如何使用这份结构</h2>\n<ul><li>把它当作 立项与方向 / 游戏方向收敛 的阅读地图，而不是逐字摘抄模板。</li><li>先看与你当前问题最相关的章节，再回到 work 条目里的知识定位决定是否需要通读。</li><li>如果你在做 AI 引用，优先把相关章节标题和你的项目问题一起交给模型，而不是笼统地说“参考整本书”。</li></ul>\n<h2 id=\"解析依据\">解析依据</h2>\n<ul><li>工件：<code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/the-art-of-game-design-19c91c891667.json</code></li><li>解析标题：The Art of Game Design: A Book of Lenses, Second Edition</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Art of Game Design: A Book of Lenses：章节地图",
+      "id": "the-art-of-game-design-a-book-of-lenses：章节地图"
+    },
+    {
+      "level": 2,
+      "text": "顶层结构",
+      "id": "顶层结构"
+    },
+    {
+      "level": 2,
+      "text": "如何使用这份结构",
+      "id": "如何使用这份结构"
+    },
+    {
+      "level": 2,
+      "text": "解析依据",
+      "id": "解析依据"
+    }
+  ],
+  "search_text": "The Art of Game Design: A Book of Lenses CONTENTS table of lenses Acknowledgments HELLO Chapter 1: In the Beginning, There Is the Designer Chapter 2: The Designer Creates an Experience Chapter 3: The Experience Takes Place in a Venue Chapter 4: The Experience Rises Out of a Game Chapter 5: The Game Consists of Elements Chapter 6: The Elements Support a Theme Chapter 7: The Game Begins with an Idea Chapter 8: The Game Improves through Iteration Chapter 9: The Game Is Made for a Player Chapter 10: The Experience Is in the Player’s Mind 立项与方向 游戏方向收敛"
+}

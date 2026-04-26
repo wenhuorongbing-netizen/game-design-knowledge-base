@@ -1,0 +1,48 @@
+{
+  "id": "release-pack",
+  "title": "Release Pack",
+  "summary": "Cross-phase bundle for preparing a playable release candidate, external messaging, and post-launch planning.",
+  "phase_group": "",
+  "phase_label": "Cross-phase",
+  "phase_groups": [
+    "operations-release",
+    "testing-acceptance-audit",
+    "initiation-direction"
+  ],
+  "phase_labels": [
+    "运营与发布",
+    "测试、验收与审计",
+    "立项与方向"
+  ],
+  "type": "use_case_pack",
+  "kind_label": "Use Case Pack",
+  "card_ids": [
+    "prompt-store-page-copy",
+    "checklist-pre-release-check",
+    "checklist-build-acceptance",
+    "prompt-retention-optimization",
+    "checklist-update-roadmap",
+    "prompt-platform-fit-evaluation"
+  ],
+  "count": 6,
+  "prompt_count": 3,
+  "checklist_count": 3,
+  "other_count": 0,
+  "when_to_use": "Use this when a project is moving from internal development into public testing, store presence, or release preparation.",
+  "required_inputs": [
+    "Target release window and platform set",
+    "Current build quality and known defects",
+    "Store-facing fantasy, hook, and audience",
+    "Retention goals and live-ops expectations"
+  ],
+  "starter_steps": [
+    "Validate the release target and platform fit first.",
+    "Run pre-release and build-acceptance checks before marketing polish.",
+    "Write store copy and retention framing against the real build.",
+    "Close with a concrete post-launch update roadmap."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/release-pack.md",
+  "generated_at": "2026-04-26T00:39:23.269Z",
+  "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/release-pack-ready-to-run.md",
+  "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/release-pack-starter-prompt.md"
+}

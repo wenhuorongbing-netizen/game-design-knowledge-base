@@ -1,0 +1,730 @@
+{
+  "schema_version": "bookos.works.v2",
+  "updated_date": "2026-04-26",
+  "scope": "Prompt 2 GameDesignWork registry",
+  "domain_vocab": [
+    "play_theory",
+    "player_experience",
+    "player_psychology",
+    "game_feel",
+    "interactivity",
+    "rules_and_mechanics",
+    "formal_game_design",
+    "systems_design",
+    "economy_and_balance",
+    "puzzle_design",
+    "narrative_design",
+    "worldbuilding",
+    "character_design",
+    "level_design",
+    "ui_ux_feedback",
+    "prototyping",
+    "playtesting",
+    "production_process",
+    "multiplayer_community",
+    "ethics_responsibility",
+    "business_pitch_release",
+    "education_serious_games",
+    "design_exercises",
+    "design_lenses"
+  ],
+  "phase_group_vocab": [
+    "立项与方向",
+    "核心玩法与系统设计",
+    "数值与经济设计",
+    "内容与叙事",
+    "美术 / UI / 体验表达",
+    "开发实现",
+    "测试 / 验收 / 审计",
+    "运营与发布"
+  ],
+  "works": [
+    {
+      "work_id": "game-feel-a-game-designers-guide-to-virtual-sensation",
+      "title": "Game Feel",
+      "subtitle": "A Game Designer's Guide to Virtual Sensation",
+      "author_names": [
+        "Steve Swink"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "game_feel",
+      "secondary_domains": [
+        "player_experience",
+        "interactivity",
+        "ui_ux_feedback",
+        "prototyping"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "feel and response audit",
+        "control tuning vocabulary",
+        "feedback-loop design note",
+        "prototype evaluation checklist"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-file-game-feel-epub-zlib",
+        "src-file-game-feel-pdf-zlib"
+      ],
+      "legal_status_summary": "Two uploaded variants exist, both high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "Domain and phase mapping are navigation metadata based on title/subtitle and user request, not body-derived claims."
+    },
+    {
+      "work_id": "play-matters",
+      "title": "Play Matters",
+      "subtitle": null,
+      "author_names": [
+        "Miguel Sicart"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "play_theory",
+      "secondary_domains": [
+        "player_experience",
+        "ethics_responsibility",
+        "interactivity"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计"
+      ],
+      "likely_use_cases": [
+        "project intent framing",
+        "play value discussion",
+        "design philosophy seminar"
+      ],
+      "canonical_status": "supporting",
+      "source_documents": [
+        "src-file-play-matters-pdf-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "No body claims registered."
+    },
+    {
+      "work_id": "the-aesthetic-of-play",
+      "title": "The Aesthetic of Play",
+      "subtitle": null,
+      "author_names": [
+        "Brian Upton"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "play_theory",
+      "secondary_domains": [
+        "player_experience",
+        "interactivity",
+        "formal_game_design"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "experience framing",
+        "design critique vocabulary",
+        "playtest observation language"
+      ],
+      "canonical_status": "supporting",
+      "source_documents": [
+        "src-file-aesthetic-of-play-pdf-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "No body claims registered."
+    },
+    {
+      "work_id": "the-art-of-game-design-a-book-of-lenses",
+      "title": "The Art of Game Design",
+      "subtitle": "A Book of Lenses",
+      "author_names": [
+        "Jesse Schell"
+      ],
+      "work_type": "book",
+      "known_publication_year": 2014,
+      "main_domain": "design_lenses",
+      "secondary_domains": [
+        "formal_game_design",
+        "player_experience",
+        "prototyping",
+        "playtesting",
+        "production_process"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "design lens bank",
+        "feature review prompts",
+        "project direction critique",
+        "playtest debrief questions"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-file-art-of-game-design-annas"
+      ],
+      "legal_status_summary": "Uploaded file has Anna’s Archive marker and is quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "Filename includes second edition, year, publisher, and ISBN13; verify official metadata before promotion."
+    },
+    {
+      "work_id": "the-game-design-reader-a-rules-of-play-anthology",
+      "title": "The Game Design Reader",
+      "subtitle": "A Rules of Play Anthology",
+      "author_names": [
+        "Katie Salen Tekinbaş",
+        "Eric Zimmerman"
+      ],
+      "work_type": "anthology",
+      "known_publication_year": null,
+      "main_domain": "formal_game_design",
+      "secondary_domains": [
+        "play_theory",
+        "rules_and_mechanics",
+        "player_experience",
+        "education_serious_games"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计"
+      ],
+      "likely_use_cases": [
+        "graduate-level reading map",
+        "historical framework comparison",
+        "theory seminar source list"
+      ],
+      "canonical_status": "advanced",
+      "source_documents": [
+        "src-file-game-design-reader-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "Anthology contents were not inspected."
+    },
+    {
+      "work_id": "a-theory-of-fun-for-game-design",
+      "title": "A Theory of Fun for Game Design",
+      "subtitle": null,
+      "author_names": [
+        "Raph Koster"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "player_psychology",
+      "secondary_domains": [
+        "play_theory",
+        "player_experience",
+        "education_serious_games"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计"
+      ],
+      "likely_use_cases": [
+        "fun definition discussion",
+        "player learning framing",
+        "project target-experience critique"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-file-theory-of-fun-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "Edition is visible in filename; no body claims registered."
+    },
+    {
+      "work_id": "advanced-game-design-a-systems-approach",
+      "title": "Advanced Game Design",
+      "subtitle": "A Systems Approach",
+      "author_names": [
+        "Michael Sellers"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "systems_design",
+      "secondary_domains": [
+        "rules_and_mechanics",
+        "economy_and_balance",
+        "formal_game_design"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "system map review",
+        "emergence risk review",
+        "mechanic dependency modeling"
+      ],
+      "canonical_status": "advanced",
+      "source_documents": [
+        "src-file-advanced-game-design-systems-approach-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "No body claims registered."
+    },
+    {
+      "work_id": "challenges-for-game-designers",
+      "title": "Challenges for Game Designers",
+      "subtitle": null,
+      "author_names": [
+        "Brenda Brathwaite",
+        "Ian Schreiber"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "design_exercises",
+      "secondary_domains": [
+        "prototyping",
+        "playtesting",
+        "rules_and_mechanics"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "exercise bank",
+        "prototype assignment",
+        "design workshop prompt"
+      ],
+      "canonical_status": "supporting",
+      "source_documents": [
+        "src-file-challenges-for-game-designers-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "No body claims registered."
+    },
+    {
+      "work_id": "game-design-workshop-a-playcentric-approach",
+      "title": "Game Design Workshop",
+      "subtitle": "A Playcentric Approach to Creating Innovative Games",
+      "author_names": [
+        "Tracy Fullerton"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "prototyping",
+      "secondary_domains": [
+        "playtesting",
+        "production_process",
+        "player_experience",
+        "design_exercises"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "开发实现",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "playcentric process workflow",
+        "prototype cycle planning",
+        "playtest plan template",
+        "classroom or studio workshop"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-file-game-design-workshop-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "5th edition visible in filename; no body claims registered."
+    },
+    {
+      "work_id": "game-mechanics-advanced-game-design",
+      "title": "Game Mechanics",
+      "subtitle": "Advanced Game Design",
+      "author_names": [
+        "Ernest Adams",
+        "Joris Dormans"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "rules_and_mechanics",
+      "secondary_domains": [
+        "systems_design",
+        "economy_and_balance",
+        "formal_game_design"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "mechanics modeling",
+        "resource loop mapping",
+        "balance review",
+        "system simulation planning"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-file-game-mechanics-epub-zlib",
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only; author names are from user Prompt 2 reference list pending official metadata verification.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "No body claims registered."
+    },
+    {
+      "work_id": "level-up-the-guide-to-great-video-game-design",
+      "title": "Level Up!",
+      "subtitle": "The Guide to Great Video Game Design",
+      "author_names": [
+        "Scott Rogers"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "production_process",
+      "secondary_domains": [
+        "level_design",
+        "ui_ux_feedback",
+        "narrative_design",
+        "player_experience"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "开发实现"
+      ],
+      "likely_use_cases": [
+        "feature design checklist",
+        "level and player flow review",
+        "implementation-facing design spec"
+      ],
+      "canonical_status": "supporting",
+      "source_documents": [
+        "src-file-level-up-epub-zlib"
+      ],
+      "legal_status_summary": "Uploaded file is high-risk mirror-marked and quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "No body claims registered."
+    },
+    {
+      "work_id": "better-game-characters-by-design",
+      "title": "Better Game Characters by Design",
+      "subtitle": null,
+      "author_names": [
+        "Katherine Isbister"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "character_design",
+      "secondary_domains": [
+        "player_psychology",
+        "narrative_design",
+        "player_experience",
+        "ui_ux_feedback"
+      ],
+      "phase_groups": [
+        "内容与叙事",
+        "美术 / UI / 体验表达",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "character design review",
+        "player perception audit",
+        "narrative and avatar critique"
+      ],
+      "canonical_status": "supporting",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 only; no uploaded source file registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Add official metadata or legal source before dossier creation."
+    },
+    {
+      "work_id": "rules-of-play",
+      "title": "Rules of Play",
+      "subtitle": null,
+      "author_names": [
+        "Katie Salen",
+        "Eric Zimmerman"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "formal_game_design",
+      "secondary_domains": [
+        "rules_and_mechanics",
+        "play_theory",
+        "interactivity",
+        "systems_design"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "formal design vocabulary",
+        "rules and play discussion",
+        "framework comparison"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 and by the uploaded anthology title, but no direct legal source is registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Do not infer content from the anthology file."
+    },
+    {
+      "work_id": "chris-crawford-on-game-design",
+      "title": "Chris Crawford on Game Design",
+      "subtitle": null,
+      "author_names": [
+        "Chris Crawford"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "formal_game_design",
+      "secondary_domains": [
+        "interactivity",
+        "narrative_design",
+        "production_process"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计"
+      ],
+      "likely_use_cases": [
+        "historical design perspective",
+        "interactivity definition discussion",
+        "design philosophy comparison"
+      ],
+      "canonical_status": "historical",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 only; no uploaded source file registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Add official metadata or legal source before dossier creation."
+    },
+    {
+      "work_id": "the-art-of-computer-game-design",
+      "title": "The Art of Computer Game Design",
+      "subtitle": null,
+      "author_names": [
+        "Chris Crawford"
+      ],
+      "work_type": "book",
+      "known_publication_year": null,
+      "main_domain": "formal_game_design",
+      "secondary_domains": [
+        "play_theory",
+        "interactivity",
+        "production_process"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计"
+      ],
+      "likely_use_cases": [
+        "historical foundation",
+        "classic design vocabulary",
+        "design philosophy comparison"
+      ],
+      "canonical_status": "historical",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 only; no uploaded source file registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Add official metadata or legal source before dossier creation."
+    },
+    {
+      "work_id": "mda-mechanics-dynamics-aesthetics",
+      "title": "MDA",
+      "subtitle": "Mechanics-Dynamics-Aesthetics",
+      "author_names": [
+        "Robin Hunicke",
+        "Marc LeBlanc",
+        "Robert Zubek"
+      ],
+      "work_type": "framework",
+      "known_publication_year": null,
+      "main_domain": "formal_game_design",
+      "secondary_domains": [
+        "rules_and_mechanics",
+        "player_experience",
+        "systems_design",
+        "playtesting"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "mechanics-to-experience mapping",
+        "design review framework",
+        "playtest interpretation"
+      ],
+      "canonical_status": "core",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 only; no primary paper or official source registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Add open/official paper metadata before framework cards are created."
+    },
+    {
+      "work_id": "formal-abstract-design-tools",
+      "title": "Formal Abstract Design Tools",
+      "subtitle": null,
+      "author_names": [
+        "Doug Church"
+      ],
+      "work_type": "framework",
+      "known_publication_year": null,
+      "main_domain": "formal_game_design",
+      "secondary_domains": [
+        "rules_and_mechanics",
+        "interactivity",
+        "playtesting"
+      ],
+      "phase_groups": [
+        "核心玩法与系统设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "design vocabulary definition",
+        "mechanic affordance review",
+        "playtest diagnosis"
+      ],
+      "canonical_status": "advanced",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 only; no primary article or official source registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Add open/official article metadata before framework cards are created."
+    },
+    {
+      "work_id": "bartle-player-types",
+      "title": "Bartle player types",
+      "subtitle": null,
+      "author_names": [
+        "Richard Bartle"
+      ],
+      "work_type": "framework",
+      "known_publication_year": null,
+      "main_domain": "multiplayer_community",
+      "secondary_domains": [
+        "player_psychology",
+        "player_experience",
+        "business_pitch_release"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "运营与发布"
+      ],
+      "likely_use_cases": [
+        "player segmentation",
+        "community feature review",
+        "multiplayer retention discussion"
+      ],
+      "canonical_status": "historical",
+      "source_documents": [
+        "src-user-prompt-2-known-work-list"
+      ],
+      "legal_status_summary": "Referenced by Prompt 2 only; no primary paper or official source registered.",
+      "source_basis": "user_manual_note",
+      "confidence": "weak",
+      "ingestion_status": "allowed_metadata_only",
+      "notes": "Add primary-source metadata before framework cards are created."
+    },
+    {
+      "work_id": "characteristics-of-games",
+      "title": "Characteristics of Games",
+      "subtitle": null,
+      "author_names": [
+        "George Skaff Elias",
+        "Richard Garfield",
+        "K. Robert"
+      ],
+      "work_type": "book",
+      "known_publication_year": 2012,
+      "main_domain": "systems_design",
+      "secondary_domains": [
+        "rules_and_mechanics",
+        "economy_and_balance",
+        "player_experience",
+        "formal_game_design"
+      ],
+      "phase_groups": [
+        "立项与方向",
+        "核心玩法与系统设计",
+        "数值与经济设计",
+        "测试 / 验收 / 审计"
+      ],
+      "likely_use_cases": [
+        "game property analysis",
+        "mechanic comparison",
+        "system and balance discussion"
+      ],
+      "canonical_status": "supporting",
+      "source_documents": [
+        "src-file-characteristics-of-games-ann"
+      ],
+      "legal_status_summary": "Uploaded file has suspicious mirror marker and is quarantined metadata-only.",
+      "source_basis": "metadata_only",
+      "confidence": "weak",
+      "ingestion_status": "metadata_only_quarantined",
+      "notes": "Filename includes MIT Press, year, and ISBN13. Third author is incomplete in filename and needs official verification."
+    }
+  ]
+}

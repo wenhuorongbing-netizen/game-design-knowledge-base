@@ -1,0 +1,161 @@
+{
+  "format": "pdf",
+  "metadata": {
+    "title": "Theory of Fun for Game Design, 2E",
+    "authors": [
+      "Raph Koster"
+    ],
+    "subject": "www.it-ebooks.info",
+    "producer": "www.it-ebooks.info"
+  },
+  "page_count": 299,
+  "toc": [
+    {
+      "label": "Foreword (from the First Edition)",
+      "depth": 0,
+      "page": 18
+    },
+    {
+      "label": "Prologue: My Grandfather",
+      "depth": 0,
+      "page": 20
+    },
+    {
+      "label": "Chapter One: Why Write This Book?",
+      "depth": 0,
+      "page": 22
+    },
+    {
+      "label": "Chapter Two: How the Brain Works",
+      "depth": 0,
+      "page": 32
+    },
+    {
+      "label": "Chapter Three: What Games Are",
+      "depth": 0,
+      "page": 54
+    },
+    {
+      "label": "Chapter Four: What Games Teach Us",
+      "depth": 0,
+      "page": 68
+    },
+    {
+      "label": "Chapter Five: What Games Aren't",
+      "depth": 0,
+      "page": 100
+    },
+    {
+      "label": "Chapter Six: Different Fun for Different Folks",
+      "depth": 0,
+      "page": 122
+    },
+    {
+      "label": "Chapter Seven: The Problem with Learning",
+      "depth": 0,
+      "page": 132
+    },
+    {
+      "label": "Chapter Eight: The Problem with People",
+      "depth": 0,
+      "page": 150
+    },
+    {
+      "label": "Chapter Nine: Games in Context",
+      "depth": 0,
+      "page": 162
+    },
+    {
+      "label": "Chapter Ten: The Ethics of Entertainment",
+      "depth": 0,
+      "page": 184
+    },
+    {
+      "label": "Chapter Eleven: Where Games Should Go",
+      "depth": 0,
+      "page": 196
+    },
+    {
+      "label": "Chapter Twelve: Taking Their Rightful Place",
+      "depth": 0,
+      "page": 208
+    },
+    {
+      "label": "Appendix A: Epilogue: Fun Matters, Grandpa",
+      "depth": 0,
+      "page": 224
+    },
+    {
+      "label": "Appendix B: Afterword: Ten Years Later",
+      "depth": 0,
+      "page": 248
+    },
+    {
+      "label": "Appendix C: Notes",
+      "depth": 0,
+      "page": 250
+    }
+  ],
+  "sample_sections": [
+    {
+      "label": "Page 1",
+      "location": {
+        "page": 1
+      },
+      "text": "www.it-ebooks.info"
+    },
+    {
+      "label": "Page 2",
+      "location": {
+        "page": 2
+      },
+      "text": "www.it-ebooks.info"
+    },
+    {
+      "label": "Page 3",
+      "location": {
+        "page": 3
+      },
+      "text": "A THEORY OF FUN for Game Design By Raph Koster www.it-ebooks.info"
+    },
+    {
+      "label": "Page 4",
+      "location": {
+        "page": 4
+      },
+      "text": "A Theory of Fun for Game Design Copyright © 2014 Raph Koster. All rights reserved. Printed in the United States of America. Published by O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472. O’Reilly books may be purchased for educational, business, or sales promotional use. Online editions are also available for most titles ( http://my.safaribooksonline.com). For more information, contact our corporate/ institutional sales department: 800-998-9938 or corporate@oreilly.com. Editor: Rachel Roumeliotis Production Editor: Christopher Hearse Proofreader: Jilly Gagnon Cover Designer: Kris Sotelo Interior Designer: Ron Bilodeau Illustrator and Cover Artist : Raph Koster November 2004: First Edition October 2013: S econd Edition Revision History for the Second Edition : 2013-10-30: F irst Release See http://oreilly.com/catalog/errata.csp?isbn=0636920029236 for release details. The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and O’Reilly Media, Inc., was aware of a trademark claim, the designations have been printed in caps or initial caps. While every precaution has been taken in the preparation of this book, the publisher and author assume no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein. ISBN: 978-1-449-36321-5 [TI] www.it-ebooks.info"
+    },
+    {
+      "label": "Page 5",
+      "location": {
+        "page": 5
+      },
+      "text": "“The best game design book I have ever read.” —David Jaffe, creative director of God of War “Does for games what Understanding Comics did for sequential art. Non-gamers: Buy this for the gamer in your life. Gamers: Buy this for the non- gamer in your life. You’ll never look at fun the same way again.” — Cory Doctorow, author of Little Brother and Pirate Cinema; c o-editor of Boing Boing One of “50 Books For Everyone In the Game Industry” — EDGE One of the “Five Books You Should Read About Game Design” — 1up.com “If you’re interested in game design, get it and read it.” — Steve Jackson, designer of Munchkin and GURPS ***** — Midwest Book Review “...It’s a book I sincerely believe everyone should have read at least once in their lifetime. It’s that important… what Campbell and Vogler did to storytelling, Koster has done to play...This book is history in the making. It will be referred to in seminal books whose authors have not yet even been born.” — GameDev.net “ An excellent, even foundational, read for anyone interested in creating experiences that challenge and engage minds.” — Learning Solutions Magazine www.it-ebooks.info"
+    },
+    {
+      "label": "Page 6",
+      "location": {
+        "page": 6
+      },
+      "text": "“ An absolute classic on the theory of playing games.” — Tom Chatfield, author of Fun, Inc. “Koster successfully bridges the gap between game design practice and academic theory... For anyone interested in the relationship between games and human experience, this book is a must-read.” — Australian Journal of Emerging Technologies and Society “Koster outlines a convincing manifesto for why people do or don’t have a good time in games in A Theory of Fun. He also makes us feel very very not smart.” — Game Informer Magazine “You cannot possibly read it and not feel at least twice like your brain has been hit by lightning.” — Jessica Mulligan, online gaming pioneer “ Anyone that wants to know what REALLY makes a game fun needs to read this book.” — Chris Melissinos, curator of the Smithsonian’s Art of Videogames exhibit “The arcane mysteries of game design go poof with this delightful approach to the fundamentals of fun.” — Computer Games Magazine “Gaming is much more than having fun—it is core to being human. Understanding games, and fun, helps us understand ourselves. Raph Koster is one of the good guys, always working to make more fun in our world. With this book he’s just helped all of us, his readers and students, do exactly that.” — Mike McShaffry, author of Game Coding Complete “Koster has written one of the best books for our industry. I hope everyone adds it to their bookshelf.” — Scott Miller, CEO of 3DRealms www.it-ebooks.info"
+    },
+    {
+      "label": "Page 7",
+      "location": {
+        "page": 7
+      },
+      "text": "**** — Training Media Review “A Theory of Fun elucidates some basic truths that apply not just to games but to all entertainment. Even better, it does so in a style that is clear, insightful, and... fun! I expect this book to become an instant classic, fascinating to anyone who has ever made a game--or played one.” — Noah Falstein, Chief Game Designer at Google “ An important and valuable book.” — Ernest Adams, game designer “Please do yourself a favor and pick up a copy.” —B renda Romero, designer of Train “ A book about fun which is actually fun to read. It reminds me of Scott McCloud’s Understanding Comics—a work which makes sophisticated arguments by pulling them down to basic principles and presenting them in an engaging fashion. Raph Koster offers a road map for how to make games an even more expressive medium.” — Dr. Henry Jenkins, USC “Everyone from professional game developers to those who want to understand why we play games will enjoy A Theory of Fun.” — Cory Ondrejka, Facebook “My favorite work on this subject to date and therefore I highly recommend it.” — David Perry, of Shiny Entertainment, Gaikai, and Sony “Raph Koster asks the important question about games: why are they fun, and what does that say about games and about us? [It is] a tour of the nature of consciousness, how games do and do not intersect with reality, the difference between games and stories, and the seven different kinds of fun. It’s a tour you’ll be glad to take with him.” — Clay Shirky, NYU www.it-ebooks.info"
+    },
+    {
+      "label": "Page 8",
+      "location": {
+        "page": 8
+      },
+      "text": "“Great sophistication yet without a trace of pretention or even an excess of big words.” — Michael Feldstein, SUNY Learning Network “A Theory of Fun is a must read for anyone who wants to understand why games are so pervasive today, as it sheds new light into why fun matters in this world, and how ‘play’ makes us truly human.” — Dan Arey, designer on the Jak and Daxter series “Tackles the questions of fun and engagement in a fun and engaging way.” — Learning Circuits, American Society for Training and Development “Everyone involved in game design—students, teachers, and professionals— should read this.” — Ian Schreiber, co-author of Challenges for Game Designers “ A delightful read. This book fills the ‘game apologist’ niche in my bookshelf.” — Dan Cook, game designer of Triple Town “ A very fun book :D executed in a witty entertaining style.” — Michael Samyn of Tale of Tales “Koster’s A Theory of Fun is well-written, timely, passionate and scientifically informed, a fine piece of work that’s bound to get lots of well-deserved attention.” — Dr. Edward Castronova, Indiana University and author of Exodus to the Virtual World “If there is a game designer lurking anywhere in your soul, this book may not be the Bible of game design, but I would certainly include it in the Apocrypha (the missing books of the Bible)… [E]ssential reading. I can’t imagine anyone in the game industry who would not profit from enjoying this delightful book.” — Alan Emrich, Art Institute of California www.it-ebooks.info"
+    }
+  ],
+  "preview_text": "www.it-ebooks.info\n\nwww.it-ebooks.info\n\nA THEORY OF FUN for Game Design By Raph Koster www.it-ebooks.info",
+  "extraction_status": "ok",
+  "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "file_name": "Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+}

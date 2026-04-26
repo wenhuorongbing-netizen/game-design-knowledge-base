@@ -1,0 +1,61 @@
+{
+  "id": "prompt-hud-ui-structure-design",
+  "entity_type": "card",
+  "title": "HUD / UI 结构设计 Prompt 模板",
+  "summary": "把 UI 面板、常驻信息和上下文反馈压成一套可读的结构方案。",
+  "card_kind": "prompt_template",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "hud-ui-structure-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up"
+  ],
+  "related_card_ids": [
+    "prompt-art-ui-experience",
+    "checklist-art-ui-experience"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# HUD / UI 结构设计 Prompt 模板\n\n## 适用场景\n\n当画面上信息越来越多，团队都觉得“应该再整理一下”，但没人能说清结构应该怎样重排时使用。\n\n## 使用前提供\n\n- 当前 HUD 截图或元素清单\n- 玩家最常做的任务\n- 常驻信息、上下文信息和警报信息\n- 目标设备与输入方式\n- 当前阅读和操作痛点\n\n## 预期输出\n\n1. 信息层级\n2. 区域分配\n3. 常驻/上下文元素拆分\n4. 交互优先级\n5. 危险拥挤点\n6. 重排建议\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏 HUD / UI 架构顾问。\n请基于以下输入，把当前界面重组为一套更可读、更符合玩家任务流的 HUD 方案。\n\n输入：\n- 当前 HUD / UI：{{current_hud}}\n- 玩家常见任务：{{common_player_tasks}}\n- 常驻信息：{{persistent_info}}\n- 上下文信息：{{contextual_info}}\n- 警报/高优先级信息：{{alerts}}\n- 设备与输入：{{devices_and_input}}\n- 当前痛点：{{ui_pain_points}}\n\n请输出：\n1. 信息层级：什么必须常驻，什么只在上下文出现。\n2. 屏幕区域：左上/右上/底部/中心分别放什么。\n3. 任务导向结构：玩家在常见任务里最先看哪里。\n4. 拥挤与冲突：哪些元素在抢同一块注意力。\n5. 重排建议：删什么、合并什么、后置什么。\n6. 简版 wireframe 描述：按区域描述最终布局。\n\n要求：\n- 以玩家任务优先，而不是按功能部门分区。\n- 区分常驻信息和“只有设计师想看到”的信息。\n- 不要增加更多面板来解决拥挤。\n```\n\n## 二次追问\n\n- 把最终布局再细化成移动端版本。\n- 单独评估战斗态 HUD。\n",
+  "body_html": "<h1 id=\"hud-ui-结构设计-prompt-模板\">HUD / UI 结构设计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当画面上信息越来越多，团队都觉得“应该再整理一下”，但没人能说清结构应该怎样重排时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>当前 HUD 截图或元素清单</li><li>玩家最常做的任务</li><li>常驻信息、上下文信息和警报信息</li><li>目标设备与输入方式</li><li>当前阅读和操作痛点</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>信息层级</li><li>区域分配</li><li>常驻/上下文元素拆分</li><li>交互优先级</li><li>危险拥挤点</li><li>重排建议</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏 HUD / UI 架构顾问。\n请基于以下输入，把当前界面重组为一套更可读、更符合玩家任务流的 HUD 方案。\n\n输入：\n- 当前 HUD / UI：{{current_hud}}\n- 玩家常见任务：{{common_player_tasks}}\n- 常驻信息：{{persistent_info}}\n- 上下文信息：{{contextual_info}}\n- 警报/高优先级信息：{{alerts}}\n- 设备与输入：{{devices_and_input}}\n- 当前痛点：{{ui_pain_points}}\n\n请输出：\n1. 信息层级：什么必须常驻，什么只在上下文出现。\n2. 屏幕区域：左上/右上/底部/中心分别放什么。\n3. 任务导向结构：玩家在常见任务里最先看哪里。\n4. 拥挤与冲突：哪些元素在抢同一块注意力。\n5. 重排建议：删什么、合并什么、后置什么。\n6. 简版 wireframe 描述：按区域描述最终布局。\n\n要求：\n- 以玩家任务优先，而不是按功能部门分区。\n- 区分常驻信息和“只有设计师想看到”的信息。\n- 不要增加更多面板来解决拥挤。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把最终布局再细化成移动端版本。</li><li>单独评估战斗态 HUD。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "HUD / UI 结构设计 Prompt 模板",
+      "id": "hud-ui-结构设计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "HUD / UI 结构设计 Prompt 模板 把 UI 面板、常驻信息和上下文反馈压成一套可读的结构方案。 当画面上信息越来越多，团队都觉得“应该再整理一下”，但没人能说清结构应该怎样重排时使用。 当前 HUD 截图或元素清单 玩家最常做的任务 常驻信息、上下文信息和警报信息 目标设备与输入方式 当前阅读和操作痛点 信息层级 区域分配 常驻/上下文元素拆分 交互优先级 危险拥挤点 重排建议 ui-ux prompt-design"
+}

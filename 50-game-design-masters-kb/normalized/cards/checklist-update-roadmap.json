@@ -1,0 +1,56 @@
+{
+  "id": "checklist-update-roadmap",
+  "entity_type": "card",
+  "title": "更新路线图 Checklist",
+  "summary": "检查 roadmap 是否围绕玩家价值和阶段判断，而不是杂乱功能愿望单。",
+  "card_kind": "checklist",
+  "phase_group": "operations-release",
+  "deliverable_type": "update-roadmap",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "release-ops",
+    "project-audit"
+  ],
+  "related_work_ids": [
+    "level-up",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "prompt-retention-optimization",
+    "prompt-project-status-audit"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 更新路线图 Checklist\n\n## 适用场景\n\n用于内容 roadmap review、版本路线整理，或防止更新计划退化成功能堆叠。\n\n## 检查项\n\n- roadmap 的阶段顺序有清楚逻辑，而不是谁想加什么就排什么。\n- 每个版本目标对应明确的玩家价值。\n- 短期修复、中期系统优化、长期扩展被区分清楚。\n- 路线图没有承诺超出团队真实产能的内容。\n- 每个版本都有可验证的成功标准。\n- 更新项不会持续背离项目核心体验。\n- 有明确的删减与顺延规则。\n\n## 通过标准\n\n- roadmap 能指导实际取舍，而不是只做展示。\n- 团队知道为什么这个版本先于那个版本。\n- 更新路线和玩家反馈形成闭环。\n\n## 常见失败信号\n\n- 路线图只是在维护期待，没有维护焦点。\n- 每个版本都在同时做修 bug、加系统、加内容、改方向。\n- 版本顺序无法解释。\n",
+  "body_html": "<h1 id=\"更新路线图-checklist\">更新路线图 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于内容 roadmap review、版本路线整理，或防止更新计划退化成功能堆叠。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>roadmap 的阶段顺序有清楚逻辑，而不是谁想加什么就排什么。</li><li>每个版本目标对应明确的玩家价值。</li><li>短期修复、中期系统优化、长期扩展被区分清楚。</li><li>路线图没有承诺超出团队真实产能的内容。</li><li>每个版本都有可验证的成功标准。</li><li>更新项不会持续背离项目核心体验。</li><li>有明确的删减与顺延规则。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>roadmap 能指导实际取舍，而不是只做展示。</li><li>团队知道为什么这个版本先于那个版本。</li><li>更新路线和玩家反馈形成闭环。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>路线图只是在维护期待，没有维护焦点。</li><li>每个版本都在同时做修 bug、加系统、加内容、改方向。</li><li>版本顺序无法解释。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "更新路线图 Checklist",
+      "id": "更新路线图-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "更新路线图 Checklist 检查 roadmap 是否围绕玩家价值和阶段判断，而不是杂乱功能愿望单。 用于内容 roadmap review、版本路线整理，或防止更新计划退化成功能堆叠。 roadmap 的阶段顺序有清楚逻辑，而不是谁想加什么就排什么。 每个版本目标对应明确的玩家价值。 短期修复、中期系统优化、长期扩展被区分清楚。 路线图没有承诺超出团队真实产能的内容。 每个版本都有可验证的成功标准。 更新项不会持续背离项目核心体验。 有明确的删减与顺延规则。 roadmap 能指导实际取舍，而不是只做展示。 团队知道为什么这个版本先于那个版本。 更新路线和玩家反馈形成闭环。 路线图只是在维护期待，没有维护焦点。 每个版本都在同时做修 bug、加系统、加内容、改方向。 版本顺序无法解释。 release-ops project-audit"
+}

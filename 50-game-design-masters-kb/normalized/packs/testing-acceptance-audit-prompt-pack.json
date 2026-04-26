@@ -1,0 +1,36 @@
+{
+  "id": "testing-acceptance-audit-prompt-pack",
+  "title": "测试、验收与审计 Prompt Pack",
+  "summary": "Stage-specific prompt templates for 测试、验收与审计.",
+  "phase_group": "testing-acceptance-audit",
+  "phase_label": "测试、验收与审计",
+  "phase_groups": [
+    "testing-acceptance-audit"
+  ],
+  "phase_labels": [
+    "测试、验收与审计"
+  ],
+  "type": "prompt_pack",
+  "kind_label": "Prompt Pack",
+  "card_ids": [
+    "prompt-testing-acceptance-audit",
+    "prompt-project-status-audit",
+    "prompt-bug-triage"
+  ],
+  "count": 3,
+  "prompt_count": 3,
+  "checklist_count": 0,
+  "other_count": 0,
+  "when_to_use": "Use this when the current task belongs to 测试、验收与审计 and you want reusable drafting prompts instead of starting from scratch.",
+  "required_inputs": [],
+  "starter_steps": [
+    "Pick the prompt template in 测试、验收与审计 Prompt Pack that matches the deliverable you need right now.",
+    "Fill in the placeholders with project-specific constraints instead of generic design language.",
+    "Keep only one answer path per prompt run so the result remains editable.",
+    "Pass the output into a checklist or implementation review before treating it as final."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/testing-acceptance-audit-prompt-pack.md",
+  "generated_at": "2026-04-26T00:39:23.261Z",
+  "starter_relative_markdown_path": "",
+  "starter_prompt_relative_markdown_path": ""
+}

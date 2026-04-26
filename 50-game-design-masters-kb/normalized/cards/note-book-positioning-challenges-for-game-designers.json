@@ -1,0 +1,64 @@
+{
+  "id": "note-book-positioning-challenges-for-game-designers",
+  "entity_type": "card",
+  "title": "Challenges for Game Designers：知识定位",
+  "summary": "最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。",
+  "card_kind": "book_positioning_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "resource_kind": "note",
+  "source_work_id": "challenges-for-game-designers",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "playtesting",
+    "prompt-design",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "challenges-for-game-designers",
+    "game-design-concepts-course",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-challenges-for-game-designers"
+  ],
+  "official_links": [
+    "https://gamedesignconcepts.wordpress.com/"
+  ],
+  "local_links": [
+    {
+      "label": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Challenges for Game Designers：知识定位\n\n## 这本书最适合解决什么\n\n最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。\n\n## 主要关注\n\n- 关注领域：设计训练 / 非数字原型 / 题目驱动学习 / 团队教学\n- 主要用途：新人训练 / 练习题库 / 课程化输出\n- 推荐读法：按练习推进 / 团队共做 / 作为训练 prompt 库\n- 价值类型：训练体系 / 题库 / 练习骨架\n- 适用阶段：团队训练 / 课程化学习 / 设计热身\n\n## 和相邻书目的关系\n\n- Game Design Concepts\n- Game Design Workshop\n\n## 来源备注\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"challenges-for-game-designers：知识定位\">Challenges for Game Designers：知识定位</h1>\n<h2 id=\"这本书最适合解决什么\">这本书最适合解决什么</h2>\n<p>最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。</p>\n<h2 id=\"主要关注\">主要关注</h2>\n<ul><li>关注领域：设计训练 / 非数字原型 / 题目驱动学习 / 团队教学</li><li>主要用途：新人训练 / 练习题库 / 课程化输出</li><li>推荐读法：按练习推进 / 团队共做 / 作为训练 prompt 库</li><li>价值类型：训练体系 / 题库 / 练习骨架</li><li>适用阶段：团队训练 / 课程化学习 / 设计热身</li></ul>\n<h2 id=\"和相邻书目的关系\">和相邻书目的关系</h2>\n<ul><li>Game Design Concepts</li><li>Game Design Workshop</li></ul>\n<h2 id=\"来源备注\">来源备注</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Challenges for Game Designers：知识定位",
+      "id": "challenges-for-game-designers：知识定位"
+    },
+    {
+      "level": 2,
+      "text": "这本书最适合解决什么",
+      "id": "这本书最适合解决什么"
+    },
+    {
+      "level": 2,
+      "text": "主要关注",
+      "id": "主要关注"
+    },
+    {
+      "level": 2,
+      "text": "和相邻书目的关系",
+      "id": "和相邻书目的关系"
+    },
+    {
+      "level": 2,
+      "text": "来源备注",
+      "id": "来源备注"
+    }
+  ],
+  "search_text": "Challenges for Game Designers 通过大量练习和题目，把设计思维从抽象知识拉回到手上的练习肌肉，是面向训练和教学价值极高的书。 最适合做团队训练、题库型 prompt、设计练习营和新人培养，而不是单独承担一个成熟项目的方法论主干。 设计训练 非数字原型 题目驱动学习 团队教学 新人训练 练习题库 课程化输出 按练习推进 团队共做 作为训练 prompt 库 训练体系 题库 练习骨架 团队训练 课程化学习 设计热身"
+}

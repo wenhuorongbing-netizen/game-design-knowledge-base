@@ -1,0 +1,73 @@
+{
+  "id": "note-compare-schell-vs-fullerton",
+  "entity_type": "card",
+  "title": "The Art of Game Design: A Book of Lenses vs Game Design Workshop",
+  "summary": "Use Schell to pressure-test direction and experience intent, then use Fullerton to convert that intent into prototype and playtest cadence.",
+  "card_kind": "comparison_note",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "game-direction-convergence",
+  "resource_kind": "note",
+  "source_work_id": "the-art-of-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "design-fundamentals",
+    "systems-thinking",
+    "player-motivation",
+    "playtesting",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "work-the-art-of-game-design",
+    "work-game-design-workshop"
+  ],
+  "official_links": [
+    "https://schellgames.com/art-of-game-design",
+    "https://www.routledge.com/link/link/p/book/9781138632059",
+    "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+  ],
+  "local_links": [],
+  "body_markdown": "# The Art of Game Design: A Book of Lenses vs Game Design Workshop\n\n> Use Schell to pressure-test direction and experience intent, then use Fullerton to convert that intent into prototype and playtest cadence.\n\n## Comparison Axis\n\n- high-level review lenses vs playcentric production loop\n\n## The Art of Game Design: A Book of Lenses 更强在什么地方\n\n- 高层方向收敛\n- 设计评审\n- 跨团队对齐\n- 问题清单构建\n- Use when: The team is still arguing about vision, player experience, or what the game should become.\n\n## Game Design Workshop 更强在什么地方\n\n- 原型推进\n- 试玩流程建设\n- 设计文档规范化\n- 团队训练\n- Use when: The team already has a direction and now needs prototype structure, playtest flow, and iteration discipline.\n\n## 如何一起使用\n\n- Run a lens-based review first, then turn the unresolved questions into a playcentric prototype plan.\n\n## The Art of Game Design: A Book of Lenses 的结构证据\n\n- table of lenses (p.29)\n- Acknowledgments (p.37)\n- HELLO (p.39)\n- Chapter 1: In the Beginning, There Is the Designer (p.47)\n- Chapter 2: The Designer Creates an Experience (p.55)\n\n## Game Design Workshop 的结构证据\n\n- Foreword (p.21)\n- Preface (p.23)\n- Acknowledgments (p.25)\n- Introduction (p.31)\n- Part 1 Game Design Basics (p.34)\n",
+  "body_html": "<h1 id=\"the-art-of-game-design-a-book-of-lenses-vs-game-design-workshop\">The Art of Game Design: A Book of Lenses vs Game Design Workshop</h1>\n<blockquote>Use Schell to pressure-test direction and experience intent, then use Fullerton to convert that intent into prototype and playtest cadence.</blockquote>\n<h2 id=\"comparison-axis\">Comparison Axis</h2>\n<ul><li>high-level review lenses vs playcentric production loop</li></ul>\n<h2 id=\"the-art-of-game-design-a-book-of-lenses-更强在什么地方\">The Art of Game Design: A Book of Lenses 更强在什么地方</h2>\n<ul><li>高层方向收敛</li><li>设计评审</li><li>跨团队对齐</li><li>问题清单构建</li><li>Use when: The team is still arguing about vision, player experience, or what the game should become.</li></ul>\n<h2 id=\"game-design-workshop-更强在什么地方\">Game Design Workshop 更强在什么地方</h2>\n<ul><li>原型推进</li><li>试玩流程建设</li><li>设计文档规范化</li><li>团队训练</li><li>Use when: The team already has a direction and now needs prototype structure, playtest flow, and iteration discipline.</li></ul>\n<h2 id=\"如何一起使用\">如何一起使用</h2>\n<ul><li>Run a lens-based review first, then turn the unresolved questions into a playcentric prototype plan.</li></ul>\n<h2 id=\"the-art-of-game-design-a-book-of-lenses-的结构证据\">The Art of Game Design: A Book of Lenses 的结构证据</h2>\n<ul><li>table of lenses (p.29)</li><li>Acknowledgments (p.37)</li><li>HELLO (p.39)</li><li>Chapter 1: In the Beginning, There Is the Designer (p.47)</li><li>Chapter 2: The Designer Creates an Experience (p.55)</li></ul>\n<h2 id=\"game-design-workshop-的结构证据\">Game Design Workshop 的结构证据</h2>\n<ul><li>Foreword (p.21)</li><li>Preface (p.23)</li><li>Acknowledgments (p.25)</li><li>Introduction (p.31)</li><li>Part 1 Game Design Basics (p.34)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The Art of Game Design: A Book of Lenses vs Game Design Workshop",
+      "id": "the-art-of-game-design-a-book-of-lenses-vs-game-design-workshop"
+    },
+    {
+      "level": 2,
+      "text": "Comparison Axis",
+      "id": "comparison-axis"
+    },
+    {
+      "level": 2,
+      "text": "The Art of Game Design: A Book of Lenses 更强在什么地方",
+      "id": "the-art-of-game-design-a-book-of-lenses-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "Game Design Workshop 更强在什么地方",
+      "id": "game-design-workshop-更强在什么地方"
+    },
+    {
+      "level": 2,
+      "text": "如何一起使用",
+      "id": "如何一起使用"
+    },
+    {
+      "level": 2,
+      "text": "The Art of Game Design: A Book of Lenses 的结构证据",
+      "id": "the-art-of-game-design-a-book-of-lenses-的结构证据"
+    },
+    {
+      "level": 2,
+      "text": "Game Design Workshop 的结构证据",
+      "id": "game-design-workshop-的结构证据"
+    }
+  ],
+  "search_text": "The Art of Game Design: A Book of Lenses Game Design Workshop high-level review lenses vs playcentric production loop Use Schell to pressure-test direction and experience intent, then use Fullerton to convert that intent into prototype and playtest cadence. The team is still arguing about vision, player experience, or what the game should become. The team already has a direction and now needs prototype structure, playtest flow, and iteration discipline. Run a lens-based review first, then turn the unresolved questions into a playcentric prototype plan. 高层方向收敛 设计评审 跨团队对齐 问题清单构建 原型推进 试玩流程建设 设计文档规范化 团队训练"
+}

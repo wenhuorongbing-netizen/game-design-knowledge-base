@@ -1,0 +1,63 @@
+{
+  "id": "prompt-combat-system-design",
+  "entity_type": "card",
+  "title": "战斗系统设计 Prompt 模板",
+  "summary": "把战斗 fantasy 压成输入、状态、资源、反馈和 counterplay 结构。",
+  "card_kind": "prompt_template",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "combat-system-design",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "combat",
+    "systems-thinking",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "game-design-concepts-course",
+    "game-feel",
+    "mda-formal-approach"
+  ],
+  "related_card_ids": [
+    "prompt-core-gameplay-systems",
+    "checklist-core-gameplay-systems"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 战斗系统设计 Prompt 模板\n\n## 适用场景\n\n当战斗开始成型，但动作、资源、反馈和职业/敌人差异还没有被整理成真正的战斗系统时使用。\n\n## 使用前提供\n\n- 战斗 fantasy 与视角\n- 玩家动词、武器/技能与敌人类型\n- 关键资源，如耐力、冷却、怒气、弹药\n- 期望的战斗节奏与时长\n- 当前战斗痛点，如站桩、乱、反馈弱、套路单一\n\n## 预期输出\n\n1. 核心战斗循环\n2. 输入与状态机框架\n3. 资源与节奏控制\n4. 敌我 counterplay\n5. 命中/受击/失误反馈\n6. 战斗原型验证方案\n\n## Prompt 模板\n\n```text\n你是一个世界级战斗系统设计师。\n请把下面的战斗想法压成一个可测试、可扩展的战斗系统草案。\n\n输入：\n- 战斗 fantasy：{{combat_fantasy}}\n- 玩家动词：{{player_actions}}\n- 武器/技能：{{weapons_and_skills}}\n- 敌人类型：{{enemy_types}}\n- 关键资源：{{combat_resources}}\n- 目标节奏：{{combat_pacing}}\n- 当前痛点：{{combat_pain_points}}\n\n请输出：\n1. 核心战斗循环：接敌、博弈、爆发、收尾如何闭环。\n2. 输入与状态：关键状态、取消、硬直、窗口和风险。\n3. 资源设计：每个资源怎样塑造节奏，而不是只是限制。\n4. Counterplay：玩家对敌人、敌人对玩家各有哪些可读反制。\n5. 反馈：命中、受击、失误、处决或爆发的反馈设计重点。\n6. 原型验证：先做什么最能验证这套战斗有没有深度。\n\n要求：\n- 不要只堆技能名词。\n- 说明为什么战斗不会很快退化成单一最优打法。\n- 指出最可能出现的读不懂或不公平问题。\n```\n\n## 二次追问\n\n- 把敌人 archetype 再拆成 4 类。\n- 把反馈设计单独整理成 hit-feel 清单。\n",
+  "body_html": "<h1 id=\"战斗系统设计-prompt-模板\">战斗系统设计 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当战斗开始成型，但动作、资源、反馈和职业/敌人差异还没有被整理成真正的战斗系统时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>战斗 fantasy 与视角</li><li>玩家动词、武器/技能与敌人类型</li><li>关键资源，如耐力、冷却、怒气、弹药</li><li>期望的战斗节奏与时长</li><li>当前战斗痛点，如站桩、乱、反馈弱、套路单一</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>核心战斗循环</li><li>输入与状态机框架</li><li>资源与节奏控制</li><li>敌我 counterplay</li><li>命中/受击/失误反馈</li><li>战斗原型验证方案</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级战斗系统设计师。\n请把下面的战斗想法压成一个可测试、可扩展的战斗系统草案。\n\n输入：\n- 战斗 fantasy：{{combat_fantasy}}\n- 玩家动词：{{player_actions}}\n- 武器/技能：{{weapons_and_skills}}\n- 敌人类型：{{enemy_types}}\n- 关键资源：{{combat_resources}}\n- 目标节奏：{{combat_pacing}}\n- 当前痛点：{{combat_pain_points}}\n\n请输出：\n1. 核心战斗循环：接敌、博弈、爆发、收尾如何闭环。\n2. 输入与状态：关键状态、取消、硬直、窗口和风险。\n3. 资源设计：每个资源怎样塑造节奏，而不是只是限制。\n4. Counterplay：玩家对敌人、敌人对玩家各有哪些可读反制。\n5. 反馈：命中、受击、失误、处决或爆发的反馈设计重点。\n6. 原型验证：先做什么最能验证这套战斗有没有深度。\n\n要求：\n- 不要只堆技能名词。\n- 说明为什么战斗不会很快退化成单一最优打法。\n- 指出最可能出现的读不懂或不公平问题。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>把敌人 archetype 再拆成 4 类。</li><li>把反馈设计单独整理成 hit-feel 清单。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "战斗系统设计 Prompt 模板",
+      "id": "战斗系统设计-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "战斗系统设计 Prompt 模板 把战斗 fantasy 压成输入、状态、资源、反馈和 counterplay 结构。 当战斗开始成型，但动作、资源、反馈和职业/敌人差异还没有被整理成真正的战斗系统时使用。 战斗 fantasy 与视角 玩家动词、武器/技能与敌人类型 关键资源，如耐力、冷却、怒气、弹药 期望的战斗节奏与时长 当前战斗痛点，如站桩、乱、反馈弱、套路单一 核心战斗循环 输入与状态机框架 资源与节奏控制 敌我 counterplay 命中/受击/失误反馈 战斗原型验证方案 combat systems-thinking prompt-design"
+}

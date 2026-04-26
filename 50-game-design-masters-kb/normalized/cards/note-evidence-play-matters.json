@@ -1,0 +1,79 @@
+{
+  "id": "note-evidence-play-matters",
+  "entity_type": "card",
+  "title": "Play Matters：Evidence Note",
+  "summary": "记录这本书目前在知识库里的目录、样本文本、解析工件与来源审查依据。",
+  "card_kind": "evidence_note",
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "resource_kind": "note",
+  "source_work_id": "play-matters",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "player-motivation",
+    "fun-theory"
+  ],
+  "related_work_ids": [
+    "play-matters",
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-play-matters",
+    "note-book-positioning-play-matters",
+    "note-chapter-map-play-matters"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262534512/play-matters/"
+  ],
+  "local_links": [
+    {
+      "label": "play-matters-f1ee20310d33.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json"
+    },
+    {
+      "label": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# Play Matters：Evidence Note\n\n## 这张卡的用途\n\n用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。\n\n## Structural Evidence\n\n- Extract title: Play Matters\n- Format: pdf\n- Page count: 171\n- Artifact: `knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json`\n\n## TOC Anchors\n\n- On Thinking Playfully (p.8)\n- Acknowledgments (p.10)\n- Instructions for Reading This Book (p.12)\n- 1 Play Is (p.14)\n- 2 Playfulness (p.32)\n- 3 Toys (p.48)\n- 4 Playgrounds (p.62)\n- 5 Beauty (p.74)\n- 6 Politics (p.84)\n- 7 Architects (p.96)\n\n## Sample Text Signals\n\n- Page 3: Playful Thinking Jesper Juul, Geoffrey Long, and William Uricchio, editors The Art of Failure: An Essay on the Pain of Playing Video Games, Jesper Juul, 2013 Uncertainty in Games, Greg Costikyan, 2013 Play Matters, Miguel Sicart, 2014\n- Page 6: Contents On Thinking Playfully vii Acknowledgments ix Instructions for Reading This Book xi 1 Play Is 1 2 Playfulness 19 3 Toys 35 4 Playgrounds 49 5 Beauty 61 6 Politics 71 7 Architects 83 8 Play in the Era of Computing Machinery 93 Notes 103 References 143 …\n- Page 8: On Thinking Playfully Many people (we series editors included) find video games exhil- arating, but it can be just as interesting to ponder why that is so. What do video games do? What can they be used for? How do they work? How do they relate to the rest of …\n\n## Why It Matters For The KB\n\n- 当前定位：最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。\n- 主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课\n- 输出价值：哲学视角 / 体验扩展层 / 身份感分析\n\n## Source Review Notes\n\n- 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n",
+  "body_html": "<h1 id=\"play-matters：evidence-note\">Play Matters：Evidence Note</h1>\n<h2 id=\"这张卡的用途\">这张卡的用途</h2>\n<p>用来记录这本书目前在知识库里的可追踪依据：它有哪些目录结构、样本文本和版本/来源信息，以免后面的摘要和对比脱离书本本体。</p>\n<h2 id=\"structural-evidence\">Structural Evidence</h2>\n<ul><li>Extract title: Play Matters</li><li>Format: pdf</li><li>Page count: 171</li><li>Artifact: <code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json</code></li></ul>\n<h2 id=\"toc-anchors\">TOC Anchors</h2>\n<ul><li>On Thinking Playfully (p.8)</li><li>Acknowledgments (p.10)</li><li>Instructions for Reading This Book (p.12)</li><li>1 Play Is (p.14)</li><li>2 Playfulness (p.32)</li><li>3 Toys (p.48)</li><li>4 Playgrounds (p.62)</li><li>5 Beauty (p.74)</li><li>6 Politics (p.84)</li><li>7 Architects (p.96)</li></ul>\n<h2 id=\"sample-text-signals\">Sample Text Signals</h2>\n<ul><li>Page 3: Playful Thinking Jesper Juul, Geoffrey Long, and William Uricchio, editors The Art of Failure: An Essay on the Pain of Playing Video Games, Jesper Juul, 2013 Uncertainty in Games, Greg Costikyan, 2013 Play Matters, Miguel Sicart, 2014</li><li>Page 6: Contents On Thinking Playfully vii Acknowledgments ix Instructions for Reading This Book xi 1 Play Is 1 2 Playfulness 19 3 Toys 35 4 Playgrounds 49 5 Beauty 61 6 Politics 71 7 Architects 83 8 Play in the Era of Computing Machinery 93 Notes 103 References 143 …</li><li>Page 8: On Thinking Playfully Many people (we series editors included) find video games exhil- arating, but it can be just as interesting to ponder why that is so. What do video games do? What can they be used for? How do they work? How do they relate to the rest of …</li></ul>\n<h2 id=\"why-it-matters-for-the-kb\">Why It Matters For The KB</h2>\n<ul><li>当前定位：最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。</li><li>主要用途：世界与身份审查 / 长期沉浸判断 / 高层体验补课</li><li>输出价值：哲学视角 / 体验扩展层 / 身份感分析</li></ul>\n<h2 id=\"source-review-notes\">Source Review Notes</h2>\n<ul><li>当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Play Matters：Evidence Note",
+      "id": "play-matters：evidence-note"
+    },
+    {
+      "level": 2,
+      "text": "这张卡的用途",
+      "id": "这张卡的用途"
+    },
+    {
+      "level": 2,
+      "text": "Structural Evidence",
+      "id": "structural-evidence"
+    },
+    {
+      "level": 2,
+      "text": "TOC Anchors",
+      "id": "toc-anchors"
+    },
+    {
+      "level": 2,
+      "text": "Sample Text Signals",
+      "id": "sample-text-signals"
+    },
+    {
+      "level": 2,
+      "text": "Why It Matters For The KB",
+      "id": "why-it-matters-for-the-kb"
+    },
+    {
+      "level": 2,
+      "text": "Source Review Notes",
+      "id": "source-review-notes"
+    }
+  ],
+  "search_text": "Play Matters 从 playfulness 本身而非单一产品对象出发，讨论为什么玩值得被严肃理解，以及设计如何容纳态度、身份与社会关系。 最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。 On Thinking Playfully Acknowledgments Instructions for Reading This Book 1 Play Is 2 Playfulness 3 Toys 4 Playgrounds 5 Beauty 6 Politics 7 Architects Playful Thinking Jesper Juul, Geoffrey Long, and William Uricchio, editors The Art of Failure: An Essay on the Pain of Playing Video Games, Jesper Juul, 2013 Uncertainty in Games, Greg Costikyan, 2013 Play Matters, Miguel Sicart, 2014 Contents On Thinking Playfully vii Acknowledgments ix Instructions for Reading This Book xi 1 Play Is 1 2 Playfulness 19 3 Toys 35 4 Playgrounds 49 5 Beauty 61 6 Politics 71 7 Architects 83 8 Play in the Era of Computing Machinery 93 Notes 103 References 143 … On Thinking Playfully Many people (we series editors included) find video games exhil- arating, but it can be just as interesting to ponder why that is so. What do video games do? What can they be used for? How do they work? How do they relate to the rest of … 当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。"
+}

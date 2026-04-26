@@ -1,0 +1,56 @@
+{
+  "id": "checklist-risk-precheck",
+  "entity_type": "card",
+  "title": "风险预判 Checklist",
+  "summary": "在原型前检查范围、资源、玩法和制作风险是否已经暴露。",
+  "card_kind": "checklist",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "risk-precheck",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop"
+  ],
+  "related_card_ids": [
+    "prompt-initiation-direction",
+    "prompt-competitive-breakdown"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 风险预判 Checklist\n\n## 适用场景\n\n用于立项会后、原型前和方向争议很大时的快速风险盘点。\n\n## 检查项\n\n- 核心玩法风险和制作风险被分开列出。\n- 最贵的系统、资产和技术假设已经点名。\n- 需要依赖未知外部条件的部分已被标红。\n- 范围膨胀风险已经落实到删减候选项。\n- 项目成功最依赖的 1-2 个假设已明确。\n- 每个高风险项都有验证动作，而不是只写担忧。\n- 失败后怎样止损也被提前考虑过。\n\n## 通过标准\n\n- 团队知道哪类风险先验证，哪类风险可以后置。\n- 高风险不再被包装成“以后再看”。\n- 原型阶段的重点足够聚焦。\n\n## 常见失败信号\n\n- 所有风险都被写成“需要更多时间”。\n- 没有人能指出最可能导致项目失败的点。\n- 删减范围时没有任何预案。\n",
+  "body_html": "<h1 id=\"风险预判-checklist\">风险预判 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于立项会后、原型前和方向争议很大时的快速风险盘点。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>核心玩法风险和制作风险被分开列出。</li><li>最贵的系统、资产和技术假设已经点名。</li><li>需要依赖未知外部条件的部分已被标红。</li><li>范围膨胀风险已经落实到删减候选项。</li><li>项目成功最依赖的 1-2 个假设已明确。</li><li>每个高风险项都有验证动作，而不是只写担忧。</li><li>失败后怎样止损也被提前考虑过。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>团队知道哪类风险先验证，哪类风险可以后置。</li><li>高风险不再被包装成“以后再看”。</li><li>原型阶段的重点足够聚焦。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>所有风险都被写成“需要更多时间”。</li><li>没有人能指出最可能导致项目失败的点。</li><li>删减范围时没有任何预案。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "风险预判 Checklist",
+      "id": "风险预判-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "风险预判 Checklist 在原型前检查范围、资源、玩法和制作风险是否已经暴露。 用于立项会后、原型前和方向争议很大时的快速风险盘点。 核心玩法风险和制作风险被分开列出。 最贵的系统、资产和技术假设已经点名。 需要依赖未知外部条件的部分已被标红。 范围膨胀风险已经落实到删减候选项。 项目成功最依赖的 1-2 个假设已明确。 每个高风险项都有验证动作，而不是只写担忧。 失败后怎样止损也被提前考虑过。 团队知道哪类风险先验证，哪类风险可以后置。 高风险不再被包装成“以后再看”。 原型阶段的重点足够聚焦。 所有风险都被写成“需要更多时间”。 没有人能指出最可能导致项目失败的点。 删减范围时没有任何预案。 project-audit design-fundamentals"
+}

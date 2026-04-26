@@ -1,0 +1,63 @@
+{
+  "id": "prompt-retention-optimization",
+  "entity_type": "card",
+  "title": "留存优化 Prompt 模板",
+  "summary": "把留存问题压成具体的流失节点、驱动力缺口和可实验优化点。",
+  "card_kind": "prompt_template",
+  "phase_group": "operations-release",
+  "deliverable_type": "retention-optimization",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "release-ops",
+    "player-motivation",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "designing-virtual-worlds",
+    "a-theory-of-fun-for-game-design",
+    "play-matters"
+  ],
+  "related_card_ids": [
+    "prompt-player-market-definition",
+    "checklist-update-roadmap"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 留存优化 Prompt 模板\n\n## 适用场景\n\n当团队已经感受到玩家流失，但还停留在“多做点内容/多发点奖励”这类粗放反应时使用。\n\n## 使用前提供\n\n- 目标留存周期和目标玩家\n- 玩家进入、回流和流失节点\n- 当前留存症状\n- 已有系统如任务、成长、社交、活动\n- 你怀疑最影响留存的 2-3 个原因\n\n## 预期输出\n\n1. 留存问题拆分\n2. 关键流失节点\n3. 驱动力缺口\n4. 短中长期优化点\n5. 不该做的伪优化\n6. 实验优先级\n\n## Prompt 模板\n\n```text\n你是一个世界级 live ops 与玩家留存顾问。\n请把下面的留存问题整理成能实际实验和验证的优化方案。\n\n输入：\n- 目标玩家与周期：{{retention_target}}\n- 进入/回流/流失节点：{{retention_funnel}}\n- 当前症状：{{retention_symptoms}}\n- 现有系统：{{current_systems}}\n- 怀疑原因：{{suspected_causes}}\n\n请输出：\n1. 留存问题拆分：这到底是 onboarding、目标感、奖励、社交还是节奏问题。\n2. 流失节点：玩家最容易在哪些时刻离开。\n3. 驱动力缺口：哪些动机没有被接住。\n4. 短中长期优化点：哪些可以立刻试，哪些需要结构改动。\n5. 伪优化：哪些做法看似加内容，实际上只会拖慢判断。\n6. 实验优先级：先做哪 3 个实验，为什么。\n\n要求：\n- 不要默认“多奖励”就是答案。\n- 重点指出留存问题和核心体验是否矛盾。\n- 最后给一个最小实验列表。\n```\n\n## 二次追问\n\n- 只围绕次日留存重做一版。\n- 只围绕中长期目标感重做一版。\n",
+  "body_html": "<h1 id=\"留存优化-prompt-模板\">留存优化 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当团队已经感受到玩家流失，但还停留在“多做点内容/多发点奖励”这类粗放反应时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>目标留存周期和目标玩家</li><li>玩家进入、回流和流失节点</li><li>当前留存症状</li><li>已有系统如任务、成长、社交、活动</li><li>你怀疑最影响留存的 2-3 个原因</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>留存问题拆分</li><li>关键流失节点</li><li>驱动力缺口</li><li>短中长期优化点</li><li>不该做的伪优化</li><li>实验优先级</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级 live ops 与玩家留存顾问。\n请把下面的留存问题整理成能实际实验和验证的优化方案。\n\n输入：\n- 目标玩家与周期：{{retention_target}}\n- 进入/回流/流失节点：{{retention_funnel}}\n- 当前症状：{{retention_symptoms}}\n- 现有系统：{{current_systems}}\n- 怀疑原因：{{suspected_causes}}\n\n请输出：\n1. 留存问题拆分：这到底是 onboarding、目标感、奖励、社交还是节奏问题。\n2. 流失节点：玩家最容易在哪些时刻离开。\n3. 驱动力缺口：哪些动机没有被接住。\n4. 短中长期优化点：哪些可以立刻试，哪些需要结构改动。\n5. 伪优化：哪些做法看似加内容，实际上只会拖慢判断。\n6. 实验优先级：先做哪 3 个实验，为什么。\n\n要求：\n- 不要默认“多奖励”就是答案。\n- 重点指出留存问题和核心体验是否矛盾。\n- 最后给一个最小实验列表。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>只围绕次日留存重做一版。</li><li>只围绕中长期目标感重做一版。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "留存优化 Prompt 模板",
+      "id": "留存优化-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "留存优化 Prompt 模板 把留存问题压成具体的流失节点、驱动力缺口和可实验优化点。 当团队已经感受到玩家流失，但还停留在“多做点内容/多发点奖励”这类粗放反应时使用。 目标留存周期和目标玩家 玩家进入、回流和流失节点 当前留存症状 已有系统如任务、成长、社交、活动 你怀疑最影响留存的 2-3 个原因 留存问题拆分 关键流失节点 驱动力缺口 短中长期优化点 不该做的伪优化 实验优先级 release-ops player-motivation prompt-design"
+}

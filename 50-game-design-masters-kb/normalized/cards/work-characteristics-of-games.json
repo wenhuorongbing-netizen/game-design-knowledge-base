@@ -1,0 +1,111 @@
+{
+  "id": "work-characteristics-of-games",
+  "entity_type": "card",
+  "title": "Characteristics of Games",
+  "summary": "从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。",
+  "card_kind": "book_entry",
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "resource_kind": "book",
+  "source_work_id": "characteristics-of-games",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "formalism",
+    "economy-loops",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+  ],
+  "local_links": [
+    {
+      "label": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub"
+    }
+  ],
+  "body_markdown": "# Characteristics of Games\n\n## 基本信息\n\n- 作者：George Skaff Elias / Richard Garfield / K. Robert Gutschera\n- 年份：2012\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。\n\n## 核心要点\n\n- 它的价值在于把“游戏像什么”拆成更细的结构特征。\n- 适合分析选择空间、信息暴露、不确定性和多人竞争结构。\n- 和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。\n\n## 适用场景\n\n最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。\n\n## 知识定位\n\n- 关注领域：游戏分析框架 / 信息结构 / 不确定性 / 多人竞争 / 系统弧线\n- 主要用途：结构化拆解 / 规则审查 / 多人系统分析\n- 推荐读法：按章通读 / 作为分析词典反查 / 与具体案例并读\n- 价值类型：分析语言 / 概念地图 / 术语标准\n- 最适合介入的阶段：系统设计 / 规则评审 / 设计写作\n\n## 分类\n\n- 一级分类：数值与经济设计\n- 二级输出物：数值框架设计\n- 主题标签：规则与形式化 / 经济循环 / 系统思维\n- 可用性：已有私有书源\n\n## 解析结构\n\n- 解析标题：Characteristics of Games\n- 解析格式：epub\n- 顶层目录预览：\n  - Characteristics of Games\n  - Foreword\n  - Preface\n  - Acknowledgments\n  - Introduction\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：0 个\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub`（用户提供）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json`（ok）\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262542692/characteristics-of-games/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/characteristics-of-games/01-mitpress.mit.edu-9780262542692-characteristics-of-games-.html`\n\n## 相关条目\n\n- Game Mechanics: Advanced Game Design\n- Advanced Game Design: A Systems Approach\n",
+  "body_html": "<h1 id=\"characteristics-of-games\">Characteristics of Games</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：George Skaff Elias / Richard Garfield / K. Robert Gutschera</li><li>年份：2012</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它的价值在于把“游戏像什么”拆成更细的结构特征。</li><li>适合分析选择空间、信息暴露、不确定性和多人竞争结构。</li><li>和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：游戏分析框架 / 信息结构 / 不确定性 / 多人竞争 / 系统弧线</li><li>主要用途：结构化拆解 / 规则审查 / 多人系统分析</li><li>推荐读法：按章通读 / 作为分析词典反查 / 与具体案例并读</li><li>价值类型：分析语言 / 概念地图 / 术语标准</li><li>最适合介入的阶段：系统设计 / 规则评审 / 设计写作</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：数值与经济设计</li><li>二级输出物：数值框架设计</li><li>主题标签：规则与形式化 / 经济循环 / 系统思维</li><li>可用性：已有私有书源</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Characteristics of Games</li><li>解析格式：epub</li><li>顶层目录预览：</li><li>Characteristics of Games</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Introduction</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：0 个</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub</code>（用户提供）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262542692/characteristics-of-games/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262542692/characteristics-of-games/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/characteristics-of-games/01-mitpress.mit.edu-9780262542692-characteristics-of-games-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li><li>Advanced Game Design: A Systems Approach</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Characteristics of Games",
+      "id": "characteristics-of-games"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "Characteristics of Games George Skaff Elias Richard Garfield K. Robert Gutschera 从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。 它的价值在于把“游戏像什么”拆成更细的结构特征。 适合分析选择空间、信息暴露、不确定性和多人竞争结构。 和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。 最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。 系统策划 数值策划 主策 游戏分析框架 信息结构 不确定性 多人竞争 系统弧线 结构化拆解 规则审查 多人系统分析 按章通读 作为分析词典反查 与具体案例并读 分析语言 概念地图 术语标准 系统设计 规则评审 设计写作 Characteristics of Games Foreword Preface Acknowledgments Introduction 数值与经济设计 数值框架设计 规则与形式化 经济循环 系统思维 MIT Press MIT Press - Book Details"
+}

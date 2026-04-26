@@ -1,0 +1,57 @@
+{
+  "id": "checklist-art-ui-experience",
+  "entity_type": "card",
+  "title": "美术、UI、体验表达 Checklist",
+  "summary": "检查视觉表达是否服务可读性、反馈闭环和整体体验节奏。",
+  "card_kind": "checklist",
+  "phase_group": "art-ui-experience",
+  "deliverable_type": "readability-accessibility-review",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "ui-ux",
+    "hit-feel"
+  ],
+  "related_work_ids": [
+    "game-feel",
+    "level-up",
+    "the-aesthetic-of-play"
+  ],
+  "related_card_ids": [
+    "phase-guide-art-ui-experience",
+    "prompt-art-ui-experience"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 美术、UI、体验表达 Checklist\n\n## 适用场景\n\n用于 UI review、polish review 或判断“为什么看起来能玩但用起来发堵”。\n\n## 检查项\n\n- 屏幕上最重要的信息在 1 秒内能被看见。\n- HUD 常驻信息与上下文信息分层清楚。\n- 输入、命中、受击、状态切换都有即时反馈。\n- 视觉风格统一，不同页面不会像来自不同游戏。\n- 字号、对比、颜色和动效速度对主要设备可读。\n- 关键信息不依赖颜色单独传达。\n- 最常见玩家任务不会被界面负担打断。\n\n## 通过标准\n\n- 玩家能快速理解当前状态和下一步动作。\n- 反馈闭环支撑了操作爽感与理解成本。\n- 视觉 identity 与玩法 identity 同向。\n\n## 常见失败信号\n\n- 信息过多但没有层次，玩家只能扫全屏。\n- 动效很多却不能解释系统状态变化。\n- 界面问题只能靠玩家熟悉后去适应。\n",
+  "body_html": "<h1 id=\"美术、ui、体验表达-checklist\">美术、UI、体验表达 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于 UI review、polish review 或判断“为什么看起来能玩但用起来发堵”。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>屏幕上最重要的信息在 1 秒内能被看见。</li><li>HUD 常驻信息与上下文信息分层清楚。</li><li>输入、命中、受击、状态切换都有即时反馈。</li><li>视觉风格统一，不同页面不会像来自不同游戏。</li><li>字号、对比、颜色和动效速度对主要设备可读。</li><li>关键信息不依赖颜色单独传达。</li><li>最常见玩家任务不会被界面负担打断。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>玩家能快速理解当前状态和下一步动作。</li><li>反馈闭环支撑了操作爽感与理解成本。</li><li>视觉 identity 与玩法 identity 同向。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>信息过多但没有层次，玩家只能扫全屏。</li><li>动效很多却不能解释系统状态变化。</li><li>界面问题只能靠玩家熟悉后去适应。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "美术、UI、体验表达 Checklist",
+      "id": "美术、ui、体验表达-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "美术、UI、体验表达 Checklist 检查视觉表达是否服务可读性、反馈闭环和整体体验节奏。 用于 UI review、polish review 或判断“为什么看起来能玩但用起来发堵”。 屏幕上最重要的信息在 1 秒内能被看见。 HUD 常驻信息与上下文信息分层清楚。 输入、命中、受击、状态切换都有即时反馈。 视觉风格统一，不同页面不会像来自不同游戏。 字号、对比、颜色和动效速度对主要设备可读。 关键信息不依赖颜色单独传达。 最常见玩家任务不会被界面负担打断。 玩家能快速理解当前状态和下一步动作。 反馈闭环支撑了操作爽感与理解成本。 视觉 identity 与玩法 identity 同向。 信息过多但没有层次，玩家只能扫全屏。 动效很多却不能解释系统状态变化。 界面问题只能靠玩家熟悉后去适应。 ui-ux hit-feel"
+}

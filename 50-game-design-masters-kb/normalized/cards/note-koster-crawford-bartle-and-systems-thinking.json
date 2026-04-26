@@ -1,0 +1,129 @@
+{
+  "id": "note-koster-crawford-bartle-and-systems-thinking",
+  "entity_type": "card",
+  "title": "Koster / Crawford / Bartle 与系统思维",
+  "summary": "Koster / Crawford / Bartle 与系统思维",
+  "card_kind": "reading_note",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "core-loop-design",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/notes/05-koster-crawford-bartle-and-systems-thinking.md",
+  "theme_tags": [
+    "fun-theory",
+    "systems-thinking",
+    "online-worlds"
+  ],
+  "related_work_ids": [
+    "a-theory-of-fun-for-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "05-koster-crawford-bartle-and-systems-thinking.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/notes/05-koster-crawford-bartle-and-systems-thinking.md"
+    }
+  ],
+  "body_markdown": "# Koster / Crawford / Bartle 与系统思维\n\n这三个人不一样，但放在一起很有用，因为他们都在问“玩法为什么成立”这个更底层的问题。\n\n## Raph Koster\n\n### 核心价值\n\n- 把“fun”理解为学习、模式识别和掌握\n- 能帮助你发现哪些玩法会很快被看穿，哪些玩法有持续深度\n\n### 最适合处理的问题\n\n- 新手期很热闹，但很快腻\n- 玩家在重复劳动，不是在增长理解\n- 成长只是数字变大，没有认知层变化\n\n### 官方入口\n\n- <https://www.theoryoffun.com/>\n\n## Chris Crawford\n\n### 核心价值\n\n- 强调真正的交互性\n- 强调动词、反馈和系统响应，而不是只看包装\n\n### 最适合处理的问题\n\n- 玩法像是在“执行脚本”，而不是进行互动\n- 叙事很多，但玩家参与感很弱\n- 系统提供的行为太少，表达空间太窄\n\n### 官方入口\n\n- <https://www.erasmatazz.com/library/game-design/index.html>\n\n## Richard Bartle\n\n### 核心价值\n\n- 在线世界、身份、社交结构、长期动机\n- 适合研究“玩家为什么留在世界里”\n\n### 最适合处理的问题\n\n- 大世界有内容，但缺少身份感\n- 社交系统只是表面功能，没有真正的角色分化\n- 长期留存靠刷，而不是靠世界关系\n\n### 本地材料\n\n- `raw/open-web/richard-bartle/designing-virtual-worlds.pdf`\n- `raw/open-web/richard-bartle/designing-virtual-worlds.docx`\n\n### 官方入口\n\n- <https://mud.co.uk/dvw/>\n- <https://mud.co.uk/richard/papers.htm>\n\n## 三者组合起来怎么用\n\n### 用 Koster 看“学习”\n\n- 玩家是否在掌握新模式\n- 成长是否真的带来新理解\n\n### 用 Crawford 看“交互”\n\n- 系统是否真的回应玩家选择\n- 玩家是否拥有有意义的行为集合\n\n### 用 Bartle 看“世界”\n\n- 这些行为是否能累积成身份、关系和长期目标\n\n## 对当前项目的直接提醒\n\n- 如果经营、贸易、战斗只是三条并列内容线，而不互相制造新的理解，那么 Koster 会认为它们只是重复的工作包\n- 如果玩家只能按设计者预想的单一路径完成目标，Crawford 会认为交互空间太小\n- 如果玩家无法形成“我的基地、我的队伍、我的路线、我的声望”这类所有权感，Bartle 会认为世界层还没真正成立\n",
+  "body_html": "<h1 id=\"koster-crawford-bartle-与系统思维\">Koster / Crawford / Bartle 与系统思维</h1>\n<p>这三个人不一样，但放在一起很有用，因为他们都在问“玩法为什么成立”这个更底层的问题。</p>\n<h2 id=\"raph-koster\">Raph Koster</h2>\n<h3 id=\"核心价值\">核心价值</h3>\n<ul><li>把“fun”理解为学习、模式识别和掌握</li><li>能帮助你发现哪些玩法会很快被看穿，哪些玩法有持续深度</li></ul>\n<h3 id=\"最适合处理的问题\">最适合处理的问题</h3>\n<ul><li>新手期很热闹，但很快腻</li><li>玩家在重复劳动，不是在增长理解</li><li>成长只是数字变大，没有认知层变化</li></ul>\n<h3 id=\"官方入口\">官方入口</h3>\n<ul><li><a href=\"https://www.theoryoffun.com/\" target=\"_blank\" rel=\"noreferrer\">https://www.theoryoffun.com/</a></li></ul>\n<h2 id=\"chris-crawford\">Chris Crawford</h2>\n<h3 id=\"核心价值\">核心价值</h3>\n<ul><li>强调真正的交互性</li><li>强调动词、反馈和系统响应，而不是只看包装</li></ul>\n<h3 id=\"最适合处理的问题\">最适合处理的问题</h3>\n<ul><li>玩法像是在“执行脚本”，而不是进行互动</li><li>叙事很多，但玩家参与感很弱</li><li>系统提供的行为太少，表达空间太窄</li></ul>\n<h3 id=\"官方入口\">官方入口</h3>\n<ul><li><a href=\"https://www.erasmatazz.com/library/game-design/index.html\" target=\"_blank\" rel=\"noreferrer\">https://www.erasmatazz.com/library/game-design/index.html</a></li></ul>\n<h2 id=\"richard-bartle\">Richard Bartle</h2>\n<h3 id=\"核心价值\">核心价值</h3>\n<ul><li>在线世界、身份、社交结构、长期动机</li><li>适合研究“玩家为什么留在世界里”</li></ul>\n<h3 id=\"最适合处理的问题\">最适合处理的问题</h3>\n<ul><li>大世界有内容，但缺少身份感</li><li>社交系统只是表面功能，没有真正的角色分化</li><li>长期留存靠刷，而不是靠世界关系</li></ul>\n<h3 id=\"本地材料\">本地材料</h3>\n<ul><li><code>raw/open-web/richard-bartle/designing-virtual-worlds.pdf</code></li><li><code>raw/open-web/richard-bartle/designing-virtual-worlds.docx</code></li></ul>\n<h3 id=\"官方入口\">官方入口</h3>\n<ul><li><a href=\"https://mud.co.uk/dvw/\" target=\"_blank\" rel=\"noreferrer\">https://mud.co.uk/dvw/</a></li><li><a href=\"https://mud.co.uk/richard/papers.htm\" target=\"_blank\" rel=\"noreferrer\">https://mud.co.uk/richard/papers.htm</a></li></ul>\n<h2 id=\"三者组合起来怎么用\">三者组合起来怎么用</h2>\n<h3 id=\"用-koster-看“学习”\">用 Koster 看“学习”</h3>\n<ul><li>玩家是否在掌握新模式</li><li>成长是否真的带来新理解</li></ul>\n<h3 id=\"用-crawford-看“交互”\">用 Crawford 看“交互”</h3>\n<ul><li>系统是否真的回应玩家选择</li><li>玩家是否拥有有意义的行为集合</li></ul>\n<h3 id=\"用-bartle-看“世界”\">用 Bartle 看“世界”</h3>\n<ul><li>这些行为是否能累积成身份、关系和长期目标</li></ul>\n<h2 id=\"对当前项目的直接提醒\">对当前项目的直接提醒</h2>\n<ul><li>如果经营、贸易、战斗只是三条并列内容线，而不互相制造新的理解，那么 Koster 会认为它们只是重复的工作包</li><li>如果玩家只能按设计者预想的单一路径完成目标，Crawford 会认为交互空间太小</li><li>如果玩家无法形成“我的基地、我的队伍、我的路线、我的声望”这类所有权感，Bartle 会认为世界层还没真正成立</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Koster / Crawford / Bartle 与系统思维",
+      "id": "koster-crawford-bartle-与系统思维"
+    },
+    {
+      "level": 2,
+      "text": "Raph Koster",
+      "id": "raph-koster"
+    },
+    {
+      "level": 3,
+      "text": "核心价值",
+      "id": "核心价值"
+    },
+    {
+      "level": 3,
+      "text": "最适合处理的问题",
+      "id": "最适合处理的问题"
+    },
+    {
+      "level": 3,
+      "text": "官方入口",
+      "id": "官方入口"
+    },
+    {
+      "level": 2,
+      "text": "Chris Crawford",
+      "id": "chris-crawford"
+    },
+    {
+      "level": 3,
+      "text": "核心价值",
+      "id": "核心价值"
+    },
+    {
+      "level": 3,
+      "text": "最适合处理的问题",
+      "id": "最适合处理的问题"
+    },
+    {
+      "level": 3,
+      "text": "官方入口",
+      "id": "官方入口"
+    },
+    {
+      "level": 2,
+      "text": "Richard Bartle",
+      "id": "richard-bartle"
+    },
+    {
+      "level": 3,
+      "text": "核心价值",
+      "id": "核心价值"
+    },
+    {
+      "level": 3,
+      "text": "最适合处理的问题",
+      "id": "最适合处理的问题"
+    },
+    {
+      "level": 3,
+      "text": "本地材料",
+      "id": "本地材料"
+    },
+    {
+      "level": 3,
+      "text": "官方入口",
+      "id": "官方入口"
+    },
+    {
+      "level": 2,
+      "text": "三者组合起来怎么用",
+      "id": "三者组合起来怎么用"
+    },
+    {
+      "level": 3,
+      "text": "用 Koster 看“学习”",
+      "id": "用-koster-看“学习”"
+    },
+    {
+      "level": 3,
+      "text": "用 Crawford 看“交互”",
+      "id": "用-crawford-看“交互”"
+    },
+    {
+      "level": 3,
+      "text": "用 Bartle 看“世界”",
+      "id": "用-bartle-看“世界”"
+    },
+    {
+      "level": 2,
+      "text": "对当前项目的直接提醒",
+      "id": "对当前项目的直接提醒"
+    }
+  ],
+  "search_text": "Koster / Crawford / Bartle 与系统思维 # Koster / Crawford / Bartle 与系统思维 这三个人不一样，但放在一起很有用，因为他们都在问“玩法为什么成立”这个更底层的问题。 ## Raph Koster ### 核心价值 - 把“fun”理解为学习、模式识别和掌握 - 能帮助你发现哪些玩法会很快被看穿，哪些玩法有持续深度 ### 最适合处理的问题 - 新手期很热闹，但很快腻 - 玩家在重复劳动，不是在增长理解 - 成长只是数字变大，没有认知层变化 ### 官方入口 - <https://www.theoryoffun.com/> ## Chris Crawford ### 核心价值 - 强调真正的交互性 - 强调动词、反馈和系统响应，而不是只看包装 ### 最适合处理的问题 - 玩法像是在“执行脚本”，而不是进行互动 - 叙事很多，但玩家参与感很弱 - 系统提供的行为太少，表达空间太窄 ### 官方入口 - <https://www.erasmatazz.com/library/game-design/index.html> ## Richard Bartle ### 核心价值 - 在线世界、身份、社交结构、长期动机 - 适合研究“玩家为什么留在世界里” ### 最适合处理的问题 - 大世界有内容，但缺少身份感 - 社交系统只是表面功能，没有真正的角色分化 - 长期留存靠刷，而不是靠世界关系 ### 本地材料 - `raw/open-web/richard-bartle/designing-virtual-worlds.pdf` - `raw/open-web/richard-bartle/designing-virtual-worlds.docx` ### 官方入口 - <https://mud.co.uk/dvw/> - <https://mud.co.uk/richard/papers.htm> ## 三者组合起来怎么用 ### 用 Koster 看“学习” - 玩家是否在掌握新模式 - 成长是否真的带来新理解 ### 用 Crawford 看“交互” - 系统是否真的回应玩家选择 - 玩家是否拥有有意义的行为集合 ### 用 Bartle 看“世界” - 这些行为是否能累积成身份、关系和长期目标 ## 对当前项目的直接提醒 - 如果经营、贸易、战斗只是三条并列内容线，而不互相制造新的理解，那么 Koster 会认为它们只是重复的工作包 - 如果玩家只能按设计者预想的单一路径完成目标，Crawford 会认为交互空间太小 - 如果玩家无法形成“我的基地、我的队伍、我的路线、我的声望”这类所有权感，Bartle 会认为世界层还没真正成立 fun-theory systems-thinking online-worlds a-theory-of-fun-for-game-design designing-virtual-worlds"
+}

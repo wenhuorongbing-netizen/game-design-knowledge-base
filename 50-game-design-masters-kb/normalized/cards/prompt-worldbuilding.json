@@ -1,0 +1,63 @@
+{
+  "id": "prompt-worldbuilding",
+  "entity_type": "card",
+  "title": "世界观设定 Prompt 模板",
+  "summary": "把世界观从背景设定压成与玩法、身份、资源和冲突真正相关的设计框架。",
+  "card_kind": "prompt_template",
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "resource_kind": "prompt-guide",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "worldbuilding",
+    "systems-thinking",
+    "prompt-design"
+  ],
+  "related_work_ids": [
+    "designing-virtual-worlds",
+    "the-art-of-game-design",
+    "play-matters"
+  ],
+  "related_card_ids": [
+    "note-applying-the-kb-to-projects",
+    "phase-guide-content-narrative"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 世界观设定 Prompt 模板\n\n## 适用场景\n\n当世界观文档越写越厚，但跟玩家行为、资源关系和系统冲突仍然脱节时使用。\n\n## 使用前提供\n\n- 项目题材与核心 fantasy\n- 玩家在世界中的身份\n- 关键势力、地点、资源和禁忌\n- 你想强调的价值冲突或生存压力\n- 当前世界观和玩法脱节的点\n\n## 预期输出\n\n1. 世界观核心命题\n2. 玩家身份与位置\n3. 势力/地点/资源结构\n4. 主要冲突\n5. 世界规则如何作用于玩法\n6. 应保留与应删除的设定\n\n## Prompt 模板\n\n```text\n你是一个世界级游戏叙事设计师和系统世界构建顾问。\n请把以下世界观想法整理成一套能真正服务玩法和身份表达的世界框架。\n\n输入：\n- 题材与核心 fantasy：{{theme_and_fantasy}}\n- 玩家身份：{{player_role}}\n- 势力与地点：{{factions_and_places}}\n- 关键资源与禁忌：{{resources_and_taboos}}\n- 核心冲突：{{core_conflicts}}\n- 当前脱节点：{{worldbuilding_disconnects}}\n\n请输出：\n1. 世界观核心命题：这个世界最重要的规则和张力是什么。\n2. 玩家身份：玩家在这个世界里是谁，为什么重要。\n3. 势力/地点/资源结构：它们如何制造选择与风险。\n4. 主要冲突：哪些冲突会持续推动内容与系统。\n5. 对玩法的作用：世界规则如何落到循环、成长、叙事和经济。\n6. 删改建议：哪些设定值得保留，哪些只是装饰噪音。\n\n要求：\n- 不要写百科全书式背景介绍。\n- 所有设定都要能回答“它怎样影响玩家的行为或判断”。\n- 如果存在设定很酷但会拖垮玩法的部分，要直接指出。\n```\n\n## 二次追问\n\n- 只围绕玩家身份与长期归属感再拆一版。\n- 只围绕势力冲突和资源政治再拆一版。\n",
+  "body_html": "<h1 id=\"世界观设定-prompt-模板\">世界观设定 Prompt 模板</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>当世界观文档越写越厚，但跟玩家行为、资源关系和系统冲突仍然脱节时使用。</p>\n<h2 id=\"使用前提供\">使用前提供</h2>\n<ul><li>项目题材与核心 fantasy</li><li>玩家在世界中的身份</li><li>关键势力、地点、资源和禁忌</li><li>你想强调的价值冲突或生存压力</li><li>当前世界观和玩法脱节的点</li></ul>\n<h2 id=\"预期输出\">预期输出</h2>\n<ol><li>世界观核心命题</li><li>玩家身份与位置</li><li>势力/地点/资源结构</li><li>主要冲突</li><li>世界规则如何作用于玩法</li><li>应保留与应删除的设定</li></ol>\n<h2 id=\"prompt-模板\">Prompt 模板</h2>\n<pre><code class=\"language-text\">你是一个世界级游戏叙事设计师和系统世界构建顾问。\n请把以下世界观想法整理成一套能真正服务玩法和身份表达的世界框架。\n\n输入：\n- 题材与核心 fantasy：{{theme_and_fantasy}}\n- 玩家身份：{{player_role}}\n- 势力与地点：{{factions_and_places}}\n- 关键资源与禁忌：{{resources_and_taboos}}\n- 核心冲突：{{core_conflicts}}\n- 当前脱节点：{{worldbuilding_disconnects}}\n\n请输出：\n1. 世界观核心命题：这个世界最重要的规则和张力是什么。\n2. 玩家身份：玩家在这个世界里是谁，为什么重要。\n3. 势力/地点/资源结构：它们如何制造选择与风险。\n4. 主要冲突：哪些冲突会持续推动内容与系统。\n5. 对玩法的作用：世界规则如何落到循环、成长、叙事和经济。\n6. 删改建议：哪些设定值得保留，哪些只是装饰噪音。\n\n要求：\n- 不要写百科全书式背景介绍。\n- 所有设定都要能回答“它怎样影响玩家的行为或判断”。\n- 如果存在设定很酷但会拖垮玩法的部分，要直接指出。</code></pre>\n<h2 id=\"二次追问\">二次追问</h2>\n<ul><li>只围绕玩家身份与长期归属感再拆一版。</li><li>只围绕势力冲突和资源政治再拆一版。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "世界观设定 Prompt 模板",
+      "id": "世界观设定-prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "使用前提供",
+      "id": "使用前提供"
+    },
+    {
+      "level": 2,
+      "text": "预期输出",
+      "id": "预期输出"
+    },
+    {
+      "level": 2,
+      "text": "Prompt 模板",
+      "id": "prompt-模板"
+    },
+    {
+      "level": 2,
+      "text": "二次追问",
+      "id": "二次追问"
+    }
+  ],
+  "search_text": "世界观设定 Prompt 模板 把世界观从背景设定压成与玩法、身份、资源和冲突真正相关的设计框架。 当世界观文档越写越厚，但跟玩家行为、资源关系和系统冲突仍然脱节时使用。 项目题材与核心 fantasy 玩家在世界中的身份 关键势力、地点、资源和禁忌 你想强调的价值冲突或生存压力 当前世界观和玩法脱节的点 世界观核心命题 玩家身份与位置 势力/地点/资源结构 主要冲突 世界规则如何作用于玩法 应保留与应删除的设定 worldbuilding systems-thinking prompt-design"
+}

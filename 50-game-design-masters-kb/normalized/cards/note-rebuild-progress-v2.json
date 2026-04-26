@@ -1,0 +1,79 @@
+{
+  "id": "note-rebuild-progress-v2",
+  "entity_type": "card",
+  "title": "KB Rebuild Progress V2",
+  "summary": "KB Rebuild Progress V2",
+  "card_kind": "reading_note",
+  "phase_group": "development-implementation",
+  "deliverable_type": "technical-solution-spec",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/reports/rebuild-progress-v2.md",
+  "theme_tags": [
+    "project-audit",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-workshop",
+    "game-mechanics-advanced-game-design"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "rebuild-progress-v2.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/reports/rebuild-progress-v2.md"
+    }
+  ],
+  "body_markdown": "# KB Rebuild Progress V2\n\n- Generated at: 2026-04-26T00:38:40.993Z\n- Works: 21\n- Cards: 145\n- Searchable items: 190\n\n## Phase 0 - Freeze and Spec\n\n- Spec created: `knowledge/50-game-design-masters-kb/catalog/06-kb-rebuild-spec-v2.md`\n- Goal locked: move from hand-curated summary shelf to evidence-based, knowledge-first reading and research system.\n\n## Phase 1 - Private Book Discovery\n\n- Private files discovered under `knowledge/`: 13\n- Matched to known works: 13\n- Still requiring provenance review: 12\n- Output manifests:\n  - `raw/private-library/manifest.json`\n  - `reports/private-library-audit.md`\n\n## Phase 2 - Extraction Artifact Layer\n\n- Extraction artifacts created or reused: 13\n- Works with at least one private extract: 12\n- Output artifacts:\n  - `raw/private-library/extracted/*.json`\n  - `raw/private-library/extract-manifest.json`\n  - `reports/private-book-extraction.md`\n\n## Phase 3 - Work Layer Rewrite\n\n- Works upgraded with knowledge positioning: 13\n- Works carrying TOC preview: 8\n- Works carrying source review notes: 11\n- Core upgrade: commercial books are no longer shallow entries only; they now carry extract-aware positioning, structure, provenance, and local artifact links.\n\n## Phase 4 - Derived Knowledge Cards\n\n- Book entry cards: 17\n- Book positioning notes: 21\n- Chapter map notes: 7\n- Evidence notes: 12\n- Concept seed notes: 6\n- Comparison notes: 6\n- This is the main content-layer rebuild: books now produce reusable secondary knowledge objects instead of staying as isolated files.\n\n## Phase 5 - Knowledge-First Portal\n\n- Portal default mode switched back to `All Items`.\n- `Context Workspace` and `Project Profile` remain available, but are collapsed under `Workspace Tools` so knowledge browsing is the primary entry flow again.\n- Use-case packs remain in the portal, but they no longer dominate the default landing mode.\n\n## Remaining Risks\n\n- 12 private files still have mirror/repost-style provenance signals and should be treated as private analysis sources only.\n- Official metadata fetch issue: level-up -> Failed to fetch text https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx: 403 Forbidden\n\n## Next Upgrade Targets\n\n- Replace more hand-written summaries with extract-backed evidence notes for the remaining commercial books.\n- Turn high-signal concept seeds into reusable concept cards instead of leaving them as seeds only.\n- Add automated UI smoke tests for the portal, because the browsing and workspace layers are now both non-trivial.\n",
+  "body_html": "<h1 id=\"kb-rebuild-progress-v2\">KB Rebuild Progress V2</h1>\n<ul><li>Generated at: 2026-04-26T00:38:40.993Z</li><li>Works: 21</li><li>Cards: 145</li><li>Searchable items: 190</li></ul>\n<h2 id=\"phase-0-freeze-and-spec\">Phase 0 - Freeze and Spec</h2>\n<ul><li>Spec created: <code>knowledge/50-game-design-masters-kb/catalog/06-kb-rebuild-spec-v2.md</code></li><li>Goal locked: move from hand-curated summary shelf to evidence-based, knowledge-first reading and research system.</li></ul>\n<h2 id=\"phase-1-private-book-discovery\">Phase 1 - Private Book Discovery</h2>\n<ul><li>Private files discovered under <code>knowledge/</code>: 13</li><li>Matched to known works: 13</li><li>Still requiring provenance review: 12</li><li>Output manifests:</li><li><code>raw/private-library/manifest.json</code></li><li><code>reports/private-library-audit.md</code></li></ul>\n<h2 id=\"phase-2-extraction-artifact-layer\">Phase 2 - Extraction Artifact Layer</h2>\n<ul><li>Extraction artifacts created or reused: 13</li><li>Works with at least one private extract: 12</li><li>Output artifacts:</li><li><code>raw/private-library/extracted/*.json</code></li><li><code>raw/private-library/extract-manifest.json</code></li><li><code>reports/private-book-extraction.md</code></li></ul>\n<h2 id=\"phase-3-work-layer-rewrite\">Phase 3 - Work Layer Rewrite</h2>\n<ul><li>Works upgraded with knowledge positioning: 13</li><li>Works carrying TOC preview: 8</li><li>Works carrying source review notes: 11</li><li>Core upgrade: commercial books are no longer shallow entries only; they now carry extract-aware positioning, structure, provenance, and local artifact links.</li></ul>\n<h2 id=\"phase-4-derived-knowledge-cards\">Phase 4 - Derived Knowledge Cards</h2>\n<ul><li>Book entry cards: 17</li><li>Book positioning notes: 21</li><li>Chapter map notes: 7</li><li>Evidence notes: 12</li><li>Concept seed notes: 6</li><li>Comparison notes: 6</li><li>This is the main content-layer rebuild: books now produce reusable secondary knowledge objects instead of staying as isolated files.</li></ul>\n<h2 id=\"phase-5-knowledge-first-portal\">Phase 5 - Knowledge-First Portal</h2>\n<ul><li>Portal default mode switched back to <code>All Items</code>.</li><li><code>Context Workspace</code> and <code>Project Profile</code> remain available, but are collapsed under <code>Workspace Tools</code> so knowledge browsing is the primary entry flow again.</li><li>Use-case packs remain in the portal, but they no longer dominate the default landing mode.</li></ul>\n<h2 id=\"remaining-risks\">Remaining Risks</h2>\n<ul><li>12 private files still have mirror/repost-style provenance signals and should be treated as private analysis sources only.</li><li>Official metadata fetch issue: level-up -&gt; Failed to fetch text https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx: 403 Forbidden</li></ul>\n<h2 id=\"next-upgrade-targets\">Next Upgrade Targets</h2>\n<ul><li>Replace more hand-written summaries with extract-backed evidence notes for the remaining commercial books.</li><li>Turn high-signal concept seeds into reusable concept cards instead of leaving them as seeds only.</li><li>Add automated UI smoke tests for the portal, because the browsing and workspace layers are now both non-trivial.</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "KB Rebuild Progress V2",
+      "id": "kb-rebuild-progress-v2"
+    },
+    {
+      "level": 2,
+      "text": "Phase 0 - Freeze and Spec",
+      "id": "phase-0-freeze-and-spec"
+    },
+    {
+      "level": 2,
+      "text": "Phase 1 - Private Book Discovery",
+      "id": "phase-1-private-book-discovery"
+    },
+    {
+      "level": 2,
+      "text": "Phase 2 - Extraction Artifact Layer",
+      "id": "phase-2-extraction-artifact-layer"
+    },
+    {
+      "level": 2,
+      "text": "Phase 3 - Work Layer Rewrite",
+      "id": "phase-3-work-layer-rewrite"
+    },
+    {
+      "level": 2,
+      "text": "Phase 4 - Derived Knowledge Cards",
+      "id": "phase-4-derived-knowledge-cards"
+    },
+    {
+      "level": 2,
+      "text": "Phase 5 - Knowledge-First Portal",
+      "id": "phase-5-knowledge-first-portal"
+    },
+    {
+      "level": 2,
+      "text": "Remaining Risks",
+      "id": "remaining-risks"
+    },
+    {
+      "level": 2,
+      "text": "Next Upgrade Targets",
+      "id": "next-upgrade-targets"
+    }
+  ],
+  "search_text": "KB Rebuild Progress V2 # KB Rebuild Progress V2 - Generated at: 2026-04-26T00:38:40.993Z - Works: 21 - Cards: 145 - Searchable items: 190 ## Phase 0 - Freeze and Spec - Spec created: `knowledge/50-game-design-masters-kb/catalog/06-kb-rebuild-spec-v2.md` - Goal locked: move from hand-curated summary shelf to evidence-based, knowledge-first reading and research system. ## Phase 1 - Private Book Discovery - Private files discovered under `knowledge/`: 13 - Matched to known works: 13 - Still requiring provenance review: 12 - Output manifests: - `raw/private-library/manifest.json` - `reports/private-library-audit.md` ## Phase 2 - Extraction Artifact Layer - Extraction artifacts created or reused: 13 - Works with at least one private extract: 12 - Output artifacts: - `raw/private-library/extracted/*.json` - `raw/private-library/extract-manifest.json` - `reports/private-book-extraction.md` ## Phase 3 - Work Layer Rewrite - Works upgraded with knowledge positioning: 13 - Works carrying TOC preview: 8 - Works carrying source review notes: 11 - Core upgrade: commercial books are no longer shallow entries only; they now carry extract-aware positioning, structure, provenance, and local artifact links. ## Phase 4 - Derived Knowledge Cards - Book entry cards: 17 - Book positioning notes: 21 - Chapter map notes: 7 - Evidence notes: 12 - Concept seed notes: 6 - Comparison notes: 6 - This is the main content-layer rebuild: books now produce reusable secondary knowledge objects instead of staying as isolated files. ## Phase 5 - Knowledge-First Portal - Portal default mode switched back to `All Items`. - `Context Workspace` and `Project Profile` remain available, but are collapsed under `Workspace Tools` so knowledge browsing is the primary entry flow again. - Use-case packs remain in the portal, but they no longer dominate the default landing mode. ## Remaining Risks - 12 private files still have mirror/repost-style provenance signals and should be treated as private analysis sources only. - Official metadata fetch issue: level-up -> Failed to fetch text https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx: 403 Forbidden ## Next Upgrade Targets - Replace more hand-written summaries with extract-backed evidence notes for the remaining commercial books. - Turn high-signal concept seeds into reusable concept cards instead of leaving them as seeds only. - Add automated UI smoke tests for the portal, because the browsing and workspace layers are now both non-trivial. project-audit systems-thinking the-art-of-game-design game-design-workshop game-mechanics-advanced-game-design"
+}

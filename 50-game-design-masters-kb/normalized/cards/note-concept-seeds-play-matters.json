@@ -1,0 +1,65 @@
+{
+  "id": "note-concept-seeds-play-matters",
+  "entity_type": "card",
+  "title": "Play Matters：Concept Seeds",
+  "summary": "On Thinking Playfully / Instructions for Reading This Book / 1 Play Is / 2 Playfulness / 3 Toys / 4 Playgrounds / 5 Beauty / 6 Politics / 7 Architects / 8 Play…",
+  "card_kind": "concept_seed_note",
+  "phase_group": "content-narrative",
+  "deliverable_type": "worldbuilding",
+  "resource_kind": "note",
+  "source_work_id": "play-matters",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "player-motivation",
+    "fun-theory"
+  ],
+  "related_work_ids": [
+    "play-matters",
+    "the-aesthetic-of-play",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [
+    "work-play-matters",
+    "note-book-positioning-play-matters",
+    "note-chapter-map-play-matters"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262534512/play-matters/"
+  ],
+  "local_links": [
+    {
+      "label": "play-matters-f1ee20310d33.json",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/play-matters-f1ee20310d33.json"
+    }
+  ],
+  "body_markdown": "# Play Matters：Concept Seeds\n\n## 可继续长成卡片的概念种子\n\n- On Thinking Playfully\n- Instructions for Reading This Book\n- 1 Play Is\n- 2 Playfulness\n- 3 Toys\n- 4 Playgrounds\n- 5 Beauty\n- 6 Politics\n- 7 Architects\n- 8 Play in the Era of Computing Machinery\n\n## 这本书最可能回答的问题\n\n- 最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。\n- 围绕“世界与身份审查”去检索相关章节和证据。\n- 围绕“长期沉浸判断”去检索相关章节和证据。\n- 围绕“高层体验补课”去检索相关章节和证据。\n\n## AI 引用建议\n\n- 先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。\n- 如果需要更稳的回答，优先同时引用这本书的 `book entry`、`chapter map note` 和这张 `concept seeds` 卡。\n\n## Evidence Anchors\n\n- On Thinking Playfully (p.8)\n- Acknowledgments (p.10)\n- Instructions for Reading This Book (p.12)\n- 1 Play Is (p.14)\n- 2 Playfulness (p.32)\n- 3 Toys (p.48)\n",
+  "body_html": "<h1 id=\"play-matters：concept-seeds\">Play Matters：Concept Seeds</h1>\n<h2 id=\"可继续长成卡片的概念种子\">可继续长成卡片的概念种子</h2>\n<ul><li>On Thinking Playfully</li><li>Instructions for Reading This Book</li><li>1 Play Is</li><li>2 Playfulness</li><li>3 Toys</li><li>4 Playgrounds</li><li>5 Beauty</li><li>6 Politics</li><li>7 Architects</li><li>8 Play in the Era of Computing Machinery</li></ul>\n<h2 id=\"这本书最可能回答的问题\">这本书最可能回答的问题</h2>\n<ul><li>最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。</li><li>围绕“世界与身份审查”去检索相关章节和证据。</li><li>围绕“长期沉浸判断”去检索相关章节和证据。</li><li>围绕“高层体验补课”去检索相关章节和证据。</li></ul>\n<h2 id=\"ai-引用建议\">AI 引用建议</h2>\n<ul><li>先把相关章节标题和你的项目问题一起给模型，而不是笼统地说“参考整本书”。</li><li>如果需要更稳的回答，优先同时引用这本书的 <code>book entry</code>、<code>chapter map note</code> 和这张 <code>concept seeds</code> 卡。</li></ul>\n<h2 id=\"evidence-anchors\">Evidence Anchors</h2>\n<ul><li>On Thinking Playfully (p.8)</li><li>Acknowledgments (p.10)</li><li>Instructions for Reading This Book (p.12)</li><li>1 Play Is (p.14)</li><li>2 Playfulness (p.32)</li><li>3 Toys (p.48)</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Play Matters：Concept Seeds",
+      "id": "play-matters：concept-seeds"
+    },
+    {
+      "level": 2,
+      "text": "可继续长成卡片的概念种子",
+      "id": "可继续长成卡片的概念种子"
+    },
+    {
+      "level": 2,
+      "text": "这本书最可能回答的问题",
+      "id": "这本书最可能回答的问题"
+    },
+    {
+      "level": 2,
+      "text": "AI 引用建议",
+      "id": "ai-引用建议"
+    },
+    {
+      "level": 2,
+      "text": "Evidence Anchors",
+      "id": "evidence-anchors"
+    }
+  ],
+  "search_text": "Play Matters On Thinking Playfully Instructions for Reading This Book 1 Play Is 2 Playfulness 3 Toys 4 Playgrounds 5 Beauty 6 Politics 7 Architects 8 Play in the Era of Computing Machinery 最适合做高层体验判断、世界观与身份感审查，以及长线项目的玩家关系分析。 世界与身份审查 长期沉浸判断 高层体验补课 Contents On Thinking Playfully Acknowledgments Instructions for Reading This Book 1 Play Is 2 Playfulness 3 Toys 4 Playgrounds 5 Beauty 6 Politics 7 Architects 8 Play in the Era of Computing Machinery Notes References"
+}

@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bookos.dossier.schema.v1",
+  "title": "BookOS BookDossier",
+  "type": "object",
+  "required": [
+    "dossier_id",
+    "entity_type",
+    "work_id",
+    "dossier_type",
+    "metadata",
+    "source_basis",
+    "confidence",
+    "claim_scope",
+    "dossier_status"
+  ],
+  "properties": {
+    "dossier_id": {
+      "type": "string"
+    },
+    "entity_type": {
+      "const": "BookDossier"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "dossier_type": {
+      "enum": [
+        "metadata_stub",
+        "reading_notes",
+        "verified_dossier",
+        "project_dossier"
+      ]
+    },
+    "source_basis": {
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "claim_scope": {
+      "enum": [
+        "source_stated",
+        "user_interpretation",
+        "ai_hypothesis",
+        "project_application",
+        "playtest_observation"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "author",
+        "source_documents",
+        "legal_status",
+        "ingestion_status"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "edition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "isbn": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_documents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "legal_status": {
+          "type": "string"
+        },
+        "ingestion_status": {
+          "type": "string"
+        }
+      }
+    },
+    "chapter_map": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "chapter_id",
+          "chapter_title",
+          "chapter_order",
+          "status",
+          "domains",
+          "phase_groups",
+          "expected_card_types",
+          "user_note_slot",
+          "manual_quote_slot",
+          "questions_to_answer"
+        ],
+        "properties": {
+          "chapter_id": {
+            "type": "string"
+          },
+          "chapter_title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "chapter_order": {
+            "type": "integer"
+          },
+          "status": {
+            "enum": [
+              "metadata_only",
+              "user_notes_needed",
+              "user_notes_available",
+              "legally_summarized"
+            ]
+          },
+          "domains": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "phase_groups": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "expected_card_types": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "user_note_slot": {
+            "type": "string"
+          },
+          "manual_quote_slot": {
+            "type": "string"
+          },
+          "questions_to_answer": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "core_claims": {
+      "type": "array"
+    },
+    "key_concepts": {
+      "type": "array"
+    },
+    "frameworks": {
+      "type": "array"
+    },
+    "design_exercises": {
+      "type": "array"
+    },
+    "quotes": {
+      "type": "array"
+    },
+    "cards_to_create": {
+      "type": "array"
+    },
+    "dossier_status": {
+      "enum": [
+        "metadata_shell",
+        "user_notes_needed",
+        "partial",
+        "verified",
+        "archived"
+      ]
+    }
+  }
+}

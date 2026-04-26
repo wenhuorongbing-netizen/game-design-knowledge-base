@@ -1,0 +1,749 @@
+{
+  "schema_version": "bookos.sources.v2",
+  "updated_date": "2026-04-26",
+  "scope": "Prompt 2 source inventory and legal-risk registry",
+  "governance_files": [
+    "kb/00_governance/KB_CONSTITUTION.md",
+    "kb/00_governance/LEGAL_SOURCE_POLICY.md",
+    "kb/00_governance/SOURCE_BASIS_ENUM.md",
+    "kb/00_governance/CONFIDENCE_MODEL.md"
+  ],
+  "source_basis_enum": [
+    "open_fulltext",
+    "official_metadata",
+    "user_legal_file",
+    "user_manual_note",
+    "user_manual_quote",
+    "derived_from_user_note",
+    "derived_from_public_metadata",
+    "metadata_only",
+    "unsupported_draft"
+  ],
+  "ingestion_status_enum": [
+    "allowed_full_ingestion",
+    "allowed_metadata_only",
+    "metadata_only_quarantined",
+    "waiting_for_user_legal_sidecar",
+    "rejected"
+  ],
+  "operation_enum": [
+    "record_metadata",
+    "record_table_of_contents",
+    "attach_user_notes",
+    "attach_manual_quotes",
+    "generate_dossier_from_user_notes",
+    "generate_cards_from_user_notes",
+    "generate_summary",
+    "generate_embeddings"
+  ],
+  "source_documents": [
+    {
+      "source_document_id": "src-archive-knowledge-7z",
+      "original_filename": "knowledge.7z",
+      "relative_path": "knowledge.7z",
+      "normalized_title": "knowledge archive container",
+      "detected_author": [],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".7z",
+      "file_size_if_available": 453163587,
+      "source_origin_flags": [
+        "archive_container",
+        "contains_unreviewed_material"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_archive_for_knowledge_ingest",
+        "derive_claims_from_archive_contents"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar and a clean extraction plan before any internal archive inspection.",
+      "notes": "Container recorded only by filename and size. No archive contents were listed or extracted."
+    },
+    {
+      "source_document_id": "src-user-rebuild-instruction",
+      "original_filename": "rebuild_instruction.md",
+      "relative_path": "knowledge/rebuild_instruction.md",
+      "normalized_title": "Knowledge Base Rebuilding Instruction",
+      "detected_author": [
+        "User"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".md",
+      "file_size_if_available": 41368,
+      "source_origin_flags": [
+        "user_instruction",
+        "process_note"
+      ],
+      "risk_level": "low",
+      "ingestion_status": "allowed_full_ingestion",
+      "source_basis": "user_manual_note",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes",
+        "generate_summary"
+      ],
+      "prohibited_operations": [
+        "treat_as_primary_book_source",
+        "treat_as_external_citation_without_user_attribution"
+      ],
+      "recommended_user_action": "Use as process governance and rebuild direction only.",
+      "notes": "This file may guide KB structure, but it is not a scholarly source for book claims."
+    },
+    {
+      "source_document_id": "src-user-prompt-2-known-work-list",
+      "original_filename": "conversation_prompt_2_2026-04-26",
+      "relative_path": null,
+      "normalized_title": "Prompt 2 requested known-work reference list",
+      "detected_author": [
+        "User"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": "conversation_instruction",
+      "file_size_if_available": null,
+      "source_origin_flags": [
+        "user_instruction",
+        "reference_list"
+      ],
+      "risk_level": "low",
+      "ingestion_status": "allowed_metadata_only",
+      "source_basis": "user_manual_note",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "treat_as_primary_source_text",
+        "generate_summary",
+        "generate_embeddings"
+      ],
+      "recommended_user_action": "Attach official metadata links, open sources, or legal files for prompt-referenced works that are not present in the upload set.",
+      "notes": "This source supports only the fact that the user wants these works tracked."
+    },
+    {
+      "source_document_id": "src-legacy-kb-snapshot",
+      "original_filename": "50-game-design-masters-kb",
+      "relative_path": "knowledge/50-game-design-masters-kb",
+      "normalized_title": "legacy game design KB snapshot",
+      "detected_author": [],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": "folder",
+      "file_size_if_available": null,
+      "source_origin_flags": [
+        "legacy_derived_snapshot",
+        "requires_reaudit"
+      ],
+      "risk_level": "unknown",
+      "ingestion_status": "allowed_metadata_only",
+      "source_basis": "unsupported_draft",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes"
+      ],
+      "prohibited_operations": [
+        "generate_summary",
+        "generate_embeddings",
+        "promote_claims_as_verified",
+        "reuse_derived_summaries_without_source_chain"
+      ],
+      "recommended_user_action": "Rebuild useful legacy ideas only after each claim is reattached to a governed source basis.",
+      "notes": "Legacy snapshot can guide migration planning, not verified knowledge."
+    },
+    {
+      "source_document_id": "src-file-advanced-game-design-systems-approach-zlib",
+      "original_filename": "Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "Advanced Game Design: A Systems Approach",
+      "detected_author": [
+        "Michael Sellers"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 38765548,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-challenges-for-game-designers-zlib",
+      "original_filename": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "Challenges for Game Designers",
+      "detected_author": [
+        "Brenda Brathwaite",
+        "Ian Schreiber"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 4476952,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-characteristics-of-games-ann",
+      "original_filename": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "normalized_title": "Characteristics of Games",
+      "detected_author": [
+        "George Skaff Elias",
+        "Richard Garfield",
+        "K. Robert"
+      ],
+      "detected_edition": null,
+      "publisher": "MIT Press",
+      "publication_year": 2012,
+      "isbn_10": null,
+      "isbn_13": "9780262017138",
+      "file_type": ".epub",
+      "file_size_if_available": 5186348,
+      "source_origin_flags": [
+        "suspicious_mirror_marker",
+        "Ann"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Metadata is filename-level only. Third author text appears incomplete in filename and needs official metadata verification."
+    },
+    {
+      "source_document_id": "src-file-game-design-workshop-zlib",
+      "original_filename": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "Game Design Workshop: A Playcentric Approach to Creating Innovative Games",
+      "detected_author": [
+        "Tracy Fullerton"
+      ],
+      "detected_edition": "5th Edition",
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 213163415,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-game-feel-epub-zlib",
+      "original_filename": "Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "normalized_title": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+      "detected_author": [
+        "Steve Swink"
+      ],
+      "detected_edition": null,
+      "publisher": "Morgan Kaufmann Game Design Books",
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".epub",
+      "file_size_if_available": 3230025,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Duplicate EPUB variant for the Game Feel work. No EPUB body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-game-feel-pdf-zlib",
+      "original_filename": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+      "detected_author": [
+        "Steve Swink"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 4392903,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Duplicate PDF variant for the Game Feel work. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-game-mechanics-epub-zlib",
+      "original_filename": "Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "normalized_title": "Game Mechanics: Advanced Game Design",
+      "detected_author": [],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".epub",
+      "file_size_if_available": 14755293,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Author names are not visible in the filename. Prompt 2 references Ernest Adams and Joris Dormans as likely work authors; verify using official metadata."
+    },
+    {
+      "source_document_id": "src-file-level-up-epub-zlib",
+      "original_filename": "Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "normalized_title": "Level Up: The Guide to Great Video Game Design",
+      "detected_author": [
+        "Scott Rogers"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".epub",
+      "file_size_if_available": 9337016,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No EPUB body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-play-matters-pdf-zlib",
+      "original_filename": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "Play Matters",
+      "detected_author": [
+        "Miguel Sicart"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 7862585,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-aesthetic-of-play-pdf-zlib",
+      "original_filename": "The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "The Aesthetic of Play",
+      "detected_author": [
+        "Brian Upton"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 4883796,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-art-of-game-design-annas",
+      "original_filename": "The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+      "normalized_title": "The Art of Game Design: A Book of Lenses",
+      "detected_author": [
+        "Jesse Schell"
+      ],
+      "detected_edition": "Second Edition",
+      "publisher": "A K Peters / CRC Press",
+      "publication_year": 2014,
+      "isbn_10": null,
+      "isbn_13": "9780123694966",
+      "file_type": ".pdf",
+      "file_size_if_available": 15531690,
+      "source_origin_flags": [
+        "Anna’s Archive",
+        "suspicious_mirror_marker"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Filename contains edition, year, publisher, and ISBN13. These remain filename-level metadata until verified against an official source."
+    },
+    {
+      "source_document_id": "src-file-game-design-reader-zlib",
+      "original_filename": "The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/The game design reader  a Rules of play anthology (Tekinbaş, Katie Salen Zimmerman, Eric etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "The Game Design Reader: A Rules of Play Anthology",
+      "detected_author": [
+        "Katie Salen Tekinbaş",
+        "Eric Zimmerman"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 41345792,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-file-theory-of-fun-zlib",
+      "original_filename": "Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "normalized_title": "A Theory of Fun for Game Design",
+      "detected_author": [
+        "Raph Koster"
+      ],
+      "detected_edition": "2nd Edition",
+      "publisher": null,
+      "publication_year": null,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".pdf",
+      "file_size_if_available": 98524160,
+      "source_origin_flags": [
+        "z-library",
+        "1lib",
+        "z-lib"
+      ],
+      "risk_level": "high",
+      "ingestion_status": "metadata_only_quarantined",
+      "source_basis": "metadata_only",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes",
+        "attach_manual_quotes",
+        "generate_dossier_from_user_notes",
+        "generate_cards_from_user_notes"
+      ],
+      "prohibited_operations": [
+        "record_table_of_contents",
+        "generate_summary",
+        "generate_embeddings",
+        "extract_body_text",
+        "extract_quotes",
+        "create_chapter_summary",
+        "create_cards_from_source_body"
+      ],
+      "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
+      "notes": "Detected from filename only. No PDF body or front matter was read."
+    }
+  ],
+  "source_risks": [
+    {
+      "risk_level": "low",
+      "meaning": "User instruction, user note, open source, or official metadata where operations are explicitly allowed."
+    },
+    {
+      "risk_level": "medium",
+      "meaning": "Source has incomplete provenance or unclear reuse rights; metadata use may be allowed but body transformation is blocked pending review."
+    },
+    {
+      "risk_level": "high",
+      "meaning": "Source has suspicious mirror markers, archive-risk markers, or other legal uncertainty. Body text must not be ingested."
+    },
+    {
+      "risk_level": "unknown",
+      "meaning": "Source cannot yet be assessed; do not promote claims from it."
+    }
+  ],
+  "source_sidecars": [],
+  "audit_notes": [
+    "Prompt 2 used filenames, file types, file sizes, user-provided requested work list, and existing governance only.",
+    "No high-risk source body text was summarized, quoted, embedded, or transformed.",
+    "High-risk documents remain usable only as metadata handles until the user provides legal sidecars."
+  ]
+}

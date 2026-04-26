@@ -1,0 +1,307 @@
+{
+  "id": "characteristics-of-games",
+  "title": "Characteristics of Games",
+  "authors": [
+    "George Skaff Elias",
+    "Richard Garfield",
+    "K. Robert Gutschera"
+  ],
+  "year": 2012,
+  "kind": "book",
+  "canonical_url": "https://mitpress.mit.edu/9780262542692/characteristics-of-games/",
+  "publisher_or_source": "MIT Press",
+  "language": "en",
+  "license": "Commercial",
+  "access_mode": "user_file_needed",
+  "source_ids": [
+    "mit-press"
+  ],
+  "phase_group": "numbers-economy",
+  "deliverable_type": "numeric-framework-design",
+  "theme_tags": [
+    "formalism",
+    "economy-loops",
+    "systems-thinking"
+  ],
+  "summary": "从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。",
+  "key_points": [
+    "它的价值在于把“游戏像什么”拆成更细的结构特征。",
+    "适合分析选择空间、信息暴露、不确定性和多人竞争结构。",
+    "和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。"
+  ],
+  "recommended_for": [
+    "系统策划",
+    "数值策划",
+    "主策"
+  ],
+  "official_links": [
+    "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+  ],
+  "related_work_ids": [
+    "game-mechanics-advanced-game-design",
+    "advanced-game-design-a-systems-approach"
+  ],
+  "usage_relevance": "最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。",
+  "knowledge_domains": [
+    "游戏分析框架",
+    "信息结构",
+    "不确定性",
+    "多人竞争",
+    "系统弧线"
+  ],
+  "purposes": [
+    "结构化拆解",
+    "规则审查",
+    "多人系统分析"
+  ],
+  "reading_modes": [
+    "按章通读",
+    "作为分析词典反查",
+    "与具体案例并读"
+  ],
+  "value_types": [
+    "分析语言",
+    "概念地图",
+    "术语标准"
+  ],
+  "knowledge_lifecycle": [
+    "系统设计",
+    "规则评审",
+    "设计写作"
+  ],
+  "entity_type": "work",
+  "slug": "characteristics-of-games",
+  "phase_label": "数值与经济设计",
+  "deliverable_label": "数值框架设计",
+  "theme_labels": [
+    "规则与形式化",
+    "经济循环",
+    "系统思维"
+  ],
+  "availability_label": "已有私有书源",
+  "source_labels": [
+    "MIT Press"
+  ],
+  "official_link_entries": [
+    {
+      "label": "mitpress.mit.edu",
+      "url": "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "size_bytes": 5186348,
+      "extension": "epub",
+      "sha256": "b0ae59f87d22778a348b41b3f27720cd3eb5688b2a4828649f41dd3aac17c41d",
+      "resource_kind": "book",
+      "user_supplied": true,
+      "source_review_status": "accepted",
+      "provenance_label": "user_provided_file",
+      "provenance_flags": [],
+      "review_notes": []
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://mitpress.mit.edu/9780262542692/characteristics-of-games/",
+      "source_id": "mit-press",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/characteristics-of-games/01-mitpress.mit.edu-9780262542692-characteristics-of-games-.html",
+      "fetched_at": "2026-04-25T05:31:53.377Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://mitpress.mit.edu/9780262542692/characteristics-of-games/",
+        "title": "Book Details - MIT Press",
+        "description": "MIT Press - Book Details",
+        "authors": [],
+        "isbn": "9780262542692",
+        "publisher": "",
+        "date_published": "2021-12-01T14:22:19+00:00",
+        "json_ld_type": "WebPage, ItemPage"
+      }
+    }
+  ],
+  "private_extracts": [
+    {
+      "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+      "matched_work_id": "characteristics-of-games",
+      "extraction_status": "ok",
+      "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json",
+      "format": "epub",
+      "section_count": 10,
+      "toc_count": 10,
+      "warnings": []
+    }
+  ],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": true,
+  "private_source_count": 1,
+  "private_extract_count": 1,
+  "metadata_summary": "MIT Press - Book Details",
+  "search_text": "Characteristics of Games George Skaff Elias Richard Garfield K. Robert Gutschera 从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。 它的价值在于把“游戏像什么”拆成更细的结构特征。 适合分析选择空间、信息暴露、不确定性和多人竞争结构。 和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。 最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。 系统策划 数值策划 主策 游戏分析框架 信息结构 不确定性 多人竞争 系统弧线 结构化拆解 规则审查 多人系统分析 按章通读 作为分析词典反查 与具体案例并读 分析语言 概念地图 术语标准 系统设计 规则评审 设计写作 Characteristics of Games Foreword Preface Acknowledgments Introduction 数值与经济设计 数值框架设计 规则与形式化 经济循环 系统思维 MIT Press MIT Press - Book Details",
+  "content_markdown": "# Characteristics of Games\n\n## 基本信息\n\n- 作者：George Skaff Elias / Richard Garfield / K. Robert Gutschera\n- 年份：2012\n- 类型：book\n- 来源：MIT Press\n\n## 摘要\n\n从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。\n\n## 核心要点\n\n- 它的价值在于把“游戏像什么”拆成更细的结构特征。\n- 适合分析选择空间、信息暴露、不确定性和多人竞争结构。\n- 和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。\n\n## 适用场景\n\n最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。\n\n## 知识定位\n\n- 关注领域：游戏分析框架 / 信息结构 / 不确定性 / 多人竞争 / 系统弧线\n- 主要用途：结构化拆解 / 规则审查 / 多人系统分析\n- 推荐读法：按章通读 / 作为分析词典反查 / 与具体案例并读\n- 价值类型：分析语言 / 概念地图 / 术语标准\n- 最适合介入的阶段：系统设计 / 规则评审 / 设计写作\n\n## 分类\n\n- 一级分类：数值与经济设计\n- 二级输出物：数值框架设计\n- 主题标签：规则与形式化 / 经济循环 / 系统思维\n- 可用性：已有私有书源\n\n## 解析结构\n\n- 解析标题：Characteristics of Games\n- 解析格式：epub\n- 顶层目录预览：\n  - Characteristics of Games\n  - Foreword\n  - Preface\n  - Acknowledgments\n  - Introduction\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：0 个\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub`（用户提供）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json`（ok）\n\n## 官方链接\n\n- <https://mitpress.mit.edu/9780262542692/characteristics-of-games/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/characteristics-of-games/01-mitpress.mit.edu-9780262542692-characteristics-of-games-.html`\n\n## 相关条目\n\n- Game Mechanics: Advanced Game Design\n- Advanced Game Design: A Systems Approach\n",
+  "content_html": "<h1 id=\"characteristics-of-games\">Characteristics of Games</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：George Skaff Elias / Richard Garfield / K. Robert Gutschera</li><li>年份：2012</li><li>类型：book</li><li>来源：MIT Press</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从游戏本体出发分析状态、信息、不确定性、玩家努力、多人结构和系统弧线，是偏设计师视角的游戏分析框架书。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它的价值在于把“游戏像什么”拆成更细的结构特征。</li><li>适合分析选择空间、信息暴露、不确定性和多人竞争结构。</li><li>和 Game Mechanics 一起看时，一本偏分析框架，一本偏系统建模。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合做规则结构分析、信息设计判断、多人系统拆解，以及给数值/系统文档增加更精确的分析语言。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：游戏分析框架 / 信息结构 / 不确定性 / 多人竞争 / 系统弧线</li><li>主要用途：结构化拆解 / 规则审查 / 多人系统分析</li><li>推荐读法：按章通读 / 作为分析词典反查 / 与具体案例并读</li><li>价值类型：分析语言 / 概念地图 / 术语标准</li><li>最适合介入的阶段：系统设计 / 规则评审 / 设计写作</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：数值与经济设计</li><li>二级输出物：数值框架设计</li><li>主题标签：规则与形式化 / 经济循环 / 系统思维</li><li>可用性：已有私有书源</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Characteristics of Games</li><li>解析格式：epub</li><li>顶层目录预览：</li><li>Characteristics of Games</li><li>Foreword</li><li>Preface</li><li>Acknowledgments</li><li>Introduction</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：0 个</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub</code>（用户提供）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://mitpress.mit.edu/9780262542692/characteristics-of-games/\" target=\"_blank\" rel=\"noreferrer\">https://mitpress.mit.edu/9780262542692/characteristics-of-games/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/characteristics-of-games/01-mitpress.mit.edu-9780262542692-characteristics-of-games-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>Game Mechanics: Advanced Game Design</li><li>Advanced Game Design: A Systems Approach</li></ul>",
+  "primary_private_extract": {
+    "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+    "matched_work_id": "characteristics-of-games",
+    "extraction_status": "ok",
+    "artifact_relative_path": "knowledge/50-game-design-masters-kb/raw/private-library/extracted/characteristics-of-games-b0ae59f87d22.json",
+    "format": "epub",
+    "section_count": 10,
+    "toc_count": 10,
+    "warnings": []
+  },
+  "primary_private_artifact": {
+    "format": "epub",
+    "metadata": {
+      "title": "Characteristics of Games",
+      "authors": [
+        "George Skaff Elias & Richard Garfield & K. Robert Gutschera & Peter Whitley & Eric Zimmerman"
+      ],
+      "language": "en",
+      "publisher": "MIT Press",
+      "identifier": "3339506"
+    },
+    "page_count": null,
+    "toc": [
+      {
+        "label": "Characteristics of Games",
+        "depth": 0,
+        "href": "OPS/xhtml/cover.xhtml"
+      },
+      {
+        "label": "",
+        "depth": 0,
+        "href": "OPS/xhtml/c000_1.xhtml"
+      },
+      {
+        "label": "",
+        "depth": 0,
+        "href": "OPS/xhtml/c000_2.xhtml"
+      },
+      {
+        "label": "",
+        "depth": 0,
+        "href": "OPS/xhtml/c000_3.xhtml"
+      },
+      {
+        "label": "",
+        "depth": 0,
+        "href": "OPS/xhtml/c000_4.xhtml"
+      },
+      {
+        "label": "Characteristics of Games",
+        "depth": 0,
+        "href": "OPS/xhtml/contents.xhtml"
+      },
+      {
+        "label": "Foreword",
+        "depth": 0,
+        "href": "OPS/xhtml/c000a.xhtml"
+      },
+      {
+        "label": "Preface",
+        "depth": 0,
+        "href": "OPS/xhtml/c000b.xhtml"
+      },
+      {
+        "label": "Acknowledgments",
+        "depth": 0,
+        "href": "OPS/xhtml/c000c.xhtml"
+      },
+      {
+        "label": "Introduction",
+        "depth": 0,
+        "href": "OPS/xhtml/c000d.xhtml"
+      }
+    ],
+    "sample_sections": [
+      {
+        "label": "Characteristics of Games",
+        "location": {
+          "href": "OPS/xhtml/cover.xhtml"
+        },
+        "text": "Characteristics of Games"
+      },
+      {
+        "label": "",
+        "location": {
+          "href": "OPS/xhtml/c000_1.xhtml"
+        },
+        "text": "Characteristics of Games"
+      },
+      {
+        "label": "",
+        "location": {
+          "href": "OPS/xhtml/c000_2.xhtml"
+        },
+        "text": "Characteristics of Games George Skaff Elias, Richard Garfield, and K. Robert Gutschera foreword by Eric Zimmerman drawings by Peter Whitley The MIT Press Cambridge, Massachusetts London, England"
+      },
+      {
+        "label": "",
+        "location": {
+          "href": "OPS/xhtml/c000_3.xhtml"
+        },
+        "text": "© 2012 Massachusetts Institute of Technology All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher. For information about special quantity discounts, please email special_sales@mitpress.mit.edu This book was set in Stone Sans and Stone Serif by Toppan Best-set Premedia Limited. Library of Congress Cataloging-in-Publication Data Elias, George Skaff. Characteristics of games / George Skaff Elias, Richard Garfield, and K. Robert Gutschera; foreword by Eric Zimmerman; drawings by Peter Whitley. p. cm. Includes bibliographical references and index. ISBN 978-0-262-01713-8 (hardcover : alk. paper) 1. Games—Design and construction. 2. Games—Rules. 3. Game theory. I. Garfield, Richard. II. Gutschera, Karl Robert, 1964– III. Title. GV1230.E38 2012 793—dc23 2011031296 10 9 8 7 6 5 4 3 2 d_r0"
+      },
+      {
+        "label": "",
+        "location": {
+          "href": "OPS/xhtml/c000_4.xhtml"
+        },
+        "text": "To Sadie, Ike, and Lucy, to Terry and Schuyler, and to Karl and Deborah Gutschera And to the memory of Martin Gardner"
+      },
+      {
+        "label": "Characteristics of Games",
+        "location": {
+          "href": "OPS/xhtml/contents.xhtml"
+        },
+        "text": "Characteristics of Games Table of Contents Foreword Preface Acknowledgments Introduction 1 Basics 2 Multiplayer Games 3 Infrastructure 4 Games as Systems 5 Indeterminacy 6 Player Effort 7 Superstructure 8 Appendixes Bibliography Index List of tables Chapter 5 Table 5.1 List of figures Introduction Figure I.1 ©iStockphoto.com/Baris Simsek Figure I.2 ©iStockphoto.com/Pamela Moore Figure I.3 ©iStockphoto.com/Jess Wiberg Chapter 1 Figure 1.1 ©iStockphoto.com/Lev Mel Figure 1.2 ©iStockphoto.com/Ed Hidden Figure 1.3 ©iStockphoto.com/mark wragg Chapter 2 Figure 2.1 ©iStockphoto.com/Sergejs Razvodovskis Figure 2.2 ©iStockphoto.com/Brane Bozic Figure 2.3 ©iStockphoto.com/Shane Stezelberger Figure 2.4 Figure 2.5 ©iStockphoto.com/Ana Abejon Chapter 3 Figure 3.1 Figure 3.2 Figure 3.3 Figure 3.4 Figure 3.5 ©iStockphoto.com/Juan Escalante Figure 3.6 ©iStockphoto.com/Pei Ling Hoo Chapter 4 Figure 4.1 ©iStockphoto.com/Troy Knox Figure 4.2 ©iStockphoto.com Figure 4.3 Is A really ahead? And if so, by how much? Figure 4.4 Typical win Figure 4.5 Typical loss Figure 4.6 Only the end matters Figure 4.7 Effective elimination Figure 4.8 ©iStockphoto.com/Baris Simsek Figure 4.9 Classic game arc Figure 4.10 A game ending suddenly Figure 4.11 Game arc—a beginner's view Figure 4.12 The confusion of the beginning go player Figure 4.13 Complexity progression in a miniatures battle Figure 4.14 Sports—roughly constant complexity Figure 4.15 MMO—lifetime of one character Figure 4.16 MMO—a single raid Figure 4.17 Chapter 5 Figure 5.1 ©iStockphoto.com/Akadiusz Iwanicki Figure 5.2 ©iStockphoto.com/iofoto Figure 5.3 The skill chain Figure 5.4 Adding randomness to a game Figure 5.5 Adding politics to a game Figure 5.6 ©iStockphoto.com/Alexander Garaev Chapter 6 Figure 6.1 ©iStockphoto.com/daniel sainthorant Figure 6.2 ©iStockphoto.com/Catherine Key Figure 6.3 ©iStockphoto.com/Tom Nguyen Figure 6.4 ©iStockphoto.com/Gustaf Brundin Figure 6.5 ©iStockphoto.com/diego cervo Figure 6.6 Rewards for effort in hearts Figure 6.7 Rewards for reading deeply in chess Figure 6.8 Rewards for effort in chess vs. hearts Figure 6.9 Low rewards for effort in high-luck games Figure 6.10 Greater rewards for effort in low-luck games Figure 6.11 Chess reconsidered—rewards for opening study Figure 6.12 Tiger's new swing Figure 6.13 New golf swing—disaster! Figure 6.14 No useful effort to be made Figure 6.15 Much effort for a small reward—but worth it! Figure 6.16 Sports—some rewards come slowly at first Chapter 7 Figu"
+      },
+      {
+        "label": "Foreword",
+        "location": {
+          "href": "OPS/xhtml/c000a.xhtml"
+        },
+        "text": "Foreword Foreword When Richard, Robert, and Skaff approached me about writing the foreword for their book and I cracked the first pages of the manuscript, I must admit I was taken by surprise. The book they had written goes against the grain. Unlike the spate of publications about games hitting shelves over the last few years, Characteristics of Games is not brimming with promises about how games are going to change the world. This book is not going to tell you how games are going to revolutionize education, business, society, or other aspects of Life as We Know It. There is nothing wrong with those kinds of books. But they often miss the trees for the forest. In promising a grand purpose and glorious future for games, they generally neglect to look closely at games themselves. Characteristics of Games is different. It is a meticulous book about the design of games by some of the legendary craftsmen of the form. It is an investigation into the details of games—the nuts-and-bolts minutiae of how games actually work. As book readers go, I swing both ways. I can enjoy riding high on the hype about games—because, truth be told, I do believe that games represent the most vital and vibrant form of culture today, and that they have the power to transform our society in ways we can scarcely imagine. But getting there isn't going to happen by reading books about how great they are. It is going to happen through the rigorous work of brilliant designers and theoreticians, slowly unlocking the great secrets of games. The book you hold in your hands charts just this kind of journey; Characteristics of Games may say less, but do more. Games have a very long history—from their roots in the play of higher mammals, to ancient sports and games of millennia past, up through today's complex boardgames and videogames. Although we find ourselves in a time when games seem newly relevant, the truth is that games are nothing new. As a wellspring of pleasure, games are a cultural universal: our species, it seems, has always liked to play them. But despite their seductive appeal, the nerdy little secret of games is that they are intensely mathematical. Games as a form of culture have a unique relationship to math—to systems, structures, and numbers. And so it's no surprise that Characteristics of Games , as a detailed study of the form, is intensely analytical. The question is, can systems be dramatic? Can math be breathtaking? Can numbers move your soul? If you study, or play, or m"
+      },
+      {
+        "label": "Preface",
+        "location": {
+          "href": "OPS/xhtml/c000b.xhtml"
+        },
+        "text": "Preface Preface This book is meant for anyone interested in games: designers, reviewers, critics, and players. We hope that anyone who looks at games and wonders how to make them better, or wants to understand more clearly how they work, will get something out of it. Our own background is that of game players and game designers rather than academicians or reviewers, and that is the approach we take here. It is not a “how-to” book on game design, though, but a way of looking critically at games and talking intelligently about them. In short, one can think of Characteristics of Games as a framework for game analysis from the point of view of a game designer. From our point of view, games include boardgames, card games, sports, computer games, and many other kinds of games—we mean to be inclusive. We think these different genres of games have many things to teach each other. For example, card games provide many good examples of the power of standards, sports are strong at supporting spectation as well as direct participation, and boardgames have wrestled extensively with the issues arising from multiple independent players. A word of warning, though: some topics that might seem central to someone whose main interest is in computer games, say, or in sports, might receive a less thorough treatment than they would in a book entirely about that subject. For example, single-player games are central to computer gaming, but are rather a special case when viewed from the vantage point of gaming as a whole—we discuss them, but not nearly in the depth a book about computer gaming would. 1 We hope the gain from our broader point of view makes up for this inevitable loss of detail. Given our intended scope, we choose examples from a great many different genres as we discuss various issues. We try to pick well-known games within these genres whenever possible, so as to lighten the burden on the reader. Also, in appendix C we have a list of games referred to in the text, with brief descriptions of each. The reader with a broad experience of games, and a broad view of what gaming is, will be more likely to find our book congenial reading. Other than presupposing an interest in games, and at least some familiarity with them, this book has no formal prerequisites. There are occasional mathematical digressions for which a familiarity with high school algebra would be helpful, but these can by and large be skipped with no loss of continuity. In particular, this book is by no me"
+      },
+      {
+        "label": "Acknowledgments",
+        "location": {
+          "href": "OPS/xhtml/c000c.xhtml"
+        },
+        "text": "Acknowledgments Acknowledgments The authors would like to thank Julie Villegas and especially Wanda Gregory at the University of Washington for helping us start the course on which this book is based. Thanks also to our teaching assistant Jonathon Loucks, and to all of our students for serving as willing, and even enthusiastic, guinea pigs. Timothy Chow and David Reiley gave many helpful comments, as did the three anonymous reviewers. We would also like to thank Hilary Ross and Adam Dixon at Wizards of the Coast for their help. Many thanks to the gang at the Pit, who, while not directly involved in the book, formed the best working environment a game designer could hope to inhabit. The third author would like to thank Bill Rose, Jason Robar, and David Brevik for being generous with time for the course and the book, and Eleanor Rieffel for advice and support with the wild world of academic publishing. Thanks also to the Chit-Chat Café and the Honey Bear Bakery. And last of all, but also first of all, thanks to Sandy, Scotte, Jan, Sean, Eric, Judy, Sarah, Daryl, Dan, and all the rest of the original gaming group."
+      },
+      {
+        "label": "Introduction",
+        "location": {
+          "href": "OPS/xhtml/c000d.xhtml"
+        },
+        "text": "Introduction Introduction Figure I.1 ©iStockphoto.com/Baris Simsek Figure I.2 ©iStockphoto.com/Pamela Moore Figure I.3 ©iStockphoto.com/Jess Wiberg Relatively little scholarly work has been written about games compared with the amount produced on other cultural phenomena of similar size such as films. Historically most of the material on games, such as Huizinga's Homo Ludens or Caillois's Man, Play, and Games , has focused on the place of games in society, and thus on historical, sociological, and cultural issues. Less attention has been paid to the games themselves, as games: what it is like to play them, what features differentiate one game from another, or what features make one game a more or less enjoyable experience for its players. Other books, such as Bell's Board and Table Games from Many Civilizations , Murray's A History of Board-Games Other Than Chess , or Parlett's various books on boardgames and card games, are primarily catalogs of game rules or historical treatments—excellent references, but without much analysis of games as a whole. Later academic work, such as that of Avedon and Sutton-Smith in the 1960s and 1970s, continued to focus largely on historical and cultural issues. Today most of the published material on games comes from the computer gaming industry, in the form of books with titles like Secrets of Game Programming in C++ . These books tend to focus on practical advice relevant to computer gaming, concerning issues such as programming or project management (important exceptions include Crawford's various books and Schell's The Art of Game Design , which focus on the process of game design itself), rather than the more general approach we hope to pursue. There are also a growing number of academic titles, often collections of essays, such as Cassell and Jenkins's From Barbie to Mortal Kombat or Wolf and Perron's The Video Game Theory Reader . These books tend to have a somewhat different approach from ours, though, with more sociological and cultural issues and less gameplay-specific analysis; they also tend to focus on computer games. One notable exception is Salen and Zimmerman's Rules of Play , which has a great deal of gameplay discussion and devotes considerable space to boardgames and card games. Our intention is to focus more on issues intrinsic to the games themselves, the kinds of topics that game players or game designers often discuss but rarely write down. 1 Again, to take film as an example, when students come to th"
+      }
+    ],
+    "preview_text": "Characteristics of Games\n\nCharacteristics of Games\n\nCharacteristics of Games George Skaff Elias, Richard Garfield, and K. Robert Gutschera foreword by Eric Zimmerman drawings by Peter Whitley The MIT Press Cambridge, Massachusetts London, England",
+    "extraction_status": "ok",
+    "source_path": "D:\\Game\\FOTN\\founder-of-the-north\\knowledge\\Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+    "file_name": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub"
+  },
+  "primary_toc_preview": [
+    "Characteristics of Games",
+    "Foreword",
+    "Preface",
+    "Acknowledgments",
+    "Introduction"
+  ],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "user_file_needed"
+}

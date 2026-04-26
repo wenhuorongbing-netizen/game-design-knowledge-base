@@ -1,0 +1,242 @@
+[
+  {
+    "id": "req-game-design-workshop",
+    "title": "Game Design Workshop",
+    "author": "Tracy Fullerton",
+    "priority": "P0",
+    "reason": "原型、试玩、迭代和流程设计的核心主干书。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009"
+    ],
+    "status": "review_required",
+    "matched_work_id": "game-design-workshop",
+    "matched_files": [
+      {
+        "file_name": "Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/Game Design Workshop A Playcentric Approach to Creating Innovative Games, 5th Edition (Tracy Fullerton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-game-feel",
+    "title": "Game Feel: A Game Designer's Guide to Virtual Sensation",
+    "author": "Steve Swink",
+    "priority": "P0",
+    "reason": "打击感、移动感、操作反馈和动效表达的主干书。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://www.routledge.com/Game-Feel-A-Game-Designers-Guide-to-Virtual-Sensation/Swink/p/book/9780123743282"
+    ],
+    "status": "review_required",
+    "matched_work_id": "game-feel",
+    "matched_files": [
+      {
+        "file_name": "Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Morgan Kaufmann Game Design Books) (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "source_review_status": "needs_review"
+      },
+      {
+        "file_name": "Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/Game Feel A Game Designers Guide to Virtual Sensation (Steve Swink) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-game-mechanics",
+    "title": "Game Mechanics: Advanced Game Design",
+    "author": "Ernest Adams; Joris Dormans",
+    "priority": "P0",
+    "reason": "数值与经济设计、资源循环和复杂系统建模的核心主干书。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://www.informit.com/store/product.aspx?isbn=9780132946681"
+    ],
+    "status": "review_required",
+    "matched_work_id": "game-mechanics-advanced-game-design",
+    "matched_files": [
+      {
+        "file_name": "Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "relative_path": "knowledge/Game Mechanics Advanced Game Design ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-rules-of-play",
+    "title": "Rules of Play",
+    "author": "Katie Salen Tekinbaş; Eric Zimmerman",
+    "priority": "P0",
+    "reason": "规则、系统与意义语言的基础书，适合统一文档和审查术语。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://mitpress.mit.edu/9780262240451/rules-of-play"
+    ],
+    "status": "needed",
+    "matched_work_id": "rules-of-play",
+    "matched_files": []
+  },
+  {
+    "id": "req-the-art-of-game-design",
+    "title": "The Art of Game Design: A Book of Lenses",
+    "author": "Jesse Schell",
+    "priority": "P0",
+    "reason": "立项与方向、核心玩法判断和总设计审查的主干书。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://schellgames.com/art-of-game-design",
+      "https://www.routledge.com/link/link/p/book/9781138632059"
+    ],
+    "status": "review_required",
+    "matched_work_id": "the-art-of-game-design",
+    "matched_files": [
+      {
+        "file_name": "The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+        "relative_path": "knowledge/The Art of Game Design _ A Book of Lenses, Second Edition -- Schell, Jesse, Schell, Jesse -- 2, 2014 -- imusti; A K Peters_CRC Press -- isbn13 9780123694966 -- 52cc2c674374b7ebab44880d86676f0f -- Anna’s Archive.pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-theory-of-fun",
+    "title": "A Theory of Fun for Game Design",
+    "author": "Raph Koster",
+    "priority": "P1",
+    "reason": "乐趣、学习与模式识别层的关键材料。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://www.theoryoffun.com/"
+    ],
+    "status": "review_required",
+    "matched_work_id": "a-theory-of-fun-for-game-design",
+    "matched_files": [
+      {
+        "file_name": "Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-challenges-for-game-designers",
+    "title": "Challenges for Game Designers",
+    "author": "Brenda Romero; Ian Schreiber",
+    "priority": "P1",
+    "reason": "很适合扩展为训练型 prompt 与题库式知识卡。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://gamedesignconcepts.wordpress.com/"
+    ],
+    "status": "review_required",
+    "matched_work_id": "challenges-for-game-designers",
+    "matched_files": [
+      {
+        "file_name": "Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/Challenges for Game Designers (Brenda Brathwaite, Ian Schreiber) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-characteristics-of-games",
+    "title": "Characteristics of Games",
+    "author": "George Skaff Elias; Richard Garfield; K. Robert Gutschera",
+    "priority": "P1",
+    "reason": "形式化机制分析和资源结构分析的高价值补充。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://mitpress.mit.edu/9780262542692/characteristics-of-games/"
+    ],
+    "status": "provided",
+    "matched_work_id": "characteristics-of-games",
+    "matched_files": [
+      {
+        "file_name": "Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+        "relative_path": "knowledge/Characteristics of Games (The MIT Press) -- George Skaff Elias, Richard Garfield, and K_ Robert -- MIT Press, Cambridge, MA, 2012 -- MIT Press; The -- isbn13 9780262017138 -- 83e09ce579544431f49d5e8e4fbc97b9 -- Ann.epub",
+        "source_review_status": "accepted"
+      }
+    ]
+  },
+  {
+    "id": "req-level-up",
+    "title": "Level Up! The Guide to Great Video Game Design",
+    "author": "Scott Rogers",
+    "priority": "P1",
+    "reason": "更贴近商业开发与 design-to-production 文档表达。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://newsroom.wiley.com/press-releases/press-release-details/2014/Level-Up-The-Guide-to-Great-Video-Game-Design/default.aspx"
+    ],
+    "status": "review_required",
+    "matched_work_id": "level-up",
+    "matched_files": [
+      {
+        "file_name": "Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "relative_path": "knowledge/Level Up The Guide to Great Video Game Design (Rogers Scott) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-advanced-game-design",
+    "title": "Advanced Game Design: A Systems Approach",
+    "author": "Michael Sellers",
+    "priority": "P2",
+    "reason": "适合补系统思维中层方法论。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://www.informit.com/store/advanced-game-design-a-systems-approach-9780134668246"
+    ],
+    "status": "review_required",
+    "matched_work_id": "advanced-game-design-a-systems-approach",
+    "matched_files": [
+      {
+        "file_name": "Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/Advanced game design  a systems approach (Sellers, Michael (Game designer), author) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-play-matters",
+    "title": "Play Matters",
+    "author": "Miguel Sicart",
+    "priority": "P2",
+    "reason": "适合补充世界观、玩家态度和 playfulness 分析。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://mitpress.mit.edu/9780262534512/play-matters/"
+    ],
+    "status": "review_required",
+    "matched_work_id": "play-matters",
+    "matched_files": [
+      {
+        "file_name": "Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/Play Matters (Miguel Sicart) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  },
+  {
+    "id": "req-the-aesthetic-of-play",
+    "title": "The Aesthetic of Play",
+    "author": "Brian Upton",
+    "priority": "P2",
+    "reason": "适合补玩法体验与意义层判断。",
+    "preferred_format": "EPUB or text-based PDF",
+    "official_links": [
+      "https://mitpress.mit.edu/9780262028516/the-aesthetic-of-play/"
+    ],
+    "status": "review_required",
+    "matched_work_id": "the-aesthetic-of-play",
+    "matched_files": [
+      {
+        "file_name": "The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "relative_path": "knowledge/The Aesthetic of Play (Brian Upton) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "source_review_status": "needs_review"
+      }
+    ]
+  }
+]

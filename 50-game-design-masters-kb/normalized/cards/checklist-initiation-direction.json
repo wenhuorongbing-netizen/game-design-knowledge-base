@@ -1,0 +1,56 @@
+{
+  "id": "checklist-initiation-direction",
+  "entity_type": "card",
+  "title": "立项与方向审查 Checklist",
+  "summary": "在立项阶段检查概念是否已经收束到能推进的程度。",
+  "card_kind": "checklist",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "director-review",
+  "resource_kind": "checklist",
+  "source_work_id": "",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "project-audit",
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-concepts-course"
+  ],
+  "related_card_ids": [
+    "phase-guide-initiation-direction",
+    "prompt-initiation-direction"
+  ],
+  "official_links": [],
+  "local_links": [],
+  "body_markdown": "# 立项与方向审查 Checklist\n\n## 适用场景\n\n用于方向评审会、立项文档 review，或决定一个点子是否进入原型阶段。\n\n## 检查项\n\n- 一句话概念能清楚区分“是什么”和“不是什麽”。\n- 目标玩家不是泛泛而谈，而是可命名的具体群体。\n- 核心玩法不依赖世界观堆叠就能成立。\n- 平台选择与控制、时长、商业化约束相匹配。\n- 至少列出两个最高风险并有明确验证办法。\n- MVP 已经做过保留项 / 推迟项 / 删除项切分。\n- 团队能在当前周期内做出一个最小验证件。\n\n## 通过标准\n\n- 团队成员能用相近的话复述项目方向。\n- 能解释为什么这个项目值得做，以及为什么现在做。\n- 能说清第一轮验证要证明什么。\n\n## 常见失败信号\n\n- 所有亮点都建立在“以后会更完整”上。\n- 没有明确目标玩家，只是在罗列可能喜欢的人群。\n- MVP 仍然试图保留完整世界和所有系统。\n",
+  "body_html": "<h1 id=\"立项与方向审查-checklist\">立项与方向审查 Checklist</h1>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>用于方向评审会、立项文档 review，或决定一个点子是否进入原型阶段。</p>\n<h2 id=\"检查项\">检查项</h2>\n<ul><li>一句话概念能清楚区分“是什么”和“不是什麽”。</li><li>目标玩家不是泛泛而谈，而是可命名的具体群体。</li><li>核心玩法不依赖世界观堆叠就能成立。</li><li>平台选择与控制、时长、商业化约束相匹配。</li><li>至少列出两个最高风险并有明确验证办法。</li><li>MVP 已经做过保留项 / 推迟项 / 删除项切分。</li><li>团队能在当前周期内做出一个最小验证件。</li></ul>\n<h2 id=\"通过标准\">通过标准</h2>\n<ul><li>团队成员能用相近的话复述项目方向。</li><li>能解释为什么这个项目值得做，以及为什么现在做。</li><li>能说清第一轮验证要证明什么。</li></ul>\n<h2 id=\"常见失败信号\">常见失败信号</h2>\n<ul><li>所有亮点都建立在“以后会更完整”上。</li><li>没有明确目标玩家，只是在罗列可能喜欢的人群。</li><li>MVP 仍然试图保留完整世界和所有系统。</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "立项与方向审查 Checklist",
+      "id": "立项与方向审查-checklist"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "检查项",
+      "id": "检查项"
+    },
+    {
+      "level": 2,
+      "text": "通过标准",
+      "id": "通过标准"
+    },
+    {
+      "level": 2,
+      "text": "常见失败信号",
+      "id": "常见失败信号"
+    }
+  ],
+  "search_text": "立项与方向审查 Checklist 在立项阶段检查概念是否已经收束到能推进的程度。 用于方向评审会、立项文档 review，或决定一个点子是否进入原型阶段。 一句话概念能清楚区分“是什么”和“不是什麽”。 目标玩家不是泛泛而谈，而是可命名的具体群体。 核心玩法不依赖世界观堆叠就能成立。 平台选择与控制、时长、商业化约束相匹配。 至少列出两个最高风险并有明确验证办法。 MVP 已经做过保留项 / 推迟项 / 删除项切分。 团队能在当前周期内做出一个最小验证件。 团队成员能用相近的话复述项目方向。 能解释为什么这个项目值得做，以及为什么现在做。 能说清第一轮验证要证明什么。 所有亮点都建立在“以后会更完整”上。 没有明确目标玩家，只是在罗列可能喜欢的人群。 MVP 仍然试图保留完整世界和所有系统。 project-audit design-fundamentals"
+}

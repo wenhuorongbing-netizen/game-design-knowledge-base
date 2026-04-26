@@ -1,0 +1,251 @@
+{
+  "schema_version": "bookos.relationship_types.v1",
+  "updated_date": "2026-04-26",
+  "edge_metadata_fields": [
+    "edge_id",
+    "relationship_type",
+    "source_entity_id",
+    "target_entity_id",
+    "evidence_required",
+    "evidence_ids",
+    "source_basis",
+    "confidence",
+    "created_at"
+  ],
+  "relationship_types": [
+    {
+      "relationship_type": "cites",
+      "source_entity_types": ["BookDossier", "Claim", "KnowledgeCard", "Framework", "DesignLens", "WorkflowPack", "ForumThread"],
+      "target_entity_types": ["SourceDocument", "GameDesignWork", "Evidence", "Quote"],
+      "direction": "source_to_target",
+      "meaning": "The source entity references a source, work, evidence item, or quote.",
+      "example": "A dossier cites a GameDesignWork.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "derived_from",
+      "source_entity_types": ["Concept", "Claim", "Framework", "DesignLens", "KnowledgeCard", "WorkflowPack", "PromptTemplate", "ProjectOverlay"],
+      "target_entity_types": ["SourceDocument", "GameDesignWork", "UserNote", "Evidence", "Claim", "BookDossier"],
+      "direction": "derived_object_to_basis_object",
+      "meaning": "The source entity was created from the target entity.",
+      "example": "A checklist card is derived from a user reading note.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "supports",
+      "source_entity_types": ["Evidence", "Quote", "UserNote", "PlaytestLog", "Claim"],
+      "target_entity_types": ["Claim", "Framework", "DesignLens", "KnowledgeCard", "DesignDecision"],
+      "direction": "evidence_to_claim_like_object",
+      "meaning": "The source entity supports the target.",
+      "example": "A playtest log supports a claim about tutorial confusion.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "challenges",
+      "source_entity_types": ["Claim", "Evidence", "PlaytestLog", "Comment", "ForumThread"],
+      "target_entity_types": ["Claim", "Framework", "DesignLens", "DesignDecision"],
+      "direction": "challenger_to_challenged",
+      "meaning": "Raises doubt or counterpressure without fully disproving.",
+      "example": "A playtest challenges a difficulty assumption.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "contradicts",
+      "source_entity_types": ["Claim", "Evidence", "PlaytestLog", "UserNote"],
+      "target_entity_types": ["Claim", "Framework", "DesignDecision"],
+      "direction": "contradicting_to_contradicted",
+      "meaning": "Directly conflicts with the target.",
+      "example": "A later test contradicts an earlier comprehension claim.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "extends",
+      "source_entity_types": ["Concept", "Framework", "KnowledgeCard", "WorkflowPack", "PromptTemplate"],
+      "target_entity_types": ["Concept", "Framework", "KnowledgeCard", "WorkflowPack", "PromptTemplate"],
+      "direction": "extension_to_base",
+      "meaning": "Adds new scope while preserving the base.",
+      "example": "A project-specific prompt extends a general critique prompt.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "refines",
+      "source_entity_types": ["Claim", "Concept", "KnowledgeCard", "DesignLens", "WorkflowPack", "DesignDecision"],
+      "target_entity_types": ["Claim", "Concept", "KnowledgeCard", "DesignLens", "WorkflowPack", "DesignDecision"],
+      "direction": "refined_to_earlier",
+      "meaning": "Narrows, clarifies, or improves the target.",
+      "example": "A revised core loop card refines an earlier draft.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "applies_to",
+      "source_entity_types": ["Concept", "Claim", "Framework", "DesignLens", "KnowledgeCard", "WorkflowPack", "PromptTemplate"],
+      "target_entity_types": ["Project", "ProjectOverlay", "DesignDecision", "PhaseGroup", "Domain"],
+      "direction": "general_object_to_application_target",
+      "meaning": "The source entity is usable in the target context.",
+      "example": "A playtest workflow applies to a prototype project.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "used_in_phase",
+      "source_entity_types": ["GameDesignWork", "Concept", "Framework", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate"],
+      "target_entity_types": ["PhaseGroup"],
+      "direction": "object_to_phase",
+      "meaning": "The object is routed to a production phase.",
+      "example": "A Game Feel work is used in the art/UI/experience phase.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "produces_deliverable",
+      "source_entity_types": ["WorkflowPack", "Exercise", "PromptTemplate"],
+      "target_entity_types": ["KnowledgeCard", "BookDossier", "ProjectOverlay", "DesignDecision", "PlaytestLog", "Tag"],
+      "direction": "process_to_output",
+      "meaning": "The source entity produces the target output.",
+      "example": "A playtest workflow produces a PlaytestLog.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "requires_input",
+      "source_entity_types": ["WorkflowPack", "PromptTemplate", "Exercise"],
+      "target_entity_types": ["SourceDocument", "UserNote", "Project", "ProjectOverlay", "KnowledgeCard", "Tag"],
+      "direction": "process_to_required_input",
+      "meaning": "The source entity requires the target before execution.",
+      "example": "A dossier workflow requires legal source status.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "has_output",
+      "source_entity_types": ["WorkflowPack", "PromptRun", "Exercise"],
+      "target_entity_types": ["KnowledgeCard", "BookDossier", "Claim", "PlaytestLog", "ProjectOverlay", "DesignDecision"],
+      "direction": "producer_to_output",
+      "meaning": "The source entity generated or contains the target result.",
+      "example": "A PromptRun outputs a prompt card.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "has_prerequisite",
+      "source_entity_types": ["Lesson", "Exercise", "WorkflowPack", "KnowledgeCard"],
+      "target_entity_types": ["Concept", "Framework", "Lesson", "Exercise", "KnowledgeCard"],
+      "direction": "dependent_to_prerequisite",
+      "meaning": "The target should be understood or completed first.",
+      "example": "A balance lesson has a prerequisite core loop concept.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "improves",
+      "source_entity_types": ["DesignDecision", "ProjectOverlay", "WorkflowPack", "KnowledgeCard", "PlaytestLog"],
+      "target_entity_types": ["Project", "Concept", "Claim", "WorkflowPack"],
+      "direction": "improving_object_to_improved_target",
+      "meaning": "The source entity improves target quality, workflow, or design state.",
+      "example": "A UI audit improves HUD readability.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "tests",
+      "source_entity_types": ["PlaytestLog", "Exercise", "PromptTemplate", "WorkflowPack"],
+      "target_entity_types": ["Claim", "Concept", "ProjectOverlay", "DesignDecision"],
+      "direction": "test_object_to_target",
+      "meaning": "The source entity is designed to test the target.",
+      "example": "A playtest tests a resource-loop assumption.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "validates",
+      "source_entity_types": ["PlaytestLog", "Evidence", "UserNote"],
+      "target_entity_types": ["Claim", "DesignDecision", "ProjectOverlay", "Framework"],
+      "direction": "validating_evidence_to_target",
+      "meaning": "Confirms the target within stated limits.",
+      "example": "A playtest validates that danger feedback was noticed.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "invalidates",
+      "source_entity_types": ["PlaytestLog", "Evidence", "UserNote"],
+      "target_entity_types": ["Claim", "DesignDecision", "ProjectOverlay", "Framework"],
+      "direction": "invalidating_evidence_to_target",
+      "meaning": "Rejects or falsifies the target within stated limits.",
+      "example": "A playtest invalidates an onboarding assumption.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "belongs_to_work",
+      "source_entity_types": ["SourceDocument", "BookDossier", "ChapterNode", "Claim", "Quote", "UserNote"],
+      "target_entity_types": ["GameDesignWork"],
+      "direction": "object_to_work",
+      "meaning": "The source entity is associated with an intellectual work.",
+      "example": "A dossier belongs to a work.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "belongs_to_domain",
+      "source_entity_types": ["GameDesignWork", "Concept", "Claim", "Framework", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate"],
+      "target_entity_types": ["Domain"],
+      "direction": "object_to_domain",
+      "meaning": "The source entity is routed to a domain.",
+      "example": "A game feel card belongs to game_feel.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "belongs_to_phase",
+      "source_entity_types": ["GameDesignWork", "Concept", "Claim", "Framework", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate", "ProjectOverlay"],
+      "target_entity_types": ["PhaseGroup"],
+      "direction": "object_to_phase",
+      "meaning": "The source entity is routed to a production phase.",
+      "example": "A release checklist belongs to operations and release.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "related_to",
+      "source_entity_types": ["any"],
+      "target_entity_types": ["any"],
+      "direction": "bidirectional",
+      "meaning": "The entities are associated but no stronger relation is asserted.",
+      "example": "UI feedback is related to game feel.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "compared_with",
+      "source_entity_types": ["GameDesignWork", "Framework", "Concept", "Claim", "KnowledgeCard", "ProjectOverlay"],
+      "target_entity_types": ["GameDesignWork", "Framework", "Concept", "Claim", "KnowledgeCard", "ProjectOverlay"],
+      "direction": "symmetric",
+      "meaning": "The entities are compared in a card, dossier, or thread.",
+      "example": "A framework is compared with a project-specific experience model.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "part_of",
+      "source_entity_types": ["ChapterNode", "Concept", "KnowledgeCard", "Exercise", "WorkflowPack", "Comment"],
+      "target_entity_types": ["BookDossier", "Framework", "Lesson", "WorkflowPack", "ForumThread"],
+      "direction": "part_to_whole",
+      "meaning": "The source entity is a component of the target.",
+      "example": "A comment is part of a forum thread.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "contains",
+      "source_entity_types": ["BookDossier", "Framework", "Lesson", "WorkflowPack", "ForumThread", "ProjectOverlay"],
+      "target_entity_types": ["ChapterNode", "Concept", "KnowledgeCard", "Exercise", "PromptTemplate", "Comment", "DesignDecision"],
+      "direction": "whole_to_part",
+      "meaning": "The source entity contains the target.",
+      "example": "A workflow contains prompt templates.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "version_of",
+      "source_entity_types": ["BookDossier", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate", "ProjectOverlay"],
+      "target_entity_types": ["BookDossier", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate", "ProjectOverlay"],
+      "direction": "version_to_canonical_object",
+      "meaning": "The source entity is a version of the target.",
+      "example": "A project-specific workflow is a version of a general workflow.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "supersedes",
+      "source_entity_types": ["Claim", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate", "DesignDecision"],
+      "target_entity_types": ["Claim", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate", "DesignDecision"],
+      "direction": "newer_to_older",
+      "meaning": "The source entity replaces the target.",
+      "example": "A revised balance checklist supersedes an older checklist.",
+      "evidence_required": true
+    }
+  ]
+}

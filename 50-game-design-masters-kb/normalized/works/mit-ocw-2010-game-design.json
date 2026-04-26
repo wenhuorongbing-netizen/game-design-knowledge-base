@@ -1,0 +1,185 @@
+{
+  "id": "mit-ocw-2010-game-design",
+  "title": "MIT OCW: Game Design (Fall 2010)",
+  "authors": [
+    "Philip B. Tan",
+    "Jason Begy"
+  ],
+  "year": 2010,
+  "kind": "course",
+  "canonical_url": "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/",
+  "publisher_or_source": "MIT OpenCourseWare",
+  "language": "en",
+  "license": "CC BY-NC-SA 4.0",
+  "access_mode": "downloaded_open",
+  "source_ids": [
+    "mit-ocw"
+  ],
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "single-mechanic-prototype-design",
+  "theme_tags": [
+    "design-fundamentals",
+    "formalism"
+  ],
+  "summary": "MIT 的更偏样例与规则资产的课程资源集，适合研究规则排版、卡片和板面交付物。",
+  "key_points": [
+    "是很实用的交付物样本库。",
+    "适合建立规则文件与资产规格感。",
+    "适合和 2014、2016 两套材料联动使用。"
+  ],
+  "recommended_for": [
+    "系统策划",
+    "制作",
+    "UI/UX"
+  ],
+  "official_links": [
+    "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/"
+  ],
+  "seed_bundle": "mit-ocw-2010",
+  "related_work_ids": [
+    "mit-ocw-2014-game-design",
+    "game-design-workshop"
+  ],
+  "usage_relevance": "适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。",
+  "entity_type": "work",
+  "slug": "mit-ocw-2010-game-design",
+  "phase_label": "核心玩法与系统设计",
+  "deliverable_label": "单机制原型设计",
+  "theme_labels": [
+    "设计基础",
+    "规则与形式化"
+  ],
+  "availability_label": "已下载开放全文",
+  "source_labels": [
+    "MIT OpenCourseWare"
+  ],
+  "official_link_entries": [
+    {
+      "label": "ocw.mit.edu",
+      "url": "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/"
+    }
+  ],
+  "local_files": [
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-cards.pdf",
+      "size_bytes": 1278526,
+      "extension": "pdf",
+      "sha256": "752f3f56cd245d6a9b1fb294bdf20460aff93a0586fb76a41e256164b1bbc927",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-rules.pdf",
+      "size_bytes": 295472,
+      "extension": "pdf",
+      "sha256": "e1dba5b88bf0c0ab03b6a88de913b09ccc0e34acb37d69dfd5f9c451100816ad",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-cards.pdf",
+      "size_bytes": 73368,
+      "extension": "pdf",
+      "sha256": "5818d3e1320829caa33006b172d59d0a7326b8ce2e60d2ecaa8782f2156b9bc7",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-rules.pdf",
+      "size_bytes": 59835,
+      "extension": "pdf",
+      "sha256": "7d64b3d76711317c557b8fccf5610cec9cbae09e6f17d10c30cf32e9fafa2e81",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-a.pdf",
+      "size_bytes": 8582632,
+      "extension": "pdf",
+      "sha256": "d8401d4edd4f10824a658e7ab6c68cce409d88bdbef442b87ffbb6a13ebb09f6",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-b.pdf",
+      "size_bytes": 7825081,
+      "extension": "pdf",
+      "sha256": "ed37062d211df1b0b52f412ae9ae645aca8d9b6b0be4a62f91684268b87705f0",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-rules.pdf",
+      "size_bytes": 68687,
+      "extension": "pdf",
+      "sha256": "d2e30703ec298be4901815756389342b0a1930df148c1bf3437d5885b51e5549",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-board.pdf",
+      "size_bytes": 374963,
+      "extension": "pdf",
+      "sha256": "2ac8cad119cc9bb9e2901fa9df3573199cbd31da215994ee48cbb4cfdd1f4f05",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-cards.pdf",
+      "size_bytes": 137538,
+      "extension": "pdf",
+      "sha256": "e834ec00bf6bef879502208ea7609760375379748f68f6bfe9908ba3d5ac78f2",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    },
+    {
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-rules.pdf",
+      "size_bytes": 124609,
+      "extension": "pdf",
+      "sha256": "5a1cb78238a798c53e71a2cf960793c34e886991e8d754da99d6194d6235bfbd",
+      "resource_kind": "course-pdf",
+      "user_supplied": false
+    }
+  ],
+  "official_metadata_pages": [
+    {
+      "url": "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/",
+      "source_id": "mit-ocw",
+      "relative_path": "knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2010-game-design/01-ocw.mit.edu-courses-cms-608-game-design-fall-2010-.html",
+      "fetched_at": "2026-04-25T05:31:45.047Z",
+      "status": "reused",
+      "metadata": {
+        "url": "https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/",
+        "title": "MIT OpenCourseWare",
+        "description": "This course provides practical instruction in the design and analysis of non-digital games. Students cover the texts, tools, references and historical context to analyze and compare game designs across a variety of genres, including sports, game shows, games of chance, card games, schoolyard games, board games, and role–playing games. In teams, students design, develop, and thoroughly test their original games to understand the interaction and evolution of game rules. Students taking the graduate version complete additional assignments.",
+        "authors": [],
+        "isbn": "",
+        "publisher": "MIT OpenCourseWare",
+        "date_published": "",
+        "json_ld_type": "WebPage"
+      }
+    }
+  ],
+  "private_extracts": [],
+  "downloaded": true,
+  "needs_user_file": false,
+  "has_private_source": false,
+  "private_source_count": 0,
+  "private_extract_count": 0,
+  "metadata_summary": "This course provides practical instruction in the design and analysis of non-digital games. Students cover the texts, tools, references and historical context to analyze and compare game designs across a variety of genres, including sports, game shows, games of chance, card games, schoolyard games, board games, and role–playing games. In teams, students design, develop, and thoroughly test their original games to understand the interaction and evolution of game rules. Students taking the graduate version complete additional assignments.",
+  "search_text": "MIT OCW: Game Design (Fall 2010) Philip B. Tan Jason Begy MIT 的更偏样例与规则资产的课程资源集，适合研究规则排版、卡片和板面交付物。 是很实用的交付物样本库。 适合建立规则文件与资产规格感。 适合和 2014、2016 两套材料联动使用。 适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。 系统策划 制作 UI/UX 核心玩法与系统设计 单机制原型设计 设计基础 规则与形式化 MIT OpenCourseWare This course provides practical instruction in the design and analysis of non-digital games. Students cover the texts, tools, references and historical context to analyze and compare game designs across a variety of genres, including sports, game shows, games of chance, card games, schoolyard games, board games, and role–playing games. In teams, students design, develop, and thoroughly test their original games to understand the interaction and evolution of game rules. Students taking the graduate version complete additional assignments.",
+  "content_markdown": "# MIT OCW: Game Design (Fall 2010)\n\n## 基本信息\n\n- 作者：Philip B. Tan / Jason Begy\n- 年份：2010\n- 类型：course\n- 来源：MIT OpenCourseWare\n\n## 摘要\n\nMIT 的更偏样例与规则资产的课程资源集，适合研究规则排版、卡片和板面交付物。\n\n## 核心要点\n\n- 是很实用的交付物样本库。\n- 适合建立规则文件与资产规格感。\n- 适合和 2014、2016 两套材料联动使用。\n\n## 适用场景\n\n适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：单机制原型设计\n- 主题标签：设计基础 / 规则与形式化\n- 可用性：已下载开放全文\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-cards.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-rules.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-cards.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-rules.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-a.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-b.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-rules.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-board.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-cards.pdf`\n- `knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-rules.pdf`\n\n## 官方链接\n\n- <https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2010-game-design/01-ocw.mit.edu-courses-cms-608-game-design-fall-2010-.html`\n\n## 相关条目\n\n- MIT OCW: Game Design (Spring 2014)\n- Game Design Workshop\n",
+  "content_html": "<h1 id=\"mit-ocw-game-design-fall-2010\">MIT OCW: Game Design (Fall 2010)</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Philip B. Tan / Jason Begy</li><li>年份：2010</li><li>类型：course</li><li>来源：MIT OpenCourseWare</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>MIT 的更偏样例与规则资产的课程资源集，适合研究规则排版、卡片和板面交付物。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>是很实用的交付物样本库。</li><li>适合建立规则文件与资产规格感。</li><li>适合和 2014、2016 两套材料联动使用。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>适合把规则与原型交付物做得更像可测试产品，而不是纯叙述文档。</p>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：单机制原型设计</li><li>主题标签：设计基础 / 规则与形式化</li><li>可用性：已下载开放全文</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-cards.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g1-rules.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-cards.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g3-rules.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-a.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-cards-b.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p1g4-rules.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-board.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-cards.pdf</code></li><li><code>knowledge/50-game-design-masters-kb/raw/open-web/mit-ocw-2010/p2g1-rules.pdf</code></li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/\" target=\"_blank\" rel=\"noreferrer\">https://ocw.mit.edu/courses/cms-608-game-design-fall-2010/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/mit-ocw-2010-game-design/01-ocw.mit.edu-courses-cms-608-game-design-fall-2010-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>MIT OCW: Game Design (Spring 2014)</li><li>Game Design Workshop</li></ul>",
+  "knowledge_domains": [],
+  "purposes": [],
+  "reading_modes": [],
+  "value_types": [],
+  "knowledge_lifecycle": [],
+  "primary_private_extract": null,
+  "primary_private_artifact": null,
+  "primary_toc_preview": [],
+  "private_source_review_required_count": 0,
+  "private_source_provenance_flags": [],
+  "source_review_notes": [],
+  "availability_effective_id": "downloaded_open"
+}

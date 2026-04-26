@@ -1,0 +1,87 @@
+{
+  "id": "note-kb-overview",
+  "entity_type": "card",
+  "title": "游戏设计大师知识库",
+  "summary": "游戏设计大师知识库",
+  "card_kind": "source_overview",
+  "phase_group": "initiation-direction",
+  "deliverable_type": "director-review",
+  "resource_kind": "note",
+  "source_work_id": "",
+  "source_markdown_path": "knowledge/50-game-design-masters-kb/README.md",
+  "theme_tags": [
+    "design-fundamentals"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "game-design-concepts-course"
+  ],
+  "related_card_ids": [],
+  "official_links": [],
+  "local_links": [
+    {
+      "label": "README.md",
+      "relative_path": "knowledge/50-game-design-masters-kb/README.md"
+    }
+  ],
+  "body_markdown": "# 游戏设计大师知识库\n\n这个知识库的目标不是“囤 PDF”，而是建立一个可持续使用的通用游戏设计研究库：\n\n- 只收录可合法归档的开放材料。\n- 对受版权保护但必须读的经典书，只保留官方入口、摘要和用途说明。\n- 把“谁该读什么”“怎么把这些材料落到具体项目里”写清楚。\n\n## 当前规模\n\n- 已下载本地文件：53 个\n- 本地体积：约 36.14 MB\n- 主要来源：\n  - `raw/open-web/game-design-concepts/`：Ian Schreiber 的 `Game Design Concepts` 全课程页面快照，21 个 HTML\n  - `raw/open-web/mit-ocw-2010/`：MIT OCW 2010 游戏设计课程材料，10 个 PDF\n  - `raw/open-web/mit-ocw-2014/`：MIT OCW 2014 游戏设计课程材料，8 个 PDF\n  - `raw/open-web/mit-ocw-2016/`：MIT OCW 2016 游戏设计课程材料，11 个 PDF\n  - `raw/open-web/richard-bartle/`：Richard Bartle 授权版 `Designing Virtual Worlds`，PDF + DOCX\n  - `raw/open-web/mda/`：MDA 论文官方 PDF，1 个文件\n\n## 目录结构\n\n- [catalog/01-legal-policy-and-scope.md](catalog/01-legal-policy-and-scope.md)\n  法律边界、授权来源、为什么有些书没有下载。\n- [catalog/02-core-books-and-official-links.md](catalog/02-core-books-and-official-links.md)\n  核心正版书单、每本书解决什么问题、官方入口。\n- [catalog/03-downloaded-open-resources.md](catalog/03-downloaded-open-resources.md)\n  已经在本地的开放资源索引。\n- [catalog/04-master-map.md](catalog/04-master-map.md)\n  设计大师地图，帮你快速决定“当前问题应该看谁”。\n- [notes/01-study-paths.md](notes/01-study-paths.md)\n  按目标拆好的阅读路径。\n- [notes/02-applying-the-kb-to-projects.md](notes/02-applying-the-kb-to-projects.md)\n  把这套知识库落到任意具体项目时可直接套用的方法和审查清单。\n- [notes/03-jesse-schell-and-playcentric-design.md](notes/03-jesse-schell-and-playcentric-design.md)\n- [notes/04-schreiber-romero-and-exercise-driven-design.md](notes/04-schreiber-romero-and-exercise-driven-design.md)\n- [notes/05-koster-crawford-bartle-and-systems-thinking.md](notes/05-koster-crawford-bartle-and-systems-thinking.md)\n- [notes/06-rules-feel-and-formalism.md](notes/06-rules-feel-and-formalism.md)\n\n## 建议入口\n\n如果你现在只是想开始用，不要从头翻。\n\n1. 先看 [catalog/04-master-map.md](catalog/04-master-map.md)。\n2. 再按 [notes/01-study-paths.md](notes/01-study-paths.md) 选一条路径。\n3. 如果目标是直接推进手头项目，优先看 [notes/02-applying-the-kb-to-projects.md](notes/02-applying-the-kb-to-projects.md)。\n\n## 首批 Prompt / Checklist\n\n现在已经内置首批按 6 个母类组织的提示卡：\n\n- 立项与方向：1 个 prompt 模板 + 1 个审查 checklist\n- 核心玩法与系统设计：1 个 prompt 模板 + 1 个审查 checklist\n- 数值与经济设计：1 个 prompt 模板 + 1 个审查 checklist\n- 开发实现：1 个 prompt 模板 + 1 个审查 checklist\n- 测试、验收与审计：1 个 prompt 模板 + 1 个审查 checklist\n- 美术、UI、体验表达：1 个 prompt 模板 + 1 个审查 checklist\n\n在门户里可以用：\n\n- 列表模式：`仅卡片类`\n- 卡片类型过滤：`Prompt 模板` 或 `检查单`\n\n## 第二层子类卡\n\n现在已经继续补了 12 张高频二级卡，分别是：\n\n- 立项与方向：`竞品拆解 Prompt 模板`、`风险预判 Checklist`\n- 核心玩法与系统设计：`战斗系统设计 Prompt 模板`、`新手引导设计 Checklist`\n- 数值与经济设计：`经济系统设计 Prompt 模板`、`成长曲线设计 Checklist`\n- 开发实现：`原型实现 Prompt 模板`、`存档 / 状态机 / 输入系统 Checklist`\n- 测试、验收与审计：`项目状态审计 Prompt 模板`、`版本验收 Checklist`\n- 美术、UI、体验表达：`HUD / UI 结构设计 Prompt 模板`、`玩家体验流畅度评审 Checklist`\n\n这意味着现在这套库已经有两层：\n\n- 第一层：6 个母类入口卡\n- 第二层：12 个高频子类落地卡\n\n## 第三层叶子卡\n\n现在又补了 12 张更贴近真实交付物的叶子卡：\n\n- 立项与方向：`玩家画像与目标市场 Prompt 模板`、`MVP 范围裁剪 Checklist`\n- 核心玩法与系统设计：`核心循环设计 Prompt 模板`、`单机制原型 Checklist`\n- 数值与经济设计：`战斗数值平衡 Prompt 模板`、`掉落与奖励设计 Checklist`\n- 开发实现：`工具链开发 Prompt 模板`、`性能优化 Checklist`\n- 测试、验收与审计：`Bug Triage Prompt 模板`、`回归测试 Checklist`\n- 美术、UI、体验表达：`动效与打击感表达 Prompt 模板`、`可读性与可访问性评审 Checklist`\n\n现在这套库已经形成三层：\n\n- 第一层：母类入口卡\n- 第二层：高频子类卡\n- 第三层：叶子交付物卡\n\n## 当前卡片覆盖\n\n到目前为止，库里已经有：\n\n- 18 个 `Prompt 模板`\n- 18 个 `Checklist`\n- 8 个 `Phase Guide`\n- 其余为书籍条目、来源概览和内部笔记卡\n\n并且已经覆盖 8 个一级分类，不再只停留在最初主展示的 6 个母类。新增覆盖包括：\n\n- 内容与叙事：`世界观设定`、`对话写作`、`叙事结构评审`、`任务文本设计`\n- 运营与发布：`商店页文案`、`发布前检查`、`留存优化`、`更新路线图`\n\n## Prompt Pack\n\n现在还额外生成了批量导出层：\n\n- 按阶段的 `Prompt Pack`\n- 按阶段的 `Checklist Pack`\n- 跨阶段的场景组合包\n- 两份全量汇总包\n\n入口文件会生成在：\n\n- `normalized/packs/`\n- `indexes/prompt-pack-index.json`\n- `reports/prompt-pack-overview.md`\n\n如果你不想一张张点卡，而是想按阶段整包拿去改写，直接用这里的 pack 即可。\n\n当前已经内置的跨阶段组合包包括：\n\n- `Spec Pack`\n- `Audit Pack`\n- `Prototyping Pack`\n- `Release Pack`\n- `Narrative Pack`\n- `Balance Pack`\n\n## 重建命令\n\n- 一键重建：`node kb-tools/build-all.mjs`\n- 强制重抓开放来源：`node kb-tools/build-all.mjs --refresh-open`\n- 强制重抓官方元数据：`node kb-tools/build-all.mjs --refresh-metadata`\n\n## 这次刻意没做的事\n\n- 没有下载《The Art of Game Design》《Rules of Play》《Game Feel》这类受版权保护的商业书完整版。\n- 没有把 `Game AI Pro` 章节镜像进仓库，因为站点明确允许下载，但不允许他站再分发或再托管。\n- 没有抓取版权状态不明确的第三方 PDF 镜像。\n\n如果你之后拥有这些书的合法电子版或无 DRM 版本，我可以继续把它们整理进一个私有索引层，再做全文检索、主题标签和摘要卡片。\n\n具体项目专属的应用文档不再放在这个通用知识库里，而是应放到独立的项目 overlay 目录中。\n",
+  "body_html": "<h1 id=\"游戏设计大师知识库\">游戏设计大师知识库</h1>\n<p>这个知识库的目标不是“囤 PDF”，而是建立一个可持续使用的通用游戏设计研究库：</p>\n<ul><li>只收录可合法归档的开放材料。</li><li>对受版权保护但必须读的经典书，只保留官方入口、摘要和用途说明。</li><li>把“谁该读什么”“怎么把这些材料落到具体项目里”写清楚。</li></ul>\n<h2 id=\"当前规模\">当前规模</h2>\n<ul><li>已下载本地文件：53 个</li><li>本地体积：约 36.14 MB</li><li>主要来源：</li><li><code>raw/open-web/game-design-concepts/</code>：Ian Schreiber 的 <code>Game Design Concepts</code> 全课程页面快照，21 个 HTML</li><li><code>raw/open-web/mit-ocw-2010/</code>：MIT OCW 2010 游戏设计课程材料，10 个 PDF</li><li><code>raw/open-web/mit-ocw-2014/</code>：MIT OCW 2014 游戏设计课程材料，8 个 PDF</li><li><code>raw/open-web/mit-ocw-2016/</code>：MIT OCW 2016 游戏设计课程材料，11 个 PDF</li><li><code>raw/open-web/richard-bartle/</code>：Richard Bartle 授权版 <code>Designing Virtual Worlds</code>，PDF + DOCX</li><li><code>raw/open-web/mda/</code>：MDA 论文官方 PDF，1 个文件</li></ul>\n<h2 id=\"目录结构\">目录结构</h2>\n<ul><li><a href=\"catalog/01-legal-policy-and-scope.md\" target=\"_blank\" rel=\"noreferrer\">catalog/01-legal-policy-and-scope.md</a></li></ul>\n<p>法律边界、授权来源、为什么有些书没有下载。</p>\n<ul><li><a href=\"catalog/02-core-books-and-official-links.md\" target=\"_blank\" rel=\"noreferrer\">catalog/02-core-books-and-official-links.md</a></li></ul>\n<p>核心正版书单、每本书解决什么问题、官方入口。</p>\n<ul><li><a href=\"catalog/03-downloaded-open-resources.md\" target=\"_blank\" rel=\"noreferrer\">catalog/03-downloaded-open-resources.md</a></li></ul>\n<p>已经在本地的开放资源索引。</p>\n<ul><li><a href=\"catalog/04-master-map.md\" target=\"_blank\" rel=\"noreferrer\">catalog/04-master-map.md</a></li></ul>\n<p>设计大师地图，帮你快速决定“当前问题应该看谁”。</p>\n<ul><li><a href=\"notes/01-study-paths.md\" target=\"_blank\" rel=\"noreferrer\">notes/01-study-paths.md</a></li></ul>\n<p>按目标拆好的阅读路径。</p>\n<ul><li><a href=\"notes/02-applying-the-kb-to-projects.md\" target=\"_blank\" rel=\"noreferrer\">notes/02-applying-the-kb-to-projects.md</a></li></ul>\n<p>把这套知识库落到任意具体项目时可直接套用的方法和审查清单。</p>\n<ul><li><a href=\"notes/03-jesse-schell-and-playcentric-design.md\" target=\"_blank\" rel=\"noreferrer\">notes/03-jesse-schell-and-playcentric-design.md</a></li><li><a href=\"notes/04-schreiber-romero-and-exercise-driven-design.md\" target=\"_blank\" rel=\"noreferrer\">notes/04-schreiber-romero-and-exercise-driven-design.md</a></li><li><a href=\"notes/05-koster-crawford-bartle-and-systems-thinking.md\" target=\"_blank\" rel=\"noreferrer\">notes/05-koster-crawford-bartle-and-systems-thinking.md</a></li><li><a href=\"notes/06-rules-feel-and-formalism.md\" target=\"_blank\" rel=\"noreferrer\">notes/06-rules-feel-and-formalism.md</a></li></ul>\n<h2 id=\"建议入口\">建议入口</h2>\n<p>如果你现在只是想开始用，不要从头翻。</p>\n<ol><li>先看 <a href=\"catalog/04-master-map.md\" target=\"_blank\" rel=\"noreferrer\">catalog/04-master-map.md</a>。</li><li>再按 <a href=\"notes/01-study-paths.md\" target=\"_blank\" rel=\"noreferrer\">notes/01-study-paths.md</a> 选一条路径。</li><li>如果目标是直接推进手头项目，优先看 <a href=\"notes/02-applying-the-kb-to-projects.md\" target=\"_blank\" rel=\"noreferrer\">notes/02-applying-the-kb-to-projects.md</a>。</li></ol>\n<h2 id=\"首批-prompt-checklist\">首批 Prompt / Checklist</h2>\n<p>现在已经内置首批按 6 个母类组织的提示卡：</p>\n<ul><li>立项与方向：1 个 prompt 模板 + 1 个审查 checklist</li><li>核心玩法与系统设计：1 个 prompt 模板 + 1 个审查 checklist</li><li>数值与经济设计：1 个 prompt 模板 + 1 个审查 checklist</li><li>开发实现：1 个 prompt 模板 + 1 个审查 checklist</li><li>测试、验收与审计：1 个 prompt 模板 + 1 个审查 checklist</li><li>美术、UI、体验表达：1 个 prompt 模板 + 1 个审查 checklist</li></ul>\n<p>在门户里可以用：</p>\n<ul><li>列表模式：<code>仅卡片类</code></li><li>卡片类型过滤：<code>Prompt 模板</code> 或 <code>检查单</code></li></ul>\n<h2 id=\"第二层子类卡\">第二层子类卡</h2>\n<p>现在已经继续补了 12 张高频二级卡，分别是：</p>\n<ul><li>立项与方向：<code>竞品拆解 Prompt 模板</code>、<code>风险预判 Checklist</code></li><li>核心玩法与系统设计：<code>战斗系统设计 Prompt 模板</code>、<code>新手引导设计 Checklist</code></li><li>数值与经济设计：<code>经济系统设计 Prompt 模板</code>、<code>成长曲线设计 Checklist</code></li><li>开发实现：<code>原型实现 Prompt 模板</code>、<code>存档 / 状态机 / 输入系统 Checklist</code></li><li>测试、验收与审计：<code>项目状态审计 Prompt 模板</code>、<code>版本验收 Checklist</code></li><li>美术、UI、体验表达：<code>HUD / UI 结构设计 Prompt 模板</code>、<code>玩家体验流畅度评审 Checklist</code></li></ul>\n<p>这意味着现在这套库已经有两层：</p>\n<ul><li>第一层：6 个母类入口卡</li><li>第二层：12 个高频子类落地卡</li></ul>\n<h2 id=\"第三层叶子卡\">第三层叶子卡</h2>\n<p>现在又补了 12 张更贴近真实交付物的叶子卡：</p>\n<ul><li>立项与方向：<code>玩家画像与目标市场 Prompt 模板</code>、<code>MVP 范围裁剪 Checklist</code></li><li>核心玩法与系统设计：<code>核心循环设计 Prompt 模板</code>、<code>单机制原型 Checklist</code></li><li>数值与经济设计：<code>战斗数值平衡 Prompt 模板</code>、<code>掉落与奖励设计 Checklist</code></li><li>开发实现：<code>工具链开发 Prompt 模板</code>、<code>性能优化 Checklist</code></li><li>测试、验收与审计：<code>Bug Triage Prompt 模板</code>、<code>回归测试 Checklist</code></li><li>美术、UI、体验表达：<code>动效与打击感表达 Prompt 模板</code>、<code>可读性与可访问性评审 Checklist</code></li></ul>\n<p>现在这套库已经形成三层：</p>\n<ul><li>第一层：母类入口卡</li><li>第二层：高频子类卡</li><li>第三层：叶子交付物卡</li></ul>\n<h2 id=\"当前卡片覆盖\">当前卡片覆盖</h2>\n<p>到目前为止，库里已经有：</p>\n<ul><li>18 个 <code>Prompt 模板</code></li><li>18 个 <code>Checklist</code></li><li>8 个 <code>Phase Guide</code></li><li>其余为书籍条目、来源概览和内部笔记卡</li></ul>\n<p>并且已经覆盖 8 个一级分类，不再只停留在最初主展示的 6 个母类。新增覆盖包括：</p>\n<ul><li>内容与叙事：<code>世界观设定</code>、<code>对话写作</code>、<code>叙事结构评审</code>、<code>任务文本设计</code></li><li>运营与发布：<code>商店页文案</code>、<code>发布前检查</code>、<code>留存优化</code>、<code>更新路线图</code></li></ul>\n<h2 id=\"prompt-pack\">Prompt Pack</h2>\n<p>现在还额外生成了批量导出层：</p>\n<ul><li>按阶段的 <code>Prompt Pack</code></li><li>按阶段的 <code>Checklist Pack</code></li><li>跨阶段的场景组合包</li><li>两份全量汇总包</li></ul>\n<p>入口文件会生成在：</p>\n<ul><li><code>normalized/packs/</code></li><li><code>indexes/prompt-pack-index.json</code></li><li><code>reports/prompt-pack-overview.md</code></li></ul>\n<p>如果你不想一张张点卡，而是想按阶段整包拿去改写，直接用这里的 pack 即可。</p>\n<p>当前已经内置的跨阶段组合包包括：</p>\n<ul><li><code>Spec Pack</code></li><li><code>Audit Pack</code></li><li><code>Prototyping Pack</code></li><li><code>Release Pack</code></li><li><code>Narrative Pack</code></li><li><code>Balance Pack</code></li></ul>\n<h2 id=\"重建命令\">重建命令</h2>\n<ul><li>一键重建：<code>node kb-tools/build-all.mjs</code></li><li>强制重抓开放来源：<code>node kb-tools/build-all.mjs --refresh-open</code></li><li>强制重抓官方元数据：<code>node kb-tools/build-all.mjs --refresh-metadata</code></li></ul>\n<h2 id=\"这次刻意没做的事\">这次刻意没做的事</h2>\n<ul><li>没有下载《The Art of Game Design》《Rules of Play》《Game Feel》这类受版权保护的商业书完整版。</li><li>没有把 <code>Game AI Pro</code> 章节镜像进仓库，因为站点明确允许下载，但不允许他站再分发或再托管。</li><li>没有抓取版权状态不明确的第三方 PDF 镜像。</li></ul>\n<p>如果你之后拥有这些书的合法电子版或无 DRM 版本，我可以继续把它们整理进一个私有索引层，再做全文检索、主题标签和摘要卡片。</p>\n<p>具体项目专属的应用文档不再放在这个通用知识库里，而是应放到独立的项目 overlay 目录中。</p>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "游戏设计大师知识库",
+      "id": "游戏设计大师知识库"
+    },
+    {
+      "level": 2,
+      "text": "当前规模",
+      "id": "当前规模"
+    },
+    {
+      "level": 2,
+      "text": "目录结构",
+      "id": "目录结构"
+    },
+    {
+      "level": 2,
+      "text": "建议入口",
+      "id": "建议入口"
+    },
+    {
+      "level": 2,
+      "text": "首批 Prompt / Checklist",
+      "id": "首批-prompt-checklist"
+    },
+    {
+      "level": 2,
+      "text": "第二层子类卡",
+      "id": "第二层子类卡"
+    },
+    {
+      "level": 2,
+      "text": "第三层叶子卡",
+      "id": "第三层叶子卡"
+    },
+    {
+      "level": 2,
+      "text": "当前卡片覆盖",
+      "id": "当前卡片覆盖"
+    },
+    {
+      "level": 2,
+      "text": "Prompt Pack",
+      "id": "prompt-pack"
+    },
+    {
+      "level": 2,
+      "text": "重建命令",
+      "id": "重建命令"
+    },
+    {
+      "level": 2,
+      "text": "这次刻意没做的事",
+      "id": "这次刻意没做的事"
+    }
+  ],
+  "search_text": "游戏设计大师知识库 # 游戏设计大师知识库 这个知识库的目标不是“囤 PDF”，而是建立一个可持续使用的通用游戏设计研究库： - 只收录可合法归档的开放材料。 - 对受版权保护但必须读的经典书，只保留官方入口、摘要和用途说明。 - 把“谁该读什么”“怎么把这些材料落到具体项目里”写清楚。 ## 当前规模 - 已下载本地文件：53 个 - 本地体积：约 36.14 MB - 主要来源： - `raw/open-web/game-design-concepts/`：Ian Schreiber 的 `Game Design Concepts` 全课程页面快照，21 个 HTML - `raw/open-web/mit-ocw-2010/`：MIT OCW 2010 游戏设计课程材料，10 个 PDF - `raw/open-web/mit-ocw-2014/`：MIT OCW 2014 游戏设计课程材料，8 个 PDF - `raw/open-web/mit-ocw-2016/`：MIT OCW 2016 游戏设计课程材料，11 个 PDF - `raw/open-web/richard-bartle/`：Richard Bartle 授权版 `Designing Virtual Worlds`，PDF + DOCX - `raw/open-web/mda/`：MDA 论文官方 PDF，1 个文件 ## 目录结构 - [catalog/01-legal-policy-and-scope.md](catalog/01-legal-policy-and-scope.md) 法律边界、授权来源、为什么有些书没有下载。 - [catalog/02-core-books-and-official-links.md](catalog/02-core-books-and-official-links.md) 核心正版书单、每本书解决什么问题、官方入口。 - [catalog/03-downloaded-open-resources.md](catalog/03-downloaded-open-resources.md) 已经在本地的开放资源索引。 - [catalog/04-master-map.md](catalog/04-master-map.md) 设计大师地图，帮你快速决定“当前问题应该看谁”。 - [notes/01-study-paths.md](notes/01-study-paths.md) 按目标拆好的阅读路径。 - [notes/02-applying-the-kb-to-projects.md](notes/02-applying-the-kb-to-projects.md) 把这套知识库落到任意具体项目时可直接套用的方法和审查清单。 - [notes/03-jesse-schell-and-playcentric-design.md](notes/03-jesse-schell-and-playcentric-design.md) - [notes/04-schreiber-romero-and-exercise-driven-design.md](notes/04-schreiber-romero-and-exercise-driven-design.md) - [notes/05-koster-crawford-bartle-and-systems-thinking.md](notes/05-koster-crawford-bartle-and-systems-thinking.md) - [notes/06-rules-feel-and-formalism.md](notes/06-rules-feel-and-formalism.md) ## 建议入口 如果你现在只是想开始用，不要从头翻。 1. 先看 [catalog/04-master-map.md](catalog/04-master-map.md)。 2. 再按 [notes/01-study-paths.md](notes/01-study-paths.md) 选一条路径。 3. 如果目标是直接推进手头项目，优先看 [notes/02-applying-the-kb-to-projects.md](notes/02-applying-the-kb-to-projects.md)。 ## 首批 Prompt / Checklist 现在已经内置首批按 6 个母类组织的提示卡： - 立项与方向：1 个 prompt 模板 + 1 个审查 checklist - 核心玩法与系统设计：1 个 prompt 模板 + 1 个审查 checklist - 数值与经济设计：1 个 prompt 模板 + 1 个审查 checklist - 开发实现：1 个 prompt 模板 + 1 个审查 checklist - 测试、验收与审计：1 个 prompt 模板 + 1 个审查 checklist - 美术、UI、体验表达：1 个 prompt 模板 + 1 个审查 checklist 在门户里可以用： - 列表模式：`仅卡片类` - 卡片类型过滤：`Prompt 模板` 或 `检查单` ## 第二层子类卡 现在已经继续补了 12 张高频二级卡，分别是： - 立项与方向：`竞品拆解 Prompt 模板`、`风险预判 Checklist` - 核心玩法与系统设计：`战斗系统设计 Prompt 模板`、`新手引导设计 Checklist` - 数值与经济设计：`经济系统设计 Prompt 模板`、`成长曲线设计 Checklist` - 开发实现：`原型实现 Prompt 模板`、`存档 / 状态机 / 输入系统 Checklist` - 测试、验收与审计：`项目状态审计 Prompt 模板`、`版本验收 Checklist` - 美术、UI、体验表达：`HUD / UI 结构设计 Prompt 模板`、`玩家体验流畅度评审 Checklist` 这意味着现在这套库已经有两层： - 第一层：6 个母类入口卡 - 第二层：12 个高频子类落地卡 ## 第三层叶子卡 现在又补了 12 张更贴近真实交付物的叶子卡： - 立项与方向：`玩家画像与目标市场 Prompt 模板`、`MVP 范围裁剪 Checklist` - 核心玩法与系统设计：`核心循环设计 Prompt 模板`、`单机制原型 Checklist` - 数值与经济设计：`战斗数值平衡 Prompt 模板`、`掉落与奖励设计 Checklist` - 开发实现：`工具链开发 Prompt 模板`、`性能优化 Checklist` - 测试、验收与审计：`Bug Triage Prompt 模板`、`回归测试 Checklist` - 美术、UI、体验表达：`动效与打击感表达 Prompt 模板`、`可读性与可访问性评审 Checklist` 现在这套库已经形成三层： - 第一层：母类入口卡 - 第二层：高频子类卡 - 第三层：叶子交付物卡 ## 当前卡片覆盖 到目前为止，库里已经有： - 18 个 `Prompt 模板` - 18 个 `Checklist` - 8 个 `Phase Guide` - 其余为书籍条目、来源概览和内部笔记卡 并且已经覆盖 8 个一级分类，不再只停留在最初主展示的 6 个母类。新增覆盖包括： - 内容与叙事：`世界观设定`、`对话写作`、`叙事结构评审`、`任务文本设计` - 运营与发布：`商店页文案`、`发布前检查`、`留存优化`、`更新路线图` ## Prompt Pack 现在还额外生成了批量导出层： - 按阶段的 `Prompt Pack` - 按阶段的 `Checklist Pack` - 跨阶段的场景组合包 - 两份全量汇总包 入口文件会生成在： - `normalized/packs/` - `indexes/prompt-pack-index.json` - `reports/prompt-pack-overview.md` 如果你不想一张张点卡，而是想按阶段整包拿去改写，直接用这里的 pack 即可。 当前已经内置的跨阶段组合包包括： - `Spec Pack` - `Audit Pack` - `Prototyping Pack` - `Release Pack` - `Narrative Pack` - `Balance Pack` ## 重建命令 - 一键重建：`node kb-tools/build-all.mjs` - 强制重抓开放来源：`node kb-tools/build-all.mjs --refresh-open` - 强制重抓官方元数据：`node kb-tools/build-all.mjs --refresh-metadata` ## 这次刻意没做的事 - 没有下载《The Art of Game Design》《Rules of Play》《Game Feel》这类受版权保护的商业书完整版。 - 没有把 `Game AI Pro` 章节镜像进仓库，因为站点明确允许下载，但不允许他站再分发或再托管。 - 没有抓取版权状态不明确的第三方 PDF 镜像。 如果你之后拥有这些书的合法电子版或无 DRM 版本，我可以继续把它们整理进一个私有索引层，再做全文检索、主题标签和摘要卡片。 具体项目专属的应用文档不再放在这个通用知识库里，而是应放到独立的项目 overlay 目录中。 design-fundamentals the-art-of-game-design game-design-concepts-course"
+}

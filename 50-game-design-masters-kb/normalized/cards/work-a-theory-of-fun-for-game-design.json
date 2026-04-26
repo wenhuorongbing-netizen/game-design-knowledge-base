@@ -1,0 +1,111 @@
+{
+  "id": "work-a-theory-of-fun-for-game-design",
+  "entity_type": "card",
+  "title": "A Theory of Fun for Game Design",
+  "summary": "从学习、模式识别和脑内奖赏机制出发解释“为什么游戏会好玩”，是把 fun 从口号变成可讨论理论的经典入口。",
+  "card_kind": "book_entry",
+  "phase_group": "core-gameplay-systems",
+  "deliverable_type": "difficulty-curve-design",
+  "resource_kind": "book",
+  "source_work_id": "a-theory-of-fun-for-game-design",
+  "source_markdown_path": "",
+  "theme_tags": [
+    "fun-theory",
+    "player-motivation",
+    "systems-thinking"
+  ],
+  "related_work_ids": [
+    "the-art-of-game-design",
+    "designing-virtual-worlds"
+  ],
+  "related_card_ids": [],
+  "official_links": [
+    "https://www.theoryoffun.com/"
+  ],
+  "local_links": [
+    {
+      "label": "Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "relative_path": "knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+    }
+  ],
+  "body_markdown": "# A Theory of Fun for Game Design\n\n## 基本信息\n\n- 作者：Raph Koster\n- 年份：2013\n- 类型：book\n- 来源：Theory of Fun / O'Reilly\n\n## 摘要\n\n从学习、模式识别和脑内奖赏机制出发解释“为什么游戏会好玩”，是把 fun 从口号变成可讨论理论的经典入口。\n\n## 核心要点\n\n- 它更擅长解释乐趣的底层逻辑，而不是具体生产流程。\n- 适合拿来判断体验成长是否真的来自新理解，而不是数值膨胀。\n- 在方向讨论和体验复盘里价值很高。\n\n## 适用场景\n\n最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。\n\n## 知识定位\n\n- 关注领域：乐趣理论 / 学习与模式 / 玩家成长 / 体验复盘\n- 主要用途：体验判断 / 成长曲线讨论 / 设计哲学补课\n- 推荐读法：按章通读 / 和系统设计并读 / 做设计复盘时回查\n- 价值类型：理论框架 / 体验解释器 / 复盘语言\n- 最适合介入的阶段：方向判断 / 体验复盘 / 高层设计训练\n\n## 分类\n\n- 一级分类：核心玩法与系统设计\n- 二级输出物：难度曲线设计\n- 主题标签：乐趣与学习 / 玩家动机 / 系统思维\n- 可用性：已有私有书源，但来源待复核\n\n## 解析结构\n\n- 解析标题：Theory of Fun for Game Design, 2E\n- 解析格式：pdf\n- 页数：299\n- 顶层目录预览：\n  - Foreword (from the First Edition)\n  - Prologue: My Grandfather\n  - Chapter One: Why Write This Book?\n  - Chapter Two: How the Brain Works\n  - Chapter Three: What Games Are\n  - Chapter Four: What Games Teach Us\n  - Chapter Five: What Games Aren't\n  - Chapter Six: Different Fun for Different Folks\n  - Chapter Seven: The Problem with Learning\n  - Chapter Eight: The Problem with People\n  - Chapter Nine: Games in Context\n  - Chapter Ten: The Ethics of Entertainment\n  - Chapter Eleven: Where Games Should Go\n  - Chapter Twelve: Taking Their Rightful Place\n\n## 来源状态\n\n- 私有书源：1 个\n- 其中待复核：1 个\n- 推断来源标记：镜像站文件名标记\n- 注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。\n\n## 获取方式\n\n- 已有本地文件，可直接打开。\n\n## 本地文件\n\n- `knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf`（用户提供；来源待复核；镜像站文件名标记）\n\n## 私有解析工件\n\n- `knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json`（ok）\n\n## 官方链接\n\n- <https://www.theoryoffun.com/>\n\n## 元数据快照\n\n- `knowledge/50-game-design-masters-kb/raw/official-metadata/a-theory-of-fun-for-game-design/01-www.theoryoffun.com-.html`\n\n## 相关条目\n\n- The Art of Game Design: A Book of Lenses\n- Designing Virtual Worlds\n",
+  "body_html": "<h1 id=\"a-theory-of-fun-for-game-design\">A Theory of Fun for Game Design</h1>\n<h2 id=\"基本信息\">基本信息</h2>\n<ul><li>作者：Raph Koster</li><li>年份：2013</li><li>类型：book</li><li>来源：Theory of Fun / O&#39;Reilly</li></ul>\n<h2 id=\"摘要\">摘要</h2>\n<p>从学习、模式识别和脑内奖赏机制出发解释“为什么游戏会好玩”，是把 fun 从口号变成可讨论理论的经典入口。</p>\n<h2 id=\"核心要点\">核心要点</h2>\n<ul><li>它更擅长解释乐趣的底层逻辑，而不是具体生产流程。</li><li>适合拿来判断体验成长是否真的来自新理解，而不是数值膨胀。</li><li>在方向讨论和体验复盘里价值很高。</li></ul>\n<h2 id=\"适用场景\">适用场景</h2>\n<p>最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。</p>\n<h2 id=\"知识定位\">知识定位</h2>\n<ul><li>关注领域：乐趣理论 / 学习与模式 / 玩家成长 / 体验复盘</li><li>主要用途：体验判断 / 成长曲线讨论 / 设计哲学补课</li><li>推荐读法：按章通读 / 和系统设计并读 / 做设计复盘时回查</li><li>价值类型：理论框架 / 体验解释器 / 复盘语言</li><li>最适合介入的阶段：方向判断 / 体验复盘 / 高层设计训练</li></ul>\n<h2 id=\"分类\">分类</h2>\n<ul><li>一级分类：核心玩法与系统设计</li><li>二级输出物：难度曲线设计</li><li>主题标签：乐趣与学习 / 玩家动机 / 系统思维</li><li>可用性：已有私有书源，但来源待复核</li></ul>\n<h2 id=\"解析结构\">解析结构</h2>\n<ul><li>解析标题：Theory of Fun for Game Design, 2E</li><li>解析格式：pdf</li><li>页数：299</li><li>顶层目录预览：</li><li>Foreword (from the First Edition)</li><li>Prologue: My Grandfather</li><li>Chapter One: Why Write This Book?</li><li>Chapter Two: How the Brain Works</li><li>Chapter Three: What Games Are</li><li>Chapter Four: What Games Teach Us</li><li>Chapter Five: What Games Aren&#39;t</li><li>Chapter Six: Different Fun for Different Folks</li><li>Chapter Seven: The Problem with Learning</li><li>Chapter Eight: The Problem with People</li><li>Chapter Nine: Games in Context</li><li>Chapter Ten: The Ethics of Entertainment</li><li>Chapter Eleven: Where Games Should Go</li><li>Chapter Twelve: Taking Their Rightful Place</li></ul>\n<h2 id=\"来源状态\">来源状态</h2>\n<ul><li>私有书源：1 个</li><li>其中待复核：1 个</li><li>推断来源标记：镜像站文件名标记</li><li>注意：当前至少一个私有书源文件名显示出第三方镜像或转存痕迹，适合私人解析使用，但不应被表述成已验证来源。</li></ul>\n<h2 id=\"获取方式\">获取方式</h2>\n<ul><li>已有本地文件，可直接打开。</li></ul>\n<h2 id=\"本地文件\">本地文件</h2>\n<ul><li><code>knowledge/Theory of Fun for Game Design, 2nd Edition (Raph Koster) (z-library.sk, 1lib.sk, z-lib.sk).pdf</code>（用户提供；来源待复核；镜像站文件名标记）</li></ul>\n<h2 id=\"私有解析工件\">私有解析工件</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/private-library/extracted/a-theory-of-fun-for-game-design-48bbb79f791c.json</code>（ok）</li></ul>\n<h2 id=\"官方链接\">官方链接</h2>\n<ul><li><a href=\"https://www.theoryoffun.com/\" target=\"_blank\" rel=\"noreferrer\">https://www.theoryoffun.com/</a></li></ul>\n<h2 id=\"元数据快照\">元数据快照</h2>\n<ul><li><code>knowledge/50-game-design-masters-kb/raw/official-metadata/a-theory-of-fun-for-game-design/01-www.theoryoffun.com-.html</code></li></ul>\n<h2 id=\"相关条目\">相关条目</h2>\n<ul><li>The Art of Game Design: A Book of Lenses</li><li>Designing Virtual Worlds</li></ul>",
+  "headings": [
+    {
+      "level": 1,
+      "text": "A Theory of Fun for Game Design",
+      "id": "a-theory-of-fun-for-game-design"
+    },
+    {
+      "level": 2,
+      "text": "基本信息",
+      "id": "基本信息"
+    },
+    {
+      "level": 2,
+      "text": "摘要",
+      "id": "摘要"
+    },
+    {
+      "level": 2,
+      "text": "核心要点",
+      "id": "核心要点"
+    },
+    {
+      "level": 2,
+      "text": "适用场景",
+      "id": "适用场景"
+    },
+    {
+      "level": 2,
+      "text": "知识定位",
+      "id": "知识定位"
+    },
+    {
+      "level": 2,
+      "text": "分类",
+      "id": "分类"
+    },
+    {
+      "level": 2,
+      "text": "解析结构",
+      "id": "解析结构"
+    },
+    {
+      "level": 2,
+      "text": "来源状态",
+      "id": "来源状态"
+    },
+    {
+      "level": 2,
+      "text": "获取方式",
+      "id": "获取方式"
+    },
+    {
+      "level": 2,
+      "text": "本地文件",
+      "id": "本地文件"
+    },
+    {
+      "level": 2,
+      "text": "私有解析工件",
+      "id": "私有解析工件"
+    },
+    {
+      "level": 2,
+      "text": "官方链接",
+      "id": "官方链接"
+    },
+    {
+      "level": 2,
+      "text": "元数据快照",
+      "id": "元数据快照"
+    },
+    {
+      "level": 2,
+      "text": "相关条目",
+      "id": "相关条目"
+    }
+  ],
+  "search_text": "A Theory of Fun for Game Design Raph Koster 从学习、模式识别和脑内奖赏机制出发解释“为什么游戏会好玩”，是把 fun 从口号变成可讨论理论的经典入口。 它更擅长解释乐趣的底层逻辑，而不是具体生产流程。 适合拿来判断体验成长是否真的来自新理解，而不是数值膨胀。 在方向讨论和体验复盘里价值很高。 最适合在你需要判断一个系统为什么会令人持续投入、为什么会厌倦、以及玩家到底在学什么时介入。 主策 系统策划 数值策划 乐趣理论 学习与模式 玩家成长 体验复盘 体验判断 成长曲线讨论 设计哲学补课 按章通读 和系统设计并读 做设计复盘时回查 理论框架 体验解释器 复盘语言 方向判断 体验复盘 高层设计训练 Foreword (from the First Edition) Prologue: My Grandfather Chapter One: Why Write This Book? Chapter Two: How the Brain Works Chapter Three: What Games Are Chapter Four: What Games Teach Us Chapter Five: What Games Aren't Chapter Six: Different Fun for Different Folks Chapter Seven: The Problem with Learning Chapter Eight: The Problem with People Chapter Nine: Games in Context Chapter Ten: The Ethics of Entertainment Chapter Eleven: Where Games Should Go Chapter Twelve: Taking Their Rightful Place 核心玩法与系统设计 难度曲线设计 乐趣与学习 玩家动机 系统思维 Theory of Fun A Theory of Fun for Game Design official book website"
+}

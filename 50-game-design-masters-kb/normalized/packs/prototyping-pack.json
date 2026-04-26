@@ -1,0 +1,51 @@
+{
+  "id": "prototyping-pack",
+  "title": "Prototyping Pack",
+  "summary": "Cross-phase bundle for validating a concept quickly through loop design, prototype implementation, and playtest framing.",
+  "phase_group": "",
+  "phase_label": "Cross-phase",
+  "phase_groups": [
+    "initiation-direction",
+    "core-gameplay-systems",
+    "development-implementation",
+    "testing-acceptance-audit"
+  ],
+  "phase_labels": [
+    "立项与方向",
+    "核心玩法与系统设计",
+    "开发实现",
+    "测试、验收与审计"
+  ],
+  "type": "use_case_pack",
+  "kind_label": "Use Case Pack",
+  "card_ids": [
+    "prompt-initiation-direction",
+    "prompt-core-gameplay-systems",
+    "prompt-core-loop-design",
+    "prompt-prototype-implementation",
+    "checklist-single-mechanic-prototype-design",
+    "checklist-onboarding-design",
+    "prompt-testing-acceptance-audit"
+  ],
+  "count": 7,
+  "prompt_count": 5,
+  "checklist_count": 2,
+  "other_count": 0,
+  "when_to_use": "Use this when the project is still proving whether the core idea is worth scaling up.",
+  "required_inputs": [
+    "Core fantasy and target player",
+    "Single mechanic or loop hypothesis",
+    "Prototype platform and implementation constraints",
+    "Playtest questions you need answered"
+  ],
+  "starter_steps": [
+    "Frame the direction and define the smallest fun loop.",
+    "Pick the one mechanic or interaction the prototype must prove.",
+    "Build only the minimum playable implementation.",
+    "Use the testing card to define what success or failure means."
+  ],
+  "relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/prototyping-pack.md",
+  "generated_at": "2026-04-26T00:39:23.268Z",
+  "starter_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/prototyping-pack-ready-to-run.md",
+  "starter_prompt_relative_markdown_path": "knowledge/50-game-design-masters-kb/normalized/packs/prototyping-pack-starter-prompt.md"
+}

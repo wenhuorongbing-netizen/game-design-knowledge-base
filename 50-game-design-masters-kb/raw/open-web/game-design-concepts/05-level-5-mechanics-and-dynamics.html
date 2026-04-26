@@ -1,0 +1,1288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Level 5: Mechanics and Dynamics | Game Design Concepts</title>
+<link rel="pingback" href="https://gamedesignconcepts.wordpress.com/xmlrpc.php" />
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//af.pubmine.com' />
+<link rel="alternate" type="application/rss+xml" title="Game Design Concepts &raquo; Feed" href="https://gamedesignconcepts.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Game Design Concepts &raquo; Comments Feed" href="https://gamedesignconcepts.wordpress.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Game Design Concepts &raquo; Level 5: Mechanics and&nbsp;Dynamics Comments Feed" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='/_static/??-eJxtjEsOwjAMBS9EcIuKWhaIs6SpFaVxnCh2xPUpCIH4LOfpzcC1GJdZkRVSM4WaDyywohbr4pNBGkPKSyMUqEhWcTEli37R3ons4H+RQsR390E/95myfwnJ1oga2JvZVtiun8tdvqRzP47dqT8O02G9AeE0S3o=&cssminify=yes' type='text/css' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-content/plugins/gutenberg-core/v22.9.0-rc.1/build/styles/block-library/common.min.css */
+</style>
+<style id="wp-block-library-inline-css-extra">
+.has-text-align-justify {
+	text-align:justify;
+}
+.has-text-align-justify{text-align:justify;}
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+.wp-block-button__link{background-color:#32373c;border-radius:9999px;box-shadow:none;color:#fff;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-file__button{background:#32373c;color:#fff}.wp-block-accordion-heading{margin:0}.wp-block-accordion-heading__toggle{background-color:inherit!important;color:inherit!important}.wp-block-accordion-heading__toggle:not(:focus-visible){outline:none}.wp-block-accordion-heading__toggle:focus,.wp-block-accordion-heading__toggle:hover{background-color:inherit!important;border:none;box-shadow:none;color:inherit;padding:var(--wp--preset--spacing--20,1em) 0;text-decoration:none}.wp-block-accordion-heading__toggle:focus-visible{outline:auto;outline-offset:0}
+/*# sourceURL=/wp-content/plugins/gutenberg-core/v22.9.0-rc.1/build/styles/block-library/classic.min.css */
+</style>
+
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='/_static/??-eJx9jcEKg0AMRH+oaVhorR7Eb9E16IpZg8min2889FZ6GYbhPQYPgbhlo2zIBWQtU8qKcdvJd5be0AmmMfW0Ejv2jKoP/K0daZzIXNdvB6PzvyJ+A8MgO6mCJ6fCYLN/6e113IZXU9WfUL/DcgHSTkDo&cssminify=yes' type='text/css' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/verbum-comments.css?m=1768249445i&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='verbum-gutenberg-css-css' href='https://widgets.wp.com/verbum-block-editor/block-editor.css?ver=1771405207' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='/wp-content/themes/pub/kubrick/style.css?m=1741693332i&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1i9KTcrJTwcy0/WTi5G5ekCujj52Temp+bo5+cmJJZn5eSgc3bScxMwikFb7XFtDE1NLExMLc0OTLACohS2q&cssminify=yes' type='text/css' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='print-css-15-1' href='/wp-content/mu-plugins/global-print/global-print.css?m=1465851035i&cssminify=yes' type='text/css' media='print' />
+<style id="jetpack-global-styles-frontend-style-inline-css">
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+/*# sourceURL=jetpack-global-styles-frontend-style-inline-css */
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-18-1' href='/_static/??-eJyNjcsKAjEMRX/IGgaqgwvxU6TTlDZjmhTTIv69D9yIG3f3wOUcuDUXVXqSDnW4xiOTGKyptxAvHwYbAlVxcDKwEq4JA+L9PUnyNppt4G/RmSTCMogRTCMFdqxZ7Qt+lL2k+owXD5l1Cfw6nOpxmme/837aH9YHfvpKpw==&cssminify=yes' type='text/css' media='all' />
+<script id="jetpack_related-posts-js-extra">
+var related_posts_js_options = {"post_heading":"h4"};
+//# sourceURL=jetpack_related-posts-js-extra
+</script>
+<script id="wpcom-actionbar-placeholder-js-extra">
+var actionbardata = {"siteID":"6575901","postID":"57","siteURL":"https://gamedesignconcepts.wordpress.com","xhrURL":"https://gamedesignconcepts.wordpress.com/wp-admin/admin-ajax.php","nonce":"ff82f6b254","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https://s0.wp.com/wp-content/js/wpcom-proxy-request.js?m=1513050504i&amp;ver=20211021","shortlink":"https://wp.me/prAGV-V","i18n":{"followedText":"New posts from this site will now appear in your \u003Ca href=\"https://wordpress.com/reader\"\u003EReader\u003C/a\u003E","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","shortLinkCopied":"Shortlink copied to clipboard."}};
+//# sourceURL=wpcom-actionbar-placeholder-js-extra
+</script>
+<script id="jetpack-mu-wpcom-settings-js-before">
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https://s1.wp.com/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/"};
+//# sourceURL=jetpack-mu-wpcom-settings-js-before
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??-eJxdjVsKwjAQRTdkOkYo7Y+4FMmLkphMhszE6u5tQUT9uhzuC1ZSrqIEFChdUe5LRIYUhIy7vRm4I1wjOrA9Zg8tZCPBK6os/EtDiTgkPsDXbtoyWRS1+nj+ezbX5fO61uaNZ+WyYQ68F10huJ92USzdbvVLOetpHI9aT/OcXlufRnE='></script>
+<script id="rlt-proxy-js-after">
+	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+//# sourceURL=rlt-proxy-js-after
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gamedesignconcepts.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/" />
+<link rel='shortlink' href='https://wp.me/prAGV-V' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fgamedesignconcepts.wordpress.com%2F2009%2F07%2F13%2Flevel-5-mechanics-and-dynamics%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fgamedesignconcepts.wordpress.com%2F2009%2F07%2F13%2Flevel-5-mechanics-and-dynamics%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Level 5: Mechanics and Dynamics" />
+<meta property="og:url" content="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/" />
+<meta property="og:description" content="Until this point, we have made lots of games and game rules, but at no point have we examined what makes a good rule from a bad one. Nor have we really examined the different kinds of rules that fo…" />
+<meta property="article:published_time" content="2009-07-13T11:00:18+00:00" />
+<meta property="article:modified_time" content="2009-07-13T18:00:00+00:00" />
+<meta property="og:site_name" content="Game Design Concepts" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg?m=1383295312i" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="fb:app_id" content="249643311490" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:text:title" content="Level 5: Mechanics and&nbsp;Dynamics" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico?m=1713425267i" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico?m=1713425267i" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="https://s2.wp.com/i/webclip.png?m=1713868326i" />
+<link rel='openid.server' href='https://gamedesignconcepts.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://gamedesignconcepts.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://gamedesignconcepts.wordpress.com/osd.xml" title="Game Design Concepts" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<style type='text/css'><!--
+body { background: url("https://s2.wp.com/wp-content/themes/pub/kubrick/images/kubrickbgcolor.gif?m=1273203575i"); }
+#page { background: url("https://s2.wp.com/wp-content/themes/pub/kubrick/images/kubrickbgwide.gif?m=1273203575i") repeat-y top !important; border: none; }
+#header { background: url("https://s2.wp.com/wp-content/themes/pub/kubrick/images/kubrickheader.gif?m=1273203575i") no-repeat bottom center; }
+#footer { background: url("https://s2.wp.com/wp-content/themes/pub/kubrick/images/kubrickfooter.gif?m=1273203575i") no-repeat bottom; border: none;}
+#header { margin: 0 !important; margin: 0 0 0 1px; padding: 1px; height: 198px; width: 758px; }
+#headerimg { margin: 7px 9px 0; height: 192px; width: 740px; }
+#headerimg h1 a, #headerimg h1 a:visited, #headerimg .description { color: ; }
+#headerimg h1 a, #headerimg .description { display:  }
+
+	--></style><meta name="description" content="Until this point, we have made lots of games and game rules, but at no point have we examined what makes a good rule from a bad one. Nor have we really examined the different kinds of rules that form a game designer’s palette. Nor have we talked about the relationship between the game rules&hellip;" />
+<script>
+var wa_client = {}; wa_client.cmd = []; wa_client.config = { 'blog_id': 6575901, 'blog_language': 'en', 'is_wordads': false, 'hosting_type': 0, 'afp_account_id': 'pub-1666038664104274', 'afp_host_id': 5038568878849053, 'theme': 'pub/kubrick', '_': { 'title': 'Advertisement', 'privacy_settings': 'Privacy Settings' }, 'formats': [ 'inline', 'belowpost', 'bottom_sticky', 'sidebar_sticky_right', 'sidebar', 'gutenberg_rectangle', 'gutenberg_leaderboard', 'gutenberg_mobile_leaderboard', 'gutenberg_skyscraper' ] };
+</script>
+		<script type="text/javascript">
+
+			window.doNotSellCallback = function() {
+
+				var linkElements = [
+					'a[href="https://wordpress.com/?ref=footer_blog"]',
+					'a[href="https://wordpress.com/?ref=footer_website"]',
+					'a[href="https://wordpress.com/?ref=vertical_footer"]',
+					'a[href^="https://wordpress.com/?ref=footer_segment_"]',
+				].join(',');
+
+				var dnsLink = document.createElement( 'a' );
+				dnsLink.href = 'https://wordpress.com/advertising-program-optout/';
+				dnsLink.classList.add( 'do-not-sell-link' );
+				dnsLink.rel = 'nofollow';
+				dnsLink.style.marginLeft = '0.5em';
+				dnsLink.textContent = 'Do Not Sell or Share My Personal Information';
+
+				var creditLinks = document.querySelectorAll( linkElements );
+
+				if ( 0 === creditLinks.length ) {
+					return false;
+				}
+
+				Array.prototype.forEach.call( creditLinks, function( el ) {
+					el.insertAdjacentElement( 'afterend', dnsLink );
+				});
+
+				return true;
+			};
+
+		</script>
+		<script id="cmp-configuration" type="application/configuration">{"gvlVersion":"154","consentLanguage":"EN","locale":"en","vendorsAll":"BSUAOIRKgQQoJAQI4BAAhAEBiAYACECAAABAACAAAAAAABEAEAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAABAAAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAAIAAAgAAgAAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA","vendorsLegInterest":"BSUAEAQKgAAoAAQIAAAAgAAACAIACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA","ajaxUrl":"\/wp-admin\/admin-ajax.php","ajaxNonce":"f716129c10","modulePath":"https:\/\/s1.wp.com\/wp-content\/blog-plugins\/wordads-classes\/js\/cmp\/v2\/","gvlPath":"https:\/\/public-api.wordpress.com\/wpcom\/v2\/sites\/6575901\/cmp\/v3\/vendors\/en\/","_":{"title":"Privacy & Cookies","intro":"We, WordPress.com, and our advertising partners store and\/or access information on your device and also process personal data, like unique identifiers, browsing activity, and other standard information sent by your device including your IP address. This information is collected over time and used for personalised advertising, advertising measurement, audience research and services development specific to our ads program. If this sounds good to you, select \"I Agree!\" below. Otherwise, you can get more information, customize your consent preferences for 50 different ad vendors, or decline consent by selecting \"Learn More\". Note that your preferences apply to all websites in the <a href=\"https:\/\/automattic.com\/cookies\/#user-ads-consent\" target=\"_blank\">WordPress.com network<\/a>, and if you change your mind in the future you can withdraw your consent anytime by visiting the Privacy link displayed under each ad or by using the \"Privacy\" option in the Action Bar located at the bottom-right corner of the screen. One last thing, our partners may process some of your data based on legitimate interests instead of consent but you can object to that by choosing \"Learn More\" and then disabling the Legitimate Interests toggle under any listed Purpose or Partner.","config":"Learn More","accept":"I Agree!","viewPartners":"View Partners","error":"We're sorry but an unexpected error occurred. Please try again later."}}</script><script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script>
+</head>
+<body class="wp-singular post-template-default single single-post postid-57 single-format-standard wp-theme-pubkubrick customizer-styles-applied jetpack-reblog-enabled has-marketing-bar has-marketing-bar-theme-kubrick">
+<div id="page">
+
+<div id="header">
+	<div id="headerimg" onclick=" location.href='https://gamedesignconcepts.wordpress.com';" style="cursor: pointer;">
+		<h1><a href="https://gamedesignconcepts.wordpress.com/">Game Design Concepts</a></h1>
+		<div class="description">An experiment in game design and teaching</div>
+	</div>
+</div>
+<hr />
+
+	<div id="content" class="widecolumn">
+
+	
+		<div class="navigation">
+			<div class="alignleft">&laquo; <a href="https://gamedesignconcepts.wordpress.com/2009/07/09/level-4-the-early-stages-of-the-design-process/" rel="prev">Level 4: The Early Stages of the Design&nbsp;Process</a></div>
+			<div class="alignright"><a href="https://gamedesignconcepts.wordpress.com/2009/07/16/level-6-games-and-art/" rel="next">Level 6: Games and&nbsp;Art</a> &raquo;</div>
+		</div>
+
+		<div class="clear post-57 post type-post status-publish format-standard hentry category-uncategorized" id="post-57">
+			<h2>Level 5: Mechanics and&nbsp;Dynamics</h2>
+			<small class="single-by"></small>
+
+			<div class="entry">
+				<p>Until this point, we have made lots of games and game rules, but at no point have we examined what makes a <em>good</em> rule from a <em>bad</em> one. Nor have we really examined the different <em>kinds</em> of rules that form a game designer’s palette. Nor have we talked about the relationship between the game rules and the player experience. These are the things we examine today.</p>
+<p><strong> </strong></p>
+<p><strong>Course Announcements</strong></p>
+<p>No major announcements today, but for your curiosity I did compile a list of tweets for the last challenge (add or change a rule to <em>Battleship</em> to make it more interesting):</p>
+<ul>
+<li>“Reveal” was a common theme (such as, instead of firing a shot, give the number of Hits in a 3&#215;3 square – thus turning the game from “what number am I thinking of” into “two-player competitive Minesweeper”)</li>
+<li>Skip a few turns for a larger shot (for example, skip 5 turns to hit everything in an entire 3&#215;3 area). The original suggestion was an even number (skip 9 turns to nuke a 3&#215;3 square) but note that there isn’t much of a functional difference between this and just taking one shot at a time.</li>
+<li>Like <em>Go</em>, if you enclose an area with a series of shots, all squares in the enclosed area are immediately hit as well (this adds an element of risk-taking and short-term versus long-term tradeoffs to the game – do you try to block off a large area that takes many turns but has an efficient turn-to-squares-hit ratio, or do you concentrate on smaller areas that give you more immediate information but at the cost of taking longer in aggregate?)</li>
+<li>When you miss but are in a square adjacent to an enemy ship, the opponent must declare it as a “near miss” (without telling you what direction the ship is in), which doesn’t exactly get around the guessing-game aspect of the original but should at least speed play by giving added information. Alternatively, with <em>any</em> miss, the opponent must give the distance in squares to the nearest ship (without specifying direction), which would allow for some deductive reasoning.</li>
+<li>Skip (7-X) turns to rebuild a destroyed ship of size X. If the area in which you are building is hit in the meantime, the rebuild is canceled. (The original suggestion was skip X turns to rebuild a ship of size X, but smaller ships are actually more dangerous since they are harder to locate, so I would suggest an inverse relationship between size and cost.)</li>
+<li>Each time you sink an enemy ship, you can rebuild a ship of yours of the same size that was already sunk (this gives some back-and-forth, and suggests alternate strategies of scattering your early shots to give your opponent less room to rebuild)</li>
+<li>Once per game, your Battleship (the size-4 ship) can hit a 5-square cross (+) shaped area in a single turn; using this also forces you to place a Hit on your own Battleship (note that this would also give away your Battleship’s location, so it seems more like a retaliatory move when your Battleship is almost sunk anyway)</li>
+</ul>
+<p>We will revisit some of these when we talk about the kinds of decisions that are made in a game, next Monday.</p>
+<p><strong> </strong></p>
+<p><strong>Readings</strong></p>
+<p>This week I’m trying something new and putting one of the readings up front, because I want you to look at this first, before reading the rest of this post.</p>
+<ul>
+<li><em><a href="http://www.cs.northwestern.edu/~hunicke/MDA.pdf">MDA Framework</a></em> by LeBlanc, Hunicke and Zabek. This is one of the few academic papers that achieved wide exposure within the game industry (it probably helps that the authors are experienced game designers). There are two parts of this paper that made it really influential. The first is the Mechanics/Dynamics/Aesthetics (MDA) conceptualization, which offers a way to think about the relationship of rules to player experience, and also the relationship between player and designer. The second part to pay attention to is the “8 kinds of fun” which we will return to a bit later in the course (Thursday of next week).</li>
+</ul>
+<p><strong> </strong></p>
+<p><strong>Now, About That MDA Framework Thing…</strong></p>
+<p>LeBlanc <em>et al.</em> define a game in terms of its Mechanics, Dynamics, and Aesthetics:</p>
+<ul>
+<li>Mechanics are a synonym for the “rules” of the game. These are the constraints under which the game operates. How is the game set up? What actions can players take, and what effects do those actions have on the game state? When does the game end, and how is a resolution determined? These are defined by the mechanics.</li>
+<li>Dynamics describe the <em>play</em> of the game when the rules are set in motion. What strategies emerge from the rules? How do players interact with one another?</li>
+<li>Aesthetics (in the MDA sense) do not refer to the visual elements of the game, but rather the <em>player experience</em> of the game: the effect that the dynamics have on the players themselves. Is the game “fun”? Is play frustrating, or boring, or interesting? Is the play emotionally or intellectually engaging?</li>
+</ul>
+<p>Before the MDA Framework was written, the terms “mechanics” and “dynamics” were already in common use among designers. The term “aesthetics” in this sense had not, but has gained more use in recent years.</p>
+<p><strong>The Process of Design</strong></p>
+<p>With the definitions out of the way, why is this important? This is one of the key points of the MDA paper. The game designer only creates the Mechanics directly. The Dynamics emerge from the Mechanics, and the Aesthetics arise out of the Dynamics. The game designer may <em>want</em> to design the play experience, or at least that may be the ultimate goal the designer has in mind… but as designers, we are stuck building the rules of the game and hoping that the desired experience emerges from our rules.</p>
+<p>This is why game design is sometimes referred to as a <strong>second-order design problem</strong>: because we do not define the solution, we define something that creates something else that creates the solution. <strong>This is why game design is hard</strong>. Or at least, it is one reason. Design is not just a matter of coming up with a “Great Idea” for a game; it is about coming up with a set of rules that will implement that idea, when two-thirds of the final product (the Dynamics and Aesthetics) are not under our direct control.</p>
+<p><strong>The Process of Play</strong></p>
+<p>Designers start with the Mechanics and follow them as they grow outward into the Aesthetics. You can think of a game as a sphere, with the Mechanics at the core, the Dynamics surrounding them, and the Aesthetics on the surface, each layer growing out of the one inside it. One thing the authors of MDA point out is that this is <em>not</em> how games are experienced from the player’s point of view.</p>
+<p>A player sees the surface first – the Aesthetics. They may be <em>aware</em> of the Mechanics and Dynamics, but the thing that really makes an immediate impression and that is most easily understood is the Aesthetics. This is why, even with absolutely no knowledge or training in game design, <em>anyone</em> can play a game and tell you whether or not they are having a good time. They may not be able to articulate <em>why</em> they are having a good time or <em>what</em> makes the game “good” or “bad”… but anyone can tell you right away how a game makes them feel.</p>
+<p>If a player spends enough time with a game, they may learn to appreciate the Dynamics of the game and now their experience arises from them. They may realize that they do or don’t like a game because of the specific kinds of interactions they are having with the game and/or the other players. And if a player spends even more time with that game, they may eventually have a strong enough grasp of the Mechanics to see how the Dynamics are emerging from them.</p>
+<p>If a game is a sphere that is designed from the inside out, it is <em>played</em> from the outside in. And this, I think, is one of the key points of MDA. The designer creates the Mechanics and everything flows outward from that. The player experiences the Aesthetics and then their experience flows inward. As designers, we must be aware of <strong>both</strong> of these ways of interacting with a game. Otherwise, we are liable to create games that are fun for designers but not players.</p>
+<p><strong>One Example of MDA in action</strong></p>
+<p>I mentioned the concept of “spawn camping” earlier in this course, as an example of how players with different implicit rule sets can throw around accusations of “cheating” for something that is technically allowed by the rules of the game. Let us analyze this in the context of MDA.</p>
+<p>In a First-Person Shooter video game, a common mechanic is for players to have “spawn points” – dedicated places on the map where they re-appear after getting killed. Spawn points are a <strong>mechanic</strong>. This leads to the <strong>dynamic</strong> where a player may sit next to a spawn point and immediately kill anyone as soon as they respawn. And lastly, the <strong>aesthetics</strong> would likely be frustration at the prospect of coming back into play only to be killed again immediately.</p>
+<p>Suppose you are designing a new FPS and you notice this frustration aesthetic in your game, and you want to fix this so that the game is not as frustrating. You cannot simply change the aesthetics of the game to “make it more fun” – this may be your goal, but it is not something under your direct control. You cannot even change the dynamics of spawn camping directly; you cannot tell the players how to interact with your game, except through the mechanics. So instead, you must change the mechanics of the game – maybe you try making players respawn in random locations rather than designated areas – and then you hope that the desired aesthetics emerge from your mechanics change.</p>
+<p>How do you know if your change worked? Playtest, of course!</p>
+<p>How do you know <em>what</em> change to make, if the effects of mechanics changes are so unpredictable? We will get into some basic tips and tricks near the end of this course. For now, the most obvious way is designer intuition. The more you practice, the more you design games, the more you make rules changes and then playtest and see the effects of your changes, the better you will get at making the right changes when you notice problems… and occasionally, even creating the right mechanics in the first place. There are few substitutes for experience… which, incidentally, is why so much of this course involves getting you off your butt and making games :).</p>
+<p><strong>“If the computer or the game designer is having more fun than the player, you have made a terrible mistake.”</strong></p>
+<p>This seems as good a time as any to quote game designer Sid Meier. His warning is clearly directed at video game designers, but applies just as easily to non-digital projects. It is a reminder that we design the Mechanics of the game, and designing the Mechanics is fun for us. But it is <em>not</em> the Mechanics that are fun for our <em>players</em>. A common design mistake is to create rules that are fun to create, but that do not necessarily translate into fun gameplay. Always remember that you are creating games for the players and not yourself.</p>
+<p><strong> </strong></p>
+<p><strong>Mechanics, Dynamics and Complexity</strong></p>
+<p>Generally, adding additional mechanics, new systems, additional game objects, and new ways for objects to interact with one another (or for players to interact with the game) will lead to a greater complexity in the dynamics of the game. For example, compare <em>Chess</em> and <em>Checkers</em>. <em>Chess</em> has six kinds of pieces (instead of two) and a greater number of actions that each piece can take, so it ends up having more strategic depth.</p>
+<p>Is more complexity good, or bad? It depends. <em>Tetris</em> is a very simple but still very successful game. <em>Advanced Squad Leader</em> is an incredibly complex game, but still can be considered successful for what it is. Some games are so simple that they are not fun beyond a certain age, like <em>Tic-Tac-Toe</em>. Other games are too complex for their own good, and would be better if their systems were a bit more simplified and streamlined (I happen to think this about the board game <em>Agricola</em>; I’m sure you can provide examples from your own experience).</p>
+<p>Do more complex mechanics <em>always</em> lead to more complex dynamics? No – there are some cases where very simple mechanics create extreme complexity (as is the case with <em>Chess</em>). And there are other cases where the mechanics are extremely complicated, but the dynamics are simple (imagine a modified version of the children’s card game <em>War</em> that did not just involve comparison of numbers, but lookups on complex “combat resolution” charts). The best way to gauge complexity, as you may have guessed, is to play the game.</p>
+<p> </p>
+<p><strong>Feedback Loops</strong></p>
+<p>One kind of dynamic that is often seen in games and deserves special attention is known as the <strong>feedback loop</strong>. There are two types, <strong>positive feedback loops</strong> and <strong>negative feedback loops</strong>. These terms are borrowed from other fields such as control systems and biology, and they mean the same thing in games that they mean elsewhere.</p>
+<p>A positive feedback loop can be thought of as a<strong> </strong>reinforcing<strong> </strong>relationship. Something happens that causes the same thing to happen again, which causes it to happen yet again, getting stronger in each iteration – like a snowball that starts out small at the top of the hill and gets larger and faster as it rolls and collects more snow.</p>
+<p>As an example, there is a relatively obscure shooting game for the NES called <em>The Guardian Legend</em>. Once you beat the game, you got access to a special extra gameplay mode. In this mode, you got rewarded with power-ups at the end of each level based on your score: the higher your score, the more power-ups you got for the next level. This is a positive feedback loop: if you get a high score, it gives you more power-ups, which make it easier to get an even higher score in the next level, which gives you even more power-ups, and so on.</p>
+<p>Note that in this case, the reverse is also true. Suppose you get a low score. Then you get fewer power-ups at the end of that level, which makes it harder for you to do well on the next level, which means you will probably get an even lower score, and so on until you are so far behind that it is nearly impossible for you to proceed at all.</p>
+<p>The thing that is often confusing to people is that <em>both</em> of these scenarios are <em>positive</em> feedback loops. This seems counterintuitive; the second example seems very “negative,” as the player is doing poorly and getting fewer rewards. It is “positive” in the sense that the effects get stronger in magnitude on each iteration.</p>
+<p>There are three properties of positive feedback loops that game designers should be aware of:</p>
+<ol>
+<li>They tend to destabilize the game, as one player gets further and further ahead (or behind).</li>
+<li>They cause the game to end faster.</li>
+<li>The put emphasis on the early game, since the effects of early-game decisions are magnified over time.</li>
+</ol>
+<p>Feedback loops usually have two steps (as in my <em>The Guardian Legend</em> example) but they can have more. For example, some Real-Time Strategy games have a positive feedback loop with four steps: players explore the map, which gives them access to more resources, which let them buy better technology, which let them build better units, which let them explore more effectively (which gives them access to more resources… and the cycle repeats). As such, detecting a positive feedback loop is not always easy.</p>
+<p>Here are some other examples of positive feedback loops that you might be familiar with:</p>
+<ul>
+<li>Most “4X” games, such as the <em>Civilization</em> and <em>Master of Orion</em> series, are usually built around positive feedback loops. As you grow your civilization, it lets you generate resources faster, which let you grow faster. By the time you begin conflict in earnest with your opponents, one player is usually so far ahead that it is not much of a contest, because the core positive feedback loop driving the game means that someone who got ahead of the curve early on is going to be <em>much</em> farther ahead in the late game.</li>
+<li>Board games that feature building up as their primary mechanic, such as <em>Settlers of Catan</em>. In these games, players use resources to improve their resource production, which gets them more resources.</li>
+<li>The physical sport <em>Rugby</em> has a minor positive feedback loop: when a team scores points, they start with the ball again, which makes it slightly more likely that they will score again. The advantage is thus given to the team who just gained an advantage. This is in contrast to most sports, which give the ball to the opposing team after a successful score.</li>
+</ul>
+<p>Negative feedback loops are, predictably, the opposite of positive feedback loops in just about every way. A negative feedback loop is a balancing relationship. When something happens in the game (such as one player gaining an advantage over the others), a negative feedback loop makes it harder for that same thing to happen again. If one player gets in the lead, a negative feedback loop makes it easier for the opponents to catch up (and harder for a winning player to extend their lead).</p>
+<p>As an example, consider a “Kart-style” racing game like <em>Mario Kart</em>. In racing games, play is more interesting if the player is in the middle of a pack of cars rather than if they are way out in front or lagging way behind on their own (after all, there is more interaction if your opponents are close by). As a result, the <em>de facto</em> standard in that genre of play is to add a negative feedback loop: as the player gets ahead of the pack, the opponents start cheating, finding better power-ups and getting impossible bursts of speed to help them catch up. This makes it more difficult for the player to maintain or extend a lead. This particular feedback loop is sometimes referred to as “rubber-banding” because the cars behave as if they are connected by rubber bands, pulling the leaders and losers back to the center of the pack.</p>
+<p>Likewise, the reverse is true. If the player falls behind, they will find better power-ups and the opponents will slow down to allow the player to catch up. This makes it more difficult for a player who is behind to fall further behind. Again, both of these are examples of <em>negative</em> feedback loops; “negative” refers to the fact that a dynamic becomes weaker with iteration, and has nothing to do with whether it has a positive or negative effect on the player’s standing in the game.</p>
+<p>Negative feedback loops also have three important properties:</p>
+<ol>
+<li>They tend to stabilize the game, causing players to tend towards the center of the pack.</li>
+<li>They cause the game to take longer.</li>
+<li>They put emphasis on the late game, since early-game decisions are reduced in their impact over time.</li>
+</ol>
+<p>Some examples of negative feedback loops:</p>
+<ul>
+<li>Most physical sports like <em>Football</em> and <em>Basketball</em>, where after your team scores, the ball is given to the opposing team and they are then given a chance to score. This makes it less likely that a single team will keep scoring over and over.</li>
+<li>The board game <em>Starfarers of Catan</em> has a negative feedback loop where every player with less than a certain number of victory points gets a free resource at the start of their turn. Early on, this affects all players and speeds up the early game. Later in the game, as some players get ahead and cross the victory point threshold, the players lagging behind continue to get bonus resources. This makes it easier for the trailing players to catch up.</li>
+<li>My grandfather was a decent <em>Chess</em> player, generally better than his children who he taught to play. To make it more of a challenge, he invented a rule: if he won a game, next time they played, his opponent could remove a piece of his from the board at the start of the game (first a pawn, then two pawns, then a knight or bishop, and so on as the child continued to lose). Each time my grandfather won, the next game would be more challenging for him, making it more likely that he would eventually start losing.</li>
+</ul>
+<p><strong>Use of Feedback Loops</strong></p>
+<p>Are feedback loops good or bad? Should we strive to include them, or are they to be avoided? As with most aspects of game design, it depends on the situation. Sometimes, a designer will deliberately add mechanics that cause a feedback loop. Other times, a feedback loop is discovered during play and the designer must decide what (if anything) to do about it.</p>
+<p>Positive feedback loops can be quite useful. They end the game quickly when a player starts to emerge as the winner, without having the end game be a long, drawn-out affair. On the other hand, positive feedback loops can be frustrating for players who are trying to catch up to the leader and start feeling like they no longer have a chance.</p>
+<p>Negative feedback loops can also be useful, for example to prevent a dominant early strategy and to keep players feeling like they always have a chance to win. On the other hand, they can also be frustrating, as players who do well early on can feel like they are being punished for succeeding, while also feeling like the players who lag behind are seemingly rewarded for doing poorly.</p>
+<p>What makes a particular feedback loop “good” or “bad” from a player perspective? This is debatable, but I think it is largely a matter of player perception of fairness. If it feels like the game is artificially intervening to help a player win when they don’t deserve it, it can be perceived negatively by players. How do you know how players will perceive the game? Playtest, of course.</p>
+<p><strong>Eliminating Feedback Loops</strong></p>
+<p>Suppose you identify a feedback loop in your game and you want to remove it. How do you do this? There are two ways.</p>
+<p>The first is to shut off the feedback loop itself. All feedback loops (positive and negative) have three components:</p>
+<ul>
+<li>A “sensor” that monitors the game state;</li>
+<li>A “comparator” that decides whether to take action based on the value monitored by the sensor;</li>
+<li>An “activator” that modifies the game state when the comparator decides to do so.</li>
+</ul>
+<p>For example, in the earlier kart-racing negative feedback loop example, the “sensor” is how far ahead or behind the player is, relative to the rest of the pack; the “comparator” checks to see if the player is farther ahead or behind than a certain threshold value; and the “activator” causes the opposing cars to either speed up or slow down accordingly, if the player is too far ahead or behind. All of these may form a single mechanic (“If the player is more than 300 meters ahead of all opponents, multiply everyone else’s speed by 150%”). In other cases there may be three or more separate mechanics that cause the feedback loop, and changing any one of them will modify the nature of the loop.</p>
+<p>By being aware of the mechanics causing a feedback loop, you can disrupt the effects by either removing the sensor, changing or removing the comparator, or modifying or removing the effect of the activator. Going back to our <em>The Guardian Legend</em> example (more points = more power-ups for the next level), you could deactivate the positive feedback loop by either modifying the sensor (measure something other than score… something that does not increase in proportion to how powered-up the player is), or changing the comparator (by changing the scores required so that later power-ups cost more and more, you can guarantee that even the best players will fall behind the curve eventually, leading to a more difficult end game), or changing the activator (maybe the player gets power-ups through a different method entirely, such as getting a specific set of power-ups at the end of each level, or finding them in the middle of levels).</p>
+<p>If you do not want to remove the feedback loop from the game but you do want to reduce its effects, an alternative is to add <em>another</em> feedback loop of the opposing type. Again returning to the kart-racing example, if you wanted to keep the “rubber-banding” negative feedback loop, you could add a positive feedback loop to counteract it. For example, if the opposing cars get speed boosts when the player is ahead, perhaps the player can go faster as well, leading to a case where being in the lead makes the entire race go faster (but not giving an advantage or disadvantage to anyone). Or maybe the player in the lead can find better power-ups to compensate for the opponents’ new speed advantage.</p>
+<p> </p>
+<p><strong>Emergence<em></em></strong></p>
+<p>Another dynamic that game designers should be aware of is called <strong>emergent gameplay</strong> (or <strong>emergent complexity</strong>, or simply <strong>emergence</strong>). I’ve found this is a difficult thing to describe in my classroom courses, so I would welcome other perspectives on how to teach it. Generally, emergence describes a game with simple mechanics but complex dynamics. “Emergent complexity” can be used to describe <em>any</em> system of this nature, even things that are not games.</p>
+<p>Some examples of emergence from the world outside of games:</p>
+<ul>
+<li>In nature, insect colonies (such as ants and bees) show behavior that is so complex, it appears to be intelligent enough that we call it a “hive mind” (much to the exploitation of many sci-fi authors). In reality, each individual insect is following its own very simple set of rules, and it is only in aggregate that the colony displays complex behaviors.</li>
+<li><a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway’s Game of Life</a>, though not actually a “game” by most of the definitions in this course, is a simple set of sequential rules for simulating cellular life on a square grid. Each cell is either “alive” or “dead” on the current turn. To progress to the next turn, all living cells that are adjacent to either zero or one other living cells are killed (from isolation), and living cells adjacent to four or more other living cells are also killed (from overcrowding); all dead cells adjacent to exactly three living cells are “born” and changed to living cells on the next turn; and any cell adjacent to exactly two living cells stays exactly as it is. Those are the only rules. You start with an initial setup of your choice, and then modify the board to see what happens. And yet, you can get incredibly complex behaviors: structures can move, mutate, spawn new structures, and any number of other things.</li>
+<li><a href="http://www.red3d.com/cwr/boids/">Boid’s Algorithm</a>, a way to simulate crowd and flocking behavior that is used in some CG-based movies as well as games. There are only three simple rules that individuals in a flock must each follow. First, if there are a lot of your companions on one side of you and few on the other, it means you’re probably at the edge of the flock; move towards your companions. Second, if you are close to your companions, give them room so you don’t crowd them. Third, adjust your speed and direction to be the average of your nearby companions. From these three rules you can get some pretty complex, detailed and realistic crowd behavior.</li>
+</ul>
+<p>Here are some examples of emergent gameplay:</p>
+<ul>
+<li>In fighting games like the <em>Street Fighter</em> or <em>Tekken</em> series, “combos” arise from the collision of several simple rules: connecting with certain attacks momentarily stuns the opponent so that they cannot respond, and other attacks can be executed quickly enough to connect before the opponent recovers. Designers may or may not intentionally put combos in their games (the earliest examples were not intended, and indeed were not discovered until the games had been out for awhile), but it is the mechanics of stunning and attack speed that create complex series of moves that are unblockable after the first move in the series connects.</li>
+<li>In the sport of <em>Basketball</em>, the concept of “dribbling” was not explicitly part of the rules. As originally written, the designer had intended the game to be similar to how <em>Ultimate Frisbee</em> is played: the player with the ball is not allowed to move, and must either throw the ball towards the basket (in an attempt to score), or “pass” the ball to a teammate (either through the air, or by bouncing it on the ground). There was simply no rule that prevented a player from passing to himself.</li>
+<li>Book openings in <em>Chess</em>. The rules of this game are pretty simple, with only six different piece types and a handful of special-case moves, but a set of common opening moves has emerged from repeated play.</li>
+</ul>
+<p>Why do we care about emergent dynamics? It is often desired for practical reasons, especially in the video game world, because you can get a lot of varied and deep gameplay out of relatively simple mechanics. In video games (and to a lesser extent, board games) it is the <em>mechanics</em> that must be implemented. If you are programming a video game, emergent gameplay gives you a great ratio of hours-of-gameplay to lines-of-code. Because of this apparent cost savings, “emergence” as a buzzword was all the rage a few years ago, and I still hear it mentioned from time to time.</p>
+<p>It’s important to note that emergence is not always planned for, and for that matter it is not always desirable. Here are two examples of emergence, both from the <em>Grand Theft Auto</em> series of games, where unintended emergent gameplay led to questionable results:</p>
+<ul>
+<li>Consider these two rules. First, running over a pedestrian in a vehicle causes them to drop the money they are carrying. Second, hiring a prostitute refills the player’s health, but costs the player money. From these two unrelated rules, we get the emergent strategy that has been affectionately termed the “hooker exploit”: sleep with a prostitute, then run her over to regain the money you spent. This caused a bit of a scandal in the press back in the day, from people who interpreted this dynamic as an intentional design that glorified violence against sex workers. Simply saying “it’s emergent gameplay!” is not sufficient to explain to a layperson why this was not intentional.</li>
+<li>Perhaps more amusing was the combination of two other rules. First, if the player causes damage to an innocent bystander, the person will (understandably) defend themselves by attacking the player. Second, if a vehicle has taken sufficient damage, it will eventually explode, damaging everything in the vicinity (and of course, nearly killing the driver). These led to the following highly unrealistic scenario: a player, driving a damaged vehicle, crashes near a group of bystanders. The car explodes. The player crawls from the wreckage, barely alive… until the nearby crowd of “Samaritans” decides that the player damaged them from the explosion, and they descend in a group to finish the player off!</li>
+</ul>
+<p>As you can see, emergence is not always a good thing. More to the point, it is not <em>necessarily</em> cheaper to develop a game with emergent properties. Because of the complex nature of the dynamics, emergent games require a lot more playtesting and iteration than games that are more straightforward in their relationships between mechanics and dynamics. A game with emergence may be easier to program, but it is much harder to design; there is no cost savings, but rather a <em>shift</em> in cost from programmers to game designers.</p>
+<p><strong>From Emergence to Intentionality</strong></p>
+<p>Player intentionality, the concept from Church’s <em>Formal Abstract Design Tools</em> mentioned earlier in this course, is related in some ways to emergence. Generally, you get emergence by having lots of small, simple, interconnected systems. If the player is able to figure out these systems and use them to form complicated chains of events intentionally, that is one way to have a higher degree of player intention.</p>
+<p><strong>Another Reading</strong></p>
+<ul>
+<li><em><a href="http://clicknothing.typepad.com/Design/hockingc_GDC06_Intentionality.zip">Designing to Promote Intentional Play</a> </em>by Clint Hocking. This was a lecture given live at GDC in 2006, but Clint has kindly made his Powerpoint slides and speaker notes publicly available for download from his blog. It covers the concept of player intentionality and its relation to emergence, far better than I can cover here. The link goes to a Zip file that contains a number of files inside it; start with the Powerpoint and the companion Word doc, and the presentation will make it clear when the other things like the videos come into play. I will warn you that, like many video game developers, Clint tends to use a lot of profanity; also, the presentation opens with a joke about Jesus and Moses. It may be best to skip this one if you are around people who are easily offended by such things.</li>
+</ul>
+<p> </p>
+<p><strong>Lessons Learned</strong></p>
+<p>The most important takeaway from today is that game design is not a trivial task. It is difficult, mainly because of the nature of MDA. The designer creates rules, which create play, which create the player experience. Every rule created has a doubly-indirect effect on the player, and this is hard to predict and control. This also explains why making one small rules change in a game can have ripple effects that drastically alter how the game is played. And yet, a designer’s task is to create a favorable player experience.</p>
+<p>This is why playtesting is so important. It is the most effective way to gauge the effects of rules changes when you are uncertain.</p>
+<p> </p>
+<p><strong>Homeplay</strong></p>
+<p>Today we will practice iterating on an existing design, rather than starting from scratch. I want you to see first-hand the effects on a game when you change the mechanics.</p>
+<p>Here are the rules for a simplified variant of the dice game called <em>Bluff</em> (also called <em>Liar’s Dice</em>, but known to most people as <em>that weird dice game that they played in the second Pirates of the Caribbean movie</em>):</p>
+<ul>
+<li>Players: 2 or more, best with a small group of 4 to 6.</li>
+<li>Objective: Be the last player with any dice remaining.</li>
+<li>Setup: All players take 5 six-sided dice. It may also help if each player has something to hide their dice with, such as an opaque cup, but players may just shield their dice with their own hands. All players roll their dice, in such a way that each player can see their own dice but no one else’s. Choose a player to go first. That player must make a bid:</li>
+<li>Bids: A “bid” is a player’s guess as to how many dice are showing a certain face, <em>among all players</em>. Dice showing the number 1 are “wild” and count as <em>all</em> other numbers. You cannot bid any number of 1s, only 2s through 6s. For example, “three 4s” would mean that between every player’s dice, there are <em>at least</em> three dice showing the number 1 or 4.</li>
+<li>Increasing a bid: To raise a bid, the new bid must be <em>higher</em> than the previous. Increasing the number of dice is <em>always</em> a higher bid, regardless of rank (nine 2s is a higher bid than eight 6s). Increasing the rank is a higher bid if the number of dice is the <em>same or higher</em> (eight 6s is a higher bid than eight 5s, both of which are higher than eight 4s).</li>
+<li>Progression of Play: On a player’s turn, that player may either raise the current bid, or if they think the most recent bid is incorrect, they can challenge the previous bid. If they raise the bid, play passes to the next player in clockwise order. If they challenge, the current round ends; all players reveal their dice, and the result is resolved.</li>
+<li>Resolution of a round: If a bid is challenged but found to be correct (for example, if the bid was “nine 5s” and there are actually eleven 1s and 5s among all players, so there were indeed at least nine of them), the player who challenged the bid loses one of their dice. On subsequent rounds, that player will then have fewer dice to roll. If the bid is challenged <em>correctly</em> (suppose on that bid of “nine 5s” there were actually only eight 1s and 5s among all players), the player who made the incorrect bid loses one of their dice instead. Then, all players re-roll all of their remaining dice, and play continues with a new opening bid, starting with the player who won the previous challenge.</li>
+<li>Game resolution: When a player has lost all of their dice, they are eliminated from the game. When all players (except one) have lost all of their dice, the one player remaining is the winner.</li>
+</ul>
+<p>If you don’t have enough dice to play this game, you can use a variant: dealing cards from a deck, for example, or drawing slips of paper numbered 1 through 6 out of a container with many such slips of paper thrown in.</p>
+<p>If you don’t have any friends, spend some time finding them. It will make it much easier for you to playtest your projects later in this course if you have people who are willing to play games with you.</p>
+<p>At any rate, your first “assignment” here is to <strong>play the game</strong>. Take particular note of the dynamics and how they emerge from the mechanics. Do you see players bluffing, calling unrealistically high numbers in an effort to convince their opponents that they have more of a certain number than they actually do? Are players hesitant to challenge, knowing that any challenge is a risk and it is therefore safer to <em>not</em> challenge as long as you are not challenged yourself? Do any players calculate the odds, and use that information to influence their bid? Do you notice any feedback loops in the game as play progresses – that is, as a player starts making mistakes and losing dice, are they <em>more</em> or <em>less</em> likely to lose again in future rounds, given that they receive fewer dice and therefore have less information to bid on?</p>
+<p>Okay, that last question kind of gave it away – yes, there is a positive feedback loop in this game. The effect is small, and noticeable mostly in an end-game situation where one player has three or more dice and their one or two remaining opponents only have a single die. Still, this gives us an opportunity to fiddle with things as designers.</p>
+<p>Your next step is to <strong>add, remove, or change one rule in order to remove the effect of the positive feedback loop</strong>. Why did you choose the particular change that you did? What do you expect will happen – how will the dynamics change in response to your modified mechanic? Write down your prediction.</p>
+<p>Then, <strong>play the game again</strong> with your rules modification. Did it work? Did it have any other side effects that you didn’t anticipate? How did the dynamics <em>actually</em> change? Be honest, and don’t be afraid if your prediction wasn’t accurate. The whole <em>point</em> of this is so you can see for yourself how hard it is to predict gameplay changes from a simple rules change, without actually playing.</p>
+<p>Next, <strong>share what you learned</strong> with the community. <a href="http://gamedesignconcepts.pbworks.com/L5-Homeplay" target="_blank">I have created a new page on the course Wiki</a>. On that page, write the following:</p>
+<ol>
+<li>What was your rules change?</li>
+<li>How did you expect the dynamics of the game to change?</li>
+<li>How did they <em>really</em> change?</li>
+</ol>
+<p>You don’t need to include much detail; a sentence or two for each of the three points is fine.</p>
+<p>Finally, your last assignment (this is mandatory!) is to <strong>read at least three other responses</strong>. Read the rules change first, and without reading further, ask yourself how you think that rule change would modify gameplay. Then read the other person’s prediction, and see if it matches yours. Lastly, read what actually happened, and see how close you were.</p>
+<p>You may leave your name, or you may post anonymously.</p>
+<p> </p>
+<p><strong>Mini-Challenge</strong></p>
+<p>Take your favorite physical sport. Identify a positive or negative feedback loop in the game. Most sports have at <em>least</em> one of these. Propose a rule change that would eliminate it. Find a way to express it in less than 135 characters, and post to Twitter with the #GDCU tag. You have until Thursday. One sport per participant, please!</p>
+<div id="atatags-370373-69dcbd50d1334">
+		<script type="text/javascript">
+			__ATA = window.__ATA || {};
+			__ATA.cmd = window.__ATA.cmd || [];
+			__ATA.cmd.push(function() {
+				__ATA.initVideoSlot('atatags-370373-69dcbd50d1334', {
+					sectionId: '370373',
+					format: 'inread'
+				});
+			});
+		</script>
+	</div><span id="wordads-inline-marker" style="display: none;"></span><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer"
+				data-shared="sharing-facebook-57"
+				class="share-facebook sd-button share-icon"
+				href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?share=facebook"
+				target="_blank"
+				aria-labelledby="sharing-facebook-57"
+				>
+				<span id="sharing-facebook-57" hidden>Share on Facebook (Opens in new window)</span>
+				<span>Facebook</span>
+			</a></li><li class="share-x"><a rel="nofollow noopener noreferrer"
+				data-shared="sharing-x-57"
+				class="share-x sd-button share-icon"
+				href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?share=x"
+				target="_blank"
+				aria-labelledby="sharing-x-57"
+				>
+				<span id="sharing-x-57" hidden>Share on X (Opens in new window)</span>
+				<span>X</span>
+			</a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-6575901-57-69dcbd50d2778' data-src='//widgets.wp.com/likes/index.html?ver=20260413#blog_id=6575901&amp;post_id=57&amp;origin=gamedesignconcepts.wordpress.com&amp;obj_id=6575901-57-69dcbd50d2778' data-name='like-post-frame-6575901-57-69dcbd50d2778' data-title='Like or Reblog'><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class='loading'>Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>
+								
+				<p class="postmetadata alt">
+					<small>
+												This entry was posted on July 13, 2009 at 7:00 am and is filed under <a href="https://gamedesignconcepts.wordpress.com/category/uncategorized/" rel="category tag">Uncategorized</a>.						You can follow any responses to this entry through the <a href='https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/feed/'>RSS 2.0</a> feed.
+													You can <a href="#respond">leave a response</a>, or <a href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/trackback/" rel="trackback">trackback</a> from your own site.
+						
+					</small>
+				</p>
+
+			</div>
+		</div>
+
+	
+<!-- You can start editing here. -->
+	<h3 id="comments">20 Responses to &#8220;Level 5: Mechanics and&nbsp;Dynamics&#8221;</h3>
+
+	<ol class="commentlist">
+					<li class="comment even thread-even depth-1" id="comment-457">
+			<img referrerpolicy="no-referrer" alt='Mavis&#039;s avatar' src='https://0.gravatar.com/avatar/fb3dec906ed15eced407d4e36fa4488dd2aa1bdd2de16362145d42c7618f7f6d?s=32&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/fb3dec906ed15eced407d4e36fa4488dd2aa1bdd2de16362145d42c7618f7f6d?s=32&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/fb3dec906ed15eced407d4e36fa4488dd2aa1bdd2de16362145d42c7618f7f6d?s=48&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/fb3dec906ed15eced407d4e36fa4488dd2aa1bdd2de16362145d42c7618f7f6d?s=64&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/fb3dec906ed15eced407d4e36fa4488dd2aa1bdd2de16362145d42c7618f7f6d?s=96&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/fb3dec906ed15eced407d4e36fa4488dd2aa1bdd2de16362145d42c7618f7f6d?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' decoding='async' />			<cite>Mavis</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-457" title="">July 13, 2009 at 7:27 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=457#respond" data-commentid="457" data-postid="57" data-belowelement="comment-457" data-respondelement="respond" data-replyto="Reply to Mavis" aria-label="Reply to Mavis">Reply</a> </small>
+
+			<p>I learned that game as Perudo &#8211; and it&#8217;s one of my favourite games for late night con playing.</p>
+<p>And that&#8217;s sufficently ingrained in my brain that I assumed those rules were the ones you were using but there not yours are sublty different&#8230;.</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-460">
+			<img referrerpolicy="no-referrer" alt='Penda Tomlinson&#039;s avatar' src='https://1.gravatar.com/avatar/a140c67f3d7e6a06551df7ed76cff83cf448b3780f4a9daefbbfcfc418e2a467?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/a140c67f3d7e6a06551df7ed76cff83cf448b3780f4a9daefbbfcfc418e2a467?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/a140c67f3d7e6a06551df7ed76cff83cf448b3780f4a9daefbbfcfc418e2a467?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/a140c67f3d7e6a06551df7ed76cff83cf448b3780f4a9daefbbfcfc418e2a467?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/a140c67f3d7e6a06551df7ed76cff83cf448b3780f4a9daefbbfcfc418e2a467?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/a140c67f3d7e6a06551df7ed76cff83cf448b3780f4a9daefbbfcfc418e2a467?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' decoding='async' />			<cite>Penda Tomlinson</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-460" title="">July 13, 2009 at 10:57 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=460#respond" data-commentid="460" data-postid="57" data-belowelement="comment-460" data-respondelement="respond" data-replyto="Reply to Penda Tomlinson" aria-label="Reply to Penda Tomlinson">Reply</a> </small>
+
+			<p>Just a note that might help in future. In engineering speak positive feedback loops are referred to as amplifying and negative feedback loops are referred to as damping. The link made the effect of the positive feedback loop clearer to me instead of having to point out that negative effects can be amplified too.</p>
+</li><!-- #comment-## -->
+			<li class="comment even thread-even depth-1" id="comment-461">
+			<img referrerpolicy="no-referrer" alt='chaosbreaker&#039;s avatar' src='https://2.gravatar.com/avatar/e5b0930883b18cbd42dfc85afabc9d71b7394d6caecb3a603e27287413f82b9d?s=32&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/e5b0930883b18cbd42dfc85afabc9d71b7394d6caecb3a603e27287413f82b9d?s=32&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/e5b0930883b18cbd42dfc85afabc9d71b7394d6caecb3a603e27287413f82b9d?s=48&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/e5b0930883b18cbd42dfc85afabc9d71b7394d6caecb3a603e27287413f82b9d?s=64&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/e5b0930883b18cbd42dfc85afabc9d71b7394d6caecb3a603e27287413f82b9d?s=96&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/e5b0930883b18cbd42dfc85afabc9d71b7394d6caecb3a603e27287413f82b9d?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' decoding='async' />			<cite>chaosbreaker</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-461" title="">July 13, 2009 at 12:22 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=461#respond" data-commentid="461" data-postid="57" data-belowelement="comment-461" data-respondelement="respond" data-replyto="Reply to chaosbreaker" aria-label="Reply to chaosbreaker">Reply</a> </small>
+
+			<p>You can play Bluff/Liar&#8217;s Dice/Perudo/Dudo with the AI here:<br />
+<a href="http://adisney.go.com/disneypictures/pirates/games/piratesDice/index.html" rel="nofollow ugc">http://adisney.go.com/disneypictures/pirates/games/piratesDice/index.html</a></p>
+<p>The AI is random but will help you get a feel for the rules of the game.</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-463">
+			<img referrerpolicy="no-referrer" alt='Matthew Johnson&#039;s avatar' src='https://1.gravatar.com/avatar/18590735642dfcf0c69820471ff621fc9b678de48d5551c511d090c28d27618c?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/18590735642dfcf0c69820471ff621fc9b678de48d5551c511d090c28d27618c?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/18590735642dfcf0c69820471ff621fc9b678de48d5551c511d090c28d27618c?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/18590735642dfcf0c69820471ff621fc9b678de48d5551c511d090c28d27618c?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/18590735642dfcf0c69820471ff621fc9b678de48d5551c511d090c28d27618c?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/18590735642dfcf0c69820471ff621fc9b678de48d5551c511d090c28d27618c?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>Matthew Johnson</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-463" title="">July 13, 2009 at 1:40 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=463#respond" data-commentid="463" data-postid="57" data-belowelement="comment-463" data-respondelement="respond" data-replyto="Reply to Matthew Johnson" aria-label="Reply to Matthew Johnson">Reply</a> </small>
+
+			<p>Another example of a game with a positive feedback mechanism, and which has an added rule to minimize that feedback, is poker: as the game goes on, the players who have won the most have a tactical advantage because they can afford to bet (and bluff) more adventurously, raising the stakes beyond the ability of others to match. What limits this is the &#8220;all in&#8221; rule, which makes it possible for someone with a really good hand to meet a raise even if they don&#8217;t have enough money to actually do it (though at a catastrophic cost if they lose.)</p>
+</li><!-- #comment-## -->
+			<li class="comment even thread-even depth-1" id="comment-465">
+			<img referrerpolicy="no-referrer" alt='SteveEG&#039;s avatar' src='https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>SteveEG</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-465" title="">July 13, 2009 at 4:26 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=465#respond" data-commentid="465" data-postid="57" data-belowelement="comment-465" data-respondelement="respond" data-replyto="Reply to SteveEG" aria-label="Reply to SteveEG">Reply</a> </small>
+
+			<p>That Disney site; Dice game is badly coded the pirates say liar when they have the dice and number in their own cup!</p>
+<p>LOL</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-466">
+			<img referrerpolicy="no-referrer" alt='SteveEG&#039;s avatar' src='https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/d1e578b9e00692c183f7045e0fbfa7d60228ef87b13c0fb04eb110014c4adae2?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>SteveEG</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-466" title="">July 13, 2009 at 4:27 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=466#respond" data-commentid="466" data-postid="57" data-belowelement="comment-466" data-respondelement="respond" data-replyto="Reply to SteveEG" aria-label="Reply to SteveEG">Reply</a> </small>
+
+			<p>Maybe it&#8217;s the RUM!</p>
+<p>Yo Ho Ho&#8230;</p>
+</li><!-- #comment-## -->
+			<li class="comment even thread-even depth-1" id="comment-467">
+			<img referrerpolicy="no-referrer" alt='Carlos&#039;s avatar' src='https://2.gravatar.com/avatar/548bc49919ae4f963c6ea743d6ac713e1724d443a7fd1a343984bfd5421f1111?s=32&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/548bc49919ae4f963c6ea743d6ac713e1724d443a7fd1a343984bfd5421f1111?s=32&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/548bc49919ae4f963c6ea743d6ac713e1724d443a7fd1a343984bfd5421f1111?s=48&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/548bc49919ae4f963c6ea743d6ac713e1724d443a7fd1a343984bfd5421f1111?s=64&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/548bc49919ae4f963c6ea743d6ac713e1724d443a7fd1a343984bfd5421f1111?s=96&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/548bc49919ae4f963c6ea743d6ac713e1724d443a7fd1a343984bfd5421f1111?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>Carlos</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-467" title="">July 13, 2009 at 4:38 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=467#respond" data-commentid="467" data-postid="57" data-belowelement="comment-467" data-respondelement="respond" data-replyto="Reply to Carlos" aria-label="Reply to Carlos">Reply</a> </small>
+
+			<p>I like the &#8220;reading before post&#8221; change at the beggining. Usually I don&#8217;t remember to read all the stuff suggested (sorry).</p>
+<p>And the game dice game is quite fun. I usually play it with dominoes and bluffing is a general dynamic.</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-474">
+			<img referrerpolicy="no-referrer" alt='Seth Croston Barber&#039;s avatar' src='https://0.gravatar.com/avatar/6b44126b4f0d0bf58239a1e27ae3b02508dfa688b64382d48e9b16f88cdc07d3?s=32&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/6b44126b4f0d0bf58239a1e27ae3b02508dfa688b64382d48e9b16f88cdc07d3?s=32&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/6b44126b4f0d0bf58239a1e27ae3b02508dfa688b64382d48e9b16f88cdc07d3?s=48&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/6b44126b4f0d0bf58239a1e27ae3b02508dfa688b64382d48e9b16f88cdc07d3?s=64&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/6b44126b4f0d0bf58239a1e27ae3b02508dfa688b64382d48e9b16f88cdc07d3?s=96&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/6b44126b4f0d0bf58239a1e27ae3b02508dfa688b64382d48e9b16f88cdc07d3?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite><a href="http://0kelvin.net/seth" class="url" rel="ugc external nofollow">Seth Croston Barber</a></cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-474" title="">July 14, 2009 at 1:00 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=474#respond" data-commentid="474" data-postid="57" data-belowelement="comment-474" data-respondelement="respond" data-replyto="Reply to Seth Croston Barber" aria-label="Reply to Seth Croston Barber">Reply</a> </small>
+
+			<p>On the subject of MDA I was listening to Episode 155 of Fear the Boot this morning ( <a href="http://www.feartheboot.com/ftb/index.php/archives/1090" rel="nofollow ugc">http://www.feartheboot.com/ftb/index.php/archives/1090</a> ) and they started talking about this very thing, only they didn&#8217;t know it.  They discussed how utility spells in D&amp;D can be used to circumvent challenges.  The cited example involved using a spell that allows you to create whatever you want out of an existing rock, which would allow the player to wrap a monster&#8217;s head in rock assuming you are in a dungeon.  The other hosts cried foul claiming it&#8217;s not &#8220;fun&#8221; even though the rules clearly allow it (likely because it was not anticipated and not playtested, due to the sheer complexity of the system).  It&#8217;s a great example of players talking about their experience of a game and their conflict with the mechanics.</p>
+<p>I&#8217;m sitting here thinking: &#8220;the mechanics allow for a dynamic which gave rise to a player experience which was not fun&#8221;.  It also made me consider that perhaps there is another example of emergence specifically in D&amp;D (though I have no personal experience).  I&#8217;ve heard a great many stories of people writing house rules to counter what they consider loopholes in the system.</p>
+<p>Just wanted to say kudos Ian!  This class is already helping understand my hobby, not to mention helping me think critically about games and even designing games, and only 5 lessons in too!  I owe you a debt of gratitude.</p>
+</li><!-- #comment-## -->
+			<li class="comment even thread-even depth-1" id="comment-478">
+			<img referrerpolicy="no-referrer" alt='Yana Malysheva&#039;s avatar' src='https://2.gravatar.com/avatar/8efb0b6c75a5a3ad182e524d020eea89d2753020fdc94e5c0ba01bbd0183e7c6?s=32&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/8efb0b6c75a5a3ad182e524d020eea89d2753020fdc94e5c0ba01bbd0183e7c6?s=32&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/8efb0b6c75a5a3ad182e524d020eea89d2753020fdc94e5c0ba01bbd0183e7c6?s=48&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/8efb0b6c75a5a3ad182e524d020eea89d2753020fdc94e5c0ba01bbd0183e7c6?s=64&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/8efb0b6c75a5a3ad182e524d020eea89d2753020fdc94e5c0ba01bbd0183e7c6?s=96&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/8efb0b6c75a5a3ad182e524d020eea89d2753020fdc94e5c0ba01bbd0183e7c6?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>Yana Malysheva</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-478" title="">July 15, 2009 at 5:34 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=478#respond" data-commentid="478" data-postid="57" data-belowelement="comment-478" data-respondelement="respond" data-replyto="Reply to Yana Malysheva" aria-label="Reply to Yana Malysheva">Reply</a> </small>
+
+			<p>One of the ways emergence appeals to me (both as a player and as a designer) is the perceived &#8220;wisdom&#8221; of it &#8211; that a compact set of rules creates a whole interesting world for your mind to explore. Kind of similar to the way a cleverly-stated math theorem or a short but wise quotation can make you think for hours&#8230;<br />
+Emergent gameplay also makes the game world feel like it makes sense internally, and (to me) therefore feel more alive.</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-481">
+			<img referrerpolicy="no-referrer" alt='Dr. Mike Reddy&#039;s avatar' src='https://1.gravatar.com/avatar/1be4a65493ce9a8b169dbbf233d60b661c8d40b3669d261000999192f8e99673?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/1be4a65493ce9a8b169dbbf233d60b661c8d40b3669d261000999192f8e99673?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/1be4a65493ce9a8b169dbbf233d60b661c8d40b3669d261000999192f8e99673?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/1be4a65493ce9a8b169dbbf233d60b661c8d40b3669d261000999192f8e99673?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/1be4a65493ce9a8b169dbbf233d60b661c8d40b3669d261000999192f8e99673?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/1be4a65493ce9a8b169dbbf233d60b661c8d40b3669d261000999192f8e99673?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite><a href="http://mycommunity.newport.ac.uk/blogs/mreddy01/" class="url" rel="ugc external nofollow">Dr. Mike Reddy</a></cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-481" title="">July 16, 2009 at 4:38 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=481#respond" data-commentid="481" data-postid="57" data-belowelement="comment-481" data-respondelement="respond" data-replyto="Reply to Dr. Mike Reddy" aria-label="Reply to Dr. Mike Reddy">Reply</a> </small>
+
+			<p>My favourite lesson so far. It touches on learning in games and through games, which is a particular theme I adhere to.</p>
+</li><!-- #comment-## -->
+			<li class="comment byuser comment-author-mbg3dmind even thread-even depth-1" id="comment-483">
+			<img referrerpolicy="no-referrer" alt='Maurício&#039;s avatar' src='https://0.gravatar.com/avatar/6f8e059d33acb66a8494944e1653cf17513fc9a491510031cf16e276cdad1056?s=32&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/6f8e059d33acb66a8494944e1653cf17513fc9a491510031cf16e276cdad1056?s=32&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/6f8e059d33acb66a8494944e1653cf17513fc9a491510031cf16e276cdad1056?s=48&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/6f8e059d33acb66a8494944e1653cf17513fc9a491510031cf16e276cdad1056?s=64&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/6f8e059d33acb66a8494944e1653cf17513fc9a491510031cf16e276cdad1056?s=96&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/6f8e059d33acb66a8494944e1653cf17513fc9a491510031cf16e276cdad1056?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>mbg3dmind</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-483" title="">July 16, 2009 at 1:10 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=483#respond" data-commentid="483" data-postid="57" data-belowelement="comment-483" data-respondelement="respond" data-replyto="Reply to mbg3dmind" aria-label="Reply to mbg3dmind">Reply</a> </small>
+
+			<p>I think the &#8220;cult&#8221; shooter Ikaruga is a great example of action game that has emergence properties. Very simple rules that create a very complex and difficult game. Level design is the key in this emergence, created to explore the simple mechanics of the game. (creating amazing dynamics)</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-584">
+			<img referrerpolicy="no-referrer" alt='Delfeld&#039;s avatar' src='https://1.gravatar.com/avatar/dca26d8d5a44f84fa7613d894c2313aead5edadb5e80c9905c3f4959e68afc91?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/dca26d8d5a44f84fa7613d894c2313aead5edadb5e80c9905c3f4959e68afc91?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/dca26d8d5a44f84fa7613d894c2313aead5edadb5e80c9905c3f4959e68afc91?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/dca26d8d5a44f84fa7613d894c2313aead5edadb5e80c9905c3f4959e68afc91?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/dca26d8d5a44f84fa7613d894c2313aead5edadb5e80c9905c3f4959e68afc91?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/dca26d8d5a44f84fa7613d894c2313aead5edadb5e80c9905c3f4959e68afc91?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>Delfeld</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-584" title="">July 27, 2009 at 12:04 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=584#respond" data-commentid="584" data-postid="57" data-belowelement="comment-584" data-respondelement="respond" data-replyto="Reply to Delfeld" aria-label="Reply to Delfeld">Reply</a> </small>
+
+			<p>In math, this has quite a precedent.  It is called a &#8220;series&#8221;.  Positive feedback is divergence (tends toward infinity) and negative feedback is called convergence (tends toward some number).  At UNL, this is treated in Calculus II classes, and 200- to 300-level computer science courses.  This is definitely an avenue that might allow you to predict whether something that increases too quickly will continue to do so, or whether it tops out at some point, or fluctuates &#8211; seems like an divergent series, but ends up being a cycle.</p>
+</li><!-- #comment-## -->
+			<li class="pingback even thread-even depth-1" id="comment-697">
+						<cite><a href="http://gangles.ca/2009/08/21/mda/" class="url" rel="ugc external nofollow">Mechanics, Dynamics &amp; Aesthetics - The Quixotic Engineer</a></cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-697" title="">August 21, 2009 at 1:11 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=697#respond" data-commentid="697" data-postid="57" data-belowelement="comment-697" data-respondelement="respond" data-replyto="Reply to Mechanics, Dynamics &amp; Aesthetics - The Quixotic Engineer" aria-label="Reply to Mechanics, Dynamics &amp; Aesthetics - The Quixotic Engineer">Reply</a> </small>
+
+			<p>[&#8230;] his post on MDA, Schreiber also offers the following example: In a First-Person Shooter video game, a common [&#8230;]</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-751">
+			<img referrerpolicy="no-referrer" alt='Jason Tam&#039;s avatar' src='https://2.gravatar.com/avatar/5518ddc783d42a45dd7a1a590278383960671a89e53efd0f096b2e3d9d6ed962?s=32&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/5518ddc783d42a45dd7a1a590278383960671a89e53efd0f096b2e3d9d6ed962?s=32&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/5518ddc783d42a45dd7a1a590278383960671a89e53efd0f096b2e3d9d6ed962?s=48&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/5518ddc783d42a45dd7a1a590278383960671a89e53efd0f096b2e3d9d6ed962?s=64&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/5518ddc783d42a45dd7a1a590278383960671a89e53efd0f096b2e3d9d6ed962?s=96&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/5518ddc783d42a45dd7a1a590278383960671a89e53efd0f096b2e3d9d6ed962?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>Jason Tam</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-751" title="">September 9, 2009 at 8:23 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=751#respond" data-commentid="751" data-postid="57" data-belowelement="comment-751" data-respondelement="respond" data-replyto="Reply to Jason Tam" aria-label="Reply to Jason Tam">Reply</a> </small>
+
+			<p>question about the postive feedback loop. </p>
+<p>it seems to me that this is useful for rewarding players that are doing well in a single player game. however if the game has multiple players then it puts others in a unfair advantage or disadvantage. do you think that postive feedback loops should be restricted to single player games?</p>
+<ul class="children">
+			<li class="comment byuser comment-author-ai864 bypostauthor even depth-2" id="comment-752">
+			<img referrerpolicy="no-referrer" alt='ai864&#039;s avatar' src='https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite><a href="http://teachingdesign.blogspot.com" class="url" rel="ugc external nofollow">ai864</a></cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-752" title="">September 9, 2009 at 1:59 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=752#respond" data-commentid="752" data-postid="57" data-belowelement="comment-752" data-respondelement="respond" data-replyto="Reply to ai864" aria-label="Reply to ai864">Reply</a> </small>
+
+			<p>I think feedback loops have their uses in both single-player and multi-player games. They can definitely be more unbalancing in single-player games, as a late-game ridiculous power boost can be very satisfying in a single-player experience (and at no one else&#8217;s expense). But that doesn&#8217;t mean it is useless in multi-player.</p>
+<p>Think of it this way. Suppose you are playing a game against your friends and you are losing badly. In this case you may want the game to end faster, so that your inevitable loss is not drawn out. A positive feedback loop will help put you out of your misery faster, so to speak.</p>
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-even depth-1" id="comment-839">
+			<img referrerpolicy="no-referrer" alt='LetsGetTrivial&#039;s avatar' src='https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>LetsGetTrivial</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-839" title="">May 3, 2010 at 11:47 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=839#respond" data-commentid="839" data-postid="57" data-belowelement="comment-839" data-respondelement="respond" data-replyto="Reply to LetsGetTrivial" aria-label="Reply to LetsGetTrivial">Reply</a> </small>
+
+			<p>I know this course is over, but I am still sorting out questions in my mind so wonder if anyone can help.</p>
+<p>1) What is the difference between dynamics and emergence?<br />
+Both seem to arise from mechanics/rules and both are only evident after going beyond the aesthetics phase (as a player).</p>
+<p>2) What are examples of feedback loops in education?<br />
+The name seems to suggest that behaviourism (Skinner/Pavlov) should be related to feedback loops, but behaviourism is more about encouraging or discouraging behaviours. Feedback loops, however, seem to be more about making students more the same (with neg feed loop) or more different (pos feed loop).</p>
+<p>3) Would &#8220;king-making&#8221; be an example of an emergent positive feedback loop? Also, would &#8220;bash the leader&#8221; be an example of an emergent negative feedback loop?<br />
+I site both of these as emergent because they are more meta-gaming and not part of the ruleset.</p>
+<ul class="children">
+			<li class="comment byuser comment-author-ai864 bypostauthor even depth-2" id="comment-840">
+			<img referrerpolicy="no-referrer" alt='ai864&#039;s avatar' src='https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/a2737d788737c721e4bbfe10955191acd8419febf7da80bb369c7756834b3e80?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite><a href="http://teachingdesign.blogspot.com" class="url" rel="ugc external nofollow">ai864</a></cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-840" title="">May 3, 2010 at 5:46 pm</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=840#respond" data-commentid="840" data-postid="57" data-belowelement="comment-840" data-respondelement="respond" data-replyto="Reply to ai864" aria-label="Reply to ai864">Reply</a> </small>
+
+			<p>Wow, some great questions here!</p>
+<p>1) I see &#8220;emergence&#8221; as a property of some dynamics (i.e. some dynamics are emergent, others are not). The difference is largely in whether the dynamics arise more from the player inputs, or more from the game state (i.e. is the effect of the player direct or indirect). But I admit it is a fuzzy definition, and I have been witness to discussions where designers argue over whether a particular thing is or isn&#8217;t emergent.</p>
+<p>2) As for using feedback loops in education, is there a reason you would want to do that? Feedback loops actually exist in lots of fields (psychology as you suggest, and also biology and chemistry where certain reactions either inhibit or catalyze further reactions of the same type). Off the top of my head, one potential use for an educational feedback loop is in a student&#8217;s studying strategy. Ask a bunch of sample exam questions, and note which ones they got wrong. Then ask another set of questions, putting emphasis on the topics or questions they got wrong the first time. Keep doing this until they start getting those questions right. This takes advantage of repetition of material as a natural positive feedback loop (the more you go over the material, the stronger you get at it) and negative feedback loop (the more you&#8217;re asked the same question, the less likely you are on successive attempts to get it wrong). Is that what you&#8217;re looking for?</p>
+<p>3) I would agree with your assessment, mostly. Bash-the-leader is certainly a negative feedback loop (it makes it harder for the player in the lead to extend their lead), and typically this arises emergently and not as an explicit part of the rules. King-making also seems to arise during play (rather than being a direct effect of the mechanics) so I would call it emergent, but I would not call king-making a feedback loop. (I define king-making as a situation where one player cannot win, but they are in a situation to decide which of two OTHER players will win the game depending on their action. An example would be a game with trading mechanics, where the player who is furthest behind has the option to trade all of their resources to any other player, effectively letting them decide who else gets enough of a resource boost to win.) In this case, there is no feedback loop; the fact that someone is in a kingmaker position does not make it more likely for the same position to happen, nor does it necessarily put the leader further ahead or the trailing player further behind. Rather, it is a situation where there are two or more leaders (which implies no positive feedback loop!) and a single game-winning decision made by neither of them.</p>
+<ul class="children">
+			<li class="comment odd alt depth-3" id="comment-841">
+			<img referrerpolicy="no-referrer" alt='LetsGetTrivial&#039;s avatar' src='https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/d04cbc7a172b81f17fd3bbd33b870fa592593fc78b21a86dec20db764062a661?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>LetsGetTrivial</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-841" title="">May 3, 2010 at 10:18 pm</a> </small>
+
+			<p>1) Thanks for the clarification. The fact that the terms are not well defined was basically the conclusion I came to.</p>
+<p>2) It is not that I am looking to create pos/neg feedback loops. Instead, I see many similarities between game design and education. I think Gee makes the point that school is a game in itself. I would agree and think that students who make this realization are the ones who do better. By exploring feedback loops in education, I am trying to see how far the similarity goes (if anywhere).</p>
+<p>3) The clarification for king-making made sense. I had not limited my definition to the last round of the game (thinking of a game like El Grande that has many rounds before scoring), but it makes some sense to do so.</p>
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+			<li class="pingback even thread-odd thread-alt depth-1" id="comment-864">
+						<cite><a href="http://gangles.ca/2010/07/23/cut-throat-dominoes/" class="url" rel="ugc external nofollow">Cut Throat Dominoes - The Quixotic Engineer</a></cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-864" title="">July 23, 2010 at 11:07 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=864#respond" data-commentid="864" data-postid="57" data-belowelement="comment-864" data-respondelement="respond" data-replyto="Reply to Cut Throat Dominoes - The Quixotic Engineer" aria-label="Reply to Cut Throat Dominoes - The Quixotic Engineer">Reply</a> </small>
+
+			<p>[&#8230;] 1 Homophobia is extremely prevalent in the Caribbean.2 For a quick primer on feedback loops in game design, check out Game Design Concepts. [&#8230;]</p>
+</li><!-- #comment-## -->
+			<li class="comment odd alt thread-even depth-1" id="comment-875">
+			<img referrerpolicy="no-referrer" alt='Fernando Baz&#039;s avatar' src='https://0.gravatar.com/avatar/64af91633fd515cddb4265ac026b51bd12530d93055b15719463567e5f3d7510?s=32&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/64af91633fd515cddb4265ac026b51bd12530d93055b15719463567e5f3d7510?s=32&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/64af91633fd515cddb4265ac026b51bd12530d93055b15719463567e5f3d7510?s=48&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/64af91633fd515cddb4265ac026b51bd12530d93055b15719463567e5f3d7510?s=64&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/64af91633fd515cddb4265ac026b51bd12530d93055b15719463567e5f3d7510?s=96&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/64af91633fd515cddb4265ac026b51bd12530d93055b15719463567e5f3d7510?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' />			<cite>Fernando Baz</cite> Says:						<br />
+
+			<small class="commentmetadata"><a href="#comment-875" title="">October 12, 2010 at 10:44 am</a> | <a rel="nofollow" class="comment-reply-link" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/?replytocom=875#respond" data-commentid="875" data-postid="57" data-belowelement="comment-875" data-respondelement="respond" data-replyto="Reply to Fernando Baz" aria-label="Reply to Fernando Baz">Reply</a> </small>
+
+			<p>TGL FTW!!</p>
+</li><!-- #comment-## -->
+	</ol>
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+
+
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2009/07/13/level-5-mechanics-and-dynamics/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://gamedesignconcepts.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+
+
+<div class="comment-form__verbum transparent"></div><div class="verbum-form-meta"><input type='hidden' name='comment_post_ID' value='57' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			<input type="hidden" name="highlander_comment_nonce" id="highlander_comment_nonce" value="db7bef2bfe" />
+			<input type="hidden" name="verbum_show_subscription_modal" value="" /></div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9e9477d9b9" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="38"/><script>
+document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+</script>
+</p></form>	</div><!-- #respond -->
+	
+
+	
+	</div>
+
+
+<hr />
+<div id="footer">
+	<p>
+		 <a href="https://wordpress.com/?ref=footer_blog" rel="nofollow">Blog at WordPress.com.</a>
+		<br /><a href="https://gamedesignconcepts.wordpress.com/feed/">Entries (RSS)</a> and <a href="https://gamedesignconcepts.wordpress.com/comments/feed/">Comments (RSS)</a>.	</p>
+</div>
+</div>
+
+<!--  -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/files/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/pub/kubrick/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="grofiles-cards-js" src="//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202616d1133547e8a1f2801609f51cef12522abe7f6647d869e9fbc974fe356a37e613"></script>
+<script id="wpgroho-js-extra">
+var WPGroHo = {"my_hash":""};
+//# sourceURL=wpgroho-js-extra
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile →': 'Edit your profile →',
+							'View profile →': 'View profile →',
+							'Contact': 'Contact',
+							'Send money': 'Send money',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Gravatar not found.': 'Gravatar not found.',
+							'Too Many Requests.': 'Too Many Requests.',
+							'Internal Server Error.': 'Internal Server Error.',
+							'Is this you?': 'Is this you?',
+							'Claim your free profile.': 'Claim your free profile.',
+							'Email': 'Email',
+							'Home Phone': 'Home Phone',
+							'Work Phone': 'Work Phone',
+							'Cell Phone': 'Cell Phone',
+							'Contact Form': 'Contact Form',
+							'Calendar': 'Calendar',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-0f1e1a4b371ebe054a3d5347ed61dc49">
+	</div>
+	<div class="grofile-hash-map-73784138da647f458f0c59bf0583fcbf">
+	</div>
+	<div class="grofile-hash-map-9204b2c32401e43c26cbcb936d22715f">
+	</div>
+	<div class="grofile-hash-map-9c15a0353a9de8aa8b4e6668041e8009">
+	</div>
+	<div class="grofile-hash-map-2634ca2cc6fae61cdf7b0fc60315aaf0">
+	</div>
+	<div class="grofile-hash-map-d0e8903f6a2c74d2942ecce18059d2c3">
+	</div>
+	<div class="grofile-hash-map-7cfcdcfe816f057991c4385897e36519">
+	</div>
+	<div class="grofile-hash-map-f0eb123867ef382ee23e2825895c26f8">
+	</div>
+	<div class="grofile-hash-map-ceec5d122184600334cac1b4caa07a49">
+	</div>
+	<div class="grofile-hash-map-4ebf354e39375a6165a16f02a42ba61b">
+	</div>
+	<div class="grofile-hash-map-4c2964565912da2cbf53d06aa56f0b54">
+	</div>
+	<div class="grofile-hash-map-4401e452af18c7ed1668ae5e3801ced3">
+	</div>
+	<div class="grofile-hash-map-d318c14c240d6128714ceb75c023447a">
+	</div>
+	<div class="grofile-hash-map-0f6129ae11cb092421e421d3b11818e4">
+	</div>
+	<div class="grofile-hash-map-250c398ce979ce4a04c6af7b191b10f4">
+	</div>
+	</div>
+		<!-- CCPA [start] -->
+		<script type="text/javascript">
+			( function () {
+
+				var setupPrivacy = function() {
+
+					// Minimal Mozilla Cookie library
+					// https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework
+					var cookieLib = window.cookieLib = {getItem:function(e){return e&&decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||null},setItem:function(e,o,n,t,r,i){if(!e||/^(?:expires|max\-age|path|domain|secure)$/i.test(e))return!1;var c="";if(n)switch(n.constructor){case Number:c=n===1/0?"; expires=Fri, 31 Dec 9999 23:59:59 GMT":"; max-age="+n;break;case String:c="; expires="+n;break;case Date:c="; expires="+n.toUTCString()}return"rootDomain"!==r&&".rootDomain"!==r||(r=(".rootDomain"===r?".":"")+document.location.hostname.split(".").slice(-2).join(".")),document.cookie=encodeURIComponent(e)+"="+encodeURIComponent(o)+c+(r?"; domain="+r:"")+(t?"; path="+t:"")+(i?"; secure":""),!0}};
+
+					// Implement IAB USP API.
+					window.__uspapi = function( command, version, callback ) {
+
+						// Validate callback.
+						if ( typeof callback !== 'function' ) {
+							return;
+						}
+
+						// Validate the given command.
+						if ( command !== 'getUSPData' || version !== 1 ) {
+							callback( null, false );
+							return;
+						}
+
+						// Check for GPC. If set, override any stored cookie.
+						if ( navigator.globalPrivacyControl ) {
+							callback( { version: 1, uspString: '1YYN' }, true );
+							return;
+						}
+
+						// Check for cookie.
+						var consent = cookieLib.getItem( 'usprivacy' );
+
+						// Invalid cookie.
+						if ( null === consent ) {
+							callback( null, false );
+							return;
+						}
+
+						// Everything checks out. Fire the provided callback with the consent data.
+						callback( { version: 1, uspString: consent }, true );
+					};
+
+					// Initialization.
+					document.addEventListener( 'DOMContentLoaded', function() {
+
+						// Internal functions.
+						var setDefaultOptInCookie = function() {
+							var value = '1YNN';
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'usprivacy', value, 365 * 24 * 60 * 60, '/', domain );
+						};
+
+						var setDefaultOptOutCookie = function() {
+							var value = '1YYN';
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'usprivacy', value, 24 * 60 * 60, '/', domain );
+						};
+
+						var setDefaultNotApplicableCookie = function() {
+							var value = '1---';
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'usprivacy', value, 24 * 60 * 60, '/', domain );
+						};
+
+						var setCcpaAppliesCookie = function( applies ) {
+							var domain = '.wordpress.com' === location.hostname.slice( -14 ) ? '.rootDomain' : location.hostname;
+							cookieLib.setItem( 'ccpa_applies', applies, 24 * 60 * 60, '/', domain );
+						}
+
+						var maybeCallDoNotSellCallback = function() {
+							if ( 'function' === typeof window.doNotSellCallback ) {
+								return window.doNotSellCallback();
+							}
+
+							return false;
+						}
+
+						// Look for usprivacy cookie first.
+						var usprivacyCookie = cookieLib.getItem( 'usprivacy' );
+
+						// Found a usprivacy cookie.
+						if ( null !== usprivacyCookie ) {
+
+							// If the cookie indicates that CCPA does not apply, then bail.
+							if ( '1---' === usprivacyCookie ) {
+								return;
+							}
+
+							// CCPA applies, so call our callback to add Do Not Sell link to the page.
+							maybeCallDoNotSellCallback();
+
+							// We're all done, no more processing needed.
+							return;
+						}
+
+						// We don't have a usprivacy cookie, so check to see if we have a CCPA applies cookie.
+						var ccpaCookie = cookieLib.getItem( 'ccpa_applies' );
+
+						// No CCPA applies cookie found, so we'll need to geolocate if this visitor is from California.
+						// This needs to happen client side because we do not have region geo data in our $SERVER headers,
+						// only country data -- therefore we can't vary cache on the region.
+						if ( null === ccpaCookie ) {
+
+							var request = new XMLHttpRequest();
+							request.open( 'GET', 'https://public-api.wordpress.com/geo/', true );
+
+							request.onreadystatechange = function () {
+								if ( 4 === this.readyState ) {
+									if ( 200 === this.status ) {
+
+										// Got a geo response. Parse out the region data.
+										var data = JSON.parse( this.response );
+										var region      = data.region ? data.region.toLowerCase() : '';
+										var ccpa_applies = ['california', 'colorado', 'connecticut', 'delaware', 'indiana', 'iowa', 'montana', 'new jersey', 'oregon', 'tennessee', 'texas', 'utah', 'virginia'].indexOf( region ) > -1;
+										// Set CCPA applies cookie. This keeps us from having to make a geo request too frequently.
+										setCcpaAppliesCookie( ccpa_applies );
+
+										// Check if CCPA applies to set the proper usprivacy cookie.
+										if ( ccpa_applies ) {
+											if ( maybeCallDoNotSellCallback() ) {
+												// Do Not Sell link added, so set default opt-in.
+												setDefaultOptInCookie();
+											} else {
+												// Failed showing Do Not Sell link as required, so default to opt-OUT just to be safe.
+												setDefaultOptOutCookie();
+											}
+										} else {
+											// CCPA does not apply.
+											setDefaultNotApplicableCookie();
+										}
+									} else {
+										// Could not geo, so let's assume for now that CCPA applies to be safe.
+										setCcpaAppliesCookie( true );
+										if ( maybeCallDoNotSellCallback() ) {
+											// Do Not Sell link added, so set default opt-in.
+											setDefaultOptInCookie();
+										} else {
+											// Failed showing Do Not Sell link as required, so default to opt-OUT just to be safe.
+											setDefaultOptOutCookie();
+										}
+									}
+								}
+							};
+
+							// Send the geo request.
+							request.send();
+						} else {
+							// We found a CCPA applies cookie.
+							if ( ccpaCookie === 'true' ) {
+								if ( maybeCallDoNotSellCallback() ) {
+									// Do Not Sell link added, so set default opt-in.
+									setDefaultOptInCookie();
+								} else {
+									// Failed showing Do Not Sell link as required, so default to opt-OUT just to be safe.
+									setDefaultOptOutCookie();
+								}
+							} else {
+								// CCPA does not apply.
+								setDefaultNotApplicableCookie();
+							}
+						}
+					} );
+				};
+
+				// Kickoff initialization.
+				if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+					defQueue.items.push( setupPrivacy );
+				} else {
+					setupPrivacy();
+				}
+
+			} )();
+		</script>
+
+		<!-- CCPA [end] -->
+				<div id="actionbar" dir="ltr" style="display: none;"
+			class="actnbr-pub-kubrick actnbr-has-follow actnbr-has-actions">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-comment" href="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/#comments">
+							<svg class="gridicon gridicons-comment" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 16l-5 5v-5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2h-7z"/></g></svg>							<span>Comment						</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-reblog" href="">
+							<svg class="gridicon gridicons-reblog" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M22.086 9.914L20 7.828V18c0 1.105-.895 2-2 2h-7v-2h7V7.828l-2.086 2.086L14.5 8.5 19 4l4.5 4.5-1.414 1.414zM6 16.172V6h7V4H6c-1.105 0-2 .895-2 2v10.172l-2.086-2.086L.5 15.5 5 20l4.5-4.5-1.414-1.414L6 16.172z"/></g></svg><span>Reblog</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://gamedesignconcepts.wordpress.com">
+				<img loading='lazy' alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png?m=1479929237i' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				Game Design Concepts			</a>
+		</li>
+										<div class="actnbr-message no-display"></div>
+									<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 266 other subscribers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="6575901" />
+										<input type="hidden" name="source" value="https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="2729d2ce3a" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fgamedesignconcepts.wordpress.com%2F2009%2F07%2F13%2Flevel-5-mechanics-and-dynamics%2F&#038;signup_flow=account">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+									<li class="actnbr-btn actnbr-hidden no-display" onclick="javascript:__tcfapi( 'showUi' );">
+						<a class="actnbr-action actnbr-actn-privacy" href="#">
+							<svg class="gridicon gridicons-info-outline" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M13 9h-2V7h2v2zm0 2h-2v6h2v-6zm-1-7c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8m0-2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></g></svg>							<span>Privacy						</span>
+						</a>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+								<li class="actnbr-sitename">
+			<a href="https://gamedesignconcepts.wordpress.com">
+				<img loading='lazy' alt='' src='https://s2.wp.com/i/logo/wpcom-gray-white.png?m=1479929237i' srcset='https://s2.wp.com/i/logo/wpcom-gray-white.png 1x' class='avatar avatar-50' height='50' width='50' />				Game Design Concepts			</a>
+		</li>
+								<li class="actnbr-folded-follow">
+										<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Subscribe</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Subscribed</span>
+		</a>
+								</li>
+														<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+							<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fgamedesignconcepts.wordpress.com%2F2009%2F07%2F13%2Flevel-5-mechanics-and-dynamics%2F&#038;signup_flow=account">Log in</a></li>
+																<li class="actnbr-shortlink">
+										<a href="https://wp.me/prAGV-V">
+											<span class="actnbr-shortlink__text">Copy shortlink</span>
+											<span class="actnbr-shortlink__icon"><svg class="gridicon gridicons-checkmark" height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M9 19.414l-6.707-6.707 1.414-1.414L9 16.586 20.293 5.293l1.414 1.414"/></g></svg></span>
+										</a>
+									</li>
+																<li class="flb-report">
+									<a href="https://wordpress.com/abuse/?report_url=https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/" target="_blank" rel="noopener noreferrer">
+										Report this content									</a>
+								</li>
+															<li class="actnbr-reader">
+									<a href="https://wordpress.com/reader/blogs/6575901/posts/57">
+										View post in Reader									</a>
+								</li>
+															<li class="actnbr-subs">
+									<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+								</li>
+																<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+														</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "DOMContentLoaded", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "/wp-content/mu-plugins/actionbar/actionbar.js?v=20250204";
+	document.body.appendChild( script );
+} );
+</script>
+
+	
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https://gamedesignconcepts.wordpress.com/2009/07/13/level-5-mechanics-and-dynamics/":57};
+	</script>
+				
+	<script type="text/javascript">
+		(function () {
+			var wpcom_reblog = {
+				source: 'toolbar',
+
+				toggle_reblog_box_flair: function (obj_id, post_id) {
+
+					// Go to site selector. This will redirect to their blog if they only have one.
+					const postEndpoint = `https://wordpress.com/post`;
+
+					// Ideally we would use the permalink here, but fortunately this will be replaced with the 
+					// post permalink in the editor.
+					const originalURL = `${ document.location.href }?page_id=${ post_id }`; 
+					
+					const url =
+						postEndpoint +
+						'?url=' +
+						encodeURIComponent( originalURL ) +
+						'&is_post_share=true' +
+						'&v=5';
+
+					const redirect = function () {
+						if (
+							! window.open( url, '_blank' )
+						) {
+							location.href = url;
+						}
+					};
+
+					if ( /Firefox/.test( navigator.userAgent ) ) {
+						setTimeout( redirect, 0 );
+					} else {
+						redirect();
+					}
+				},
+			};
+
+			window.wpcom_reblog = wpcom_reblog;
+		})();
+	</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??/wp-content/blog-plugins/wordads-classes/js/watl-v2.js,/wp-content/mu-plugins/likes/queuehandler.js?m=1760446017j'></script>
+<script id="wp-hooks-js" src="https://s1.wp.com/wp-content/plugins/gutenberg-core/v22.9.0-rc.1/build/scripts/hooks/index.min.js?m=1775845852i&#038;ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://s1.wp.com/wp-content/plugins/gutenberg-core/v22.9.0-rc.1/build/scripts/i18n/index.min.js?m=1775845852i&#038;ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="verbum-settings-js-before">
+window.VerbumComments = {"Log in or provide your name and email to leave a reply.":"Log in or provide your name and email to leave a reply.","Log in or provide your name and email to leave a comment.":"Log in or provide your name and email to leave a comment.","Receive web and mobile notifications for posts on this site.":"Receive web and mobile notifications for posts on this site.","Name":"Name","Email (address never made public)":"Email (address never made public)","Website (optional)":"Website (optional)","Leave a reply. (log in optional)":"Leave a reply. (log in optional)","Leave a comment. (log in optional)":"Leave a comment. (log in optional)","Log in to leave a reply.":"Log in to leave a reply.","Log in to leave a comment.":"Log in to leave a comment.","Logged in via %s":"Logged in via %s","Log out":"Log out","Email":"Email","(Address never made public)":"(Address never made public)","Instantly":"Instantly","Daily":"Daily","Reply":"Reply","Comment":"Comment","WordPress":"WordPress","Weekly":"Weekly","Notify me of new posts":"Notify me of new posts","Email me new posts":"Email me new posts","Email me new comments":"Email me new comments","Cancel":"Cancel","Write a comment...":"Write a comment...","Write a reply...":"Write a reply...","Website":"Website","Optional":"Optional","We'll keep you in the loop!":"We'll keep you in the loop!","Loading your comment...":"Loading your comment...","Discover more from":"Discover more from Game Design Concepts","Subscribe now to keep reading and get access to the full archive.":"Subscribe now to keep reading and get access to the full archive.","Continue reading":"Continue reading","Never miss a beat!":"Never miss a beat!","Interested in getting blog post updates? Simply click the button below to stay in the loop!":"Interested in getting blog post updates? Simply click the button below to stay in the loop!","Enter your email address":"Enter your email address","Subscribe":"Subscribe","Comment sent successfully":"Comment sent successfully","Save my name, email, and website in this browser for the next time I comment.":"Save my name, email, and website in this browser for the next time I comment.","hovercardi18n":{"Edit your profile \u2192":"Edit your profile \u2192","View profile \u2192":"View profile \u2192","Contact":"Contact","Send money":"Send money","Gravatar not found.":"Gravatar not found.","This profile is private.":"This profile is private.","Too Many Requests.":"Too Many Requests.","Internal Server Error.":"Internal Server Error.","Sorry, we are unable to load this Gravatar profile.":"Sorry, we are unable to load this Gravatar profile."},"siteId":6575901,"postId":57,"mustLogIn":false,"requireNameEmail":true,"commentRegistration":false,"connectURL":"https://gamedesignconcepts.wordpress.com/public.api/connect/?action=request\u0026from_comments=yes","logoutURL":"https://gamedesignconcepts.wordpress.com/wp-login.php?action=logout\u0026_wpnonce=c78262338e","homeURL":"https://gamedesignconcepts.wordpress.com/","subscribeToBlog":true,"subscribeToComment":true,"isJetpackCommentsLoggedIn":false,"jetpackUsername":"","jetpackUserId":0,"jetpackSignature":"","jetpackAvatar":"https://0.gravatar.com/avatar/?s=96\u0026amp;d=identicon\u0026amp;r=G","enableBlocks":true,"enableSubscriptionModal":true,"currentLocale":"en","isJetpackComments":false,"allowedBlocks":["core/paragraph","core/list","core/code","core/list-item","core/quote","core/image","core/embed","core/quote","core/code"],"embedNonce":"459cd771e7","verbumBundleUrl":"/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/dist/index.js","isRTL":false,"vbeCacheBuster":1771405207,"iframeUniqueId":0,"colorScheme":false}
+//# sourceURL=verbum-settings-js-before
+</script>
+<script data-wp-strategy="defer" defer id="verbum-dynamic-loader-js" src="/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/assets/dynamic-loader.js?m=1772522099i&#038;minify=false&#038;ver=8b5296f9195db92c42e4"></script>
+<script id="sharing-js-js-extra">
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+//# sourceURL=sharing-js-js-extra
+</script>
+<script id="jetpack-script-data-js-before">
+window.JetpackScriptData = {"site":{"host":"wpcom","is_wpcom_platform":true}};
+//# sourceURL=jetpack-script-data-js-before
+</script>
+<script crossorigin='anonymous' type='text/javascript'  src='/_static/??-eJyNUNFuwjAM/KGlppuAvUz7FOTGWZeSOFHsUPH3C12pJh7Qnmzd2Xdnw5yNZxsqOYFJwKYYHaspLodrFz13k7xAG7KJtREwhDSaHOroWWBOhZDE2IAiq0DMcHm9lW6oTME9CsS6rU9OM9qzadCcm/NKgFS+c6eLY0oFsGqKqOrttnWzVIGh+kAbKLb4rIZQ8Ykxnr1Ep+at28Gpnb8BX2UZpn+E/pN1kfjNId9YXPsJXZfW87g+8TN+9Mfj/vDe73f99AO0vot5'></script>
+<script id="sharing-js-js-after">
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-x' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-x' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomx', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+//# sourceURL=sharing-js-js-after
+</script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/","ext":".png","svgUrl":"https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/","svgExt":".svg","source":{"concatemoji":"/wp-includes/js/wp-emoji-release.min.js?m=1764078722i&ver=7.0-RC2-62212"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
+</script>
+	<iframe src='https://widgets.wp.com/likes/master.html?ver=20260413#ver=20260413' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars' role="dialog" aria-hidden="true" tabindex="-1"><div class="likes-text"><span>%d</span></div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+	<script src="//stats.wp.com/w.js?68" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'6575901','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+		// Prevent sending pageview tracking from WP-Admin pages.
+		_stq.push(['view', {'blog':'6575901','v':'wpcom','tz':'-4','user_id':'0','post':'57','subd':'gamedesignconcepts'}]);
+		_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRUmpicH5telcxaTdGUkVUel98dzZqW29hR11ySCt3c2M1JnlrT3ImMHBRek9kX2w/LVpGNXlpV0g0dz0tLkYxZWtScnozRTIucz9dVHxqcHZCbytmU1p+N3NQZkNTLy40TnZVX04sXUZ8LlM3bHlyUWE3NFglUVY0UyZ4V09HJUlWfl1mdU1MPUtzWjU2ODBER1JPdDBfcVNWUG1bTDdCbXlHLFI5Tk93LFVOMUIrejJ+V0xaP0xwMy41MExQSC5GZ0JWZ2tydGZ2RXVTP0pCU3kmRXQxVy8lSGolYjBBak5MWk1HQnYrZTRxLTIyM1pbcnJlTEtXPXdJeVMtY2RRdUpddDBbNGtGZDRaNGlIcmZdUEpZNHY0ZzVZfFBpZ1M='}]);
+_stq.push([ 'clickTrackerInit', '6575901', '57' ]);
+</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<meta id="bilmur" property="bilmur:data" content="" data-provider="wordpress.com" data-service="simple" data-site-tz="Etc/GMT+4" data-custom-props="{&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;pub\/kubrick&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}"  >
+		<script defer src="/wp-content/js/bilmur.min.js?i=17&amp;m=202616"></script> 	<div id="marketingbar" class="marketing-bar noskim  "><div class="marketing-bar-text">Design a site like this with WordPress.com</div><a class="marketing-bar-button" href="https://wordpress.com/start/?ref=marketing_bar">Get started</a><a class="marketing-bar-link" tabindex="-1" aria-label="Create your website at WordPress.com" href="https://wordpress.com/start/?ref=marketing_bar"></a></div>		<script type="text/javascript">
+			window._tkq = window._tkq || [];
+
+			window._tkq.push( [ 'recordEvent', 'wpcom_marketing_bar_impression', {"is_current_user_blog_owner":false} ] );
+
+			document.querySelectorAll( '#marketingbar > a' ).forEach( link => {
+				link.addEventListener( 'click', ( e ) => {
+					window._tkq.push( [ 'recordEvent', 'wpcom_marketing_bar_cta_click', {"is_current_user_blog_owner":false} ] );
+				} );
+			});
+		</script>
+<script>
+(function() {
+	'use strict';
+
+	const fetches = {};
+	const promises = {};
+	const urls = {
+		'wp-polyfill': '/wp-includes/js/dist/vendor/wp-polyfill.min.js?m=1775575011i&ver=3.15.0',
+		'verbum': '/wp-content/mu-plugins/jetpack-mu-wpcom-plugin/sun/jetpack_vendor/automattic/jetpack-mu-wpcom/src/build/verbum-comments/verbum-comments.js?m=1772522099i&minify=false&ver=eff0582f6f6d831e93ef'
+	};
+	const loaders = {
+		'verbum': () => {
+			fetchExternalScript('wp-polyfill');
+			fetchExternalScript('verbum');
+			promises['wp-polyfill'] = promises['wp-polyfill'] || loadWPScript('wp-polyfill');
+			promises['verbum'] = promises['verbum'] || promises['wp-polyfill'].then( () => loadWPScript('verbum') );
+			return promises['verbum'];
+		},
+		
+	};
+	const scriptExtras = {
+		
+	};
+
+	window.WP_Enqueue_Dynamic_Script = {
+		loadScript: (handle) => {
+			if (!loaders[handle]) {
+				console.error('WP_Enqueue_Dynamic_Script: unregistered script `' + handle + '`.');
+			}
+			return loaders[handle]();
+		}
+	};
+
+	function fetchExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		fetches[handle] = fetches[handle] || fetch(urls[handle], { mode: 'no-cors' });
+		return fetches[handle];
+	}
+
+	function runExtraScript(handle, type, index) {
+		const id = 'wp-enqueue-dynamic-script:' + handle + ':' + type + ':' + (index + 1);
+		const template = document.getElementById(id);
+		if (!template) {
+			return Promise.reject();
+		}
+
+		const script = document.createElement( 'script' );
+		script.innerHTML = template.innerHTML;
+		document.body.appendChild( script );
+		return Promise.resolve();
+	}
+
+	function loadExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		return fetches[handle].then(() => {
+			return new Promise((resolve, reject) => {
+				const script = document.createElement('script');
+				script.onload = () => resolve();
+				script.onerror = (e) => reject(e);
+				script.src = urls[handle];
+				document.body.appendChild(script);
+			});
+		});
+	}
+
+	function loadExtra(handle, pos) {
+		const count = (scriptExtras[handle] && scriptExtras[handle][pos]) || 0;
+		let promise = Promise.resolve();
+
+		for (let i = 0; i < count; i++) {
+			promise = promise.then(() => runExtraScript(handle, pos, i));
+		}
+
+		return promise;
+	}
+
+	function loadWPScript(handle) {
+		// Core loads scripts in this order. See: https://github.com/WordPress/WordPress/blob/a59eb9d39c4fcba834b70c9e8dfd64feeec10ba6/wp-includes/class-wp-scripts.php#L428.
+		return loadExtra(handle, 'translations')
+			.then(() => loadExtra(handle, 'before'))
+			.then(() => loadExternalScript(handle))
+			.then(() => loadExtra(handle, 'after'));
+	}
+} )();
+</script>
+</body>
+</html>
+<!--
+	generated in 0.206 seconds
+	163710 bytes batcached for 300 seconds
+-->
