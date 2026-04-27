@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_production-release-community_update-loop"
+entity_type: "DesignLens"
 title: "Update Loop Lens"
 family: "Production / Release / Community Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on update loop without inventing facts or relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_emergent-story"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "emergent story"
 aliases: []

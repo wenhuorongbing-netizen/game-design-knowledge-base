@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_affordance"
+entity_type: "DesignLens"
 title: "Affordance Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on affordance without inventing facts or relying on unsupported source claims."

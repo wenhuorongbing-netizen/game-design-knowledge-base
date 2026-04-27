@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_production-release-community_documentation"
+entity_type: "DesignLens"
 title: "Documentation Lens"
 family: "Production / Release / Community Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on documentation without inventing facts or relying on unsupported source claims."

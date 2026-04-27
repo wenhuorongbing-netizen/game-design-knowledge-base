@@ -23,7 +23,7 @@ export const reportsRoot = path.join(kbRoot, "reports");
 export const portalRoot = path.join(repoRoot, "kb-portal");
 
 export function requireLegacyToolOptIn(scriptName) {
-  if (process.env.GDKB_ALLOW_LEGACY_TOOLCHAIN === "1") {
+  if (process.env.ALLOW_LEGACY_KB_TOOLS === "true") {
     return;
   }
   console.error(
@@ -36,7 +36,7 @@ export function requireLegacyToolOptIn(scriptName) {
       "  npm run kb:audit",
       "",
       "Legacy tools operate on 50-game-design-masters-kb and must not be used as the default build path.",
-      "Set GDKB_ALLOW_LEGACY_TOOLCHAIN=1 only for an explicit audited legacy-maintenance task."
+      "Set ALLOW_LEGACY_KB_TOOLS=true only for an explicit audited legacy-maintenance task."
     ].join("\n")
   );
   process.exit(2);

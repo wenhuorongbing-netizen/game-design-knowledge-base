@@ -1,5 +1,6 @@
 ---
 card_id: "framework_meaningful-decision-test"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Meaningful Decision Test"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_magic-circle"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "magic circle"
 aliases: []

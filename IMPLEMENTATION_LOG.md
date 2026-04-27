@@ -1,5 +1,42 @@
 # Implementation Log
 
+## 2026-04-27 - Role-Based Navigation
+
+- Created `START_HERE.md`.
+- Created `kb/navigation/README.md`.
+- Created learner, designer, researcher, maintainer, source-governance, and quick problem-solver navigation paths.
+- Linked navigation paths to existing works, dossiers, concept cards, design lenses, workflow packs, exercises, governance files, reports, and schemas.
+- Recorded missing future navigation areas as TODO rather than inventing links.
+- Updated root `README.md` to point new users to `START_HERE.md` and `kb/navigation/`.
+- Ran a local Markdown link existence check across the new navigation entry files.
+- Ran `npm run kb:validate`; validation passed with 0 P0 issues and 0 warnings.
+
+## 2026-04-27 - P1 Structural Frontmatter Migration
+
+- Read `VALIDATION_REPORT.md`, `VALIDATION_REPORT.json`, Markdown frontmatter schema, and card/lens/workflow schemas.
+- Created `ENTITY_TYPE_MIGRATION_PLAN.md`.
+- Added explicit `entity_type` frontmatter to 472 legacy generated Markdown entity files.
+- Preserved existing IDs, source basis, confidence, status, related works, evidence refs, evidence gaps, and body content.
+- Regenerated exports with `npm run kb:export`.
+- Regenerated validation outputs with `npm run kb:validate`.
+- Regenerated source-governance audit with `npm run kb:audit`.
+- Reduced accepted exceptions from 477 to 5.
+- Reduced missing `entity_type` exceptions from 472 to 0.
+- Confirmed no validation errors, no source-governance violations, and no draft content promoted to verified.
+
+## 2026-04-27 - P0 Contradiction Repair
+
+- Confirmed root `rebuild_instruction.md` is absent and the deprecated BookOS instruction remains under `docs/deprecated/`.
+- Hardened `kb-tools/ingest-user-files.mjs` so non-high-risk user files default to `pending_review`, `metadata_only`, and `allowed_metadata_only`.
+- Added `unknown scanned copy` to high-risk marker detection.
+- Ensured high-risk user files receive `risk_level: high`, `source_basis: metadata_only`, and `ingestion_status: metadata_only_quarantined`.
+- Guarded legacy `kb-tools` entry scripts behind `ALLOW_LEGACY_KB_TOOLS=true`.
+- Added `kb-tools/README.md` and updated legacy toolchain documentation.
+- Updated validation reporting so PASS means P0 safety pass, not structural perfection.
+- Added generation of `MIGRATION_EXCEPTIONS_REPORT.md` for accepted migration exceptions.
+- Ran syntax checks for legacy and authoritative scripts.
+- Ran `npm run kb:export`, `npm run kb:validate`, and `npm run kb:audit`; all passed with 0 P0 issues and 0 unresolved warnings.
+
 ## 2026-04-27 — Acceptance Review
 
 Performed strict professional acceptance review of `D:\Game\FOTN` as a Game Design Knowledgebase repository.
@@ -210,3 +247,100 @@ Validation:
 - `npm run kb:coverage`: coverage summary regenerated.
 - `npm run kb:audit`: source governance audit PASS and validation PASS.
 - `node .\kb-tools\build-all.mjs`: blocked as expected with exit code 2.
+
+## 2026-04-27 - P0 Contradiction Recheck
+
+Rechecked the remaining P0 contradiction list without adding content or app features.
+
+Actions:
+
+- Confirmed root `rebuild_instruction.md` is absent.
+- Replaced `docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md` with a stub-only deprecation notice.
+- Confirmed `kb-tools/ingest-user-files.mjs` defaults user files to `pending_review` / `allowed_metadata_only`.
+- Strengthened high-risk marker detection for curly apostrophes and private manifest metadata fields.
+- Confirmed `kb-tools` entry scripts remain opt-in guarded by `ALLOW_LEGACY_KB_TOOLS=true`.
+- Corrected stale `KB_ACCEPTANCE_REVIEW.md` text from 477 accepted exceptions to the current 5 accepted exceptions.
+
+Validation:
+
+- `npm run kb:export`: 857 entities, 8383 relationships, 735 search documents, 0 issues.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 5 accepted README-placeholder exceptions.
+- `npm run kb:audit`: source governance audit PASS, 14 high-risk records quarantined, 0 unsafe high-risk records.
+
+## 2026-04-27 - First-Time User Entry Layer
+
+Added navigation-only documentation to make the repository understandable without changing the KB data model, moving content folders, or adding app features.
+
+Actions:
+
+- Updated `README.md` to start with `Start here: START_HERE.md`.
+- Rebuilt root `START_HERE.md` as a question-driven onboarding page.
+- Added `REPO_MAP.md`, `HOW_TO_USE_THIS_KB.md`, `HOW_TO_ADD_KNOWLEDGE.md`, `WHAT_NOT_TO_TOUCH.md`, and `MAINTAINER_CHECKLIST.md`.
+- Added `kb/START_HERE.md`, `kb/INDEX.md`, `kb/LEARNING_PATHS.md`, and `kb/DESIGNER_WORKFLOWS.md`.
+- Reused existing KB links for works, concept cards, lenses, workflows, and exercises.
+
+Validation:
+
+- Local Markdown link check: 11 entry files checked, 0 missing local links.
+- `npm run kb:validate`: PASS, 857 entities, 8383 relationships, 735 search documents, 0 issues, 0 errors, 0 warnings.
+
+## 2026-04-27 - Reversible Structure Simplification
+
+Added structure labels and a reversible simplification plan without moving canonical KB content, deleting data, or changing export paths.
+
+Actions:
+
+- Created `STRUCTURE_SIMPLIFICATION_PLAN.md`.
+- Created `STRUCTURE_MAP.md`.
+- Added folder-level README markers for `kb/`, governance, sources, ontology, works, cards, lenses, workflows, import/export, quality, tools, portal, legacy tools, legacy snapshot, and deprecated docs.
+- Marked `kb/11_import_export/export/` as generated with an explicit README.
+- Replaced the garbled legacy `50-game-design-masters-kb/README.md` with a clear legacy quarantine notice.
+- Updated `README.md`, `REPO_MAP.md`, and `WHAT_NOT_TO_TOUCH.md` to point to the structure guides.
+
+Validation:
+
+- Local Markdown link checks: 29 entry/structure files checked first, then 21 structure marker files checked after final `REPO_MAP.md` update; 0 missing local links.
+- `npm run kb:validate`: PASS, 857 entities, 8383 relationships, 735 search documents, 0 issues, 0 errors, 0 warnings.
+
+## 2026-04-27 - Accepted Exceptions Cleanup
+
+Reduced structural accepted exceptions without changing knowledge meaning.
+
+Starting state:
+
+- accepted exceptions: 5
+- missing `entity_type` exceptions: 0
+- remaining exception type: `placeholder_readme_in_entity_folder`
+
+Actions:
+
+- Added `kb/05_cards/PLACEHOLDER_CARD_FOLDERS.md` to preserve placeholder notes for quote, comparison, exercise, anti-pattern, and case-study card folders.
+- Removed README placeholders from entity scan folders.
+- Updated `ENTITY_TYPE_MIGRATION_PLAN.md` with the follow-up cleanup rule.
+- Did not add new knowledge.
+- Did not promote draft content to verified.
+- Did not parse source bodies.
+- Did not manually edit generated exports.
+
+Validation:
+
+- `npm run kb:export`: 857 entities, 8383 relationships, 735 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, 14 high-risk records, 0 unsafe high-risk records.
+- Final `MIGRATION_EXCEPTIONS_REPORT.md`: 0 accepted exceptions.
+
+## 2026-04-27 - Role-Based Navigation Recheck
+
+Rechecked the existing role-based navigation layer and made small clarity updates without adding app features, forum behavior, user accounts, or source-body parsing.
+
+Actions:
+
+- Added a direct role-based navigation table to root `START_HERE.md`.
+- Confirmed `README.md` already links all role-based navigation paths.
+- Replaced a curly-quote evidence warning in `kb/navigation/learner_path.md` with ASCII quote marks.
+- Replaced the stale maintainer TODO about README placeholders with current future-maintenance TODOs.
+
+Validation:
+
+- Local navigation link check: 9 files checked, 0 missing local links.
+- `npm run kb:validate`: PASS, 857 entities, 8383 relationships, 735 search documents, 0 issues, 0 errors, 0 warnings.

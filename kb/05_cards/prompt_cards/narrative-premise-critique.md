@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_narrative-premise-critique"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Narrative Premise Critique Prompt"
 aliases: []

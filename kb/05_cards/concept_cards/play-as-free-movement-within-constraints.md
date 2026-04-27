@@ -1,5 +1,6 @@
 ---
 card_id: "concept_play-as-free-movement-within-constraints"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "play as free movement within constraints"
 aliases: []

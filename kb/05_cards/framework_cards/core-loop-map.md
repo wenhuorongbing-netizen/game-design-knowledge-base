@@ -1,5 +1,6 @@
 ---
 card_id: "framework_core-loop-map"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Core Loop Map"
 aliases: []

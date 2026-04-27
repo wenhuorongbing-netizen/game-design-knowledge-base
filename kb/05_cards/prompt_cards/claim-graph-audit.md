@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_claim-graph-audit"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Claim Graph Audit Prompt"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_release-readiness-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Release Readiness Checklist"
 aliases: []

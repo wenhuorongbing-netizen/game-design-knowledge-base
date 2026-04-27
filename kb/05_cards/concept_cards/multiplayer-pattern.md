@@ -1,5 +1,6 @@
 ---
 card_id: "concept_multiplayer-pattern"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "multiplayer pattern"
 aliases: []

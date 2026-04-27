@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-release-readiness"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Release Readiness"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_01_foundations_08_the-difference-between-ideas-and-designs"
+entity_type: "Lesson"
 track_id: "track_01_foundations"
 track_title: "Track 1 - Foundations of Game Design"
 lesson_number: 8

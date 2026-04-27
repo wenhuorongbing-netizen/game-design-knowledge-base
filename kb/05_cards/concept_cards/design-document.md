@@ -1,5 +1,6 @@
 ---
 card_id: "concept_design-document"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "design document"
 aliases: []

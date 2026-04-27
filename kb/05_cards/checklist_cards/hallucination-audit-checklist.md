@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_hallucination-audit-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Hallucination Audit Checklist"
 aliases: []

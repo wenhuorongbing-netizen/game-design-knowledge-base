@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-playtest-findings"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Playtest Findings"
 aliases: []

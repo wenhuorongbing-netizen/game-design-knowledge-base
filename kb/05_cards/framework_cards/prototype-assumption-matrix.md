@@ -1,5 +1,6 @@
 ---
 card_id: "framework_prototype-assumption-matrix"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Prototype Assumption Matrix"
 aliases: []

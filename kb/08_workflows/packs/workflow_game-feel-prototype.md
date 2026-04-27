@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_game-feel-prototype"
+entity_type: "WorkflowPack"
 title: "Game Feel Prototype Pack"
 purpose: "Designs input, response, context, polish, and tuning experiments."
 phase_groups: ["核心玩法与系统设计", "美术 / UI / 体验表达", "开发实现", "测试 / 验收 / 审计"]

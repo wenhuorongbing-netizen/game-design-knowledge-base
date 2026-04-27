@@ -1,5 +1,6 @@
 ---
 card_id: "concept_uncertainty"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "uncertainty"
 aliases: []

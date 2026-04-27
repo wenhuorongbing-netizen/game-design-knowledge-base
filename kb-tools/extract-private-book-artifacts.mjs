@@ -5,10 +5,13 @@ import {
   loadJson,
   nowIso,
   rawRoot,
+  requireLegacyToolOptIn,
   reportsRoot,
   writeJson,
   writeText
 } from "./_common.mjs";
+
+requireLegacyToolOptIn("kb-tools/extract-private-book-artifacts.mjs");
 
 const userManifest = loadJson(path.join(kbRoot, "incoming", "user-supplied", "manifest.json"), {
   entries: []

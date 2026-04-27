@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_playtest-analysis"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Playtest Analysis Prompt"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_02_play_player_experience_03_motivation-and-player-desire"
+entity_type: "Lesson"
 track_id: "track_02_play_player_experience"
 track_title: "Track 2 - Play and Player Experience"
 lesson_number: 3

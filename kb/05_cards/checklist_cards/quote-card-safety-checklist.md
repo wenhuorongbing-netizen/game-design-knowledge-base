@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_quote-card-safety-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Quote Card Safety Checklist"
 aliases: []

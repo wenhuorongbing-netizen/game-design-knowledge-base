@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_legal-sidecar-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Legal Sidecar Checklist"
 aliases: []

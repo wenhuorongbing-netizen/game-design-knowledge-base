@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_meaningful-decision-audit"
+entity_type: "WorkflowPack"
 title: "Meaningful Decision Audit Pack"
 purpose: "Checks whether choices actually matter."
 phase_groups: ["核心玩法与系统设计", "测试 / 验收 / 审计"]

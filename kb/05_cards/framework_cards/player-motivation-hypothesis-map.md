@@ -1,5 +1,6 @@
 ---
 card_id: "framework_player-motivation-hypothesis-map"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Player Motivation Hypothesis Map"
 aliases: []

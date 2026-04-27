@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ai-assisted-design-and-kb-governance_reusable-prompt-quality"
+entity_type: "DesignLens"
 title: "Reusable Prompt Quality Lens"
 family: "AI-Assisted Design and KB Governance Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on reusable prompt quality without inventing facts or relying on unsupported source claims."

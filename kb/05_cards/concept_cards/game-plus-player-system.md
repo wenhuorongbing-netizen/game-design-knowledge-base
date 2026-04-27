@@ -1,5 +1,6 @@
 ---
 card_id: "concept_game-plus-player-system"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "game+player system"
 aliases: []

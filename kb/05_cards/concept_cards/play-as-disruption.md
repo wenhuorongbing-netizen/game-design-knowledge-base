@@ -1,5 +1,6 @@
 ---
 card_id: "concept_play-as-disruption"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "play as disruption"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_game-idea-to-one-page-concept"
+entity_type: "WorkflowPack"
 title: "Game Idea to One-Page Concept Pack"
 purpose: "Transforms a vague idea into a one-page concept."
 phase_groups: ["立项与方向"]

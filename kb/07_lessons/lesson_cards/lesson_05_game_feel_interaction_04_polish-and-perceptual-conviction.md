@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_05_game_feel_interaction_04_polish-and-perceptual-conviction"
+entity_type: "Lesson"
 track_id: "track_05_game_feel_interaction"
 track_title: "Track 5 - Game Feel and Interaction"
 lesson_number: 4

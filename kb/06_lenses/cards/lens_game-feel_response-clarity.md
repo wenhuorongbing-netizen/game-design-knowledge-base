@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_response-clarity"
+entity_type: "DesignLens"
 title: "Response Clarity Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on response clarity without inventing facts or relying on unsupported source claims."

@@ -1,6 +1,8 @@
 import path from "node:path";
-import { indexesRoot, loadJson, nowIso, writeJson } from "./_common.mjs";
+import { indexesRoot, loadJson, nowIso, requireLegacyToolOptIn, writeJson } from "./_common.mjs";
 import { loadKnowledgeRegistry, loadNormalizedCards, loadNormalizedWorks } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/build-kb-index.mjs");
 
 const registry = loadKnowledgeRegistry();
 const works = loadNormalizedWorks();

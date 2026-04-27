@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_07_narrative_world_character_01_story-versus-game-structure"
+entity_type: "Lesson"
 track_id: "track_07_narrative_world_character"
 track_title: "Track 7 - Narrative, World, and Character"
 lesson_number: 1

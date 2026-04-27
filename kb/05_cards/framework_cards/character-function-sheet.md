@@ -1,5 +1,6 @@
 ---
 card_id: "framework_character-function-sheet"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Character Function Sheet"
 aliases: []

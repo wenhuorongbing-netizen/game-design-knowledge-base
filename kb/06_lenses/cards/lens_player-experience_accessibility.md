@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_player-experience_accessibility"
+entity_type: "DesignLens"
 title: "Accessibility Lens"
 family: "Player Experience Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on accessibility without inventing facts or relying on unsupported source claims."

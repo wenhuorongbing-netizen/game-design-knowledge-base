@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_04_systems_economy_07_transitive-and-intransitive-balance"
+entity_type: "Lesson"
 track_id: "track_04_systems_economy"
 track_title: "Track 4 - Systems and Economy"
 lesson_number: 7

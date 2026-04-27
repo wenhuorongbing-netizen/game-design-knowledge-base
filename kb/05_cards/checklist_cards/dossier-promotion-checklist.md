@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_dossier-promotion-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Dossier Promotion Checklist"
 aliases: []

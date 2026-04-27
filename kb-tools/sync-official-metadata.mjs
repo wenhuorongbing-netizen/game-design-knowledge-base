@@ -10,11 +10,14 @@ import {
   readText,
   registryRoot,
   relativeToRepo,
+  requireLegacyToolOptIn,
   sanitizeFileName,
   writeJson,
   writeText
 } from "./_common.mjs";
 import { loadKnowledgeRegistry } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/sync-official-metadata.mjs");
 
 const refresh = process.argv.includes("--refresh");
 const manifestPath = path.join(officialMetadataRoot, "manifest.json");

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_play-theory_safety-and-risk"
+entity_type: "DesignLens"
 title: "Safety And Risk Lens"
 family: "Play Theory Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on safety and risk without inventing facts or relying on unsupported source claims."

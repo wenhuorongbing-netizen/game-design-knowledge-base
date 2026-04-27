@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ai-assisted-design-and-kb-governance_project-overlay-fit"
+entity_type: "DesignLens"
 title: "Project Overlay Fit Lens"
 family: "AI-Assisted Design and KB Governance Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on project overlay fit without inventing facts or relying on unsupported source claims."

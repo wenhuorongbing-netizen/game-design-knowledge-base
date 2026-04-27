@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_core-loop-design"
+entity_type: "WorkflowPack"
 title: "Core Loop Design Pack"
 purpose: "Defines actions, feedback, rewards, friction, and repetition."
 phase_groups: ["核心玩法与系统设计", "开发实现", "测试 / 验收 / 审计"]

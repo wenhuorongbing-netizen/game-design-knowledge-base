@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_skill-chance-challenge"
+entity_type: "WorkflowPack"
 title: "Skill / Chance / Challenge Pack"
 purpose: "Tunes skill, randomness, risk, and difficulty."
 phase_groups: ["核心玩法与系统设计", "数值与经济设计", "测试 / 验收 / 审计"]

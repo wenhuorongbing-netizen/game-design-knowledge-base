@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_10_advanced_design_studio_03_game-feel-audit"
+entity_type: "Lesson"
 track_id: "track_10_advanced_design_studio"
 track_title: "Track 10 - Advanced Design Studio"
 lesson_number: 3

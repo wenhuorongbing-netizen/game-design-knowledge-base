@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_error-recovery"
+entity_type: "DesignLens"
 title: "Error Recovery Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on error recovery without inventing facts or relying on unsupported source claims."

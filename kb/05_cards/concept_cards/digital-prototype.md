@@ -1,5 +1,6 @@
 ---
 card_id: "concept_digital-prototype"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "digital prototype"
 aliases: []

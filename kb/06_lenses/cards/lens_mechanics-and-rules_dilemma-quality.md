@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_mechanics-and-rules_dilemma-quality"
+entity_type: "DesignLens"
 title: "Dilemma Quality Lens"
 family: "Mechanics and Rules Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on dilemma quality without inventing facts or relying on unsupported source claims."

@@ -6,6 +6,7 @@ const repoRoot = path.resolve(process.argv[2] || process.cwd());
 const kbRoot = path.join(repoRoot, "kb");
 const reportPath = path.join(repoRoot, "VALIDATION_REPORT.md");
 const jsonReportPath = path.join(repoRoot, "VALIDATION_REPORT.json");
+const migrationExceptionsReportPath = path.join(repoRoot, "MIGRATION_EXCEPTIONS_REPORT.md");
 
 const SOURCE_BASIS = new Set([
   "open_fulltext",
@@ -323,6 +324,18 @@ function writeReports() {
     return acc;
   }, {});
   const p0Count = counts.P0 || 0;
+  const passMeaning =
+    p0Count === 0
+      ? acceptedExceptions.length
+        ? "P0 safety gate passed; structural polish remains incomplete while accepted exceptions exist."
+        : "P0 safety gate passed; no accepted migration exceptions remain."
+      : "P0 safety gate failed.";
+  const releaseInterpretation =
+    p0Count === 0
+      ? acceptedExceptions.length
+        ? "Validation PASS means the draft/source-governed KB safety gate passed. It does not mean the repository is structurally perfect while accepted migration exceptions remain."
+        : "Validation PASS means the draft/source-governed KB safety gate passed and no accepted migration exceptions remain."
+      : "Validation FAIL means P0 issues must be fixed before release.";
   const lines = [
     "# Validation Report",
     "",
@@ -336,6 +349,11 @@ function writeReports() {
     `- warnings: ${counts.warning || 0}`,
     `- accepted exceptions: ${acceptedExceptions.length}`,
     `- result: ${p0Count === 0 ? "PASS" : "FAIL"}`,
+    `- pass meaning: ${passMeaning}`,
+    "",
+    "## Release Interpretation",
+    "",
+    releaseInterpretation,
     "",
     "## Rules Covered",
     "",
@@ -375,7 +393,65 @@ function writeReports() {
     lines.push(`| ${exception.rule} | \`${exception.file}\` | ${exception.message.replace(/\|/g, "\\|")} |`);
   }
   if (!acceptedExceptions.length) lines.push("| none |  | No accepted exceptions. |");
+
+  const exceptionCounts = acceptedExceptions.reduce((acc, exception) => {
+    acc[exception.rule] = (acc[exception.rule] || 0) + 1;
+    return acc;
+  }, {});
+  const migrationLines = [
+    "# Migration Exceptions Report",
+    "",
+    `Generated at: ${new Date().toISOString()}`,
+    `Repository: \`${repoRoot}\``,
+    "",
+    "## Verdict",
+    "",
+    "- P0 safety gate: PASS if `VALIDATION_REPORT.md` reports 0 P0 issues.",
+    `- accepted exceptions: ${acceptedExceptions.length}`,
+    acceptedExceptions.length
+      ? "- structural perfection: incomplete until these exceptions are repaired."
+      : "- structural perfection: no accepted migration exceptions remain.",
+    "",
+    "## Meaning",
+    "",
+    exceptionCounts.missing_entity_type_in_legacy_generated_file
+      ? "Accepted exceptions are explicit migration debt, not hidden success. Some records are allowed because the importer can infer entity types from folder routing and typed IDs, but future structural hardening should add explicit `entity_type` frontmatter to the affected Markdown files."
+      : exceptionCounts.placeholder_readme_in_entity_folder
+        ? "Accepted exceptions are explicit migration debt, not hidden success. The remaining exceptions are README placeholders inside entity folders; they are ignored as KB entities but still tracked for structural cleanliness."
+        : "No accepted migration exceptions remain.",
+    "",
+    "## Counts By Rule",
+    "",
+    "| Rule | Count |",
+    "|---|---:|"
+  ];
+  for (const [rule, count] of Object.entries(exceptionCounts).sort((a, b) => a[0].localeCompare(b[0]))) {
+    migrationLines.push(`| ${rule} | ${count} |`);
+  }
+  if (!acceptedExceptions.length) migrationLines.push("| none | 0 |");
+  migrationLines.push("", "## Required Follow-Up", "");
+  if (exceptionCounts.missing_entity_type_in_legacy_generated_file) {
+    migrationLines.push("- Add explicit `entity_type` frontmatter to legacy generated Markdown files.");
+  }
+  if (exceptionCounts.placeholder_readme_in_entity_folder) {
+    migrationLines.push("- Decide whether README placeholders in entity folders should remain documented exceptions or move outside entity folders.");
+  }
+  if (!acceptedExceptions.length) {
+    migrationLines.push("- No migration-exception follow-up is required. Continue normal validation before future releases.");
+  } else {
+    migrationLines.push(
+      "- Keep remaining exceptions as P1 structural polish, not P0 source-governance blockers.",
+      "- Do not describe the repository as structurally perfect until this report is empty."
+    );
+  }
+  migrationLines.push("", "## Exceptions", "", "| Rule | File | Message |", "|---|---|---|");
+  for (const exception of acceptedExceptions) {
+    migrationLines.push(`| ${exception.rule} | \`${exception.file}\` | ${exception.message.replace(/\|/g, "\\|")} |`);
+  }
+  if (!acceptedExceptions.length) migrationLines.push("| none |  | No accepted exceptions. |");
+
   fs.writeFileSync(reportPath, `${lines.join("\n")}\n`, "utf8");
+  fs.writeFileSync(migrationExceptionsReportPath, `${migrationLines.join("\n")}\n`, "utf8");
   fs.writeFileSync(jsonReportPath, JSON.stringify({ generated_at: new Date().toISOString(), counts, issues, accepted_exceptions: acceptedExceptions }, null, 2), "utf8");
   console.log(`${p0Count === 0 ? "PASS" : "FAIL"}: ${p0Count} P0 issue(s), ${counts.warning || 0} warning(s).`);
   console.log(`Report: ${reportPath}`);

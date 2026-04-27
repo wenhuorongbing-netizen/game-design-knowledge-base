@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_claim-graph-review-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Claim Graph Review Checklist"
 aliases: []

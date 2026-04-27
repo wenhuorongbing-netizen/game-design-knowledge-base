@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_economy-balance-critique"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Economy Balance Critique Prompt"
 aliases: []

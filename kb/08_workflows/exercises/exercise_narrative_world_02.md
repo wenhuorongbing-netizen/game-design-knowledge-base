@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_narrative_world_02"
+entity_type: "Exercise"
 title: "Narrative / World Exercise 02: map a design assumption"
 category: "narrative_world"
 purpose: "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims."

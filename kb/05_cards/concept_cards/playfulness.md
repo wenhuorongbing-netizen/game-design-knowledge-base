@@ -1,5 +1,6 @@
 ---
 card_id: "concept_playfulness"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "playfulness"
 aliases: []

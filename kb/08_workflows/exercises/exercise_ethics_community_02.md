@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ethics_community_02"
+entity_type: "Exercise"
 title: "Ethics / Community Exercise 02: map a design assumption"
 category: "ethics_community"
 purpose: "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims."

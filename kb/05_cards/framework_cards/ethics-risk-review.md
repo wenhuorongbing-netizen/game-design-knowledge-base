@@ -1,5 +1,6 @@
 ---
 card_id: "framework_ethics-risk-review"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Ethics Risk Review"
 aliases: []

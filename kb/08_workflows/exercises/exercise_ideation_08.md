@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ideation_08"
+entity_type: "Exercise"
 title: "Ideation Exercise 08: observe a design assumption"
 category: "ideation"
 purpose: "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims."

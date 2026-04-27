@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_compare-two-concepts"
+entity_type: "PromptTemplate"
 title: "Compare Two Concepts"
 use_case: "Compare two concepts without inventing source claims."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

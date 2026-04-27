@@ -1,5 +1,6 @@
 ---
 card_id: "concept_player-rights"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "player rights"
 aliases: []

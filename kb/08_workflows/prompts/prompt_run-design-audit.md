@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_run-design-audit"
+entity_type: "PromptTemplate"
 title: "Run Design Audit"
 use_case: "Evaluate a design artifact with linked cards and lenses."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

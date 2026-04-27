@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ai-assisted-design-and-kb-governance_provenance-trail"
+entity_type: "DesignLens"
 title: "Provenance Trail Lens"
 family: "AI-Assisted Design and KB Governance Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on provenance trail without inventing facts or relying on unsupported source claims."

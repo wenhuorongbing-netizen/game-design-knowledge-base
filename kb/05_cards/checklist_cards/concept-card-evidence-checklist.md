@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_concept-card-evidence-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Concept Card Evidence Checklist"
 aliases: []

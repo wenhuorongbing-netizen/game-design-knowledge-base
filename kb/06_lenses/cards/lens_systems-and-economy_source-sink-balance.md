@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_systems-and-economy_source-sink-balance"
+entity_type: "DesignLens"
 title: "Source/Sink Balance Lens"
 family: "Systems and Economy Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on source/sink balance without inventing facts or relying on unsupported source claims."

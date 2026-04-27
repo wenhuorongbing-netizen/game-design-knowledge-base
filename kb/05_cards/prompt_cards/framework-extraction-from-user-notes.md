@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_framework-extraction-from-user-notes"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Framework Extraction From User Notes Prompt"
 aliases: []

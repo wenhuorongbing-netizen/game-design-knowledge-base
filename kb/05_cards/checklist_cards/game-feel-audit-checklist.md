@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_game-feel-audit-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Game Feel Audit Checklist"
 aliases: []

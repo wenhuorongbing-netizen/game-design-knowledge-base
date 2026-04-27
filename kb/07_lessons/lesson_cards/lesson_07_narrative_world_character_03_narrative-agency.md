@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_07_narrative_world_character_03_narrative-agency"
+entity_type: "Lesson"
 track_id: "track_07_narrative_world_character"
 track_title: "Track 7 - Narrative, World, and Character"
 lesson_number: 3

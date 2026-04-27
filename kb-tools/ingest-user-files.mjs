@@ -7,6 +7,7 @@ import {
   loadJson,
   nowIso,
   parseUserFileName,
+  requireLegacyToolOptIn,
   rawRoot,
   registryRoot,
   relativeToRepo,
@@ -16,6 +17,8 @@ import {
   writeJson
 } from "./_common.mjs";
 import { loadKnowledgeRegistry } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/ingest-user-files.mjs");
 
 ensureDir(userSuppliedRoot);
 
@@ -75,14 +78,16 @@ const HIGH_RISK_MARKERS = [
   "anna’s archive",
   "it-ebooks",
   "mirror",
-  "suspicious scan"
+  "suspicious scan",
+  "unknown scanned copy"
 ];
 
 function hasHighRiskMarker(...values) {
   const haystack = values
     .flatMap((value) => (value && typeof value === "object" ? Object.values(value) : [value]))
     .join(" ")
-    .toLowerCase();
+    .toLowerCase()
+    .replace(/[’‘]/g, "'");
   return HIGH_RISK_MARKERS.some((marker) => haystack.includes(marker));
 }
 
@@ -99,11 +104,12 @@ function reviewStatusFor(fileName, parsed, sidecar) {
     return {
       highRisk,
       source_review_status: "metadata_only_quarantined",
+      risk_level: "high",
       ingestion_status: "metadata_only_quarantined",
       source_basis: "metadata_only",
       provenance_flags: ["HIGH_RISK_SOURCE"],
       allowed_operations: ["record_metadata", "attach_user_notes", "attach_manual_quotes"],
-      prohibited_operations: ["summarize_body", "quote_body", "extract_body_text", "generate_embeddings", "generate_cards_from_body_text"],
+      prohibited_operations: ["extract_body_text", "generate_summary", "generate_embeddings", "create_cards_from_body"],
       review_notes: [
         "High-risk marker detected. Metadata-only quarantine is required until legal sidecar review."
       ]
@@ -113,6 +119,7 @@ function reviewStatusFor(fileName, parsed, sidecar) {
     return {
       highRisk,
       source_review_status: "accepted",
+      risk_level: "low",
       ingestion_status: "allowed_full_ingestion",
       source_basis: "user_legal_file",
       provenance_flags: ["USER_LEGAL_SIDECAR_APPROVED"],
@@ -126,13 +133,14 @@ function reviewStatusFor(fileName, parsed, sidecar) {
   return {
     highRisk,
     source_review_status: "pending_review",
-    ingestion_status: "waiting_for_user_legal_sidecar",
+    risk_level: "unknown",
+    ingestion_status: "allowed_metadata_only",
     source_basis: "metadata_only",
     provenance_flags: [],
     allowed_operations: ["record_metadata", "attach_user_notes", "attach_manual_quotes"],
-    prohibited_operations: ["summarize_body", "quote_body", "extract_body_text", "generate_embeddings", "generate_cards_from_body_text"],
+    prohibited_operations: ["extract_body_text", "generate_summary", "generate_embeddings", "create_cards_from_body"],
     review_notes: [
-      "User-provided file does not imply legal AI processing permission. Legal sidecar is required before acceptance."
+      "User-provided file does not imply legal AI processing permission. Metadata-only handling is allowed while legal sidecar review is pending."
     ]
   };
 }
@@ -168,6 +176,7 @@ function buildDiscoveredEntry(absolutePath) {
     sidecar,
     source_scope: "incoming-user-supplied",
     source_review_status: review.source_review_status,
+    risk_level: review.risk_level,
     ingestion_status: review.ingestion_status,
     source_basis: review.source_basis,
     provenance_label: "user_provided_file",
@@ -212,7 +221,15 @@ for (const entry of privateBookManifest.entries ?? []) {
   const parsed = {
     title: entry.cleaned_name ?? entry.file_name,
     author: "",
-    meta: entry.parsed_meta ?? ""
+    meta: [
+      entry.parsed_meta ?? "",
+      entry.relative_path ?? "",
+      entry.source_scope ?? "",
+      entry.provenance_label ?? "",
+      ...(entry.provenance_flags ?? [])
+    ]
+      .filter(Boolean)
+      .join(" ")
   };
   const review = reviewStatusFor(entry.file_name, parsed, null);
   entries.push({
@@ -231,6 +248,7 @@ for (const entry of privateBookManifest.entries ?? []) {
     sidecar: null,
     source_scope: entry.source_scope ?? "knowledge-root-loose",
     source_review_status: review.source_review_status,
+    risk_level: review.risk_level,
     ingestion_status: review.ingestion_status,
     source_basis: review.source_basis,
     provenance_label: entry.provenance_label ?? "user_provided_file",

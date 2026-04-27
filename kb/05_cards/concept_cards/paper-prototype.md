@@ -1,5 +1,6 @@
 ---
 card_id: "concept_paper-prototype"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "paper prototype"
 aliases: []

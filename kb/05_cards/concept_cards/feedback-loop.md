@@ -1,5 +1,6 @@
 ---
 card_id: "concept_feedback-loop"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "feedback loop"
 aliases: []

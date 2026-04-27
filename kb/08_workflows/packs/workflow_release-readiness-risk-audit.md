@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_release-readiness-risk-audit"
+entity_type: "WorkflowPack"
 title: "Release Readiness and Risk Audit Pack"
 purpose: "Checks design, UX, production, community, ethics, and launch risks."
 phase_groups: ["测试 / 验收 / 审计", "运营与发布"]

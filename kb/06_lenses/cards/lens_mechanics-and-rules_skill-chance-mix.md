@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_mechanics-and-rules_skill-chance-mix"
+entity_type: "DesignLens"
 title: "Skill/Chance Mix Lens"
 family: "Mechanics and Rules Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on skill/chance mix without inventing facts or relying on unsupported source claims."

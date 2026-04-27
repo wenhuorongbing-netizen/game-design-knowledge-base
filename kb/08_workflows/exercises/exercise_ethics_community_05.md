@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ethics_community_05"
+entity_type: "Exercise"
 title: "Ethics / Community Exercise 05: prototype a design assumption"
 category: "ethics_community"
 purpose: "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims."

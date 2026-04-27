@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-core-loop-to-prototype"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Core Loop To Prototype"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_player-experience_mastery"
+entity_type: "DesignLens"
 title: "Mastery Lens"
 family: "Player Experience Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on mastery without inventing facts or relying on unsupported source claims."

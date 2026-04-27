@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_production-release-community_griefing-risk"
+entity_type: "DesignLens"
 title: "Griefing Risk Lens"
 family: "Production / Release / Community Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on griefing risk without inventing facts or relying on unsupported source claims."

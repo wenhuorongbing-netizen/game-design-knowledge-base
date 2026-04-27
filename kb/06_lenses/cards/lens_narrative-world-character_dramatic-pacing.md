@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_narrative-world-character_dramatic-pacing"
+entity_type: "DesignLens"
 title: "Dramatic Pacing Lens"
 family: "Narrative / World / Character Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on dramatic pacing without inventing facts or relying on unsupported source claims."

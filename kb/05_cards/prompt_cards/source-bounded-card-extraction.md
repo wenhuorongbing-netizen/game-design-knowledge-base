@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_source-bounded-card-extraction"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Source-Bounded Card Extraction Prompt"
 aliases: []

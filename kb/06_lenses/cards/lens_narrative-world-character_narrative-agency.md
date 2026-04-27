@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_narrative-world-character_narrative-agency"
+entity_type: "DesignLens"
 title: "Narrative Agency Lens"
 family: "Narrative / World / Character Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on narrative agency without inventing facts or relying on unsupported source claims."

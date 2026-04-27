@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_systems-and-economy_systemic-coupling"
+entity_type: "DesignLens"
 title: "Systemic Coupling Lens"
 family: "Systems and Economy Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on systemic coupling without inventing facts or relying on unsupported source claims."

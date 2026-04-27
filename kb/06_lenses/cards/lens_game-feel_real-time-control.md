@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_real-time-control"
+entity_type: "DesignLens"
 title: "Real-Time Control Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on real-time control without inventing facts or relying on unsupported source claims."

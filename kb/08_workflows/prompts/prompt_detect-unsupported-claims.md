@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_detect-unsupported-claims"
+entity_type: "PromptTemplate"
 title: "Detect Unsupported Claims"
 use_case: "Find claims that lack source_basis, confidence, or evidence refs."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

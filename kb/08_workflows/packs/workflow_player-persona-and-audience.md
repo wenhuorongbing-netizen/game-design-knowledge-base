@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_player-persona-and-audience"
+entity_type: "WorkflowPack"
 title: "Player Persona and Audience Pack"
 purpose: "Defines target players, skill levels, motivations, and access needs."
 phase_groups: ["立项与方向", "测试 / 验收 / 审计"]

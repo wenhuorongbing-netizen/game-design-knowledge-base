@@ -1,5 +1,6 @@
 ---
 card_id: "concept_real-time-control"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "real-time control"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_mode-clarity"
+entity_type: "DesignLens"
 title: "Mode Clarity Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on mode clarity without inventing facts or relying on unsupported source claims."

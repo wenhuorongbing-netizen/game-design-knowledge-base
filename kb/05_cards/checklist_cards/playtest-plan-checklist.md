@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_playtest-plan-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Playtest Plan Checklist"
 aliases: []

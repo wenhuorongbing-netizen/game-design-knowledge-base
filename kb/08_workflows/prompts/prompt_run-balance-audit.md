@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_run-balance-audit"
+entity_type: "PromptTemplate"
 title: "Run Balance Audit"
 use_case: "Inspect economy, progression, sources, sinks, and balance risks."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

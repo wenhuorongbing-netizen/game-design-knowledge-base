@@ -1,5 +1,6 @@
 ---
 card_id: "concept_camera-feel"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "camera feel"
 aliases: []

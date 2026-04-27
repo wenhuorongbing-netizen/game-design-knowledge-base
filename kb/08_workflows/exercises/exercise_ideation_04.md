@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ideation_04"
+entity_type: "Exercise"
 title: "Ideation Exercise 04: compare a design assumption"
 category: "ideation"
 purpose: "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims."

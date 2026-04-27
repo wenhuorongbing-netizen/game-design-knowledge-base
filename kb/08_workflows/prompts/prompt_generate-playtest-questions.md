@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_generate-playtest-questions"
+entity_type: "PromptTemplate"
 title: "Generate Playtest Questions"
 use_case: "Create testable playtest questions from a prototype goal."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

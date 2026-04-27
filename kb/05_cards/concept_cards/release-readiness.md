@@ -1,5 +1,6 @@
 ---
 card_id: "concept_release-readiness"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "release readiness"
 aliases: []

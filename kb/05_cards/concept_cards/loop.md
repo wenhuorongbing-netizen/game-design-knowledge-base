@@ -1,5 +1,6 @@
 ---
 card_id: "concept_loop"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "loop"
 aliases: []

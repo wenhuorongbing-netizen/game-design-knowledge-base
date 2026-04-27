@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_juiciness-versus-noise"
+entity_type: "DesignLens"
 title: "Juiciness Versus Noise Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on juiciness versus noise without inventing facts or relying on unsupported source claims."

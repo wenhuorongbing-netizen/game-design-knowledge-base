@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_10_advanced_design_studio_07_project-overlay-workshop"
+entity_type: "Lesson"
 track_id: "track_10_advanced_design_studio"
 track_title: "Track 10 - Advanced Design Studio"
 lesson_number: 7

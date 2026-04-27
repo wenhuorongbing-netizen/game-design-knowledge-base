@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_evidence-gap-finder"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Evidence Gap Finder Prompt"
 aliases: []

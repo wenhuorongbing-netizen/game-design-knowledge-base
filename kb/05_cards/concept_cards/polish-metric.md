@@ -1,5 +1,6 @@
 ---
 card_id: "concept_polish-metric"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "polish metric"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_play-theory_rules-as-constraints"
+entity_type: "DesignLens"
 title: "Rules As Constraints Lens"
 family: "Play Theory Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on rules as constraints without inventing facts or relying on unsupported source claims."

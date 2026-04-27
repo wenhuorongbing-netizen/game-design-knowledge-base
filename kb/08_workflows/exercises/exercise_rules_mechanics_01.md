@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_rules_mechanics_01"
+entity_type: "Exercise"
 title: "Rules / Mechanics Exercise 01: invert a design assumption"
 category: "rules_mechanics"
 purpose: "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims."

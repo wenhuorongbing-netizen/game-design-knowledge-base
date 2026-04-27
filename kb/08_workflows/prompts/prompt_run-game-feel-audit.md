@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_run-game-feel-audit"
+entity_type: "PromptTemplate"
 title: "Run Game Feel Audit"
 use_case: "Review input, response, context, polish, and tuning risks."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

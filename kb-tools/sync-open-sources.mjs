@@ -12,10 +12,13 @@ import {
   openWebRoot,
   registryRoot,
   relativeToRepo,
+  requireLegacyToolOptIn,
   sha256File,
   writeJson,
   writeText
 } from "./_common.mjs";
+
+requireLegacyToolOptIn("kb-tools/sync-open-sources.mjs");
 
 const refresh = process.argv.includes("--refresh");
 const manifestPath = path.join(openWebRoot, "manifest.json");

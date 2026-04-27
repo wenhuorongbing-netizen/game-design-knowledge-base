@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_core-loop-critique"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Core Loop Critique Prompt"
 aliases: []

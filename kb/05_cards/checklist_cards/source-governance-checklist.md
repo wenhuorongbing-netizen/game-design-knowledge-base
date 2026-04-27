@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_source-governance-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Source Governance Checklist"
 aliases: []

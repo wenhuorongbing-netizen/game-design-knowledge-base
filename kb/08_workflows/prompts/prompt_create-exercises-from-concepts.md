@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_create-exercises-from-concepts"
+entity_type: "PromptTemplate"
 title: "Create Exercises From Concepts"
 use_case: "Generate original practice tasks from concept cards."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

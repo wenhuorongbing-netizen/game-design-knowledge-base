@@ -1,5 +1,6 @@
 ---
 card_id: "concept_sink"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "sink"
 aliases: []

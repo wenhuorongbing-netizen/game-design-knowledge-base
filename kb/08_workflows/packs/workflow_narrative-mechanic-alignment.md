@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_narrative-mechanic-alignment"
+entity_type: "WorkflowPack"
 title: "Narrative-Mechanic Alignment Pack"
 purpose: "Checks whether story and mechanics support each other."
 phase_groups: ["内容与叙事", "核心玩法与系统设计", "测试 / 验收 / 审计"]

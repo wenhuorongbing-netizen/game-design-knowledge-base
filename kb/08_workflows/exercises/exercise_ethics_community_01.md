@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ethics_community_01"
+entity_type: "Exercise"
 title: "Ethics / Community Exercise 01: invert a design assumption"
 category: "ethics_community"
 purpose: "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims."

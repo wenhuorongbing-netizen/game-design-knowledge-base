@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_generate-forum-discussion-prompts"
+entity_type: "PromptTemplate"
 title: "Generate Forum Discussion Prompts"
 use_case: "Create structured forum prompts for critique and evidence gathering."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

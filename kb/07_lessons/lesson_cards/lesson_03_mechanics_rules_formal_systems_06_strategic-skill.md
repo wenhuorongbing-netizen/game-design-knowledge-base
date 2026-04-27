@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_03_mechanics_rules_formal_systems_06_strategic-skill"
+entity_type: "Lesson"
 track_id: "track_03_mechanics_rules_formal_systems"
 track_title: "Track 3 - Mechanics, Rules, and Formal Systems"
 lesson_number: 6

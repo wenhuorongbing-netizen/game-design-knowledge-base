@@ -1,5 +1,6 @@
 ---
 card_id: "concept_character-function"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "character function"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_serious-games"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "serious games"
 aliases: []

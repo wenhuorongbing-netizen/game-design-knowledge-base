@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_dossier-note-ingestion"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Dossier Note Ingestion Prompt"
 aliases: []

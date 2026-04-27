@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_avatar-embodiment"
+entity_type: "DesignLens"
 title: "Avatar Embodiment Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on avatar embodiment without inventing facts or relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_systems-and-economy_economy-readability"
+entity_type: "DesignLens"
 title: "Economy Readability Lens"
 family: "Systems and Economy Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on economy readability without inventing facts or relying on unsupported source claims."

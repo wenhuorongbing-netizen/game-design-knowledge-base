@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_character-review"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Character Review Prompt"
 aliases: []

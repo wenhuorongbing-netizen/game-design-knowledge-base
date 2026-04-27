@@ -18,11 +18,14 @@ import {
   repoRoot,
   registryRoot,
   relativeToRepo,
+  requireLegacyToolOptIn,
   stripMarkdown,
   writeJson,
   writeText
 } from "./_common.mjs";
 import { extractLeadParagraph, groupBy, loadKnowledgeRegistry } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/normalize-library.mjs");
 
 const registry = loadKnowledgeRegistry();
 const openManifest = loadJson(path.join(openWebRoot, "manifest.json"), { resources: [] });
@@ -496,7 +499,7 @@ function buildWorkBody(normalizedWork) {
       if (file.user_supplied) {
         tags.push("用户提供");
       }
-      if (file.source_review_status === "needs_review") {
+      if (file.source_review_status !== "accepted") {
         tags.push("来源待复核");
       }
       if ((file.provenance_flags ?? []).length > 0) {
@@ -569,7 +572,7 @@ const normalizedWorks = registry.works.map((work) => {
     sha256: entry.sha256,
     resource_kind: work.kind,
     user_supplied: true,
-    source_review_status: entry.source_review_status ?? "accepted",
+    source_review_status: entry.source_review_status ?? "pending_review",
     provenance_label: entry.provenance_label ?? "user_provided_file",
     provenance_flags: entry.provenance_flags ?? [],
     review_notes: entry.review_notes ?? []
@@ -632,7 +635,7 @@ for (const work of normalizedWorks) {
   work.primary_private_artifact = loadArtifact(work.primary_private_extract?.artifact_relative_path ?? "");
   work.primary_toc_preview = usableTocEntries(work.primary_private_artifact, 14);
   work.private_source_review_required_count = privateUserFiles.filter(
-    (file) => file.source_review_status === "needs_review"
+    (file) => file.source_review_status !== "accepted"
   ).length;
   work.private_source_provenance_flags = [...new Set(privateUserFiles.flatMap((file) => file.provenance_flags ?? []))];
   const extractedEdition = editionToken(

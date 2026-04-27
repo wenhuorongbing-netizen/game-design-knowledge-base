@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_polish-support"
+entity_type: "DesignLens"
 title: "Polish Support Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on polish support without inventing facts or relying on unsupported source claims."

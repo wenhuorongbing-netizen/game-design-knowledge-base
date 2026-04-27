@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ideation_02"
+entity_type: "Exercise"
 title: "Ideation Exercise 02: map a design assumption"
 category: "ideation"
 purpose: "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims."

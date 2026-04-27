@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_feedback-timing"
+entity_type: "DesignLens"
 title: "Feedback Timing Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on feedback timing without inventing facts or relying on unsupported source claims."

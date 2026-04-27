@@ -6,12 +6,15 @@ import {
   normalizedCardsRoot,
   normalizedPacksRoot,
   nowIso,
+  requireLegacyToolOptIn,
   reportsRoot,
   relativeToRepo,
   writeJson,
   writeText
 } from "./_common.mjs";
 import { loadKnowledgeRegistry, loadNormalizedCards } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/build-prompt-packs.mjs");
 
 const registry = loadKnowledgeRegistry();
 const cards = loadNormalizedCards();

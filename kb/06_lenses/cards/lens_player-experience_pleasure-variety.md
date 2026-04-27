@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_player-experience_pleasure-variety"
+entity_type: "DesignLens"
 title: "Pleasure Variety Lens"
 family: "Player Experience Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on pleasure variety without inventing facts or relying on unsupported source claims."

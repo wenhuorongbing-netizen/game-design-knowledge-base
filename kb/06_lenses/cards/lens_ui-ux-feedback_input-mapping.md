@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_input-mapping"
+entity_type: "DesignLens"
 title: "Input Mapping Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on input mapping without inventing facts or relying on unsupported source claims."

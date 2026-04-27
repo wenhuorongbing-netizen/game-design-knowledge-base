@@ -1,5 +1,6 @@
 ---
 card_id: "framework_level-flow-map"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Level Flow Map"
 aliases: []

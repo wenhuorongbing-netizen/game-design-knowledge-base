@@ -1,5 +1,6 @@
 ---
 card_id: "concept_problem-statement"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "problem statement"
 aliases: []

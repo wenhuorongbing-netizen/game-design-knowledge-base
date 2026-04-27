@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_design-lens-review"
+entity_type: "WorkflowPack"
 title: "Design Lens Review Pack"
 purpose: "Runs multiple lenses on a project artifact."
 phase_groups: ["立项与方向", "核心玩法与系统设计", "数值与经济设计", "美术 / UI / 体验表达", "测试 / 验收 / 审计"]

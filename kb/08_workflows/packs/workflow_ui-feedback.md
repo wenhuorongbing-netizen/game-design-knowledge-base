@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_ui-feedback"
+entity_type: "WorkflowPack"
 title: "UI Feedback Pack"
 purpose: "Audits information hierarchy, input mapping, feedback, affordance, and accessibility."
 phase_groups: ["美术 / UI / 体验表达", "开发实现", "测试 / 验收 / 审计"]

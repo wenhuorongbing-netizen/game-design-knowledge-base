@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ai-assisted-design-and-kb-governance_evidence-gap"
+entity_type: "DesignLens"
 title: "Evidence Gap Lens"
 family: "AI-Assisted Design and KB Governance Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on evidence gap without inventing facts or relying on unsupported source claims."

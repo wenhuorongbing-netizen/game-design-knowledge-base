@@ -1,6 +1,8 @@
 import path from "node:path";
-import { ensureDir, fileExists, indexesRoot, loadJson, markdownToHtml, portalRoot, readText, writeText } from "./_common.mjs";
+import { ensureDir, fileExists, indexesRoot, loadJson, markdownToHtml, portalRoot, readText, requireLegacyToolOptIn, writeText } from "./_common.mjs";
 import { loadNormalizedCards, loadNormalizedWorks } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/build-kb-portal-data.mjs");
 
 ensureDir(portalRoot);
 

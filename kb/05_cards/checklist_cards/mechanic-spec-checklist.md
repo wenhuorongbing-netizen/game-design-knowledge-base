@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_mechanic-spec-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Mechanic Spec Checklist"
 aliases: []

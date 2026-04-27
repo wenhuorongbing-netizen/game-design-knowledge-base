@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_project-direction_emotional-goal"
+entity_type: "DesignLens"
 title: "Emotional Goal Lens"
 family: "Project Direction Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on emotional goal without inventing facts or relying on unsupported source claims."

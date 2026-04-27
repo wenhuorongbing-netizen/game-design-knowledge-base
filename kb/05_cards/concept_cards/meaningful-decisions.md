@@ -1,5 +1,6 @@
 ---
 card_id: "concept_meaningful-decisions"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "meaningful decisions"
 aliases: []

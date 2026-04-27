@@ -1,5 +1,6 @@
 ---
 card_id: "concept_strategic-skill"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "strategic skill"
 aliases: []

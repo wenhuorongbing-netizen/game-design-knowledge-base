@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-narrative-function-map"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Narrative Function Map"
 aliases: []

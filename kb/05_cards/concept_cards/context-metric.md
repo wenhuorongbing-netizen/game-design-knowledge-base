@@ -1,5 +1,6 @@
 ---
 card_id: "concept_context-metric"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "context metric"
 aliases: []

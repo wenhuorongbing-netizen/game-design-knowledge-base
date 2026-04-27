@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_narrative-world-character_story-function"
+entity_type: "DesignLens"
 title: "Story Function Lens"
 family: "Narrative / World / Character Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on story function without inventing facts or relying on unsupported source claims."

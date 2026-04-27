@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_prototype-and-playtest_iteration-decision"
+entity_type: "DesignLens"
 title: "Iteration Decision Lens"
 family: "Prototype and Playtest Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on iteration decision without inventing facts or relying on unsupported source claims."

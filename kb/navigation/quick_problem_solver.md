@@ -1,0 +1,30 @@
+# Quick Problem Solver
+
+Use this table when you know the symptom and need the fastest safe starting point.
+
+| Problem | Start Here |
+|---|---|
+| My game idea is vague. | [Game Idea to One-Page Concept](../08_workflows/packs/workflow_game-idea-to-one-page-concept.md) |
+| I do not know who the game is for. | [Player Persona and Audience](../08_workflows/packs/workflow_player-persona-and-audience.md) |
+| My core loop is unclear. | [Core Loop Design](../08_workflows/packs/workflow_core-loop-design.md) |
+| My choices are fake choices. | [Meaningful Decision Audit](../08_workflows/packs/workflow_meaningful-decision-audit.md) |
+| My system is hard to reason about. | [Systems Map](../08_workflows/packs/workflow_systems-map.md) |
+| My economy inflation is broken. | [Economy and Balance](../08_workflows/packs/workflow_economy-and-balance.md) |
+| My game feels floaty. | [Game Feel Prototype](../08_workflows/packs/workflow_game-feel-prototype.md) |
+| My controls feel delayed. | [Input Responsiveness Lens](../06_lenses/cards/lens_game-feel_input-responsiveness.md) |
+| My UI feedback is confusing. | [UI Feedback](../08_workflows/packs/workflow_ui-feedback.md) |
+| Players do not understand what happened. | [Feedback Immediacy Lens](../06_lenses/cards/lens_ui-ux-feedback_feedback-immediacy.md) |
+| My players ignore my narrative. | [Narrative-Mechanic Alignment](../08_workflows/packs/workflow_narrative-mechanic-alignment.md) |
+| My world feels inconsistent. | [World and Character Function](../08_workflows/packs/workflow_world-and-character-function.md) |
+| My prototype has no clear question. | [Prototype Question](../08_workflows/packs/workflow_prototype-question.md) |
+| I need to test a paper version. | [Paper Prototype](../08_workflows/packs/workflow_paper-prototype.md) |
+| I need to plan a playtest. | [Playtest Plan](../08_workflows/packs/workflow_playtest-plan.md) |
+| I have playtest results but no decision. | [Iteration Decision](../08_workflows/packs/workflow_iteration-decision.md) |
+| I need a design review. | [Design Lens Review](../08_workflows/packs/workflow_design-lens-review.md) |
+| I need launch risk review. | [Release Readiness Risk Audit](../08_workflows/packs/workflow_release-readiness-risk-audit.md) |
+| I worry the AI invented claims. | [Detect Unsupported Claims Prompt](../08_workflows/prompts/prompt_detect-unsupported-claims.md) |
+| I need to know whether a source is safe. | [Source Governance Path](source_governance_path.md) |
+
+## Rule
+
+If the problem needs a deliverable, start with a workflow. If the problem needs diagnosis, start with a lens. If the problem needs vocabulary, start with a card.

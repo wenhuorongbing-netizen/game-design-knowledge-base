@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_game_feel_04"
+entity_type: "Exercise"
 title: "Game Feel Exercise 04: compare a design assumption"
 category: "game_feel"
 purpose: "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims."

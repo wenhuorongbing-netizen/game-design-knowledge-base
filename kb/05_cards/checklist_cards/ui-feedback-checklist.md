@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_ui-feedback-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "UI Feedback Checklist"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 card_id: "framework_source-sink-economy-map"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Source-Sink Economy Map"
 aliases: []

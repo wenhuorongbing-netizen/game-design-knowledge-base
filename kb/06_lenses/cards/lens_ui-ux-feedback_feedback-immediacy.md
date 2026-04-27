@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_feedback-immediacy"
+entity_type: "DesignLens"
 title: "Feedback Immediacy Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on feedback immediacy without inventing facts or relying on unsupported source claims."

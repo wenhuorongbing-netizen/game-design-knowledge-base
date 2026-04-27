@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_narrative_world_01"
+entity_type: "Exercise"
 title: "Narrative / World Exercise 01: invert a design assumption"
 category: "narrative_world"
 purpose: "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims."

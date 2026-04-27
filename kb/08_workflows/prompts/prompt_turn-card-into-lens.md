@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_turn-card-into-lens"
+entity_type: "PromptTemplate"
 title: "Turn Card Into Lens"
 use_case: "Convert a concept or framework card into an original diagnostic lens."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

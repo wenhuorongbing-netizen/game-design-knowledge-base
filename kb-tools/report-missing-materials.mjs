@@ -1,6 +1,8 @@
 import path from "node:path";
-import { kbRoot, loadJson, slugify, userSuppliedRoot, writeJson, writeText } from "./_common.mjs";
+import { kbRoot, loadJson, requireLegacyToolOptIn, slugify, userSuppliedRoot, writeJson, writeText } from "./_common.mjs";
 import { groupBy, loadKnowledgeRegistry, priorityWeight } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/report-missing-materials.mjs");
 
 const registry = loadKnowledgeRegistry();
 const userManifest = loadJson(path.join(userSuppliedRoot, "manifest.json"), { entries: [] });
@@ -21,15 +23,15 @@ const updatedRequests = [...registry.materialRequests]
   .map((request) => {
     const work = findWorkByRequest(request);
     const matchedFiles = work ? userFilesByWork.get(work.id) ?? [] : [];
-    const acceptedFiles = matchedFiles.filter((entry) => entry.source_review_status !== "needs_review");
-    const reviewFiles = matchedFiles.filter((entry) => entry.source_review_status === "needs_review");
+    const acceptedFiles = matchedFiles.filter((entry) => entry.source_review_status === "accepted");
+    const reviewFiles = matchedFiles.filter((entry) => entry.source_review_status !== "accepted");
     return {
       ...request,
       matched_work_id: work?.id ?? "",
       matched_files: matchedFiles.map((entry) => ({
         file_name: entry.file_name,
         relative_path: entry.relative_path,
-        source_review_status: entry.source_review_status ?? "accepted"
+        source_review_status: entry.source_review_status ?? "pending_review"
       })),
       status: acceptedFiles.length > 0 ? "provided" : reviewFiles.length > 0 ? "review_required" : "needed"
     };
@@ -75,7 +77,7 @@ for (const priority of ["P0", "P1", "P2"]) {
     if ((request.matched_files ?? []).length > 0) {
       lines.push("- 已匹配文件：");
       for (const file of request.matched_files) {
-        lines.push(`  - \`${file.relative_path}\`${file.source_review_status === "needs_review" ? " (review)" : ""}`);
+        lines.push(`  - \`${file.relative_path}\`${file.source_review_status !== "accepted" ? " (review)" : ""}`);
       }
     }
     lines.push("- 官方入口：");

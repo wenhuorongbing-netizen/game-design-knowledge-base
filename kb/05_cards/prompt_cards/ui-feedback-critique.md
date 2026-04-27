@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_ui-feedback-critique"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "UI Feedback Critique Prompt"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_propose-project-applications"
+entity_type: "PromptTemplate"
 title: "Propose Project Applications"
 use_case: "Turn general KB items into project overlay candidates."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

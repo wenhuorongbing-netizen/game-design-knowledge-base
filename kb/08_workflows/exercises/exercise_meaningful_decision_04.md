@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_meaningful_decision_04"
+entity_type: "Exercise"
 title: "Meaningful Decision Exercise 04: compare a design assumption"
 category: "meaningful_decision"
 purpose: "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims."

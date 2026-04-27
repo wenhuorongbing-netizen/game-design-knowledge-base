@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_rules-and-formal-elements"
+entity_type: "WorkflowPack"
 title: "Rules and Formal Elements Pack"
 purpose: "Turns gameplay into formal elements: players, objectives, procedures, rules, resources, conflict, boundaries, outcome."
 phase_groups: ["核心玩法与系统设计", "开发实现"]

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_narrative-architecture"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "narrative architecture"
 aliases: []

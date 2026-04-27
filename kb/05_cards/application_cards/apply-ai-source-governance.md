@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-ai-source-governance"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply AI Source Governance"
 aliases: []

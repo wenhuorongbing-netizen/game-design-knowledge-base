@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_summarize-user-notes-into-cards"
+entity_type: "PromptTemplate"
 title: "Summarize User Notes Into Cards"
 use_case: "Convert user-authored notes into source-governed card drafts."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_mechanics-and-rules_depth-versus-complexity"
+entity_type: "DesignLens"
 title: "Depth Versus Complexity Lens"
 family: "Mechanics and Rules Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on depth versus complexity without inventing facts or relying on unsupported source claims."

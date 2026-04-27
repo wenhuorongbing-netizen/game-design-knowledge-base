@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_play-theory_play-context"
+entity_type: "DesignLens"
 title: "Play Context Lens"
 family: "Play Theory Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on play context without inventing facts or relying on unsupported source claims."

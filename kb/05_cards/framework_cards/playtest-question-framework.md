@@ -1,5 +1,6 @@
 ---
 card_id: "framework_playtest-question-framework"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Playtest Question Framework"
 aliases: []

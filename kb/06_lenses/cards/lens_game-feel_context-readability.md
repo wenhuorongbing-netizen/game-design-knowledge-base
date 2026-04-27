@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_context-readability"
+entity_type: "DesignLens"
 title: "Context Readability Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on context readability without inventing facts or relying on unsupported source claims."

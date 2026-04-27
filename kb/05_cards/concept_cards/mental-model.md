@@ -1,5 +1,6 @@
 ---
 card_id: "concept_mental-model"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "mental model"
 aliases: []

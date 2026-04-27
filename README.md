@@ -1,3 +1,5 @@
+Start here: START_HERE.md
+
 # Game Design Knowledgebase
 
 This repository is a structured Game Design Knowledgebase. It is not BookOS, a reading notes app, a personal book tracker, a forum platform, or a Vue/Spring/MySQL application.
@@ -9,6 +11,8 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 ## Canonical KB Content
 
 - `kb/` is the canonical source-governed knowledgebase.
+- `START_HERE.md` is the role-based entry point for new users.
+- `kb/navigation/` contains learner, designer, researcher, maintainer, source-governance, and quick problem-solving paths.
 - `tools/validate_kb/` contains the repository validator.
 - `tools/kb_importer/` is the authoritative export/import pipeline.
 - `tools/kb_quality/` contains release audit and coverage helpers.
@@ -44,3 +48,23 @@ node .\tools\validate_kb\validate_kb.js
 Draft KB release can pass when validation/export are clean and all draft scaffolds remain labeled with `source_basis`, `confidence`, and `status`.
 
 Verified source-backed masterclass release remains blocked until legal sidecars, user notes, official/open sources, or project/playtest evidence support claims.
+
+## Navigation
+
+If you are new to the repository, start with [START_HERE.md](START_HERE.md).
+
+Structure guides:
+
+- [REPO_MAP.md](REPO_MAP.md)
+- [STRUCTURE_MAP.md](STRUCTURE_MAP.md)
+- [STRUCTURE_SIMPLIFICATION_PLAN.md](STRUCTURE_SIMPLIFICATION_PLAN.md)
+- [WHAT_NOT_TO_TOUCH.md](WHAT_NOT_TO_TOUCH.md)
+
+Role-based paths:
+
+- [Learner Path](kb/navigation/learner_path.md)
+- [Designer Path](kb/navigation/designer_path.md)
+- [Researcher Path](kb/navigation/researcher_path.md)
+- [Maintainer Path](kb/navigation/maintainer_path.md)
+- [Source Governance Path](kb/navigation/source_governance_path.md)
+- [Quick Problem Solver](kb/navigation/quick_problem_solver.md)

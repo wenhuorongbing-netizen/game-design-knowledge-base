@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_cognitive-load"
+entity_type: "DesignLens"
 title: "Cognitive Load Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on cognitive load without inventing facts or relying on unsupported source claims."

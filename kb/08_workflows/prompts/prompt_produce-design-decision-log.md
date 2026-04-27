@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_produce-design-decision-log"
+entity_type: "PromptTemplate"
 title: "Produce Design Decision Log"
 use_case: "Turn findings into a decision with rationale, evidence, and next test."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

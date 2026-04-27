@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_project-overlay-generation"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Project Overlay Generation Prompt"
 aliases: []

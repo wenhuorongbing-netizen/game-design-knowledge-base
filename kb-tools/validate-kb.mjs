@@ -8,10 +8,13 @@ import {
   openWebRoot,
   officialMetadataRoot,
   repoRoot,
+  requireLegacyToolOptIn,
   reportsRoot,
   writeText
 } from "./_common.mjs";
 import { loadKnowledgeRegistry, loadNormalizedCards, loadNormalizedWorks } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/validate-kb.mjs");
 
 const registry = loadKnowledgeRegistry();
 const works = loadNormalizedWorks();
@@ -157,7 +160,7 @@ for (const entry of privateBookManifest.entries ?? []) {
   if (!entry.matched_work_id) {
     warnings.push(`unmatched private book: ${entry.relative_path}`);
   }
-  if (entry.source_review_status === "needs_review") {
+  if (entry.source_review_status !== "accepted") {
     warnings.push(`private book source needs review: ${entry.relative_path}${entry.matched_work_id ? ` -> ${entry.matched_work_id}` : ""}`);
   }
 }

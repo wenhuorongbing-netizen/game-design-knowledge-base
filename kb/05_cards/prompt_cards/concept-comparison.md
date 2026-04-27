@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_concept-comparison"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Concept Comparison Prompt"
 aliases: []

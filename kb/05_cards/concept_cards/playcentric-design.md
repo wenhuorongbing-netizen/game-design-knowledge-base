@@ -1,5 +1,6 @@
 ---
 card_id: "concept_playcentric-design"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "playcentric design"
 aliases: []

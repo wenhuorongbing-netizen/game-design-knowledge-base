@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ideation_15"
+entity_type: "Exercise"
 title: "Ideation Exercise 15: prototype a design assumption"
 category: "ideation"
 purpose: "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims."

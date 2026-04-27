@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_systems_economy_04"
+entity_type: "Exercise"
 title: "Systems / Economy Exercise 04: compare a design assumption"
 category: "systems_economy"
 purpose: "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims."

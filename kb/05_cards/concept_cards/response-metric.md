@@ -1,5 +1,6 @@
 ---
 card_id: "concept_response-metric"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "response metric"
 aliases: []

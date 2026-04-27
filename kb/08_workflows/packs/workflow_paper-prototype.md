@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_paper-prototype"
+entity_type: "WorkflowPack"
 title: "Paper Prototype Pack"
 purpose: "Converts systems into testable non-digital prototypes."
 phase_groups: ["核心玩法与系统设计", "开发实现", "测试 / 验收 / 审计"]

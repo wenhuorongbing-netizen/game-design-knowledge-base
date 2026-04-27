@@ -1,5 +1,6 @@
 ---
 card_id: "concept_flow"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "flow"
 aliases: []

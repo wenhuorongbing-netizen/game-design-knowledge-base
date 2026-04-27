@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_01_foundations_01_what-a-game-designer-actually-decides"
+entity_type: "Lesson"
 track_id: "track_01_foundations"
 track_title: "Track 1 - Foundations of Game Design"
 lesson_number: 1

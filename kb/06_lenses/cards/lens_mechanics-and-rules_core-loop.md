@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_mechanics-and-rules_core-loop"
+entity_type: "DesignLens"
 title: "Core Loop Lens"
 family: "Mechanics and Rules Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on core loop without inventing facts or relying on unsupported source claims."

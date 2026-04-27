@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_game-feel_tight-versus-floaty"
+entity_type: "DesignLens"
 title: "Tight Versus Floaty Lens"
 family: "Game Feel Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on tight versus floaty without inventing facts or relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_prototype-question"
+entity_type: "WorkflowPack"
 title: "Prototype Question Pack"
 purpose: "Forces every prototype to answer one clear design question."
 phase_groups: ["立项与方向", "核心玩法与系统设计", "开发实现", "测试 / 验收 / 审计"]

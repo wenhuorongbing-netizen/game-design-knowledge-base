@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_release-page-critique"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Release Page Critique Prompt"
 aliases: []

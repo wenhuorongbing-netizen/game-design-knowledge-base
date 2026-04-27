@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_systems-and-economy_feedback-loops"
+entity_type: "DesignLens"
 title: "Feedback Loops Lens"
 family: "Systems and Economy Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on feedback loops without inventing facts or relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_accessibility"
+entity_type: "DesignLens"
 title: "Accessibility Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on accessibility without inventing facts or relying on unsupported source claims."

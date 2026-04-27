@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_project-direction_market-position"
+entity_type: "DesignLens"
 title: "Market Position Lens"
 family: "Project Direction Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on market position without inventing facts or relying on unsupported source claims."

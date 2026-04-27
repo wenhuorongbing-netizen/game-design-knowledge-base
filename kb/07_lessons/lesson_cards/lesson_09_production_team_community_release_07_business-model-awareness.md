@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_09_production_team_community_release_07_business-model-awareness"
+entity_type: "Lesson"
 track_id: "track_09_production_team_community_release"
 track_title: "Track 9 - Production, Team, Community, and Release"
 lesson_number: 7

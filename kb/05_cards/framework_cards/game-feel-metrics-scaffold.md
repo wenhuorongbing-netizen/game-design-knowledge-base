@@ -1,5 +1,6 @@
 ---
 card_id: "framework_game-feel-metrics-scaffold"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Game Feel Metrics Scaffold"
 aliases: []

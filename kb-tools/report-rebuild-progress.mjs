@@ -4,10 +4,13 @@ import {
   kbRoot,
   loadJson,
   nowIso,
+  requireLegacyToolOptIn,
   reportsRoot,
   writeText
 } from "./_common.mjs";
 import { loadNormalizedCards, loadNormalizedWorks } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/report-rebuild-progress.mjs");
 
 const works = loadNormalizedWorks();
 const cards = loadNormalizedCards();
@@ -23,7 +26,7 @@ function countCards(kind) {
 const privateEntries = privateManifest.entries ?? [];
 const extractEntries = extractManifest.entries ?? [];
 const matchedPrivate = privateEntries.filter((entry) => entry.matched_work_id);
-const reviewRequired = privateEntries.filter((entry) => entry.source_review_status === "needs_review");
+const reviewRequired = privateEntries.filter((entry) => entry.source_review_status !== "accepted");
 const successfulExtracts = extractEntries.filter((entry) => ["ok", "reused"].includes(entry.extraction_status));
 const extractedWorks = works.filter((work) => work.private_extract_count > 0);
 

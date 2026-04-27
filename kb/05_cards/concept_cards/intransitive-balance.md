@@ -1,5 +1,6 @@
 ---
 card_id: "concept_intransitive-balance"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "intransitive balance"
 aliases: []

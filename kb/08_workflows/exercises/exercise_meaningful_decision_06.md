@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_meaningful_decision_06"
+entity_type: "Exercise"
 title: "Meaningful Decision Exercise 06: audit a design assumption"
 category: "meaningful_decision"
 purpose: "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims."

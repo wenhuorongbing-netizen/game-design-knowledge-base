@@ -1,5 +1,6 @@
 ---
 card_id: "prompt_game-feel-critique"
+entity_type: "PromptCard"
 card_type: "prompt_card"
 title: "Game Feel Critique Prompt"
 aliases: []

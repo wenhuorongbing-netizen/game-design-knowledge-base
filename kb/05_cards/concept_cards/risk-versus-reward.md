@@ -1,5 +1,6 @@
 ---
 card_id: "concept_risk-versus-reward"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "risk versus reward"
 aliases: []

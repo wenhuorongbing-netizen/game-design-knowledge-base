@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-community-segmentation"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Community Segmentation"
 aliases: []

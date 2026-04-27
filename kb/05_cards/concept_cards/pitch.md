@@ -1,5 +1,6 @@
 ---
 card_id: "concept_pitch"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "pitch"
 aliases: []

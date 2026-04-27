@@ -14,7 +14,15 @@ function readJson(filePath) {
 const sources = readJson(sourcesPath).source_documents || [];
 const searchDocs = readJson(searchPath).documents || [];
 const highRisk = sources.filter((source) => source.risk_level === "high" || source.source_origin_flags?.includes("HIGH_RISK_SOURCE"));
-const unsafeHighRisk = highRisk.filter((source) => source.ingestion_status !== "metadata_only_quarantined");
+const unsafeHighRisk = highRisk.filter((source) => {
+  const allowed = new Set(source.allowed_operations || []);
+  return (
+    source.ingestion_status !== "metadata_only_quarantined" ||
+    source.source_basis !== "metadata_only" ||
+    allowed.has("generate_summary") ||
+    allowed.has("generate_embeddings")
+  );
+});
 const unsafeSearch = searchDocs.filter((doc) => {
   const metadataOnly = doc.source_basis === "metadata_only" || doc.status === "metadata_only_quarantined";
   const excerpt = String(doc.body_excerpt_safe || "");

@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_production-release-community_business-alignment"
+entity_type: "DesignLens"
 title: "Business Alignment Lens"
 family: "Production / Release / Community Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on business alignment without inventing facts or relying on unsupported source claims."

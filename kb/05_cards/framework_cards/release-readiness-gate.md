@@ -1,5 +1,6 @@
 ---
 card_id: "framework_release-readiness-gate"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Release Readiness Gate"
 aliases: []

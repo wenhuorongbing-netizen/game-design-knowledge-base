@@ -1,5 +1,6 @@
 ---
 card_id: "framework_formal-elements-map"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Formal Elements Map"
 aliases: []

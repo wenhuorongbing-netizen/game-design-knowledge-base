@@ -1,5 +1,6 @@
 ---
 card_id: "concept_power-curve"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "power curve"
 aliases: []

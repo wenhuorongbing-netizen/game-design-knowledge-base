@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_06_ui_ux_feedback_08_ui-playtest-methods"
+entity_type: "Lesson"
 track_id: "track_06_ui_ux_feedback"
 track_title: "Track 6 - UI / UX / Feedback"
 lesson_number: 8

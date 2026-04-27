@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_play-theory_voluntary-engagement"
+entity_type: "DesignLens"
 title: "Voluntary Engagement Lens"
 family: "Play Theory Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on voluntary engagement without inventing facts or relying on unsupported source claims."

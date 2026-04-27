@@ -1,5 +1,6 @@
 ---
 card_id: "framework_ai-source-bounded-retrieval-framework"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "AI Source-Bounded Retrieval Framework"
 aliases: []

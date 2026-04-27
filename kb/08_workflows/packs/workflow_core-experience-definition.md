@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_core-experience-definition"
+entity_type: "WorkflowPack"
 title: "Core Experience Definition Pack"
 purpose: "Defines player fantasy, emotional target, and experience goals."
 phase_groups: ["立项与方向", "核心玩法与系统设计"]

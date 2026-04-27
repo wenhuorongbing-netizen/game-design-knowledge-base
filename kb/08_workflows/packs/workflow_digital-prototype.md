@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_digital-prototype"
+entity_type: "WorkflowPack"
 title: "Digital Prototype Pack"
 purpose: "Plans rapid digital implementation."
 phase_groups: ["开发实现", "测试 / 验收 / 审计"]

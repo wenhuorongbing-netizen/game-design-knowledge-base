@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_08_prototyping_playtesting_iteration_05_kinesthetic-prototypes"
+entity_type: "Lesson"
 track_id: "track_08_prototyping_playtesting_iteration"
 track_title: "Track 8 - Prototyping, Playtesting, and Iteration"
 lesson_number: 5

@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ui_feedback_03"
+entity_type: "Exercise"
 title: "UI / Feedback Exercise 03: stress-test a design assumption"
 category: "ui_feedback"
 purpose: "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims."

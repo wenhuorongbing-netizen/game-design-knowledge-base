@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_turn-lens-into-checklist"
+entity_type: "PromptTemplate"
 title: "Turn Lens Into Checklist"
 use_case: "Convert diagnostic questions into a review checklist."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

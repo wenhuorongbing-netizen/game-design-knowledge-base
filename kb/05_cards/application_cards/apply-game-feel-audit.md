@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-game-feel-audit"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Game Feel Audit"
 aliases: []

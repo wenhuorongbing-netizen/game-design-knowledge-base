@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_project-direction_core-experience"
+entity_type: "DesignLens"
 title: "Core Experience Lens"
 family: "Project Direction Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on core experience without inventing facts or relying on unsupported source claims."

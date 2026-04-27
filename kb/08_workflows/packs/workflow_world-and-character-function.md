@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_world-and-character-function"
+entity_type: "WorkflowPack"
 title: "World and Character Function Pack"
 purpose: "Defines world logic, character roles, avatar identity, and player relation."
 phase_groups: ["内容与叙事", "美术 / UI / 体验表达", "测试 / 验收 / 审计"]

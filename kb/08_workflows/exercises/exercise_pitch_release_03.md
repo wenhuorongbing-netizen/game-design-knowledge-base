@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_pitch_release_03"
+entity_type: "Exercise"
 title: "Pitch / Release Exercise 03: stress-test a design assumption"
 category: "pitch_release"
 purpose: "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_formal-elements"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "formal elements"
 aliases: []

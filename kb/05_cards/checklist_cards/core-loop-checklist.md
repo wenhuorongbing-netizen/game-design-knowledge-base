@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_core-loop-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Core Loop Checklist"
 aliases: []

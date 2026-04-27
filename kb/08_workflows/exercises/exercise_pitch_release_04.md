@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_pitch_release_04"
+entity_type: "Exercise"
 title: "Pitch / Release Exercise 04: compare a design assumption"
 category: "pitch_release"
 purpose: "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims."

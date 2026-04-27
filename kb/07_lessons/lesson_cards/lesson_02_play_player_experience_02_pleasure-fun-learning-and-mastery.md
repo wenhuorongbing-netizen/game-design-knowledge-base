@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_02_play_player_experience_02_pleasure-fun-learning-and-mastery"
+entity_type: "Lesson"
 track_id: "track_02_play_player_experience"
 track_title: "Track 2 - Play and Player Experience"
 lesson_number: 2

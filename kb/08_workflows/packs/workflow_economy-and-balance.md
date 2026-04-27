@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_economy-and-balance"
+entity_type: "WorkflowPack"
 title: "Economy and Balance Pack"
 purpose: "Designs sources, sinks, currencies, progression, and balance risks."
 phase_groups: ["数值与经济设计", "测试 / 验收 / 审计"]

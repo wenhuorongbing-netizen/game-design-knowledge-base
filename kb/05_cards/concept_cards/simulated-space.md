@@ -1,5 +1,6 @@
 ---
 card_id: "concept_simulated-space"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "simulated space"
 aliases: []

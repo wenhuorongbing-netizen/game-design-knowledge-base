@@ -23,4 +23,4 @@ Rules:
 - Do not treat `user_provided_file` as legal AI-processing permission.
 - Use legal sidecars before any body-level processing is considered.
 
-`build-all.mjs` is hard-blocked. Other scripts are retained for explicit audited maintenance only.
+`build-all.mjs` is hard-blocked. Other entry scripts are guarded and require `ALLOW_LEGACY_KB_TOOLS=true` for explicit audited maintenance only.

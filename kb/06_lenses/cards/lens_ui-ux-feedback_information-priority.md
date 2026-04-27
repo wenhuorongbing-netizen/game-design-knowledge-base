@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_ui-ux-feedback_information-priority"
+entity_type: "DesignLens"
 title: "Information Priority Lens"
 family: "UI / UX / Feedback Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on information priority without inventing facts or relying on unsupported source claims."

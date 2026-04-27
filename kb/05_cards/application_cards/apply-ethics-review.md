@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-ethics-review"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Ethics Review"
 aliases: []

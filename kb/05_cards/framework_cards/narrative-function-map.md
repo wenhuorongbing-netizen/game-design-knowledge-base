@@ -1,5 +1,6 @@
 ---
 card_id: "framework_narrative-function-map"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "Narrative Function Map"
 aliases: []

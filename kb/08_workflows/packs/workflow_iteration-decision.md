@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_iteration-decision"
+entity_type: "WorkflowPack"
 title: "Iteration Decision Pack"
 purpose: "Turns playtest findings into design changes."
 phase_groups: ["开发实现", "测试 / 验收 / 审计"]

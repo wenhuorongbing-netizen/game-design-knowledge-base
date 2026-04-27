@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_systems-and-economy_progression-curve"
+entity_type: "DesignLens"
 title: "Progression Curve Lens"
 family: "Systems and Economy Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on progression curve without inventing facts or relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_transformational-games"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "transformational games"
 aliases: []

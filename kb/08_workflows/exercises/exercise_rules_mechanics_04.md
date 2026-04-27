@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_rules_mechanics_04"
+entity_type: "Exercise"
 title: "Rules / Mechanics Exercise 04: compare a design assumption"
 category: "rules_mechanics"
 purpose: "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims."

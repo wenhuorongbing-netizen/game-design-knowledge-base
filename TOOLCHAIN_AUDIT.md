@@ -24,10 +24,11 @@ The authoritative Game Design Knowledgebase pipeline is the root `package.json` 
 Controls:
 
 - `kb-tools/build-all.mjs` is hard-blocked.
-- `kb-tools/README_DEPRECATED.md` documents the deprecation.
-- `kb-tools/_common.mjs` no longer silently points to nested `knowledge/` paths.
-- `kb-tools/ingest-user-files.mjs` now defaults user files to `pending_review` or `metadata_only_quarantined`.
-- private source body extraction remains disabled.
+- `kb-tools/README.md` and `kb-tools/README_DEPRECATED.md` document the deprecation.
+- Entry scripts in `kb-tools/*.mjs` call `requireLegacyToolOptIn(...)` and exit unless `ALLOW_LEGACY_KB_TOOLS=true`.
+- `kb-tools/_common.mjs` explicitly labels the toolchain as deprecated and points legacy paths at `50-game-design-masters-kb` only for opt-in maintenance.
+- `kb-tools/ingest-user-files.mjs` defaults user files to `pending_review` / `allowed_metadata_only`, or `metadata_only_quarantined` for high-risk markers.
+- Private source body extraction remains disabled.
 
 ## P0 Toolchain Rules
 
@@ -35,7 +36,10 @@ Controls:
 - Default build must never generate embeddings from high-risk source files.
 - Default build must never create verified claims from high-risk source bodies.
 - `user_provided_file` does not imply legal AI processing permission.
+- Legacy tools cannot run accidentally.
 
 ## Result
 
 No P0 toolchain blocker remains.
+
+Latest recheck: default `npm` scripts use `/tools`, not `/kb-tools`; legacy entry scripts remain guarded by `ALLOW_LEGACY_KB_TOOLS=true`.

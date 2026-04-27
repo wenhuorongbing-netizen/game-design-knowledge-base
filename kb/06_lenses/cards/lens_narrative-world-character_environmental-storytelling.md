@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_narrative-world-character_environmental-storytelling"
+entity_type: "DesignLens"
 title: "Environmental Storytelling Lens"
 family: "Narrative / World / Character Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on environmental storytelling without inventing facts or relying on unsupported source claims."

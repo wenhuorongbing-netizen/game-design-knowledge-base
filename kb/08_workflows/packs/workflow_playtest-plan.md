@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_playtest-plan"
+entity_type: "WorkflowPack"
 title: "Playtest Plan Pack"
 purpose: "Defines who, where, what, how, data, observation, and interview."
 phase_groups: ["测试 / 验收 / 审计"]

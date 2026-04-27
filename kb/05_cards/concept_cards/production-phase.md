@@ -1,5 +1,6 @@
 ---
 card_id: "concept_production-phase"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "production phase"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ethics_community_04"
+entity_type: "Exercise"
 title: "Ethics / Community Exercise 04: compare a design assumption"
 category: "ethics_community"
 purpose: "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims."

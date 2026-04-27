@@ -1,5 +1,6 @@
 ---
 card_id: "concept_dramatic-arc"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "dramatic arc"
 aliases: []

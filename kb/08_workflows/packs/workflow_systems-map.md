@@ -1,5 +1,6 @@
 ---
 workflow_id: "workflow_systems-map"
+entity_type: "WorkflowPack"
 title: "Systems Map Pack"
 purpose: "Maps parts, loops, wholes, feedback, and emergent risks."
 phase_groups: ["核心玩法与系统设计", "数值与经济设计", "测试 / 验收 / 审计"]

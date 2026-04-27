@@ -1,5 +1,6 @@
 ---
 card_id: "concept_avatar-feel"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "avatar feel"
 aliases: []

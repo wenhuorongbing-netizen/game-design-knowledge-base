@@ -8,6 +8,7 @@ import {
   nowIso,
   rawRoot,
   relativeToRepo,
+  requireLegacyToolOptIn,
   reportsRoot,
   sha256File,
   slugify,
@@ -16,6 +17,8 @@ import {
   writeText
 } from "./_common.mjs";
 import { loadKnowledgeRegistry } from "./_library.mjs";
+
+requireLegacyToolOptIn("kb-tools/discover-private-books.mjs");
 
 const privateLibraryRoot = path.join(rawRoot, "private-library");
 const manifestPath = path.join(privateLibraryRoot, "manifest.json");
@@ -152,7 +155,7 @@ function assessSourceReview(fileName, matchStrategy, matchScore) {
   return {
     provenance_flags: provenanceFlags,
     provenance_label: provenanceFlags.length > 0 ? "third_party_mirror_inferred" : "user_provided_file",
-    source_review_status: reviewNotes.length > 0 ? "needs_review" : "accepted",
+    source_review_status: "pending_review",
     review_notes: reviewNotes
   };
 }
@@ -243,7 +246,7 @@ writeJson(manifestPath, {
     matched_count: entries.filter((entry) => entry.matched_work_id).length,
     unmatched_count: entries.filter((entry) => !entry.matched_work_id).length,
     duplicate_count: entries.filter((entry) => entry.duplicate_group.length > 0).length,
-    review_required_count: entries.filter((entry) => entry.source_review_status === "needs_review").length
+    review_required_count: entries.filter((entry) => entry.source_review_status !== "accepted").length
   },
   entries,
   ignored

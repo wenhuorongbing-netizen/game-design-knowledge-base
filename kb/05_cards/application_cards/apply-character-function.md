@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-character-function"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Character Function"
 aliases: []

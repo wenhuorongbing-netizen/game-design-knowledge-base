@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_systems-and-economy_parts-loops-whole"
+entity_type: "DesignLens"
 title: "Parts/Loops/Whole Lens"
 family: "Systems and Economy Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on parts/loops/whole without inventing facts or relying on unsupported source claims."

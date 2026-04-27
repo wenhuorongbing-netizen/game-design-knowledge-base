@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_systems_economy_01"
+entity_type: "Exercise"
 title: "Systems / Economy Exercise 01: invert a design assumption"
 category: "systems_economy"
 purpose: "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims."

@@ -1,5 +1,6 @@
 ---
 lesson_id: "lesson_04_systems_economy_08_emergence-and-systemic-risk"
+entity_type: "Lesson"
 track_id: "track_04_systems_economy"
 track_title: "Track 4 - Systems and Economy"
 lesson_number: 8

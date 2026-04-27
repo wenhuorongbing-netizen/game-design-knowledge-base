@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ui_feedback_05"
+entity_type: "Exercise"
 title: "UI / Feedback Exercise 05: prototype a design assumption"
 category: "ui_feedback"
 purpose: "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims."

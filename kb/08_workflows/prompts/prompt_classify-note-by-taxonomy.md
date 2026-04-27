@@ -1,5 +1,6 @@
 ---
 prompt_id: "prompt_classify-note-by-taxonomy"
+entity_type: "PromptTemplate"
 title: "Classify Note By Taxonomy"
 use_case: "Route a note into phase groups, domains, cards, and lessons."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]

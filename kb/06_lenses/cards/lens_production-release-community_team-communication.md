@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_production-release-community_team-communication"
+entity_type: "DesignLens"
 title: "Team Communication Lens"
 family: "Production / Release / Community Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on team communication without inventing facts or relying on unsupported source claims."

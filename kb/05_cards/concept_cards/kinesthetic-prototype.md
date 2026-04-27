@@ -1,5 +1,6 @@
 ---
 card_id: "concept_kinesthetic-prototype"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "kinesthetic prototype"
 aliases: []

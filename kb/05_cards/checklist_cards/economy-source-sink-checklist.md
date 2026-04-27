@@ -1,5 +1,6 @@
 ---
 card_id: "checklist_economy-source-sink-checklist"
+entity_type: "ChecklistCard"
 card_type: "checklist_card"
 title: "Economy Source Sink Checklist"
 aliases: []

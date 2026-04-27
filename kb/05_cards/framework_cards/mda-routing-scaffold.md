@@ -1,5 +1,6 @@
 ---
 card_id: "framework_mda-routing-scaffold"
+entity_type: "FrameworkCard"
 card_type: "framework_card"
 title: "MDA Routing Scaffold"
 aliases: []

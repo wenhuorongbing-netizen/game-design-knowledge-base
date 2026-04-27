@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_ideation_09"
+entity_type: "Exercise"
 title: "Ideation Exercise 09: cut a design assumption"
 category: "ideation"
 purpose: "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims."

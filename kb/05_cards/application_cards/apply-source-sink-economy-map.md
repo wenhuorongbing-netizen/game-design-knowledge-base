@@ -1,5 +1,6 @@
 ---
 card_id: "application_apply-source-sink-economy-map"
+entity_type: "ApplicationCard"
 card_type: "application_card"
 title: "Apply Source Sink Economy Map"
 aliases: []

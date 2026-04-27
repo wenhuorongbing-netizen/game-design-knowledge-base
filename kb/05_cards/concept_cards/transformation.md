@@ -1,5 +1,6 @@
 ---
 card_id: "concept_transformation"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "transformation"
 aliases: []

@@ -1,5 +1,6 @@
 ---
 card_id: "concept_rules-metric"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "rules metric"
 aliases: []

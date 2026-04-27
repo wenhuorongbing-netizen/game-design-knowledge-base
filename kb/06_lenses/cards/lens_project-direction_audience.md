@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_project-direction_audience"
+entity_type: "DesignLens"
 title: "Audience Lens"
 family: "Project Direction Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on audience without inventing facts or relying on unsupported source claims."

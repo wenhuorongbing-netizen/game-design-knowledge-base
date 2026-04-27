@@ -1,5 +1,6 @@
 ---
 exercise_id: "exercise_narrative_world_04"
+entity_type: "Exercise"
 title: "Narrative / World Exercise 04: compare a design assumption"
 category: "narrative_world"
 purpose: "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims."

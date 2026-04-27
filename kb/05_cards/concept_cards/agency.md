@@ -1,5 +1,6 @@
 ---
 card_id: "concept_agency"
+entity_type: "ConceptCard"
 card_type: "concept_card"
 title: "agency"
 aliases: []

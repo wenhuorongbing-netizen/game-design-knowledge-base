@@ -17555,6 +17555,7 @@
       "source_path": "kb/05_cards/concept_cards/aesthetics.md",
       "raw": {
         "card_id": "concept_aesthetics",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "aesthetics",
         "aliases": [],
@@ -17760,6 +17761,7 @@
       "source_path": "kb/05_cards/concept_cards/agency.md",
       "raw": {
         "card_id": "concept_agency",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "agency",
         "aliases": [],
@@ -17965,6 +17967,7 @@
       "source_path": "kb/05_cards/concept_cards/audience.md",
       "raw": {
         "card_id": "concept_audience",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "audience",
         "aliases": [],
@@ -18169,6 +18172,7 @@
       "source_path": "kb/05_cards/concept_cards/avatar-feel.md",
       "raw": {
         "card_id": "concept_avatar-feel",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "avatar feel",
         "aliases": [],
@@ -18373,6 +18377,7 @@
       "source_path": "kb/05_cards/concept_cards/avatar.md",
       "raw": {
         "card_id": "concept_avatar",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "avatar",
         "aliases": [],
@@ -18579,6 +18584,7 @@
       "source_path": "kb/05_cards/concept_cards/balance.md",
       "raw": {
         "card_id": "concept_balance",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "balance",
         "aliases": [],
@@ -18784,6 +18790,7 @@
       "source_path": "kb/05_cards/concept_cards/boundaries.md",
       "raw": {
         "card_id": "concept_boundaries",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "boundaries",
         "aliases": [],
@@ -18989,6 +18996,7 @@
       "source_path": "kb/05_cards/concept_cards/business-model.md",
       "raw": {
         "card_id": "concept_business-model",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "business model",
         "aliases": [],
@@ -19193,6 +19201,7 @@
       "source_path": "kb/05_cards/concept_cards/camera-feel.md",
       "raw": {
         "card_id": "concept_camera-feel",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "camera feel",
         "aliases": [],
@@ -19397,6 +19406,7 @@
       "source_path": "kb/05_cards/concept_cards/challenge.md",
       "raw": {
         "card_id": "concept_challenge",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "challenge",
         "aliases": [],
@@ -19602,6 +19612,7 @@
       "source_path": "kb/05_cards/concept_cards/chance.md",
       "raw": {
         "card_id": "concept_chance",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "chance",
         "aliases": [],
@@ -19807,6 +19818,7 @@
       "source_path": "kb/05_cards/concept_cards/character-function.md",
       "raw": {
         "card_id": "concept_character-function",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "character function",
         "aliases": [],
@@ -20013,6 +20025,7 @@
       "source_path": "kb/05_cards/concept_cards/community.md",
       "raw": {
         "card_id": "concept_community",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "community",
         "aliases": [],
@@ -20219,6 +20232,7 @@
       "source_path": "kb/05_cards/concept_cards/conflict.md",
       "raw": {
         "card_id": "concept_conflict",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "conflict",
         "aliases": [],
@@ -20422,6 +20436,7 @@
       "source_path": "kb/05_cards/concept_cards/context-metric.md",
       "raw": {
         "card_id": "concept_context-metric",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "context metric",
         "aliases": [],
@@ -20626,6 +20641,7 @@
       "source_path": "kb/05_cards/concept_cards/curiosity.md",
       "raw": {
         "card_id": "concept_curiosity",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "curiosity",
         "aliases": [],
@@ -20832,6 +20848,7 @@
       "source_path": "kb/05_cards/concept_cards/design-document.md",
       "raw": {
         "card_id": "concept_design-document",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "design document",
         "aliases": [],
@@ -21040,6 +21057,7 @@
       "source_path": "kb/05_cards/concept_cards/digital-prototype.md",
       "raw": {
         "card_id": "concept_digital-prototype",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "digital prototype",
         "aliases": [],
@@ -21247,6 +21265,7 @@
       "source_path": "kb/05_cards/concept_cards/dilemmas.md",
       "raw": {
         "card_id": "concept_dilemmas",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "dilemmas",
         "aliases": [],
@@ -21450,6 +21469,7 @@
       "source_path": "kb/05_cards/concept_cards/drain.md",
       "raw": {
         "card_id": "concept_drain",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "drain",
         "aliases": [],
@@ -21653,6 +21673,7 @@
       "source_path": "kb/05_cards/concept_cards/dramatic-arc.md",
       "raw": {
         "card_id": "concept_dramatic-arc",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "dramatic arc",
         "aliases": [],
@@ -21859,6 +21880,7 @@
       "source_path": "kb/05_cards/concept_cards/dynamics.md",
       "raw": {
         "card_id": "concept_dynamics",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "dynamics",
         "aliases": [],
@@ -22062,6 +22084,7 @@
       "source_path": "kb/05_cards/concept_cards/economy.md",
       "raw": {
         "card_id": "concept_economy",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "economy",
         "aliases": [],
@@ -22263,6 +22286,7 @@
       "source_path": "kb/05_cards/concept_cards/emergence.md",
       "raw": {
         "card_id": "concept_emergence",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "emergence",
         "aliases": [],
@@ -22466,6 +22490,7 @@
       "source_path": "kb/05_cards/concept_cards/emergent-story.md",
       "raw": {
         "card_id": "concept_emergent-story",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "emergent story",
         "aliases": [],
@@ -22672,6 +22697,7 @@
       "source_path": "kb/05_cards/concept_cards/ethics.md",
       "raw": {
         "card_id": "concept_ethics",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "ethics",
         "aliases": [],
@@ -22879,6 +22905,7 @@
       "source_path": "kb/05_cards/concept_cards/experience-goal.md",
       "raw": {
         "card_id": "concept_experience-goal",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "experience goal",
         "aliases": [],
@@ -23084,6 +23111,7 @@
       "source_path": "kb/05_cards/concept_cards/faucet.md",
       "raw": {
         "card_id": "concept_faucet",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "faucet",
         "aliases": [],
@@ -23285,6 +23313,7 @@
       "source_path": "kb/05_cards/concept_cards/feedback-loop.md",
       "raw": {
         "card_id": "concept_feedback-loop",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "feedback loop",
         "aliases": [],
@@ -23486,6 +23515,7 @@
       "source_path": "kb/05_cards/concept_cards/feedback.md",
       "raw": {
         "card_id": "concept_feedback",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "feedback",
         "aliases": [],
@@ -23688,6 +23718,7 @@
       "source_path": "kb/05_cards/concept_cards/floatiness.md",
       "raw": {
         "card_id": "concept_floatiness",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "floatiness",
         "aliases": [],
@@ -23892,6 +23923,7 @@
       "source_path": "kb/05_cards/concept_cards/flow.md",
       "raw": {
         "card_id": "concept_flow",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "flow",
         "aliases": [],
@@ -24097,6 +24129,7 @@
       "source_path": "kb/05_cards/concept_cards/formal-elements.md",
       "raw": {
         "card_id": "concept_formal-elements",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "formal elements",
         "aliases": [],
@@ -24302,6 +24335,7 @@
       "source_path": "kb/05_cards/concept_cards/fun.md",
       "raw": {
         "card_id": "concept_fun",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "fun",
         "aliases": [],
@@ -24505,6 +24539,7 @@
       "source_path": "kb/05_cards/concept_cards/game-feel.md",
       "raw": {
         "card_id": "concept_game-feel",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "game feel",
         "aliases": [],
@@ -24707,6 +24742,7 @@
       "source_path": "kb/05_cards/concept_cards/game-plus-player-system.md",
       "raw": {
         "card_id": "concept_game-plus-player-system",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "game+player system",
         "aliases": [],
@@ -24910,6 +24946,7 @@
       "source_path": "kb/05_cards/concept_cards/game.md",
       "raw": {
         "card_id": "concept_game",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "game",
         "aliases": [],
@@ -25115,6 +25152,7 @@
       "source_path": "kb/05_cards/concept_cards/griefing.md",
       "raw": {
         "card_id": "concept_griefing",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "griefing",
         "aliases": [],
@@ -25322,6 +25360,7 @@
       "source_path": "kb/05_cards/concept_cards/ideation.md",
       "raw": {
         "card_id": "concept_ideation",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "ideation",
         "aliases": [],
@@ -25527,6 +25566,7 @@
       "source_path": "kb/05_cards/concept_cards/input-metric.md",
       "raw": {
         "card_id": "concept_input-metric",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "input metric",
         "aliases": [],
@@ -25729,6 +25769,7 @@
       "source_path": "kb/05_cards/concept_cards/interface.md",
       "raw": {
         "card_id": "concept_interface",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "interface",
         "aliases": [],
@@ -25931,6 +25972,7 @@
       "source_path": "kb/05_cards/concept_cards/intransitive-balance.md",
       "raw": {
         "card_id": "concept_intransitive-balance",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "intransitive balance",
         "aliases": [],
@@ -26135,6 +26177,7 @@
       "source_path": "kb/05_cards/concept_cards/iteration.md",
       "raw": {
         "card_id": "concept_iteration",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "iteration",
         "aliases": [],
@@ -26340,6 +26383,7 @@
       "source_path": "kb/05_cards/concept_cards/juiciness.md",
       "raw": {
         "card_id": "concept_juiciness",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "juiciness",
         "aliases": [],
@@ -26542,6 +26586,7 @@
       "source_path": "kb/05_cards/concept_cards/kinesthetic-prototype.md",
       "raw": {
         "card_id": "concept_kinesthetic-prototype",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "kinesthetic prototype",
         "aliases": [],
@@ -26746,6 +26791,7 @@
       "source_path": "kb/05_cards/concept_cards/learning.md",
       "raw": {
         "card_id": "concept_learning",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "learning",
         "aliases": [],
@@ -26949,6 +26995,7 @@
       "source_path": "kb/05_cards/concept_cards/loop.md",
       "raw": {
         "card_id": "concept_loop",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "loop",
         "aliases": [],
@@ -27152,6 +27199,7 @@
       "source_path": "kb/05_cards/concept_cards/magic-circle.md",
       "raw": {
         "card_id": "concept_magic-circle",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "magic circle",
         "aliases": [],
@@ -27357,6 +27405,7 @@
       "source_path": "kb/05_cards/concept_cards/mastery.md",
       "raw": {
         "card_id": "concept_mastery",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "mastery",
         "aliases": [],
@@ -27562,6 +27611,7 @@
       "source_path": "kb/05_cards/concept_cards/meaningful-decisions.md",
       "raw": {
         "card_id": "concept_meaningful-decisions",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "meaningful decisions",
         "aliases": [],
@@ -27767,6 +27817,7 @@
       "source_path": "kb/05_cards/concept_cards/mechanics.md",
       "raw": {
         "card_id": "concept_mechanics",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "mechanics",
         "aliases": [],
@@ -27970,6 +28021,7 @@
       "source_path": "kb/05_cards/concept_cards/mental-model.md",
       "raw": {
         "card_id": "concept_mental-model",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "mental model",
         "aliases": [],
@@ -28171,6 +28223,7 @@
       "source_path": "kb/05_cards/concept_cards/metaphor-metric.md",
       "raw": {
         "card_id": "concept_metaphor-metric",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "metaphor metric",
         "aliases": [],
@@ -28375,6 +28428,7 @@
       "source_path": "kb/05_cards/concept_cards/multiplayer-pattern.md",
       "raw": {
         "card_id": "concept_multiplayer-pattern",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "multiplayer pattern",
         "aliases": [],
@@ -28581,6 +28635,7 @@
       "source_path": "kb/05_cards/concept_cards/narrative-architecture.md",
       "raw": {
         "card_id": "concept_narrative-architecture",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "narrative architecture",
         "aliases": [],
@@ -28787,6 +28842,7 @@
       "source_path": "kb/05_cards/concept_cards/objectives.md",
       "raw": {
         "card_id": "concept_objectives",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "objectives",
         "aliases": [],
@@ -28992,6 +29048,7 @@
       "source_path": "kb/05_cards/concept_cards/outcome.md",
       "raw": {
         "card_id": "concept_outcome",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "outcome",
         "aliases": [],
@@ -29198,6 +29255,7 @@
       "source_path": "kb/05_cards/concept_cards/paper-prototype.md",
       "raw": {
         "card_id": "concept_paper-prototype",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "paper prototype",
         "aliases": [],
@@ -29403,6 +29461,7 @@
       "source_path": "kb/05_cards/concept_cards/part.md",
       "raw": {
         "card_id": "concept_part",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "part",
         "aliases": [],
@@ -29616,6 +29675,7 @@
       "source_path": "kb/05_cards/concept_cards/pitch.md",
       "raw": {
         "card_id": "concept_pitch",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "pitch",
         "aliases": [],
@@ -29834,6 +29894,7 @@
       "source_path": "kb/05_cards/concept_cards/play-as-appropriation.md",
       "raw": {
         "card_id": "concept_play-as-appropriation",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "play as appropriation",
         "aliases": [],
@@ -30039,6 +30100,7 @@
       "source_path": "kb/05_cards/concept_cards/play-as-context.md",
       "raw": {
         "card_id": "concept_play-as-context",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "play as context",
         "aliases": [],
@@ -30244,6 +30306,7 @@
       "source_path": "kb/05_cards/concept_cards/play-as-disruption.md",
       "raw": {
         "card_id": "concept_play-as-disruption",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "play as disruption",
         "aliases": [],
@@ -30449,6 +30512,7 @@
       "source_path": "kb/05_cards/concept_cards/play-as-free-movement-within-constraints.md",
       "raw": {
         "card_id": "concept_play-as-free-movement-within-constraints",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "play as free movement within constraints",
         "aliases": [],
@@ -30654,6 +30718,7 @@
       "source_path": "kb/05_cards/concept_cards/play.md",
       "raw": {
         "card_id": "concept_play",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "play",
         "aliases": [],
@@ -30860,6 +30925,7 @@
       "source_path": "kb/05_cards/concept_cards/playcentric-design.md",
       "raw": {
         "card_id": "concept_playcentric-design",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "playcentric design",
         "aliases": [],
@@ -31067,6 +31133,7 @@
       "source_path": "kb/05_cards/concept_cards/player-experience.md",
       "raw": {
         "card_id": "concept_player-experience",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "player experience",
         "aliases": [],
@@ -31272,6 +31339,7 @@
       "source_path": "kb/05_cards/concept_cards/player-identity.md",
       "raw": {
         "card_id": "concept_player-identity",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "player identity",
         "aliases": [],
@@ -31478,6 +31546,7 @@
       "source_path": "kb/05_cards/concept_cards/player-rights.md",
       "raw": {
         "card_id": "concept_player-rights",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "player rights",
         "aliases": [],
@@ -31684,6 +31753,7 @@
       "source_path": "kb/05_cards/concept_cards/playfulness.md",
       "raw": {
         "card_id": "concept_playfulness",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "playfulness",
         "aliases": [],
@@ -31890,6 +31960,7 @@
       "source_path": "kb/05_cards/concept_cards/playtest.md",
       "raw": {
         "card_id": "concept_playtest",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "playtest",
         "aliases": [],
@@ -32097,6 +32168,7 @@
       "source_path": "kb/05_cards/concept_cards/pleasure.md",
       "raw": {
         "card_id": "concept_pleasure",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "pleasure",
         "aliases": [],
@@ -32300,6 +32372,7 @@
       "source_path": "kb/05_cards/concept_cards/polish-metric.md",
       "raw": {
         "card_id": "concept_polish-metric",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "polish metric",
         "aliases": [],
@@ -32502,6 +32575,7 @@
       "source_path": "kb/05_cards/concept_cards/polish.md",
       "raw": {
         "card_id": "concept_polish",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "polish",
         "aliases": [],
@@ -32704,6 +32778,7 @@
       "source_path": "kb/05_cards/concept_cards/power-curve.md",
       "raw": {
         "card_id": "concept_power-curve",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "power curve",
         "aliases": [],
@@ -32907,6 +32982,7 @@
       "source_path": "kb/05_cards/concept_cards/premise.md",
       "raw": {
         "card_id": "concept_premise",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "premise",
         "aliases": [],
@@ -33114,6 +33190,7 @@
       "source_path": "kb/05_cards/concept_cards/problem-statement.md",
       "raw": {
         "card_id": "concept_problem-statement",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "problem statement",
         "aliases": [],
@@ -33321,6 +33398,7 @@
       "source_path": "kb/05_cards/concept_cards/procedures.md",
       "raw": {
         "card_id": "concept_procedures",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "procedures",
         "aliases": [],
@@ -33527,6 +33605,7 @@
       "source_path": "kb/05_cards/concept_cards/production-phase.md",
       "raw": {
         "card_id": "concept_production-phase",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "production phase",
         "aliases": [],
@@ -33732,6 +33811,7 @@
       "source_path": "kb/05_cards/concept_cards/progression-curve.md",
       "raw": {
         "card_id": "concept_progression-curve",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "progression curve",
         "aliases": [],
@@ -33936,6 +34016,7 @@
       "source_path": "kb/05_cards/concept_cards/prototype.md",
       "raw": {
         "card_id": "concept_prototype",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "prototype",
         "aliases": [],
@@ -34141,6 +34222,7 @@
       "source_path": "kb/05_cards/concept_cards/real-time-control.md",
       "raw": {
         "card_id": "concept_real-time-control",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "real-time control",
         "aliases": [],
@@ -34346,6 +34428,7 @@
       "source_path": "kb/05_cards/concept_cards/release-readiness.md",
       "raw": {
         "card_id": "concept_release-readiness",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "release readiness",
         "aliases": [],
@@ -34553,6 +34636,7 @@
       "source_path": "kb/05_cards/concept_cards/resources.md",
       "raw": {
         "card_id": "concept_resources",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "resources",
         "aliases": [],
@@ -34756,6 +34840,7 @@
       "source_path": "kb/05_cards/concept_cards/response-metric.md",
       "raw": {
         "card_id": "concept_response-metric",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "response metric",
         "aliases": [],
@@ -34960,6 +35045,7 @@
       "source_path": "kb/05_cards/concept_cards/responsibility.md",
       "raw": {
         "card_id": "concept_responsibility",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "responsibility",
         "aliases": [],
@@ -35164,6 +35250,7 @@
       "source_path": "kb/05_cards/concept_cards/responsiveness.md",
       "raw": {
         "card_id": "concept_responsiveness",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "responsiveness",
         "aliases": [],
@@ -35368,6 +35455,7 @@
       "source_path": "kb/05_cards/concept_cards/risk-versus-reward.md",
       "raw": {
         "card_id": "concept_risk-versus-reward",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "risk versus reward",
         "aliases": [],
@@ -35571,6 +35659,7 @@
       "source_path": "kb/05_cards/concept_cards/rules-metric.md",
       "raw": {
         "card_id": "concept_rules-metric",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "rules metric",
         "aliases": [],
@@ -35775,6 +35864,7 @@
       "source_path": "kb/05_cards/concept_cards/rules.md",
       "raw": {
         "card_id": "concept_rules",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "rules",
         "aliases": [],
@@ -35980,6 +36070,7 @@
       "source_path": "kb/05_cards/concept_cards/serious-games.md",
       "raw": {
         "card_id": "concept_serious-games",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "serious games",
         "aliases": [],
@@ -36184,6 +36275,7 @@
       "source_path": "kb/05_cards/concept_cards/simulated-space.md",
       "raw": {
         "card_id": "concept_simulated-space",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "simulated space",
         "aliases": [],
@@ -36386,6 +36478,7 @@
       "source_path": "kb/05_cards/concept_cards/sink.md",
       "raw": {
         "card_id": "concept_sink",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "sink",
         "aliases": [],
@@ -36589,6 +36682,7 @@
       "source_path": "kb/05_cards/concept_cards/skill.md",
       "raw": {
         "card_id": "concept_skill",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "skill",
         "aliases": [],
@@ -36792,6 +36886,7 @@
       "source_path": "kb/05_cards/concept_cards/source.md",
       "raw": {
         "card_id": "concept_source",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "source",
         "aliases": [],
@@ -36995,6 +37090,7 @@
       "source_path": "kb/05_cards/concept_cards/status.md",
       "raw": {
         "card_id": "concept_status",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "status",
         "aliases": [],
@@ -37201,6 +37297,7 @@
       "source_path": "kb/05_cards/concept_cards/story.md",
       "raw": {
         "card_id": "concept_story",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "story",
         "aliases": [],
@@ -37407,6 +37504,7 @@
       "source_path": "kb/05_cards/concept_cards/strategic-skill.md",
       "raw": {
         "card_id": "concept_strategic-skill",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "strategic skill",
         "aliases": [],
@@ -37610,6 +37708,7 @@
       "source_path": "kb/05_cards/concept_cards/system.md",
       "raw": {
         "card_id": "concept_system",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "system",
         "aliases": [],
@@ -37813,6 +37912,7 @@
       "source_path": "kb/05_cards/concept_cards/tension.md",
       "raw": {
         "card_id": "concept_tension",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "tension",
         "aliases": [],
@@ -38016,6 +38116,7 @@
       "source_path": "kb/05_cards/concept_cards/tightness.md",
       "raw": {
         "card_id": "concept_tightness",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "tightness",
         "aliases": [],
@@ -38220,6 +38321,7 @@
       "source_path": "kb/05_cards/concept_cards/tradeoffs.md",
       "raw": {
         "card_id": "concept_tradeoffs",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "tradeoffs",
         "aliases": [],
@@ -38425,6 +38527,7 @@
       "source_path": "kb/05_cards/concept_cards/transformation.md",
       "raw": {
         "card_id": "concept_transformation",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "transformation",
         "aliases": [],
@@ -38631,6 +38734,7 @@
       "source_path": "kb/05_cards/concept_cards/transformational-games.md",
       "raw": {
         "card_id": "concept_transformational-games",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "transformational games",
         "aliases": [],
@@ -38835,6 +38939,7 @@
       "source_path": "kb/05_cards/concept_cards/transitive-balance.md",
       "raw": {
         "card_id": "concept_transitive-balance",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "transitive balance",
         "aliases": [],
@@ -39038,6 +39143,7 @@
       "source_path": "kb/05_cards/concept_cards/twitch-skill.md",
       "raw": {
         "card_id": "concept_twitch-skill",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "twitch skill",
         "aliases": [],
@@ -39243,6 +39349,7 @@
       "source_path": "kb/05_cards/concept_cards/uncertainty.md",
       "raw": {
         "card_id": "concept_uncertainty",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "uncertainty",
         "aliases": [],
@@ -39446,6 +39553,7 @@
       "source_path": "kb/05_cards/concept_cards/whole.md",
       "raw": {
         "card_id": "concept_whole",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "whole",
         "aliases": [],
@@ -39649,6 +39757,7 @@
       "source_path": "kb/05_cards/concept_cards/worldbuilding.md",
       "raw": {
         "card_id": "concept_worldbuilding",
+        "entity_type": "ConceptCard",
         "card_type": "concept_card",
         "title": "worldbuilding",
         "aliases": [],
@@ -39845,6 +39954,7 @@
       "source_path": "kb/05_cards/framework_cards/ai-source-bounded-retrieval-framework.md",
       "raw": {
         "card_id": "framework_ai-source-bounded-retrieval-framework",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "AI Source-Bounded Retrieval Framework",
         "aliases": [],
@@ -40029,6 +40139,7 @@
       "source_path": "kb/05_cards/framework_cards/character-function-sheet.md",
       "raw": {
         "card_id": "framework_character-function-sheet",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Character Function Sheet",
         "aliases": [],
@@ -40217,6 +40328,7 @@
       "source_path": "kb/05_cards/framework_cards/core-loop-map.md",
       "raw": {
         "card_id": "framework_core-loop-map",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Core Loop Map",
         "aliases": [],
@@ -40406,6 +40518,7 @@
       "source_path": "kb/05_cards/framework_cards/ethics-risk-review.md",
       "raw": {
         "card_id": "framework_ethics-risk-review",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Ethics Risk Review",
         "aliases": [],
@@ -40594,6 +40707,7 @@
       "source_path": "kb/05_cards/framework_cards/formal-elements-map.md",
       "raw": {
         "card_id": "framework_formal-elements-map",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Formal Elements Map",
         "aliases": [],
@@ -40783,6 +40897,7 @@
       "source_path": "kb/05_cards/framework_cards/game-feel-metrics-scaffold.md",
       "raw": {
         "card_id": "framework_game-feel-metrics-scaffold",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Game Feel Metrics Scaffold",
         "aliases": [],
@@ -40973,6 +41088,7 @@
       "source_path": "kb/05_cards/framework_cards/level-flow-map.md",
       "raw": {
         "card_id": "framework_level-flow-map",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Level Flow Map",
         "aliases": [],
@@ -41162,6 +41278,7 @@
       "source_path": "kb/05_cards/framework_cards/mda-routing-scaffold.md",
       "raw": {
         "card_id": "framework_mda-routing-scaffold",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "MDA Routing Scaffold",
         "aliases": [],
@@ -41350,6 +41467,7 @@
       "source_path": "kb/05_cards/framework_cards/meaningful-decision-test.md",
       "raw": {
         "card_id": "framework_meaningful-decision-test",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Meaningful Decision Test",
         "aliases": [],
@@ -41538,6 +41656,7 @@
       "source_path": "kb/05_cards/framework_cards/narrative-function-map.md",
       "raw": {
         "card_id": "framework_narrative-function-map",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Narrative Function Map",
         "aliases": [],
@@ -41727,6 +41846,7 @@
       "source_path": "kb/05_cards/framework_cards/player-motivation-hypothesis-map.md",
       "raw": {
         "card_id": "framework_player-motivation-hypothesis-map",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Player Motivation Hypothesis Map",
         "aliases": [],
@@ -41913,6 +42033,7 @@
       "source_path": "kb/05_cards/framework_cards/playtest-question-framework.md",
       "raw": {
         "card_id": "framework_playtest-question-framework",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Playtest Question Framework",
         "aliases": [],
@@ -42100,6 +42221,7 @@
       "source_path": "kb/05_cards/framework_cards/prototype-assumption-matrix.md",
       "raw": {
         "card_id": "framework_prototype-assumption-matrix",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Prototype Assumption Matrix",
         "aliases": [],
@@ -42288,6 +42410,7 @@
       "source_path": "kb/05_cards/framework_cards/release-readiness-gate.md",
       "raw": {
         "card_id": "framework_release-readiness-gate",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Release Readiness Gate",
         "aliases": [],
@@ -42474,6 +42597,7 @@
       "source_path": "kb/05_cards/framework_cards/source-sink-economy-map.md",
       "raw": {
         "card_id": "framework_source-sink-economy-map",
+        "entity_type": "FrameworkCard",
         "card_type": "framework_card",
         "title": "Source-Sink Economy Map",
         "aliases": [],
@@ -42657,6 +42781,7 @@
       "source_path": "kb/05_cards/application_cards/apply-ai-source-governance.md",
       "raw": {
         "card_id": "application_apply-ai-source-governance",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply AI Source Governance",
         "aliases": [],
@@ -42837,6 +42962,7 @@
       "source_path": "kb/05_cards/application_cards/apply-character-function.md",
       "raw": {
         "card_id": "application_apply-character-function",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Character Function",
         "aliases": [],
@@ -43018,6 +43144,7 @@
       "source_path": "kb/05_cards/application_cards/apply-community-segmentation.md",
       "raw": {
         "card_id": "application_apply-community-segmentation",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Community Segmentation",
         "aliases": [],
@@ -43199,6 +43326,7 @@
       "source_path": "kb/05_cards/application_cards/apply-core-loop-to-prototype.md",
       "raw": {
         "card_id": "application_apply-core-loop-to-prototype",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Core Loop To Prototype",
         "aliases": [],
@@ -43379,6 +43507,7 @@
       "source_path": "kb/05_cards/application_cards/apply-ethics-review.md",
       "raw": {
         "card_id": "application_apply-ethics-review",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Ethics Review",
         "aliases": [],
@@ -43559,6 +43688,7 @@
       "source_path": "kb/05_cards/application_cards/apply-game-feel-audit.md",
       "raw": {
         "card_id": "application_apply-game-feel-audit",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Game Feel Audit",
         "aliases": [],
@@ -43738,6 +43868,7 @@
       "source_path": "kb/05_cards/application_cards/apply-narrative-function-map.md",
       "raw": {
         "card_id": "application_apply-narrative-function-map",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Narrative Function Map",
         "aliases": [],
@@ -43916,6 +44047,7 @@
       "source_path": "kb/05_cards/application_cards/apply-playtest-findings.md",
       "raw": {
         "card_id": "application_apply-playtest-findings",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Playtest Findings",
         "aliases": [],
@@ -44094,6 +44226,7 @@
       "source_path": "kb/05_cards/application_cards/apply-release-readiness.md",
       "raw": {
         "card_id": "application_apply-release-readiness",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Release Readiness",
         "aliases": [],
@@ -44271,6 +44404,7 @@
       "source_path": "kb/05_cards/application_cards/apply-source-sink-economy-map.md",
       "raw": {
         "card_id": "application_apply-source-sink-economy-map",
+        "entity_type": "ApplicationCard",
         "card_type": "application_card",
         "title": "Apply Source Sink Economy Map",
         "aliases": [],
@@ -44447,6 +44581,7 @@
       "source_path": "kb/05_cards/checklist_cards/claim-graph-review-checklist.md",
       "raw": {
         "card_id": "checklist_claim-graph-review-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Claim Graph Review Checklist",
         "aliases": [],
@@ -44622,6 +44757,7 @@
       "source_path": "kb/05_cards/checklist_cards/concept-card-evidence-checklist.md",
       "raw": {
         "card_id": "checklist_concept-card-evidence-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Concept Card Evidence Checklist",
         "aliases": [],
@@ -44799,6 +44935,7 @@
       "source_path": "kb/05_cards/checklist_cards/core-loop-checklist.md",
       "raw": {
         "card_id": "checklist_core-loop-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Core Loop Checklist",
         "aliases": [],
@@ -44976,6 +45113,7 @@
       "source_path": "kb/05_cards/checklist_cards/dossier-promotion-checklist.md",
       "raw": {
         "card_id": "checklist_dossier-promotion-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Dossier Promotion Checklist",
         "aliases": [],
@@ -45153,6 +45291,7 @@
       "source_path": "kb/05_cards/checklist_cards/economy-source-sink-checklist.md",
       "raw": {
         "card_id": "checklist_economy-source-sink-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Economy Source Sink Checklist",
         "aliases": [],
@@ -45333,6 +45472,7 @@
       "source_path": "kb/05_cards/checklist_cards/game-feel-audit-checklist.md",
       "raw": {
         "card_id": "checklist_game-feel-audit-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Game Feel Audit Checklist",
         "aliases": [],
@@ -45512,6 +45652,7 @@
       "source_path": "kb/05_cards/checklist_cards/hallucination-audit-checklist.md",
       "raw": {
         "card_id": "checklist_hallucination-audit-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Hallucination Audit Checklist",
         "aliases": [],
@@ -45689,6 +45830,7 @@
       "source_path": "kb/05_cards/checklist_cards/legal-sidecar-checklist.md",
       "raw": {
         "card_id": "checklist_legal-sidecar-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Legal Sidecar Checklist",
         "aliases": [],
@@ -45868,6 +46010,7 @@
       "source_path": "kb/05_cards/checklist_cards/mechanic-spec-checklist.md",
       "raw": {
         "card_id": "checklist_mechanic-spec-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Mechanic Spec Checklist",
         "aliases": [],
@@ -46047,6 +46190,7 @@
       "source_path": "kb/05_cards/checklist_cards/playtest-plan-checklist.md",
       "raw": {
         "card_id": "checklist_playtest-plan-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Playtest Plan Checklist",
         "aliases": [],
@@ -46225,6 +46369,7 @@
       "source_path": "kb/05_cards/checklist_cards/project-overlay-checklist.md",
       "raw": {
         "card_id": "checklist_project-overlay-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Project Overlay Checklist",
         "aliases": [],
@@ -46402,6 +46547,7 @@
       "source_path": "kb/05_cards/checklist_cards/quote-card-safety-checklist.md",
       "raw": {
         "card_id": "checklist_quote-card-safety-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Quote Card Safety Checklist",
         "aliases": [],
@@ -46578,6 +46724,7 @@
       "source_path": "kb/05_cards/checklist_cards/release-readiness-checklist.md",
       "raw": {
         "card_id": "checklist_release-readiness-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Release Readiness Checklist",
         "aliases": [],
@@ -46756,6 +46903,7 @@
       "source_path": "kb/05_cards/checklist_cards/source-governance-checklist.md",
       "raw": {
         "card_id": "checklist_source-governance-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "Source Governance Checklist",
         "aliases": [],
@@ -46935,6 +47083,7 @@
       "source_path": "kb/05_cards/checklist_cards/ui-feedback-checklist.md",
       "raw": {
         "card_id": "checklist_ui-feedback-checklist",
+        "entity_type": "ChecklistCard",
         "card_type": "checklist_card",
         "title": "UI Feedback Checklist",
         "aliases": [],
@@ -47115,6 +47264,7 @@
       "source_path": "kb/05_cards/prompt_cards/character-review.md",
       "raw": {
         "card_id": "prompt_character-review",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Character Review Prompt",
         "aliases": [],
@@ -47293,6 +47443,7 @@
       "source_path": "kb/05_cards/prompt_cards/claim-graph-audit.md",
       "raw": {
         "card_id": "prompt_claim-graph-audit",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Claim Graph Audit Prompt",
         "aliases": [],
@@ -47469,6 +47620,7 @@
       "source_path": "kb/05_cards/prompt_cards/concept-comparison.md",
       "raw": {
         "card_id": "prompt_concept-comparison",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Concept Comparison Prompt",
         "aliases": [],
@@ -47647,6 +47799,7 @@
       "source_path": "kb/05_cards/prompt_cards/core-loop-critique.md",
       "raw": {
         "card_id": "prompt_core-loop-critique",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Core Loop Critique Prompt",
         "aliases": [],
@@ -47825,6 +47978,7 @@
       "source_path": "kb/05_cards/prompt_cards/dossier-note-ingestion.md",
       "raw": {
         "card_id": "prompt_dossier-note-ingestion",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Dossier Note Ingestion Prompt",
         "aliases": [],
@@ -48002,6 +48156,7 @@
       "source_path": "kb/05_cards/prompt_cards/economy-balance-critique.md",
       "raw": {
         "card_id": "prompt_economy-balance-critique",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Economy Balance Critique Prompt",
         "aliases": [],
@@ -48178,6 +48333,7 @@
       "source_path": "kb/05_cards/prompt_cards/evidence-gap-finder.md",
       "raw": {
         "card_id": "prompt_evidence-gap-finder",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Evidence Gap Finder Prompt",
         "aliases": [],
@@ -48354,6 +48510,7 @@
       "source_path": "kb/05_cards/prompt_cards/framework-extraction-from-user-notes.md",
       "raw": {
         "card_id": "prompt_framework-extraction-from-user-notes",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Framework Extraction From User Notes Prompt",
         "aliases": [],
@@ -48532,6 +48689,7 @@
       "source_path": "kb/05_cards/prompt_cards/game-feel-critique.md",
       "raw": {
         "card_id": "prompt_game-feel-critique",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Game Feel Critique Prompt",
         "aliases": [],
@@ -48710,6 +48868,7 @@
       "source_path": "kb/05_cards/prompt_cards/narrative-premise-critique.md",
       "raw": {
         "card_id": "prompt_narrative-premise-critique",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Narrative Premise Critique Prompt",
         "aliases": [],
@@ -48886,6 +49045,7 @@
       "source_path": "kb/05_cards/prompt_cards/playtest-analysis.md",
       "raw": {
         "card_id": "prompt_playtest-analysis",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Playtest Analysis Prompt",
         "aliases": [],
@@ -49064,6 +49224,7 @@
       "source_path": "kb/05_cards/prompt_cards/project-overlay-generation.md",
       "raw": {
         "card_id": "prompt_project-overlay-generation",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Project Overlay Generation Prompt",
         "aliases": [],
@@ -49242,6 +49403,7 @@
       "source_path": "kb/05_cards/prompt_cards/release-page-critique.md",
       "raw": {
         "card_id": "prompt_release-page-critique",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Release Page Critique Prompt",
         "aliases": [],
@@ -49418,6 +49580,7 @@
       "source_path": "kb/05_cards/prompt_cards/source-bounded-card-extraction.md",
       "raw": {
         "card_id": "prompt_source-bounded-card-extraction",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "Source-Bounded Card Extraction Prompt",
         "aliases": [],
@@ -49595,6 +49758,7 @@
       "source_path": "kb/05_cards/prompt_cards/ui-feedback-critique.md",
       "raw": {
         "card_id": "prompt_ui-feedback-critique",
+        "entity_type": "PromptCard",
         "card_type": "prompt_card",
         "title": "UI Feedback Critique Prompt",
         "aliases": [],
@@ -49777,6 +49941,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_assumption-separation.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_assumption-separation",
+        "entity_type": "DesignLens",
         "title": "Assumption Separation Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on assumption separation without inventing facts or relying on unsupported source claims.",
@@ -49964,6 +50129,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_claim-traceability.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_claim-traceability",
+        "entity_type": "DesignLens",
         "title": "Claim Traceability Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on claim traceability without inventing facts or relying on unsupported source claims.",
@@ -50152,6 +50318,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_confidence-calibration.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_confidence-calibration",
+        "entity_type": "DesignLens",
         "title": "Confidence Calibration Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on confidence calibration without inventing facts or relying on unsupported source claims.",
@@ -50341,6 +50508,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_evidence-gap.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_evidence-gap",
+        "entity_type": "DesignLens",
         "title": "Evidence Gap Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on evidence gap without inventing facts or relying on unsupported source claims.",
@@ -50528,6 +50696,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_hallucination-risk.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_hallucination-risk",
+        "entity_type": "DesignLens",
         "title": "Hallucination Risk Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on hallucination risk without inventing facts or relying on unsupported source claims.",
@@ -50716,6 +50885,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_human-review.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_human-review",
+        "entity_type": "DesignLens",
         "title": "Human Review Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on human review without inventing facts or relying on unsupported source claims.",
@@ -50907,6 +51077,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_legal-source-gate.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_legal-source-gate",
+        "entity_type": "DesignLens",
         "title": "Legal Source Gate Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on legal source gate without inventing facts or relying on unsupported source claims.",
@@ -51098,6 +51269,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_project-overlay-fit.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_project-overlay-fit",
+        "entity_type": "DesignLens",
         "title": "Project Overlay Fit Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on project overlay fit without inventing facts or relying on unsupported source claims.",
@@ -51287,6 +51459,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_prompt-output-artifact.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_prompt-output-artifact",
+        "entity_type": "DesignLens",
         "title": "Prompt Output Artifact Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on prompt output artifact without inventing facts or relying on unsupported source claims.",
@@ -51474,6 +51647,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_provenance-trail.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_provenance-trail",
+        "entity_type": "DesignLens",
         "title": "Provenance Trail Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on provenance trail without inventing facts or relying on unsupported source claims.",
@@ -51662,6 +51836,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_reusable-prompt-quality.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_reusable-prompt-quality",
+        "entity_type": "DesignLens",
         "title": "Reusable Prompt Quality Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on reusable prompt quality without inventing facts or relying on unsupported source claims.",
@@ -51851,6 +52026,7 @@
       "source_path": "kb/06_lenses/cards/lens_ai-assisted-design-and-kb-governance_source-bounded-retrieval.md",
       "raw": {
         "lens_id": "lens_ai-assisted-design-and-kb-governance_source-bounded-retrieval",
+        "entity_type": "DesignLens",
         "title": "Source-Bounded Retrieval Lens",
         "family": "AI-Assisted Design and KB Governance Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on source-bounded retrieval without inventing facts or relying on unsupported source claims.",
@@ -52041,6 +52217,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_avatar-embodiment.md",
       "raw": {
         "lens_id": "lens_game-feel_avatar-embodiment",
+        "entity_type": "DesignLens",
         "title": "Avatar Embodiment Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on avatar embodiment without inventing facts or relying on unsupported source claims.",
@@ -52236,6 +52413,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_camera-feel.md",
       "raw": {
         "lens_id": "lens_game-feel_camera-feel",
+        "entity_type": "DesignLens",
         "title": "Camera Feel Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on camera feel without inventing facts or relying on unsupported source claims.",
@@ -52431,6 +52609,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_context-readability.md",
       "raw": {
         "lens_id": "lens_game-feel_context-readability",
+        "entity_type": "DesignLens",
         "title": "Context Readability Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on context readability without inventing facts or relying on unsupported source claims.",
@@ -52626,6 +52805,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_feedback-timing.md",
       "raw": {
         "lens_id": "lens_game-feel_feedback-timing",
+        "entity_type": "DesignLens",
         "title": "Feedback Timing Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on feedback timing without inventing facts or relying on unsupported source claims.",
@@ -52821,6 +53001,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_input-responsiveness.md",
       "raw": {
         "lens_id": "lens_game-feel_input-responsiveness",
+        "entity_type": "DesignLens",
         "title": "Input Responsiveness Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on input responsiveness without inventing facts or relying on unsupported source claims.",
@@ -53016,6 +53197,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_juiciness-versus-noise.md",
       "raw": {
         "lens_id": "lens_game-feel_juiciness-versus-noise",
+        "entity_type": "DesignLens",
         "title": "Juiciness Versus Noise Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on juiciness versus noise without inventing facts or relying on unsupported source claims.",
@@ -53211,6 +53393,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_polish-support.md",
       "raw": {
         "lens_id": "lens_game-feel_polish-support",
+        "entity_type": "DesignLens",
         "title": "Polish Support Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on polish support without inventing facts or relying on unsupported source claims.",
@@ -53406,6 +53589,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_real-time-control.md",
       "raw": {
         "lens_id": "lens_game-feel_real-time-control",
+        "entity_type": "DesignLens",
         "title": "Real-Time Control Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on real-time control without inventing facts or relying on unsupported source claims.",
@@ -53601,6 +53785,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_response-clarity.md",
       "raw": {
         "lens_id": "lens_game-feel_response-clarity",
+        "entity_type": "DesignLens",
         "title": "Response Clarity Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on response clarity without inventing facts or relying on unsupported source claims.",
@@ -53796,6 +53981,7 @@
       "source_path": "kb/06_lenses/cards/lens_game-feel_tight-versus-floaty.md",
       "raw": {
         "lens_id": "lens_game-feel_tight-versus-floaty",
+        "entity_type": "DesignLens",
         "title": "Tight Versus Floaty Lens",
         "family": "Game Feel Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on tight versus floaty without inventing facts or relying on unsupported source claims.",
@@ -53992,6 +54178,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_core-loop.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_core-loop",
+        "entity_type": "DesignLens",
         "title": "Core Loop Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on core loop without inventing facts or relying on unsupported source claims.",
@@ -54189,6 +54376,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_depth-versus-complexity.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_depth-versus-complexity",
+        "entity_type": "DesignLens",
         "title": "Depth Versus Complexity Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on depth versus complexity without inventing facts or relying on unsupported source claims.",
@@ -54386,6 +54574,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_dilemma-quality.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_dilemma-quality",
+        "entity_type": "DesignLens",
         "title": "Dilemma Quality Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on dilemma quality without inventing facts or relying on unsupported source claims.",
@@ -54583,6 +54772,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_emergent-possibility.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_emergent-possibility",
+        "entity_type": "DesignLens",
         "title": "Emergent Possibility Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on emergent possibility without inventing facts or relying on unsupported source claims.",
@@ -54780,6 +54970,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_exploitability.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_exploitability",
+        "entity_type": "DesignLens",
         "title": "Exploitability Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on exploitability without inventing facts or relying on unsupported source claims.",
@@ -54977,6 +55168,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_meaningful-decisions.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_meaningful-decisions",
+        "entity_type": "DesignLens",
         "title": "Meaningful Decisions Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on meaningful decisions without inventing facts or relying on unsupported source claims.",
@@ -55174,6 +55366,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_rule-clarity.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_rule-clarity",
+        "entity_type": "DesignLens",
         "title": "Rule Clarity Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on rule clarity without inventing facts or relying on unsupported source claims.",
@@ -55371,6 +55564,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_skill-chance-mix.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_skill-chance-mix",
+        "entity_type": "DesignLens",
         "title": "Skill/Chance Mix Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on skill/chance mix without inventing facts or relying on unsupported source claims.",
@@ -55568,6 +55762,7 @@
       "source_path": "kb/06_lenses/cards/lens_mechanics-and-rules_tradeoffs.md",
       "raw": {
         "lens_id": "lens_mechanics-and-rules_tradeoffs",
+        "entity_type": "DesignLens",
         "title": "Tradeoffs Lens",
         "family": "Mechanics and Rules Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on tradeoffs without inventing facts or relying on unsupported source claims.",
@@ -55765,6 +55960,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_avatar-identity.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_avatar-identity",
+        "entity_type": "DesignLens",
         "title": "Avatar Identity Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on avatar identity without inventing facts or relying on unsupported source claims.",
@@ -55962,6 +56158,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_character-function.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_character-function",
+        "entity_type": "DesignLens",
         "title": "Character Function Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on character function without inventing facts or relying on unsupported source claims.",
@@ -56159,6 +56356,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_dramatic-pacing.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_dramatic-pacing",
+        "entity_type": "DesignLens",
         "title": "Dramatic Pacing Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on dramatic pacing without inventing facts or relying on unsupported source claims.",
@@ -56355,6 +56553,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_environmental-storytelling.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_environmental-storytelling",
+        "entity_type": "DesignLens",
         "title": "Environmental Storytelling Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on environmental storytelling without inventing facts or relying on unsupported source claims.",
@@ -56551,6 +56750,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_narrative-agency.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_narrative-agency",
+        "entity_type": "DesignLens",
         "title": "Narrative Agency Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on narrative agency without inventing facts or relying on unsupported source claims.",
@@ -56748,6 +56948,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_player-role.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_player-role",
+        "entity_type": "DesignLens",
         "title": "Player Role Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on player role without inventing facts or relying on unsupported source claims.",
@@ -56945,6 +57146,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_story-function.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_story-function",
+        "entity_type": "DesignLens",
         "title": "Story Function Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on story function without inventing facts or relying on unsupported source claims.",
@@ -57142,6 +57344,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_thematic-resonance.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_thematic-resonance",
+        "entity_type": "DesignLens",
         "title": "Thematic Resonance Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on thematic resonance without inventing facts or relying on unsupported source claims.",
@@ -57338,6 +57541,7 @@
       "source_path": "kb/06_lenses/cards/lens_narrative-world-character_world-coherence.md",
       "raw": {
         "lens_id": "lens_narrative-world-character_world-coherence",
+        "entity_type": "DesignLens",
         "title": "World Coherence Lens",
         "family": "Narrative / World / Character Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on world coherence without inventing facts or relying on unsupported source claims.",
@@ -57533,6 +57737,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_appropriation.md",
       "raw": {
         "lens_id": "lens_play-theory_appropriation",
+        "entity_type": "DesignLens",
         "title": "Appropriation Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on appropriation without inventing facts or relying on unsupported source claims.",
@@ -57727,6 +57932,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_disruption.md",
       "raw": {
         "lens_id": "lens_play-theory_disruption",
+        "entity_type": "DesignLens",
         "title": "Disruption Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on disruption without inventing facts or relying on unsupported source claims.",
@@ -57921,6 +58127,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_play-context.md",
       "raw": {
         "lens_id": "lens_play-theory_play-context",
+        "entity_type": "DesignLens",
         "title": "Play Context Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on play context without inventing facts or relying on unsupported source claims.",
@@ -58115,6 +58322,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_player-created-meaning.md",
       "raw": {
         "lens_id": "lens_play-theory_player-created-meaning",
+        "entity_type": "DesignLens",
         "title": "Player-Created Meaning Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on player-created meaning without inventing facts or relying on unsupported source claims.",
@@ -58309,6 +58517,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_playfulness.md",
       "raw": {
         "lens_id": "lens_play-theory_playfulness",
+        "entity_type": "DesignLens",
         "title": "Playfulness Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on playfulness without inventing facts or relying on unsupported source claims.",
@@ -58504,6 +58713,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_rules-as-constraints.md",
       "raw": {
         "lens_id": "lens_play-theory_rules-as-constraints",
+        "entity_type": "DesignLens",
         "title": "Rules As Constraints Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on rules as constraints without inventing facts or relying on unsupported source claims.",
@@ -58700,6 +58910,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_safety-and-risk.md",
       "raw": {
         "lens_id": "lens_play-theory_safety-and-risk",
+        "entity_type": "DesignLens",
         "title": "Safety And Risk Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on safety and risk without inventing facts or relying on unsupported source claims.",
@@ -58895,6 +59106,7 @@
       "source_path": "kb/06_lenses/cards/lens_play-theory_voluntary-engagement.md",
       "raw": {
         "lens_id": "lens_play-theory_voluntary-engagement",
+        "entity_type": "DesignLens",
         "title": "Voluntary Engagement Lens",
         "family": "Play Theory Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on voluntary engagement without inventing facts or relying on unsupported source claims.",
@@ -59088,6 +59300,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_accessibility.md",
       "raw": {
         "lens_id": "lens_player-experience_accessibility",
+        "entity_type": "DesignLens",
         "title": "Accessibility Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on accessibility without inventing facts or relying on unsupported source claims.",
@@ -59281,6 +59494,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_agency.md",
       "raw": {
         "lens_id": "lens_player-experience_agency",
+        "entity_type": "DesignLens",
         "title": "Agency Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on agency without inventing facts or relying on unsupported source claims.",
@@ -59476,6 +59690,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_challenge.md",
       "raw": {
         "lens_id": "lens_player-experience_challenge",
+        "entity_type": "DesignLens",
         "title": "Challenge Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on challenge without inventing facts or relying on unsupported source claims.",
@@ -59670,6 +59885,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_curiosity.md",
       "raw": {
         "lens_id": "lens_player-experience_curiosity",
+        "entity_type": "DesignLens",
         "title": "Curiosity Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on curiosity without inventing facts or relying on unsupported source claims.",
@@ -59862,6 +60078,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_flow.md",
       "raw": {
         "lens_id": "lens_player-experience_flow",
+        "entity_type": "DesignLens",
         "title": "Flow Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on flow without inventing facts or relying on unsupported source claims.",
@@ -60055,6 +60272,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_mastery.md",
       "raw": {
         "lens_id": "lens_player-experience_mastery",
+        "entity_type": "DesignLens",
         "title": "Mastery Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on mastery without inventing facts or relying on unsupported source claims.",
@@ -60250,6 +60468,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_motivation.md",
       "raw": {
         "lens_id": "lens_player-experience_motivation",
+        "entity_type": "DesignLens",
         "title": "Motivation Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on motivation without inventing facts or relying on unsupported source claims.",
@@ -60444,6 +60663,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_onboarding.md",
       "raw": {
         "lens_id": "lens_player-experience_onboarding",
+        "entity_type": "DesignLens",
         "title": "Onboarding Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on onboarding without inventing facts or relying on unsupported source claims.",
@@ -60636,6 +60856,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_pleasure-variety.md",
       "raw": {
         "lens_id": "lens_player-experience_pleasure-variety",
+        "entity_type": "DesignLens",
         "title": "Pleasure Variety Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on pleasure variety without inventing facts or relying on unsupported source claims.",
@@ -60828,6 +61049,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_tension-curve.md",
       "raw": {
         "lens_id": "lens_player-experience_tension-curve",
+        "entity_type": "DesignLens",
         "title": "Tension Curve Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on tension curve without inventing facts or relying on unsupported source claims.",
@@ -61021,6 +61243,7 @@
       "source_path": "kb/06_lenses/cards/lens_player-experience_uncertainty.md",
       "raw": {
         "lens_id": "lens_player-experience_uncertainty",
+        "entity_type": "DesignLens",
         "title": "Uncertainty Lens",
         "family": "Player Experience Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on uncertainty without inventing facts or relying on unsupported source claims.",
@@ -61216,6 +61439,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_business-alignment.md",
       "raw": {
         "lens_id": "lens_production-release-community_business-alignment",
+        "entity_type": "DesignLens",
         "title": "Business Alignment Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on business alignment without inventing facts or relying on unsupported source claims.",
@@ -61411,6 +61635,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_community-health.md",
       "raw": {
         "lens_id": "lens_production-release-community_community-health",
+        "entity_type": "DesignLens",
         "title": "Community Health Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on community health without inventing facts or relying on unsupported source claims.",
@@ -61605,6 +61830,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_documentation.md",
       "raw": {
         "lens_id": "lens_production-release-community_documentation",
+        "entity_type": "DesignLens",
         "title": "Documentation Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on documentation without inventing facts or relying on unsupported source claims.",
@@ -61798,6 +62024,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_griefing-risk.md",
       "raw": {
         "lens_id": "lens_production-release-community_griefing-risk",
+        "entity_type": "DesignLens",
         "title": "Griefing Risk Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on griefing risk without inventing facts or relying on unsupported source claims.",
@@ -61993,6 +62220,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_launch-readiness.md",
       "raw": {
         "lens_id": "lens_production-release-community_launch-readiness",
+        "entity_type": "DesignLens",
         "title": "Launch Readiness Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on launch readiness without inventing facts or relying on unsupported source claims.",
@@ -62188,6 +62416,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_responsibility.md",
       "raw": {
         "lens_id": "lens_production-release-community_responsibility",
+        "entity_type": "DesignLens",
         "title": "Responsibility Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on responsibility without inventing facts or relying on unsupported source claims.",
@@ -62383,6 +62612,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_retention.md",
       "raw": {
         "lens_id": "lens_production-release-community_retention",
+        "entity_type": "DesignLens",
         "title": "Retention Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on retention without inventing facts or relying on unsupported source claims.",
@@ -62577,6 +62807,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_team-communication.md",
       "raw": {
         "lens_id": "lens_production-release-community_team-communication",
+        "entity_type": "DesignLens",
         "title": "Team Communication Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on team communication without inventing facts or relying on unsupported source claims.",
@@ -62770,6 +63001,7 @@
       "source_path": "kb/06_lenses/cards/lens_production-release-community_update-loop.md",
       "raw": {
         "lens_id": "lens_production-release-community_update-loop",
+        "entity_type": "DesignLens",
         "title": "Update Loop Lens",
         "family": "Production / Release / Community Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on update loop without inventing facts or relying on unsupported source claims.",
@@ -62963,6 +63195,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_audience.md",
       "raw": {
         "lens_id": "lens_project-direction_audience",
+        "entity_type": "DesignLens",
         "title": "Audience Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on audience without inventing facts or relying on unsupported source claims.",
@@ -63154,6 +63387,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_core-experience.md",
       "raw": {
         "lens_id": "lens_project-direction_core-experience",
+        "entity_type": "DesignLens",
         "title": "Core Experience Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on core experience without inventing facts or relying on unsupported source claims.",
@@ -63346,6 +63580,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_emotional-goal.md",
       "raw": {
         "lens_id": "lens_project-direction_emotional-goal",
+        "entity_type": "DesignLens",
         "title": "Emotional Goal Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on emotional goal without inventing facts or relying on unsupported source claims.",
@@ -63537,6 +63772,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_ethical-risk.md",
       "raw": {
         "lens_id": "lens_project-direction_ethical-risk",
+        "entity_type": "DesignLens",
         "title": "Ethical Risk Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on ethical risk without inventing facts or relying on unsupported source claims.",
@@ -63730,6 +63966,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_feasibility.md",
       "raw": {
         "lens_id": "lens_project-direction_feasibility",
+        "entity_type": "DesignLens",
         "title": "Feasibility Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on feasibility without inventing facts or relying on unsupported source claims.",
@@ -63923,6 +64160,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_market-position.md",
       "raw": {
         "lens_id": "lens_project-direction_market-position",
+        "entity_type": "DesignLens",
         "title": "Market Position Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on market position without inventing facts or relying on unsupported source claims.",
@@ -64115,6 +64353,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_novelty.md",
       "raw": {
         "lens_id": "lens_project-direction_novelty",
+        "entity_type": "DesignLens",
         "title": "Novelty Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on novelty without inventing facts or relying on unsupported source claims.",
@@ -64306,6 +64545,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_player-fantasy.md",
       "raw": {
         "lens_id": "lens_project-direction_player-fantasy",
+        "entity_type": "DesignLens",
         "title": "Player Fantasy Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on player fantasy without inventing facts or relying on unsupported source claims.",
@@ -64498,6 +64738,7 @@
       "source_path": "kb/06_lenses/cards/lens_project-direction_scope.md",
       "raw": {
         "lens_id": "lens_project-direction_scope",
+        "entity_type": "DesignLens",
         "title": "Scope Lens",
         "family": "Project Direction Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on scope without inventing facts or relying on unsupported source claims.",
@@ -64691,6 +64932,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_disposable-prototype.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_disposable-prototype",
+        "entity_type": "DesignLens",
         "title": "Disposable Prototype Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on disposable prototype without inventing facts or relying on unsupported source claims.",
@@ -64888,6 +65130,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_iteration-decision.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_iteration-decision",
+        "entity_type": "DesignLens",
         "title": "Iteration Decision Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on iteration decision without inventing facts or relying on unsupported source claims.",
@@ -65085,6 +65328,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_learning-speed.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_learning-speed",
+        "entity_type": "DesignLens",
         "title": "Learning Speed Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on learning speed without inventing facts or relying on unsupported source claims.",
@@ -65282,6 +65526,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_observation-quality.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_observation-quality",
+        "entity_type": "DesignLens",
         "title": "Observation Quality Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on observation quality without inventing facts or relying on unsupported source claims.",
@@ -65479,6 +65724,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_playtest-signal.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_playtest-signal",
+        "entity_type": "DesignLens",
         "title": "Playtest Signal Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on playtest signal without inventing facts or relying on unsupported source claims.",
@@ -65676,6 +65922,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_prototype-question.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_prototype-question",
+        "entity_type": "DesignLens",
         "title": "Prototype Question Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on prototype question without inventing facts or relying on unsupported source claims.",
@@ -65873,6 +66120,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_survey-usefulness.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_survey-usefulness",
+        "entity_type": "DesignLens",
         "title": "Survey Usefulness Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on survey usefulness without inventing facts or relying on unsupported source claims.",
@@ -66070,6 +66318,7 @@
       "source_path": "kb/06_lenses/cards/lens_prototype-and-playtest_test-bias.md",
       "raw": {
         "lens_id": "lens_prototype-and-playtest_test-bias",
+        "entity_type": "DesignLens",
         "title": "Test Bias Lens",
         "family": "Prototype and Playtest Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on test bias without inventing facts or relying on unsupported source claims.",
@@ -66266,6 +66515,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_balance-resilience.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_balance-resilience",
+        "entity_type": "DesignLens",
         "title": "Balance Resilience Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on balance resilience without inventing facts or relying on unsupported source claims.",
@@ -66461,6 +66711,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_economy-readability.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_economy-readability",
+        "entity_type": "DesignLens",
         "title": "Economy Readability Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on economy readability without inventing facts or relying on unsupported source claims.",
@@ -66657,6 +66908,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_feedback-loops.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_feedback-loops",
+        "entity_type": "DesignLens",
         "title": "Feedback Loops Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on feedback loops without inventing facts or relying on unsupported source claims.",
@@ -66854,6 +67106,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_parts-loops-whole.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_parts-loops-whole",
+        "entity_type": "DesignLens",
         "title": "Parts/Loops/Whole Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on parts/loops/whole without inventing facts or relying on unsupported source claims.",
@@ -67049,6 +67302,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_power-curve.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_power-curve",
+        "entity_type": "DesignLens",
         "title": "Power Curve Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on power curve without inventing facts or relying on unsupported source claims.",
@@ -67241,6 +67495,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_progression-curve.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_progression-curve",
+        "entity_type": "DesignLens",
         "title": "Progression Curve Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on progression curve without inventing facts or relying on unsupported source claims.",
@@ -67434,6 +67689,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_runaway-loops.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_runaway-loops",
+        "entity_type": "DesignLens",
         "title": "Runaway Loops Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on runaway loops without inventing facts or relying on unsupported source claims.",
@@ -67629,6 +67885,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_source-sink-balance.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_source-sink-balance",
+        "entity_type": "DesignLens",
         "title": "Source/Sink Balance Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on source/sink balance without inventing facts or relying on unsupported source claims.",
@@ -67824,6 +68081,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_stagnation.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_stagnation",
+        "entity_type": "DesignLens",
         "title": "Stagnation Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on stagnation without inventing facts or relying on unsupported source claims.",
@@ -68019,6 +68277,7 @@
       "source_path": "kb/06_lenses/cards/lens_systems-and-economy_systemic-coupling.md",
       "raw": {
         "lens_id": "lens_systems-and-economy_systemic-coupling",
+        "entity_type": "DesignLens",
         "title": "Systemic Coupling Lens",
         "family": "Systems and Economy Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on systemic coupling without inventing facts or relying on unsupported source claims.",
@@ -68214,6 +68473,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_accessibility.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_accessibility",
+        "entity_type": "DesignLens",
         "title": "Accessibility Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on accessibility without inventing facts or relying on unsupported source claims.",
@@ -68406,6 +68666,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_affordance.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_affordance",
+        "entity_type": "DesignLens",
         "title": "Affordance Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on affordance without inventing facts or relying on unsupported source claims.",
@@ -68598,6 +68859,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_cognitive-load.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_cognitive-load",
+        "entity_type": "DesignLens",
         "title": "Cognitive Load Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on cognitive load without inventing facts or relying on unsupported source claims.",
@@ -68790,6 +69052,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_error-recovery.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_error-recovery",
+        "entity_type": "DesignLens",
         "title": "Error Recovery Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on error recovery without inventing facts or relying on unsupported source claims.",
@@ -68983,6 +69246,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_feedback-immediacy.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_feedback-immediacy",
+        "entity_type": "DesignLens",
         "title": "Feedback Immediacy Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on feedback immediacy without inventing facts or relying on unsupported source claims.",
@@ -69177,6 +69441,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_information-priority.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_information-priority",
+        "entity_type": "DesignLens",
         "title": "Information Priority Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on information priority without inventing facts or relying on unsupported source claims.",
@@ -69370,6 +69635,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_input-mapping.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_input-mapping",
+        "entity_type": "DesignLens",
         "title": "Input Mapping Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on input mapping without inventing facts or relying on unsupported source claims.",
@@ -69564,6 +69830,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_mode-clarity.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_mode-clarity",
+        "entity_type": "DesignLens",
         "title": "Mode Clarity Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on mode clarity without inventing facts or relying on unsupported source claims.",
@@ -69756,6 +70023,7 @@
       "source_path": "kb/06_lenses/cards/lens_ui-ux-feedback_visibility.md",
       "raw": {
         "lens_id": "lens_ui-ux-feedback_visibility",
+        "entity_type": "DesignLens",
         "title": "Visibility Lens",
         "family": "UI / UX / Feedback Lenses",
         "one_sentence_purpose": "Diagnose whether the design artifact has a clear, testable position on visibility without inventing facts or relying on unsupported source claims.",
@@ -69959,6 +70227,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_01_what-a-game-designer-actually-decides.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_01_what-a-game-designer-actually-decides",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 1,
@@ -70203,6 +70472,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_02_player-centric-design.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_02_player-centric-design",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 2,
@@ -70449,6 +70719,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_03_games-as-experiences.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_03_games-as-experiences",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 3,
@@ -70695,6 +70966,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_04_games-as-systems-of-rules.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_04_games-as-systems-of-rules",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 4,
@@ -70941,6 +71213,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_05_meaningful-decisions.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_05_meaningful-decisions",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 5,
@@ -71187,6 +71460,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_06_challenge-skill-chance-and-uncertainty.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_06_challenge-skill-chance-and-uncertainty",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 6,
@@ -71433,6 +71707,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_07_play-as-context-and-constraint.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_07_play-as-context-and-constraint",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 7,
@@ -71678,6 +71953,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_01_foundations_08_the-difference-between-ideas-and-designs.md",
       "raw": {
         "lesson_id": "lesson_01_foundations_08_the-difference-between-ideas-and-designs",
+        "entity_type": "Lesson",
         "track_id": "track_01_foundations",
         "track_title": "Track 1 - Foundations of Game Design",
         "lesson_number": 8,
@@ -71921,6 +72197,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_01_play-playfulness-and-context.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_01_play-playfulness-and-context",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 1,
@@ -72165,6 +72442,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_02_pleasure-fun-learning-and-mastery.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_02_pleasure-fun-learning-and-mastery",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 2,
@@ -72411,6 +72689,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_03_motivation-and-player-desire.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_03_motivation-and-player-desire",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 3,
@@ -72657,6 +72936,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_04_flow-and-challenge-curves.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_04_flow-and-challenge-curves",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 4,
@@ -72903,6 +73183,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_05_player-types-and-play-styles.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_05_player-types-and-play-styles",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 5,
@@ -73149,6 +73430,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_06_player-agency-and-identity.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_06_player-agency-and-identity",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 6,
@@ -73394,6 +73676,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_02_play_player_experience_07_safety-disruption-dark-play-and-ethics.md",
       "raw": {
         "lesson_id": "lesson_02_play_player_experience_07_safety-disruption-dark-play-and-ethics",
+        "entity_type": "Lesson",
         "track_id": "track_02_play_player_experience",
         "track_title": "Track 2 - Play and Player Experience",
         "lesson_number": 7,
@@ -73637,6 +73920,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_01_formal-elements.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_01_formal-elements",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 1,
@@ -73881,6 +74165,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_02_objectives-and-procedures.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_02_objectives-and-procedures",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 2,
@@ -74127,6 +74412,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_03_resources-conflict-boundaries-and-outcomes.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_03_resources-conflict-boundaries-and-outcomes",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 3,
@@ -74373,6 +74659,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_04_mechanics-dynamics-and-experience.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_04_mechanics-dynamics-and-experience",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 4,
@@ -74619,6 +74906,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_05_tradeoffs-and-dilemmas.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_05_tradeoffs-and-dilemmas",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 5,
@@ -74865,6 +75153,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_06_strategic-skill.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_06_strategic-skill",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 6,
@@ -75111,6 +75400,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_07_twitch-skill.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_07_twitch-skill",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 7,
@@ -75357,6 +75647,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_08_chance-and-probability.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_08_chance-and-probability",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 8,
@@ -75602,6 +75893,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_03_mechanics_rules_formal_systems_09_balance-fundamentals.md",
       "raw": {
         "lesson_id": "lesson_03_mechanics_rules_formal_systems_09_balance-fundamentals",
+        "entity_type": "Lesson",
         "track_id": "track_03_mechanics_rules_formal_systems",
         "track_title": "Track 3 - Mechanics, Rules, and Formal Systems",
         "lesson_number": 9,
@@ -75845,6 +76137,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_01_games-as-systems.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_01_games-as-systems",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 1,
@@ -76089,6 +76382,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_02_parts-loops-and-wholes.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_02_parts-loops-and-wholes",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 2,
@@ -76335,6 +76629,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_03_game-plus-player-system.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_03_game-plus-player-system",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 3,
@@ -76581,6 +76876,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_04_feedback-loops.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_04_feedback-loops",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 4,
@@ -76827,6 +77123,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_05_progression-and-power-curves.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_05_progression-and-power-curves",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 5,
@@ -77073,6 +77370,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_06_economy-sources-and-sinks.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_06_economy-sources-and-sinks",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 6,
@@ -77319,6 +77617,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_07_transitive-and-intransitive-balance.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_07_transitive-and-intransitive-balance",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 7,
@@ -77565,6 +77864,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_08_emergence-and-systemic-risk.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_08_emergence-and-systemic-risk",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 8,
@@ -77810,6 +78110,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_04_systems_economy_09_system-documentation.md",
       "raw": {
         "lesson_id": "lesson_04_systems_economy_09_system-documentation",
+        "entity_type": "Lesson",
         "track_id": "track_04_systems_economy",
         "track_title": "Track 4 - Systems and Economy",
         "lesson_number": 9,
@@ -78054,6 +78355,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_01_what-game-feel-is.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_01_what-game-feel-is",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 1,
@@ -78300,6 +78602,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_02_real-time-control.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_02_real-time-control",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 2,
@@ -78548,6 +78851,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_03_simulated-space.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_03_simulated-space",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 3,
@@ -78796,6 +79100,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_04_polish-and-perceptual-conviction.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_04_polish-and-perceptual-conviction",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 4,
@@ -79044,6 +79349,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_05_input-metrics.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_05_input-metrics",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 5,
@@ -79292,6 +79598,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_06_response-metrics.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_06_response-metrics",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 6,
@@ -79540,6 +79847,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_07_context-metrics.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_07_context-metrics",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 7,
@@ -79788,6 +80096,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_08_polish-metrics.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_08_polish-metrics",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 8,
@@ -80036,6 +80345,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_09_tuning-tightness-floatiness-and-responsiveness.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_09_tuning-tightness-floatiness-and-responsiveness",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 9,
@@ -80283,6 +80593,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_05_game_feel_interaction_10_game-feel-prototype-lab.md",
       "raw": {
         "lesson_id": "lesson_05_game_feel_interaction_10_game-feel-prototype-lab",
+        "entity_type": "Lesson",
         "track_id": "track_05_game_feel_interaction",
         "track_title": "Track 5 - Game Feel and Interaction",
         "lesson_number": 10,
@@ -80527,6 +80838,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_01_interface-as-player-contact.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_01_interface-as-player-contact",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 1,
@@ -80771,6 +81083,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_02_information-priority.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_02_information-priority",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 2,
@@ -81017,6 +81330,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_03_input-mapping.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_03_input-mapping",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 3,
@@ -81263,6 +81577,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_04_feedback-timing.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_04_feedback-timing",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 4,
@@ -81509,6 +81824,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_05_affordance-and-readability.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_05_affordance-and-readability",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 5,
@@ -81755,6 +82071,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_06_modes-and-errors.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_06_modes-and-errors",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 6,
@@ -82001,6 +82318,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_07_accessibility.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_07_accessibility",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 7,
@@ -82246,6 +82564,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_06_ui_ux_feedback_08_ui-playtest-methods.md",
       "raw": {
         "lesson_id": "lesson_06_ui_ux_feedback_08_ui-playtest-methods",
+        "entity_type": "Lesson",
         "track_id": "track_06_ui_ux_feedback",
         "track_title": "Track 6 - UI / UX / Feedback",
         "lesson_number": 8,
@@ -82490,6 +82809,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_01_story-versus-game-structure.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_01_story-versus-game-structure",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 1,
@@ -82736,6 +83056,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_02_premise-and-dramatic-arc.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_02_premise-and-dramatic-arc",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 2,
@@ -82984,6 +83305,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_03_narrative-agency.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_03_narrative-agency",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 3,
@@ -83232,6 +83554,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_04_environmental-storytelling.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_04_environmental-storytelling",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 4,
@@ -83480,6 +83803,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_05_worldbuilding.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_05_worldbuilding",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 5,
@@ -83728,6 +84052,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_06_avatar-and-player-identity.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_06_avatar-and-player-identity",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 6,
@@ -83976,6 +84301,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_07_character-function.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_07_character-function",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 7,
@@ -84223,6 +84549,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_07_narrative_world_character_08_emergent-narrative.md",
       "raw": {
         "lesson_id": "lesson_07_narrative_world_character_08_emergent-narrative",
+        "entity_type": "Lesson",
         "track_id": "track_07_narrative_world_character",
         "track_title": "Track 7 - Narrative, World, and Character",
         "lesson_number": 8,
@@ -84468,6 +84795,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_01_experience-goals.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_01_experience-goals",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 1,
@@ -84714,6 +85042,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_02_prototype-questions.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_02_prototype-questions",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 2,
@@ -84962,6 +85291,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_03_paper-prototypes.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_03_paper-prototypes",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 3,
@@ -85210,6 +85540,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_04_digital-prototypes.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_04_digital-prototypes",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 4,
@@ -85458,6 +85789,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_05_kinesthetic-prototypes.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_05_kinesthetic-prototypes",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 5,
@@ -85706,6 +86038,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_06_playtest-planning.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_06_playtest-planning",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 6,
@@ -85954,6 +86287,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_07_observation-and-interview.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_07_observation-and-interview",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 7,
@@ -86202,6 +86536,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_08_interpreting-feedback.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_08_interpreting-feedback",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 8,
@@ -86449,6 +86784,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_08_prototyping_playtesting_iteration_09_iteration-decisions.md",
       "raw": {
         "lesson_id": "lesson_08_prototyping_playtesting_iteration_09_iteration-decisions",
+        "entity_type": "Lesson",
         "track_id": "track_08_prototyping_playtesting_iteration",
         "track_title": "Track 8 - Prototyping, Playtesting, and Iteration",
         "lesson_number": 9,
@@ -86694,6 +87030,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_01_design-documentation.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_01_design-documentation",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 1,
@@ -86940,6 +87277,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_02_team-communication.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_02_team-communication",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 2,
@@ -87188,6 +87526,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_03_pitching-a-game.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_03_pitching-a-game",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 3,
@@ -87436,6 +87775,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_04_scope-and-feasibility.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_04_scope-and-feasibility",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 4,
@@ -87684,6 +88024,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_05_community-design.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_05_community-design",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 5,
@@ -87932,6 +88273,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_06_griefing-and-moderation.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_06_griefing-and-moderation",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 6,
@@ -88180,6 +88522,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_07_business-model-awareness.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_07_business-model-awareness",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 7,
@@ -88427,6 +88770,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_09_production_team_community_release_08_release-readiness.md",
       "raw": {
         "lesson_id": "lesson_09_production_team_community_release_08_release-readiness",
+        "entity_type": "Lesson",
         "track_id": "track_09_production_team_community_release",
         "track_title": "Track 9 - Production, Team, Community, and Release",
         "lesson_number": 8,
@@ -88677,6 +89021,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_01_design-lens-reviews.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_01_design-lens-reviews",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 1,
@@ -88933,6 +89278,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_02_systemic-design-audit.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_02_systemic-design-audit",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 2,
@@ -89191,6 +89537,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_03_game-feel-audit.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_03_game-feel-audit",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 3,
@@ -89449,6 +89796,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_04_economy-balance-audit.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_04_economy-balance-audit",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 4,
@@ -89707,6 +90055,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_05_narrative-mechanic-integration.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_05_narrative-mechanic-integration",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 5,
@@ -89965,6 +90314,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_06_ethical-design-review.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_06_ethical-design-review",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 6,
@@ -90223,6 +90573,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_07_project-overlay-workshop.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_07_project-overlay-workshop",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 7,
@@ -90480,6 +90831,7 @@
       "source_path": "kb/07_lessons/lesson_cards/lesson_10_advanced_design_studio_08_capstone-design-review.md",
       "raw": {
         "lesson_id": "lesson_10_advanced_design_studio_08_capstone-design-review",
+        "entity_type": "Lesson",
         "track_id": "track_10_advanced_design_studio",
         "track_title": "Track 10 - Advanced Design Studio",
         "lesson_number": 8,
@@ -90729,6 +91081,7 @@
       "source_path": "kb/08_workflows/packs/workflow_core-experience-definition.md",
       "raw": {
         "workflow_id": "workflow_core-experience-definition",
+        "entity_type": "WorkflowPack",
         "title": "Core Experience Definition Pack",
         "purpose": "Defines player fantasy, emotional target, and experience goals.",
         "phase_groups": [
@@ -90988,6 +91341,7 @@
       "source_path": "kb/08_workflows/packs/workflow_core-loop-design.md",
       "raw": {
         "workflow_id": "workflow_core-loop-design",
+        "entity_type": "WorkflowPack",
         "title": "Core Loop Design Pack",
         "purpose": "Defines actions, feedback, rewards, friction, and repetition.",
         "phase_groups": [
@@ -91249,6 +91603,7 @@
       "source_path": "kb/08_workflows/packs/workflow_design-lens-review.md",
       "raw": {
         "workflow_id": "workflow_design-lens-review",
+        "entity_type": "WorkflowPack",
         "title": "Design Lens Review Pack",
         "purpose": "Runs multiple lenses on a project artifact.",
         "phase_groups": [
@@ -91511,6 +91866,7 @@
       "source_path": "kb/08_workflows/packs/workflow_digital-prototype.md",
       "raw": {
         "workflow_id": "workflow_digital-prototype",
+        "entity_type": "WorkflowPack",
         "title": "Digital Prototype Pack",
         "purpose": "Plans rapid digital implementation.",
         "phase_groups": [
@@ -91775,6 +92131,7 @@
       "source_path": "kb/08_workflows/packs/workflow_economy-and-balance.md",
       "raw": {
         "workflow_id": "workflow_economy-and-balance",
+        "entity_type": "WorkflowPack",
         "title": "Economy and Balance Pack",
         "purpose": "Designs sources, sinks, currencies, progression, and balance risks.",
         "phase_groups": [
@@ -92042,6 +92399,7 @@
       "source_path": "kb/08_workflows/packs/workflow_game-feel-prototype.md",
       "raw": {
         "workflow_id": "workflow_game-feel-prototype",
+        "entity_type": "WorkflowPack",
         "title": "Game Feel Prototype Pack",
         "purpose": "Designs input, response, context, polish, and tuning experiments.",
         "phase_groups": [
@@ -92304,6 +92662,7 @@
       "source_path": "kb/08_workflows/packs/workflow_game-idea-to-one-page-concept.md",
       "raw": {
         "workflow_id": "workflow_game-idea-to-one-page-concept",
+        "entity_type": "WorkflowPack",
         "title": "Game Idea to One-Page Concept Pack",
         "purpose": "Transforms a vague idea into a one-page concept.",
         "phase_groups": [
@@ -92562,6 +92921,7 @@
       "source_path": "kb/08_workflows/packs/workflow_iteration-decision.md",
       "raw": {
         "workflow_id": "workflow_iteration-decision",
+        "entity_type": "WorkflowPack",
         "title": "Iteration Decision Pack",
         "purpose": "Turns playtest findings into design changes.",
         "phase_groups": [
@@ -92821,6 +93181,7 @@
       "source_path": "kb/08_workflows/packs/workflow_meaningful-decision-audit.md",
       "raw": {
         "workflow_id": "workflow_meaningful-decision-audit",
+        "entity_type": "WorkflowPack",
         "title": "Meaningful Decision Audit Pack",
         "purpose": "Checks whether choices actually matter.",
         "phase_groups": [
@@ -93081,6 +93442,7 @@
       "source_path": "kb/08_workflows/packs/workflow_narrative-mechanic-alignment.md",
       "raw": {
         "workflow_id": "workflow_narrative-mechanic-alignment",
+        "entity_type": "WorkflowPack",
         "title": "Narrative-Mechanic Alignment Pack",
         "purpose": "Checks whether story and mechanics support each other.",
         "phase_groups": [
@@ -93342,6 +93704,7 @@
       "source_path": "kb/08_workflows/packs/workflow_paper-prototype.md",
       "raw": {
         "workflow_id": "workflow_paper-prototype",
+        "entity_type": "WorkflowPack",
         "title": "Paper Prototype Pack",
         "purpose": "Converts systems into testable non-digital prototypes.",
         "phase_groups": [
@@ -93602,6 +93965,7 @@
       "source_path": "kb/08_workflows/packs/workflow_player-persona-and-audience.md",
       "raw": {
         "workflow_id": "workflow_player-persona-and-audience",
+        "entity_type": "WorkflowPack",
         "title": "Player Persona and Audience Pack",
         "purpose": "Defines target players, skill levels, motivations, and access needs.",
         "phase_groups": [
@@ -93861,6 +94225,7 @@
       "source_path": "kb/08_workflows/packs/workflow_playtest-plan.md",
       "raw": {
         "workflow_id": "workflow_playtest-plan",
+        "entity_type": "WorkflowPack",
         "title": "Playtest Plan Pack",
         "purpose": "Defines who, where, what, how, data, observation, and interview.",
         "phase_groups": [
@@ -94122,6 +94487,7 @@
       "source_path": "kb/08_workflows/packs/workflow_prototype-question.md",
       "raw": {
         "workflow_id": "workflow_prototype-question",
+        "entity_type": "WorkflowPack",
         "title": "Prototype Question Pack",
         "purpose": "Forces every prototype to answer one clear design question.",
         "phase_groups": [
@@ -94384,6 +94750,7 @@
       "source_path": "kb/08_workflows/packs/workflow_release-readiness-risk-audit.md",
       "raw": {
         "workflow_id": "workflow_release-readiness-risk-audit",
+        "entity_type": "WorkflowPack",
         "title": "Release Readiness and Risk Audit Pack",
         "purpose": "Checks design, UX, production, community, ethics, and launch risks.",
         "phase_groups": [
@@ -94647,6 +95014,7 @@
       "source_path": "kb/08_workflows/packs/workflow_rules-and-formal-elements.md",
       "raw": {
         "workflow_id": "workflow_rules-and-formal-elements",
+        "entity_type": "WorkflowPack",
         "title": "Rules and Formal Elements Pack",
         "purpose": "Turns gameplay into formal elements: players, objectives, procedures, rules, resources, conflict, boundaries, outcome.",
         "phase_groups": [
@@ -94912,6 +95280,7 @@
       "source_path": "kb/08_workflows/packs/workflow_skill-chance-challenge.md",
       "raw": {
         "workflow_id": "workflow_skill-chance-challenge",
+        "entity_type": "WorkflowPack",
         "title": "Skill / Chance / Challenge Pack",
         "purpose": "Tunes skill, randomness, risk, and difficulty.",
         "phase_groups": [
@@ -95177,6 +95546,7 @@
       "source_path": "kb/08_workflows/packs/workflow_systems-map.md",
       "raw": {
         "workflow_id": "workflow_systems-map",
+        "entity_type": "WorkflowPack",
         "title": "Systems Map Pack",
         "purpose": "Maps parts, loops, wholes, feedback, and emergent risks.",
         "phase_groups": [
@@ -95440,6 +95810,7 @@
       "source_path": "kb/08_workflows/packs/workflow_ui-feedback.md",
       "raw": {
         "workflow_id": "workflow_ui-feedback",
+        "entity_type": "WorkflowPack",
         "title": "UI Feedback Pack",
         "purpose": "Audits information hierarchy, input mapping, feedback, affordance, and accessibility.",
         "phase_groups": [
@@ -95702,6 +96073,7 @@
       "source_path": "kb/08_workflows/packs/workflow_world-and-character-function.md",
       "raw": {
         "workflow_id": "workflow_world-and-character-function",
+        "entity_type": "WorkflowPack",
         "title": "World and Character Function Pack",
         "purpose": "Defines world logic, character roles, avatar identity, and player relation.",
         "phase_groups": [
@@ -95956,6 +96328,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ethics_community_01.md",
       "raw": {
         "exercise_id": "exercise_ethics_community_01",
+        "entity_type": "Exercise",
         "title": "Ethics / Community Exercise 01: invert a design assumption",
         "category": "ethics_community",
         "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -96113,6 +96486,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ethics_community_02.md",
       "raw": {
         "exercise_id": "exercise_ethics_community_02",
+        "entity_type": "Exercise",
         "title": "Ethics / Community Exercise 02: map a design assumption",
         "category": "ethics_community",
         "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -96270,6 +96644,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ethics_community_03.md",
       "raw": {
         "exercise_id": "exercise_ethics_community_03",
+        "entity_type": "Exercise",
         "title": "Ethics / Community Exercise 03: stress-test a design assumption",
         "category": "ethics_community",
         "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -96427,6 +96802,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ethics_community_04.md",
       "raw": {
         "exercise_id": "exercise_ethics_community_04",
+        "entity_type": "Exercise",
         "title": "Ethics / Community Exercise 04: compare a design assumption",
         "category": "ethics_community",
         "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -96584,6 +96960,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ethics_community_05.md",
       "raw": {
         "exercise_id": "exercise_ethics_community_05",
+        "entity_type": "Exercise",
         "title": "Ethics / Community Exercise 05: prototype a design assumption",
         "category": "ethics_community",
         "purpose": "Practice turning ethics / community knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -96742,6 +97119,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_01.md",
       "raw": {
         "exercise_id": "exercise_game_feel_01",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 01: invert a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -96901,6 +97279,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_02.md",
       "raw": {
         "exercise_id": "exercise_game_feel_02",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 02: map a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -97060,6 +97439,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_03.md",
       "raw": {
         "exercise_id": "exercise_game_feel_03",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 03: stress-test a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -97219,6 +97599,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_04.md",
       "raw": {
         "exercise_id": "exercise_game_feel_04",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 04: compare a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -97378,6 +97759,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_05.md",
       "raw": {
         "exercise_id": "exercise_game_feel_05",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 05: prototype a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -97537,6 +97919,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_06.md",
       "raw": {
         "exercise_id": "exercise_game_feel_06",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 06: audit a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -97696,6 +98079,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_07.md",
       "raw": {
         "exercise_id": "exercise_game_feel_07",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 07: rewrite a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -97855,6 +98239,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_08.md",
       "raw": {
         "exercise_id": "exercise_game_feel_08",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 08: observe a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98014,6 +98399,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_09.md",
       "raw": {
         "exercise_id": "exercise_game_feel_09",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 09: cut a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98173,6 +98559,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_game_feel_10.md",
       "raw": {
         "exercise_id": "exercise_game_feel_10",
+        "entity_type": "Exercise",
         "title": "Game Feel Exercise 10: compress a design assumption",
         "category": "game_feel",
         "purpose": "Practice turning game feel knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98330,6 +98717,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_01.md",
       "raw": {
         "exercise_id": "exercise_ideation_01",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 01: invert a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98485,6 +98873,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_02.md",
       "raw": {
         "exercise_id": "exercise_ideation_02",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 02: map a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98640,6 +99029,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_03.md",
       "raw": {
         "exercise_id": "exercise_ideation_03",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 03: stress-test a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98795,6 +99185,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_04.md",
       "raw": {
         "exercise_id": "exercise_ideation_04",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 04: compare a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -98950,6 +99341,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_05.md",
       "raw": {
         "exercise_id": "exercise_ideation_05",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 05: prototype a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -99105,6 +99497,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_06.md",
       "raw": {
         "exercise_id": "exercise_ideation_06",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 06: audit a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -99260,6 +99653,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_07.md",
       "raw": {
         "exercise_id": "exercise_ideation_07",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 07: rewrite a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -99415,6 +99809,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_08.md",
       "raw": {
         "exercise_id": "exercise_ideation_08",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 08: observe a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -99570,6 +99965,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_09.md",
       "raw": {
         "exercise_id": "exercise_ideation_09",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 09: cut a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -99725,6 +100121,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_10.md",
       "raw": {
         "exercise_id": "exercise_ideation_10",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 10: compress a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -99880,6 +100277,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_11.md",
       "raw": {
         "exercise_id": "exercise_ideation_11",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 11: invert a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100035,6 +100433,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_12.md",
       "raw": {
         "exercise_id": "exercise_ideation_12",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 12: map a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100190,6 +100589,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_13.md",
       "raw": {
         "exercise_id": "exercise_ideation_13",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 13: stress-test a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100345,6 +100745,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_14.md",
       "raw": {
         "exercise_id": "exercise_ideation_14",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 14: compare a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100500,6 +100901,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ideation_15.md",
       "raw": {
         "exercise_id": "exercise_ideation_15",
+        "entity_type": "Exercise",
         "title": "Ideation Exercise 15: prototype a design assumption",
         "category": "ideation",
         "purpose": "Practice turning ideation knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100656,6 +101058,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_01.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_01",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 01: invert a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100813,6 +101216,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_02.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_02",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 02: map a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -100970,6 +101374,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_03.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_03",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 03: stress-test a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -101127,6 +101532,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_04.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_04",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 04: compare a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -101284,6 +101690,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_05.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_05",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 05: prototype a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -101441,6 +101848,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_06.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_06",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 06: audit a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -101598,6 +102006,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_07.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_07",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 07: rewrite a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -101755,6 +102164,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_08.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_08",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 08: observe a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -101912,6 +102322,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_09.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_09",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 09: cut a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -102069,6 +102480,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_meaningful_decision_10.md",
       "raw": {
         "exercise_id": "exercise_meaningful_decision_10",
+        "entity_type": "Exercise",
         "title": "Meaningful Decision Exercise 10: compress a design assumption",
         "category": "meaningful_decision",
         "purpose": "Practice turning meaningful decision knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -102226,6 +102638,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_01.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_01",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 01: invert a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -102383,6 +102796,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_02.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_02",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 02: map a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -102540,6 +102954,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_03.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_03",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 03: stress-test a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -102697,6 +103112,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_04.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_04",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 04: compare a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -102854,6 +103270,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_05.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_05",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 05: prototype a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103011,6 +103428,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_06.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_06",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 06: audit a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103168,6 +103586,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_07.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_07",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 07: rewrite a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103325,6 +103744,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_08.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_08",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 08: observe a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103482,6 +103902,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_09.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_09",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 09: cut a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103639,6 +104060,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_narrative_world_10.md",
       "raw": {
         "exercise_id": "exercise_narrative_world_10",
+        "entity_type": "Exercise",
         "title": "Narrative / World Exercise 10: compress a design assumption",
         "category": "narrative_world",
         "purpose": "Practice turning narrative / world knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103796,6 +104218,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_pitch_release_01.md",
       "raw": {
         "exercise_id": "exercise_pitch_release_01",
+        "entity_type": "Exercise",
         "title": "Pitch / Release Exercise 01: invert a design assumption",
         "category": "pitch_release",
         "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -103953,6 +104376,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_pitch_release_02.md",
       "raw": {
         "exercise_id": "exercise_pitch_release_02",
+        "entity_type": "Exercise",
         "title": "Pitch / Release Exercise 02: map a design assumption",
         "category": "pitch_release",
         "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -104110,6 +104534,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_pitch_release_03.md",
       "raw": {
         "exercise_id": "exercise_pitch_release_03",
+        "entity_type": "Exercise",
         "title": "Pitch / Release Exercise 03: stress-test a design assumption",
         "category": "pitch_release",
         "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -104267,6 +104692,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_pitch_release_04.md",
       "raw": {
         "exercise_id": "exercise_pitch_release_04",
+        "entity_type": "Exercise",
         "title": "Pitch / Release Exercise 04: compare a design assumption",
         "category": "pitch_release",
         "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -104424,6 +104850,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_pitch_release_05.md",
       "raw": {
         "exercise_id": "exercise_pitch_release_05",
+        "entity_type": "Exercise",
         "title": "Pitch / Release Exercise 05: prototype a design assumption",
         "category": "pitch_release",
         "purpose": "Practice turning pitch / release knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -104580,6 +105007,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_01.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_01",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 01: invert a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -104735,6 +105163,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_02.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_02",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 02: map a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -104890,6 +105319,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_03.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_03",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 03: stress-test a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105045,6 +105475,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_04.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_04",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 04: compare a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105200,6 +105631,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_05.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_05",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 05: prototype a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105355,6 +105787,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_06.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_06",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 06: audit a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105510,6 +105943,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_07.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_07",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 07: rewrite a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105665,6 +106099,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_08.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_08",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 08: observe a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105820,6 +106255,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_09.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_09",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 09: cut a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -105975,6 +106411,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_rules_mechanics_10.md",
       "raw": {
         "exercise_id": "exercise_rules_mechanics_10",
+        "entity_type": "Exercise",
         "title": "Rules / Mechanics Exercise 10: compress a design assumption",
         "category": "rules_mechanics",
         "purpose": "Practice turning rules / mechanics knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -106132,6 +106569,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_01.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_01",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 01: invert a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -106291,6 +106729,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_02.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_02",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 02: map a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -106450,6 +106889,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_03.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_03",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 03: stress-test a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -106609,6 +107049,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_04.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_04",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 04: compare a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -106768,6 +107209,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_05.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_05",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 05: prototype a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -106927,6 +107369,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_06.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_06",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 06: audit a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -107086,6 +107529,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_07.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_07",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 07: rewrite a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -107245,6 +107689,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_08.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_08",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 08: observe a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -107404,6 +107849,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_09.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_09",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 09: cut a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -107563,6 +108009,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_systems_economy_10.md",
       "raw": {
         "exercise_id": "exercise_systems_economy_10",
+        "entity_type": "Exercise",
         "title": "Systems / Economy Exercise 10: compress a design assumption",
         "category": "systems_economy",
         "purpose": "Practice turning systems / economy knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -107721,6 +108168,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_01.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_01",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 01: invert a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -107878,6 +108326,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_02.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_02",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 02: map a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108035,6 +108484,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_03.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_03",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 03: stress-test a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108192,6 +108642,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_04.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_04",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 04: compare a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108349,6 +108800,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_05.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_05",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 05: prototype a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108506,6 +108958,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_06.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_06",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 06: audit a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108663,6 +109116,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_07.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_07",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 07: rewrite a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108820,6 +109274,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_08.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_08",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 08: observe a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -108977,6 +109432,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_09.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_09",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 09: cut a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -109134,6 +109590,7 @@
       "source_path": "kb/08_workflows/exercises/exercise_ui_feedback_10.md",
       "raw": {
         "exercise_id": "exercise_ui_feedback_10",
+        "entity_type": "Exercise",
         "title": "UI / Feedback Exercise 10: compress a design assumption",
         "category": "ui_feedback",
         "purpose": "Practice turning ui / feedback knowledge into a concrete design artifact without relying on unsupported source claims.",
@@ -109286,6 +109743,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_classify-note-by-taxonomy.md",
       "raw": {
         "prompt_id": "prompt_classify-note-by-taxonomy",
+        "entity_type": "PromptTemplate",
         "title": "Classify Note By Taxonomy",
         "use_case": "Route a note into phase groups, domains, cards, and lessons.",
         "required_context": [
@@ -109426,6 +109884,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_compare-two-concepts.md",
       "raw": {
         "prompt_id": "prompt_compare-two-concepts",
+        "entity_type": "PromptTemplate",
         "title": "Compare Two Concepts",
         "use_case": "Compare two concepts without inventing source claims.",
         "required_context": [
@@ -109566,6 +110025,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_create-exercises-from-concepts.md",
       "raw": {
         "prompt_id": "prompt_create-exercises-from-concepts",
+        "entity_type": "PromptTemplate",
         "title": "Create Exercises From Concepts",
         "use_case": "Generate original practice tasks from concept cards.",
         "required_context": [
@@ -109706,6 +110166,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_detect-unsupported-claims.md",
       "raw": {
         "prompt_id": "prompt_detect-unsupported-claims",
+        "entity_type": "PromptTemplate",
         "title": "Detect Unsupported Claims",
         "use_case": "Find claims that lack source_basis, confidence, or evidence refs.",
         "required_context": [
@@ -109846,6 +110307,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_generate-forum-discussion-prompts.md",
       "raw": {
         "prompt_id": "prompt_generate-forum-discussion-prompts",
+        "entity_type": "PromptTemplate",
         "title": "Generate Forum Discussion Prompts",
         "use_case": "Create structured forum prompts for critique and evidence gathering.",
         "required_context": [
@@ -109986,6 +110448,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_generate-playtest-questions.md",
       "raw": {
         "prompt_id": "prompt_generate-playtest-questions",
+        "entity_type": "PromptTemplate",
         "title": "Generate Playtest Questions",
         "use_case": "Create testable playtest questions from a prototype goal.",
         "required_context": [
@@ -110126,6 +110589,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_produce-design-decision-log.md",
       "raw": {
         "prompt_id": "prompt_produce-design-decision-log",
+        "entity_type": "PromptTemplate",
         "title": "Produce Design Decision Log",
         "use_case": "Turn findings into a decision with rationale, evidence, and next test.",
         "required_context": [
@@ -110266,6 +110730,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_propose-project-applications.md",
       "raw": {
         "prompt_id": "prompt_propose-project-applications",
+        "entity_type": "PromptTemplate",
         "title": "Propose Project Applications",
         "use_case": "Turn general KB items into project overlay candidates.",
         "required_context": [
@@ -110406,6 +110871,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_run-balance-audit.md",
       "raw": {
         "prompt_id": "prompt_run-balance-audit",
+        "entity_type": "PromptTemplate",
         "title": "Run Balance Audit",
         "use_case": "Inspect economy, progression, sources, sinks, and balance risks.",
         "required_context": [
@@ -110546,6 +111012,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_run-design-audit.md",
       "raw": {
         "prompt_id": "prompt_run-design-audit",
+        "entity_type": "PromptTemplate",
         "title": "Run Design Audit",
         "use_case": "Evaluate a design artifact with linked cards and lenses.",
         "required_context": [
@@ -110686,6 +111153,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_run-game-feel-audit.md",
       "raw": {
         "prompt_id": "prompt_run-game-feel-audit",
+        "entity_type": "PromptTemplate",
         "title": "Run Game Feel Audit",
         "use_case": "Review input, response, context, polish, and tuning risks.",
         "required_context": [
@@ -110826,6 +111294,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_summarize-user-notes-into-cards.md",
       "raw": {
         "prompt_id": "prompt_summarize-user-notes-into-cards",
+        "entity_type": "PromptTemplate",
         "title": "Summarize User Notes Into Cards",
         "use_case": "Convert user-authored notes into source-governed card drafts.",
         "required_context": [
@@ -110966,6 +111435,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_turn-card-into-lens.md",
       "raw": {
         "prompt_id": "prompt_turn-card-into-lens",
+        "entity_type": "PromptTemplate",
         "title": "Turn Card Into Lens",
         "use_case": "Convert a concept or framework card into an original diagnostic lens.",
         "required_context": [
@@ -111106,6 +111576,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_turn-lens-into-checklist.md",
       "raw": {
         "prompt_id": "prompt_turn-lens-into-checklist",
+        "entity_type": "PromptTemplate",
         "title": "Turn Lens Into Checklist",
         "use_case": "Convert diagnostic questions into a review checklist.",
         "required_context": [
@@ -111246,6 +111717,7 @@
       "source_path": "kb/08_workflows/prompts/prompt_update-project-overlay.md",
       "raw": {
         "prompt_id": "prompt_update-project-overlay",
+        "entity_type": "PromptTemplate",
         "title": "Update Project Overlay",
         "use_case": "Update project-specific applications from workflow outputs.",
         "required_context": [

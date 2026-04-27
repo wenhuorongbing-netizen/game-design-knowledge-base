@@ -1,5 +1,6 @@
 ---
 lens_id: "lens_player-experience_onboarding"
+entity_type: "DesignLens"
 title: "Onboarding Lens"
 family: "Player Experience Lenses"
 one_sentence_purpose: "Diagnose whether the design artifact has a clear, testable position on onboarding without inventing facts or relying on unsupported source claims."
