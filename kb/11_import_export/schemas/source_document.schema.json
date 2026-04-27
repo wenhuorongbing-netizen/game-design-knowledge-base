@@ -129,6 +129,33 @@
     },
     "ingestion_status": {
       "type": "string"
+    },
+    "legal_sidecar_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sidecar_review_status": {
+      "type": "string"
+    },
+    "allowed_for_ai_processing": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "allowed_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   }
 }

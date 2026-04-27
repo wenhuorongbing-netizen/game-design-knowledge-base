@@ -24,6 +24,15 @@ Use this table when you know the symptom and need the fastest safe starting poin
 | I need launch risk review. | [Release Readiness Risk Audit](../08_workflows/packs/workflow_release-readiness-risk-audit.md) |
 | I worry the AI invented claims. | [Detect Unsupported Claims Prompt](../08_workflows/prompts/prompt_detect-unsupported-claims.md) |
 | I need to know whether a source is safe. | [Source Governance Path](source_governance_path.md) |
+| I need to know whether a KB item is verified or draft. | [Evidence Dashboard](../13_evidence/EVIDENCE_DASHBOARD.md) |
+| I need to find unsupported claims. | [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md) |
+| I need to find verified claims. | [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md) |
+| I want to upgrade a draft claim. | [Claim Promotion Workflow](../13_evidence/CLAIM_PROMOTION_WORKFLOW.md) |
+| I want to add lawful notes. | [User Manual Note Template](../13_evidence/manual_notes/user_manual_note_template.md) |
+| I want to add a short user quote. | [User Manual Quote Template](../13_evidence/manual_quotes/user_manual_quote_template.md) |
+| I need to review the Game Feel evidence pilot. | [Game Feel Evidence Pilot](../13_evidence/reports/GAME_FEEL_EVIDENCE_PILOT.md) |
+| I need to review meaningful decisions evidence. | [Meaningful Decisions Evidence Pilot](../13_evidence/reports/MEANINGFUL_DECISIONS_EVIDENCE_PILOT.md) |
+| I need to review systems/economy/playtest evidence. | [Systems Economy Playtest Evidence Pilot](../13_evidence/reports/SYSTEMS_ECONOMY_PLAYTEST_EVIDENCE_PILOT.md) |
 
 ## Rule
 

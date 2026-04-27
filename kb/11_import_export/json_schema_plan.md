@@ -17,6 +17,18 @@ The JSON schemas define the normalized GDKB import shape. They do not replace th
 - `schemas/workflow_pack.schema.json`
 - `schemas/prompt_template.schema.json`
 - `schemas/project_overlay.schema.json`
+- `schemas/playtest_log.schema.json`
+- `schemas/legal_sidecar.schema.json`
+- `schemas/user_manual_note.schema.json`
+- `schemas/user_manual_quote.schema.json`
+- `schemas/open_source_reference.schema.json`
+- `schemas/official_metadata_reference.schema.json`
+- `schemas/evidence_ref.schema.json`
+- `schemas/claim_promotion_request.schema.json`
+- `schemas/claim_promotion_review.schema.json`
+- `schemas/evidence_gap.schema.json`
+- `schemas/evidence_intake_batch.schema.json`
+- `schemas/evidence_audit_report.schema.json`
 - `schemas/relationship.schema.json`
 
 ## Validation Layers
@@ -43,6 +55,21 @@ The JSON schemas define the normalized GDKB import shape. They do not replace th
 - workflow without output artifact
 - lesson without exercise
 - prompt without guardrails
+- evidence_ref missing required field
+- evidence_ref broken reference
+- metadata_only or unsupported_draft evidence supporting verified claim
+- pending sidecar supporting verified claim
+- manual quote not explicitly user-provided
+- manual quote missing work/source/length
+- manual quote too long
+- manual quote automated extraction
+- manual note not marked user_interpretation
+- high-risk source evidence used beyond allowed operations
+- promotion request missing reviewer or rationale
+- promotion request beyond evidence scope
+- promotion review missing reviewer or rationale
+- project overlay observation treated as universal doctrine
+- playtest observation treated as universal doctrine
 
 ## Canonicality Decision
 

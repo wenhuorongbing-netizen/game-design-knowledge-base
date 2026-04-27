@@ -1,29 +1,42 @@
-# User-Required Evidence
+# User Required Evidence
 
-Some remaining gaps cannot be completed by an agent without user-supplied lawful evidence.
+## Purpose
 
-## Evidence Required From User
+This file explains what the user must provide before a source can be used beyond metadata-only handling.
 
-| Need | Why Agent Cannot Create It | Accepted Input |
-|---|---|---|
-| Legal sidecars | The agent cannot certify legal access or AI-processing permission for private files. | Completed `source_sidecar_template.yaml`, purchase/library reference, or lawful replacement source. |
-| User notes | The agent must not summarize high-risk source body text. | User-written reading notes, chapter notes, or paraphrased observations. |
-| User manual quotes | The agent must not extract quotes from high-risk files. | Short user-provided quotes with location and legal basis. |
-| Verified claims | Draft claims require allowed evidence before promotion. | Evidence refs from open fulltext, official metadata, user legal files, user notes, or user manual quotes. |
-| Real project overlays | The agent cannot invent project history. | Real project context, workflow outputs, decisions, and assumptions. |
-| Real playtest logs | The agent cannot invent observations. | Real playtest setup, participant profile, observations, interpretation, and next actions. |
+## For High-Risk Sources
 
-## Safe Agent Work Before Evidence Exists
+High-risk sources include files or metadata with markers such as:
 
-- Maintain metadata-only source records.
-- Maintain unsupported draft cards, lenses, workflows, lessons, overlays, and playtest-log scaffolds.
-- Validate source_basis, confidence, evidence_refs, and high-risk quarantine.
-- Generate reports and exports from safe KB metadata.
+- z-library
+- z-lib
+- 1lib
+- Anna's Archive
+- it-ebooks
+- mirror
+- suspicious scan
+- unknown scanned copy
 
-## Unsafe Agent Work Before Evidence Exists
+High-risk sources remain `metadata_only_quarantined` unless a LegalSidecar explicitly permits a narrower operation.
 
-- Promoting unsupported content to `verified`.
-- Creating book-specific claims from quarantined files.
-- Summarizing chapters from high-risk sources.
-- Extracting quotes from high-risk sources.
-- Treating sample ProjectOverlay or PlaytestLog records as evidence.
+## Required User Inputs
+
+| Desired Operation | Required User Evidence |
+|---|---|
+| Record metadata | No sidecar required if metadata is already visible. |
+| Attach user notes | UserManualNote or sidecar confirming notes are user-created. |
+| Attach short user quotes | UserManualQuote explicitly supplied by user. |
+| Generate cards from user notes | UserManualNote plus EvidenceRef. |
+| Process full text | LegalSidecar with `approval_status: approved_full_processing`, reviewer, and review date. |
+
+## What The User Must Not Provide As Evidence
+
+- suspicious mirror files without a lawful access explanation;
+- copied chapter text from high-risk sources;
+- long quotations;
+- generated summaries from copyrighted book bodies;
+- embeddings from private or high-risk files.
+
+## Current State
+
+No legal sidecars have been approved. No source is approved for full processing.

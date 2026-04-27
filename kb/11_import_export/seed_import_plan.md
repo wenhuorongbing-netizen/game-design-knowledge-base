@@ -13,9 +13,10 @@
 8. Lesson Markdown files
 9. WorkflowPack, Exercise, and PromptTemplate Markdown files
 10. ProjectOverlay and ForumThreadTemplate Markdown files when implemented
-11. Derived Artifact nodes for output deliverables
-12. Relationship graph
-13. Search index
+11. Evidence intake Markdown files when present
+12. Derived Artifact nodes for output deliverables
+13. Relationship graph
+14. Search index
 
 ## Pipeline Steps
 
@@ -41,6 +42,8 @@
 | `kb_sources` | SourceDocument entities filtered from all_entities |
 | `kb_works` | GameDesignWork entities filtered from all_entities |
 | `kb_project_overlays` | ProjectOverlay entities when Prompt 10 implements them |
+| `kb_evidence_refs` | EvidenceRef entities filtered from all_entities |
+| `kb_evidence_reviews` | ClaimPromotionReview entities filtered from all_entities |
 
 ## Legal Import Boundary
 

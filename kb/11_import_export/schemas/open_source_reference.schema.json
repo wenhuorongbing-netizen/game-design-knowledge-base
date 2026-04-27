@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.opensourcereference.schema.v1",
+  "title": "GDKB OpenSourceReference",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "title",
+    "status",
+    "source_basis",
+    "confidence",
+    "phase_groups",
+    "domains",
+    "tags",
+    "related_entities",
+    "evidence_refs",
+    "created_at",
+    "updated_at",
+    "version",
+    "open_source_reference_id",
+    "url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "OpenSourceReference"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_basis": {
+      "type": "string",
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "phase_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "body_excerpt_safe": {
+      "type": "string"
+    },
+    "source_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw": {
+      "type": "object"
+    },
+    "open_source_reference_id": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "access_date": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    }
+  }
+}

@@ -81,6 +81,19 @@ Read:
 
 - [VALIDATION_REPORT.md](../../VALIDATION_REPORT.md)
 - [MIGRATION_EXCEPTIONS_REPORT.md](../../MIGRATION_EXCEPTIONS_REPORT.md)
+- [EVIDENCE_DASHBOARD.md](../13_evidence/EVIDENCE_DASHBOARD.md)
+- [EVIDENCE_STATUS_INDEX.md](../13_evidence/EVIDENCE_STATUS_INDEX.md)
+
+## Evidence Maintenance
+
+- Start evidence work from [Evidence Intake Plan](../13_evidence/EVIDENCE_INTAKE_PLAN.md).
+- Review legal permission with [Legal Sidecar Workflow](../13_evidence/sidecars/SIDECAR_REVIEW_GUIDE.md).
+- Use [User Manual Note Template](../13_evidence/manual_notes/user_manual_note_template.md) for user-written notes.
+- Use [User Manual Quote Template](../13_evidence/manual_quotes/user_manual_quote_template.md) only for user-provided short quotes.
+- Gate confidence upgrades through [Claim Promotion Workflow](../13_evidence/CLAIM_PROMOTION_WORKFLOW.md).
+- Track missing evidence through [Priority Evidence Backlog](../13_evidence/PRIORITY_EVIDENCE_BACKLOG.md) and [Evidence Gap Register](../13_evidence/EVIDENCE_GAP_REGISTER.md).
+- Review [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md) before creating any promotion request.
+- Review [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md) before saying the KB has verified claims.
 
 ## What Not To Edit Manually
 

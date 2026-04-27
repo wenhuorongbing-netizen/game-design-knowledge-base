@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.evidence_intake_batch.v1",
+  "title": "GDKB EvidenceIntakeBatch",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "evidence_intake_batch_id",
+    "batch_items",
+    "intake_status",
+    "source_basis",
+    "confidence",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "EvidenceIntakeBatch" },
+    "evidence_intake_batch_id": { "type": "string", "minLength": 1 },
+    "batch_items": { "type": "array", "items": { "type": "string" } },
+    "intake_status": { "enum": ["draft", "pending_review", "validated", "rejected", "archived"] },
+    "audit_report_id": { "type": "string" },
+    "source_basis": { "enum": ["metadata_only", "user_manual_note", "derived_from_user_note", "open_fulltext", "official_metadata", "user_legal_file", "unsupported_draft"] },
+    "confidence": { "enum": ["strong", "medium", "weak", "unsupported_draft", "user_interpretation"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

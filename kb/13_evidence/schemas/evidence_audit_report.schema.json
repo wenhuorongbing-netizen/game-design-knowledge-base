@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.evidence_audit_report.v1",
+  "title": "GDKB EvidenceAuditReport",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "evidence_audit_report_id",
+    "audit_scope",
+    "finding_count",
+    "violation_count",
+    "source_basis",
+    "confidence",
+    "status",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "EvidenceAuditReport" },
+    "evidence_audit_report_id": { "type": "string", "minLength": 1 },
+    "audit_scope": { "type": "string", "minLength": 1 },
+    "finding_count": { "type": "integer", "minimum": 0 },
+    "violation_count": { "type": "integer", "minimum": 0 },
+    "source_basis": { "enum": ["derived_from_user_note", "metadata_only", "unsupported_draft"] },
+    "confidence": { "enum": ["strong", "medium", "weak", "unsupported_draft", "user_interpretation"] },
+    "status": { "enum": ["draft", "final", "superseded", "archived"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

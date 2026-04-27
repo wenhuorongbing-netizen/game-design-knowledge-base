@@ -15,6 +15,9 @@ created_at: "2026-04-27"
 updated_at: "2026-04-27"
 version: "0.1.0"
 project_id: "sample_project_generic_game"
+entity_scope: "project_overlay"
+evidence_scope: "project_specific"
+treat_as_universal_doctrine: false
 linked_workflows: ["workflow_game-idea-to-one-page-concept", "workflow_core-loop-design", "workflow_playtest-plan"]
 design_decisions: ["sample_decision_define_core_experience", "sample_decision_plan_first_playtest"]
 playtest_logs: ["playtest_log_sample_first_session"]

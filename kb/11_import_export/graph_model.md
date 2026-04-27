@@ -33,6 +33,18 @@ Node types include:
 - WorkflowPack
 - PromptTemplate
 - ProjectOverlay
+- PlaytestLog
+- LegalSidecar
+- UserManualNote
+- UserManualQuote
+- OpenSourceReference
+- OfficialMetadataReference
+- EvidenceRef
+- ClaimPromotionRequest
+- ClaimPromotionReview
+- EvidenceGap
+- EvidenceIntakeBatch
+- EvidenceAuditReport
 - ForumThreadTemplate
 - Artifact
 
@@ -56,6 +68,15 @@ Primary generated edge families:
 - `supports`
 - `challenges`
 - `contradicts`
+- `supported_by`
+- `challenged_by`
+- `evidence_for`
+- `evidence_against`
+- `promoted_from`
+- `reviewed_by`
+- `blocked_by_evidence_gap`
+- `applies_in_project`
+- `observed_in_playtest`
 
 ## Broken Link Policy
 

@@ -18,7 +18,9 @@
         "archive_container",
         "contains_unreviewed_material"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-archive-knowledge-7z"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -55,7 +57,10 @@
           "derive_claims_from_archive_contents"
         ],
         "recommended_user_action": "Provide a legal source sidecar and a clean extraction plan before any internal archive inspection.",
-        "notes": "Container recorded only by filename and size. No archive contents were listed or extracted."
+        "notes": "Container recorded only by filename and size. No archive contents were listed or extracted.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar and a clean extraction plan before any internal archive inspection.",
       "body_sections": [],
@@ -74,7 +79,9 @@
         "deprecated_instruction",
         "process_note"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-user-rebuild-instruction"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -114,7 +121,10 @@
           "parse_high_risk_source_body_text"
         ],
         "recommended_user_action": "Do not use as active instruction. Use KB_REBUILD_INSTRUCTION.md instead.",
-        "notes": "Historical BookOS/readings-app direction retained only for provenance; not an active KB source."
+        "notes": "Historical BookOS/readings-app direction retained only for provenance; not an active KB source.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Do not use as active instruction. Use KB_REBUILD_INSTRUCTION.md instead.",
       "body_sections": [],
@@ -133,7 +143,9 @@
         "user_instruction",
         "reference_list"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-user-prompt-2-known-work-list"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -173,7 +185,10 @@
           "generate_embeddings"
         ],
         "recommended_user_action": "Attach official metadata links, open sources, or legal files for prompt-referenced works that are not present in the upload set.",
-        "notes": "This source supports only the fact that the user wants these works tracked."
+        "notes": "This source supports only the fact that the user wants these works tracked.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Attach official metadata links, open sources, or legal files for prompt-referenced works that are not present in the upload set.",
       "body_sections": [],
@@ -192,7 +207,9 @@
         "legacy_derived_snapshot",
         "requires_reaudit"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-legacy-kb-snapshot"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -229,7 +246,10 @@
           "reuse_derived_summaries_without_source_chain"
         ],
         "recommended_user_action": "Rebuild useful legacy ideas only after each claim is reattached to a governed source basis.",
-        "notes": "Legacy snapshot can guide migration planning, not verified knowledge."
+        "notes": "Legacy snapshot can guide migration planning, not verified knowledge.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Rebuild useful legacy ideas only after each claim is reattached to a governed source basis.",
       "body_sections": [],
@@ -249,7 +269,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-advanced-game-design-systems-approach-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -295,7 +317,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -315,7 +340,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-challenges-for-game-designers-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -362,7 +389,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -381,7 +411,9 @@
         "suspicious_mirror_marker",
         "Ann"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-characteristics-of-games-ann"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -428,7 +460,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Metadata is filename-level only. Third author text appears incomplete in filename and needs official metadata verification."
+        "notes": "Metadata is filename-level only. Third author text appears incomplete in filename and needs official metadata verification.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -448,7 +483,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-game-design-workshop-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -494,7 +531,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -514,7 +554,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-game-feel-epub-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -560,7 +602,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Duplicate EPUB variant for the Game Feel work. No EPUB body or front matter was read."
+        "notes": "Duplicate EPUB variant for the Game Feel work. No EPUB body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -580,7 +625,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-game-feel-pdf-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -626,7 +673,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Duplicate PDF variant for the Game Feel work. No PDF body or front matter was read."
+        "notes": "Duplicate PDF variant for the Game Feel work. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -646,7 +696,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-game-mechanics-epub-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -690,7 +742,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Author names are not visible in the filename. Prompt 2 references Ernest Adams and Joris Dormans as likely work authors; verify using official metadata."
+        "notes": "Author names are not visible in the filename. Prompt 2 references Ernest Adams and Joris Dormans as likely work authors; verify using official metadata.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -710,7 +765,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-level-up-epub-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -756,7 +813,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No EPUB body or front matter was read."
+        "notes": "Detected from filename only. No EPUB body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -776,7 +836,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-play-matters-pdf-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -822,7 +884,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -842,7 +907,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-aesthetic-of-play-pdf-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -888,7 +955,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -907,7 +977,9 @@
         "Anna’s Archive",
         "suspicious_mirror_marker"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-art-of-game-design-annas"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -952,7 +1024,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Filename contains edition, year, publisher, and ISBN13. These remain filename-level metadata until verified against an official source."
+        "notes": "Filename contains edition, year, publisher, and ISBN13. These remain filename-level metadata until verified against an official source.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -972,7 +1047,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-game-design-reader-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -1019,7 +1096,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -1039,7 +1119,9 @@
         "1lib",
         "z-lib"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-file-theory-of-fun-zlib"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -1085,7 +1167,10 @@
           "create_cards_from_source_body"
         ],
         "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-        "notes": "Detected from filename only. No PDF body or front matter was read."
+        "notes": "Detected from filename only. No PDF body or front matter was read.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "body_sections": [],
@@ -1104,7 +1189,9 @@
         "active_instruction",
         "governance_note"
       ],
-      "related_entities": [],
+      "related_entities": [
+        "src-active-kb-rebuild-instruction"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
       "updated_at": "2026-04-27",
@@ -1142,7 +1229,10 @@
           "create_verified_game_design_claims"
         ],
         "recommended_user_action": "Use as the active repository rebuild instruction.",
-        "notes": "Governance and scope instruction for the Game Design Knowledgebase repository; not evidence for game design claims."
+        "notes": "Governance and scope instruction for the Game Design Knowledgebase repository; not evidence for game design claims.",
+        "legal_sidecar_ids": [],
+        "sidecar_review_status": "pending_review",
+        "allowed_for_ai_processing": false
       },
       "summary": "Use as the active repository rebuild instruction.",
       "body_sections": [],
@@ -1170,7 +1260,8 @@
       "tags": [],
       "related_entities": [
         "src-file-game-feel-epub-zlib",
-        "src-file-game-feel-pdf-zlib"
+        "src-file-game-feel-pdf-zlib",
+        "game-feel-a-game-designers-guide-to-virtual-sensation"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1238,7 +1329,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-play-matters-pdf-zlib"
+        "src-file-play-matters-pdf-zlib",
+        "play-matters"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1303,7 +1395,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-aesthetic-of-play-pdf-zlib"
+        "src-file-aesthetic-of-play-pdf-zlib",
+        "the-aesthetic-of-play"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1372,7 +1465,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-art-of-game-design-annas"
+        "src-file-art-of-game-design-annas",
+        "the-art-of-game-design-a-book-of-lenses"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1442,7 +1536,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-game-design-reader-zlib"
+        "src-file-game-design-reader-zlib",
+        "the-game-design-reader-a-rules-of-play-anthology"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1508,7 +1603,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-theory-of-fun-zlib"
+        "src-file-theory-of-fun-zlib",
+        "a-theory-of-fun-for-game-design"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1573,7 +1669,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-advanced-game-design-systems-approach-zlib"
+        "src-file-advanced-game-design-systems-approach-zlib",
+        "advanced-game-design-a-systems-approach"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1639,7 +1736,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-challenges-for-game-designers-zlib"
+        "src-file-challenges-for-game-designers-zlib",
+        "challenges-for-game-designers"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1708,7 +1806,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-game-design-workshop-zlib"
+        "src-file-game-design-workshop-zlib",
+        "game-design-workshop-a-playcentric-approach"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1778,7 +1877,8 @@
       "tags": [],
       "related_entities": [
         "src-file-game-mechanics-epub-zlib",
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "game-mechanics-advanced-game-design"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1849,7 +1949,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-level-up-epub-zlib"
+        "src-file-level-up-epub-zlib",
+        "level-up-the-guide-to-great-video-game-design"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1918,7 +2019,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "better-game-characters-by-design"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -1986,7 +2088,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "rules-of-play"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -2053,7 +2156,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "chris-crawford-on-game-design"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -2117,7 +2221,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "the-art-of-computer-game-design"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -2183,7 +2288,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "mda-mechanics-dynamics-aesthetics"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -2251,7 +2357,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "formal-abstract-design-tools"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -2316,7 +2423,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-user-prompt-2-known-work-list"
+        "src-user-prompt-2-known-work-list",
+        "bartle-player-types"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -2384,7 +2492,8 @@
       ],
       "tags": [],
       "related_entities": [
-        "src-file-characteristics-of-games-ann"
+        "src-file-characteristics-of-games-ann",
+        "characteristics-of-games"
       ],
       "evidence_refs": [],
       "created_at": "2026-04-27",
@@ -13749,7 +13858,9 @@
         "education_serious_games"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "a-theory-of-fun-for-game-design"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -13948,7 +14059,9 @@
         "formal_game_design"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "advanced-game-design-a-systems-approach"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -14147,7 +14260,9 @@
         "business_pitch_release"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "bartle-player-types"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -14347,7 +14462,9 @@
         "ui_ux_feedback"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "better-game-characters-by-design"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -14546,7 +14663,9 @@
         "rules_and_mechanics"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "challenges-for-game-designers"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -14747,7 +14866,9 @@
         "formal_game_design"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "characteristics-of-games"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -14945,7 +15066,9 @@
         "production_process"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "chris-crawford-on-game-design"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -15143,7 +15266,9 @@
         "playtesting"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "formal-abstract-design-tools"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -15344,7 +15469,9 @@
         "design_exercises"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "game-design-workshop-a-playcentric-approach"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -15544,7 +15671,9 @@
         "prototyping"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "game-feel-a-game-designers-guide-to-virtual-sensation"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -15743,7 +15872,9 @@
         "formal_game_design"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "game-mechanics-advanced-game-design"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -15944,7 +16075,9 @@
         "player_experience"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "level-up-the-guide-to-great-video-game-design"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -16144,7 +16277,9 @@
         "playtesting"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "mda-mechanics-dynamics-aesthetics"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -16342,7 +16477,9 @@
         "interactivity"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "play-matters"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -16542,7 +16679,9 @@
         "systems_design"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "rules-of-play"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -16741,7 +16880,9 @@
         "formal_game_design"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "the-aesthetic-of-play"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -16939,7 +17080,9 @@
         "production_process"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "the-art-of-computer-game-design"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -17141,7 +17284,9 @@
         "production_process"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "the-art-of-game-design-a-book-of-lenses"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -17340,7 +17485,9 @@
         "education_serious_games"
       ],
       "tags": [],
-      "related_entities": [],
+      "related_entities": [
+        "the-game-design-reader-a-rules-of-play-anthology"
+      ],
       "evidence_refs": [],
       "created_at": "2026-04-26",
       "updated_at": "2026-04-26",
@@ -111893,6 +112040,9 @@
         "updated_at": "2026-04-27",
         "version": "0.1.0",
         "project_id": "sample_project_generic_game",
+        "entity_scope": "project_overlay",
+        "evidence_scope": "project_specific",
+        "treat_as_universal_doctrine": false,
         "linked_workflows": [
           "workflow_game-idea-to-one-page-concept",
           "workflow_core-loop-design",
@@ -112015,6 +112165,9 @@
         "updated_at": "2026-04-27",
         "version": "0.1.0",
         "project_id": "sample_project_generic_game",
+        "entity_scope": "playtest_log",
+        "evidence_scope": "playtest_specific",
+        "treat_as_universal_doctrine": false,
         "test_question": "What specific design question should this playtest answer?",
         "tested_artifact": "Replace with prototype, rules sheet, build, level, UI flow, or economy sheet.",
         "participant_profile": "Replace with target player profile and recruitment constraints.",
@@ -112035,6 +112188,11 @@
         "observed_findings": [
           "No real observation recorded. This sample is a structure only."
         ],
+        "observed_facts": [],
+        "participant_quotes": [],
+        "tester_interpretations": [],
+        "design_hypotheses": [],
+        "design_decisions": [],
         "next_actions": [
           "Replace this sample with a real playtest log before treating it as project evidence."
         ],

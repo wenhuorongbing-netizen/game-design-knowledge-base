@@ -1,6 +1,6 @@
 # Validation Report
 
-Generated at: 2026-04-27T07:23:40.020Z
+Generated at: 2026-04-27T10:09:27.317Z
 Repository: `D:\Game\FOTN\knowledge`
 
 ## Summary
@@ -31,6 +31,33 @@ Validation PASS means the draft/source-governed KB safety gate passed and no acc
 - lens without questions
 - workflow without output artifact
 - verified claim without evidence
+- evidence_ref required fields
+- evidence_ref broken links
+- metadata_only cannot support verified claims
+- unsupported_draft cannot support verified claims
+- pending sidecar cannot support verified claims
+- user_manual_quote explicit user-provided flag
+- user_manual_quote source_basis and status
+- user_manual_quote work/source/length requirements
+- user_manual_quote length threshold
+- user_manual_quote automated extraction block
+- user_manual_note source_basis and user_interpretation confidence
+- user_manual_note type/status/work requirements
+- high-risk source evidence-operation boundary
+- legal sidecar required fields
+- legal sidecar source/work references
+- sidecar approval status enum
+- no sidecar default full processing
+- source AI processing requires sidecar
+- high-risk process_full_text requires approved sidecar
+- claim status/confidence conflict
+- promotion request reviewer and rationale
+- promotion request evidence references and target claims
+- promotion request evidence-scope alignment
+- promotion review reviewer and rationale
+- promotion review request link and decision enum
+- project overlay local observation boundary
+- playtest local observation boundary
 - legacy high-risk body artifact scan
 - unsafe portal data scan
 - active root direction-drift instruction scan

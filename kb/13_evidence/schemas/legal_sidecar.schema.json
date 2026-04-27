@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.legal_sidecar.v1",
+  "title": "GDKB LegalSidecar",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "sidecar_id",
+    "source_document_id",
+    "work_id",
+    "user_confirms_legal_access",
+    "access_basis",
+    "allowed_for_ai_processing",
+    "allowed_operations",
+    "prohibited_operations",
+    "high_risk_marker_review",
+    "private_or_public",
+    "citation_preference",
+    "user_supplied_notes_path",
+    "user_supplied_quotes_path",
+    "reviewer",
+    "approval_status",
+    "review_date",
+    "expiration_date",
+    "notes",
+    "source_basis",
+    "confidence",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "LegalSidecar" },
+    "sidecar_id": { "type": "string", "minLength": 1 },
+    "source_document_id": { "type": "string", "minLength": 1 },
+    "work_id": { "type": "string", "minLength": 1 },
+    "user_confirms_legal_access": { "type": "boolean" },
+    "access_basis": {
+      "enum": [
+        "owned_physical_copy",
+        "purchased_ebook",
+        "library_access",
+        "official_open_access",
+        "publisher_permission",
+        "author_permission",
+        "public_domain",
+        "other"
+      ]
+    },
+    "allowed_for_ai_processing": { "type": "boolean" },
+    "allowed_operations": { "type": "array", "items": { "type": "string" } },
+    "prohibited_operations": { "type": "array", "items": { "type": "string" } },
+    "high_risk_marker_review": { "type": "string" },
+    "private_or_public": { "enum": ["private", "public"] },
+    "citation_preference": { "type": "string" },
+    "user_supplied_notes_path": { "type": "string" },
+    "user_supplied_quotes_path": { "type": "string" },
+    "reviewer": { "type": "string" },
+    "approval_status": {
+      "enum": [
+        "pending_review",
+        "approved_metadata_only",
+        "approved_user_notes_only",
+        "approved_full_processing",
+        "rejected",
+        "expired"
+      ]
+    },
+    "review_date": { "type": "string" },
+    "expiration_date": { "type": "string" },
+    "notes": { "type": "string" },
+    "source_basis": { "enum": ["user_legal_file", "metadata_only", "unsupported_draft"] },
+    "confidence": { "enum": ["verified", "strong", "medium", "weak", "unsupported_draft", "user_interpretation", "ai_hypothesis"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

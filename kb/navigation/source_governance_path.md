@@ -20,6 +20,23 @@ Use this path when auditing sources, legal status, AI processing permission, and
 6. [high_risk_quarantine.md](../01_sources/high_risk_quarantine.md)
 7. [source_sidecar_template.yaml](../01_sources/source_sidecar_template.yaml)
 
+## Evidence Governance Links
+
+- [Evidence Dashboard](../13_evidence/EVIDENCE_DASHBOARD.md)
+- [Evidence Status Index](../13_evidence/EVIDENCE_STATUS_INDEX.md)
+- [Evidence Intake Plan](../13_evidence/EVIDENCE_INTAKE_PLAN.md)
+- [Legal Sidecar Workflow](../13_evidence/sidecars/SIDECAR_REVIEW_GUIDE.md)
+- [User Manual Note Template](../13_evidence/manual_notes/user_manual_note_template.md)
+- [User Manual Quote Template](../13_evidence/manual_quotes/user_manual_quote_template.md)
+- [Claim Promotion Workflow](../13_evidence/CLAIM_PROMOTION_WORKFLOW.md)
+- [Priority Evidence Backlog](../13_evidence/PRIORITY_EVIDENCE_BACKLOG.md)
+- [Evidence Gap Register](../13_evidence/EVIDENCE_GAP_REGISTER.md)
+- [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md)
+- [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md)
+- [Game Feel Evidence Pilot](../13_evidence/reports/GAME_FEEL_EVIDENCE_PILOT.md)
+- [Meaningful Decisions Evidence Pilot](../13_evidence/reports/MEANINGFUL_DECISIONS_EVIDENCE_PILOT.md)
+- [Systems Economy Playtest Evidence Pilot](../13_evidence/reports/SYSTEMS_ECONOMY_PLAYTEST_EVIDENCE_PILOT.md)
+
 ## Source Intake Decision Tree
 
 | Question | Action |

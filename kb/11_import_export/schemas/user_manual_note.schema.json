@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.usermanualnote.schema.v1",
+  "title": "GDKB UserManualNote",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "title",
+    "status",
+    "source_basis",
+    "confidence",
+    "phase_groups",
+    "domains",
+    "tags",
+    "related_entities",
+    "evidence_refs",
+    "created_at",
+    "updated_at",
+    "version",
+    "note_id",
+    "work_id",
+    "title",
+    "note_type",
+    "location",
+    "user_summary",
+    "user_interpretation",
+    "user_questions",
+    "related_concepts",
+    "related_cards",
+    "related_lenses",
+    "related_workflows"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "UserManualNote"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_basis": {
+      "type": "string",
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "phase_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "body_excerpt_safe": {
+      "type": "string"
+    },
+    "source_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw": {
+      "type": "object"
+    },
+    "note_id": {
+      "type": "string"
+    },
+    "manual_note_id": {
+      "type": "string"
+    },
+    "note_type": {
+      "enum": [
+        "chapter_note",
+        "concept_note",
+        "reading_reflection",
+        "method_note",
+        "comparison_note",
+        "project_application_note"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "user_summary": {
+      "type": "string"
+    },
+    "user_interpretation": {
+      "type": "string"
+    },
+    "user_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_concepts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_cards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_lenses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_workflows": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "source_document_id": {
+      "type": "string"
+    }
+  }
+}

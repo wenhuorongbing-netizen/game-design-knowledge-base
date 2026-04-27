@@ -20,6 +20,60 @@
 
 ## Remaining P1/P2 Work
 
+- [x] Create Evidence Intake Phase 1 architecture under `kb/13_evidence/`.
+- [x] Add future record folders for EvidenceRef, EvidenceGap, and EvidenceIntakeBatch records.
+- [x] Add evidence schemas for legal sidecars, manual notes, manual quotes, open source references, evidence refs, promotion requests, reviews, gaps, and intake batches.
+- [x] Extend importer and validator to recognize future evidence entities.
+- [x] Add validation rules for EvidenceRef required fields, legal evidence support, manual quote provenance, pending sidecars, and high-risk source evidence boundaries.
+- [x] Implement LegalSidecar workflow.
+- [x] Add `source_sidecar_template.yaml` with default `pending_review`.
+- [x] Add sidecar review guide, status index, and sidecar audit report.
+- [x] Add `legal_sidecar_ids` support to every SourceDocument.
+- [x] Add validator checks for sidecar references, approval status, full-processing safety, and high-risk `process_full_text`.
+- [x] Implement UserManualNote workflow.
+- [x] Implement UserManualQuote workflow.
+- [x] Add manual note and manual quote templates.
+- [x] Add manual note and manual quote example stubs that are ignored by importer.
+- [x] Add manual note intake report and manual quote audit report.
+- [x] Add validator checks for manual note source basis, quote source basis, quote length, user-provided quote status, automated extraction blocking, and high-risk quote sidecar review.
+- [x] Implement EvidenceRef graph and ClaimPromotion gate workflow.
+- [x] Add claim promotion request and review templates.
+- [x] Add generated claim promotion audit, unsupported claims index, and verified claims index.
+- [x] Add relationship types for evidence support, challenge, promotion, review, evidence gaps, project application, and playtest observation.
+- [x] Add validator checks for promotion reviewer/rationale, evidence refs, evidence-scope alignment, claim status/confidence conflicts, and local project/playtest observation boundaries.
+- [x] Set up Game Feel evidence pilot without parsing source bodies or promoting claims.
+- [x] Add Game Feel manual note and chapter note templates.
+- [x] Add Game Feel entity audit, evidence gap report, pilot report, and promotion backlog.
+- [x] Create evidence slots for audited Game Feel entities.
+- [ ] Review the Game Feel evidence pilot before adding real sidecars, notes, quotes, EvidenceRef records, or promotion requests.
+- [x] Set up Meaningful Decisions / Rules / Mechanics evidence pilot without parsing source bodies or promoting claims.
+- [x] Add Meaningful Decisions and Rules / Mechanics manual note templates.
+- [x] Add Meaningful Decisions entity audit, Rules / Mechanics evidence gap report, pilot report, and promotion backlog.
+- [x] Create evidence slots for meaningful decision definition, tradeoff/dilemma examples, chance/skill balance, formal elements, project choice failure, and playtest choice observations.
+- [ ] Review the Meaningful Decisions / Rules / Mechanics evidence pilot before adding real sidecars, notes, quotes, EvidenceRef records, or promotion requests.
+- [x] Set up Systems / Economy / Playtesting / ProjectOverlay evidence pilot without parsing source bodies, inventing project evidence, or promoting claims.
+- [x] Add systems design, economy balance, playtesting, project overlay evidence, playtest observation, and playtest decision templates.
+- [x] Add Systems / Economy / Playtesting pilot report, systems/economy entity audit, ProjectOverlay gap report, and PlaytestLog gap report.
+- [x] Create evidence slots for system loops, feedback/progression/power, economy source/sink/faucet/drain, balance, prototype/playtest planning, observation/iteration decisions, real project overlays, and real playtest logs.
+- [x] Add validator checks for ProjectOverlay scope, PlaytestLog observation separation, sample overlay/log unsupported_draft status, and project/playtest evidence boundaries.
+- [ ] Review the Systems / Economy / Playtesting / ProjectOverlay evidence pilot before adding real project overlays, playtest logs, sidecars, notes, quotes, EvidenceRef records, or promotion requests.
+- [x] Add evidence-aware navigation links to root and KB-local start pages.
+- [x] Add evidence-aware links to researcher, maintainer, source-governance, and quick-problem-solver paths.
+- [x] Create `kb/13_evidence/EVIDENCE_DASHBOARD.md`.
+- [x] Create `kb/13_evidence/EVIDENCE_STATUS_INDEX.md`.
+- [x] Create evidence navigation, search export, and portal audit reports.
+- [x] Extend search export with evidence_status, source_basis, confidence, is_verified, has_evidence_refs, evidence_gap_count, entity_scope, related_evidence_refs, and promotion_status.
+- [x] Add optional portal display support for evidence status fields when data contains them.
+- [ ] Add a canonical non-legacy portal data generator or evidence filters if the optional portal becomes an active deliverable.
+- [x] Review evidence-aware navigation and search before adding real evidence records.
+- [x] Complete Evidence Phase 1 final release audit.
+- [x] Create `EVIDENCE_PHASE_1_RELEASE_REPORT.md`.
+- [x] Create `EVIDENCE_PHASE_1_AUDIT.md`.
+- [x] Create `EVIDENCE_PHASE_1_GAP_BACKLOG.md`.
+- [x] Create `EVIDENCE_PHASE_2_ROADMAP.md`.
+- [x] Create updated acceptance, source-governance, and validation reports for Evidence Phase 1 closeout.
+- [x] Confirm no fake evidence was created and verified claims remain 0.
+- [x] Confirm Evidence Phase 2 may begin only with user-supplied evidence.
 - [x] Create role-based navigation under `kb/navigation/`.
 - [x] Create root `START_HERE.md`.
 - [x] Create first-time user repository map and usage guides.
@@ -43,8 +97,8 @@
 
 ## Next Exact Prompt
 
-Evidence intake is allowed only after the truth-alignment validation remains PASS. Do not parse high-risk source bodies.
+Evidence Phase 1 is complete. The next step is controlled intake of real user-supplied evidence.
 
 ```text
-build-evidence-intake-phase-1
+build-evidence-phase-2-first-user-evidence-intake
 ```

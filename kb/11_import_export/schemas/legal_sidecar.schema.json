@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.legalsidecar.schema.v1",
+  "title": "GDKB LegalSidecar",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "title",
+    "status",
+    "source_basis",
+    "confidence",
+    "phase_groups",
+    "domains",
+    "tags",
+    "related_entities",
+    "evidence_refs",
+    "created_at",
+    "updated_at",
+    "version",
+    "sidecar_id",
+    "source_document_id",
+    "work_id",
+    "access_basis",
+    "allowed_operations",
+    "prohibited_operations",
+    "approval_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "LegalSidecar"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_basis": {
+      "type": "string",
+      "enum": [
+        "open_fulltext",
+        "official_metadata",
+        "user_legal_file",
+        "user_manual_note",
+        "user_manual_quote",
+        "derived_from_user_note",
+        "derived_from_public_metadata",
+        "metadata_only",
+        "unsupported_draft"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "strong",
+        "medium",
+        "weak",
+        "unsupported_draft",
+        "user_interpretation",
+        "ai_hypothesis"
+      ]
+    },
+    "phase_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "body_excerpt_safe": {
+      "type": "string"
+    },
+    "source_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw": {
+      "type": "object"
+    },
+    "sidecar_id": {
+      "type": "string"
+    },
+    "source_document_id": {
+      "type": "string"
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "access_basis": {
+      "enum": [
+        "owned_physical_copy",
+        "purchased_ebook",
+        "library_access",
+        "official_open_access",
+        "publisher_permission",
+        "author_permission",
+        "public_domain",
+        "other"
+      ]
+    },
+    "approval_status": {
+      "enum": [
+        "pending_review",
+        "approved_metadata_only",
+        "approved_user_notes_only",
+        "approved_full_processing",
+        "rejected",
+        "expired"
+      ]
+    },
+    "user_confirms_legal_access": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "allowed_for_ai_processing": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "allowed_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "high_risk_marker_review": {
+      "type": "string"
+    },
+    "private_or_public": {
+      "enum": [
+        "private",
+        "public"
+      ]
+    },
+    "citation_preference": {
+      "type": "string"
+    },
+    "user_supplied_notes_path": {
+      "type": "string"
+    },
+    "user_supplied_quotes_path": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "review_date": {
+      "type": "string"
+    },
+    "expiration_date": {
+      "type": "string"
+    }
+  }
+}

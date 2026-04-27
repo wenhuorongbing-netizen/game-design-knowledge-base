@@ -36,6 +36,25 @@ If you only need a fast design answer, use [kb/DESIGNER_WORKFLOWS.md](kb/DESIGNE
 | Source governance reviewer | [kb/navigation/source_governance_path.md](kb/navigation/source_governance_path.md) |
 | Quick problem solver | [kb/navigation/quick_problem_solver.md](kb/navigation/quick_problem_solver.md) |
 
+## Evidence Status Quick Links
+
+Use these when you need to know whether something is draft, metadata-only, project-specific, or verified:
+
+- [Evidence Dashboard](kb/13_evidence/EVIDENCE_DASHBOARD.md)
+- [Evidence Status Index](kb/13_evidence/EVIDENCE_STATUS_INDEX.md)
+- [Evidence Intake Plan](kb/13_evidence/EVIDENCE_INTAKE_PLAN.md)
+- [Legal Sidecar Workflow](kb/13_evidence/sidecars/SIDECAR_REVIEW_GUIDE.md)
+- [User Manual Note Template](kb/13_evidence/manual_notes/user_manual_note_template.md)
+- [User Manual Quote Template](kb/13_evidence/manual_quotes/user_manual_quote_template.md)
+- [Claim Promotion Workflow](kb/13_evidence/CLAIM_PROMOTION_WORKFLOW.md)
+- [Priority Evidence Backlog](kb/13_evidence/PRIORITY_EVIDENCE_BACKLOG.md)
+- [Evidence Gap Register](kb/13_evidence/EVIDENCE_GAP_REGISTER.md)
+- [Verified Claims Index](kb/13_evidence/reports/VERIFIED_CLAIMS_INDEX.md)
+- [Unsupported Claims Index](kb/13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md)
+- [Game Feel Evidence Pilot](kb/13_evidence/reports/GAME_FEEL_EVIDENCE_PILOT.md)
+- [Meaningful Decisions Evidence Pilot](kb/13_evidence/reports/MEANINGFUL_DECISIONS_EVIDENCE_PILOT.md)
+- [Systems Economy Playtest Evidence Pilot](kb/13_evidence/reports/SYSTEMS_ECONOMY_PLAYTEST_EVIDENCE_PILOT.md)
+
 ## 4. I Want To Learn Game Design. Where Do I Go?
 
 Start with [kb/LEARNING_PATHS.md](kb/LEARNING_PATHS.md). It routes you through foundations, player experience, rules, systems, game feel, UI feedback, narrative, prototyping, playtesting, production, release, and ethics.

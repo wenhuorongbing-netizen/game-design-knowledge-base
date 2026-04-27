@@ -34,7 +34,8 @@
     "generate_dossier_from_user_notes",
     "generate_cards_from_user_notes",
     "generate_summary",
-    "generate_embeddings"
+    "generate_embeddings",
+    "process_full_text"
   ],
   "source_documents": [
     {
@@ -68,7 +69,10 @@
         "derive_claims_from_archive_contents"
       ],
       "recommended_user_action": "Provide a legal source sidecar and a clean extraction plan before any internal archive inspection.",
-      "notes": "Container recorded only by filename and size. No archive contents were listed or extracted."
+      "notes": "Container recorded only by filename and size. No archive contents were listed or extracted.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-user-rebuild-instruction",
@@ -104,7 +108,10 @@
         "parse_high_risk_source_body_text"
       ],
       "recommended_user_action": "Do not use as active instruction. Use KB_REBUILD_INSTRUCTION.md instead.",
-      "notes": "Historical BookOS/readings-app direction retained only for provenance; not an active KB source."
+      "notes": "Historical BookOS/readings-app direction retained only for provenance; not an active KB source.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-user-prompt-2-known-work-list",
@@ -140,7 +147,10 @@
         "generate_embeddings"
       ],
       "recommended_user_action": "Attach official metadata links, open sources, or legal files for prompt-referenced works that are not present in the upload set.",
-      "notes": "This source supports only the fact that the user wants these works tracked."
+      "notes": "This source supports only the fact that the user wants these works tracked.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-legacy-kb-snapshot",
@@ -173,7 +183,10 @@
         "reuse_derived_summaries_without_source_chain"
       ],
       "recommended_user_action": "Rebuild useful legacy ideas only after each claim is reattached to a governed source basis.",
-      "notes": "Legacy snapshot can guide migration planning, not verified knowledge."
+      "notes": "Legacy snapshot can guide migration planning, not verified knowledge.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-advanced-game-design-systems-approach-zlib",
@@ -215,7 +228,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-challenges-for-game-designers-zlib",
@@ -258,7 +274,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-characteristics-of-games-ann",
@@ -301,7 +320,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Metadata is filename-level only. Third author text appears incomplete in filename and needs official metadata verification."
+      "notes": "Metadata is filename-level only. Third author text appears incomplete in filename and needs official metadata verification.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-game-design-workshop-zlib",
@@ -343,7 +365,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-game-feel-epub-zlib",
@@ -385,7 +410,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Duplicate EPUB variant for the Game Feel work. No EPUB body or front matter was read."
+      "notes": "Duplicate EPUB variant for the Game Feel work. No EPUB body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-game-feel-pdf-zlib",
@@ -427,7 +455,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Duplicate PDF variant for the Game Feel work. No PDF body or front matter was read."
+      "notes": "Duplicate PDF variant for the Game Feel work. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-game-mechanics-epub-zlib",
@@ -467,7 +498,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Author names are not visible in the filename. Prompt 2 references Ernest Adams and Joris Dormans as likely work authors; verify using official metadata."
+      "notes": "Author names are not visible in the filename. Prompt 2 references Ernest Adams and Joris Dormans as likely work authors; verify using official metadata.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-level-up-epub-zlib",
@@ -509,7 +543,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No EPUB body or front matter was read."
+      "notes": "Detected from filename only. No EPUB body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-play-matters-pdf-zlib",
@@ -551,7 +588,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-aesthetic-of-play-pdf-zlib",
@@ -593,7 +633,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-art-of-game-design-annas",
@@ -634,7 +677,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Filename contains edition, year, publisher, and ISBN13. These remain filename-level metadata until verified against an official source."
+      "notes": "Filename contains edition, year, publisher, and ISBN13. These remain filename-level metadata until verified against an official source.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-game-design-reader-zlib",
@@ -677,7 +723,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-file-theory-of-fun-zlib",
@@ -719,7 +768,10 @@
         "create_cards_from_source_body"
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
-      "notes": "Detected from filename only. No PDF body or front matter was read."
+      "notes": "Detected from filename only. No PDF body or front matter was read.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     },
     {
       "source_document_id": "src-active-kb-rebuild-instruction",
@@ -753,7 +805,10 @@
         "create_verified_game_design_claims"
       ],
       "recommended_user_action": "Use as the active repository rebuild instruction.",
-      "notes": "Governance and scope instruction for the Game Design Knowledgebase repository; not evidence for game design claims."
+      "notes": "Governance and scope instruction for the Game Design Knowledgebase repository; not evidence for game design claims.",
+      "legal_sidecar_ids": [],
+      "sidecar_review_status": "pending_review",
+      "allowed_for_ai_processing": false
     }
   ],
   "source_risks": [
@@ -779,5 +834,23 @@
     "Prompt 2 used filenames, file types, file sizes, user-provided requested work list, and existing governance only.",
     "No high-risk source body text was summarized, quoted, embedded, or transformed.",
     "High-risk documents remain usable only as metadata handles until the user provides legal sidecars."
-  ]
+  ],
+  "sidecar_policy": {
+    "schema_version": "gdkb.source_sidecar_policy.v1",
+    "sidecar_field": "legal_sidecar_ids",
+    "default_sidecar_status": "pending_review",
+    "default_ai_processing_permission": false,
+    "no_source_upgrades_automatically": true,
+    "high_risk_sources_remain_metadata_only_quarantined_until_explicit_review": true,
+    "full_processing_requires_approval_status": "approved_full_processing",
+    "high_risk_full_processing_requires_reviewer": true,
+    "allowed_sidecar_approval_statuses": [
+      "pending_review",
+      "approved_metadata_only",
+      "approved_user_notes_only",
+      "approved_full_processing",
+      "rejected",
+      "expired"
+    ]
+  }
 }

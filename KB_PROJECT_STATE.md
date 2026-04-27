@@ -4,7 +4,7 @@ Date: 2026-04-27
 
 ## Current Milestone
 
-Truth-alignment final fix complete for the Game Design Knowledgebase repository.
+Evidence Intake Phase 1 final audit complete. The repository is accepted for draft/source-governed KB operation and blocked for verified source-backed masterclass status until user evidence is supplied.
 
 ## Verdict
 
@@ -17,11 +17,108 @@ Truth-alignment final fix complete for the Game Design Knowledgebase repository.
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in current local repository state
-- Evidence intake status: allowed only after this truth-alignment validation remains PASS
+- Evidence intake status: Phase 1 complete. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, final Phase 1 release/audit reports, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Completed Evidence Phase 1 final release audit.
+- Added `EVIDENCE_PHASE_1_RELEASE_REPORT.md`.
+- Added `EVIDENCE_PHASE_1_AUDIT.md`.
+- Added `EVIDENCE_PHASE_1_GAP_BACKLOG.md`.
+- Added `EVIDENCE_PHASE_2_ROADMAP.md`.
+- Added `UPDATED_KB_ACCEPTANCE_REVIEW.md`.
+- Added `UPDATED_SOURCE_GOVERNANCE_AUDIT.md`.
+- Added `UPDATED_VALIDATION_REPORT.md`.
+- Confirmed draft/source-governed KB verdict is `ACCEPTED`.
+- Confirmed verified source-backed masterclass verdict is `BLOCKED_PENDING_USER_EVIDENCE`.
+- Confirmed current evidence record counts remain 0 for LegalSidecar, UserManualNote, UserManualQuote, EvidenceRef, ClaimPromotionRequest, and ClaimPromotionReview.
+- Confirmed no claim was promoted and verified claims remain 0.
+- Confirmed Evidence Phase 2 may begin only as user-supplied evidence intake.
+- Completed evidence-aware navigation, search export, and portal visibility setup without parsing source bodies or adding evidence records.
+- Added `kb/13_evidence/EVIDENCE_DASHBOARD.md`.
+- Added `kb/13_evidence/EVIDENCE_STATUS_INDEX.md`.
+- Added `kb/13_evidence/reports/EVIDENCE_NAVIGATION_REPORT.md`.
+- Added `kb/13_evidence/reports/EVIDENCE_SEARCH_EXPORT_REPORT.md`.
+- Added `kb/13_evidence/reports/EVIDENCE_PORTAL_AUDIT.md`.
+- Updated root and KB-local start pages plus navigation paths to link evidence workflows, claim indexes, and pilot reports.
+- Extended `search_index.json` records with `evidence_status`, `is_verified`, `has_evidence_refs`, `evidence_gap_count`, `entity_scope`, `related_evidence_refs`, `promotion_status`, and `evidence_gap`.
+- Updated the optional static portal so detail views can display evidence status fields when present.
+- Documented portal evidence filtering as a P1 follow-up because root authoritative scripts do not regenerate portal data.
+- Confirmed evidence-aware search export covers 737 search documents with all required evidence fields present.
+- Confirmed current verified search documents remain 0 and current search documents with EvidenceRef records remain 0.
+- Completed a limited Systems / Economy / Playtesting / ProjectOverlay evidence pilot setup without parsing source bodies, inventing project evidence, or promoting claims.
+- Added `kb/13_evidence/manual_notes/systems_design_note_template.md`.
+- Added `kb/13_evidence/manual_notes/economy_balance_note_template.md`.
+- Added `kb/13_evidence/manual_notes/playtesting_note_template.md`.
+- Added `kb/13_evidence/manual_notes/project_overlay_evidence_template.md`.
+- Added `kb/13_evidence/manual_notes/playtest_observation_template.md`.
+- Added `kb/13_evidence/manual_notes/playtest_decision_template.md`.
+- Added `kb/13_evidence/reports/SYSTEMS_ECONOMY_PLAYTEST_EVIDENCE_PILOT.md`.
+- Added `kb/13_evidence/reports/systems_economy_entity_audit.md`.
+- Added `kb/13_evidence/reports/project_overlay_evidence_gap_report.md`.
+- Added `kb/13_evidence/reports/playtest_log_evidence_gap_report.md`.
+- Audited 553 systems/economy/playtesting/project evidence-related entities and created 8 priority evidence slots.
+- Confirmed sample ProjectOverlay and PlaytestLog records remain `unsupported_draft` and are not evidence.
+- Added validation checks for ProjectOverlay scope, PlaytestLog observation separation, sample overlay/log draft status, and project/playtest evidence boundaries for verified general claims.
+- Confirmed no system, economy, playtesting, ProjectOverlay, or PlaytestLog claim was promoted.
+- Completed a limited Meaningful Decisions / Rules / Mechanics evidence pilot setup without parsing source bodies or promoting claims.
+- Added `kb/13_evidence/manual_notes/meaningful_decisions_note_template.md`.
+- Added `kb/13_evidence/manual_notes/rules_mechanics_note_template.md`.
+- Added `kb/13_evidence/reports/MEANINGFUL_DECISIONS_EVIDENCE_PILOT.md`.
+- Added `kb/13_evidence/reports/meaningful_decisions_entity_audit.md`.
+- Added `kb/13_evidence/reports/rules_mechanics_evidence_gap_report.md`.
+- Added `kb/13_evidence/promotion_requests/meaningful_decisions_promotion_backlog.md` as a non-entity backlog.
+- Audited 239 meaningful-decision/rules/mechanics-related entities and created 6 priority evidence slots.
+- Confirmed all Pilot B targets remain draft/source-governed unless future legal evidence and reviewer approval exist.
+- Confirmed no meaningful decision, rules, mechanics, formal elements, skill/chance, challenge, or balance claim was promoted.
+- Completed a limited Game Feel evidence pilot setup without parsing source bodies or promoting claims.
+- Added `kb/13_evidence/manual_notes/game_feel_note_template.md`.
+- Added `kb/13_evidence/manual_notes/game_feel_chapter_note_template.md`.
+- Added `kb/13_evidence/reports/GAME_FEEL_EVIDENCE_PILOT.md`.
+- Added `kb/13_evidence/reports/game_feel_evidence_gap_report.md`.
+- Added `kb/13_evidence/reports/game_feel_entity_audit.md`.
+- Added `kb/13_evidence/promotion_requests/game_feel_promotion_backlog.md` as a non-entity backlog.
+- Audited 108 game-feel-related entities and created 108 evidence slots.
+- Confirmed all audited game-feel entities currently have 0 EvidenceRef records and remain draft/source-governed.
+- Confirmed no Game Feel claim was promoted and no verified claims were created.
+- Updated importer/validator ignore rules so pilot reports and backlogs are not mistaken for evidence entities.
+- Implemented the EvidenceRef graph and ClaimPromotion gate.
+- Rewrote `kb/13_evidence/CLAIM_PROMOTION_WORKFLOW.md` with verified-claim gates, promotion levels, scope rules, and project/playtest boundary rules.
+- Added ClaimPromotionRequest and ClaimPromotionReview templates plus ignored example stubs.
+- Added generated claim promotion audit reports: `CLAIM_PROMOTION_AUDIT.md`, `UNSUPPORTED_CLAIMS_INDEX.md`, and `VERIFIED_CLAIMS_INDEX.md`.
+- Added relationship types for `supported_by`, `challenged_by`, `evidence_for`, `evidence_against`, `promoted_from`, `reviewed_by`, `blocked_by_evidence_gap`, `applies_in_project`, and `observed_in_playtest`.
+- Extended importer graph export to represent evidence support, challenge, promotion review, evidence gaps, project application, and playtest observation edges.
+- Extended validator checks for promotion request reviewer/rationale, target claims, EvidenceRef IDs, evidence-scope alignment, promotion review reviewer/rationale, claim status/confidence conflicts, and project/playtest universal-doctrine misuse.
+- Updated source audit tooling to generate claim promotion audit and unsupported/verified claim indexes.
+- Confirmed current verified claims remain 0 and no unsupported claim was promoted.
+- Implemented the UserManualNote workflow under `kb/13_evidence/manual_notes/`.
+- Implemented the UserManualQuote workflow under `kb/13_evidence/manual_quotes/`.
+- Added manual note and manual quote templates plus ignored example stubs.
+- Added manual note intake and manual quote audit reports.
+- Updated UserManualNote and UserManualQuote schemas to match the evidence workflow fields.
+- Extended importer support for `note_id`, `quote_id`, manual note routing, manual quote routing, and safe manual quote search filtering.
+- Extended validator checks for manual note source basis, user interpretation confidence, note type/status, quote source basis, quote status, quote word count, user-provided quote status, automated extraction blocking, and high-risk quote sidecar review.
+- Kept templates and example stubs out of imports so no fake notes or quotes enter the KB.
+- Did not parse private sources, summarize source files, extract quotes, or promote claims.
+- Implemented the LegalSidecar workflow under `kb/13_evidence/sidecars/`.
+- Added `source_sidecar_template.yaml` with default `approval_status: pending_review` and `allowed_for_ai_processing: false`.
+- Added sidecar README, review guide, status index, and generated sidecar audit report.
+- Added `kb/01_sources/USER_REQUIRED_EVIDENCE.md`.
+- Updated `kb/01_sources/sources.json` so every SourceDocument can link `legal_sidecar_ids`.
+- Preserved all high-risk sources as `metadata_only_quarantined`; no source was upgraded automatically.
+- Extended importer and validator for YAML sidecar records while ignoring sidecar templates and documentation.
+- Added validator checks for sidecar source/work references, missing approval status, default full-processing risk, source AI-processing without sidecar, and high-risk `process_full_text` without explicit sidecar approval.
+- Updated source governance audit to generate `kb/13_evidence/reports/SIDECAR_AUDIT_REPORT.md`.
+- Created `kb/13_evidence/` as the canonical evidence intake architecture layer, including future record folders for sidecars, manual notes, manual quotes, open sources, evidence refs, evidence gaps, intake batches, promotion requests, reviews, and reports.
+- Added LegalSidecar, UserManualNote, UserManualQuote, OpenSourceReference, OfficialMetadataReference, EvidenceRef, ClaimPromotionRequest, ClaimPromotionReview, EvidenceGap, EvidenceIntakeBatch, and EvidenceAuditReport concepts.
+- Added evidence intake plan, evidence reference schema documentation, claim promotion workflow, gap register, priority evidence backlog, and validation rules.
+- Added JSON schemas under `kb/13_evidence/schemas/`.
+- Extended the importer so future evidence entities can be scanned, normalized, schema-generated, exported, searched, and connected to the graph.
+- Extended the validator so EvidenceRef records, user manual quotes, sidecar status, verified-claim evidence requirements, and high-risk source evidence boundaries are checked.
+- Did not create legal sidecars, manual notes, manual quotes, or EvidenceRef records.
+- Did not promote any claim to verified.
+- Did not parse or summarize high-risk source body text.
 - Moved placeholder notes for quote, comparison, exercise, anti-pattern, and case-study card folders into `kb/05_cards/PLACEHOLDER_CARD_FOLDERS.md`.
 - Removed README placeholders from entity scan folders to eliminate `placeholder_readme_in_entity_folder` accepted exceptions.
 - Updated `ENTITY_TYPE_MIGRATION_PLAN.md` with the README-placeholder follow-up cleanup.
@@ -68,6 +165,30 @@ Truth-alignment final fix complete for the Game Design Knowledgebase repository.
 
 - High-risk sources remain metadata-only.
 - Approved legal sidecars: 0.
+- LegalSidecar records: 0.
+- Sources with sidecar link field: 18.
+- Sources allowing AI processing: 0.
+- High-risk sources with `process_full_text`: 0.
+- UserManualNote records: 0.
+- UserManualQuote records: 0.
+- Manual quotes generated from source body: 0.
+- EvidenceRef records: 0.
+- ClaimPromotionRequest records: 0.
+- ClaimPromotionReview records: 0.
+- Game Feel entities audited: 108.
+- Game Feel evidence slots created: 108.
+- Meaningful Decisions / Rules / Mechanics entities audited: 239.
+- Meaningful Decisions / Rules / Mechanics evidence slots created: 6.
+- Systems / Economy / Playtesting / ProjectOverlay entities audited: 553.
+- Systems / Economy / Playtesting / ProjectOverlay evidence slots created: 8.
+- ProjectOverlay records audited: 1 sample, unsupported_draft.
+- PlaytestLog records audited: 1 sample, unsupported_draft.
+- Evidence-aware search documents: 737.
+- Verified search documents: 0.
+- Search documents with EvidenceRef records: 0.
+- Search documents with evidence gaps: 657.
+- Search documents with required evidence fields present: 737.
+- Unsupported or unverified claims indexed: 164.
 - Verified source-backed claims: 0.
 - High-risk body extraction: disabled.
 - Embeddings from high-risk sources: not generated.
@@ -75,6 +196,7 @@ Truth-alignment final fix complete for the Game Design Knowledgebase repository.
 
 ## Validation Summary
 
+- Import/export counts: 859 entities, 8405 relationships, 737 search documents.
 - Import errors: 0.
 - Import warnings: 0.
 - Validator P0 issues: 0.
@@ -87,10 +209,10 @@ Truth-alignment final fix complete for the Game Design Knowledgebase repository.
 Next recommended work:
 
 ```text
-build-evidence-intake-phase-1
+build-evidence-phase-2-first-user-evidence-intake
 ```
 
-This next action is permitted only because `npm run kb:validate` and `npm run kb:audit` currently pass with 0 P0 issues, 0 warnings, and 0 accepted exceptions. Evidence intake must remain metadata-safe unless legal sidecars, user notes, or open/legal sources permit stronger use.
+This next action should ingest the first user-supplied legal sidecar and manual notes. It must not parse high-risk source bodies, create fake evidence, or promote claims beyond the evidence supplied and reviewed.
 
 ## Do-Not-Redo List
 

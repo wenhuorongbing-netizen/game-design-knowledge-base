@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.claim_promotion_review.v1",
+  "title": "GDKB ClaimPromotionReview",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "claim_promotion_review_id",
+    "request_id",
+    "decision",
+    "reviewer",
+    "decision_rationale",
+    "source_basis",
+    "confidence",
+    "status",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "ClaimPromotionReview" },
+    "claim_promotion_review_id": { "type": "string", "minLength": 1 },
+    "request_id": { "type": "string", "minLength": 1 },
+    "decision": { "enum": ["accept", "approved", "reject", "rejected", "defer", "deferred", "needs_more_evidence", "blocked"] },
+    "reviewer": { "type": "string", "minLength": 1 },
+    "decision_rationale": { "type": "string", "minLength": 1 },
+    "evidence_ref_ids": { "type": "array", "items": { "type": "string" } },
+    "approved_confidence": { "enum": ["", "unsupported_draft", "ai_hypothesis", "user_interpretation", "weak", "medium", "strong", "verified"] },
+    "verified_date": { "type": "string" },
+    "limitations": { "type": ["string", "array"] },
+    "source_basis": { "enum": ["derived_from_user_note", "user_manual_note", "official_metadata", "open_fulltext", "user_legal_file"] },
+    "confidence": { "enum": ["verified", "strong", "medium", "weak", "user_interpretation"] },
+    "status": { "enum": ["draft", "final", "superseded", "archived"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

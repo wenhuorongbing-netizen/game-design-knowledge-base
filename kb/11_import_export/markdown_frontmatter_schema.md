@@ -61,6 +61,9 @@ Every Markdown entity must include:
 - `normalized_title`
 - `risk_level`
 - `ingestion_status`
+- `legal_sidecar_ids`
+- `sidecar_review_status`
+- `allowed_for_ai_processing`
 - `allowed_operations`
 - `prohibited_operations`
 
@@ -213,6 +216,106 @@ Quote cards are allowed only for `user_manual_quote`, `open_fulltext`, or `user_
 - `design_decisions`
 - `playtest_logs`
 - `general_kb_entities_applied`
+
+### EvidenceRef
+
+- `evidence_ref_id`
+- `evidence_type`
+- `evidence_scope`
+- `source_basis`
+- `confidence`
+- `supports_entity_ids`
+- `supports_claim_ids`
+- `limitations`
+- `reviewer`
+
+`metadata_only`, `unsupported_draft`, and `ai_hypothesis` cannot support verified claims.
+
+### LegalSidecar
+
+- `sidecar_id`
+- `source_document_id`
+- `work_id`
+- `user_confirms_legal_access`
+- `access_basis`
+- `allowed_for_ai_processing`
+- `allowed_operations`
+- `prohibited_operations`
+- `high_risk_marker_review`
+- `private_or_public`
+- `citation_preference`
+- `user_supplied_notes_path`
+- `user_supplied_quotes_path`
+- `approval_status`
+- `reviewer`
+- `review_date`
+- `expiration_date`
+- `notes`
+
+Pending sidecars cannot promote or verify claims.
+
+### UserManualNote
+
+- `note_id`
+- `work_id`
+- `source_document_id`
+- `sidecar_id`
+- `note_type`
+- `location`
+- `user_summary`
+- `user_interpretation`
+- `user_questions`
+- `related_concepts`
+- `related_cards`
+- `related_lenses`
+- `related_workflows`
+
+Manual notes must use `source_basis: user_manual_note` and `confidence: user_interpretation`.
+
+### UserManualQuote
+
+- `quote_id`
+- `work_id`
+- `source_document_id`
+- `sidecar_id`
+- `quote_text`
+- `quote_length_words`
+- `location`
+- `user_commentary`
+- `why_it_matters`
+- `related_concepts`
+- `related_cards`
+- `user_provided`
+- `automated_extraction`
+- `generated_from_source_body`
+
+Manual quotes must use `source_basis: user_manual_quote`, must be explicitly user-provided, and must not exceed 80 words.
+
+Manual quotes must be explicitly user-provided and should remain short.
+
+### ClaimPromotionRequest
+
+- `claim_promotion_request_id`
+- `target_claim_ids`
+- `evidence_ref_ids`
+- `proposed_confidence`
+- `requested_by`
+- `reviewer`
+- `rationale`
+- `evidence_scope_alignment`
+- `within_evidence_scope`
+- `evidence_gap_ids`
+
+### ClaimPromotionReview
+
+- `claim_promotion_review_id`
+- `request_id`
+- `decision`
+- `reviewer`
+- `decision_rationale`
+- `evidence_ref_ids`
+- `approved_confidence`
+- `limitations`
 
 ### ForumThreadTemplate
 

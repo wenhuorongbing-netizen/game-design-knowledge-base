@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.open_source_reference.v1",
+  "title": "GDKB OpenSourceReference",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "open_source_reference_id",
+    "url",
+    "license_or_access_basis",
+    "source_basis",
+    "confidence",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "OpenSourceReference" },
+    "open_source_reference_id": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "minLength": 1 },
+    "license_or_access_basis": { "type": "string", "minLength": 1 },
+    "access_date": { "type": "string" },
+    "source_basis": { "enum": ["open_fulltext", "derived_from_public_metadata"] },
+    "confidence": { "enum": ["verified", "strong", "medium", "weak"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

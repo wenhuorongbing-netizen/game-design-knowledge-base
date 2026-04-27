@@ -19,7 +19,8 @@
     "created_at",
     "updated_at",
     "version",
-    "project_id"
+    "project_id",
+    "entity_scope"
   ],
   "properties": {
     "id": {
@@ -119,6 +120,12 @@
     },
     "project_id": {
       "type": "string"
+    },
+    "entity_scope": {
+      "type": "string",
+      "enum": [
+        "project_overlay"
+      ]
     },
     "linked_workflows": {
       "type": "array",

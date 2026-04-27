@@ -40,6 +40,22 @@ const STRONG_SOURCE_BASIS = new Set([
   "derived_from_user_note"
 ]);
 
+const LEGAL_EVIDENCE_SOURCE_BASIS = new Set([
+  "open_fulltext",
+  "official_metadata",
+  "user_legal_file",
+  "user_manual_note",
+  "user_manual_quote",
+  "derived_from_user_note",
+  "derived_from_public_metadata"
+]);
+
+const INSUFFICIENT_VERIFIED_EVIDENCE_BASIS = new Set([
+  "metadata_only",
+  "unsupported_draft",
+  "ai_hypothesis"
+]);
+
 const SAFE_BODY_SOURCE_BASIS = new Set([
   "open_fulltext",
   "official_metadata",
@@ -49,6 +65,20 @@ const SAFE_BODY_SOURCE_BASIS = new Set([
   "derived_from_user_note",
   "derived_from_public_metadata",
   "unsupported_draft"
+]);
+
+const EVIDENCE_ENTITY_TYPES = new Set([
+  "LegalSidecar",
+  "UserManualNote",
+  "UserManualQuote",
+  "OpenSourceReference",
+  "OfficialMetadataReference",
+  "EvidenceRef",
+  "ClaimPromotionRequest",
+  "ClaimPromotionReview",
+  "EvidenceGap",
+  "EvidenceIntakeBatch",
+  "EvidenceAuditReport"
 ]);
 
 const KNOWLEDGE_ENTITY_TYPES = new Set([
@@ -69,7 +99,8 @@ const KNOWLEDGE_ENTITY_TYPES = new Set([
   "ProjectOverlay",
   "PlaytestLog",
   "ForumThreadTemplate",
-  "Claim"
+  "Claim",
+  ...EVIDENCE_ENTITY_TYPES
 ]);
 
 const ENTITY_SCAN_DIRS = [
@@ -91,7 +122,17 @@ const ENTITY_SCAN_DIRS = [
   { dir: "08_workflows/exercises", defaultType: "Exercise" },
   { dir: "08_workflows/prompts", defaultType: "PromptTemplate" },
   { dir: "09_project_overlays/overlays", defaultType: "ProjectOverlay" },
-  { dir: "09_project_overlays/playtest_logs", defaultType: "PlaytestLog" }
+  { dir: "09_project_overlays/playtest_logs", defaultType: "PlaytestLog" },
+  { dir: "13_evidence/sidecars", defaultType: "LegalSidecar" },
+  { dir: "13_evidence/manual_notes", defaultType: "UserManualNote" },
+  { dir: "13_evidence/manual_quotes", defaultType: "UserManualQuote" },
+  { dir: "13_evidence/open_sources", defaultType: "OpenSourceReference" },
+  { dir: "13_evidence/evidence_refs", defaultType: "EvidenceRef" },
+  { dir: "13_evidence/evidence_gaps", defaultType: "EvidenceGap" },
+  { dir: "13_evidence/batches", defaultType: "EvidenceIntakeBatch" },
+  { dir: "13_evidence/promotion_requests", defaultType: "ClaimPromotionRequest" },
+  { dir: "13_evidence/reviews", defaultType: "ClaimPromotionReview" },
+  { dir: "13_evidence/reports", defaultType: "EvidenceAuditReport" }
 ];
 
 const ID_FIELDS = [
@@ -109,6 +150,19 @@ const ID_FIELDS = [
   "playtest_log_id",
   "forum_thread_template_id",
   "claim_id",
+  "sidecar_id",
+  "note_id",
+  "manual_note_id",
+  "quote_id",
+  "manual_quote_id",
+  "open_source_reference_id",
+  "official_metadata_reference_id",
+  "evidence_ref_id",
+  "claim_promotion_request_id",
+  "claim_promotion_review_id",
+  "evidence_gap_id",
+  "evidence_intake_batch_id",
+  "evidence_audit_report_id",
   "work_id",
   "domain_id",
   "phase_id",
@@ -332,6 +386,19 @@ function normalizeEntity(raw, options = {}) {
     ...asArray(raw.exercise_ids),
     ...asArray(raw.source_documents),
     ...asArray(raw.source_ids),
+    ...asArray(raw.supports_entity_ids),
+    ...asArray(raw.supports_claim_ids),
+    ...asArray(raw.source_document_id),
+    ...asArray(raw.work_id),
+    ...asArray(raw.sidecar_id),
+    ...asArray(raw.note_id),
+    ...asArray(raw.manual_note_id),
+    ...asArray(raw.quote_id),
+    ...asArray(raw.manual_quote_id),
+    ...asArray(raw.open_source_reference_id),
+    ...asArray(raw.official_metadata_reference_id),
+    ...asArray(raw.evidence_ref_ids),
+    ...asArray(raw.claim_promotion_request_id),
     ...evidenceRefs
   ]);
   const normalized = {
@@ -386,6 +453,71 @@ function normalizeEntity(raw, options = {}) {
   if (normalized.entity_type === "BookDossier") {
     normalized.work_id = String(firstNonEmpty(raw.work_id, ""));
   }
+  if (normalized.entity_type === "EvidenceRef") {
+    normalized.evidence_ref_id = String(firstNonEmpty(raw.evidence_ref_id, raw.id, ""));
+    normalized.evidence_type = String(firstNonEmpty(raw.evidence_type, ""));
+    normalized.evidence_scope = String(firstNonEmpty(raw.evidence_scope, ""));
+    normalized.supports_entity_ids = cleanArray(raw.supports_entity_ids);
+    normalized.supports_claim_ids = cleanArray(raw.supports_claim_ids);
+  }
+  if (normalized.entity_type === "LegalSidecar") {
+    normalized.sidecar_id = String(firstNonEmpty(raw.sidecar_id, raw.id, ""));
+    normalized.approval_status = String(firstNonEmpty(raw.approval_status, raw.legal_review_status, raw.status, ""));
+  }
+  if (normalized.entity_type === "UserManualNote") {
+    normalized.note_id = String(firstNonEmpty(raw.note_id, raw.manual_note_id, raw.id, ""));
+    normalized.manual_note_id = String(firstNonEmpty(raw.manual_note_id, raw.note_id, raw.id, ""));
+    normalized.user_provided = Boolean(firstNonEmpty(raw.user_provided, raw.user_confirms_note_supplied, false));
+    normalized.note_type = String(firstNonEmpty(raw.note_type, ""));
+    normalized.user_interpretation = String(firstNonEmpty(raw.user_interpretation, ""));
+  }
+  if (normalized.entity_type === "UserManualQuote") {
+    normalized.quote_id = String(firstNonEmpty(raw.quote_id, raw.manual_quote_id, raw.id, ""));
+    normalized.manual_quote_id = String(firstNonEmpty(raw.manual_quote_id, raw.quote_id, raw.id, ""));
+    normalized.user_provided = Boolean(firstNonEmpty(raw.user_provided, raw.user_confirms_quote_supplied, false));
+    normalized.quote_length_words = Number(firstNonEmpty(raw.quote_length_words, 0));
+  }
+  if (normalized.entity_type === "OpenSourceReference") {
+    normalized.open_source_reference_id = String(firstNonEmpty(raw.open_source_reference_id, raw.id, ""));
+    normalized.url = String(firstNonEmpty(raw.url, raw.source_url, ""));
+  }
+  if (normalized.entity_type === "OfficialMetadataReference") {
+    normalized.official_metadata_reference_id = String(firstNonEmpty(raw.official_metadata_reference_id, raw.id, ""));
+    normalized.url = String(firstNonEmpty(raw.url, raw.source_url, ""));
+  }
+  if (normalized.entity_type === "ClaimPromotionRequest") {
+    normalized.claim_promotion_request_id = String(firstNonEmpty(raw.claim_promotion_request_id, raw.id, ""));
+    normalized.target_claim_ids = cleanArray(raw.target_claim_ids);
+    normalized.evidence_ref_ids = cleanArray(raw.evidence_ref_ids);
+    normalized.proposed_confidence = String(firstNonEmpty(raw.proposed_confidence, ""));
+    normalized.requested_by = String(firstNonEmpty(raw.requested_by, ""));
+    normalized.reviewer = String(firstNonEmpty(raw.reviewer, ""));
+    normalized.rationale = String(firstNonEmpty(raw.rationale, raw.promotion_rationale, ""));
+    normalized.evidence_scope_alignment = String(firstNonEmpty(raw.evidence_scope_alignment, ""));
+    normalized.within_evidence_scope = Boolean(firstNonEmpty(raw.within_evidence_scope, false));
+  }
+  if (normalized.entity_type === "ClaimPromotionReview") {
+    normalized.claim_promotion_review_id = String(firstNonEmpty(raw.claim_promotion_review_id, raw.id, ""));
+    normalized.request_id = String(firstNonEmpty(raw.request_id, raw.claim_promotion_request_id, ""));
+    normalized.decision = String(firstNonEmpty(raw.decision, ""));
+    normalized.reviewer = String(firstNonEmpty(raw.reviewer, ""));
+    normalized.decision_rationale = String(firstNonEmpty(raw.decision_rationale, raw.rationale, ""));
+    normalized.evidence_ref_ids = cleanArray(raw.evidence_ref_ids);
+    normalized.approved_confidence = String(firstNonEmpty(raw.approved_confidence, ""));
+  }
+  if (normalized.entity_type === "EvidenceGap") {
+    normalized.evidence_gap_id = String(firstNonEmpty(raw.evidence_gap_id, raw.id, ""));
+    normalized.affected_entity_ids = cleanArray(raw.affected_entity_ids);
+    normalized.affected_claim_ids = cleanArray(raw.affected_claim_ids);
+  }
+  if (normalized.entity_type === "EvidenceIntakeBatch") {
+    normalized.evidence_intake_batch_id = String(firstNonEmpty(raw.evidence_intake_batch_id, raw.id, ""));
+    normalized.batch_items = cleanArray(raw.batch_items);
+  }
+  if (normalized.entity_type === "EvidenceAuditReport") {
+    normalized.evidence_audit_report_id = String(firstNonEmpty(raw.evidence_audit_report_id, raw.id, ""));
+    normalized.audit_scope = String(firstNonEmpty(raw.audit_scope, ""));
+  }
   return normalized;
 }
 
@@ -411,26 +543,47 @@ function safeExcerptFor(entity, sections) {
   return joined.slice(0, 800);
 }
 
-function listMarkdownFiles(relDir) {
+function listEntityFiles(relDir) {
   const dir = path.join(KB_DIR, relDir);
   if (!fs.existsSync(dir)) return [];
+  const isEvidenceDir = relDir.replace(/\\/g, "/").startsWith("13_evidence/");
   return fs.readdirSync(dir)
-    .filter((name) => name.endsWith(".md"))
+    .filter((name) => [".md", ".yaml", ".yml"].includes(path.extname(name).toLowerCase()))
     .filter((name) => name.toLowerCase() !== "readme.md")
+    .filter((name) => {
+      const lower = name.toLowerCase();
+      if (!isEvidenceDir) return true;
+      return !lower.includes("template") && !lower.includes("example") && !lower.includes("guide") && !lower.includes("index") && !lower.includes("backlog") && !lower.includes("sidecar_audit_report") && !lower.includes("manual_note_intake_report") && !lower.includes("manual_quote_audit_report") && !lower.includes("claim_promotion_audit") && !lower.includes("game_feel_evidence_pilot") && !lower.includes("game_feel_evidence_gap_report") && !lower.includes("game_feel_entity_audit") && !lower.includes("meaningful_decisions_evidence_pilot") && !lower.includes("rules_mechanics_evidence_gap_report") && !lower.includes("meaningful_decisions_entity_audit") && !lower.includes("systems_economy_playtest_evidence_pilot") && !lower.includes("project_overlay_evidence_gap_report") && !lower.includes("playtest_log_evidence_gap_report") && !lower.includes("systems_economy_entity_audit") && !lower.includes("evidence_navigation_report") && !lower.includes("evidence_search_export_report") && !lower.includes("evidence_portal_audit");
+    })
     .filter((name) => !name.toLowerCase().endsWith("_template.md"))
     .filter((name) => !name.toLowerCase().endsWith("-template.md"))
     .filter((name) => name.toLowerCase() !== "project_overlay_template.md")
     .map((name) => path.join(dir, name));
 }
 
+function parseYamlLike(text) {
+  const data = {};
+  for (const line of text.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+    const match = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/);
+    if (!match) continue;
+    data[match[1]] = parseScalar(match[2]);
+  }
+  return data;
+}
+
 function collectMarkdownEntities(issues) {
   const entities = [];
   for (const scan of ENTITY_SCAN_DIRS) {
-    for (const filePath of listMarkdownFiles(scan.dir)) {
-      const markdown = readText(filePath);
-      const { frontmatter, body } = parseFrontmatter(markdown);
+    for (const filePath of listEntityFiles(scan.dir)) {
+      const content = readText(filePath);
+      const isMarkdown = path.extname(filePath).toLowerCase() === ".md";
+      const { frontmatter, body } = isMarkdown
+        ? parseFrontmatter(content)
+        : { frontmatter: parseYamlLike(content), body: "" };
       if (!frontmatter) {
-        issues.push(issue("warning", "missing_frontmatter", path.relative(ROOT, filePath), "Markdown entity candidate has no YAML frontmatter."));
+        issues.push(issue("warning", "missing_frontmatter", path.relative(ROOT, filePath), "Entity candidate has no YAML frontmatter or YAML fields."));
         continue;
       }
       const entityType = inferMarkdownEntityType(frontmatter, scan.defaultType);
@@ -659,7 +812,12 @@ function createSchemas() {
     "source_document.schema.json": schema("GDKB SourceDocument", "SourceDocument", [], {
       original_filename: { type: "string" },
       risk_level: { enum: ["low", "medium", "high", "unknown"] },
-      ingestion_status: { type: "string" }
+      ingestion_status: { type: "string" },
+      legal_sidecar_ids: { type: "array", items: { type: "string" } },
+      sidecar_review_status: { type: "string" },
+      allowed_for_ai_processing: { type: ["boolean", "string"] },
+      allowed_operations: { type: "array", items: { type: "string" } },
+      prohibited_operations: { type: "array", items: { type: "string" } }
     }),
     "work.schema.json": schema("GDKB GameDesignWork", "GameDesignWork", [], {
       author_names: { type: "array", items: { type: "string" } },
@@ -719,15 +877,17 @@ function createSchemas() {
       guardrails: { type: "array", items: { type: "string" }, minItems: 1 },
       expected_output_format: { type: "array", items: { type: "string" } }
     }),
-    "project_overlay.schema.json": schema("GDKB ProjectOverlay", "ProjectOverlay", ["project_id"], {
+    "project_overlay.schema.json": schema("GDKB ProjectOverlay", "ProjectOverlay", ["project_id", "entity_scope"], {
       project_id: { type: "string" },
+      entity_scope: { type: "string", enum: ["project_overlay"] },
       linked_workflows: { type: "array", items: { type: "string" } },
       design_decisions: { type: "array", items: { type: "string" } },
       playtest_logs: { type: "array", items: { type: "string" } }
     }),
-    "playtest_log.schema.json": schema("GDKB PlaytestLog", "PlaytestLog", ["project_id", "playtest_log_id"], {
+    "playtest_log.schema.json": schema("GDKB PlaytestLog", "PlaytestLog", ["project_id", "playtest_log_id", "entity_scope", "observed_facts", "participant_quotes", "tester_interpretations", "design_hypotheses", "design_decisions", "next_actions"], {
       project_id: { type: "string" },
       playtest_log_id: { type: "string" },
+      entity_scope: { type: "string", enum: ["playtest_log"] },
       test_question: { type: "string" },
       tested_artifact: { type: "string" },
       participant_profile: { type: "string" },
@@ -735,7 +895,128 @@ function createSchemas() {
       related_workflows: { type: "array", items: { type: "string" } },
       related_lenses: { type: "array", items: { type: "string" } },
       observed_findings: { type: "array", items: { type: "string" } },
+      observed_facts: { type: "array", items: { type: "string" } },
+      participant_quotes: { type: "array", items: { type: "string" } },
+      tester_interpretations: { type: "array", items: { type: "string" } },
+      design_hypotheses: { type: "array", items: { type: "string" } },
+      design_decisions: { type: "array", items: { type: "string" } },
       next_actions: { type: "array", items: { type: "string" } }
+    }),
+    "legal_sidecar.schema.json": schema("GDKB LegalSidecar", "LegalSidecar", ["sidecar_id", "source_document_id", "work_id", "access_basis", "allowed_operations", "prohibited_operations", "approval_status"], {
+      sidecar_id: { type: "string" },
+      source_document_id: { type: "string" },
+      work_id: { type: "string" },
+      access_basis: { enum: ["owned_physical_copy", "purchased_ebook", "library_access", "official_open_access", "publisher_permission", "author_permission", "public_domain", "other"] },
+      approval_status: { enum: ["pending_review", "approved_metadata_only", "approved_user_notes_only", "approved_full_processing", "rejected", "expired"] },
+      user_confirms_legal_access: { type: ["boolean", "string"] },
+      allowed_for_ai_processing: { type: ["boolean", "string"] },
+      allowed_operations: { type: "array", items: { type: "string" } },
+      prohibited_operations: { type: "array", items: { type: "string" } },
+      high_risk_marker_review: { type: "string" },
+      private_or_public: { enum: ["private", "public"] },
+      citation_preference: { type: "string" },
+      user_supplied_notes_path: { type: "string" },
+      user_supplied_quotes_path: { type: "string" },
+      reviewer: { type: "string" },
+      review_date: { type: "string" },
+      expiration_date: { type: "string" }
+    }),
+    "user_manual_note.schema.json": schema("GDKB UserManualNote", "UserManualNote", ["note_id", "work_id", "title", "note_type", "location", "user_summary", "user_interpretation", "user_questions", "related_concepts", "related_cards", "related_lenses", "related_workflows"], {
+      note_id: { type: "string" },
+      manual_note_id: { type: "string" },
+      note_type: { enum: ["chapter_note", "concept_note", "reading_reflection", "method_note", "comparison_note", "project_application_note"] },
+      location: { type: "string" },
+      user_summary: { type: "string" },
+      user_interpretation: { type: "string" },
+      user_questions: { type: "array", items: { type: "string" } },
+      related_concepts: { type: "array", items: { type: "string" } },
+      related_cards: { type: "array", items: { type: "string" } },
+      related_lenses: { type: "array", items: { type: "string" } },
+      related_workflows: { type: "array", items: { type: "string" } },
+      work_id: { type: "string" },
+      source_document_id: { type: "string" }
+    }),
+    "user_manual_quote.schema.json": schema("GDKB UserManualQuote", "UserManualQuote", ["quote_id", "work_id", "source_document_id", "quote_text", "quote_length_words", "location", "user_commentary", "why_it_matters", "related_concepts", "related_cards"], {
+      quote_id: { type: "string" },
+      manual_quote_id: { type: "string" },
+      user_provided: { type: "boolean" },
+      quote_text: { type: "string" },
+      quote_length_words: { type: ["integer", "number", "string"] },
+      location: { type: "string" },
+      user_commentary: { type: "string" },
+      why_it_matters: { type: "string" },
+      related_concepts: { type: "array", items: { type: "string" } },
+      related_cards: { type: "array", items: { type: "string" } },
+      work_id: { type: "string" },
+      source_document_id: { type: "string" }
+    }),
+    "open_source_reference.schema.json": schema("GDKB OpenSourceReference", "OpenSourceReference", ["open_source_reference_id", "url"], {
+      open_source_reference_id: { type: "string" },
+      url: { type: "string" },
+      access_date: { type: "string" },
+      license: { type: "string" }
+    }),
+    "official_metadata_reference.schema.json": schema("GDKB OfficialMetadataReference", "OfficialMetadataReference", ["official_metadata_reference_id", "url"], {
+      official_metadata_reference_id: { type: "string" },
+      url: { type: "string" },
+      access_date: { type: "string" },
+      publisher_or_platform: { type: "string" }
+    }),
+    "evidence_ref.schema.json": schema("GDKB EvidenceRef", "EvidenceRef", ["evidence_ref_id", "evidence_type", "evidence_scope", "supports_entity_ids", "supports_claim_ids"], {
+      evidence_ref_id: { type: "string" },
+      evidence_type: { type: "string" },
+      evidence_scope: { type: "string" },
+      source_document_id: { type: "string" },
+      work_id: { type: "string" },
+      sidecar_id: { type: "string" },
+      manual_note_id: { type: "string" },
+      manual_quote_id: { type: "string" },
+      open_source_reference_id: { type: "string" },
+      official_metadata_reference_id: { type: "string" },
+      supports_entity_ids: { type: "array", items: { type: "string" } },
+      supports_claim_ids: { type: "array", items: { type: "string" } },
+      limitations: { type: ["string", "array"] },
+      reviewer: { type: "string" }
+    }),
+    "claim_promotion_request.schema.json": schema("GDKB ClaimPromotionRequest", "ClaimPromotionRequest", ["claim_promotion_request_id", "target_claim_ids", "evidence_ref_ids", "proposed_confidence", "reviewer", "rationale"], {
+      claim_promotion_request_id: { type: "string" },
+      target_claim_ids: { type: "array", items: { type: "string" } },
+      evidence_ref_ids: { type: "array", items: { type: "string" } },
+      proposed_confidence: { type: "string" },
+      requested_by: { type: "string" },
+      reviewer: { type: "string" },
+      rationale: { type: "string" },
+      evidence_scope_alignment: { type: "string" },
+      within_evidence_scope: { type: "boolean" }
+    }),
+    "claim_promotion_review.schema.json": schema("GDKB ClaimPromotionReview", "ClaimPromotionReview", ["claim_promotion_review_id", "request_id", "decision", "reviewer", "decision_rationale"], {
+      claim_promotion_review_id: { type: "string" },
+      request_id: { type: "string" },
+      decision: { type: "string" },
+      reviewer: { type: "string" },
+      decision_rationale: { type: "string" },
+      evidence_ref_ids: { type: "array", items: { type: "string" } },
+      approved_confidence: { type: "string" },
+      limitations: { type: ["string", "array"] }
+    }),
+    "evidence_gap.schema.json": schema("GDKB EvidenceGap", "EvidenceGap", ["evidence_gap_id", "affected_entity_ids", "affected_claim_ids"], {
+      evidence_gap_id: { type: "string" },
+      affected_entity_ids: { type: "array", items: { type: "string" } },
+      affected_claim_ids: { type: "array", items: { type: "string" } },
+      required_source_basis: { type: "array", items: { type: "string" } },
+      recommended_fix: { type: "string" }
+    }),
+    "evidence_intake_batch.schema.json": schema("GDKB EvidenceIntakeBatch", "EvidenceIntakeBatch", ["evidence_intake_batch_id", "batch_items"], {
+      evidence_intake_batch_id: { type: "string" },
+      batch_items: { type: "array", items: { type: "string" } },
+      intake_status: { type: "string" },
+      audit_report_id: { type: "string" }
+    }),
+    "evidence_audit_report.schema.json": schema("GDKB EvidenceAuditReport", "EvidenceAuditReport", ["evidence_audit_report_id", "audit_scope"], {
+      evidence_audit_report_id: { type: "string" },
+      audit_scope: { type: "string" },
+      finding_count: { type: ["integer", "number", "string"] },
+      violation_count: { type: ["integer", "number", "string"] }
     }),
     "relationship.schema.json": {
       $schema: "https://json-schema.org/draft/2020-12/schema",
@@ -778,7 +1059,18 @@ function validateWithSchema(entity, schemas, issues) {
     WorkflowPack: "workflow_pack.schema.json",
     PromptTemplate: "prompt_template.schema.json",
     ProjectOverlay: "project_overlay.schema.json",
-    PlaytestLog: "playtest_log.schema.json"
+    PlaytestLog: "playtest_log.schema.json",
+    LegalSidecar: "legal_sidecar.schema.json",
+    UserManualNote: "user_manual_note.schema.json",
+    UserManualQuote: "user_manual_quote.schema.json",
+    OpenSourceReference: "open_source_reference.schema.json",
+    OfficialMetadataReference: "official_metadata_reference.schema.json",
+    EvidenceRef: "evidence_ref.schema.json",
+    ClaimPromotionRequest: "claim_promotion_request.schema.json",
+    ClaimPromotionReview: "claim_promotion_review.schema.json",
+    EvidenceGap: "evidence_gap.schema.json",
+    EvidenceIntakeBatch: "evidence_intake_batch.schema.json",
+    EvidenceAuditReport: "evidence_audit_report.schema.json"
   };
   const schema = schemas[schemaNameByType[entity.entity_type]];
   if (!schema) return;
@@ -792,9 +1084,162 @@ function validateWithSchema(entity, schemas, issues) {
   }
 }
 
+function isApprovedStatus(value) {
+  return [
+    "approved",
+    "accepted",
+    "validated",
+    "verified",
+    "usable_for_verified",
+    "legal_access_confirmed",
+    "approved_metadata_only",
+    "approved_user_notes_only",
+    "approved_full_processing"
+  ].includes(String(value || "").toLowerCase());
+}
+
+function isPendingOrRejectedStatus(value) {
+  return [
+    "pending",
+    "pending_review",
+    "waiting_for_review",
+    "rejected",
+    "blocked",
+    "expired"
+  ].includes(String(value || "").toLowerCase());
+}
+
+function isVerifiedEntity(entity) {
+  return entity && (entity.status === "verified" || entity.confidence === "verified");
+}
+
+function validatesAsLegalEvidenceBasis(entity) {
+  return LEGAL_EVIDENCE_SOURCE_BASIS.has(entity.source_basis) && entity.confidence !== "ai_hypothesis";
+}
+
+function isWithinEvidenceScope(raw) {
+  return raw.within_evidence_scope === true || raw.within_evidence_scope === "true" || ACCEPTED_EVIDENCE_SCOPE_ALIGNMENT.has(String(raw.evidence_scope_alignment || ""));
+}
+
+function treatsLocalObservationAsUniversal(raw) {
+  return raw.treat_as_universal_doctrine === true ||
+    raw.treats_observation_as_universal_doctrine === true ||
+    raw.universal_doctrine === true ||
+    String(raw.observation_scope || "").toLowerCase() === "universal" ||
+    String(raw.generalization_scope || "").toLowerCase() === "universal";
+}
+
+function scopeValue(raw) {
+  return String(raw.entity_scope || raw.claim_scope || raw.evidence_scope || raw.observation_scope || "").toLowerCase();
+}
+
+function isProjectScope(raw) {
+  const scope = scopeValue(raw);
+  return ["project_overlay", "project_specific", "local_project"].includes(scope);
+}
+
+function isPlaytestScope(raw) {
+  const scope = scopeValue(raw);
+  return ["playtest_log", "playtest_specific", "local_playtest"].includes(scope);
+}
+
+function hasOwn(raw, key) {
+  return Object.prototype.hasOwnProperty.call(raw || {}, key);
+}
+
+function hasPlaytestEvidenceSeparation(raw) {
+  return ["observed_facts", "participant_quotes", "tester_interpretations", "design_hypotheses", "design_decisions", "next_actions"].every((field) => hasOwn(raw, field));
+}
+
+function isSampleRecord(entity) {
+  const raw = entity.raw || {};
+  return String(entity.id || "").includes("sample") || cleanArray(raw.tags || entity.tags).includes("sample");
+}
+
+const LEGAL_SIDECAR_ACCESS_BASIS = new Set([
+  "owned_physical_copy",
+  "purchased_ebook",
+  "library_access",
+  "official_open_access",
+  "publisher_permission",
+  "author_permission",
+  "public_domain",
+  "other"
+]);
+
+const LEGAL_SIDECAR_APPROVAL_STATUS = new Set([
+  "pending_review",
+  "approved_metadata_only",
+  "approved_user_notes_only",
+  "approved_full_processing",
+  "rejected",
+  "expired"
+]);
+
+const USER_MANUAL_NOTE_TYPES = new Set([
+  "chapter_note",
+  "concept_note",
+  "reading_reflection",
+  "method_note",
+  "comparison_note",
+  "project_application_note"
+]);
+
+const USER_MANUAL_NOTE_STATUS = new Set([
+  "draft",
+  "review_needed",
+  "accepted_user_note",
+  "rejected"
+]);
+
+const USER_MANUAL_QUOTE_STATUS = new Set([
+  "draft",
+  "accepted_user_quote",
+  "needs_review",
+  "rejected"
+]);
+
+const MANUAL_QUOTE_MAX_WORDS = 80;
+const MANUAL_QUOTE_WARN_WORDS = 40;
+const CLAIM_PROMOTION_LEVELS = new Set([
+  "unsupported_draft",
+  "ai_hypothesis",
+  "user_interpretation",
+  "weak",
+  "medium",
+  "strong",
+  "verified"
+]);
+const STRONG_PROMOTION_TARGETS = new Set(["strong", "verified"]);
+const CLAIM_PROMOTION_LEVEL_RANK = {
+  unsupported_draft: 0,
+  ai_hypothesis: 1,
+  user_interpretation: 2,
+  weak: 3,
+  medium: 4,
+  strong: 5,
+  verified: 6
+};
+const CLAIM_PROMOTION_REVIEW_DECISIONS = new Set([
+  "accept",
+  "approved",
+  "reject",
+  "rejected",
+  "defer",
+  "deferred",
+  "needs_more_evidence",
+  "blocked"
+]);
+const ACCEPTED_EVIDENCE_SCOPE_ALIGNMENT = new Set([
+  "within_evidence_scope",
+  "matches_evidence_scope",
+  "narrower_than_evidence_scope"
+]);
+
 function validateEntities(entities, schemas) {
   const issues = [];
   const seen = new Map();
+  const byId = new Map(entities.map((entity) => [entity.id, entity]));
   for (const entity of entities) {
     if (!entity.id) {
       issues.push(issue("error", "missing_id", null, "Entity has no stable ID.", { source_path: entity.source_path }));
@@ -820,6 +1265,21 @@ function validateEntities(entities, schemas) {
         issues.push(issue("error", "high_risk_source_used_as_summary_basis", entity.id, "High-risk source has unsafe allowed operations or non-metadata source_basis."));
       }
     }
+    if (entity.entity_type === "SourceDocument") {
+      const sidecarIds = cleanArray(entity.raw.legal_sidecar_ids);
+      const allowed = new Set(entity.raw.allowed_operations || []);
+      if (entity.raw.allowed_for_ai_processing === true && !sidecarIds.length) {
+        issues.push(issue("error", "source_ai_processing_without_sidecar", entity.id, "Source allows AI processing without linked legal_sidecar_ids."));
+      }
+      if (entity.raw.risk_level === "high" && allowed.has("process_full_text")) {
+        const approved = sidecarIds
+          .map((id) => byId.get(id))
+          .some((sidecar) => sidecar?.entity_type === "LegalSidecar" && sidecar.raw?.approval_status === "approved_full_processing" && Boolean(sidecar.raw?.reviewer));
+        if (!approved) {
+          issues.push(issue("error", "high_risk_process_full_text_without_explicit_sidecar_approval", entity.id, "High-risk source allows process_full_text without approved_full_processing sidecar and reviewer."));
+        }
+      }
+    }
     if (["ConceptCard", "FrameworkCard", "ApplicationCard", "ChecklistCard", "PromptCard"].includes(entity.entity_type) && !asArray(entity.raw.related_works).length && !hasWorkLinkException(entity)) {
       issues.push(issue("warning", "card_without_related_work", entity.id, "Card has no related_works."));
     }
@@ -835,7 +1295,277 @@ function validateEntities(entities, schemas) {
     if (entity.entity_type === "PromptTemplate" && !asArray(entity.raw.guardrails).length) {
       issues.push(issue("error", "prompt_without_guardrails", entity.id, "PromptTemplate has no guardrails."));
     }
-    if (KNOWLEDGE_ENTITY_TYPES.has(entity.entity_type) && entity.entity_type !== "PromptTemplate") {
+    if (entity.entity_type === "Claim") {
+      const statusIsVerified = entity.status === "verified";
+      const confidenceIsVerified = entity.confidence === "verified";
+      if (statusIsVerified !== confidenceIsVerified) {
+        issues.push(issue("error", "claim_status_confidence_conflict", entity.id, "Claim status and confidence conflict; verified claims must use both status: verified and confidence: verified."));
+      }
+    }
+    if (entity.entity_type === "EvidenceRef") {
+      const raw = entity.raw || {};
+      for (const field of ["evidence_ref_id", "evidence_type", "evidence_scope"]) {
+        if (!raw[field] && !entity[field]) issues.push(issue("error", "evidence_ref_missing_required_field", entity.id, `EvidenceRef is missing ${field}.`));
+      }
+      if (INSUFFICIENT_VERIFIED_EVIDENCE_BASIS.has(entity.source_basis)) {
+        for (const claimId of cleanArray(raw.supports_claim_ids)) {
+          const claim = byId.get(claimId);
+          if (isVerifiedEntity(claim)) {
+            issues.push(issue("error", "insufficient_evidence_supports_verified_claim", entity.id, `EvidenceRef with ${entity.source_basis} cannot support verified claim ${claimId}.`));
+          }
+        }
+      }
+      if (!validatesAsLegalEvidenceBasis(entity) && isApprovedStatus(entity.status)) {
+        issues.push(issue("error", "approved_evidence_ref_without_legal_basis", entity.id, "Approved EvidenceRef requires legal evidence source_basis and non-ai_hypothesis confidence."));
+      }
+      const referencedIds = [
+        ...cleanArray(raw.supports_entity_ids),
+        ...cleanArray(raw.supports_claim_ids),
+        ...cleanArray(raw.source_document_id),
+        ...cleanArray(raw.work_id),
+        ...cleanArray(raw.sidecar_id),
+        ...cleanArray(raw.manual_note_id),
+        ...cleanArray(raw.manual_quote_id),
+        ...cleanArray(raw.open_source_reference_id),
+        ...cleanArray(raw.official_metadata_reference_id)
+      ];
+      for (const refId of referencedIds) {
+        if (refId && !byId.has(refId)) {
+          issues.push(issue("error", "evidence_ref_broken_reference", entity.id, `EvidenceRef points to missing entity ${refId}.`));
+        }
+      }
+      const sidecar = raw.sidecar_id ? byId.get(raw.sidecar_id) : null;
+      const manualQuote = raw.manual_quote_id ? byId.get(raw.manual_quote_id) : null;
+      const manualQuoteSidecar = manualQuote?.raw?.sidecar_id ? byId.get(manualQuote.raw.sidecar_id) : null;
+      if (sidecar && isPendingOrRejectedStatus(sidecar.raw?.approval_status || sidecar.status)) {
+        for (const claimId of cleanArray(raw.supports_claim_ids)) {
+          if (isVerifiedEntity(byId.get(claimId))) {
+            issues.push(issue("error", "pending_sidecar_supports_verified_claim", entity.id, `Pending/rejected sidecar ${raw.sidecar_id} cannot support verified claim ${claimId}.`));
+          }
+        }
+      }
+      if (manualQuote && manualQuoteSidecar && isPendingOrRejectedStatus(manualQuoteSidecar.raw?.approval_status || manualQuoteSidecar.status)) {
+        for (const claimId of cleanArray(raw.supports_claim_ids)) {
+          if (isVerifiedEntity(byId.get(claimId))) {
+            issues.push(issue("error", "pending_quote_sidecar_supports_verified_claim", entity.id, `Manual quote ${manualQuote.id} has pending/rejected sidecar and cannot support verified claim ${claimId}.`));
+          }
+        }
+      }
+      const sourceDoc = raw.source_document_id ? byId.get(raw.source_document_id) : null;
+      if (sourceDoc?.raw?.risk_level === "high" && isApprovedStatus(entity.status) && !(entity.source_basis === "user_legal_file" && sidecar && isApprovedStatus(sidecar.raw?.approval_status || sidecar.status))) {
+        issues.push(issue("error", "high_risk_source_used_beyond_allowed_operations", entity.id, "High-risk source cannot support approved evidence without an approved legal sidecar and user_legal_file basis."));
+      }
+    }
+    if (entity.entity_type === "ClaimPromotionRequest") {
+      const raw = entity.raw || {};
+      const targetClaimIds = cleanArray(raw.target_claim_ids);
+      const evidenceRefIds = cleanArray(raw.evidence_ref_ids);
+      if (!targetClaimIds.length) {
+        issues.push(issue("error", "promotion_request_missing_target_claim", entity.id, "ClaimPromotionRequest must target at least one claim."));
+      }
+      if (!evidenceRefIds.length) {
+        issues.push(issue("error", "promotion_request_missing_evidence_ref", entity.id, "ClaimPromotionRequest must include at least one evidence_ref_id."));
+      }
+      if (!raw.reviewer && !entity.reviewer) {
+        issues.push(issue("error", "promotion_request_missing_reviewer", entity.id, "ClaimPromotionRequest must name a human reviewer gate."));
+      }
+      if (!raw.rationale && !raw.promotion_rationale && !entity.rationale) {
+        issues.push(issue("error", "promotion_request_missing_rationale", entity.id, "ClaimPromotionRequest must explain why promotion is justified."));
+      }
+      const proposedConfidence = String(raw.proposed_confidence || entity.proposed_confidence || "");
+      if (!CLAIM_PROMOTION_LEVELS.has(proposedConfidence)) {
+        issues.push(issue("error", "invalid_promotion_target_confidence", entity.id, `Invalid proposed_confidence: ${proposedConfidence || "missing"}.`));
+      }
+      for (const claimId of targetClaimIds) {
+        const claim = byId.get(claimId);
+        if (!claim || claim.entity_type !== "Claim") {
+          issues.push(issue("error", "promotion_request_references_missing_claim", entity.id, `ClaimPromotionRequest references missing claim ${claimId}.`));
+        }
+      }
+      for (const evidenceId of evidenceRefIds) {
+        const evidence = byId.get(evidenceId);
+        if (!evidence || evidence.entity_type !== "EvidenceRef") {
+          issues.push(issue("error", "promotion_request_references_missing_evidence_ref", entity.id, `ClaimPromotionRequest references missing EvidenceRef ${evidenceId}.`));
+          continue;
+        }
+        if (STRONG_PROMOTION_TARGETS.has(proposedConfidence) && (!validatesAsLegalEvidenceBasis(evidence) || INSUFFICIENT_VERIFIED_EVIDENCE_BASIS.has(evidence.source_basis))) {
+          issues.push(issue("error", "promotion_request_insufficient_evidence_basis", entity.id, `Promotion to ${proposedConfidence} cannot use EvidenceRef ${evidenceId} with source_basis ${evidence.source_basis}.`));
+        }
+      }
+      if (STRONG_PROMOTION_TARGETS.has(proposedConfidence) && !isWithinEvidenceScope(raw)) {
+        issues.push(issue("error", "promotion_request_beyond_evidence_scope", entity.id, "Promotion to strong/verified requires explicit evidence_scope_alignment within or narrower than the evidence."));
+      }
+    }
+    if (entity.entity_type === "ClaimPromotionReview") {
+      const raw = entity.raw || {};
+      const requestId = raw.request_id || raw.claim_promotion_request_id || entity.request_id;
+      const request = requestId ? byId.get(requestId) : null;
+      if (!request || request.entity_type !== "ClaimPromotionRequest") {
+        issues.push(issue("error", "promotion_review_references_missing_request", entity.id, `ClaimPromotionReview references missing request ${requestId || "missing"}.`));
+      }
+      if (!raw.reviewer && !entity.reviewer) {
+        issues.push(issue("error", "promotion_review_missing_reviewer", entity.id, "ClaimPromotionReview must name a reviewer."));
+      }
+      if (!raw.decision_rationale && !raw.rationale && !entity.decision_rationale) {
+        issues.push(issue("error", "promotion_review_missing_rationale", entity.id, "ClaimPromotionReview must include decision_rationale."));
+      }
+      const decision = String(raw.decision || entity.decision || "");
+      if (!CLAIM_PROMOTION_REVIEW_DECISIONS.has(decision)) {
+        issues.push(issue("error", "invalid_promotion_review_decision", entity.id, `Invalid ClaimPromotionReview decision: ${decision || "missing"}.`));
+      }
+      const approvedConfidence = String(raw.approved_confidence || "");
+      if (approvedConfidence && !CLAIM_PROMOTION_LEVELS.has(approvedConfidence)) {
+        issues.push(issue("error", "invalid_promotion_review_confidence", entity.id, `Invalid approved_confidence: ${approvedConfidence}.`));
+      }
+      if (request && approvedConfidence && CLAIM_PROMOTION_LEVEL_RANK[approvedConfidence] > CLAIM_PROMOTION_LEVEL_RANK[String(request.raw?.proposed_confidence || request.proposed_confidence || "unsupported_draft")]) {
+        issues.push(issue("error", "promotion_review_exceeds_requested_scope", entity.id, "ClaimPromotionReview cannot approve a confidence level above the request target."));
+      }
+    }
+    if (entity.entity_type === "ProjectOverlay") {
+      const raw = entity.raw || {};
+      if (String(raw.entity_scope || "") !== "project_overlay") {
+        issues.push(issue("error", "project_overlay_missing_project_scope", entity.id, "ProjectOverlay evidence must declare entity_scope: project_overlay."));
+      }
+      if (treatsLocalObservationAsUniversal(raw)) {
+        issues.push(issue("error", "project_overlay_observation_treated_as_universal_doctrine", entity.id, "ProjectOverlay observations must remain project-scoped unless promoted through reviewed evidence."));
+      }
+      if (isSampleRecord(entity) && (entity.source_basis !== "unsupported_draft" || entity.confidence !== "unsupported_draft")) {
+        issues.push(issue("error", "sample_project_overlay_not_unsupported_draft", entity.id, "Sample ProjectOverlay records must remain unsupported_draft and cannot be evidence."));
+      }
+    }
+    if (entity.entity_type === "PlaytestLog") {
+      const raw = entity.raw || {};
+      if (String(raw.entity_scope || "") !== "playtest_log") {
+        issues.push(issue("error", "playtest_log_missing_playtest_scope", entity.id, "PlaytestLog evidence must declare entity_scope: playtest_log."));
+      }
+      if (!hasPlaytestEvidenceSeparation(raw)) {
+        issues.push(issue("error", "playtest_log_missing_observation_separation", entity.id, "PlaytestLog must distinguish observed_facts, participant_quotes, tester_interpretations, design_hypotheses, design_decisions, and next_actions."));
+      }
+      if (treatsLocalObservationAsUniversal(raw)) {
+        issues.push(issue("error", "playtest_observation_treated_as_universal_doctrine", entity.id, "Playtest observations must not be treated as universal doctrine without additional evidence."));
+      }
+      if (isSampleRecord(entity) && (entity.source_basis !== "unsupported_draft" || entity.confidence !== "unsupported_draft")) {
+        issues.push(issue("error", "sample_playtest_log_not_unsupported_draft", entity.id, "Sample PlaytestLog records must remain unsupported_draft and cannot be evidence."));
+      }
+    }
+    if (entity.entity_type === "Claim") {
+      const raw = entity.raw || {};
+      const relatedIds = cleanArray([
+        ...asArray(entity.related_entities),
+        ...asArray(raw.related_entities),
+        ...asArray(raw.related_project_overlays),
+        ...asArray(raw.project_overlay_ids),
+        ...asArray(raw.related_playtest_logs),
+        ...asArray(raw.playtest_log_ids)
+      ]);
+      const hasProjectOverlayLink = raw.project_id || raw.project_overlay_id || relatedIds.some((id) => byId.get(id)?.entity_type === "ProjectOverlay" || String(id).startsWith("project_overlay_"));
+      const hasPlaytestLogLink = raw.playtest_log_id || relatedIds.some((id) => byId.get(id)?.entity_type === "PlaytestLog" || String(id).startsWith("playtest_log_"));
+      if (hasProjectOverlayLink && raw.entity_scope !== "project_overlay") {
+        issues.push(issue("error", "project_specific_claim_missing_project_overlay_scope", entity.id, "Project-specific claims must declare entity_scope: project_overlay."));
+      }
+      if (hasPlaytestLogLink && raw.entity_scope !== "playtest_log") {
+        issues.push(issue("error", "playtest_specific_claim_missing_playtest_log_scope", entity.id, "Playtest-specific claims must declare entity_scope: playtest_log."));
+      }
+      if (isVerifiedEntity(entity) && !isProjectScope(raw) && !isPlaytestScope(raw)) {
+        for (const evidenceId of cleanArray(entity.evidence_refs)) {
+          const evidence = byId.get(evidenceId);
+          const evidenceRaw = evidence?.raw || evidence || {};
+          if ((isProjectScope(evidenceRaw) || isPlaytestScope(evidenceRaw)) && !raw.promotion_review_id && !raw.claim_promotion_review_id) {
+            issues.push(issue("error", "project_evidence_supports_verified_general_claim_without_review", entity.id, `Verified general claim uses project/playtest evidence ${evidenceId} without promotion review and narrowed scope.`));
+          }
+        }
+      }
+    }
+    if (entity.entity_type === "LegalSidecar") {
+      const raw = entity.raw || {};
+      for (const field of ["sidecar_id", "source_document_id", "work_id", "user_confirms_legal_access", "access_basis", "allowed_for_ai_processing", "allowed_operations", "prohibited_operations", "high_risk_marker_review", "private_or_public", "citation_preference", "user_supplied_notes_path", "user_supplied_quotes_path", "reviewer", "approval_status", "review_date", "expiration_date", "notes"]) {
+        if (!(field in raw) || raw[field] === undefined || raw[field] === null) {
+          issues.push(issue("error", "sidecar_missing_required_field", entity.id, `LegalSidecar is missing ${field}.`));
+        }
+      }
+      if (!LEGAL_SIDECAR_ACCESS_BASIS.has(raw.access_basis)) {
+        issues.push(issue("error", "invalid_sidecar_access_basis", entity.id, `Invalid LegalSidecar access_basis: ${raw.access_basis}`));
+      }
+      if (!LEGAL_SIDECAR_APPROVAL_STATUS.has(raw.approval_status)) {
+        issues.push(issue("error", "invalid_sidecar_approval_status", entity.id, `Invalid LegalSidecar approval_status: ${raw.approval_status || "missing"}`));
+      }
+      const sourceDoc = raw.source_document_id ? byId.get(raw.source_document_id) : null;
+      const work = raw.work_id ? byId.get(raw.work_id) : null;
+      if (!sourceDoc) issues.push(issue("error", "sidecar_references_missing_source", entity.id, `LegalSidecar references nonexistent source_document_id ${raw.source_document_id}.`));
+      if (!work) issues.push(issue("error", "sidecar_references_missing_work", entity.id, `LegalSidecar references nonexistent work_id ${raw.work_id}.`));
+      if (raw.approval_status === "approved_full_processing" && (!raw.reviewer || !raw.review_date)) {
+        issues.push(issue("error", "sidecar_defaults_to_full_processing", entity.id, "approved_full_processing requires explicit reviewer and review_date; no sidecar may default to full processing."));
+      }
+      if (sourceDoc?.raw?.risk_level === "high" && raw.approval_status === "approved_full_processing" && !raw.reviewer) {
+        issues.push(issue("error", "high_risk_full_processing_without_reviewer", entity.id, "High-risk source sidecar claims full processing without reviewer."));
+      }
+      if (sourceDoc?.raw?.risk_level === "high" && cleanArray(raw.allowed_operations).includes("process_full_text") && raw.approval_status !== "approved_full_processing") {
+        issues.push(issue("error", "high_risk_process_full_text_without_explicit_sidecar_approval", entity.id, "High-risk sidecar allows process_full_text without approved_full_processing status."));
+      }
+    }
+    if (entity.entity_type === "UserManualNote") {
+      const raw = entity.raw || {};
+      if (entity.source_basis !== "user_manual_note") {
+        issues.push(issue("error", "manual_note_invalid_source_basis", entity.id, "UserManualNote must use source_basis user_manual_note."));
+      }
+      if (entity.confidence !== "user_interpretation") {
+        issues.push(issue("error", "manual_note_not_marked_user_interpretation", entity.id, "UserManualNote cannot be treated as source claim unless confidence is user_interpretation."));
+      }
+      if (!USER_MANUAL_NOTE_TYPES.has(raw.note_type)) {
+        issues.push(issue("error", "manual_note_invalid_note_type", entity.id, `Invalid UserManualNote note_type: ${raw.note_type || "missing"}.`));
+      }
+      if (!USER_MANUAL_NOTE_STATUS.has(raw.status || entity.status)) {
+        issues.push(issue("error", "manual_note_invalid_status", entity.id, `Invalid UserManualNote status: ${raw.status || entity.status || "missing"}.`));
+      }
+      if (!raw.note_id && !raw.manual_note_id) {
+        issues.push(issue("error", "manual_note_missing_note_id", entity.id, "UserManualNote is missing note_id."));
+      }
+      if (!raw.work_id || !byId.has(raw.work_id)) {
+        issues.push(issue("error", "manual_note_references_missing_work", entity.id, `UserManualNote references nonexistent work_id ${raw.work_id || "missing"}.`));
+      }
+      if (raw.source_document_id && !byId.has(raw.source_document_id)) {
+        issues.push(issue("error", "manual_note_references_missing_source", entity.id, `UserManualNote references nonexistent source_document_id ${raw.source_document_id}.`));
+      }
+    }
+    if (entity.entity_type === "UserManualQuote") {
+      const raw = entity.raw || {};
+      if (entity.source_basis !== "user_manual_quote") {
+        issues.push(issue("error", "manual_quote_invalid_source_basis", entity.id, "UserManualQuote must use source_basis user_manual_quote."));
+      }
+      if (!USER_MANUAL_QUOTE_STATUS.has(raw.status || entity.status)) {
+        issues.push(issue("error", "manual_quote_invalid_status", entity.id, `Invalid UserManualQuote status: ${raw.status || entity.status || "missing"}.`));
+      }
+      if (!raw.quote_id && !raw.manual_quote_id) {
+        issues.push(issue("error", "manual_quote_missing_quote_id", entity.id, "UserManualQuote is missing quote_id."));
+      }
+      if (!raw.work_id || !byId.has(raw.work_id)) {
+        issues.push(issue("error", "manual_quote_references_missing_work", entity.id, `UserManualQuote references nonexistent work_id ${raw.work_id || "missing"}.`));
+      }
+      if (!raw.source_document_id || !byId.has(raw.source_document_id)) {
+        issues.push(issue("error", "manual_quote_references_missing_source", entity.id, `UserManualQuote references nonexistent source_document_id ${raw.source_document_id || "missing"}.`));
+      }
+      if (!raw.quote_length_words && raw.quote_length_words !== 0) {
+        issues.push(issue("error", "manual_quote_missing_quote_length", entity.id, "UserManualQuote is missing quote_length_words."));
+      }
+      const quoteLength = Number(raw.quote_length_words || 0);
+      if (quoteLength > MANUAL_QUOTE_MAX_WORDS) {
+        issues.push(issue("error", "manual_quote_too_long", entity.id, `UserManualQuote has ${quoteLength} words; max is ${MANUAL_QUOTE_MAX_WORDS}.`));
+      } else if (quoteLength > MANUAL_QUOTE_WARN_WORDS) {
+        issues.push(issue("warning", "manual_quote_near_length_limit", entity.id, `UserManualQuote has ${quoteLength} words; review before use.`));
+      }
+      if (raw.user_provided !== true && raw.user_confirms_quote_supplied !== true) {
+        issues.push(issue("error", "manual_quote_not_explicitly_user_provided", entity.id, "UserManualQuote must be explicitly user-provided."));
+      }
+      if (raw.automated_extraction === true || raw.generated_from_source_body === true || ["auto", "automated_extraction", "source_body_extraction"].includes(String(raw.extraction_method || "").toLowerCase())) {
+        issues.push(issue("error", "manual_quote_automated_extraction", entity.id, "UserManualQuote must never be derived from automated source-body extraction."));
+      }
+      const sourceDoc = raw.source_document_id ? byId.get(raw.source_document_id) : null;
+      const sidecar = raw.sidecar_id ? byId.get(raw.sidecar_id) : null;
+      if (sourceDoc?.raw?.risk_level === "high" && ["strong", "verified"].includes(entity.confidence) && (!sidecar || isPendingOrRejectedStatus(sidecar.raw?.approval_status || sidecar.status))) {
+        issues.push(issue("error", "high_risk_quote_requires_sidecar_review", entity.id, "Manual quote from high-risk source requires sidecar review before strong or verified use."));
+      }
+    }
+    if (KNOWLEDGE_ENTITY_TYPES.has(entity.entity_type) && entity.entity_type !== "PromptTemplate" && !EVIDENCE_ENTITY_TYPES.has(entity.entity_type)) {
       if (!entity.phase_groups.length) issues.push(issue("warning", "missing_phase_group", entity.id, "Entity has no phase_groups."));
       if (!entity.domains.length) issues.push(issue("warning", "missing_domain", entity.id, "Entity has no domains."));
     }
@@ -945,6 +1675,65 @@ function buildGraph(entities) {
       for (const challengeId of cleanArray(entity.raw.challenges)) add("challenges", entity.id, challengeId, entity, true, entity.evidence_refs);
       for (const contradictionId of cleanArray(entity.raw.contradicted_by)) add("contradicts", contradictionId, entity.id, entity, true, entity.evidence_refs);
     }
+    if (entity.entity_type === "EvidenceRef") {
+      for (const targetId of cleanArray(entity.raw.supports_entity_ids)) {
+        add("supports", entity.id, targetId, entity, true, [entity.id]);
+        add("evidence_for", entity.id, targetId, entity, true, [entity.id]);
+        add("supported_by", targetId, entity.id, entity, true, [entity.id]);
+      }
+      for (const targetId of cleanArray(entity.raw.supports_claim_ids)) {
+        add("supports", entity.id, targetId, entity, true, [entity.id]);
+        add("evidence_for", entity.id, targetId, entity, true, [entity.id]);
+        add("supported_by", targetId, entity.id, entity, true, [entity.id]);
+      }
+      for (const targetId of cleanArray([...asArray(entity.raw.challenges_entity_ids), ...asArray(entity.raw.challenges_claim_ids), ...asArray(entity.raw.evidence_against_claim_ids)])) {
+        add("challenges", entity.id, targetId, entity, true, [entity.id]);
+        add("evidence_against", entity.id, targetId, entity, true, [entity.id]);
+        add("challenged_by", targetId, entity.id, entity, true, [entity.id]);
+      }
+      for (const sourceId of cleanArray([
+        ...asArray(entity.raw.source_document_id),
+        ...asArray(entity.raw.work_id),
+        ...asArray(entity.raw.sidecar_id),
+        ...asArray(entity.raw.manual_note_id),
+        ...asArray(entity.raw.manual_quote_id),
+        ...asArray(entity.raw.open_source_reference_id),
+        ...asArray(entity.raw.official_metadata_reference_id)
+      ])) {
+        add("cites", entity.id, sourceId, entity, true, [entity.id]);
+      }
+    }
+    if (entity.entity_type === "ClaimPromotionRequest") {
+      for (const claimId of cleanArray(entity.raw.target_claim_ids)) {
+        add("applies_to", entity.id, claimId, entity, true, entity.raw.evidence_ref_ids);
+        add("promoted_from", entity.id, claimId, entity, true, entity.raw.evidence_ref_ids);
+      }
+      for (const evidenceId of cleanArray(entity.raw.evidence_ref_ids)) {
+        add("cites", entity.id, evidenceId, entity, true, [evidenceId]);
+        add("supported_by", entity.id, evidenceId, entity, true, [evidenceId]);
+      }
+      for (const gapId of cleanArray(entity.raw.evidence_gap_ids)) add("blocked_by_evidence_gap", entity.id, gapId, entity, true, entity.raw.evidence_ref_ids);
+    }
+    if (entity.entity_type === "ClaimPromotionReview") {
+      for (const requestId of cleanArray([entity.raw.request_id, entity.raw.claim_promotion_request_id])) {
+        add("validates", entity.id, requestId, entity, true, entity.raw.evidence_ref_ids);
+        add("reviewed_by", requestId, entity.id, entity, true, entity.raw.evidence_ref_ids);
+      }
+      for (const evidenceId of cleanArray(entity.raw.evidence_ref_ids)) add("cites", entity.id, evidenceId, entity, true, [evidenceId]);
+    }
+    if (entity.entity_type === "EvidenceGap") {
+      for (const targetId of cleanArray([...asArray(entity.raw.affected_entity_ids), ...asArray(entity.raw.affected_claim_ids)])) add("challenges", entity.id, targetId, entity, false);
+    }
+    if (entity.entity_type === "ProjectOverlay") {
+      for (const targetId of cleanArray([...asArray(entity.raw.general_kb_entities_applied), ...asArray(entity.raw.applied_claim_ids), ...asArray(entity.raw.applied_card_ids)])) {
+        add("applies_in_project", targetId, entity.id, entity, true, entity.evidence_refs);
+      }
+    }
+    if (entity.entity_type === "PlaytestLog") {
+      for (const targetId of cleanArray([...asArray(entity.raw.observed_claim_ids), ...asArray(entity.raw.tested_claim_ids), ...asArray(entity.raw.related_claims)])) {
+        add("observed_in_playtest", targetId, entity.id, entity, true, entity.evidence_refs);
+      }
+    }
   }
 
   const artifactEntities = [...artifactNodes.values()];
@@ -961,9 +1750,65 @@ function buildGraph(entities) {
   };
 }
 
+function manualQuoteSearchSafe(entity) {
+  if (entity.entity_type !== "UserManualQuote") return true;
+  const raw = entity.raw || {};
+  return (
+    raw.source_basis === "user_manual_quote" &&
+    raw.user_provided === true &&
+    raw.status === "accepted_user_quote" &&
+    !raw.automated_extraction &&
+    !raw.generated_from_source_body &&
+    Number(raw.quote_length_words || 0) > 0 &&
+    Number(raw.quote_length_words || 0) <= MANUAL_QUOTE_MAX_WORDS
+  );
+}
+
+function entityScopeForSearch(entity) {
+  const raw = entity.raw || {};
+  const explicit = String(raw.entity_scope || entity.entity_scope || "").toLowerCase();
+  if (["project_overlay", "playtest_log", "general_kb", "draft_scaffold"].includes(explicit)) return explicit;
+  if (entity.entity_type === "ProjectOverlay") return "project_overlay";
+  if (entity.entity_type === "PlaytestLog") return "playtest_log";
+  if (entity.source_basis === "unsupported_draft" || entity.confidence === "unsupported_draft" || entity.status === "draft") return "draft_scaffold";
+  return "general_kb";
+}
+
+function isVerifiedForSearch(entity) {
+  return entity.status === "verified" || entity.confidence === "verified";
+}
+
+function evidenceGapCountForSearch(entity) {
+  const raw = entity.raw || {};
+  let count = cleanArray(raw.evidence_gap_ids).length;
+  if (raw.evidence_gap || raw.evidence_gap_reason) count += 1;
+  if (!cleanArray(entity.evidence_refs).length && !isVerifiedForSearch(entity) && KNOWLEDGE_ENTITY_TYPES.has(entity.entity_type)) count += 1;
+  return count;
+}
+
+function evidenceStatusForSearch(entity) {
+  const evidenceRefs = cleanArray(entity.evidence_refs);
+  if (isVerifiedForSearch(entity)) return evidenceRefs.length ? "verified_with_evidence" : "verified_missing_evidence";
+  if (entity.source_basis === "metadata_only" || entity.status === "metadata_only_quarantined") return "metadata_only";
+  if (entity.source_basis === "unsupported_draft" || entity.confidence === "unsupported_draft") return evidenceRefs.length ? "draft_with_evidence_refs" : "unsupported_draft_no_evidence";
+  if (evidenceRefs.length) return "evidence_attached_review_needed";
+  if (evidenceGapCountForSearch(entity) > 0) return "evidence_gap_open";
+  return "evidence_status_unknown";
+}
+
+function promotionStatusForSearch(entity) {
+  const raw = entity.raw || {};
+  if (entity.entity_type === "ClaimPromotionRequest") return String(raw.status || raw.approval_status || "promotion_request_draft");
+  if (entity.entity_type === "ClaimPromotionReview") return String(raw.decision || "promotion_review_pending");
+  if (isVerifiedForSearch(entity)) return "verified";
+  if (cleanArray(entity.evidence_refs).length) return "review_required";
+  return "blocked_no_evidence";
+}
+
 function buildSearchIndex(entities) {
   return entities
     .filter((entity) => !["Artifact"].includes(entity.entity_type))
+    .filter((entity) => manualQuoteSearchSafe(entity))
     .map((entity) => ({
       id: entity.id,
       entity_type: entity.entity_type,
@@ -976,7 +1821,15 @@ function buildSearchIndex(entities) {
       related_works: cleanArray(entity.raw.related_works || (entity.entity_type === "BookDossier" ? [entity.raw.work_id] : [])),
       confidence: entity.confidence,
       source_basis: entity.source_basis,
-      status: entity.status
+      status: entity.status,
+      evidence_status: evidenceStatusForSearch(entity),
+      is_verified: isVerifiedForSearch(entity),
+      has_evidence_refs: cleanArray(entity.evidence_refs).length > 0,
+      evidence_gap_count: evidenceGapCountForSearch(entity),
+      entity_scope: entityScopeForSearch(entity),
+      related_evidence_refs: cleanArray(entity.evidence_refs),
+      promotion_status: promotionStatusForSearch(entity),
+      evidence_gap: entity.raw.evidence_gap || entity.raw.evidence_gap_reason || ""
     }));
 }
 
@@ -1035,6 +1888,9 @@ ${CONFIDENCE.map((item) => `- \`${item}\``).join("\n")}
 - \`normalized_title\`
 - \`risk_level\`
 - \`ingestion_status\`
+- \`legal_sidecar_ids\`
+- \`sidecar_review_status\`
+- \`allowed_for_ai_processing\`
 - \`allowed_operations\`
 - \`prohibited_operations\`
 
@@ -1188,6 +2044,106 @@ Quote cards are allowed only for \`user_manual_quote\`, \`open_fulltext\`, or \`
 - \`playtest_logs\`
 - \`general_kb_entities_applied\`
 
+### EvidenceRef
+
+- \`evidence_ref_id\`
+- \`evidence_type\`
+- \`evidence_scope\`
+- \`source_basis\`
+- \`confidence\`
+- \`supports_entity_ids\`
+- \`supports_claim_ids\`
+- \`limitations\`
+- \`reviewer\`
+
+\`metadata_only\`, \`unsupported_draft\`, and \`ai_hypothesis\` cannot support verified claims.
+
+### LegalSidecar
+
+- \`sidecar_id\`
+- \`source_document_id\`
+- \`work_id\`
+- \`user_confirms_legal_access\`
+- \`access_basis\`
+- \`allowed_for_ai_processing\`
+- \`allowed_operations\`
+- \`prohibited_operations\`
+- \`high_risk_marker_review\`
+- \`private_or_public\`
+- \`citation_preference\`
+- \`user_supplied_notes_path\`
+- \`user_supplied_quotes_path\`
+- \`approval_status\`
+- \`reviewer\`
+- \`review_date\`
+- \`expiration_date\`
+- \`notes\`
+
+Pending sidecars cannot promote or verify claims.
+
+### UserManualNote
+
+- \`note_id\`
+- \`work_id\`
+- \`source_document_id\`
+- \`sidecar_id\`
+- \`note_type\`
+- \`location\`
+- \`user_summary\`
+- \`user_interpretation\`
+- \`user_questions\`
+- \`related_concepts\`
+- \`related_cards\`
+- \`related_lenses\`
+- \`related_workflows\`
+
+Manual notes must use \`source_basis: user_manual_note\` and \`confidence: user_interpretation\`.
+
+### UserManualQuote
+
+- \`quote_id\`
+- \`work_id\`
+- \`source_document_id\`
+- \`sidecar_id\`
+- \`quote_text\`
+- \`quote_length_words\`
+- \`location\`
+- \`user_commentary\`
+- \`why_it_matters\`
+- \`related_concepts\`
+- \`related_cards\`
+- \`user_provided\`
+- \`automated_extraction\`
+- \`generated_from_source_body\`
+
+Manual quotes must use \`source_basis: user_manual_quote\`, must be explicitly user-provided, and must not exceed 80 words.
+
+Manual quotes must be explicitly user-provided and should remain short.
+
+### ClaimPromotionRequest
+
+- \`claim_promotion_request_id\`
+- \`target_claim_ids\`
+- \`evidence_ref_ids\`
+- \`proposed_confidence\`
+- \`requested_by\`
+- \`reviewer\`
+- \`rationale\`
+- \`evidence_scope_alignment\`
+- \`within_evidence_scope\`
+- \`evidence_gap_ids\`
+
+### ClaimPromotionReview
+
+- \`claim_promotion_review_id\`
+- \`request_id\`
+- \`decision\`
+- \`reviewer\`
+- \`decision_rationale\`
+- \`evidence_ref_ids\`
+- \`approved_confidence\`
+- \`limitations\`
+
 ### ForumThreadTemplate
 
 - \`forum_thread_template_id\`
@@ -1221,6 +2177,18 @@ The JSON schemas define the normalized GDKB import shape. They do not replace th
 - \`schemas/workflow_pack.schema.json\`
 - \`schemas/prompt_template.schema.json\`
 - \`schemas/project_overlay.schema.json\`
+- \`schemas/playtest_log.schema.json\`
+- \`schemas/legal_sidecar.schema.json\`
+- \`schemas/user_manual_note.schema.json\`
+- \`schemas/user_manual_quote.schema.json\`
+- \`schemas/open_source_reference.schema.json\`
+- \`schemas/official_metadata_reference.schema.json\`
+- \`schemas/evidence_ref.schema.json\`
+- \`schemas/claim_promotion_request.schema.json\`
+- \`schemas/claim_promotion_review.schema.json\`
+- \`schemas/evidence_gap.schema.json\`
+- \`schemas/evidence_intake_batch.schema.json\`
+- \`schemas/evidence_audit_report.schema.json\`
 - \`schemas/relationship.schema.json\`
 
 ## Validation Layers
@@ -1247,6 +2215,21 @@ The JSON schemas define the normalized GDKB import shape. They do not replace th
 - workflow without output artifact
 - lesson without exercise
 - prompt without guardrails
+- evidence_ref missing required field
+- evidence_ref broken reference
+- metadata_only or unsupported_draft evidence supporting verified claim
+- pending sidecar supporting verified claim
+- manual quote not explicitly user-provided
+- manual quote missing work/source/length
+- manual quote too long
+- manual quote automated extraction
+- manual note not marked user_interpretation
+- high-risk source evidence used beyond allowed operations
+- promotion request missing reviewer or rationale
+- promotion request beyond evidence scope
+- promotion review missing reviewer or rationale
+- project overlay observation treated as universal doctrine
+- playtest observation treated as universal doctrine
 
 ## Canonicality Decision
 
@@ -1268,9 +2251,10 @@ Markdown is the human canonical layer. JSON exports are generated build artifact
 8. Lesson Markdown files
 9. WorkflowPack, Exercise, and PromptTemplate Markdown files
 10. ProjectOverlay and ForumThreadTemplate Markdown files when implemented
-11. Derived Artifact nodes for output deliverables
-12. Relationship graph
-13. Search index
+11. Evidence intake Markdown files when present
+12. Derived Artifact nodes for output deliverables
+13. Relationship graph
+14. Search index
 
 ## Pipeline Steps
 
@@ -1296,6 +2280,8 @@ Markdown is the human canonical layer. JSON exports are generated build artifact
 | \`kb_sources\` | SourceDocument entities filtered from all_entities |
 | \`kb_works\` | GameDesignWork entities filtered from all_entities |
 | \`kb_project_overlays\` | ProjectOverlay entities when Prompt 10 implements them |
+| \`kb_evidence_refs\` | EvidenceRef entities filtered from all_entities |
+| \`kb_evidence_reviews\` | ClaimPromotionReview entities filtered from all_entities |
 
 ## Legal Import Boundary
 
@@ -1333,6 +2319,14 @@ The search index is a safe retrieval surface for GDKB. It is not a raw source te
 | \`confidence\` | enum | Confidence. |
 | \`source_basis\` | enum | Provenance basis. |
 | \`status\` | string | Workflow status. |
+| \`evidence_status\` | string | Human-readable evidence state such as metadata_only, unsupported_draft_no_evidence, evidence_gap_open, or verified_with_evidence. |
+| \`is_verified\` | boolean | Whether status or confidence is verified. |
+| \`has_evidence_refs\` | boolean | Whether explicit evidence_refs exist. |
+| \`evidence_gap_count\` | number | Count of explicit or derived evidence gaps. |
+| \`entity_scope\` | enum | general_kb, project_overlay, playtest_log, or draft_scaffold. |
+| \`related_evidence_refs\` | string[] | EvidenceRef IDs attached to the entity. |
+| \`promotion_status\` | string | Promotion/review status or blocked_no_evidence. |
+| \`evidence_gap\` | string | Short gap text when present in frontmatter. |
 
 ## Safety Rules
 
@@ -1340,6 +2334,7 @@ The search index is a safe retrieval surface for GDKB. It is not a raw source te
 - Suppress body excerpts for \`metadata_only\` or quarantined entities.
 - Treat generated cards, lenses, lessons, workflows, exercises, and prompts as draft scaffolds unless evidence promotes them.
 - Search results must expose \`source_basis\` and \`confidence\` so AI retrieval cannot hide uncertainty.
+- Search results must expose \`evidence_status\`, \`entity_scope\`, \`is_verified\`, and \`promotion_status\` so draft, project-specific, playtest-specific, and verified content are not conflated.
 `);
 
   writeText("11_import_export/graph_model.md", `
@@ -1377,6 +2372,18 @@ Node types include:
 - WorkflowPack
 - PromptTemplate
 - ProjectOverlay
+- PlaytestLog
+- LegalSidecar
+- UserManualNote
+- UserManualQuote
+- OpenSourceReference
+- OfficialMetadataReference
+- EvidenceRef
+- ClaimPromotionRequest
+- ClaimPromotionReview
+- EvidenceGap
+- EvidenceIntakeBatch
+- EvidenceAuditReport
 - ForumThreadTemplate
 - Artifact
 
@@ -1400,6 +2407,15 @@ Primary generated edge families:
 - \`supports\`
 - \`challenges\`
 - \`contradicts\`
+- \`supported_by\`
+- \`challenged_by\`
+- \`evidence_for\`
+- \`evidence_against\`
+- \`promoted_from\`
+- \`reviewed_by\`
+- \`blocked_by_evidence_gap\`
+- \`applies_in_project\`
+- \`observed_in_playtest\`
 
 ## Broken Link Policy
 
@@ -1463,6 +2479,21 @@ ${JSON.stringify(issuesByRule, null, 2)}
 - workflow without output artifact
 - lesson without exercise
 - prompt without guardrails
+- evidence_ref missing required field
+- evidence_ref broken reference
+- metadata_only or unsupported_draft evidence supporting verified claim
+- pending sidecar supporting verified claim
+- manual quote not explicitly user-provided
+- manual quote missing work/source/length
+- manual quote too long
+- manual quote automated extraction
+- manual note not marked user_interpretation
+- high-risk source evidence used beyond allowed operations
+- claim status/confidence conflict
+- promotion request missing reviewer or rationale
+- promotion request beyond evidence scope
+- promotion review missing reviewer or rationale
+- project/playtest observation treated as universal doctrine
 
 ## Legal Safety Result
 

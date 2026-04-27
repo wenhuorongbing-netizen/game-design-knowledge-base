@@ -40,6 +40,21 @@
 - workflow without output artifact
 - lesson without exercise
 - prompt without guardrails
+- evidence_ref missing required field
+- evidence_ref broken reference
+- metadata_only or unsupported_draft evidence supporting verified claim
+- pending sidecar supporting verified claim
+- manual quote not explicitly user-provided
+- manual quote missing work/source/length
+- manual quote too long
+- manual quote automated extraction
+- manual note not marked user_interpretation
+- high-risk source evidence used beyond allowed operations
+- claim status/confidence conflict
+- promotion request missing reviewer or rationale
+- promotion request beyond evidence scope
+- promotion review missing reviewer or rationale
+- project/playtest observation treated as universal doctrine
 
 ## Legal Safety Result
 

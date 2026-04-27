@@ -1,0 +1,36 @@
+# Copy this template to a new sidecar file before editing.
+# Do not edit this template as a real approval record.
+
+id: sidecar-example-pending-review
+entity_type: LegalSidecar
+title: Legal sidecar template
+status: draft
+source_basis: metadata_only
+confidence: unsupported_draft
+phase_groups: []
+domains: []
+tags: [legal_sidecar, source_governance, template]
+related_entities: []
+evidence_refs: []
+created_at: 2026-04-27
+updated_at: 2026-04-27
+version: 0.1.0
+
+sidecar_id: sidecar-example-pending-review
+source_document_id: replace_with_source_document_id
+work_id: replace_with_work_id
+user_confirms_legal_access: false
+access_basis: other
+allowed_for_ai_processing: false
+allowed_operations: [record_metadata, attach_user_notes, attach_manual_quotes]
+prohibited_operations: [extract_body_text, process_full_text, generate_summary, generate_embeddings, extract_quotes, create_chapter_summary, create_cards_from_source_body]
+high_risk_marker_review: pending_review
+private_or_public: private
+citation_preference: user_private_reference
+user_supplied_notes_path: ""
+user_supplied_quotes_path: ""
+reviewer: ""
+approval_status: pending_review
+review_date: ""
+expiration_date: ""
+notes: "Template only. This sidecar does not approve AI processing."

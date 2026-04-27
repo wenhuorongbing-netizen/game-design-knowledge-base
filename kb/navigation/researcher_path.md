@@ -24,6 +24,26 @@ Use this path when your job is to evaluate evidence, provenance, claims, and cov
 7. Inspect hallucination risks: [HALLUCINATION_AUDIT.md](../12_quality/HALLUCINATION_AUDIT.md)
 8. Inspect coverage: [COVERAGE_MATRIX.md](../12_quality/COVERAGE_MATRIX.md)
 
+## Evidence Workflow Index
+
+- [Evidence Dashboard](../13_evidence/EVIDENCE_DASHBOARD.md)
+- [Evidence Status Index](../13_evidence/EVIDENCE_STATUS_INDEX.md)
+- [Evidence Intake Plan](../13_evidence/EVIDENCE_INTAKE_PLAN.md)
+- [Legal Sidecar Workflow](../13_evidence/sidecars/SIDECAR_REVIEW_GUIDE.md)
+- [User Manual Note Template](../13_evidence/manual_notes/user_manual_note_template.md)
+- [User Manual Quote Template](../13_evidence/manual_quotes/user_manual_quote_template.md)
+- [Claim Promotion Workflow](../13_evidence/CLAIM_PROMOTION_WORKFLOW.md)
+- [Priority Evidence Backlog](../13_evidence/PRIORITY_EVIDENCE_BACKLOG.md)
+- [Evidence Gap Register](../13_evidence/EVIDENCE_GAP_REGISTER.md)
+- [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md)
+- [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md)
+
+## Evidence Pilot Reports
+
+- [Game Feel Evidence Pilot](../13_evidence/reports/GAME_FEEL_EVIDENCE_PILOT.md)
+- [Meaningful Decisions Evidence Pilot](../13_evidence/reports/MEANINGFUL_DECISIONS_EVIDENCE_PILOT.md)
+- [Systems Economy Playtest Evidence Pilot](../13_evidence/reports/SYSTEMS_ECONOMY_PLAYTEST_EVIDENCE_PILOT.md)
+
 ## Draft Vs Verified
 
 Draft KB assets can be useful for routing, study, prompting, and design work, but they are not verified source claims. A card, lens, workflow, or lesson is not verified unless it has:

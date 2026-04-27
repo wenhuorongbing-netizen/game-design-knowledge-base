@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.user_manual_note.v1",
+  "title": "GDKB UserManualNote",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "note_id",
+    "work_id",
+    "title",
+    "note_type",
+    "location",
+    "user_summary",
+    "user_interpretation",
+    "user_questions",
+    "related_concepts",
+    "related_cards",
+    "related_lenses",
+    "related_workflows",
+    "evidence_refs",
+    "source_basis",
+    "confidence",
+    "status",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "UserManualNote" },
+    "note_id": { "type": "string", "minLength": 1 },
+    "manual_note_id": { "type": "string" },
+    "work_id": { "type": "string", "minLength": 1 },
+    "source_document_id": { "type": "string" },
+    "sidecar_id": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "note_type": {
+      "enum": [
+        "chapter_note",
+        "concept_note",
+        "reading_reflection",
+        "method_note",
+        "comparison_note",
+        "project_application_note"
+      ]
+    },
+    "location": { "type": "string" },
+    "user_summary": { "type": "string" },
+    "user_interpretation": { "type": "string" },
+    "user_questions": { "type": "array", "items": { "type": "string" } },
+    "related_concepts": { "type": "array", "items": { "type": "string" } },
+    "related_cards": { "type": "array", "items": { "type": "string" } },
+    "related_lenses": { "type": "array", "items": { "type": "string" } },
+    "related_workflows": { "type": "array", "items": { "type": "string" } },
+    "evidence_refs": { "type": "array", "items": { "type": "string" } },
+    "source_basis": { "enum": ["user_manual_note"] },
+    "confidence": { "enum": ["user_interpretation"] },
+    "status": { "enum": ["draft", "review_needed", "accepted_user_note", "rejected"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

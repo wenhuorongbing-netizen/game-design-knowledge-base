@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.official_metadata_reference.v1",
+  "title": "GDKB OfficialMetadataReference",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "official_metadata_reference_id",
+    "url",
+    "publisher_or_platform",
+    "source_basis",
+    "confidence",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "OfficialMetadataReference" },
+    "official_metadata_reference_id": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "minLength": 1 },
+    "publisher_or_platform": { "type": "string", "minLength": 1 },
+    "access_date": { "type": "string" },
+    "source_basis": { "enum": ["official_metadata", "derived_from_public_metadata"] },
+    "confidence": { "enum": ["verified", "strong", "medium", "weak"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

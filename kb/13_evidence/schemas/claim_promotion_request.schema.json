@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.claim_promotion_request.v1",
+  "title": "GDKB ClaimPromotionRequest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "claim_promotion_request_id",
+    "target_claim_ids",
+    "evidence_ref_ids",
+    "proposed_confidence",
+    "reviewer",
+    "rationale",
+    "source_basis",
+    "confidence",
+    "status",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "ClaimPromotionRequest" },
+    "claim_promotion_request_id": { "type": "string", "minLength": 1 },
+    "target_claim_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "evidence_ref_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "proposed_confidence": { "enum": ["unsupported_draft", "ai_hypothesis", "user_interpretation", "weak", "medium", "strong", "verified"] },
+    "reviewer": { "type": "string", "minLength": 1 },
+    "rationale": { "type": "string", "minLength": 1 },
+    "evidence_scope_alignment": { "enum": ["", "within_evidence_scope", "matches_evidence_scope", "narrower_than_evidence_scope", "too_broad", "unclear"] },
+    "within_evidence_scope": { "type": "boolean" },
+    "evidence_gap_ids": { "type": "array", "items": { "type": "string" } },
+    "limitations": { "type": ["string", "array"] },
+    "source_basis": { "enum": ["user_manual_note", "derived_from_user_note", "open_fulltext", "official_metadata", "user_legal_file", "user_manual_quote"] },
+    "confidence": { "enum": ["medium", "weak", "user_interpretation"] },
+    "status": { "enum": ["draft", "pending_review", "accepted", "rejected", "needs_more_evidence", "archived"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

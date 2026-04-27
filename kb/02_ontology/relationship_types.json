@@ -1,6 +1,6 @@
 {
   "schema_version": "gdkb.relationship_types.v1",
-  "updated_date": "2026-04-26",
+  "updated_date": "2026-04-27",
   "edge_metadata_fields": [
     "edge_id",
     "relationship_type",
@@ -245,6 +245,87 @@
       "direction": "newer_to_older",
       "meaning": "The source entity replaces the target.",
       "example": "A revised balance checklist supersedes an older checklist.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "supported_by",
+      "source_entity_types": ["Claim", "KnowledgeCard", "DesignLens", "WorkflowPack", "ClaimPromotionRequest"],
+      "target_entity_types": ["EvidenceRef", "UserManualNote", "UserManualQuote", "OpenSourceReference", "OfficialMetadataReference"],
+      "direction": "claim_like_object_to_evidence",
+      "meaning": "The source entity is supported by the target evidence record.",
+      "example": "A claim is supported_by an EvidenceRef created from a user manual note.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "challenged_by",
+      "source_entity_types": ["Claim", "KnowledgeCard", "DesignDecision"],
+      "target_entity_types": ["EvidenceRef", "PlaytestLog", "UserManualNote", "EvidenceGap"],
+      "direction": "claim_like_object_to_challenging_evidence",
+      "meaning": "The source entity is challenged by the target evidence or gap.",
+      "example": "A balance claim is challenged_by a playtest observation.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "evidence_for",
+      "source_entity_types": ["EvidenceRef", "UserManualNote", "UserManualQuote", "OpenSourceReference", "OfficialMetadataReference"],
+      "target_entity_types": ["Claim", "KnowledgeCard", "DesignLens", "WorkflowPack", "DesignDecision"],
+      "direction": "evidence_to_supported_object",
+      "meaning": "The source evidence record is evidence for the target entity or claim.",
+      "example": "An EvidenceRef is evidence_for a claim promotion request target.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "evidence_against",
+      "source_entity_types": ["EvidenceRef", "UserManualNote", "UserManualQuote", "PlaytestLog"],
+      "target_entity_types": ["Claim", "KnowledgeCard", "DesignDecision"],
+      "direction": "evidence_to_challenged_object",
+      "meaning": "The source evidence record is evidence against the target entity or claim.",
+      "example": "A playtest EvidenceRef is evidence_against an onboarding assumption.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "promoted_from",
+      "source_entity_types": ["ClaimPromotionRequest", "ClaimPromotionReview"],
+      "target_entity_types": ["Claim"],
+      "direction": "promotion_artifact_to_original_claim",
+      "meaning": "The promotion artifact proposes or records movement from the target claim's current confidence state.",
+      "example": "A ClaimPromotionRequest is promoted_from a weak draft claim.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "reviewed_by",
+      "source_entity_types": ["ClaimPromotionRequest"],
+      "target_entity_types": ["ClaimPromotionReview"],
+      "direction": "request_to_review",
+      "meaning": "The promotion request was reviewed by the target review record.",
+      "example": "A ClaimPromotionRequest is reviewed_by a ClaimPromotionReview.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "blocked_by_evidence_gap",
+      "source_entity_types": ["Claim", "ClaimPromotionRequest", "KnowledgeCard"],
+      "target_entity_types": ["EvidenceGap"],
+      "direction": "blocked_object_to_gap",
+      "meaning": "The source entity cannot be promoted or used confidently until the target evidence gap is resolved.",
+      "example": "A verified promotion request is blocked_by_evidence_gap because no legal source basis exists.",
+      "evidence_required": false
+    },
+    {
+      "relationship_type": "applies_in_project",
+      "source_entity_types": ["Claim", "KnowledgeCard", "DesignLens", "WorkflowPack", "PromptTemplate"],
+      "target_entity_types": ["ProjectOverlay", "DesignDecision"],
+      "direction": "general_knowledge_to_project_application",
+      "meaning": "The source general KB entity is applied within a specific project context.",
+      "example": "A core loop lens applies_in_project a sample design audit overlay.",
+      "evidence_required": true
+    },
+    {
+      "relationship_type": "observed_in_playtest",
+      "source_entity_types": ["Claim", "KnowledgeCard", "DesignDecision", "ProjectOverlay"],
+      "target_entity_types": ["PlaytestLog"],
+      "direction": "claim_or_project_object_to_playtest_observation",
+      "meaning": "The source entity was observed or tested in the target playtest log, within local playtest limits.",
+      "example": "A tutorial clarity claim is observed_in_playtest a first-session log.",
       "evidence_required": true
     }
   ]

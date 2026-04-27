@@ -20,7 +20,14 @@
     "updated_at",
     "version",
     "project_id",
-    "playtest_log_id"
+    "playtest_log_id",
+    "entity_scope",
+    "observed_facts",
+    "participant_quotes",
+    "tester_interpretations",
+    "design_hypotheses",
+    "design_decisions",
+    "next_actions"
   ],
   "properties": {
     "id": {
@@ -124,6 +131,12 @@
     "playtest_log_id": {
       "type": "string"
     },
+    "entity_scope": {
+      "type": "string",
+      "enum": [
+        "playtest_log"
+      ]
+    },
     "test_question": {
       "type": "string"
     },
@@ -149,6 +162,36 @@
       }
     },
     "observed_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observed_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "participant_quotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tester_interpretations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "design_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "design_decisions": {
       "type": "array",
       "items": {
         "type": "string"

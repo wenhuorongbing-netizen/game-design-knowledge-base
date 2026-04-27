@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gdkb.evidence_gap.v1",
+  "title": "GDKB EvidenceGap",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "entity_type",
+    "evidence_gap_id",
+    "affected_entity_ids",
+    "affected_claim_ids",
+    "why_it_matters",
+    "required_source_basis",
+    "recommended_fix",
+    "status",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "entity_type": { "const": "EvidenceGap" },
+    "evidence_gap_id": { "type": "string", "minLength": 1 },
+    "affected_entity_ids": { "type": "array", "items": { "type": "string" } },
+    "affected_claim_ids": { "type": "array", "items": { "type": "string" } },
+    "why_it_matters": { "type": "string", "minLength": 1 },
+    "required_source_basis": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "recommended_fix": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["open", "in_progress", "blocked", "resolved", "archived"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  }
+}

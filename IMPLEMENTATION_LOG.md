@@ -1,5 +1,31 @@
 # Implementation Log
 
+## 2026-04-27 - Evidence Phase 1 Final Audit
+
+Finished Evidence Intake Phase 1 without adding knowledge content, parsing high-risk source bodies, creating fake evidence, or promoting claims.
+
+Actions:
+
+- Created `EVIDENCE_PHASE_1_RELEASE_REPORT.md`.
+- Created `EVIDENCE_PHASE_1_AUDIT.md`.
+- Created `EVIDENCE_PHASE_1_GAP_BACKLOG.md`.
+- Created `EVIDENCE_PHASE_2_ROADMAP.md`.
+- Created `UPDATED_KB_ACCEPTANCE_REVIEW.md`.
+- Created `UPDATED_SOURCE_GOVERNANCE_AUDIT.md`.
+- Created `UPDATED_VALIDATION_REPORT.md`.
+- Updated `KB_PROJECT_STATE.md`, `NEXT_DEVELOPMENT_PLAN.md`, `TODO.md`, and `IMPLEMENTATION_LOG.md`.
+- Confirmed Evidence Phase 1 is infrastructure-only: LegalSidecar records 0, UserManualNote records 0, UserManualQuote records 0, EvidenceRef records 0, ClaimPromotionRequest records 0, and verified claims 0.
+- Confirmed draft/source-governed KB verdict is `ACCEPTED`.
+- Confirmed verified source-backed masterclass verdict is `BLOCKED_PENDING_USER_EVIDENCE`.
+- Confirmed Evidence Phase 2 may begin only with user-supplied legal evidence, manual notes, optional lawful manual quotes, scoped project evidence, and scoped playtest evidence.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, sidecar/manual note/manual quote/claim promotion reports regenerated, validation PASS.
+- `npm run kb:coverage`: coverage summary regenerated.
+
 ## 2026-04-27 - Role-Based Navigation
 
 - Created `START_HERE.md`.
@@ -387,3 +413,216 @@ Validation:
 - `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
 - `npm run kb:audit`: source governance audit PASS and validation PASS.
 - `npm run kb:coverage`: coverage summary regenerated.
+
+## 2026-04-27 - Evidence Intake Phase 1 Architecture
+
+Created the evidence intake architecture without parsing source bodies, adding real evidence, creating legal sidecars, adding user notes, or promoting claims.
+
+Actions:
+
+- Created `kb/13_evidence/` with tracked intake subfolders for sidecars, manual notes, manual quotes, open sources, evidence refs, evidence gaps, intake batches, promotion requests, reviews, reports, and schemas.
+- Added evidence architecture documentation: `README.md`, `EVIDENCE_INTAKE_PLAN.md`, `EVIDENCE_REF_SCHEMA.md`, `CLAIM_PROMOTION_WORKFLOW.md`, `EVIDENCE_GAP_REGISTER.md`, `PRIORITY_EVIDENCE_BACKLOG.md`, and `EVIDENCE_VALIDATION_RULES.md`.
+- Added JSON schemas for LegalSidecar, UserManualNote, UserManualQuote, OpenSourceReference, OfficialMetadataReference, EvidenceRef, ClaimPromotionRequest, ClaimPromotionReview, EvidenceGap, EvidenceIntakeBatch, and EvidenceAuditReport.
+- Extended `tools/kb_importer/import_kb.js` to recognize, normalize, schema-generate, export, search, and graph future evidence entities.
+- Extended `tools/validate_kb/validate_kb.js` to check EvidenceRef required fields, broken evidence links, verified-claim evidence legality, pending sidecars, explicit user-provided manual quotes, and high-risk source boundaries.
+- Did not add evidence records, legal sidecars, manual notes, manual quotes, or claim promotion records.
+- Did not promote any claim to verified.
+- Did not read, parse, quote, summarize, or embed high-risk source bodies.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+
+## 2026-04-27 - Evidence-Aware Navigation Search And Portal Visibility
+
+Made evidence status visible to human users without building an app, adding auth, adding forum CRUD, parsing source bodies, or adding evidence records.
+
+Actions:
+
+- Added `kb/13_evidence/EVIDENCE_DASHBOARD.md`.
+- Added `kb/13_evidence/EVIDENCE_STATUS_INDEX.md`.
+- Added `kb/13_evidence/reports/EVIDENCE_NAVIGATION_REPORT.md`.
+- Added `kb/13_evidence/reports/EVIDENCE_SEARCH_EXPORT_REPORT.md`.
+- Added `kb/13_evidence/reports/EVIDENCE_PORTAL_AUDIT.md`.
+- Updated `START_HERE.md`, `kb/START_HERE.md`, and `kb/navigation/README.md` with evidence status links.
+- Updated `kb/navigation/researcher_path.md`, `maintainer_path.md`, `source_governance_path.md`, and `quick_problem_solver.md` with evidence workflow and pilot-report links.
+- Updated `kb/13_evidence/README.md` with dashboard and status index links.
+- Extended `buildSearchIndex` so every search document includes `evidence_status`, `is_verified`, `has_evidence_refs`, `evidence_gap_count`, `entity_scope`, `related_evidence_refs`, `promotion_status`, and `evidence_gap`.
+- Updated `kb/11_import_export/search_index_model.md` through the importer-generated docs.
+- Updated optional `kb-portal` detail rendering so evidence fields are displayed when present.
+- Documented portal evidence filtering as a P1 follow-up because current root authoritative commands do not regenerate portal data.
+- Confirmed search export contains all required evidence fields for 737 documents.
+- Confirmed current verified search documents remain 0 and no EvidenceRef-backed documents exist yet.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `node --check kb-portal/app.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+- `npm run kb:coverage`: coverage summary regenerated.
+
+## 2026-04-27 - Systems / Economy / Playtesting / ProjectOverlay Evidence Pilot Setup
+
+Ran a limited evidence pilot for `systems_design`, `economy_balance`, `playtesting`, `project_overlay`, and `playtest_log` without parsing high-risk source body text, inventing real project evidence, inventing playtest results, treating sample overlays as evidence, or promoting claims.
+
+Actions:
+
+- Added `kb/13_evidence/manual_notes/systems_design_note_template.md`.
+- Added `kb/13_evidence/manual_notes/economy_balance_note_template.md`.
+- Added `kb/13_evidence/manual_notes/playtesting_note_template.md`.
+- Added `kb/13_evidence/manual_notes/project_overlay_evidence_template.md`.
+- Added `kb/13_evidence/manual_notes/playtest_observation_template.md`.
+- Added `kb/13_evidence/manual_notes/playtest_decision_template.md`.
+- Added `kb/13_evidence/reports/SYSTEMS_ECONOMY_PLAYTEST_EVIDENCE_PILOT.md`.
+- Added `kb/13_evidence/reports/systems_economy_entity_audit.md`.
+- Added `kb/13_evidence/reports/project_overlay_evidence_gap_report.md`.
+- Added `kb/13_evidence/reports/playtest_log_evidence_gap_report.md`.
+- Audited entities related to systems, parts, loops, wholes, game+player system, feedback loops, progression curves, power curves, economy, source/sink/faucet/drain, balance, transitive/intransitive balance, playtesting, prototype questions, observation quality, iteration decisions, ProjectOverlay, and PlaytestLog.
+- Created 8 priority evidence slots for systems, economy, playtesting, real project overlay, and real playtest log intake.
+- Added `entity_scope: project_overlay` to the sample ProjectOverlay and `entity_scope: playtest_log` plus separated observation fields to the sample PlaytestLog while keeping both `unsupported_draft`.
+- Extended importer and validator checks for ProjectOverlay scope, PlaytestLog observation separation, sample overlay/log unsupported_draft status, project-specific claim scope, playtest-specific claim scope, and project/playtest evidence boundaries for verified general claims.
+- Confirmed no real project evidence, playtest result, participant quote, EvidenceRef, or verified claim was created.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+
+## 2026-04-27 - Meaningful Decisions / Rules / Mechanics Evidence Pilot Setup
+
+Ran a limited evidence pilot for `meaningful_decisions`, `rules_mechanics`, `formal_elements`, `skill_chance`, and `challenge_balance` without parsing high-risk source body text, quoting source files, creating verified claims, or promoting claims.
+
+Actions:
+
+- Added `kb/13_evidence/manual_notes/meaningful_decisions_note_template.md`.
+- Added `kb/13_evidence/manual_notes/rules_mechanics_note_template.md`.
+- Added `kb/13_evidence/reports/MEANINGFUL_DECISIONS_EVIDENCE_PILOT.md`.
+- Added `kb/13_evidence/reports/meaningful_decisions_entity_audit.md`.
+- Added `kb/13_evidence/reports/rules_mechanics_evidence_gap_report.md`.
+- Added `kb/13_evidence/promotion_requests/meaningful_decisions_promotion_backlog.md`.
+- Audited existing KB entities related to meaningful decisions, obvious decisions, meaningless decisions, blind decisions, tradeoffs, dilemmas, risk versus reward, rules, mechanics, goals, objectives, resources, conflict, boundaries, outcomes, chance, strategic skill, twitch skill, balance, and formal elements.
+- Created 6 priority evidence slots for meaningful decision definition, tradeoff/dilemma examples, chance/skill balance, formal elements, project meaningful-choice failure, and playtest fake/meaningful choice observation.
+- Marked all Pilot B targets as blocked from promotion until EvidenceRef records and reviewer approval exist.
+- Updated importer and validator ignore rules so Pilot B reports and backlogs are not imported as evidence entities.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS and validation PASS.
+
+## 2026-04-27 - LegalSidecar Workflow
+
+Implemented the LegalSidecar workflow without parsing private or high-risk source body text, summarizing books, quoting books, or verifying claims.
+
+Actions:
+
+- Added `kb/13_evidence/sidecars/source_sidecar_template.yaml` with default `approval_status: pending_review` and no AI-processing approval.
+- Added `kb/13_evidence/sidecars/README.md`, `SIDECAR_REVIEW_GUIDE.md`, and `SIDECAR_STATUS_INDEX.md`.
+- Added `kb/01_sources/USER_REQUIRED_EVIDENCE.md`.
+- Updated `kb/01_sources/sources.json` with `legal_sidecar_ids`, `sidecar_review_status`, and `allowed_for_ai_processing` fields for every source.
+- Preserved all high-risk sources as `metadata_only_quarantined`.
+- Updated LegalSidecar schema requirements and allowed `approval_status` values.
+- Extended importer and validator to handle future YAML sidecar records while ignoring templates and sidecar documentation.
+- Added validator rules for missing sidecar fields, nonexistent source/work references, missing approval status, full-processing default risk, AI processing without sidecar, and high-risk `process_full_text` without explicit approval.
+- Updated source audit tooling to generate `kb/13_evidence/reports/SIDECAR_AUDIT_REPORT.md`.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, sidecar audit PASS, validation PASS.
+
+## 2026-04-27 - User Manual Notes And Manual Quotes Workflow
+
+Implemented the manual evidence workflow without parsing private sources, summarizing source files, extracting quotes from source files, or promoting claims.
+
+Actions:
+
+- Added `kb/13_evidence/manual_notes/README.md`, `user_manual_note_template.md`, and `user_manual_note_example_stub.md`.
+- Added `kb/13_evidence/manual_quotes/README.md`, `user_manual_quote_template.md`, and `user_manual_quote_example_stub.md`.
+- Added `kb/13_evidence/reports/MANUAL_NOTE_INTAKE_REPORT.md` and `MANUAL_QUOTE_AUDIT_REPORT.md`.
+- Updated UserManualNote and UserManualQuote JSON schemas to match the required workflow fields.
+- Extended importer support for `note_id`, `quote_id`, manual note normalization, manual quote normalization, and safe quote search filtering.
+- Extended validator checks for manual note source basis, user interpretation confidence, note type/status, quote source basis, quote status, quote length, user-provided quote status, automated extraction blocking, quote source/work references, and high-risk quote sidecar review.
+- Updated source audit tooling to generate manual note and manual quote reports.
+- Kept templates and example stubs ignored by importer so no fake notes or fake quotes enter `all_entities.json`.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, sidecar audit PASS, manual note report PASS, manual quote report PASS, validation PASS.
+
+## 2026-04-27 - EvidenceRef Graph And Claim Promotion Gates
+
+Implemented the claim-evidence graph and promotion gate infrastructure without adding real evidence records, using high-risk source body text, creating book-specific claims, or promoting any claim.
+
+Actions:
+
+- Rewrote `kb/13_evidence/CLAIM_PROMOTION_WORKFLOW.md` with promotion levels, verified-claim gates, evidence-scope rules, and project/playtest local-evidence boundaries.
+- Added `kb/13_evidence/promotion_requests/promotion_request_template.md` and `example_promotion_request_stub.md`.
+- Added `kb/13_evidence/reviews/promotion_review_template.md` and `example_promotion_review_stub.md`.
+- Added generated audit outputs for claim promotion: `CLAIM_PROMOTION_AUDIT.md`, `UNSUPPORTED_CLAIMS_INDEX.md`, and `VERIFIED_CLAIMS_INDEX.md`.
+- Added relationship types for `supported_by`, `challenged_by`, `evidence_for`, `evidence_against`, `promoted_from`, `reviewed_by`, `blocked_by_evidence_gap`, `applies_in_project`, and `observed_in_playtest`.
+- Extended graph export so future EvidenceRef, ClaimPromotionRequest, ClaimPromotionReview, EvidenceGap, ProjectOverlay, and PlaytestLog records can express support, challenge, blocking, review, local application, and playtest observation.
+- Extended importer and validator checks for verified claim evidence, claim status/confidence conflicts, promotion request reviewer/rationale, EvidenceRef links, evidence-scope alignment, promotion review reviewer/rationale, and project/playtest observation overgeneralization.
+- Extended source audit tooling to generate claim promotion audit reports and explicit unsupported/verified claim indexes.
+- Confirmed the current KB has 164 unsupported or unverified claims and 0 verified claims.
+- Confirmed no unsupported claim was promoted.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `node --check tools/kb_quality/source_audit.js`: PASS.
+- `node -e JSON.parse relationship_types`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+
+## 2026-04-27 - Game Feel Evidence Pilot Setup
+
+Ran a limited evidence pilot for the `game_feel` domain without parsing high-risk source body text, summarizing private PDFs or EPUBs, extracting quotes, creating verified claims, or promoting claims.
+
+Actions:
+
+- Added `kb/13_evidence/manual_notes/game_feel_note_template.md`.
+- Added `kb/13_evidence/manual_notes/game_feel_chapter_note_template.md`.
+- Added `kb/13_evidence/reports/GAME_FEEL_EVIDENCE_PILOT.md`.
+- Added `kb/13_evidence/reports/game_feel_evidence_gap_report.md`.
+- Added `kb/13_evidence/reports/game_feel_entity_audit.md`.
+- Added `kb/13_evidence/promotion_requests/game_feel_promotion_backlog.md`.
+- Audited existing KB entities related to game feel, real-time control, simulated space, polish, input metrics, response metrics, context metrics, polish metrics, metaphor metrics, rules metrics, tightness, floatiness, responsiveness, camera feel, avatar feel, kinesthetic prototype, and game feel audit.
+- Created 108 evidence slots for 108 audited game-feel-related entities.
+- Marked all Game Feel pilot targets as draft/source-governed, with 0 EvidenceRef records and 0 verified claims.
+- Updated importer and validator ignore rules so Game Feel pilot reports and backlogs are not imported as evidence entities.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.

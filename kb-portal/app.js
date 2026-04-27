@@ -166,6 +166,24 @@
     return span;
   }
 
+  function evidenceStatusLabel(item) {
+    if (item?.is_verified) return "Verified";
+    if (item?.evidence_status) return item.evidence_status;
+    if (item?.confidence === "verified" || item?.status === "verified") return "Verified";
+    if (item?.source_basis === "unsupported_draft" || item?.confidence === "unsupported_draft") return "Draft";
+    if (item?.source_basis === "metadata_only") return "Metadata only";
+    return "";
+  }
+
+  function entityScopeLabel(item) {
+    const scope = item?.entity_scope || "";
+    if (scope === "project_overlay") return "Project-specific";
+    if (scope === "playtest_log") return "Playtest-specific";
+    if (scope === "draft_scaffold") return "Draft scaffold";
+    if (scope === "general_kb") return "General KB";
+    return scope;
+  }
+
   function toPortalHref(relativePath) {
     return encodeURI(`../${relativePath}`);
   }
@@ -2471,6 +2489,12 @@
         badge(item.resource_label || "Resource"),
         badge(item.availability_label || "Available")
       );
+      if (evidenceStatusLabel(item)) {
+        meta.append(badge(evidenceStatusLabel(item)));
+      }
+      if (entityScopeLabel(item)) {
+        meta.append(badge(entityScopeLabel(item)));
+      }
       if (item.deliverable_label) {
         meta.append(badge(item.deliverable_label));
       }
@@ -3409,6 +3433,8 @@
       item.deliverable_label,
       item.resource_label,
       item.availability_label,
+      evidenceStatusLabel(item),
+      entityScopeLabel(item),
       item.card_kind_label,
       item.pack_type_label
     ]
@@ -3432,6 +3458,15 @@
     appendMetadataRow("Checklists", Number.isFinite(item.checklist_count) ? String(item.checklist_count) : "—");
     appendMetadataRow("Availability", item.availability_label || "—");
     appendMetadataRow("Source", (item.source_labels ?? []).join(" / ") || "Local card");
+    appendMetadataRow("Source basis", item.source_basis || "N/A");
+    appendMetadataRow("Confidence", item.confidence || "N/A");
+    appendMetadataRow("Status", item.status || "N/A");
+    appendMetadataRow("Evidence status", evidenceStatusLabel(item) || "N/A");
+    appendMetadataRow("Verified", item.is_verified ? "yes" : "no");
+    appendMetadataRow("Evidence refs", (item.related_evidence_refs ?? item.evidence_refs ?? []).join(" / ") || "none");
+    appendMetadataRow("Evidence gaps", Number.isFinite(item.evidence_gap_count) ? String(item.evidence_gap_count) : (item.evidence_gap ? "1" : "N/A"));
+    appendMetadataRow("Entity scope", entityScopeLabel(item) || "N/A");
+    appendMetadataRow("Promotion status", item.promotion_status || "N/A");
 
     appendMetadataRow("Prompt progress", block?.starter_prompt_text ? promptProgressText(item) : "N/A");
 
