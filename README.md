@@ -1,17 +1,32 @@
-# 游戏设计知识库
+# Game Design Knowledgebase
 
-这是一个独立的游戏设计知识库项目，整理游戏设计理论、方法、流程、检查表、设计镜头、课程化卡片、工作流提示词和可浏览的本地门户。
+This repository is a structured Game Design Knowledgebase. It is not BookOS, a reading notes app, a forum platform, or a user-auth CRUD application.
 
-## 目录
+## Repository Root
 
-- `kb/`: 主知识库内容、治理规则、来源注册表、设计镜头、课程、卡片、工作流和导出数据。
-- `kb-portal/`: 静态浏览门户，可直接打开 `index.html` 查看。
-- `kb-tools/`: 构建、校验、同步和导入脚本。
-- `tools/`: 辅助导入工具。
-- `50-game-design-masters-kb/`: 早期素材整理、规范化数据和报告。
-- `rebuild_instruction.md`: 重建与维护说明。
+This `knowledge/` folder is now the repository root for the knowledgebase. The sibling folder `../founder-of-the-north/` is game-project content and is outside this KB repository boundary.
 
-## 说明
+## Canonical KB Content
 
-仓库不包含本地私有书籍原文、电子书文件或压缩包。这些文件体积较大，且授权状态需要单独管理；知识库中只保留可维护的结构化笔记、索引、工具和衍生资料。
+- `kb/` is the canonical source-governed knowledgebase.
+- `tools/validate_kb/` contains the repository validator.
+- `tools/kb_importer/` generates structured exports from Markdown.
+- `kb-portal/` is an optional static browser generated only from safe exports.
+- `50-game-design-masters-kb/` is a legacy snapshot and must remain quarantined unless re-audited.
+- Root-level PDF/EPUB/book files are private local source materials and are ignored by `.gitignore`.
 
+## Source Governance
+
+High-risk sources are metadata-only. Do not summarize, quote, embed, or transform high-risk source bodies unless a legal sidecar explicitly permits processing.
+
+Run validation from this folder:
+
+```powershell
+node .\tools\validate_kb\validate_kb.js
+```
+
+Regenerate structured exports from this folder:
+
+```powershell
+node .\tools\kb_importer\import_kb.js .
+```
