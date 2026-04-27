@@ -29,7 +29,7 @@ Hidden `.git` metadata may still exist in the parent folder, but it is not conte
 
 - `../founder-of-the-north/`: game project content
 - `docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md`: legacy BookOS/readings-app instruction retained only as historical context
-- root PDF/EPUB/archive files: private source materials ignored by `.gitignore`
+- `_private_sources/`: private source quarantine ignored by `.gitignore` except its README
 - `50-game-design-masters-kb/`: legacy snapshot unless re-audited
 - any BookOS, forum CRUD, reading session, user auth, or personal library feature
 

@@ -37,9 +37,11 @@ Controls:
 - Default build must never create verified claims from high-risk source bodies.
 - `user_provided_file` does not imply legal AI processing permission.
 - Legacy tools cannot run accidentally.
+- Validator must fail active root direction-drift instructions.
+- Validator must fail contradictions between validation/migration reports and actual root file state.
 
 ## Result
 
 No P0 toolchain blocker remains.
 
-Latest recheck: default `npm` scripts use `/tools`, not `/kb-tools`; legacy entry scripts remain guarded by `ALLOW_LEGACY_KB_TOOLS=true`.
+Latest recheck: default `npm` scripts use `/tools`, not `/kb-tools`; legacy entry scripts remain guarded by `ALLOW_LEGACY_KB_TOOLS=true`; `npm run kb:validate` now passes with 0 P0 issues, 0 warnings, and 0 accepted exceptions.

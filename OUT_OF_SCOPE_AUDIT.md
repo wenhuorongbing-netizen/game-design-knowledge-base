@@ -12,6 +12,7 @@ The repository must be evaluated as a structured Game Design Knowledgebase, not 
 | `knowledge/kb/10_forum_templates` | Discussion templates only; acceptable if not CRUD | Low | Keep as templates only |
 | `knowledge/kb-portal` project/profile workbench | Static browsing can be useful; workbench can dominate scope | Medium | Defer until source data safe |
 | `founder-of-the-north` | Game project, not general KB | Repo identity confusion | Keep only as monorepo sibling, not KB release |
-| `knowledge/50-game-design-masters-kb` | Legacy knowledge folder with old extraction model | P0 legal risk | Quarantine/remove from release |
+| `knowledge/50-game-design-masters-kb` | Legacy knowledge folder with old extraction model | Low after explicit quarantine marker | Keep quarantined unless separately re-audited |
+| `knowledge/_private_sources` | Local private source quarantine | Medium if force-added or parsed | Keep ignored; metadata-only unless legal sidecar permits more |
 
 Conclusion: The current canonical KB should be `knowledge/kb`. Everything else must be explicitly classified as legacy, optional static display, local private material, or out-of-scope.

@@ -25,3 +25,5 @@ npm run kb:audit
 Do not use old instructions or old `kb-tools/build-all.mjs` commands from this snapshot. The legacy toolchain is deprecated and guarded.
 
 Do not parse, summarize, quote, embed, or transform any high-risk source body text from this folder unless a future audited migration explicitly permits a metadata-only or legal-sidecar workflow.
+
+See also: [LEGACY_QUARANTINE.md](LEGACY_QUARANTINE.md).

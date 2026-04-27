@@ -2,7 +2,7 @@
   "schema_version": "gdkb.search_index.v1",
   "generated_at": "2026-04-27",
   "safety_note": "body_excerpt_safe is suppressed for metadata-only or quarantined entities.",
-  "count": 735,
+  "count": 737,
   "documents": [
     {
       "id": "src-archive-knowledge-7z",
@@ -16722,6 +16722,56 @@
         "运营与发布"
       ],
       "tags": [],
+      "related_works": [],
+      "confidence": "unsupported_draft",
+      "source_basis": "unsupported_draft",
+      "status": "draft"
+    },
+    {
+      "id": "project_overlay_sample_design_audit",
+      "entity_type": "ProjectOverlay",
+      "title": "Sample Design Audit Overlay",
+      "summary": "Sample Design Audit Overlay",
+      "body_excerpt_safe": "This is a synthetic scaffold for showing how a project overlay should separate reusable KB knowledge from project-specific application. It is not evidence and must not be cited as a real project result. - Workflow: Game Idea to One-Page Concept Pack - Workflow: Core Loop Design Pack - Workflow: Playtest Plan Pack - Lens: Core Experience - Lens: Core Loop - Lens: Playtest Signal Pending real project context. Record assumptions separately from evidence. Pending real playtest or project review. - No real project artifact is attached. - No playtest observation is attached. - No design decision has been validated.",
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "iteration_production"
+      ],
+      "phase_groups": [
+        "phase_project_direction",
+        "phase_core_play_systems",
+        "phase_testing_acceptance_audit"
+      ],
+      "tags": [
+        "sample",
+        "project_overlay",
+        "unsupported_draft"
+      ],
+      "related_works": [],
+      "confidence": "unsupported_draft",
+      "source_basis": "unsupported_draft",
+      "status": "draft"
+    },
+    {
+      "id": "playtest_log_sample_first_session",
+      "entity_type": "PlaytestLog",
+      "title": "Sample First Playtest Log",
+      "summary": "Sample First Playtest Log",
+      "body_excerpt_safe": "What specific design question should this playtest answer? Replace this section with participant, artifact, task, observation, and consent details. No real observations are recorded in this sample. Do not infer design truth from this sample. Add real observations and separate facts from interpretation. Replace this sample with a real playtest log when a legal and ethical project record exists.",
+      "domains": [
+        "playtesting",
+        "player_experience",
+        "iteration_production"
+      ],
+      "phase_groups": [
+        "phase_testing_acceptance_audit"
+      ],
+      "tags": [
+        "sample",
+        "playtest_log",
+        "unsupported_draft"
+      ],
       "related_works": [],
       "confidence": "unsupported_draft",
       "source_basis": "unsupported_draft",

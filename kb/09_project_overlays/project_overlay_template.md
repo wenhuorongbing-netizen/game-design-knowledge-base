@@ -1,17 +1,28 @@
 ---
 id:
+project_overlay_id:
 title:
-entity_type: project_overlay
+entity_type: "ProjectOverlay"
+status: "draft"
 project_id:
 source_basis:
 confidence:
+phase_groups: []
+domains: []
+tags: []
+related_entities: []
+evidence_refs: []
 source_ids: []
 work_ids: []
-card_ids: []
-phase_groups: []
-cross_cutting_domains: []
+related_cards: []
+related_lenses: []
+linked_workflows: []
+design_decisions: []
+playtest_logs: []
 claim_scope: project_application
-status: draft
+created_at:
+updated_at:
+version: "0.1.0"
 ---
 
 # Project Overlay Title
@@ -25,3 +36,7 @@ status: draft
 ## Tested Result
 
 ## Remaining Risk
+
+## Evidence Boundary
+
+State which parts are observed, inferred, assumed, or unsupported.

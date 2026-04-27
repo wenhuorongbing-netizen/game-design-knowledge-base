@@ -1,5 +1,13 @@
 {
-  "generated_at": "2026-04-27T03:33:00.936Z",
+  "generated_at": "2026-04-27T07:23:40.021Z",
+  "summary": {
+    "p0_issues": 0,
+    "p1_issues": 0,
+    "warnings": 0,
+    "accepted_exceptions": 0,
+    "result": "PASS",
+    "pass_meaning": "P0 safety gate passed; no accepted migration exceptions remain."
+  },
   "counts": {},
   "issues": [],
   "accepted_exceptions": []

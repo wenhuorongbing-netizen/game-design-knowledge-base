@@ -45,7 +45,7 @@ const REQUIRED_FILES = [
   "kb/03_works/WORK_REGISTRY.md",
   "kb/05_cards/card_schema.json",
   "kb/06_lenses/lens_schema.json",
-  "kb/07_workflows/workflow_pack_schema.json",
+  "kb/08_workflows/workflow_pack_schema.json",
   "kb/11_import_export/markdown_frontmatter_schema.md",
   "kb/11_import_export/json_schema_plan.md",
   "kb/12_quality/COVERAGE_MATRIX.md",
@@ -73,7 +73,9 @@ const ENTITY_DIRS = [
   ["kb/07_lessons/lesson_cards", "Lesson"],
   ["kb/08_workflows/packs", "WorkflowPack"],
   ["kb/08_workflows/exercises", "Exercise"],
-  ["kb/08_workflows/prompts", "PromptTemplate"]
+  ["kb/08_workflows/prompts", "PromptTemplate"],
+  ["kb/09_project_overlays/overlays", "ProjectOverlay"],
+  ["kb/09_project_overlays/playtest_logs", "PlaytestLog"]
 ];
 
 const ID_FIELDS = [
@@ -87,6 +89,8 @@ const ID_FIELDS = [
   "workflow_id",
   "exercise_id",
   "prompt_id",
+  "project_overlay_id",
+  "playtest_log_id",
   "claim_id",
   "work_id",
   "edge_id"
@@ -95,6 +99,78 @@ const ID_FIELDS = [
 const issues = [];
 const acceptedExceptions = [];
 const ids = new Map();
+
+const ROOT_REPORT_FILES = [
+  "KB_ACCEPTANCE_REVIEW.md",
+  "DIRECTION_DRIFT_AUDIT.md",
+  "GAP_BACKLOG.md",
+  "KB_PROJECT_STATE.md",
+  "TODO.md"
+];
+
+const GENERATED_REPORT_SCAN_EXCLUSIONS = new Set([
+  "VALIDATION_REPORT.md",
+  "MIGRATION_EXCEPTIONS_REPORT.md"
+]);
+
+const DIRECTION_DRIFT_TERMS = [
+  "bookos",
+  "automated book notes library",
+  "reading sessions",
+  "reading session",
+  "reading progress",
+  "personal book library crud",
+  "personal book library",
+  "user authentication",
+  "user auth",
+  "forum crud",
+  "vue/spring/mysql",
+  "vue / spring / mysql",
+  "full-stack web app",
+  "full stack web app",
+  "full-stack app",
+  "full stack app"
+];
+
+const ACTIVE_INSTRUCTION_TERMS = [
+  "build",
+  "implement",
+  "create",
+  "add",
+  "develop",
+  "scaffold",
+  "make",
+  "support",
+  "use",
+  "建立",
+  "构建",
+  "开发",
+  "实现",
+  "新增",
+  "搭建"
+];
+
+const NEGATION_OR_DEPRECATION_TERMS = [
+  "do not",
+  "don't",
+  "must not",
+  "never",
+  "not ",
+  "not:",
+  "is not",
+  "out of scope",
+  "deprecated",
+  "not active",
+  "do_not_touch",
+  "ignore",
+  "forbidden",
+  "禁止",
+  "不要",
+  "不是",
+  "不得",
+  "非活动",
+  "已废弃"
+];
 
 function rel(filePath) {
   return path.relative(repoRoot, filePath).replace(/\\/g, "/");
@@ -110,6 +186,10 @@ function accept(rule, file, message) {
 
 function exists(relativePath) {
   return fs.existsSync(path.join(repoRoot, relativePath));
+}
+
+function readTextIfExists(filePath) {
+  return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
 }
 
 function readJson(filePath, fallback = null) {
@@ -318,6 +398,125 @@ function validateRepoWideHighRiskArtifacts() {
   }
 }
 
+function isSafeDeprecatedRebuildStub(text) {
+  const normalized = text.toLowerCase();
+  const lines = text.split(/\r?\n/).filter((line) => line.trim());
+  return (
+    lines.length <= 40 &&
+    normalized.includes("deprecated instruction stub") &&
+    normalized.includes("this file is not active") &&
+    normalized.includes("kb_rebuild_instruction.md") &&
+    normalized.includes("game design knowledgebase") &&
+    normalized.includes("do not build") &&
+    normalized.includes("docs/deprecated")
+  );
+}
+
+function lineLooksLikeActiveDirectionInstruction(line) {
+  const normalized = line.toLowerCase();
+  if (!DIRECTION_DRIFT_TERMS.some((term) => normalized.includes(term))) return false;
+  if (NEGATION_OR_DEPRECATION_TERMS.some((term) => normalized.includes(term))) return false;
+  return ACTIVE_INSTRUCTION_TERMS.some((term) => {
+    if (/[\u4e00-\u9fff]/.test(term)) return normalized.includes(term);
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`\\b${escaped}\\b`, "i").test(normalized);
+  });
+}
+
+function validateDirectionDrift() {
+  const rebuildPath = path.join(repoRoot, "rebuild_instruction.md");
+  const rebuildText = readTextIfExists(rebuildPath);
+  const unsafeRootRebuild = Boolean(rebuildText) && !isSafeDeprecatedRebuildStub(rebuildText);
+
+  if (unsafeRootRebuild) {
+    add(
+      "P0",
+      "active_direction_drift_instruction",
+      rebuildPath,
+      "Root rebuild_instruction.md exists and is not a safe deprecated stub pointing to KB_REBUILD_INSTRUCTION.md."
+    );
+  }
+
+  for (const entry of fs.readdirSync(repoRoot, { withFileTypes: true })) {
+    if (!entry.isFile()) continue;
+    if (GENERATED_REPORT_SCAN_EXCLUSIONS.has(entry.name)) continue;
+    const ext = path.extname(entry.name).toLowerCase();
+    if (![".md", ".txt"].includes(ext)) continue;
+    const filePath = path.join(repoRoot, entry.name);
+    if (entry.name === "rebuild_instruction.md" && rebuildText && isSafeDeprecatedRebuildStub(rebuildText)) continue;
+
+    const text = readTextIfExists(filePath);
+    const lines = text.split(/\r?\n/);
+    for (let index = 0; index < lines.length; index += 1) {
+      if (lineLooksLikeActiveDirectionInstruction(lines[index])) {
+        add(
+          "P0",
+          "active_direction_drift_instruction",
+          filePath,
+          `Line ${index + 1} appears to contain active app/product build instructions: ${lines[index].trim()}`
+        );
+      }
+    }
+  }
+
+  if (fs.existsSync(rebuildPath)) {
+    for (const relativePath of ROOT_REPORT_FILES) {
+      const reportPath = path.join(repoRoot, relativePath);
+      const text = readTextIfExists(reportPath);
+      if (!text) continue;
+      if (/rebuild_instruction\.md[\s\S]{0,120}(absent|missing|does not exist|removed|is absent)/i.test(text)) {
+        add(
+          "P0",
+          "report_file_state_contradiction",
+          reportPath,
+          "Report claims root rebuild_instruction.md is absent/removed, but the file exists."
+        );
+      }
+    }
+  }
+}
+
+function extractAcceptedExceptionCount(filePath) {
+  const text = readTextIfExists(filePath);
+  if (!text) return null;
+  const match = text.match(/accepted exceptions:\s*(\d+)/i);
+  return match ? Number(match[1]) : null;
+}
+
+function validateReportConsistency() {
+  const validationMdPath = path.join(repoRoot, "VALIDATION_REPORT.md");
+  const migrationMdPath = path.join(repoRoot, "MIGRATION_EXCEPTIONS_REPORT.md");
+  const validationJsonPath = path.join(repoRoot, "VALIDATION_REPORT.json");
+  const validationMdCount = extractAcceptedExceptionCount(validationMdPath);
+  const migrationMdCount = extractAcceptedExceptionCount(migrationMdPath);
+
+  if (validationMdCount !== null && migrationMdCount !== null && validationMdCount !== migrationMdCount) {
+    add(
+      "P0",
+      "report_exception_count_contradiction",
+      migrationMdPath,
+      `MIGRATION_EXCEPTIONS_REPORT.md says accepted exceptions = ${migrationMdCount}, but VALIDATION_REPORT.md says ${validationMdCount}.`
+    );
+  }
+
+  if (fs.existsSync(validationJsonPath)) {
+    try {
+      const json = JSON.parse(fs.readFileSync(validationJsonPath, "utf8"));
+      const jsonCount = Array.isArray(json.accepted_exceptions) ? json.accepted_exceptions.length : null;
+      if (jsonCount !== null && validationMdCount !== null && jsonCount !== validationMdCount) {
+        add(
+          "P0",
+          "report_exception_count_contradiction",
+          validationJsonPath,
+          `VALIDATION_REPORT.json has ${jsonCount} accepted exceptions, but VALIDATION_REPORT.md says ${validationMdCount}.`
+        );
+      }
+    } catch (error) {
+      add("P0", "invalid_json", validationJsonPath, `Could not parse VALIDATION_REPORT.json: ${error.message}`);
+    }
+  }
+}
+
 function writeReports() {
   const counts = issues.reduce((acc, issue) => {
     acc[issue.severity] = (acc[issue.severity] || 0) + 1;
@@ -372,6 +571,8 @@ function writeReports() {
     "- verified claim without evidence",
     "- legacy high-risk body artifact scan",
     "- unsafe portal data scan",
+    "- active root direction-drift instruction scan",
+    "- report consistency scan",
     "",
     "## Issues",
     "",
@@ -452,7 +653,28 @@ function writeReports() {
 
   fs.writeFileSync(reportPath, `${lines.join("\n")}\n`, "utf8");
   fs.writeFileSync(migrationExceptionsReportPath, `${migrationLines.join("\n")}\n`, "utf8");
-  fs.writeFileSync(jsonReportPath, JSON.stringify({ generated_at: new Date().toISOString(), counts, issues, accepted_exceptions: acceptedExceptions }, null, 2), "utf8");
+  fs.writeFileSync(
+    jsonReportPath,
+    JSON.stringify(
+      {
+        generated_at: new Date().toISOString(),
+        summary: {
+          p0_issues: p0Count,
+          p1_issues: counts.P1 || 0,
+          warnings: counts.warning || 0,
+          accepted_exceptions: acceptedExceptions.length,
+          result: p0Count === 0 ? "PASS" : "FAIL",
+          pass_meaning: passMeaning
+        },
+        counts,
+        issues,
+        accepted_exceptions: acceptedExceptions
+      },
+      null,
+      2
+    ),
+    "utf8"
+  );
   console.log(`${p0Count === 0 ? "PASS" : "FAIL"}: ${p0Count} P0 issue(s), ${counts.warning || 0} warning(s).`);
   console.log(`Report: ${reportPath}`);
   process.exitCode = p0Count === 0 ? 0 : 1;
@@ -466,4 +688,6 @@ validateClaims(core);
 validateRelationships(core);
 validateSearchSafety(core);
 validateRepoWideHighRiskArtifacts();
+validateDirectionDrift();
+validateReportConsistency();
 writeReports();

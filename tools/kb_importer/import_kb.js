@@ -67,6 +67,7 @@ const KNOWLEDGE_ENTITY_TYPES = new Set([
   "WorkflowPack",
   "PromptTemplate",
   "ProjectOverlay",
+  "PlaytestLog",
   "ForumThreadTemplate",
   "Claim"
 ]);
@@ -88,7 +89,9 @@ const ENTITY_SCAN_DIRS = [
   { dir: "07_lessons/lesson_cards", defaultType: "Lesson" },
   { dir: "08_workflows/packs", defaultType: "WorkflowPack" },
   { dir: "08_workflows/exercises", defaultType: "Exercise" },
-  { dir: "08_workflows/prompts", defaultType: "PromptTemplate" }
+  { dir: "08_workflows/prompts", defaultType: "PromptTemplate" },
+  { dir: "09_project_overlays/overlays", defaultType: "ProjectOverlay" },
+  { dir: "09_project_overlays/playtest_logs", defaultType: "PlaytestLog" }
 ];
 
 const ID_FIELDS = [
@@ -103,6 +106,7 @@ const ID_FIELDS = [
   "workflow_id",
   "prompt_id",
   "project_overlay_id",
+  "playtest_log_id",
   "forum_thread_template_id",
   "claim_id",
   "work_id",
@@ -721,6 +725,18 @@ function createSchemas() {
       design_decisions: { type: "array", items: { type: "string" } },
       playtest_logs: { type: "array", items: { type: "string" } }
     }),
+    "playtest_log.schema.json": schema("GDKB PlaytestLog", "PlaytestLog", ["project_id", "playtest_log_id"], {
+      project_id: { type: "string" },
+      playtest_log_id: { type: "string" },
+      test_question: { type: "string" },
+      tested_artifact: { type: "string" },
+      participant_profile: { type: "string" },
+      evidence_gap: { type: "string" },
+      related_workflows: { type: "array", items: { type: "string" } },
+      related_lenses: { type: "array", items: { type: "string" } },
+      observed_findings: { type: "array", items: { type: "string" } },
+      next_actions: { type: "array", items: { type: "string" } }
+    }),
     "relationship.schema.json": {
       $schema: "https://json-schema.org/draft/2020-12/schema",
       $id: "gdkb.relationship.schema.v1",
@@ -761,7 +777,8 @@ function validateWithSchema(entity, schemas, issues) {
     Exercise: "exercise.schema.json",
     WorkflowPack: "workflow_pack.schema.json",
     PromptTemplate: "prompt_template.schema.json",
-    ProjectOverlay: "project_overlay.schema.json"
+    ProjectOverlay: "project_overlay.schema.json",
+    PlaytestLog: "playtest_log.schema.json"
   };
   const schema = schemas[schemaNameByType[entity.entity_type]];
   if (!schema) return;

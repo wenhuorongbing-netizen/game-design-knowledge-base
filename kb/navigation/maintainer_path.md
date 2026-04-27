@@ -95,4 +95,15 @@ Fix source Markdown, registries, schemas, or importer logic, then regenerate.
 ## TODO
 
 - Add maintainer examples for legal sidecar review after the user provides the first approved sidecar.
-- Add project overlay maintenance steps after ProjectOverlay records exist.
+
+## Project Overlay Maintenance
+
+Use [Project Application Guide](../09_project_overlays/PROJECT_APPLICATION_GUIDE.md) and [project_overlay_template.md](../09_project_overlays/project_overlay_template.md) when applying general KB assets to a project.
+
+Use [playtest_log_template.md](../09_project_overlays/playtest_log_template.md) for project-specific test records.
+
+Rules:
+
+- Keep project assumptions out of general cards.
+- Keep `source_basis`, `confidence`, and `evidence_refs` explicit.
+- Treat sample overlay and sample playtest log records as `unsupported_draft` scaffolds, not evidence.

@@ -191,13 +191,13 @@ P0 Finalization Sprint complete: the repository is finalized as a Game Design Kn
 - Prompt 10 legal audit found 0 unresolved legal violations
 - Prompt 10 hallucination audit found 0 critical hallucination issues
 - Prompt 10 release checklist passes all final acceptance gates for draft GDKB integration
-- source-backed masterclass release remains blocked until legal sidecars, user notes, project overlays, or playtest evidence are provided
+- source-backed masterclass release remains blocked until legal sidecars, user notes, real project overlays, or real playtest evidence are provided
 
 ## Next Action
 
-Run `review-gdkb-p0-final`.
+Run `build-evidence-intake-phase-1`.
 
-Do not proceed to ProjectOverlay, evidence expansion, or UI/app work until P0 finalization is accepted.
+ProjectOverlay and PlaytestLog draft scaffolds now exist. Do not proceed to verified evidence promotion or UI/app work until legal/user/project evidence is provided.
 
 ## Files Created Or Updated
 
@@ -323,12 +323,12 @@ Do not proceed to ProjectOverlay, evidence expansion, or UI/app work until P0 fi
 - which Prompt 6 lenses should be tested on a real project first
 - which Prompt 7 tracks should be used first by the user
 - which Prompt 8 workflow packs should be tested on a real project first
-- which project overlay entities should connect to workflow outputs first
+- which real project overlay should replace the unsupported sample overlay first
 - whether the 41 `card_without_related_work` warnings should be fixed by adding related works, marking them as general governance cards, or exempting specific card families
 - which downstream GDKB database shape should consume the Prompt 9 exports first
-- which sample project should be used for the first ProjectOverlay
+- which real project should be used for the first non-sample ProjectOverlay
 - which workflow outputs should become design decisions first
-- whether playtest logs or design decision logs should be implemented first in Prompt 11
+- which real playtest observation should replace the unsupported sample PlaytestLog first
 
 ## Do-Not-Redo List
 

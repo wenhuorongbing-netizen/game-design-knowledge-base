@@ -3,7 +3,7 @@
 This folder documents the Markdown frontmatter standard, JSON schemas, import pipeline, search model, graph model, and generated export artifacts.
 
 - Status: mixed canonical and generated
-- Users: maintainers, data engineers, BookOS/GDKB integration work
+- Users: maintainers, data engineers, GDKB integration work
 - Edit: documentation and schemas carefully; generated outputs no
 - Updated by: `npm run kb:export`
 

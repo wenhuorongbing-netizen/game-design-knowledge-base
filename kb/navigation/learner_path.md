@@ -301,4 +301,13 @@ Evidence warning: release and ethics guidance must be checked against the actual
 ## TODO
 
 - Add a verified-reading route after legal sidecars or open/legal source notes exist.
-- Add a project-based learning route after ProjectOverlay records exist.
+
+## Project-Based Learning Route
+
+Use the project application layer after completing a workflow or playtest lesson:
+
+- [Project Application Guide](../09_project_overlays/PROJECT_APPLICATION_GUIDE.md)
+- [Sample Design Audit Overlay](../09_project_overlays/overlays/sample_design_audit_overlay.md)
+- [Sample First Playtest Log](../09_project_overlays/playtest_logs/playtest_log_sample_first_session.md)
+
+Evidence warning: sample project records are `unsupported_draft` scaffolds. Replace them with real project observations before treating them as evidence.

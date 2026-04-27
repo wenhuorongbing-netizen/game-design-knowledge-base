@@ -6,11 +6,11 @@
 | Field | Value |
 |---|---:|
 | generated_at | 2026-04-27 |
-| entities_exported | 857 |
-| relationships_exported | 8383 |
-| search_documents_exported | 735 |
-| graph_nodes_exported | 857 |
-| graph_edges_exported | 8383 |
+| entities_exported | 859 |
+| relationships_exported | 8405 |
+| search_documents_exported | 737 |
+| graph_nodes_exported | 859 |
+| graph_edges_exported | 8405 |
 | issues_total | 0 |
 
 ## Issue Counts By Severity

@@ -14,7 +14,7 @@ Status values: `canonical`, `generated`, `optional`, `tool`, `legacy`, `deprecat
 | `kb-portal/` | Optional static browser surface generated from safe exports | optional | reviewers, demo users | Usually no | Do not treat as source of truth. |
 | `kb-tools/` | Deprecated legacy tools for old snapshot/private-source experiments | legacy | maintainers only with explicit opt-in | No by default | Requires `ALLOW_LEGACY_KB_TOOLS=true`; not authoritative. |
 | `50-game-design-masters-kb/` | Legacy snapshot from an earlier KB version | legacy | maintainers only | No by default | Quarantined until re-audited; do not use as canonical content. |
-| root `*.pdf`, `*.epub`, book files | Private local source materials | private/local | source auditor only | Metadata only | Do not parse, quote, summarize, embed, or transform body text. |
+| `_private_sources/` | Private local source quarantine | private/local | source auditor only | Metadata only | Ignored except `_private_sources/README.md`; do not parse, quote, summarize, embed, or transform body text. |
 | root control files | Current repository control and review reports | canonical | maintainers, reviewers | Yes, carefully | Examples: `KB_ACCEPTANCE_REVIEW.md`, `GAP_BACKLOG.md`, `KB_PROJECT_STATE.md`. |
 | root generated reports | Validator and audit outputs | generated | maintainers, reviewers | No manual edits | Examples: `VALIDATION_REPORT.md`, `VALIDATION_REPORT.json`, `MIGRATION_EXCEPTIONS_REPORT.md`, `SOURCE_GOVERNANCE_AUDIT.md`. Regenerate with `npm run kb:validate` or `npm run kb:audit`. |
 | `kb/11_import_export/export/*.json` | Entity, relationship, search, and graph export data | generated | importers, search tools, graph tools | No manual edits | Regenerate with `npm run kb:export`. |

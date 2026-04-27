@@ -338,7 +338,7 @@ function generateHallucinationAudit() {
     ["weak evidence", "warning", unsupportedDraftClaims.length, "Most claims are evidence gaps by design.", "Prioritize legal notes and official metadata."],
     ["circular references", "pass", 0, "No critical circular evidence chain was detected; routing links are not evidence.", "No repair needed."],
     ["AI-sounding generic filler", "warning", genericScaffoldCards.length, "Many cards are scaffold language rather than final teaching prose.", "Replace top cards with user-note-backed definitions and examples."],
-    ["missing project application", "warning", 1, "ProjectOverlay is designed but not implemented with real project examples.", "Run Prompt 11 Project Overlay system."],
+    ["missing real project evidence", "warning", 1, "ProjectOverlay and PlaytestLog scaffolds exist, but real project observations are not yet supplied.", "Replace sample scaffolds with user-provided project evidence."],
     ["missing when-not-to-use", cardsMissingWhenNotToUse.length ? "warning" : "pass", cardsMissingWhenNotToUse.length, "Concept cards generally include when_not_to_use.", "Add limitations where missing."],
     ["missing output artifacts", cardsMissingOutput.length ? "warning" : "pass", cardsMissingOutput.length, "Most production cards include output artifacts.", "Add output_artifacts where missing."]
   ];
@@ -426,10 +426,10 @@ function generateUsabilityAudit() {
     },
     {
       question: "I need to run a playtest. Which workflow pack applies?",
-      route: "Use Playtest Plan Pack, Prototype Question Pack, and Track 8 playtesting lessons.",
-      objects: ["workflow_playtest-plan", "workflow_prototype-question", "lesson_08_prototyping_playtesting_iteration_06_playtest-planning", "lesson_08_prototyping_playtesting_iteration_08_interpreting-feedback", "prompt_generate-playtest-questions"],
+      route: "Use Playtest Plan Pack, Prototype Question Pack, Track 8 playtesting lessons, and the PlaytestLog template.",
+      objects: ["workflow_playtest-plan", "workflow_prototype-question", "lesson_08_prototyping_playtesting_iteration_06_playtest-planning", "lesson_08_prototyping_playtesting_iteration_08_interpreting-feedback", "prompt_generate-playtest-questions", "kb/09_project_overlays/playtest_log_template.md"],
       result: "usable",
-      limitation: "PlaytestLog entity exists in ontology but a full log template remains future work."
+      limitation: "Sample PlaytestLog exists as unsupported_draft scaffold; real observations are still required."
     },
     {
       question: "I need to write a pitch. Which lessons and templates apply?",
@@ -447,10 +447,10 @@ function generateUsabilityAudit() {
     },
     {
       question: "I want to apply a book concept to my project. How does ProjectOverlay work?",
-      route: "Use Project Application Guide, project overlay template, Project Overlay Workshop lesson, and Update Project Overlay prompt.",
-      objects: ["kb/09_project_overlays/project_overlay_template.md", "kb/09_project_overlays/PROJECT_APPLICATION_GUIDE.md", "lesson_10_advanced_design_studio_07_project-overlay-workshop", "prompt_update-project-overlay"],
-      result: "partial",
-      limitation: "ProjectOverlay is scaffolded but not implemented with real project records; run Prompt 11."
+      route: "Use Project Application Guide, project overlay template, sample overlay, Project Overlay Workshop lesson, and Update Project Overlay prompt.",
+      objects: ["kb/09_project_overlays/project_overlay_template.md", "kb/09_project_overlays/PROJECT_APPLICATION_GUIDE.md", "kb/09_project_overlays/overlays/sample_design_audit_overlay.md", "lesson_10_advanced_design_studio_07_project-overlay-workshop", "prompt_update-project-overlay"],
+      result: "usable as draft scaffold",
+      limitation: "Sample ProjectOverlay is unsupported_draft and must be replaced with real project records before use as evidence."
     }
   ];
 
@@ -477,23 +477,22 @@ ${table(scenarios.map((scenario) => [
 
 - A beginner can start with the curriculum and run a workflow pack.
 - A designer can find core-loop, game-feel, economy, UI, narrative, playtest, and release materials by phase.
-- A team can use workflows to produce artifacts, then attach results to a future project overlay.
+- A team can use workflows to produce artifacts, then attach results to a ProjectOverlay.
 - AI can retrieve from search index safely because source_basis and confidence are included.
 
 ## Friction Points
 
-- ProjectOverlay is not yet complete enough for real project history.
+- ProjectOverlay and PlaytestLog scaffolds exist, but real project history is not yet supplied.
 - Forum templates are present but not normalized into Prompt 9 entity exports.
 - Many cards are intentionally generic scaffolds and need evidence-backed prose.
-- There are no real user notes, quotes, playtest logs, or design decision logs yet.
+- There are no real user notes, quotes, playtest observations, or design decision logs yet.
 
 ## Immediate Usability Repairs
 
-1. Implement ProjectOverlay records and templates in Prompt 11.
-2. Implement forum thread templates as normalized entities in Prompt 12.
-3. Add one sample project overlay that uses at least three workflow outputs.
-4. Attach user notes to the top 20 concept cards.
-5. Add a "start here" pointer from GDKB to \`KB_README.md\`.
+1. Replace the unsupported draft sample overlay/log with real project records.
+2. Implement forum thread templates as normalized entities in a later phase.
+3. Attach user notes to the top 20 concept cards.
+4. Add a "start here" pointer from GDKB to \`KB_README.md\` if integrating downstream.
 `);
 }
 
@@ -625,12 +624,12 @@ The KB is ready to import into GDKB as a draft, source-governed, searchable, gra
 ## Known Warnings
 
 - 41 cards do not yet have related_works.
-- Forum templates and project overlays are not fully normalized production systems.
-- No real project examples or playtest logs exist yet.
+- Forum templates are not fully normalized production systems.
+- ProjectOverlay and PlaytestLog are scaffolded, but no real project examples or playtest observations exist yet.
 
 ## Recommended Next Release
 
-Prompt 11 should implement ProjectOverlay and project application records so general KB knowledge can be used safely in real game projects.
+Replace sample ProjectOverlay and PlaytestLog scaffolds with real project evidence so general KB knowledge can be used safely in real game projects.
 `);
 
   write("12_quality/KB_README.md", `
@@ -696,7 +695,7 @@ Use:
 - playtest logs
 - evidence refs
 
-Prompt 11 should implement the full ProjectOverlay system.
+The current ProjectOverlay and PlaytestLog examples are \`unsupported_draft\` scaffolds. Replace them with real project records before treating them as evidence.
 
 ## How To Avoid Unsupported Claims
 
@@ -708,10 +707,10 @@ Prompt 11 should implement the full ProjectOverlay system.
 
 ## How To Continue Building
 
-1. Run Prompt 11: Project Overlay system.
-2. Add legal sidecars or user notes.
+1. Add legal sidecars or user notes.
+2. Replace sample project overlays and playtest logs with real project evidence.
 3. Promote selected cards with evidence.
-4. Add playtest logs and design decisions.
+4. Add design decisions.
 5. Re-run the importer.
 6. Re-run quality audits before release.
 `);
@@ -726,10 +725,9 @@ Prompt 11 should implement the full ProjectOverlay system.
 - Decide how to handle 41 \`card_without_related_work\` warnings.
 - Choose 5 priority works for legal sidecars or user notes.
 
-## Week 2 - Project Overlay Foundation
+## Week 2 - Project Evidence Foundation
 
-- Implement Prompt 11 ProjectOverlay system.
-- Create one sample project overlay.
+- Replace the unsupported draft sample ProjectOverlay with one real project overlay.
 - Run 3 workflow packs on the sample project.
 - Store outputs as project-specific records.
 
@@ -742,7 +740,7 @@ Prompt 11 should implement the full ProjectOverlay system.
 
 ## Week 4 - Playtest And GDKB Import
 
-- Create PlaytestLog template.
+- Replace the unsupported draft PlaytestLog sample with one real playtest record.
 - Run one small playtest.
 - Import exports into GDKB.
 - Verify search, graph, and source_basis display.
@@ -754,7 +752,7 @@ Prompt 11 should implement the full ProjectOverlay system.
 
 ## Days 1-30
 
-- Complete Prompt 11 ProjectOverlay system.
+- Expand ProjectOverlay and PlaytestLog records with real project evidence.
 - Resolve or explicitly accept Prompt 9 warnings.
 - Add first legal sidecars or user reading notes.
 - Import draft KB into GDKB.
@@ -810,7 +808,7 @@ The KB is a **GDKB draft release candidate**. It is legally safe, searchable, gr
 - No legal sidecars for commercial book files.
 - No user reading notes attached to dossiers.
 - No verified source-backed chapter or concept summaries.
-- ProjectOverlay is scaffolded but not operational with real project records.
+- ProjectOverlay and PlaytestLog exist as unsupported draft scaffolds, but real project records are missing.
 - Forum templates are not normalized as graph entities.
 - 41 card-related-work warnings remain.
 
@@ -840,9 +838,9 @@ The KB is a **GDKB draft release candidate**. It is legally safe, searchable, gr
 
 ## Next Exact Prompt
 
-Prompt 11: Project Overlay System and Project Application Records.
+Evidence Intake Phase 1: Legal Notes And Real Project Evidence.
 
-The next prompt should implement project overlays, design decision logs, playtest log templates, and a sample project application flow that connects workflow outputs to real game development use.
+The next prompt should add legal sidecars, user notes, real project overlays, design decision logs, and real playtest records without parsing high-risk source bodies.
 `);
 }
 

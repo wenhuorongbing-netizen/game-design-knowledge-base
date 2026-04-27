@@ -4,7 +4,7 @@
 
 The KB is a **draft Game Design Knowledgebase release candidate**. It is legally safe, searchable, graph-ready, and useful as a structured design-research scaffold.
 
-It is **not** a verified source-backed masterclass corpus because legal sidecars, user reading notes, source-backed evidence refs, project overlays, and playtest logs are still missing.
+It is **not** a verified source-backed masterclass corpus because legal sidecars, user reading notes, source-backed evidence refs, real project overlays, and real playtest observations are still missing.
 
 ## Files Created Or Updated In P0 Finalization
 
@@ -37,8 +37,8 @@ It is **not** a verified source-backed masterclass corpus because legal sidecars
 - No legal sidecars for commercial book files.
 - No user reading notes attached to dossiers.
 - No verified book-derived chapter or concept summaries.
-- ProjectOverlay exists only as a future application layer.
-- Playtest logs are absent.
+- ProjectOverlay and PlaytestLog exist as unsupported draft scaffolds.
+- Real project overlays and real playtest observations are absent.
 
 ## Legal Limitations
 

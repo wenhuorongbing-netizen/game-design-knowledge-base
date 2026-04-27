@@ -58,5 +58,15 @@ Use this file when you are working on a game and need a concrete next action. St
 
 ## TODO
 
-- Add project-specific overlay links after ProjectOverlay records exist.
 - Add verified examples after legal/user/project evidence exists.
+
+## Record Project Application
+
+After running any workflow above, write the result into the project application layer:
+
+- [Project Application Guide](09_project_overlays/PROJECT_APPLICATION_GUIDE.md)
+- [Project Overlay Template](09_project_overlays/project_overlay_template.md)
+- [Playtest Log Template](09_project_overlays/playtest_log_template.md)
+- [Sample Design Audit Overlay](09_project_overlays/overlays/sample_design_audit_overlay.md)
+
+Do not treat the sample overlay as evidence. Replace it with a real project record and keep assumptions, observations, and decisions separate.

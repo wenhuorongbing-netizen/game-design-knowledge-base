@@ -22,7 +22,7 @@ Use this before and after any repository maintenance change.
 ## Unsafe Edit Targets
 
 - [ ] Do not manually edit `kb/11_import_export/export/*.json`.
-- [ ] Do not edit root private PDF/EPUB body text.
+- [ ] Do not edit or parse private PDF/EPUB body text under `_private_sources/`.
 - [ ] Do not use `50-game-design-masters-kb/` as canonical.
 - [ ] Do not run `kb-tools/` unless explicitly opted in for legacy maintenance.
 

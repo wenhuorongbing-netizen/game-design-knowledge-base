@@ -1,7 +1,7 @@
 {
   "schema_version": "gdkb.graph_nodes.v1",
   "generated_at": "2026-04-27",
-  "count": 857,
+  "count": 859,
   "nodes": [
     {
       "id": "src-archive-knowledge-7z",
@@ -13728,6 +13728,50 @@
         "prompt_engineering_game_design"
       ],
       "tags": []
+    },
+    {
+      "id": "project_overlay_sample_design_audit",
+      "entity_type": "ProjectOverlay",
+      "title": "Sample Design Audit Overlay",
+      "status": "draft",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "phase_groups": [
+        "phase_project_direction",
+        "phase_core_play_systems",
+        "phase_testing_acceptance_audit"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "iteration_production"
+      ],
+      "tags": [
+        "sample",
+        "project_overlay",
+        "unsupported_draft"
+      ]
+    },
+    {
+      "id": "playtest_log_sample_first_session",
+      "entity_type": "PlaytestLog",
+      "title": "Sample First Playtest Log",
+      "status": "draft",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "phase_groups": [
+        "phase_testing_acceptance_audit"
+      ],
+      "domains": [
+        "playtesting",
+        "player_experience",
+        "iteration_production"
+      ],
+      "tags": [
+        "sample",
+        "playtest_log",
+        "unsupported_draft"
+      ]
     },
     {
       "id": "interactivity",

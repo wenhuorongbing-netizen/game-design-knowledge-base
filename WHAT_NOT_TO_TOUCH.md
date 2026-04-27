@@ -47,6 +47,8 @@ Do not set that variable unless you are doing audited legacy maintenance.
 
 High-risk markers include `z-library`, `z-lib`, `1lib`, `Anna's Archive`, `it-ebooks`, `mirror`, `suspicious scan`, and `unknown scanned copy`.
 
+Private source files are quarantined under `_private_sources/`. They are local-only and ignored by Git except for `_private_sources/README.md`.
+
 For high-risk sources, do not:
 
 - extract body text
@@ -83,3 +85,4 @@ These folders are non-canonical unless explicitly re-audited:
 - `kb-tools/`
 - `50-game-design-masters-kb/`
 - `docs/deprecated/`
+- `_private_sources/`

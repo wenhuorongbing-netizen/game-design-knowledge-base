@@ -31,7 +31,7 @@ START_HERE.md
      -> kb-tools/ deprecated legacy scripts
      -> 50-game-design-masters-kb/ legacy snapshot
   -> private/local source files
-     -> root PDF/EPUB/book files
+     -> _private_sources/ local quarantine
      -> metadata-only unless legal sidecar permits more
 ```
 

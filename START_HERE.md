@@ -67,6 +67,8 @@ Read [HOW_TO_ADD_KNOWLEDGE.md](HOW_TO_ADD_KNOWLEDGE.md) and [kb/navigation/sourc
 
 Minimum rule: a user-provided file is not automatically legal for AI processing. High-risk sources stay metadata-only unless a legal sidecar explicitly permits processing.
 
+Evidence the agent cannot create is listed in [kb/01_sources/USER_REQUIRED_EVIDENCE.md](kb/01_sources/USER_REQUIRED_EVIDENCE.md).
+
 ## 8. I Want To Add A Concept Card. What Do I Do?
 
 Start from [kb/05_cards/card_template.md](kb/05_cards/card_template.md). Add the card under the correct card folder and include `entity_type`, `card_id`, `card_type`, `source_basis`, `confidence`, `status`, `phase_groups`, `domains`, and evidence fields.
@@ -105,7 +107,7 @@ Ignore these unless you are doing explicit maintenance:
 - `kb-tools/`: deprecated legacy tooling; do not run unless explicitly enabled.
 - `50-game-design-masters-kb/`: legacy snapshot; do not use as canonical KB.
 - `kb-portal/`: optional generated/static browser surface.
-- root PDF/EPUB/book files: private local source materials; do not ingest body text.
+- `_private_sources/`: private local source quarantine; do not ingest body text.
 - `docs/deprecated/`: historical context only, not active instructions.
 
 Read [WHAT_NOT_TO_TOUCH.md](WHAT_NOT_TO_TOUCH.md) before making changes.

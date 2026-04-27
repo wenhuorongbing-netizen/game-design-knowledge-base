@@ -1,4 +1,4 @@
-Start here: START_HERE.md
+Start here: [START_HERE.md](START_HERE.md)
 
 # Game Design Knowledgebase
 
@@ -12,6 +12,7 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 
 - `kb/` is the canonical source-governed knowledgebase.
 - `START_HERE.md` is the role-based entry point for new users.
+- `KB_REBUILD_INSTRUCTION.md` is the active maintenance and rebuild instruction.
 - `kb/navigation/` contains learner, designer, researcher, maintainer, source-governance, and quick problem-solving paths.
 - `tools/validate_kb/` contains the repository validator.
 - `tools/kb_importer/` is the authoritative export/import pipeline.
@@ -19,11 +20,13 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `kb-portal/` is an optional static browser generated only from safe exports.
 - `kb-tools/` is deprecated legacy tooling and is not the authoritative build path.
 - `50-game-design-masters-kb/` is a legacy snapshot and must remain quarantined unless re-audited.
-- Root-level PDF/EPUB/book files are private local source materials and are ignored by `.gitignore`.
+- `_private_sources/` contains private local source materials and is ignored by `.gitignore` except for its README.
 
 ## Source Governance
 
 High-risk sources are metadata-only. Do not summarize, quote, embed, or transform high-risk source bodies unless a legal sidecar explicitly permits processing.
+
+Evidence that the agent cannot create is listed in [kb/01_sources/USER_REQUIRED_EVIDENCE.md](kb/01_sources/USER_REQUIRED_EVIDENCE.md).
 
 ## Authoritative Commands
 
@@ -52,6 +55,8 @@ Verified source-backed masterclass release remains blocked until legal sidecars,
 ## Navigation
 
 If you are new to the repository, start with [START_HERE.md](START_HERE.md).
+
+If you are maintaining or rebuilding the repository, use [KB_REBUILD_INSTRUCTION.md](KB_REBUILD_INSTRUCTION.md).
 
 Structure guides:
 

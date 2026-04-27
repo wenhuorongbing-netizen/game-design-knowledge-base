@@ -271,4 +271,13 @@ Exercises:
 ## TODO
 
 - Add a verified reading route after legal sidecars or open/legal source notes exist.
-- Add project-based learning after ProjectOverlay records exist.
+
+## Project-Based Learning
+
+After a workflow or playtest lesson, use:
+
+- [Project Application Guide](09_project_overlays/PROJECT_APPLICATION_GUIDE.md)
+- [Sample Design Audit Overlay](09_project_overlays/overlays/sample_design_audit_overlay.md)
+- [Sample First Playtest Log](09_project_overlays/playtest_logs/playtest_log_sample_first_session.md)
+
+Sample records are `unsupported_draft` scaffolds and must be replaced with real project evidence before use as evidence.

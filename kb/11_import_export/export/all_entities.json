@@ -3,7 +3,7 @@
   "generated_at": "2026-04-27",
   "canonical_source": "Markdown frontmatter plus curated JSON registries",
   "legal_boundary": "No high-risk source body text read or exported.",
-  "count": 857,
+  "count": 859,
   "entities": [
     {
       "id": "src-archive-knowledge-7z",
@@ -111828,6 +111828,252 @@
       "summary": "Update project-specific applications from workflow outputs.",
       "body_excerpt_safe": "Update project-specific applications from workflow outputs. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Update project-specific applications from workflow outputs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next ac",
       "inferred_routing": "PromptTemplate default routing from Prompt 9 importer"
+    },
+    {
+      "id": "project_overlay_sample_design_audit",
+      "entity_type": "ProjectOverlay",
+      "title": "Sample Design Audit Overlay",
+      "status": "draft",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "phase_groups": [
+        "phase_project_direction",
+        "phase_core_play_systems",
+        "phase_testing_acceptance_audit"
+      ],
+      "domains": [
+        "prototyping",
+        "playtesting",
+        "iteration_production"
+      ],
+      "tags": [
+        "sample",
+        "project_overlay",
+        "unsupported_draft"
+      ],
+      "related_entities": [
+        "concept_player-experience",
+        "concept_loop",
+        "concept_playtest",
+        "lens_project-direction_core-experience",
+        "lens_mechanics-and-rules_core-loop",
+        "lens_prototype-and-playtest_playtest-signal"
+      ],
+      "evidence_refs": [],
+      "created_at": "2026-04-27",
+      "updated_at": "2026-04-27",
+      "version": "0.1.0",
+      "source_path": "kb/09_project_overlays/overlays/sample_design_audit_overlay.md",
+      "raw": {
+        "id": "project_overlay_sample_design_audit",
+        "project_overlay_id": "project_overlay_sample_design_audit",
+        "entity_type": "ProjectOverlay",
+        "title": "Sample Design Audit Overlay",
+        "status": "draft",
+        "source_basis": "unsupported_draft",
+        "confidence": "unsupported_draft",
+        "phase_groups": [
+          "phase_project_direction",
+          "phase_core_play_systems",
+          "phase_testing_acceptance_audit"
+        ],
+        "domains": [
+          "prototyping",
+          "playtesting",
+          "iteration_production"
+        ],
+        "tags": [
+          "sample",
+          "project_overlay",
+          "unsupported_draft"
+        ],
+        "related_entities": [],
+        "evidence_refs": [],
+        "created_at": "2026-04-27",
+        "updated_at": "2026-04-27",
+        "version": "0.1.0",
+        "project_id": "sample_project_generic_game",
+        "linked_workflows": [
+          "workflow_game-idea-to-one-page-concept",
+          "workflow_core-loop-design",
+          "workflow_playtest-plan"
+        ],
+        "design_decisions": [
+          "sample_decision_define_core_experience",
+          "sample_decision_plan_first_playtest"
+        ],
+        "playtest_logs": [
+          "playtest_log_sample_first_session"
+        ],
+        "related_cards": [
+          "concept_player-experience",
+          "concept_loop",
+          "concept_playtest"
+        ],
+        "related_lenses": [
+          "lens_project-direction_core-experience",
+          "lens_mechanics-and-rules_core-loop",
+          "lens_prototype-and-playtest_playtest-signal"
+        ],
+        "evidence_gap": "Synthetic project overlay scaffold only. Replace with a real project record before using as evidence."
+      },
+      "body_sections": [
+        {
+          "heading_level": 1,
+          "heading": "Sample Design Audit Overlay",
+          "excerpt_safe": ""
+        },
+        {
+          "heading_level": 2,
+          "heading": "Project Context",
+          "excerpt_safe": "This is a synthetic scaffold for showing how a project overlay should separate reusable KB knowledge from project-specific application. It is not evidence and must not be cited as a real project result."
+        },
+        {
+          "heading_level": 2,
+          "heading": "General KB Inputs",
+          "excerpt_safe": "- Workflow: Game Idea to One-Page Concept Pack - Workflow: Core Loop Design Pack - Workflow: Playtest Plan Pack - Lens: Core Experience - Lens: Core Loop - Lens: Playtest Signal"
+        },
+        {
+          "heading_level": 2,
+          "heading": "Applied Interpretation",
+          "excerpt_safe": "Pending real project context. Record assumptions separately from evidence."
+        },
+        {
+          "heading_level": 2,
+          "heading": "Tested Result",
+          "excerpt_safe": "Pending real playtest or project review."
+        },
+        {
+          "heading_level": 2,
+          "heading": "Remaining Risk",
+          "excerpt_safe": "- No real project artifact is attached. - No playtest observation is attached. - No design decision has been validated."
+        }
+      ],
+      "summary": "Sample Design Audit Overlay",
+      "body_excerpt_safe": "This is a synthetic scaffold for showing how a project overlay should separate reusable KB knowledge from project-specific application. It is not evidence and must not be cited as a real project result. - Workflow: Game Idea to One-Page Concept Pack - Workflow: Core Loop Design Pack - Workflow: Playtest Plan Pack - Lens: Core Experience - Lens: Core Loop - Lens: Playtest Signal Pending real project context. Record assumptions separately from evidence. Pending real playtest or project review. - No real project artifact is attached. - No playtest observation is attached. - No design decision has been validated."
+    },
+    {
+      "id": "playtest_log_sample_first_session",
+      "entity_type": "PlaytestLog",
+      "title": "Sample First Playtest Log",
+      "status": "draft",
+      "source_basis": "unsupported_draft",
+      "confidence": "unsupported_draft",
+      "phase_groups": [
+        "phase_testing_acceptance_audit"
+      ],
+      "domains": [
+        "playtesting",
+        "player_experience",
+        "iteration_production"
+      ],
+      "tags": [
+        "sample",
+        "playtest_log",
+        "unsupported_draft"
+      ],
+      "related_entities": [
+        "project_overlay_sample_design_audit",
+        "concept_playtest",
+        "concept_feedback",
+        "concept_iteration",
+        "lens_prototype-and-playtest_playtest-signal",
+        "lens_prototype-and-playtest_observation-quality",
+        "lens_prototype-and-playtest_iteration-decision"
+      ],
+      "evidence_refs": [],
+      "created_at": "2026-04-27",
+      "updated_at": "2026-04-27",
+      "version": "0.1.0",
+      "source_path": "kb/09_project_overlays/playtest_logs/playtest_log_sample_first_session.md",
+      "raw": {
+        "id": "playtest_log_sample_first_session",
+        "playtest_log_id": "playtest_log_sample_first_session",
+        "entity_type": "PlaytestLog",
+        "title": "Sample First Playtest Log",
+        "status": "draft",
+        "source_basis": "unsupported_draft",
+        "confidence": "unsupported_draft",
+        "phase_groups": [
+          "phase_testing_acceptance_audit"
+        ],
+        "domains": [
+          "playtesting",
+          "player_experience",
+          "iteration_production"
+        ],
+        "tags": [
+          "sample",
+          "playtest_log",
+          "unsupported_draft"
+        ],
+        "related_entities": [
+          "project_overlay_sample_design_audit"
+        ],
+        "evidence_refs": [],
+        "created_at": "2026-04-27",
+        "updated_at": "2026-04-27",
+        "version": "0.1.0",
+        "project_id": "sample_project_generic_game",
+        "test_question": "What specific design question should this playtest answer?",
+        "tested_artifact": "Replace with prototype, rules sheet, build, level, UI flow, or economy sheet.",
+        "participant_profile": "Replace with target player profile and recruitment constraints.",
+        "related_workflows": [
+          "workflow_playtest-plan",
+          "workflow_iteration-decision"
+        ],
+        "related_lenses": [
+          "lens_prototype-and-playtest_playtest-signal",
+          "lens_prototype-and-playtest_observation-quality",
+          "lens_prototype-and-playtest_iteration-decision"
+        ],
+        "related_cards": [
+          "concept_playtest",
+          "concept_feedback",
+          "concept_iteration"
+        ],
+        "observed_findings": [
+          "No real observation recorded. This sample is a structure only."
+        ],
+        "next_actions": [
+          "Replace this sample with a real playtest log before treating it as project evidence."
+        ],
+        "evidence_gap": "Synthetic playtest log scaffold only. It is not evidence."
+      },
+      "body_sections": [
+        {
+          "heading_level": 1,
+          "heading": "Sample First Playtest Log",
+          "excerpt_safe": ""
+        },
+        {
+          "heading_level": 2,
+          "heading": "Test Question",
+          "excerpt_safe": "What specific design question should this playtest answer?"
+        },
+        {
+          "heading_level": 2,
+          "heading": "Setup",
+          "excerpt_safe": "Replace this section with participant, artifact, task, observation, and consent details."
+        },
+        {
+          "heading_level": 2,
+          "heading": "Observations",
+          "excerpt_safe": "No real observations are recorded in this sample."
+        },
+        {
+          "heading_level": 2,
+          "heading": "Interpretation",
+          "excerpt_safe": "Do not infer design truth from this sample. Add real observations and separate facts from interpretation."
+        },
+        {
+          "heading_level": 2,
+          "heading": "Next Actions",
+          "excerpt_safe": "Replace this sample with a real playtest log when a legal and ethical project record exists."
+        }
+      ],
+      "summary": "Sample First Playtest Log",
+      "body_excerpt_safe": "What specific design question should this playtest answer? Replace this section with participant, artifact, task, observation, and consent details. No real observations are recorded in this sample. Do not infer design truth from this sample. Add real observations and separate facts from interpretation. Replace this sample with a real playtest log when a legal and ethical project record exists."
     },
     {
       "id": "interactivity",

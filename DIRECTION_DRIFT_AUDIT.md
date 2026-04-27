@@ -6,7 +6,7 @@ Date: 2026-04-27
 
 Status: PASS.
 
-The active repository direction is Game Design Knowledgebase. The legacy BookOS full-stack build instruction is not active.
+The active repository direction is Game Design Knowledgebase. The legacy BookOS full-stack build instruction is not active. Root `rebuild_instruction.md` is absent in the current local repository state.
 
 ## Drift Sources Checked
 
@@ -18,6 +18,7 @@ The active repository direction is Game Design Knowledgebase. The legacy BookOS 
 | active rebuild instruction | needed KB-only instruction | `KB_REBUILD_INSTRUCTION.md` exists |
 | toolchain | two competing build paths | root `package.json` scripts define authoritative pipeline |
 | release reports | draft and verified states could be confused | draft and verified release gates are separated |
+| validator | active drift could reappear without failing validation | `tools/validate_kb/validate_kb.js` now fails active root direction-drift instructions and report contradictions |
 
 ## Active Direction Rules
 
@@ -32,3 +33,13 @@ The active repository direction is Game Design Knowledgebase. The legacy BookOS 
 ## Result
 
 No active direction-drift blocker remains. The deprecated BookOS file under `docs/deprecated/` is a stub that points to `KB_REBUILD_INSTRUCTION.md` and must not be used as a build instruction.
+
+## Validator Enforcement
+
+The canonical validator now checks:
+
+- root `rebuild_instruction.md` is either absent or a short deprecated stub;
+- active root Markdown/text files do not contain app/product build instructions for BookOS, reading sessions, reading progress, personal library CRUD, user auth, forum CRUD, Vue/Spring/MySQL, or full-stack web app work;
+- generated validation reports are not treated as active build instructions;
+- root reports do not claim `rebuild_instruction.md` is absent if it exists;
+- validation and migration reports agree on accepted-exception counts.

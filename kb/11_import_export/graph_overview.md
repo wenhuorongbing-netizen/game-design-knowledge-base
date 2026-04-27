@@ -21,6 +21,8 @@
   "WorkflowPack": 20,
   "Exercise": 85,
   "PromptTemplate": 15,
+  "ProjectOverlay": 1,
+  "PlaytestLog": 1,
   "Artifact": 122
 }
 ```
@@ -29,10 +31,10 @@
 
 ```json
 {
-  "belongs_to_phase": 2192,
-  "belongs_to_domain": 1863,
+  "belongs_to_phase": 2196,
+  "belongs_to_domain": 1869,
   "belongs_to_work": 605,
-  "related_to": 2876,
+  "related_to": 2888,
   "produces_deliverable": 706,
   "has_prerequisite": 74,
   "contains": 67

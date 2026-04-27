@@ -4,7 +4,7 @@ Date: 2026-04-27
 
 ## Current Milestone
 
-P1 structural exceptions cleanup complete for the Game Design Knowledgebase repository.
+Truth-alignment final fix complete for the Game Design Knowledgebase repository.
 
 ## Verdict
 
@@ -16,6 +16,9 @@ P1 structural exceptions cleanup complete for the Game Design Knowledgebase repo
 - Repository root: `D:\Game\FOTN\knowledge`
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
+- Root `rebuild_instruction.md`: absent in current local repository state
+- Evidence intake status: allowed only after this truth-alignment validation remains PASS
+- Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
@@ -30,7 +33,7 @@ P1 structural exceptions cleanup complete for the Game Design Knowledgebase repo
 - Added first-time user entry documentation: `REPO_MAP.md`, `HOW_TO_USE_THIS_KB.md`, `HOW_TO_ADD_KNOWLEDGE.md`, `WHAT_NOT_TO_TOUCH.md`, and `MAINTAINER_CHECKLIST.md`.
 - Expanded root `START_HERE.md` into a question-driven onboarding page.
 - Added KB-local entry files: `kb/START_HERE.md`, `kb/INDEX.md`, `kb/LEARNING_PATHS.md`, and `kb/DESIGNER_WORKFLOWS.md`.
-- Updated `README.md` to start with `Start here: START_HERE.md`.
+- Updated `README.md` to start with `Start here: [START_HERE.md](START_HERE.md)`.
 - Rechecked the P0 contradiction list and confirmed no active root `rebuild_instruction.md` remains.
 - Replaced the deprecated BookOS instruction body with a stub-only warning under `docs/deprecated/`.
 - Strengthened legacy user-file ingest high-risk marker detection for curly apostrophes and private manifest metadata fields.
@@ -51,6 +54,15 @@ P1 structural exceptions cleanup complete for the Game Design Knowledgebase repo
 - Added `kb-tools/README.md` describing deprecation and opt-in rules.
 - Updated validator output so PASS means P0 safety pass, not structural perfection.
 - Added `MIGRATION_EXCEPTIONS_REPORT.md` generation to expose accepted migration exceptions.
+- Added validator checks for active root direction-drift instructions.
+- Added validator checks for report contradictions between `VALIDATION_REPORT.md`, `VALIDATION_REPORT.json`, `MIGRATION_EXCEPTIONS_REPORT.md`, and `rebuild_instruction.md` file-state claims.
+- Regenerated `VALIDATION_REPORT.md`, `VALIDATION_REPORT.json`, `MIGRATION_EXCEPTIONS_REPORT.md`, import/export artifacts, source-governance audit, and coverage summary after truth-alignment fixes.
+- Added direct README link to `KB_REBUILD_INSTRUCTION.md`.
+- Moved local private PDF/EPUB source files from the root into `_private_sources/` without reading or parsing them.
+- Removed obsolete `kb/07_workflows` compatibility schema and made `kb/08_workflows/workflow_pack_schema.json` the required workflow schema.
+- Added ProjectOverlay and PlaytestLog scanning/schemas to the importer and validator.
+- Added draft sample ProjectOverlay and PlaytestLog records as unsupported scaffolds.
+- Added `50-game-design-masters-kb/LEGACY_QUARANTINE.md`.
 
 ## Legal Status Summary
 
@@ -75,8 +87,10 @@ P1 structural exceptions cleanup complete for the Game Design Knowledgebase repo
 Next recommended work:
 
 ```text
-review-structure-usability-final
+build-evidence-intake-phase-1
 ```
+
+This next action is permitted only because `npm run kb:validate` and `npm run kb:audit` currently pass with 0 P0 issues, 0 warnings, and 0 accepted exceptions. Evidence intake must remain metadata-safe unless legal sidecars, user notes, or open/legal sources permit stronger use.
 
 ## Do-Not-Redo List
 

@@ -14,12 +14,12 @@ This plan makes the Game Design Knowledgebase easier to understand without delet
 | `kb-tools/` | Old legacy scripts for prior snapshot/private-source experiments | legacy |
 | `50-game-design-masters-kb/` | Old snapshot from earlier KB generation | legacy |
 | `docs/deprecated/` | Historical non-active instructions | deprecated |
-| root PDF/EPUB/book files | Private local source materials | private/local |
+| `_private_sources/` | Private local source quarantine | private/local |
 | root audit/state reports | Current control reports | canonical |
 
 ## Problem Diagnosis
 
-- First-time users see many root files, private book files, legacy folders, optional portal files, generated exports, and canonical KB content at the same level.
+- First-time users see many root files, legacy folders, optional portal files, generated exports, and canonical KB content at the same level.
 - `kb/` is canonical, but many subfolders did not clearly say whether they were source, generated, or quality output.
 - `kb-tools/` and `50-game-design-masters-kb/` are still physically present, so they need visible quarantine labels.
 - Generated exports are necessary for downstream tools, but users should not manually edit them.
@@ -46,6 +46,7 @@ START_HERE.md
   -> docs/                       docs and deprecated material
   -> kb-tools/                   legacy tools to ignore by default
   -> 50-game-design-masters-kb/  legacy snapshot to ignore by default
+  -> _private_sources/           ignored local private source quarantine
 ```
 
 ## Files And Folders To Keep
@@ -53,7 +54,8 @@ START_HERE.md
 - `kb/`
 - `tools/`
 - root control files such as `README.md`, `START_HERE.md`, `KB_REBUILD_INSTRUCTION.md`, `VALIDATION_REPORT.md`, and `GAP_BACKLOG.md`
-- `kb/11_import_export/export/` because it is required by BookOS/GDKB import, search, and graph consumers
+- `kb/11_import_export/export/` because it is required by GDKB import, search, and graph consumers
+- `_private_sources/README.md` as the only tracked marker for private local source quarantine
 
 ## Files And Folders To Archive Later
 
@@ -63,7 +65,6 @@ Future candidates:
 
 - old root audit reports that are superseded by `kb/12_quality/`
 - `50-game-design-masters-kb/` after a separate archive or re-audit decision
-- private root PDF/EPUB files after a separate source-storage policy decision
 
 ## Files And Folders To Mark Generated
 
@@ -98,7 +99,7 @@ Deprecated files are historical context only. They are not active build instruct
 | Confusing generated README markers with KB entities | low | Add README only outside entity scan folders or rely on existing validator README exceptions. |
 | Legacy tools being mistaken as active | medium | Add explicit README labels and keep opt-in guards. |
 | Optional portal being mistaken as source of truth | medium | Add `kb-portal/README.md` as optional/generated-from-exports label. |
-| Private source files being mistaken as ingestible | medium | Label root private files in maps and source-governance docs. |
+| Private source files being mistaken as ingestible | low | Keep private files under `_private_sources/` with metadata-only quarantine rules. |
 
 ## Rollback Plan
 

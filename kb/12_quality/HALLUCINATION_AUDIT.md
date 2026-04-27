@@ -18,7 +18,7 @@ The KB does not currently present metadata-only book material as verified knowle
 | weak evidence | warning | 164 | Most claims are evidence gaps by design. | Prioritize legal notes and official metadata. |
 | circular references | pass | 0 | No critical circular evidence chain was detected; routing links are not evidence. | No repair needed. |
 | AI-sounding generic filler | warning | 164 | Many cards are scaffold language rather than final teaching prose. | Replace top cards with user-note-backed definitions and examples. |
-| missing project application | warning | 1 | ProjectOverlay is designed but not implemented with real project examples. | Run Prompt 11 Project Overlay system. |
+| missing real project evidence | warning | 1 | ProjectOverlay and PlaytestLog scaffolds exist, but real project observations are not yet supplied. | Replace sample scaffolds with user-provided project evidence. |
 | missing when-not-to-use | pass | 0 | Concept cards generally include when_not_to_use. | Add limitations where missing. |
 | missing output artifacts | pass | 0 | Most production cards include output artifacts. | Add output_artifacts where missing. |
 
@@ -53,5 +53,5 @@ The KB does not currently present metadata-only book material as verified knowle
 1. Add legal sidecar or user note.
 2. Attach evidence_refs to claims/cards/lenses.
 3. Rewrite generic scaffold explanations into source-bounded definitions.
-4. Add project overlay examples.
-5. Add playtest logs for validated recommendations.
+4. Replace sample project overlay scaffolds with real project records.
+5. Add real playtest observations for validated recommendations.

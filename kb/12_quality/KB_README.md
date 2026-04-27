@@ -39,7 +39,7 @@ This is a source-governed game design knowledge operating system for GDKB. It is
 3. Prepare required inputs.
 4. Run the step-by-step process.
 5. Use linked cards and lenses as prompts, not as verified facts.
-6. Save output into a future ProjectOverlay or design decision log.
+6. Save output into a ProjectOverlay or design decision log.
 
 ## How To Use Lenses
 
@@ -56,12 +56,14 @@ ProjectOverlay should store project-specific application separately from general
 Use:
 
 - `/kb/09_project_overlays/project_overlay_template.md`
+- `/kb/09_project_overlays/playtest_log_template.md`
+- `/kb/09_project_overlays/overlays/sample_design_audit_overlay.md`
 - `workflow_*` outputs
 - design decisions
 - playtest logs
 - evidence refs
 
-Prompt 11 should implement the full ProjectOverlay system.
+The current ProjectOverlay and PlaytestLog examples are `unsupported_draft` scaffolds. Replace them with real project records before treating them as evidence.
 
 ## How To Avoid Unsupported Claims
 
@@ -73,9 +75,9 @@ Prompt 11 should implement the full ProjectOverlay system.
 
 ## How To Continue Building
 
-1. Run Prompt 11: Project Overlay system.
-2. Add legal sidecars or user notes.
+1. Add legal sidecars or user notes.
+2. Replace sample project overlays and playtest logs with real project evidence.
 3. Promote selected cards with evidence.
-4. Add playtest logs and design decisions.
+4. Add design decisions.
 5. Re-run the importer.
 6. Re-run quality audits before release.

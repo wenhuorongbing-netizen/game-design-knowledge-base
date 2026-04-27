@@ -1,6 +1,6 @@
 # Validation Report
 
-Generated at: 2026-04-27T03:33:00.935Z
+Generated at: 2026-04-27T07:23:40.020Z
 Repository: `D:\Game\FOTN\knowledge`
 
 ## Summary
@@ -33,6 +33,8 @@ Validation PASS means the draft/source-governed KB safety gate passed and no acc
 - verified claim without evidence
 - legacy high-risk body artifact scan
 - unsafe portal data scan
+- active root direction-drift instruction scan
+- report consistency scan
 
 ## Issues
 

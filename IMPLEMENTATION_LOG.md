@@ -344,3 +344,46 @@ Validation:
 
 - Local navigation link check: 9 files checked, 0 missing local links.
 - `npm run kb:validate`: PASS, 857 entities, 8383 relationships, 735 search documents, 0 issues, 0 errors, 0 warnings.
+
+## 2026-04-27 - Truth Alignment Final Fix
+
+Fixed final truth-alignment risks without starting evidence intake, adding knowledge content, or building app features.
+
+Actions:
+
+- Confirmed root `rebuild_instruction.md` is absent in the current local repository state.
+- Updated `README.md` to start with the required Markdown link: `Start here: [START_HERE.md](START_HERE.md)`.
+- Added validator checks for active root direction-drift instructions covering BookOS, reading sessions, reading progress, personal library CRUD, user auth, forum CRUD, Vue/Spring/MySQL, and full-stack web app instructions.
+- Added validator checks for contradictions between `VALIDATION_REPORT.md`, `VALIDATION_REPORT.json`, `MIGRATION_EXCEPTIONS_REPORT.md`, and root `rebuild_instruction.md` file-state claims.
+- Excluded generated validation/migration reports from active direction-instruction scanning while retaining report-consistency validation.
+- Updated state and audit files so P0 status, root rebuild-instruction status, accepted-exception count, and evidence-intake readiness agree.
+
+Validation:
+
+- `npm run kb:export`: 857 entities, 8383 relationships, 735 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS and validation PASS.
+- `npm run kb:coverage`: coverage summary regenerated.
+
+## 2026-04-27 - Remaining P1/P2 Structural Cleanup
+
+Resolved the remaining actionable P1/P2 structure and usability gaps without adding source-derived knowledge, parsing source bodies, or building app features.
+
+Actions:
+
+- Added direct `README.md` link to `KB_REBUILD_INSTRUCTION.md`.
+- Moved 13 local private PDF/EPUB source files from the repository root into `_private_sources/` without reading or parsing them.
+- Added `_private_sources/README.md` and updated `.gitignore` so the local quarantine stays ignored except for the folder README.
+- Updated repository maps and maintainer docs to point private source handling at `_private_sources/`.
+- Removed obsolete `kb/07_workflows/workflow_pack_schema.json` and made `kb/08_workflows/workflow_pack_schema.json` the required workflow schema.
+- Added `ProjectOverlay` and `PlaytestLog` entity scanning and schema generation to the importer and validator.
+- Added `kb/09_project_overlays/README.md`, a ProjectOverlay template update, a PlaytestLog template, and unsupported draft sample overlay/log records.
+- Added `50-game-design-masters-kb/LEGACY_QUARANTINE.md` and linked it from the legacy snapshot README.
+- Updated navigation, TODO, backlog, and project state to distinguish resolved structural P1/P2 work from evidence-dependent work that requires user-provided legal/project evidence.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS and validation PASS.
+- `npm run kb:coverage`: coverage summary regenerated.

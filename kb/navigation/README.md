@@ -30,9 +30,10 @@ This folder is the human entry layer for the Game Design Knowledgebase. It does 
 - [Masterclass Curriculum](../07_lessons/MASTERCLASS_CURRICULUM.md)
 - [Workflow Pack Index](../08_workflows/WORKFLOW_PACK_INDEX.md)
 - [Exercise Library](../08_workflows/EXERCISE_LIBRARY.md)
+- [Project Application Guide](../09_project_overlays/PROJECT_APPLICATION_GUIDE.md)
+- [Sample Project Overlay](../09_project_overlays/overlays/sample_design_audit_overlay.md)
 - [Claim Graph](../05_cards/CLAIM_GRAPH.md)
 
 ## TODO
 
-- Add project-specific navigation only after ProjectOverlay records exist.
 - Add verified-source reading routes only after legal sidecars or open/legal sources support them.
