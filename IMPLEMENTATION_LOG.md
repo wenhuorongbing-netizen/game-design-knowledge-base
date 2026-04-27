@@ -178,6 +178,9 @@ Actions:
 
 Validation:
 
+- Command: `node .\tools\kb_importer\import_kb.js .`
+- Working directory: `D:\Game\FOTN\knowledge`
+- Result: 856 entities, 8383 relationships, 734 search documents, 41 warnings, 0 errors.
 - Command: `node .\tools\validate_kb\validate_kb.js`
 - Working directory: `D:\Game\FOTN\knowledge`
 - Result: PASS, 0 P0 issues, 488 warnings.
