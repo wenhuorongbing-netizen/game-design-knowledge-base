@@ -4,8 +4,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const repoRoot = path.resolve(fileURLToPath(new URL("..", import.meta.url)));
-export const knowledgeRoot = path.join(repoRoot, "knowledge");
-export const kbRoot = path.join(repoRoot, "knowledge", "50-game-design-masters-kb");
+export const legacyToolchainStatus = "deprecated";
+export const knowledgeRoot = repoRoot;
+export const canonicalGdkbRoot = path.join(repoRoot, "kb");
+export const kbRoot = path.join(repoRoot, "50-game-design-masters-kb");
 export const registryRoot = path.join(kbRoot, "registry");
 export const rawRoot = path.join(kbRoot, "raw");
 export const openWebRoot = path.join(rawRoot, "open-web");
@@ -19,6 +21,26 @@ export const normalizedPacksRoot = path.join(normalizedRoot, "packs");
 export const indexesRoot = path.join(kbRoot, "indexes");
 export const reportsRoot = path.join(kbRoot, "reports");
 export const portalRoot = path.join(repoRoot, "kb-portal");
+
+export function requireLegacyToolOptIn(scriptName) {
+  if (process.env.GDKB_ALLOW_LEGACY_TOOLCHAIN === "1") {
+    return;
+  }
+  console.error(
+    [
+      `${scriptName} is part of the deprecated legacy /kb-tools toolchain.`,
+      "The authoritative Game Design Knowledgebase pipeline is:",
+      "  npm run kb:export",
+      "  npm run kb:validate",
+      "  npm run kb:coverage",
+      "  npm run kb:audit",
+      "",
+      "Legacy tools operate on 50-game-design-masters-kb and must not be used as the default build path.",
+      "Set GDKB_ALLOW_LEGACY_TOOLCHAIN=1 only for an explicit audited legacy-maintenance task."
+    ].join("\n")
+  );
+  process.exit(2);
+}
 
 export function ensureDir(target) {
   fs.mkdirSync(target, { recursive: true });

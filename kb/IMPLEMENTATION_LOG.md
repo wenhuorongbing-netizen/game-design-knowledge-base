@@ -4,7 +4,7 @@
 
 ### Actions
 
-- created the BookOS `/kb` folder structure
+- created the GDKB `/kb` folder structure
 - wrote governance documents for legal basis, source basis, confidence, and contribution rules
 - scanned uploaded source filenames and file structure only
 - classified suspicious uploaded books as `HIGH_RISK_SOURCE`
@@ -336,7 +336,7 @@ The workflow packs now move from design question to inputs, analysis, output art
 
 ### Rationale
 
-Prompt 9 creates the machine-consumable data layer for BookOS while preserving Markdown as the human canonical layer.
+Prompt 9 creates the machine-consumable data layer for GDKB while preserving Markdown as the human canonical layer.
 
 The importer gives the KB a repeatable path from governed Markdown and curated JSON registries into normalized entities, relationship edges, graph exports, and a safe search index. It also turns quality problems into explicit validation warnings instead of hiding them. The current import has 0 errors and 41 warnings, all related to cards without related works; those warnings are intentionally carried into Prompt 10 for release hardening.
 
@@ -362,7 +362,7 @@ The importer gives the KB a repeatable path from governed Markdown and curated J
 - audited claim graph and card scaffolds for hallucination risk
 - audited 8 practical usability scenarios
 - converted missing evidence, missing sidecars, project overlay gaps, playtest gaps, forum gaps, and warning cleanup into a knowledge-gap backlog
-- verified final release checklist gates for BookOS draft integration
+- verified final release checklist gates for GDKB draft integration
 - updated KB state and TODO so Prompt 11 is Project Overlay System and Project Application Records
 
 ### Explicit Non-Actions
@@ -380,4 +380,31 @@ The importer gives the KB a repeatable path from governed Markdown and curated J
 
 Prompt 10 converts the KB from a generated structure into a release-managed draft system.
 
-The KB now has legal, coverage, hallucination, usability, backlog, release, and next-plan documentation. It passes all final acceptance gates for BookOS draft integration: source policy is clear, high-risk sources remain quarantined, all entities have source_basis and confidence, required object counts are met, search and graph exports exist, and there are no unresolved legal violations or critical hallucination issues. The remaining limits are explicit: no legal sidecars, no user reading notes, no verified book-derived concepts, no real project overlays, and no playtest logs.
+The KB now has legal, coverage, hallucination, usability, backlog, release, and next-plan documentation. It passes all final acceptance gates for GDKB draft integration: source policy is clear, high-risk sources remain quarantined, all entities have source_basis and confidence, required object counts are met, search and graph exports exist, and there are no unresolved legal violations or critical hallucination issues. The remaining limits are explicit: no legal sidecars, no user reading notes, no verified book-derived concepts, no real project overlays, and no playtest logs.
+
+## 2026-04-27 - P0 Finalization Sprint
+
+### Actions
+
+- quarantined the old BookOS rebuild instruction under `/docs/deprecated`
+- created active `/KB_REBUILD_INSTRUCTION.md`
+- added root `package.json` commands for export, validation, coverage, and audit
+- hardened `kb-tools/ingest-user-files.mjs` so user files default to `pending_review` or `metadata_only_quarantined`
+- blocked deprecated `kb-tools/build-all.mjs`
+- added `kb-tools/README_DEPRECATED.md`
+- changed active export/schema identity from `bookos.*` to `gdkb.*`
+- added explicit no-work-link exceptions to 41 general scaffold cards
+- regenerated import/export artifacts
+- regenerated validation and audit reports
+- separated draft KB and verified source-backed release gates
+
+### Validation
+
+- `npm run kb:export`: 0 issues
+- `npm run kb:validate`: 0 P0 issues, 0 warnings
+- `npm run kb:coverage`: coverage summary regenerated
+- `npm run kb:audit`: source governance audit passed
+
+### Rationale
+
+P0 finalization makes the repository acceptable as a Game Design Knowledgebase repository, not an app project. Draft scaffolds remain draft; verified source-backed release remains blocked until evidence exists.

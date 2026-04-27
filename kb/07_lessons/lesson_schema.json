@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.game_design.lesson.schema.v1",
-  "title": "BookOS Game Design Masterclass Lesson",
+  "$id": "gdkb.game_design.lesson.schema.v1",
+  "title": "GDKB Game Design Masterclass Lesson",
   "type": "object",
   "additionalProperties": true,
   "required": [

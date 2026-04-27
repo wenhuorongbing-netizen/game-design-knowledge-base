@@ -7,7 +7,7 @@ Scope: canonical root `/kb` Game Design Knowledgebase content release only.
 Excluded scope:
 
 - application UI
-- BookOS product features
+- GDKB product features
 - reading-session features
 - forum CRUD
 - user auth

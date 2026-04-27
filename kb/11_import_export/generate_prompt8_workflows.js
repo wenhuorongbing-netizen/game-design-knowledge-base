@@ -178,7 +178,7 @@ const prompts = promptDefs.map(([slug, title, useCase]) => ({
     'Label assumptions separately from evidence.',
     'Return source_basis and confidence for every substantive claim.'
   ],
-  prompt_text: `You are using the BookOS Game Design KB. Task: ${useCase} Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.`,
+  prompt_text: `You are using the Game Design Knowledgebase. Task: ${useCase} Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.`,
   expected_output_format: [
     'summary',
     'source_basis_map',
@@ -418,8 +418,8 @@ function schemaForWorkflow() {
   ];
   return {
     $schema: 'https://json-schema.org/draft/2020-12/schema',
-    $id: 'bookos.game_design.workflow_pack.schema.v1',
-    title: 'BookOS Game Design WorkflowPack',
+    $id: 'gdkb.game_design.workflow_pack.schema.v1',
+    title: 'GDKB Game Design WorkflowPack',
     type: 'object',
     additionalProperties: true,
     required: fields,
@@ -509,16 +509,16 @@ for (const exercise of exercises) {
 write(path.join(workflowRoot, 'EXERCISE_LIBRARY.md'), exerciseLibrary);
 
 let promptLibrary = '# Prompt Library\n\n';
-promptLibrary += 'Reusable source-governed prompts for BookOS game design work. Every prompt requires source_basis, confidence, missing evidence, and next actions in outputs.\n\n';
+promptLibrary += 'Reusable source-governed prompts for GDKB game design work. Every prompt requires source_basis, confidence, missing evidence, and next actions in outputs.\n\n';
 promptLibrary += '| Prompt | Use Case | Guardrail Focus | Status |\n|---|---|---|---|\n';
 for (const prompt of prompts) {
   promptLibrary += `| [${prompt.title}](prompts/${prompt.prompt_id}.md) | ${prompt.use_case} | ${prompt.guardrails.join('; ')} | ${prompt.status} |\n`;
 }
 write(path.join(workflowRoot, 'PROMPT_LIBRARY.md'), promptLibrary);
 
-write(path.join(workflowRoot, 'workflow_index.json'), `${JSON.stringify({ schema_version: 'bookos.workflow_packs.v1', updated_date: now, total_workflows: workflows.length, workflows }, null, 2)}\n`);
-write(path.join(workflowRoot, 'exercise_index.json'), `${JSON.stringify({ schema_version: 'bookos.exercises.v1', updated_date: now, total_exercises: exercises.length, exercises }, null, 2)}\n`);
-write(path.join(workflowRoot, 'prompt_index.json'), `${JSON.stringify({ schema_version: 'bookos.prompt_library.v1', updated_date: now, total_prompts: prompts.length, prompts }, null, 2)}\n`);
+write(path.join(workflowRoot, 'workflow_index.json'), `${JSON.stringify({ schema_version: 'gdkb.workflow_packs.v1', updated_date: now, total_workflows: workflows.length, workflows }, null, 2)}\n`);
+write(path.join(workflowRoot, 'exercise_index.json'), `${JSON.stringify({ schema_version: 'gdkb.exercises.v1', updated_date: now, total_exercises: exercises.length, exercises }, null, 2)}\n`);
+write(path.join(workflowRoot, 'prompt_index.json'), `${JSON.stringify({ schema_version: 'gdkb.prompt_library.v1', updated_date: now, total_prompts: prompts.length, prompts }, null, 2)}\n`);
 write(
   path.join(workflowRoot, 'PROMPT_8_GENERATION_SUMMARY.json'),
   `${JSON.stringify(

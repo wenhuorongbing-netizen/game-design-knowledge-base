@@ -31,9 +31,9 @@
 10. Produce `import_report.md`.
 11. Export `all_entities.json`, `all_relationships.json`, `search_index.json`, `graph_nodes.json`, and `graph_edges.json`.
 
-## BookOS Seed Mapping
+## GDKB Seed Mapping
 
-| BookOS Table | Source |
+| GDKB Table | Source |
 |---|---|
 | `kb_entities` | `export/all_entities.json` |
 | `kb_relationships` | `export/all_relationships.json` |

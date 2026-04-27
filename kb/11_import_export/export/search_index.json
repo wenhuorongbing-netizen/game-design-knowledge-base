@@ -1,8 +1,8 @@
 {
-  "schema_version": "bookos.search_index.v1",
-  "generated_at": "2026-04-26",
+  "schema_version": "gdkb.search_index.v1",
+  "generated_at": "2026-04-27",
   "safety_note": "body_excerpt_safe is suppressed for metadata-only or quarantined entities.",
-  "count": 734,
+  "count": 735,
   "documents": [
     {
       "id": "src-archive-knowledge-7z",
@@ -24,19 +24,19 @@
     {
       "id": "src-user-rebuild-instruction",
       "entity_type": "SourceDocument",
-      "title": "Knowledge Base Rebuilding Instruction",
-      "summary": "This file may guide KB structure, but it is not a scholarly source for book claims.",
+      "title": "Deprecated BookOS Rebuild Instruction",
+      "summary": "Historical BookOS/readings-app direction retained only for provenance; not an active KB source.",
       "body_excerpt_safe": "[not applicable: source registry metadata only]",
       "domains": [],
       "phase_groups": [],
       "tags": [
-        "user_instruction",
+        "deprecated_instruction",
         "process_note"
       ],
       "related_works": [],
       "confidence": "unsupported_draft",
-      "source_basis": "user_manual_note",
-      "status": "allowed_full_ingestion"
+      "source_basis": "metadata_only",
+      "status": "allowed_metadata_only"
     },
     {
       "id": "src-user-prompt-2-known-work-list",
@@ -303,6 +303,23 @@
       "confidence": "weak",
       "source_basis": "metadata_only",
       "status": "metadata_only_quarantined"
+    },
+    {
+      "id": "src-active-kb-rebuild-instruction",
+      "entity_type": "SourceDocument",
+      "title": "Active Game Design Knowledgebase Rebuild Instruction",
+      "summary": "Governance and scope instruction for the Game Design Knowledgebase repository; not evidence for game design claims.",
+      "body_excerpt_safe": "[not applicable: source registry metadata only]",
+      "domains": [],
+      "phase_groups": [],
+      "tags": [
+        "active_instruction",
+        "governance_note"
+      ],
+      "related_works": [],
+      "confidence": "unsupported_draft",
+      "source_basis": "user_manual_note",
+      "status": "allowed_metadata_only"
     },
     {
       "id": "game-feel-a-game-designers-guide-to-virtual-sensation",
@@ -16340,7 +16357,7 @@
       "entity_type": "PromptTemplate",
       "title": "Classify Note By Taxonomy",
       "summary": "Route a note into phase groups, domains, cards, and lessons.",
-      "body_excerpt_safe": "Route a note into phase groups, domains, cards, and lessons. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Route a note into phase groups, domains, cards, and lessons. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next acti",
+      "body_excerpt_safe": "Route a note into phase groups, domains, cards, and lessons. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Route a note into phase groups, domains, cards, and lessons. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next ",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16365,7 +16382,7 @@
       "entity_type": "PromptTemplate",
       "title": "Compare Two Concepts",
       "summary": "Compare two concepts without inventing source claims.",
-      "body_excerpt_safe": "Compare two concepts without inventing source claims. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Compare two concepts without inventing source claims. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` - sum",
+      "body_excerpt_safe": "Compare two concepts without inventing source claims. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Compare two concepts without inventing source claims. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` -",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16390,7 +16407,7 @@
       "entity_type": "PromptTemplate",
       "title": "Create Exercises From Concepts",
       "summary": "Generate original practice tasks from concept cards.",
-      "body_excerpt_safe": "Generate original practice tasks from concept cards. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Generate original practice tasks from concept cards. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` - summa",
+      "body_excerpt_safe": "Generate original practice tasks from concept cards. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Generate original practice tasks from concept cards. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` - s",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16415,7 +16432,7 @@
       "entity_type": "PromptTemplate",
       "title": "Detect Unsupported Claims",
       "summary": "Find claims that lack source_basis, confidence, or evidence refs.",
-      "body_excerpt_safe": "Find claims that lack source_basis, confidence, or evidence refs. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Find claims that lack source_basis, confidence, or evidence refs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and",
+      "body_excerpt_safe": "Find claims that lack source_basis, confidence, or evidence refs. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Find claims that lack source_basis, confidence, or evidence refs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16440,7 +16457,7 @@
       "entity_type": "PromptTemplate",
       "title": "Generate Forum Discussion Prompts",
       "summary": "Create structured forum prompts for critique and evidence gathering.",
-      "body_excerpt_safe": "Create structured forum prompts for critique and evidence gathering. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Create structured forum prompts for critique and evidence gathering. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing eviden",
+      "body_excerpt_safe": "Create structured forum prompts for critique and evidence gathering. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Create structured forum prompts for critique and evidence gathering. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing ev",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16465,7 +16482,7 @@
       "entity_type": "PromptTemplate",
       "title": "Generate Playtest Questions",
       "summary": "Create testable playtest questions from a prototype goal.",
-      "body_excerpt_safe": "Create testable playtest questions from a prototype goal. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Create testable playtest questions from a prototype goal. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. `",
+      "body_excerpt_safe": "Create testable playtest questions from a prototype goal. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Create testable playtest questions from a prototype goal. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next action",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16490,7 +16507,7 @@
       "entity_type": "PromptTemplate",
       "title": "Produce Design Decision Log",
       "summary": "Turn findings into a decision with rationale, evidence, and next test.",
-      "body_excerpt_safe": "Turn findings into a decision with rationale, evidence, and next test. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Turn findings into a decision with rationale, evidence, and next test. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing ev",
+      "body_excerpt_safe": "Turn findings into a decision with rationale, evidence, and next test. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Turn findings into a decision with rationale, evidence, and next test. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missin",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16515,7 +16532,7 @@
       "entity_type": "PromptTemplate",
       "title": "Propose Project Applications",
       "summary": "Turn general KB items into project overlay candidates.",
-      "body_excerpt_safe": "Turn general KB items into project overlay candidates. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Turn general KB items into project overlay candidates. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` - s",
+      "body_excerpt_safe": "Turn general KB items into project overlay candidates. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Turn general KB items into project overlay candidates. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ```",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16540,7 +16557,7 @@
       "entity_type": "PromptTemplate",
       "title": "Run Balance Audit",
       "summary": "Inspect economy, progression, sources, sinks, and balance risks.",
-      "body_excerpt_safe": "Inspect economy, progression, sources, sinks, and balance risks. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and n",
+      "body_excerpt_safe": "Inspect economy, progression, sources, sinks, and balance risks. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence a",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16565,7 +16582,7 @@
       "entity_type": "PromptTemplate",
       "title": "Run Design Audit",
       "summary": "Evaluate a design artifact with linked cards and lenses.",
-      "body_excerpt_safe": "Evaluate a design artifact with linked cards and lenses. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Evaluate a design artifact with linked cards and lenses. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ```",
+      "body_excerpt_safe": "Evaluate a design artifact with linked cards and lenses. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Evaluate a design artifact with linked cards and lenses. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16590,7 +16607,7 @@
       "entity_type": "PromptTemplate",
       "title": "Run Game Feel Audit",
       "summary": "Review input, response, context, polish, and tuning risks.",
-      "body_excerpt_safe": "Review input, response, context, polish, and tuning risks. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Review input, response, context, polish, and tuning risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "body_excerpt_safe": "Review input, response, context, polish, and tuning risks. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Review input, response, context, polish, and tuning risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next acti",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16615,7 +16632,7 @@
       "entity_type": "PromptTemplate",
       "title": "Summarize User Notes Into Cards",
       "summary": "Convert user-authored notes into source-governed card drafts.",
-      "body_excerpt_safe": "Convert user-authored notes into source-governed card drafts. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Convert user-authored notes into source-governed card drafts. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next ac",
+      "body_excerpt_safe": "Convert user-authored notes into source-governed card drafts. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Convert user-authored notes into source-governed card drafts. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and nex",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16640,7 +16657,7 @@
       "entity_type": "PromptTemplate",
       "title": "Turn Card Into Lens",
       "summary": "Convert a concept or framework card into an original diagnostic lens.",
-      "body_excerpt_safe": "Convert a concept or framework card into an original diagnostic lens. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Convert a concept or framework card into an original diagnostic lens. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evid",
+      "body_excerpt_safe": "Convert a concept or framework card into an original diagnostic lens. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Convert a concept or framework card into an original diagnostic lens. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing ",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16665,7 +16682,7 @@
       "entity_type": "PromptTemplate",
       "title": "Turn Lens Into Checklist",
       "summary": "Convert diagnostic questions into a review checklist.",
-      "body_excerpt_safe": "Convert diagnostic questions into a review checklist. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Convert diagnostic questions into a review checklist. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` - sum",
+      "body_excerpt_safe": "Convert diagnostic questions into a review checklist. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Convert diagnostic questions into a review checklist. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions. ``` -",
       "domains": [
         "prompt_engineering_game_design"
       ],
@@ -16690,7 +16707,7 @@
       "entity_type": "PromptTemplate",
       "title": "Update Project Overlay",
       "summary": "Update project-specific applications from workflow outputs.",
-      "body_excerpt_safe": "Update project-specific applications from workflow outputs. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the BookOS Game Design KB. Task: Update project-specific applications from workflow outputs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next action",
+      "body_excerpt_safe": "Update project-specific applications from workflow outputs. - Relevant KB object IDs and their source_basis/confidence. - User-provided artifact or notes. - Any project constraints, if this is project-facing. - artifact_or_notes - desired_output - known_constraints - evidence_refs_if_available - Do not use high-risk source body text. - Do not invent book claims. - Label assumptions separately from evidence. - Return source_basis and confidence for every substantive claim. ```text You are using the Game Design Knowledgebase. Task: Update project-specific applications from workflow outputs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next ac",
       "domains": [
         "prompt_engineering_game_design"
       ],

@@ -5,7 +5,7 @@ use_case: "Inspect economy, progression, sources, sinks, and balance risks."
 required_context: ["Relevant KB object IDs and their source_basis/confidence.", "User-provided artifact or notes.", "Any project constraints, if this is project-facing."]
 user_inputs: ["artifact_or_notes", "desired_output", "known_constraints", "evidence_refs_if_available"]
 guardrails: ["Do not use high-risk source body text.", "Do not invent book claims.", "Label assumptions separately from evidence.", "Return source_basis and confidence for every substantive claim."]
-prompt_text: "You are using the BookOS Game Design KB. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions."
+prompt_text: "You are using the Game Design Knowledgebase. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions."
 expected_output_format: ["summary", "source_basis_map", "confidence_map", "findings_or_generated_objects", "missing_evidence", "next_actions"]
 failure_modes: ["Inventing facts from missing source material.", "Treating draft cards or lenses as verified.", "Skipping project constraints.", "Producing generic advice with no output artifact."]
 review_checklist: ["Every claim has source_basis and confidence.", "Unsupported assumptions are marked.", "The output artifact is usable.", "Next actions are concrete."]
@@ -44,7 +44,7 @@ Inspect economy, progression, sources, sinks, and balance risks.
 ## Prompt Text
 
 ```text
-You are using the BookOS Game Design KB. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.
+You are using the Game Design Knowledgebase. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.
 ```
 
 ## Expected Output Format

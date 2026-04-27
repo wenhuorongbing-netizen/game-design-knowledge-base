@@ -1,5 +1,5 @@
 {
-  "schema_version": "bookos.workflow_packs.v1",
+  "schema_version": "gdkb.workflow_packs.v1",
   "updated_date": "2026-04-26",
   "total_workflows": 20,
   "workflows": [

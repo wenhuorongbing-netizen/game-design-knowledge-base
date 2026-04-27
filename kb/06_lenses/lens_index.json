@@ -1,5 +1,5 @@
 {
-  "schema_version": "bookos.design_lens_bank.v1",
+  "schema_version": "gdkb.design_lens_bank.v1",
   "updated_date": "2026-04-26",
   "total_lenses": 104,
   "legal_note": "Original diagnostic lenses generated from KB architecture. No high-risk source body text or proprietary lens wording used.",

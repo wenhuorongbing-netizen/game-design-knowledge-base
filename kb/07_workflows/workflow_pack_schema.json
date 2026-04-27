@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.game_design.workflow_pack.schema.v1",
-  "title": "BookOS Game Design WorkflowPack",
+  "$id": "gdkb.game_design.workflow_pack.schema.v1",
+  "title": "GDKB Game Design WorkflowPack",
   "type": "object",
   "additionalProperties": true,
   "required": [

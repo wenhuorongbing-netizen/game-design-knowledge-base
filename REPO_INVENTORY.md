@@ -26,7 +26,7 @@ Repository path: `D:\Game\FOTN`
 | `knowledge/kb-tools` | legacy build and extraction tools | mixed; contains unsafe private-book extraction |
 | `knowledge/kb-portal` | static portal | blocked due unsafe legacy data |
 | `knowledge/50-game-design-masters-kb` | legacy KB/data layer | blocked due high-risk extracted artifacts |
-| `knowledge/rebuild_instruction.md` | BookOS/reading-app instruction | out of scope |
+| `docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md` | deprecated BookOS/reading-app instruction | historical context only |
 | `knowledge/*.pdf`, `knowledge/*.epub`, `knowledge/*.7z` | local high-risk source files | ignored but physically present; must stay outside release |
 
 ## New KB Core Counts
@@ -81,6 +81,7 @@ The release boundary excludes:
 - `knowledge/kb-portal` as canonical content source
 - unsafe private-book extraction scripts
 - local PDF/EPUB/7z files
-- `knowledge/rebuild_instruction.md`
+- `KB_REBUILD_INSTRUCTION.md`
+- `docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md`
 
 P0 note: `knowledge/kb-portal/data.js` is now regenerated from safe exports, but `knowledge/kb-portal` remains optional display infrastructure, not canonical KB content.

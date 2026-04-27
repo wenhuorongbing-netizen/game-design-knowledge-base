@@ -5,7 +5,7 @@
 
 ```json
 {
-  "SourceDocument": 17,
+  "SourceDocument": 18,
   "GameDesignWork": 19,
   "Claim": 164,
   "PhaseGroup": 8,
@@ -50,4 +50,4 @@
 - Broken links are excluded from graph edge exports and listed in `import_report.md`.
 - Routing edges are navigation metadata, not evidence.
 - Claims remain weak or unsupported unless future user notes, legal source sidecars, official metadata, project overlays, or playtest logs promote them.
-- Current issue count: 41
+- Current issue count: 0

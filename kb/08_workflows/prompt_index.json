@@ -1,5 +1,5 @@
 {
-  "schema_version": "bookos.prompt_library.v1",
+  "schema_version": "gdkb.prompt_library.v1",
   "updated_date": "2026-04-26",
   "total_prompts": 15,
   "prompts": [
@@ -24,7 +24,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Convert user-authored notes into source-governed card drafts. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Convert user-authored notes into source-governed card drafts. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -72,7 +72,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Convert a concept or framework card into an original diagnostic lens. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Convert a concept or framework card into an original diagnostic lens. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -120,7 +120,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Convert diagnostic questions into a review checklist. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Convert diagnostic questions into a review checklist. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -168,7 +168,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Evaluate a design artifact with linked cards and lenses. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Evaluate a design artifact with linked cards and lenses. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -216,7 +216,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Review input, response, context, polish, and tuning risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Review input, response, context, polish, and tuning risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -264,7 +264,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Inspect economy, progression, sources, sinks, and balance risks. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -312,7 +312,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Create testable playtest questions from a prototype goal. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Create testable playtest questions from a prototype goal. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -360,7 +360,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Route a note into phase groups, domains, cards, and lessons. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Route a note into phase groups, domains, cards, and lessons. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -408,7 +408,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Find claims that lack source_basis, confidence, or evidence refs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Find claims that lack source_basis, confidence, or evidence refs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -456,7 +456,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Turn general KB items into project overlay candidates. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Turn general KB items into project overlay candidates. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -504,7 +504,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Create structured forum prompts for critique and evidence gathering. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Create structured forum prompts for critique and evidence gathering. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -552,7 +552,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Compare two concepts without inventing source claims. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Compare two concepts without inventing source claims. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -600,7 +600,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Generate original practice tasks from concept cards. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Generate original practice tasks from concept cards. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -648,7 +648,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Turn findings into a decision with rationale, evidence, and next test. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Turn findings into a decision with rationale, evidence, and next test. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",
@@ -696,7 +696,7 @@
         "Label assumptions separately from evidence.",
         "Return source_basis and confidence for every substantive claim."
       ],
-      "prompt_text": "You are using the BookOS Game Design KB. Task: Update project-specific applications from workflow outputs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
+      "prompt_text": "You are using the Game Design Knowledgebase. Task: Update project-specific applications from workflow outputs. Use only the provided context. Do not invent source claims. Separate source-backed statements, user interpretation, AI hypothesis, and project application. Output must include missing evidence and next actions.",
       "expected_output_format": [
         "summary",
         "source_basis_map",

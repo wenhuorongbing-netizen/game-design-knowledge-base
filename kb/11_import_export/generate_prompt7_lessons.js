@@ -550,8 +550,8 @@ for (const track of tracks) {
 
 const schema = {
   $schema: 'https://json-schema.org/draft/2020-12/schema',
-  $id: 'bookos.game_design.lesson.schema.v1',
-  title: 'BookOS Game Design Masterclass Lesson',
+  $id: 'gdkb.game_design.lesson.schema.v1',
+  title: 'GDKB Game Design Masterclass Lesson',
   type: 'object',
   additionalProperties: true,
   required: schemaFields,
@@ -829,7 +829,7 @@ write(
   path.join(lessonRoot, 'lesson_index.json'),
   `${JSON.stringify(
     {
-      schema_version: 'bookos.masterclass_lessons.v1',
+      schema_version: 'gdkb.masterclass_lessons.v1',
       updated_date: now,
       total_tracks: tracks.length,
       total_lessons: lessons.length,

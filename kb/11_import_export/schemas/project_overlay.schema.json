@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.projectoverlay.schema.v1",
-  "title": "BookOS ProjectOverlay",
+  "$id": "gdkb.projectoverlay.schema.v1",
+  "title": "GDKB ProjectOverlay",
   "type": "object",
   "additionalProperties": true,
   "required": [

@@ -1,0 +1,13 @@
+{
+  "name": "game-design-knowledgebase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Source-governed Game Design Knowledgebase repository.",
+  "type": "commonjs",
+  "scripts": {
+    "kb:export": "node tools/kb_importer/import_kb.js .",
+    "kb:validate": "node tools/kb_importer/import_kb.js . && node tools/validate_kb/validate_kb.js .",
+    "kb:coverage": "node tools/kb_quality/coverage_summary.js .",
+    "kb:audit": "node tools/kb_quality/source_audit.js . && node tools/validate_kb/validate_kb.js ."
+  }
+}

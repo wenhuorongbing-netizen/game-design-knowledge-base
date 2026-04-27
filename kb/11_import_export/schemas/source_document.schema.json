@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.sourcedocument.schema.v1",
-  "title": "BookOS SourceDocument",
+  "$id": "gdkb.sourcedocument.schema.v1",
+  "title": "GDKB SourceDocument",
   "type": "object",
   "additionalProperties": true,
   "required": [

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.game_design.card.schema.v1",
-  "title": "BookOS Game Design Knowledge Card",
+  "$id": "gdkb.game_design.card.schema.v1",
+  "title": "GDKB Game Design Knowledge Card",
   "type": "object",
   "additionalProperties": false,
   "required": [

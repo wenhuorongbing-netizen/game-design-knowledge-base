@@ -4,98 +4,58 @@ Date: 2026-04-27
 
 ## Current Milestone
 
-Phase 1 content release reviewed and accepted with warnings. The uploadable knowledgebase repository root is now `D:\Game\FOTN\knowledge`, with canonical KB content in `kb/`, validation tools in `tools/`, source-governed draft content, safe portal data, and disabled private source body extraction. Next work is P1 hardening, not Phase 2 expansion.
+P0 Finalization Sprint complete for the Game Design Knowledgebase repository.
 
 ## Verdict
 
-- Verdict: CONDITIONALLY_ACCEPTED for P0 baseline
-- Phase 1 content status: COMPLETE
+- P0 status: PASS
+- Draft KB release gate: PASS
+- Verified source-backed masterclass release gate: BLOCKED
 - Directional risk: ON_TRACK
-- Overall score: 78 / 100
-- Canonical draft KB core: `kb`
-- Main blocker: none at P0; P1 hardening remains
-- P0 re-review verdict: PASS
-- Repository boundary: `D:\Game\FOTN\knowledge`
+- Repository root: `D:\Game\FOTN\knowledge`
+- Canonical KB root: `kb/`
+- Authoritative pipeline: root `package.json` scripts
 
-## Completed Review Tasks
+## Completed This Sprint
 
-- Inspected root repository structure.
-- Inspected `knowledge/kb` governance, sources, works, ontology, cards, lenses, workflows, exercises, import/export, and quality reports.
-- Counted major KB entities and exports.
-- Checked source records and high-risk classification.
-- Checked frontmatter presence across entity folders.
-- Checked validation report and export counts.
-- Inspected legacy `50-game-design-masters-kb`, `kb-portal`, and `kb-tools`.
-- Created acceptance review files at repository root.
-- Created root `/kb` from canonical `knowledge/kb`.
-- Added `/tools/validate_kb/validate_kb.js`.
-- Removed legacy private-library extracted JSON artifacts from release scope.
-- Regenerated `knowledge/kb-portal/data.js` and `knowledge/kb-portal/content.js` from safe `/kb` search export.
-- Disabled private source body extraction scripts unless future legal sidecar processing is implemented.
-- Generated `VALIDATION_REPORT.md` and `VALIDATION_REPORT.json`.
-- Re-ran P0 acceptance review and confirmed all previous P0 issues are accepted as resolved.
-- Regenerated structured exports from root `/kb` using `node .\knowledge\tools\kb_importer\import_kb.js .`.
-- Verified Phase 1 content minimums: 19 works, 19 dossiers, 109 concept cards, 104 lenses, 20 workflows, 85 exercises, 164 claims.
-- Created `/kb/12_quality/PHASE_1_CONTENT_RELEASE.md`.
-- Re-ran validator and confirmed 0 P0 issues.
-- Created `/kb/12_quality/PHASE_1_CONTENT_REVIEW.md`.
-- Accepted Phase 1 content as a source-governed draft release with P1 hardening warnings.
-- Migrated root-level KB files and folders into `knowledge/` so `knowledge/` can be managed as the standalone repository.
-- Left `D:\Game\FOTN` with only visible content folders `founder-of-the-north/` and `knowledge/`.
-
-## Current Assumptions
-
-- The intended repository root is now `D:\Game\FOTN\knowledge`.
-- `kb` inside `knowledge/` is the canonical Game Design Knowledgebase.
-- `D:\Game\FOTN\founder-of-the-north` is game project content and not part of the general KB acceptance target.
-- Local PDF/EPUB/7z files are private user files and must not be committed or processed without sidecars.
+- Moved legacy BookOS rebuild instruction to `docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md`.
+- Created active `KB_REBUILD_INSTRUCTION.md`.
+- Created `package.json` with `kb:export`, `kb:validate`, `kb:coverage`, and `kb:audit`.
+- Created `TOOLCHAIN_AUDIT.md`.
+- Created `DIRECTION_DRIFT_AUDIT.md`.
+- Hardened `kb-tools/ingest-user-files.mjs` so user files default to `pending_review` or `metadata_only_quarantined`.
+- Blocked deprecated `kb-tools/build-all.mjs`.
+- Updated active schema/export identity to `gdkb.*`.
+- Added explicit `work_link_status: not_applicable` and `evidence_gap` exceptions to 41 general scaffold cards.
+- Regenerated import/export artifacts.
+- Regenerated validation report with 0 P0 issues and 0 unresolved warnings.
+- Updated release checklist/report to separate draft and verified gates.
 
 ## Legal Status Summary
 
-- `knowledge/kb` layer: source-governed draft, P0 compliant.
-- `knowledge` repository as a whole: P0 compliant after removal of legacy extracted private-library artifacts and safe portal regeneration.
-- Legal sidecars approved: 0.
+- High-risk sources remain metadata-only.
+- Approved legal sidecars: 0.
 - Verified source-backed claims: 0.
+- High-risk body extraction: disabled.
+- Embeddings from high-risk sources: not generated.
+
+## Validation Summary
+
+- Import errors: 0.
+- Import warnings: 0.
+- Validator P0 issues: 0.
+- Validator warnings: 0.
+- Accepted migration exceptions: documented in `VALIDATION_REPORT.md`.
 
 ## Next Action
 
-Run `continue-kb-p1-hardening`: fix P1 hardening warnings before any Phase 2 content expansion.
-
-## Files Created
-
-- `KB_ACCEPTANCE_REVIEW.md`
-- `REPO_INVENTORY.md`
-- `CURRENT_IMPLEMENTATION_MATRIX.md`
-- `OUT_OF_SCOPE_AUDIT.md`
-- `SOURCE_GOVERNANCE_AUDIT.md`
-- `ONTOLOGY_SCHEMA_AUDIT.md`
-- `CARD_LENS_WORKFLOW_AUDIT.md`
-- `VALIDATION_PIPELINE_AUDIT.md`
-- `COVERAGE_MATRIX.md`
-- `GAP_BACKLOG.md`
-- `NEXT_DEVELOPMENT_PLAN.md`
-- `KB_PROJECT_STATE.md`
-- `TODO.md`
-- `VALIDATION_REPORT.md`
-- `VALIDATION_REPORT.json`
-- `tools/validate_kb/README.md`
-- `tools/validate_kb/validate_kb.js`
-- `knowledge/50-game-design-masters-kb/raw/private-library/EXTRACTED_ARTIFACTS_REMOVED.md`
-- `kb/12_quality/PHASE_1_CONTENT_RELEASE.md`
-- `kb/12_quality/PHASE_1_CONTENT_REVIEW.md`
-- `IMPLEMENTATION_LOG.md`
-
-## Open Questions
-
-- Should parent-level hidden `.git` metadata be removed or ignored after confirming the `knowledge/.git` repository is the only one used?
-- Should legacy `50-game-design-masters-kb` be archived outside Git entirely?
-- Which books can the user legally provide sidecars for?
+Run `review-gdkb-p0-final`.
 
 ## Do-Not-Redo List
 
 - Do not rebuild BookOS.
-- Do not add login, personal library, reading session, forum CRUD, quote book, or daily sentence features.
-- Do not summarize or extract high-risk book body text.
-- Do not promote draft cards to verified without evidence.
-- Do not re-enable private source body extraction without legal sidecar gating.
-- Do not treat remaining warnings as P0 blockers unless they affect source governance.
+- Do not add login, user auth, reading sessions, personal library, forum CRUD, quote book, or daily sentence product features.
+- Do not parse high-risk PDF/EPUB body text.
+- Do not summarize copyrighted book chapters.
+- Do not generate embeddings from quarantined files.
+- Do not promote draft cards, lenses, lessons, workflows, exercises, or claims to verified without evidence.

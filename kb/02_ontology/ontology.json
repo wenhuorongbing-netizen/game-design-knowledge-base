@@ -1,5 +1,5 @@
 {
-  "schema_version": "bookos.ontology.v1",
+  "schema_version": "gdkb.ontology.v1",
   "updated_date": "2026-04-26",
   "governance": {
     "source_basis_required": true,

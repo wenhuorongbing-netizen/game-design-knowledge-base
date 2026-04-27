@@ -1,6 +1,6 @@
 {
-  "schema_version": "bookos.sources.v2",
-  "updated_date": "2026-04-26",
+  "schema_version": "gdkb.sources.v2",
+  "updated_date": "2026-04-27",
   "scope": "Prompt 2 source inventory and legal-risk registry",
   "governance_files": [
     "kb/00_governance/KB_CONSTITUTION.md",
@@ -72,9 +72,9 @@
     },
     {
       "source_document_id": "src-user-rebuild-instruction",
-      "original_filename": "rebuild_instruction.md",
-      "relative_path": "knowledge/rebuild_instruction.md",
-      "normalized_title": "Knowledge Base Rebuilding Instruction",
+      "original_filename": "BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md",
+      "relative_path": "docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md",
+      "normalized_title": "Deprecated BookOS Rebuild Instruction",
       "detected_author": [
         "User"
       ],
@@ -84,27 +84,27 @@
       "isbn_10": null,
       "isbn_13": null,
       "file_type": ".md",
-      "file_size_if_available": 41368,
+      "file_size_if_available": 41929,
       "source_origin_flags": [
-        "user_instruction",
+        "deprecated_instruction",
         "process_note"
       ],
       "risk_level": "low",
-      "ingestion_status": "allowed_full_ingestion",
-      "source_basis": "user_manual_note",
+      "ingestion_status": "allowed_metadata_only",
+      "source_basis": "metadata_only",
       "allowed_operations": [
-        "record_metadata",
-        "attach_user_notes",
-        "generate_dossier_from_user_notes",
-        "generate_cards_from_user_notes",
-        "generate_summary"
+        "record_metadata"
       ],
       "prohibited_operations": [
-        "treat_as_primary_book_source",
-        "treat_as_external_citation_without_user_attribution"
+        "use_as_active_build_instruction",
+        "build_bookos",
+        "build_reading_sessions",
+        "build_user_auth",
+        "build_forum_crud",
+        "parse_high_risk_source_body_text"
       ],
-      "recommended_user_action": "Use as process governance and rebuild direction only.",
-      "notes": "This file may guide KB structure, but it is not a scholarly source for book claims."
+      "recommended_user_action": "Do not use as active instruction. Use KB_REBUILD_INSTRUCTION.md instead.",
+      "notes": "Historical BookOS/readings-app direction retained only for provenance; not an active KB source."
     },
     {
       "source_document_id": "src-user-prompt-2-known-work-list",
@@ -720,6 +720,40 @@
       ],
       "recommended_user_action": "Provide a legal source sidecar or replace with lawful copy before body-level processing.",
       "notes": "Detected from filename only. No PDF body or front matter was read."
+    },
+    {
+      "source_document_id": "src-active-kb-rebuild-instruction",
+      "original_filename": "KB_REBUILD_INSTRUCTION.md",
+      "relative_path": "KB_REBUILD_INSTRUCTION.md",
+      "normalized_title": "Active Game Design Knowledgebase Rebuild Instruction",
+      "detected_author": [
+        "User",
+        "Codex"
+      ],
+      "detected_edition": null,
+      "publisher": null,
+      "publication_year": 2026,
+      "isbn_10": null,
+      "isbn_13": null,
+      "file_type": ".md",
+      "file_size_if_available": 2926,
+      "source_origin_flags": [
+        "active_instruction",
+        "governance_note"
+      ],
+      "risk_level": "low",
+      "ingestion_status": "allowed_metadata_only",
+      "source_basis": "user_manual_note",
+      "allowed_operations": [
+        "record_metadata",
+        "attach_user_notes"
+      ],
+      "prohibited_operations": [
+        "treat_as_book_source",
+        "create_verified_game_design_claims"
+      ],
+      "recommended_user_action": "Use as the active repository rebuild instruction.",
+      "notes": "Governance and scope instruction for the Game Design Knowledgebase repository; not evidence for game design claims."
     }
   ],
   "source_risks": [

@@ -3,7 +3,7 @@
 
 ## Purpose
 
-The JSON schemas define the normalized BookOS import shape. They do not replace the older Prompt 4 to Prompt 8 schemas; they sit above them as the cross-entity data contract.
+The JSON schemas define the normalized GDKB import shape. They do not replace the older Prompt 4 to Prompt 8 schemas; they sit above them as the cross-entity data contract.
 
 ## Generated Schema Files
 
@@ -46,4 +46,4 @@ The JSON schemas define the normalized BookOS import shape. They do not replace 
 
 ## Canonicality Decision
 
-Markdown is the human canonical layer. JSON exports are generated build artifacts for BookOS, graph tools, and search. If Markdown and JSON disagree, regenerate JSON from Markdown and registries before editing exports by hand.
+Markdown is the human canonical layer. JSON exports are generated build artifacts for GDKB, graph tools, and search. If Markdown and JSON disagree, regenerate JSON from Markdown and registries before editing exports by hand.

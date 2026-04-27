@@ -9,6 +9,8 @@ source_basis: "unsupported_draft"
 confidence: "unsupported_draft"
 evidence_refs: []
 related_works: []
+work_link_status: "not_applicable"
+evidence_gap: "General KB operations scaffold; no single source work is required. Keep as unsupported_draft until user notes, legal sources, project overlays, or playtest evidence are attached."
 related_dossiers: []
 related_concepts: []
 related_lenses: []
@@ -27,7 +29,7 @@ AI_prompt_hooks: ["Use this card as a structure only; cite evidence for every cl
 status: "needs_evidence"
 version: "0.1.0"
 created_at: "2026-04-26"
-updated_at: "2026-04-26"
+updated_at: "2026-04-27"
 ---
 # Economy Source Sink Checklist
 

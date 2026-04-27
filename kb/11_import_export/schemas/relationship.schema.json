@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.relationship.schema.v1",
-  "title": "BookOS Relationship Edge",
+  "$id": "gdkb.relationship.schema.v1",
+  "title": "GDKB Relationship Edge",
   "type": "object",
   "additionalProperties": true,
   "required": [

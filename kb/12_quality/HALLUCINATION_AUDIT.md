@@ -46,7 +46,7 @@ The KB does not currently present metadata-only book material as verified knowle
 - Do not say "according to [book]" unless evidence_refs point to a legal source, official metadata, or user note.
 - Do not use related_works as evidence.
 - Do not convert a lens or workflow into a recommendation unless project context or playtest evidence exists.
-- Keep draft cards visible in BookOS, but display their confidence and source_basis prominently.
+- Keep draft cards visible in GDKB, but display their confidence and source_basis prominently.
 
 ## Promotion Path
 

@@ -2,7 +2,7 @@
 
 ## Current Milestone
 
-Prompt 10 complete: coverage audit, legal audit, hallucination audit, usability audit, knowledge-gap backlog, and release package are established.
+P0 Finalization Sprint complete: the repository is finalized as a Game Design Knowledgebase draft release candidate with no active BookOS build instruction, an authoritative GDKB pipeline, safe user-file intake defaults, `gdkb.*` schema identity, and zero unresolved import/validation warnings.
 
 ## Completed Tasks
 
@@ -83,7 +83,7 @@ Prompt 10 complete: coverage audit, legal audit, hallucination audit, usability 
 - verified Prompt 8 file counts: 20 workflow packs, 85 exercises, and 15 prompt templates
 - preserved legal boundaries by marking all generated workflows, exercises, and prompt templates as `unsupported_draft`
 - created a standalone documentation-KB importer under `/tools/kb_importer/import_kb.js`
-- finalized the Markdown frontmatter standard for BookOS entity import
+- finalized the Markdown frontmatter standard for GDKB entity import
 - finalized the JSON schema plan
 - generated 11 normalized JSON schema files under `/kb/11_import_export/schemas`
 - finalized the seed import plan
@@ -120,15 +120,23 @@ Prompt 10 complete: coverage audit, legal audit, hallucination audit, usability 
 - audited claim graph and card scaffolds for hallucination risk
 - audited eight practical usability scenarios
 - converted remaining warnings and missing evidence into a structured backlog
-- confirmed the KB is release-ready for BookOS draft integration
+- confirmed the KB is release-ready for GDKB draft integration
 - confirmed the KB is not yet a verified source-backed book-derived corpus
 - preserved legal boundaries by treating all high-risk sources as metadata-only
+- moved deprecated BookOS rebuild instruction to `/docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md`
+- created `/KB_REBUILD_INSTRUCTION.md`
+- created root `package.json` KB commands
+- hardened `kb-tools/ingest-user-files.mjs`
+- blocked deprecated `kb-tools/build-all.mjs`
+- resolved 41 `card_without_related_work` warnings with explicit `work_link_status: not_applicable` and `evidence_gap`
+- regenerated exports with `gdkb.*` schema versions
+- regenerated validation with 0 P0 issues and 0 unresolved warnings
 
 ## Current Assumptions
 
 - no uploaded commercial book file has an approved legal sidecar yet
 - filenames and file sizes are safe metadata
-- user prompts and `knowledge/rebuild_instruction.md` are usable as user manual notes or process instructions
+- user prompts and `KB_REBUILD_INSTRUCTION.md` are usable as process instructions; deprecated BookOS instructions are provenance-only
 - the legacy `knowledge/50-game-design-masters-kb` snapshot is not trusted as verified source-backed knowledge
 - domain and phase mappings are navigation metadata, not source-body claims
 - example concepts, cards, lenses, and workflow packs in ontology files are placeholders unless later backed by legal sources or user notes
@@ -147,7 +155,7 @@ Prompt 10 complete: coverage audit, legal audit, hallucination audit, usability 
 - Prompt 9 compatibility domain nodes are generated only to preserve older domain vocab links during import
 - Prompt 9 graph routing edges are navigation metadata, not source evidence
 - Prompt 9 remaining warnings are quality backlog items, not importer failures
-- Prompt 10 release readiness means BookOS-ready draft integration, not verified source-backed publication
+- Prompt 10 release readiness means GDKB-ready draft integration, not verified source-backed publication
 - Prompt 10 coverage ratings are structural coverage ratings, not evidence-strength ratings
 - Prompt 10 accepts 41 `card_without_related_work` warnings as non-blocking backlog
 - Prompt 10 identifies ProjectOverlay and forum normalization as the next major usability gaps
@@ -182,14 +190,14 @@ Prompt 10 complete: coverage audit, legal audit, hallucination audit, usability 
 - no copyrighted source body text has been summarized, quoted, embedded, or transformed in Prompt 10
 - Prompt 10 legal audit found 0 unresolved legal violations
 - Prompt 10 hallucination audit found 0 critical hallucination issues
-- Prompt 10 release checklist passes all final acceptance gates for draft BookOS integration
+- Prompt 10 release checklist passes all final acceptance gates for draft GDKB integration
 - source-backed masterclass release remains blocked until legal sidecars, user notes, project overlays, or playtest evidence are provided
 
 ## Next Action
 
-Prompt 11: Project Overlay System and Project Application Records.
+Run `review-gdkb-p0-final`.
 
-Prompt 11 should implement project overlays, design decision logs, playtest log templates, and a sample project application flow that connects workflow outputs to real game development use while keeping general KB knowledge separate from project-specific claims.
+Do not proceed to ProjectOverlay, evidence expansion, or UI/app work until P0 finalization is accepted.
 
 ## Files Created Or Updated
 
@@ -317,7 +325,7 @@ Prompt 11 should implement project overlays, design decision logs, playtest log 
 - which Prompt 8 workflow packs should be tested on a real project first
 - which project overlay entities should connect to workflow outputs first
 - whether the 41 `card_without_related_work` warnings should be fixed by adding related works, marking them as general governance cards, or exempting specific card families
-- which downstream BookOS database shape should consume the Prompt 9 exports first
+- which downstream GDKB database shape should consume the Prompt 9 exports first
 - which sample project should be used for the first ProjectOverlay
 - which workflow outputs should become design decisions first
 - whether playtest logs or design decision logs should be implemented first in Prompt 11

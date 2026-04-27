@@ -2041,3 +2041,25 @@ Do not only write a spec. First give a short architecture plan, then immediately
 ````
 
 但我更建议你先用上面这个版本，让 Agent 先产出完整技术规格。你确认满意后再发 `build`，这样它后面写代码时不会跑偏。
+# DEPRECATED: Do Not Use As Active Build Instruction
+
+This file is preserved only as historical context. It describes an older BookOS / reading-app / forum / full-stack product direction and is **not** an active instruction for this repository.
+
+The active instruction is:
+
+```text
+KB_REBUILD_INSTRUCTION.md
+```
+
+Active repository identity:
+
+- Game Design Knowledgebase
+- source-governed Markdown and JSON knowledge assets
+- validation/export pipeline
+- no BookOS app
+- no reading sessions
+- no user auth
+- no forum CRUD
+- no high-risk source body parsing
+
+---

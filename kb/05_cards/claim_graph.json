@@ -1,5 +1,5 @@
 {
-  "schema_version": "bookos.claim_graph.v1",
+  "schema_version": "gdkb.claim_graph.v1",
   "updated_date": "2026-04-26",
   "governance": {
     "legal_rule": "No high-risk source body text was used. Claims are placeholders unless evidence_refs identify legally usable sources or user notes.",

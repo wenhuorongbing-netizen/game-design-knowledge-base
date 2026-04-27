@@ -3,7 +3,7 @@
 
 ## Purpose
 
-The graph model lets BookOS and future tools traverse provenance, routing, production use, learning paths, workflows, deliverables, and evidence gaps.
+The graph model lets GDKB and future tools traverse provenance, routing, production use, learning paths, workflows, deliverables, and evidence gaps.
 
 ## Graph Nodes
 
@@ -59,7 +59,7 @@ Primary generated edge families:
 
 ## Broken Link Policy
 
-Broken links are not exported as graph edges. They are reported in `import_report.md` as validation issues. This keeps BookOS graph imports clean while preserving repair tasks.
+Broken links are not exported as graph edges. They are reported in `import_report.md` as validation issues. This keeps GDKB graph imports clean while preserving repair tasks.
 
 ## Evidence Policy
 

@@ -7,7 +7,7 @@ const KB_DIR = path.join(ROOT, "kb");
 const IO_DIR = path.join(KB_DIR, "11_import_export");
 const SCHEMA_DIR = path.join(IO_DIR, "schemas");
 const EXPORT_DIR = path.join(IO_DIR, "export");
-const TODAY = "2026-04-26";
+const TODAY = "2026-04-27";
 
 const SOURCE_BASIS = [
   "open_fulltext",
@@ -278,6 +278,14 @@ function asArray(value) {
 
 function cleanArray(value) {
   return [...new Set(asArray(value).filter((item) => item !== undefined && item !== null && String(item).trim() !== "").map((item) => String(item).trim()))];
+}
+
+function hasWorkLinkException(entity) {
+  return (
+    entity.raw?.work_link_status === "not_applicable" &&
+    cleanArray(entity.raw.related_works).length === 0 &&
+    Boolean(entity.raw?.evidence_gap || entity.raw?.evidence_gap_reason)
+  );
 }
 
 function inferMarkdownEntityType(frontmatter, defaultType) {
@@ -632,7 +640,7 @@ function createSchemas() {
   };
   const schema = (title, entityType, requiredExtra, propsExtra = {}) => ({
     $schema: "https://json-schema.org/draft/2020-12/schema",
-    $id: `bookos.${slug(entityType)}.schema.v1`,
+    $id: `gdkb.${slug(entityType)}.schema.v1`,
     title,
     type: "object",
     additionalProperties: true,
@@ -644,17 +652,17 @@ function createSchemas() {
     }
   });
   return {
-    "source_document.schema.json": schema("BookOS SourceDocument", "SourceDocument", [], {
+    "source_document.schema.json": schema("GDKB SourceDocument", "SourceDocument", [], {
       original_filename: { type: "string" },
       risk_level: { enum: ["low", "medium", "high", "unknown"] },
       ingestion_status: { type: "string" }
     }),
-    "work.schema.json": schema("BookOS GameDesignWork", "GameDesignWork", [], {
+    "work.schema.json": schema("GDKB GameDesignWork", "GameDesignWork", [], {
       author_names: { type: "array", items: { type: "string" } },
       work_type: { type: "string" },
       canonical_status: { type: "string" }
     }),
-    "dossier.schema.json": schema("BookOS BookDossier", "BookDossier", ["work_id"], {
+    "dossier.schema.json": schema("GDKB BookDossier", "BookDossier", ["work_id"], {
       work_id: { type: "string" },
       legal_status: { type: "string" },
       ingestion_status: { type: "string" },
@@ -663,8 +671,8 @@ function createSchemas() {
     }),
     "card.schema.json": {
       $schema: "https://json-schema.org/draft/2020-12/schema",
-      $id: "bookos.knowledge-card.schema.v1",
-      title: "BookOS KnowledgeCard Family",
+      $id: "gdkb.knowledge-card.schema.v1",
+      title: "GDKB KnowledgeCard Family",
       type: "object",
       additionalProperties: true,
       required: [...universalRequired, "card_type", "output_artifacts"],
@@ -680,34 +688,34 @@ function createSchemas() {
         output_artifacts: { type: "array", items: { type: "string" } }
       }
     },
-    "lens.schema.json": schema("BookOS DesignLens", "DesignLens", ["diagnostic_questions_count", "target_artifact_type", "related_cards", "review_output_format"], {
+    "lens.schema.json": schema("GDKB DesignLens", "DesignLens", ["diagnostic_questions_count", "target_artifact_type", "related_cards", "review_output_format"], {
       diagnostic_questions_count: { type: "integer", minimum: 1 },
       target_artifact_type: { type: "string" },
       related_cards: { type: "array", items: { type: "string" } },
       review_output_format: { type: "array", items: { type: "string" } }
     }),
-    "lesson.schema.json": schema("BookOS Lesson", "Lesson", ["level", "related_cards", "related_lenses", "practical_exercise"], {
+    "lesson.schema.json": schema("GDKB Lesson", "Lesson", ["level", "related_cards", "related_lenses", "practical_exercise"], {
       level: { enum: ["beginner", "intermediate", "advanced", "professional"] },
       related_cards: { type: "array", items: { type: "string" } },
       related_lenses: { type: "array", items: { type: "string" } },
       practical_exercise: { type: "string" }
     }),
-    "exercise.schema.json": schema("BookOS Exercise", "Exercise", ["difficulty", "expected_output"], {
+    "exercise.schema.json": schema("GDKB Exercise", "Exercise", ["difficulty", "expected_output"], {
       difficulty: { type: "string" },
       expected_output: { type: "string" },
       related_lesson: { type: "string" }
     }),
-    "workflow_pack.schema.json": schema("BookOS WorkflowPack", "WorkflowPack", ["required_inputs", "output_artifacts", "estimated_time", "quality_gate"], {
+    "workflow_pack.schema.json": schema("GDKB WorkflowPack", "WorkflowPack", ["required_inputs", "output_artifacts", "estimated_time", "quality_gate"], {
       required_inputs: { type: "array", items: { type: "string" } },
       output_artifacts: { type: "array", items: { type: "string" } },
       estimated_time: { type: "string" },
       quality_gate: { type: ["string", "array"] }
     }),
-    "prompt_template.schema.json": schema("BookOS PromptTemplate", "PromptTemplate", ["guardrails", "expected_output_format"], {
+    "prompt_template.schema.json": schema("GDKB PromptTemplate", "PromptTemplate", ["guardrails", "expected_output_format"], {
       guardrails: { type: "array", items: { type: "string" }, minItems: 1 },
       expected_output_format: { type: "array", items: { type: "string" } }
     }),
-    "project_overlay.schema.json": schema("BookOS ProjectOverlay", "ProjectOverlay", ["project_id"], {
+    "project_overlay.schema.json": schema("GDKB ProjectOverlay", "ProjectOverlay", ["project_id"], {
       project_id: { type: "string" },
       linked_workflows: { type: "array", items: { type: "string" } },
       design_decisions: { type: "array", items: { type: "string" } },
@@ -715,8 +723,8 @@ function createSchemas() {
     }),
     "relationship.schema.json": {
       $schema: "https://json-schema.org/draft/2020-12/schema",
-      $id: "bookos.relationship.schema.v1",
-      title: "BookOS Relationship Edge",
+      $id: "gdkb.relationship.schema.v1",
+      title: "GDKB Relationship Edge",
       type: "object",
       additionalProperties: true,
       required: ["edge_id", "relationship_type", "source_entity_id", "target_entity_id", "evidence_required", "evidence_ids", "source_basis", "confidence", "created_at"],
@@ -795,7 +803,7 @@ function validateEntities(entities, schemas) {
         issues.push(issue("error", "high_risk_source_used_as_summary_basis", entity.id, "High-risk source has unsafe allowed operations or non-metadata source_basis."));
       }
     }
-    if (["ConceptCard", "FrameworkCard", "ApplicationCard", "ChecklistCard", "PromptCard"].includes(entity.entity_type) && !asArray(entity.raw.related_works).length) {
+    if (["ConceptCard", "FrameworkCard", "ApplicationCard", "ChecklistCard", "PromptCard"].includes(entity.entity_type) && !asArray(entity.raw.related_works).length && !hasWorkLinkException(entity)) {
       issues.push(issue("warning", "card_without_related_work", entity.id, "Card has no related_works."));
     }
     if (entity.entity_type === "DesignLens" && !asArray(entity.raw.diagnostic_questions).length) {
@@ -966,7 +974,7 @@ function writeDocsAndSchemas(schemas) {
 
 ## Purpose
 
-Markdown remains the canonical authoring format for human-readable KB objects. YAML frontmatter is the machine contract that lets BookOS import, validate, link, search, and graph the knowledge base.
+Markdown remains the canonical authoring format for human-readable KB objects. YAML frontmatter is the machine contract that lets GDKB import, validate, link, search, and graph the knowledge base.
 
 This standard applies to entity Markdown files, not general index files. Templates may show placeholder values, but concrete entity files must use stable IDs.
 
@@ -1182,7 +1190,7 @@ Earlier Prompt 5 to Prompt 8 files often use entity-specific IDs such as \`card_
 
 ## Purpose
 
-The JSON schemas define the normalized BookOS import shape. They do not replace the older Prompt 4 to Prompt 8 schemas; they sit above them as the cross-entity data contract.
+The JSON schemas define the normalized GDKB import shape. They do not replace the older Prompt 4 to Prompt 8 schemas; they sit above them as the cross-entity data contract.
 
 ## Generated Schema Files
 
@@ -1225,7 +1233,7 @@ The JSON schemas define the normalized BookOS import shape. They do not replace 
 
 ## Canonicality Decision
 
-Markdown is the human canonical layer. JSON exports are generated build artifacts for BookOS, graph tools, and search. If Markdown and JSON disagree, regenerate JSON from Markdown and registries before editing exports by hand.
+Markdown is the human canonical layer. JSON exports are generated build artifacts for GDKB, graph tools, and search. If Markdown and JSON disagree, regenerate JSON from Markdown and registries before editing exports by hand.
 `);
 
   writeText("11_import_export/seed_import_plan.md", `
@@ -1261,9 +1269,9 @@ Markdown is the human canonical layer. JSON exports are generated build artifact
 10. Produce \`import_report.md\`.
 11. Export \`all_entities.json\`, \`all_relationships.json\`, \`search_index.json\`, \`graph_nodes.json\`, and \`graph_edges.json\`.
 
-## BookOS Seed Mapping
+## GDKB Seed Mapping
 
-| BookOS Table | Source |
+| GDKB Table | Source |
 |---|---|
 | \`kb_entities\` | \`export/all_entities.json\` |
 | \`kb_relationships\` | \`export/all_relationships.json\` |
@@ -1290,7 +1298,7 @@ Run from the repository root. The script writes exports into \`/kb/11_import_exp
 
 ## Purpose
 
-The search index is a safe retrieval surface for BookOS. It is not a raw source text index.
+The search index is a safe retrieval surface for GDKB. It is not a raw source text index.
 
 ## Fields
 
@@ -1322,7 +1330,7 @@ The search index is a safe retrieval surface for BookOS. It is not a raw source 
 
 ## Purpose
 
-The graph model lets BookOS and future tools traverse provenance, routing, production use, learning paths, workflows, deliverables, and evidence gaps.
+The graph model lets GDKB and future tools traverse provenance, routing, production use, learning paths, workflows, deliverables, and evidence gaps.
 
 ## Graph Nodes
 
@@ -1378,7 +1386,7 @@ Primary generated edge families:
 
 ## Broken Link Policy
 
-Broken links are not exported as graph edges. They are reported in \`import_report.md\` as validation issues. This keeps BookOS graph imports clean while preserving repair tasks.
+Broken links are not exported as graph edges. They are reported in \`import_report.md\` as validation issues. This keeps GDKB graph imports clean while preserving repair tasks.
 
 ## Evidence Policy
 
@@ -1526,7 +1534,7 @@ function main() {
   const searchIndex = buildSearchIndex(entities);
 
   const allEntitiesExport = {
-    schema_version: "bookos.all_entities.v1",
+    schema_version: "gdkb.all_entities.v1",
     generated_at: TODAY,
     canonical_source: "Markdown frontmatter plus curated JSON registries",
     legal_boundary: "No high-risk source body text read or exported.",
@@ -1534,20 +1542,20 @@ function main() {
     entities
   };
   const allRelationshipsExport = {
-    schema_version: "bookos.all_relationships.v1",
+    schema_version: "gdkb.all_relationships.v1",
     generated_at: TODAY,
     relationship_count: graph.relationships.length,
     relationships: graph.relationships
   };
   const searchExport = {
-    schema_version: "bookos.search_index.v1",
+    schema_version: "gdkb.search_index.v1",
     generated_at: TODAY,
     safety_note: "body_excerpt_safe is suppressed for metadata-only or quarantined entities.",
     count: searchIndex.length,
     documents: searchIndex
   };
   const graphNodesExport = {
-    schema_version: "bookos.graph_nodes.v1",
+    schema_version: "gdkb.graph_nodes.v1",
     generated_at: TODAY,
     count: entities.length,
     nodes: entities.map((entity) => ({
@@ -1563,7 +1571,7 @@ function main() {
     }))
   };
   const graphEdgesExport = {
-    schema_version: "bookos.graph_edges.v1",
+    schema_version: "gdkb.graph_edges.v1",
     generated_at: TODAY,
     count: graph.relationships.length,
     edges: graph.relationships
@@ -1575,7 +1583,7 @@ function main() {
   writeJson("11_import_export/export/graph_nodes.json", graphNodesExport);
   writeJson("11_import_export/export/graph_edges.json", graphEdgesExport);
   writeJson("11_import_export/export/validation_issues.json", {
-    schema_version: "bookos.validation_issues.v1",
+    schema_version: "gdkb.validation_issues.v1",
     generated_at: TODAY,
     count: allIssues.length,
     issues: allIssues

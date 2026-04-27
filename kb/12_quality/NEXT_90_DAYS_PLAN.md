@@ -6,7 +6,7 @@
 - Complete Prompt 11 ProjectOverlay system.
 - Resolve or explicitly accept Prompt 9 warnings.
 - Add first legal sidecars or user reading notes.
-- Import draft KB into BookOS.
+- Import draft KB into GDKB.
 
 ## Days 31-60
 

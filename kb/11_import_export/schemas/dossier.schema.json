@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.bookdossier.schema.v1",
-  "title": "BookOS BookDossier",
+  "$id": "gdkb.bookdossier.schema.v1",
+  "title": "GDKB BookDossier",
   "type": "object",
   "additionalProperties": true,
   "required": [

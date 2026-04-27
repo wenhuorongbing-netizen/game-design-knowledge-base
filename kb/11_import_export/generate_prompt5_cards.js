@@ -243,8 +243,8 @@ write(path.join(cardsRoot, 'card_template.md'), template);
 
 const schema = {
   $schema: 'https://json-schema.org/draft/2020-12/schema',
-  $id: 'bookos.game_design.card.schema.v1',
-  title: 'BookOS Game Design Knowledge Card',
+  $id: 'gdkb.game_design.card.schema.v1',
+  title: 'GDKB Game Design Knowledge Card',
   type: 'object',
   additionalProperties: false,
   required: universalFields,
@@ -873,7 +873,7 @@ for (const card of generatedNonConcept) {
 }
 
 const claimGraph = {
-  schema_version: 'bookos.claim_graph.v1',
+  schema_version: 'gdkb.claim_graph.v1',
   updated_date: now,
   governance: {
     legal_rule: 'No high-risk source body text was used. Claims are placeholders unless evidence_refs identify legally usable sources or user notes.',

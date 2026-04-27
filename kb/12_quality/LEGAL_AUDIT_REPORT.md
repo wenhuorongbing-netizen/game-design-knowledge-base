@@ -5,7 +5,7 @@
 
 Release classification: **pass with user-review limitations**.
 
-There are no unresolved legal violations in the generated KB. The KB is safe for BookOS import as a draft/source-governed knowledge system. It is not yet safe to treat uploaded commercial book bodies as ingested knowledge.
+There are no unresolved legal violations in the generated KB. The KB is safe as a draft/source-governed Game Design Knowledgebase. It is not yet safe to treat uploaded commercial book bodies as ingested knowledge.
 
 ## Audit Summary
 
@@ -48,7 +48,7 @@ There are no unresolved legal violations in the generated KB. The KB is safe for
 
 - Most generated cards, lenses, lessons, workflows, exercises, and prompt templates are useful scaffolds but not verified source-backed knowledge.
 - Related works are routing metadata, not evidence.
-- Prompt 9 import currently reports 41 validation warnings; all are non-legal quality warnings.
+- P0 finalization import currently reports 0 validation warnings.
 
 ### Needs User Review
 
@@ -56,6 +56,6 @@ There are no unresolved legal violations in the generated KB. The KB is safe for
 
 ## Release Gate
 
-Legal release gate: **passed for draft KB and BookOS import**.
+Legal release gate: **passed for draft KB release**.
 
 Source-backed masterclass release gate: **blocked until legal/user evidence is supplied**.

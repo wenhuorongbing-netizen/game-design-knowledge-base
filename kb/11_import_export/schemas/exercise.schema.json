@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.exercise.schema.v1",
-  "title": "BookOS Exercise",
+  "$id": "gdkb.exercise.schema.v1",
+  "title": "GDKB Exercise",
   "type": "object",
   "additionalProperties": true,
   "required": [

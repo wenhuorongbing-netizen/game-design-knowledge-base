@@ -184,3 +184,29 @@ Validation:
 - Command: `node .\tools\validate_kb\validate_kb.js`
 - Working directory: `D:\Game\FOTN\knowledge`
 - Result: PASS, 0 P0 issues, 488 warnings.
+
+## 2026-04-27 - P0 Finalization Sprint
+
+Implemented P0 finalization for the Game Design Knowledgebase repository.
+
+Actions:
+
+- Moved legacy BookOS rebuild instruction to `docs/deprecated/BOOKOS_REBUILD_INSTRUCTION_DEPRECATED.md`.
+- Created active `KB_REBUILD_INSTRUCTION.md`.
+- Added `package.json` scripts for `kb:export`, `kb:validate`, `kb:coverage`, and `kb:audit`.
+- Created `TOOLCHAIN_AUDIT.md` and `DIRECTION_DRIFT_AUDIT.md`.
+- Hardened `kb-tools/ingest-user-files.mjs` so user files default to `pending_review` or `metadata_only_quarantined`.
+- Blocked deprecated `kb-tools/build-all.mjs`.
+- Added `kb-tools/README_DEPRECATED.md`.
+- Updated `/tools/kb_importer/import_kb.js` to emit `gdkb.*` schema versions and accept explicit no-work-link exceptions.
+- Added `work_link_status: not_applicable` and `evidence_gap` to 41 general scaffold cards.
+- Regenerated exports and validation reports.
+- Updated release checklist and release report to separate draft and verified gates.
+
+Validation:
+
+- `npm run kb:export`: 857 entities, 8383 relationships, 735 search documents, 0 issues.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `npm run kb:coverage`: coverage summary regenerated.
+- `npm run kb:audit`: source governance audit PASS and validation PASS.
+- `node .\kb-tools\build-all.mjs`: blocked as expected with exit code 2.

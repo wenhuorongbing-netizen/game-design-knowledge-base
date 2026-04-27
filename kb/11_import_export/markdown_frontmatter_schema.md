@@ -3,7 +3,7 @@
 
 ## Purpose
 
-Markdown remains the canonical authoring format for human-readable KB objects. YAML frontmatter is the machine contract that lets BookOS import, validate, link, search, and graph the knowledge base.
+Markdown remains the canonical authoring format for human-readable KB objects. YAML frontmatter is the machine contract that lets GDKB import, validate, link, search, and graph the knowledge base.
 
 This standard applies to entity Markdown files, not general index files. Templates may show placeholder values, but concrete entity files must use stable IDs.
 

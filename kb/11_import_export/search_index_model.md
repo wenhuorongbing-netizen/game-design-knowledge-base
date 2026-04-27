@@ -3,7 +3,7 @@
 
 ## Purpose
 
-The search index is a safe retrieval surface for BookOS. It is not a raw source text index.
+The search index is a safe retrieval surface for GDKB. It is not a raw source text index.
 
 ## Fields
 

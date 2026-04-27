@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.gamedesignwork.schema.v1",
-  "title": "BookOS GameDesignWork",
+  "$id": "gdkb.gamedesignwork.schema.v1",
+  "title": "GDKB GameDesignWork",
   "type": "object",
   "additionalProperties": true,
   "required": [

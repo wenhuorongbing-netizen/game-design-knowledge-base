@@ -3,7 +3,7 @@
 
 ## What This KB Is
 
-This is a source-governed game design knowledge operating system for BookOS. It is not a pile of book summaries. It organizes sources, works, dossiers, concept cards, frameworks, design lenses, lessons, workflows, exercises, AI prompts, graph relationships, and search exports.
+This is a source-governed game design knowledge operating system for GDKB. It is not a pile of book summaries. It organizes sources, works, dossiers, concept cards, frameworks, design lenses, lessons, workflows, exercises, AI prompts, graph relationships, and search exports.
 
 ## How To Navigate It
 
@@ -13,7 +13,7 @@ This is a source-governed game design knowledge operating system for BookOS. It 
 - Use `/kb/06_lenses/DESIGN_LENS_BANK.md` for diagnostic questions.
 - Use `/kb/07_lessons/MASTERCLASS_CURRICULUM.md` for learning paths.
 - Use `/kb/08_workflows/WORKFLOW_PACK_INDEX.md` for production tasks.
-- Use `/kb/11_import_export/export/search_index.json` for BookOS retrieval.
+- Use `/kb/11_import_export/export/search_index.json` for GDKB retrieval.
 
 ## How To Add Legal Notes
 

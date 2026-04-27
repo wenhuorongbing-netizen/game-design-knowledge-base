@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.knowledge-card.schema.v1",
-  "title": "BookOS KnowledgeCard Family",
+  "$id": "gdkb.knowledge-card.schema.v1",
+  "title": "GDKB KnowledgeCard Family",
   "type": "object",
   "additionalProperties": true,
   "required": [

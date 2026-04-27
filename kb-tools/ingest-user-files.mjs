@@ -67,6 +67,75 @@ function scoreWorkMatch(work, parsed, sidecar) {
 
 const entries = [];
 const ignored = [];
+const HIGH_RISK_MARKERS = [
+  "z-library",
+  "z-lib",
+  "1lib",
+  "anna's archive",
+  "anna’s archive",
+  "it-ebooks",
+  "mirror",
+  "suspicious scan"
+];
+
+function hasHighRiskMarker(...values) {
+  const haystack = values
+    .flatMap((value) => (value && typeof value === "object" ? Object.values(value) : [value]))
+    .join(" ")
+    .toLowerCase();
+  return HIGH_RISK_MARKERS.some((marker) => haystack.includes(marker));
+}
+
+function sidecarAllowsAiProcessing(sidecar) {
+  return (
+    sidecar?.user_confirms_legal_access === true &&
+    sidecar?.allowed_for_ai_processing === true
+  );
+}
+
+function reviewStatusFor(fileName, parsed, sidecar) {
+  const highRisk = hasHighRiskMarker(fileName, parsed, sidecar);
+  if (highRisk) {
+    return {
+      highRisk,
+      source_review_status: "metadata_only_quarantined",
+      ingestion_status: "metadata_only_quarantined",
+      source_basis: "metadata_only",
+      provenance_flags: ["HIGH_RISK_SOURCE"],
+      allowed_operations: ["record_metadata", "attach_user_notes", "attach_manual_quotes"],
+      prohibited_operations: ["summarize_body", "quote_body", "extract_body_text", "generate_embeddings", "generate_cards_from_body_text"],
+      review_notes: [
+        "High-risk marker detected. Metadata-only quarantine is required until legal sidecar review."
+      ]
+    };
+  }
+  if (sidecarAllowsAiProcessing(sidecar)) {
+    return {
+      highRisk,
+      source_review_status: "accepted",
+      ingestion_status: "allowed_full_ingestion",
+      source_basis: "user_legal_file",
+      provenance_flags: ["USER_LEGAL_SIDECAR_APPROVED"],
+      allowed_operations: ["record_metadata", "attach_user_notes", "generate_dossier_from_user_notes", "generate_cards_from_user_notes"],
+      prohibited_operations: ["publish_copyrighted_body_text", "generate_long_quotations"],
+      review_notes: [
+        "User sidecar explicitly confirms legal access and AI processing permission."
+      ]
+    };
+  }
+  return {
+    highRisk,
+    source_review_status: "pending_review",
+    ingestion_status: "waiting_for_user_legal_sidecar",
+    source_basis: "metadata_only",
+    provenance_flags: [],
+    allowed_operations: ["record_metadata", "attach_user_notes", "attach_manual_quotes"],
+    prohibited_operations: ["summarize_body", "quote_body", "extract_body_text", "generate_embeddings", "generate_cards_from_body_text"],
+    review_notes: [
+      "User-provided file does not imply legal AI processing permission. Legal sidecar is required before acceptance."
+    ]
+  };
+}
 
 function buildDiscoveredEntry(absolutePath) {
   const fileName = path.basename(absolutePath);
@@ -81,6 +150,7 @@ function buildDiscoveredEntry(absolutePath) {
     .filter((item) => item.score > 0)
     .sort((left, right) => right.score - left.score);
   const bestMatch = candidateScores[0];
+  const review = reviewStatusFor(fileName, parsed, sidecar);
 
   return {
     file_name: fileName,
@@ -97,10 +167,15 @@ function buildDiscoveredEntry(absolutePath) {
     candidate_work_ids: candidateScores.slice(0, 5).map((item) => item.work_id),
     sidecar,
     source_scope: "incoming-user-supplied",
-    source_review_status: "accepted",
+    source_review_status: review.source_review_status,
+    ingestion_status: review.ingestion_status,
+    source_basis: review.source_basis,
     provenance_label: "user_provided_file",
-    provenance_flags: [],
-    review_notes: []
+    provenance_flags: review.provenance_flags,
+    allowed_operations: review.allowed_operations,
+    prohibited_operations: review.prohibited_operations,
+    legal_ai_processing_permission: sidecarAllowsAiProcessing(sidecar),
+    review_notes: review.review_notes
   };
 }
 
@@ -134,6 +209,12 @@ for (const entry of privateBookManifest.entries ?? []) {
     });
     continue;
   }
+  const parsed = {
+    title: entry.cleaned_name ?? entry.file_name,
+    author: "",
+    meta: entry.parsed_meta ?? ""
+  };
+  const review = reviewStatusFor(entry.file_name, parsed, null);
   entries.push({
     file_name: entry.file_name,
     relative_path: entry.relative_path,
@@ -149,10 +230,15 @@ for (const entry of privateBookManifest.entries ?? []) {
     candidate_work_ids: entry.candidate_work_ids ?? [],
     sidecar: null,
     source_scope: entry.source_scope ?? "knowledge-root-loose",
-    source_review_status: entry.source_review_status ?? "accepted",
+    source_review_status: review.source_review_status,
+    ingestion_status: review.ingestion_status,
+    source_basis: review.source_basis,
     provenance_label: entry.provenance_label ?? "user_provided_file",
-    provenance_flags: entry.provenance_flags ?? [],
-    review_notes: entry.review_notes ?? [],
+    provenance_flags: [...new Set([...(entry.provenance_flags ?? []), ...review.provenance_flags])],
+    allowed_operations: review.allowed_operations,
+    prohibited_operations: review.prohibited_operations,
+    legal_ai_processing_permission: false,
+    review_notes: [...(entry.review_notes ?? []), ...review.review_notes],
     discovery_notes: [
       entry.match_strategy ? `match_strategy:${entry.match_strategy}` : "",
       ...(entry.duplicate_group?.length ? [`duplicate_group:${entry.duplicate_group.length}`] : [])

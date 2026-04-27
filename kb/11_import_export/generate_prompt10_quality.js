@@ -76,14 +76,14 @@ const illegalQuoteCards = quoteCards.filter((entity) => !["user_manual_quote", "
 const metadataSearchUnsafe = searchIndex.filter((doc) => doc.source_basis === "metadata_only" && !String(doc.body_excerpt_safe || "").includes("suppressed") && !String(doc.body_excerpt_safe || "").includes("not applicable"));
 
 const phaseGroups = [
-  { id: "phase_project_direction", name: "立项与方向", aliases: ["phase_project_direction", "立项与方向"] },
-  { id: "phase_core_play_systems", name: "核心玩法与系统设计", aliases: ["phase_core_play_systems", "核心玩法与系统设计"] },
+  { id: "phase_project_direction", name: "立项与方�?, aliases: ["phase_project_direction", "立项与方�?] },
+  { id: "phase_core_play_systems", name: "核心玩法与系统设�?, aliases: ["phase_core_play_systems", "核心玩法与系统设�?] },
   { id: "phase_numbers_economy", name: "数值与经济设计", aliases: ["phase_numbers_economy", "数值与经济设计"] },
-  { id: "phase_content_narrative", name: "内容与叙事", aliases: ["phase_content_narrative", "内容与叙事"] },
+  { id: "phase_content_narrative", name: "内容与叙�?, aliases: ["phase_content_narrative", "内容与叙�?] },
   { id: "phase_art_ui_experience", name: "美术 / UI / 体验表达", aliases: ["phase_art_ui_experience", "美术 / UI / 体验表达"] },
-  { id: "phase_development_implementation", name: "开发实现", aliases: ["phase_development_implementation", "开发实现"] },
+  { id: "phase_development_implementation", name: "开发实�?, aliases: ["phase_development_implementation", "开发实�?] },
   { id: "phase_testing_acceptance_audit", name: "测试 / 验收 / 审计", aliases: ["phase_testing_acceptance_audit", "测试 / 验收 / 审计"] },
-  { id: "phase_operations_release", name: "运营与发布", aliases: ["phase_operations_release", "运营与发布"] }
+  { id: "phase_operations_release", name: "运营与发�?, aliases: ["phase_operations_release", "运营与发�?] }
 ];
 
 const domainGroups = [
@@ -212,7 +212,7 @@ function generateLegalAudit() {
 
 Release classification: **pass with user-review limitations**.
 
-There are no unresolved legal violations in the generated KB. The KB is safe for BookOS import as a draft/source-governed knowledge system. It is not yet safe to treat uploaded commercial book bodies as ingested knowledge.
+There are no unresolved legal violations in the generated KB. The KB is safe for GDKB import as a draft/source-governed knowledge system. It is not yet safe to treat uploaded commercial book bodies as ingested knowledge.
 
 ## Audit Summary
 
@@ -255,7 +255,7 @@ ${table(rows)}
 
 ## Release Gate
 
-Legal release gate: **passed for draft KB and BookOS import**.
+Legal release gate: **passed for draft KB and GDKB import**.
 
 Source-backed masterclass release gate: **blocked until legal/user evidence is supplied**.
 `);
@@ -382,7 +382,7 @@ ${table(findingRows)}
 - Do not say "according to [book]" unless evidence_refs point to a legal source, official metadata, or user note.
 - Do not use related_works as evidence.
 - Do not convert a lens or workflow into a recommendation unless project context or playtest evidence exists.
-- Keep draft cards visible in BookOS, but display their confidence and source_basis prominently.
+- Keep draft cards visible in GDKB, but display their confidence and source_basis prominently.
 
 ## Promotion Path
 
@@ -493,7 +493,7 @@ ${table(scenarios.map((scenario) => [
 2. Implement forum thread templates as normalized entities in Prompt 12.
 3. Add one sample project overlay that uses at least three workflow outputs.
 4. Attach user notes to the top 20 concept cards.
-5. Add a "start here" pointer from BookOS to \`KB_README.md\`.
+5. Add a "start here" pointer from GDKB to \`KB_README.md\`.
 `);
 }
 
@@ -507,10 +507,10 @@ function generateBacklog() {
     ["gap_project_overlay", "high", "all", "production; playtesting", "ProjectOverlay", "KB cannot yet record real project application history.", "Implement project overlay entity set and sample project.", "project_application", "medium"],
     ["gap_forum_templates", "medium", "testing / review", "community", "forum templates", "Forum discussion is not normalized into import/export graph.", "Create forum thread schema files and example threads.", "user_manual_note", "medium"],
     ["gap_playtest_logs", "high", "测试 / 验收 / 审计", "playtesting", "PlaytestLog", "No claims can be playtest-validated.", "Create playtest log template and run one project playtest.", "playtest_observation", "medium"],
-    ["gap_design_decisions", "medium", "开发实现", "production", "DesignDecision", "Workflow outputs are not yet turned into durable decisions.", "Create design decision log template and connect workflows.", "project_application", "medium"],
+    ["gap_design_decisions", "medium", "开发实�?, "production", "DesignDecision", "Workflow outputs are not yet turned into durable decisions.", "Create design decision log template and connect workflows.", "project_application", "medium"],
     ["gap_quote_cards", "medium", "all", "source evidence", "QuoteCard", "No legally allowed quotations are available.", "User supplies short manual quotes with source details.", "user_manual_quote", "medium"],
     ["gap_case_studies", "medium", "all", "all", "case_study_cards", "The KB lacks concrete applied examples.", "Create project-safe case studies from user projects or public/open examples.", "user_manual_note or open_fulltext", "high"],
-    ["gap_bookos_integration_test", "medium", "all", "search/graph", "BookOS importer", "Exports exist but have not been imported into a live BookOS database.", "Run seed import into BookOS and verify search/graph UI.", "metadata_only plus generated exports", "medium"],
+    ["gap_bookos_integration_test", "medium", "all", "search/graph", "GDKB importer", "Exports exist but have not been imported into a live GDKB database.", "Run seed import into GDKB and verify search/graph UI.", "metadata_only plus generated exports", "medium"],
     ["gap_domain_vocab_migration", "low", "all", "ontology", "compatibility domain nodes", "Prompt 9 generated compatibility nodes for old domain vocabulary.", "Normalize older domain IDs into the Prompt 3 taxonomy.", "user_manual_note", "low"],
     ["gap_coverage_weak_cells", "medium", "various", "various", `${weakCoverage.length} weak coverage cells`, "Some phase/domain cells have shallow structural coverage.", "Add targeted exercises, lenses, and workflow routing for weak cells.", "unsupported_draft then user evidence", "medium"],
     ["gap_real_examples", "high", "all", "all production domains", "workflows and lessons", "Workflows are usable but abstract.", "Attach one real project example per major workflow family.", "project_application", "high"]
@@ -560,7 +560,7 @@ function generateReleasePackage() {
 
 ## Release Decision
 
-Status: **release candidate for BookOS draft KB integration**.
+Status: **release candidate for GDKB draft KB integration**.
 
 This KB is structurally release-ready and legally safe as a draft/source-governed system. It is not yet a verified source-backed masterclass corpus because no commercial book body has a legal sidecar and no user reading notes have been attached.
 
@@ -589,7 +589,7 @@ ${table(checklistRows)}
 
 ## Release Name
 
-Game Design Masterclass KB - Draft BookOS Integration Release
+Game Design Masterclass KB - Draft GDKB Integration Release
 
 ## Date
 
@@ -597,7 +597,7 @@ ${TODAY}
 
 ## Current Status
 
-The KB is ready to import into BookOS as a draft, source-governed, searchable, graph-ready knowledge base.
+The KB is ready to import into GDKB as a draft, source-governed, searchable, graph-ready knowledge base.
 
 ## Included
 
@@ -638,7 +638,7 @@ Prompt 11 should implement ProjectOverlay and project application records so gen
 
 ## What This KB Is
 
-This is a source-governed game design knowledge operating system for BookOS. It is not a pile of book summaries. It organizes sources, works, dossiers, concept cards, frameworks, design lenses, lessons, workflows, exercises, AI prompts, graph relationships, and search exports.
+This is a source-governed game design knowledge operating system for GDKB. It is not a pile of book summaries. It organizes sources, works, dossiers, concept cards, frameworks, design lenses, lessons, workflows, exercises, AI prompts, graph relationships, and search exports.
 
 ## How To Navigate It
 
@@ -648,7 +648,7 @@ This is a source-governed game design knowledge operating system for BookOS. It 
 - Use \`/kb/06_lenses/DESIGN_LENS_BANK.md\` for diagnostic questions.
 - Use \`/kb/07_lessons/MASTERCLASS_CURRICULUM.md\` for learning paths.
 - Use \`/kb/08_workflows/WORKFLOW_PACK_INDEX.md\` for production tasks.
-- Use \`/kb/11_import_export/export/search_index.json\` for BookOS retrieval.
+- Use \`/kb/11_import_export/export/search_index.json\` for GDKB retrieval.
 
 ## How To Add Legal Notes
 
@@ -740,11 +740,11 @@ Prompt 11 should implement the full ProjectOverlay system.
 - Rewrite 10 generic scaffold cards into evidence-backed cards.
 - Keep all unsupported claims labeled.
 
-## Week 4 - Playtest And BookOS Import
+## Week 4 - Playtest And GDKB Import
 
 - Create PlaytestLog template.
 - Run one small playtest.
-- Import exports into BookOS.
+- Import exports into GDKB.
 - Verify search, graph, and source_basis display.
 - Re-run importer and quality audits.
 `);
@@ -757,7 +757,7 @@ Prompt 11 should implement the full ProjectOverlay system.
 - Complete Prompt 11 ProjectOverlay system.
 - Resolve or explicitly accept Prompt 9 warnings.
 - Add first legal sidecars or user reading notes.
-- Import draft KB into BookOS.
+- Import draft KB into GDKB.
 
 ## Days 31-60
 
@@ -779,7 +779,7 @@ Prompt 11 should implement the full ProjectOverlay system.
 
 ## Current Status
 
-The KB is a **BookOS-ready draft release candidate**. It is legally safe, searchable, graph-ready, and usable for learning and production scaffolding. It is not yet a verified book-derived masterclass corpus because legal sidecars and user notes are still missing.
+The KB is a **GDKB draft release candidate**. It is legally safe, searchable, graph-ready, and usable for learning and production scaffolding. It is not yet a verified book-derived masterclass corpus because legal sidecars and user notes are still missing.
 
 ## Files Created
 
@@ -829,13 +829,13 @@ The KB is a **BookOS-ready draft release candidate**. It is legally safe, search
 - Project examples.
 - Playtest logs.
 
-## How To Connect This KB To BookOS
+## How To Connect This KB To GDKB
 
 1. Use \`/kb/11_import_export/export/all_entities.json\` for entities.
 2. Use \`/kb/11_import_export/export/all_relationships.json\` for relationships.
 3. Use \`/kb/11_import_export/export/search_index.json\` for search.
 4. Use \`/kb/11_import_export/export/graph_nodes.json\` and \`graph_edges.json\` for graph views.
-5. Display \`source_basis\`, \`confidence\`, and \`status\` in every BookOS view.
+5. Display \`source_basis\`, \`confidence\`, and \`status\` in every GDKB view.
 6. Block body-level processing for \`metadata_only_quarantined\` sources.
 
 ## Next Exact Prompt

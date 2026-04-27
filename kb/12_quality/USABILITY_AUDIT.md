@@ -38,4 +38,4 @@ Usability classification: **usable for learning and draft production work; parti
 2. Implement forum thread templates as normalized entities in Prompt 12.
 3. Add one sample project overlay that uses at least three workflow outputs.
 4. Attach user notes to the top 20 concept cards.
-5. Add a "start here" pointer from BookOS to `KB_README.md`.
+5. Add a "start here" pointer from GDKB to `KB_README.md`.

@@ -1,6 +1,6 @@
 # Prompt Library
 
-Reusable source-governed prompts for BookOS game design work. Every prompt requires source_basis, confidence, missing evidence, and next actions in outputs.
+Reusable source-governed prompts for GDKB game design work. Every prompt requires source_basis, confidence, missing evidence, and next actions in outputs.
 
 | Prompt | Use Case | Guardrail Focus | Status |
 |---|---|---|---|

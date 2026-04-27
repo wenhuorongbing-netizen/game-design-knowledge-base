@@ -1,7 +1,7 @@
 {
-  "schema_version": "bookos.graph_nodes.v1",
-  "generated_at": "2026-04-26",
-  "count": 856,
+  "schema_version": "gdkb.graph_nodes.v1",
+  "generated_at": "2026-04-27",
+  "count": 857,
   "nodes": [
     {
       "id": "src-archive-knowledge-7z",
@@ -20,14 +20,14 @@
     {
       "id": "src-user-rebuild-instruction",
       "entity_type": "SourceDocument",
-      "title": "Knowledge Base Rebuilding Instruction",
-      "status": "allowed_full_ingestion",
-      "source_basis": "user_manual_note",
+      "title": "Deprecated BookOS Rebuild Instruction",
+      "status": "allowed_metadata_only",
+      "source_basis": "metadata_only",
       "confidence": "unsupported_draft",
       "phase_groups": [],
       "domains": [],
       "tags": [
-        "user_instruction",
+        "deprecated_instruction",
         "process_note"
       ]
     },
@@ -250,6 +250,20 @@
         "z-library",
         "1lib",
         "z-lib"
+      ]
+    },
+    {
+      "id": "src-active-kb-rebuild-instruction",
+      "entity_type": "SourceDocument",
+      "title": "Active Game Design Knowledgebase Rebuild Instruction",
+      "status": "allowed_metadata_only",
+      "source_basis": "user_manual_note",
+      "confidence": "unsupported_draft",
+      "phase_groups": [],
+      "domains": [],
+      "tags": [
+        "active_instruction",
+        "governance_note"
       ]
     },
     {

@@ -22,10 +22,10 @@
 - Rewrite 10 generic scaffold cards into evidence-backed cards.
 - Keep all unsupported claims labeled.
 
-## Week 4 - Playtest And BookOS Import
+## Week 4 - Playtest And GDKB Import
 
 - Create PlaytestLog template.
 - Run one small playtest.
-- Import exports into BookOS.
+- Import exports into GDKB.
 - Verify search, graph, and source_basis display.
 - Re-run importer and quality audits.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "bookos.lesson.schema.v1",
-  "title": "BookOS Lesson",
+  "$id": "gdkb.lesson.schema.v1",
+  "title": "GDKB Lesson",
   "type": "object",
   "additionalProperties": true,
   "required": [

@@ -1,4 +1,4 @@
-# BookOS Game Design KB Constitution
+# Game Design Knowledgebase Constitution
 
 ## Purpose
 
@@ -104,8 +104,7 @@ AI is not allowed to:
 
 ### 9. Reading Is Transformation, Not Hoarding
 
-The desired output of the KB is not “stored books.”
-
+The desired output of the KB is not “stored books.�?
 The desired output is reusable design knowledge:
 
 - concepts

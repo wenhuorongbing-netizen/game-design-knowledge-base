@@ -473,8 +473,8 @@ for (const family of requiredFamilies) {
 
 const schema = {
   $schema: 'https://json-schema.org/draft/2020-12/schema',
-  $id: 'bookos.game_design.design_lens.schema.v1',
-  title: 'BookOS Game Design DesignLens',
+  $id: 'gdkb.game_design.design_lens.schema.v1',
+  title: 'GDKB Game Design DesignLens',
   type: 'object',
   additionalProperties: true,
   required: requiredFields,
@@ -708,7 +708,7 @@ write(
   path.join(lensRoot, 'lens_index.json'),
   `${JSON.stringify(
     {
-      schema_version: 'bookos.design_lens_bank.v1',
+      schema_version: 'gdkb.design_lens_bank.v1',
       updated_date: now,
       total_lenses: lenses.length,
       legal_note: 'Original diagnostic lenses generated from KB architecture. No high-risk source body text or proprietary lens wording used.',

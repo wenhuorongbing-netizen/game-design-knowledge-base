@@ -1,5 +1,5 @@
 {
-  "schema_version": "bookos.relationship_types.v1",
+  "schema_version": "gdkb.relationship_types.v1",
   "updated_date": "2026-04-26",
   "edge_metadata_fields": [
     "edge_id",

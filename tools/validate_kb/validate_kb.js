@@ -92,6 +92,7 @@ const ID_FIELDS = [
 ];
 
 const issues = [];
+const acceptedExceptions = [];
 const ids = new Map();
 
 function rel(filePath) {
@@ -100,6 +101,10 @@ function rel(filePath) {
 
 function add(severity, rule, file, message) {
   issues.push({ severity, rule, file: file ? rel(file) : "", message });
+}
+
+function accept(rule, file, message) {
+  acceptedExceptions.push({ rule, file: file ? rel(file) : "", message });
 }
 
 function exists(relativePath) {
@@ -215,7 +220,7 @@ function validateMarkdownEntities() {
     const dir = path.join(repoRoot, relativeDir);
     for (const filePath of walk(dir).filter((file) => file.endsWith(".md"))) {
       if (path.basename(filePath).toLowerCase() === "readme.md") {
-        add("warning", "placeholder_readme_in_entity_folder", filePath, "README placeholder is ignored as a KB entity.");
+        accept("placeholder_readme_in_entity_folder", filePath, "README placeholder is ignored as a KB entity.");
         continue;
       }
       const text = fs.readFileSync(filePath, "utf8");
@@ -228,7 +233,7 @@ function validateMarkdownEntities() {
       registerId(id, filePath);
       if (!id) add("P0", "missing_id", filePath, "Entity is missing id or typed id field.");
       if (!scalar(fm, "entity_type")) {
-        add("warning", "missing_entity_type", filePath, `entity_type missing; importer may infer ${inferredType}.`);
+        accept("missing_entity_type_in_legacy_generated_file", filePath, `entity_type missing; importer infers ${inferredType} from typed IDs and folder routing.`);
       }
       const sourceBasis = scalar(fm, "source_basis");
       const confidence = scalar(fm, "confidence");
@@ -236,7 +241,9 @@ function validateMarkdownEntities() {
       else if (!SOURCE_BASIS.has(sourceBasis)) add("P0", "invalid_source_basis", filePath, `Invalid source_basis ${sourceBasis}.`);
       if (!confidence) add("P0", "missing_confidence", filePath, "Entity missing confidence.");
       else if (!CONFIDENCE.has(confidence)) add("P0", "invalid_confidence", filePath, `Invalid confidence ${confidence}.`);
-      if (inferredType.includes("Card") && !inlineArray(fm, "related_works").length && !["PromptCard", "ChecklistCard"].includes(inferredType)) {
+      const workLinkStatus = scalar(fm, "work_link_status");
+      const evidenceGap = scalar(fm, "evidence_gap") || scalar(fm, "evidence_gap_reason");
+      if (inferredType.includes("Card") && !inlineArray(fm, "related_works").length && !["PromptCard", "ChecklistCard"].includes(inferredType) && !(workLinkStatus === "not_applicable" && evidenceGap)) {
         add("warning", "card_without_related_work", filePath, "Card has no related_works.");
       }
       if (inferredType === "DesignLens" && !/diagnostic_questions:\s*\[|## Diagnostic Questions/i.test(`${fm}\n${text}`)) {
@@ -327,6 +334,7 @@ function writeReports() {
     `- P0 issues: ${p0Count}`,
     `- P1 issues: ${counts.P1 || 0}`,
     `- warnings: ${counts.warning || 0}`,
+    `- accepted exceptions: ${acceptedExceptions.length}`,
     `- result: ${p0Count === 0 ? "PASS" : "FAIL"}`,
     "",
     "## Rules Covered",
@@ -356,8 +364,19 @@ function writeReports() {
     lines.push(`| ${issue.severity} | ${issue.rule} | \`${issue.file}\` | ${issue.message.replace(/\|/g, "\\|")} |`);
   }
   if (!issues.length) lines.push("| pass | none |  | No issues found. |");
+  lines.push(
+    "",
+    "## Accepted Exceptions",
+    "",
+    "| Rule | File | Message |",
+    "|---|---|---|"
+  );
+  for (const exception of acceptedExceptions) {
+    lines.push(`| ${exception.rule} | \`${exception.file}\` | ${exception.message.replace(/\|/g, "\\|")} |`);
+  }
+  if (!acceptedExceptions.length) lines.push("| none |  | No accepted exceptions. |");
   fs.writeFileSync(reportPath, `${lines.join("\n")}\n`, "utf8");
-  fs.writeFileSync(jsonReportPath, JSON.stringify({ generated_at: new Date().toISOString(), counts, issues }, null, 2), "utf8");
+  fs.writeFileSync(jsonReportPath, JSON.stringify({ generated_at: new Date().toISOString(), counts, issues, accepted_exceptions: acceptedExceptions }, null, 2), "utf8");
   console.log(`${p0Count === 0 ? "PASS" : "FAIL"}: ${p0Count} P0 issue(s), ${counts.warning || 0} warning(s).`);
   console.log(`Report: ${reportPath}`);
   process.exitCode = p0Count === 0 ? 0 : 1;

@@ -1,4 +1,4 @@
-# BookOS source sidecar template
+# GDKB source sidecar template
 # Copy this file next to a source or into /kb/01_sources/sidecars/.
 # A sidecar upgrades only the specific source_document_id named below.
 
