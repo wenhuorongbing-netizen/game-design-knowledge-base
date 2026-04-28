@@ -1,6 +1,6 @@
 # Gap Backlog
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 ## P0 Contradiction Repair Status
 
@@ -10,7 +10,7 @@ P0 safety verdict: PASS after latest validation run.
 
 | gap_id | severity | title | status | evidence |
 |---|---|---|---|---|
-| GAP-P0-001 | P0 | Active BookOS rebuild instruction in root | resolved | `rebuild_instruction.md` absent; deprecated copy under `docs/deprecated/` |
+| GAP-P0-001 | P0 | Active legacy rebuild instruction in root | resolved | `rebuild_instruction.md` absent in working tree, HEAD, origin/main, and GitHub raw |
 | GAP-P0-002 | P0 | User file ingest could default too permissively | resolved | `kb-tools/ingest-user-files.mjs` defaults to `pending_review` / `allowed_metadata_only` |
 | GAP-P0-003 | P0 | High-risk markers incomplete | resolved | marker list includes mirror, suspicious scan, and unknown scanned copy |
 | GAP-P0-004 | P0 | Legacy `kb-tools` could run accidentally | resolved | entry scripts require `ALLOW_LEGACY_KB_TOOLS=true` |
@@ -40,8 +40,8 @@ These remaining P1 items are evidence-dependent, not engineering blockers. See `
 
 ## Next Exact Task
 
-Evidence intake is allowed only because the truth-alignment validation now passes. Do not parse high-risk source bodies.
+Evidence Phase 2 may begin only after truth reconciliation validation passes. Do not parse high-risk source bodies.
 
 ```text
-build-evidence-intake-phase-1
+build-evidence-phase-2-first-user-evidence-intake
 ```

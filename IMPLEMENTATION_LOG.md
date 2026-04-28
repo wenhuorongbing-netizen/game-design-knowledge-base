@@ -1,5 +1,29 @@
 # Implementation Log
 
+## 2026-04-28 - GitHub Truth Reconciliation
+
+Reconciled the actual GitHub main branch with local acceptance reports without starting Evidence Phase 2, adding evidence, promoting claims, or building app features.
+
+Actions:
+
+- Fetched `origin/main`.
+- Confirmed local `HEAD` and `origin/main` both point to `91b7670 fix 2` before this report update.
+- Confirmed root `rebuild_instruction.md` is absent in the working tree.
+- Confirmed root `rebuild_instruction.md` is absent in `HEAD`.
+- Confirmed root `rebuild_instruction.md` is absent in `origin/main`.
+- Confirmed GitHub raw access for root `rebuild_instruction.md` returns 404.
+- Confirmed no tracked PDF, EPUB, ZIP, or 7z files exist.
+- Updated `GITHUB_TRUTH_SYNC_REPORT.md`.
+- Updated acceptance, drift, backlog, project state, roadmap, TODO, updated validation, and updated source-governance reports.
+- Expanded validator report-consistency coverage to include truth-sync, updated acceptance, updated validation, updated source-governance, evidence release, and roadmap reports.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, sidecar/manual note/manual quote/claim promotion reports regenerated, validation PASS.
+- `npm run kb:coverage`: coverage summary regenerated.
+
 ## 2026-04-27 - Evidence Phase 1 Final Audit
 
 Finished Evidence Intake Phase 1 without adding knowledge content, parsing high-risk source bodies, creating fake evidence, or promoting claims.

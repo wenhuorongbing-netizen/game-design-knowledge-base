@@ -1,6 +1,6 @@
 # Game Design Knowledgebase Acceptance Review
 
-Review date: 2026-04-27
+Review date: 2026-04-28
 
 Repository: `https://github.com/wenhuorongbing-netizen/game-design-knowledge-base`
 
@@ -9,7 +9,7 @@ Local root: `D:\Game\FOTN\knowledge`
 ## 1. Executive Verdict
 
 - Verdict: ACCEPTED_FOR_DRAFT_SOURCE_GOVERNED_KB
-- Reason: Active direction drift is removed, root control files exist, source governance is enforced by code, user file intake defaults to metadata-only review/quarantine, the authoritative pipeline is defined under `/tools`, active schema identity uses `gdkb.*`, import warnings are resolved, draft/verified release gates are separated, and the validator now fails active root direction drift plus report-count contradictions.
+- Reason: Active direction drift is removed in the working tree, HEAD, origin/main, and GitHub raw access; root control files exist; source governance is enforced by code; user file intake defaults to metadata-only review/quarantine; the authoritative pipeline is defined under `/tools`; active schema identity uses `gdkb.*`; import warnings are resolved; draft/verified release gates are separated; and the validator now fails active root direction drift plus report-count contradictions.
 - P0 blocker count: 0
 - Unresolved import warnings: 0
 - Unresolved validation warnings: 0
@@ -40,7 +40,7 @@ Active evidence:
 
 | P0 ID | Issue | Current Status | Evidence | Accepted? |
 |---|---|---|---|---|
-| P0-01 | Root BookOS rebuild instruction remained active | resolved | `rebuild_instruction.md` is absent; deprecated source is under `docs/deprecated/` only | yes |
+| P0-01 | Root legacy rebuild instruction remained active | resolved | `rebuild_instruction.md` is absent in the working tree, HEAD, origin/main, and GitHub raw; deprecated source is under `docs/deprecated/` only | yes |
 | P0-02 | User file ingest defaulted too permissively | resolved | `kb-tools/ingest-user-files.mjs` defaults to `pending_review` / `allowed_metadata_only`, or quarantine for high-risk markers | yes |
 | P0-03 | Legacy `kb-tools` could run accidentally | resolved | legacy entry scripts require `ALLOW_LEGACY_KB_TOOLS=true`; root `package.json` uses `/tools` only | yes |
 | P0-04 | Validation PASS previously hid accepted exceptions | resolved | `VALIDATION_REPORT.md` and `MIGRATION_EXCEPTIONS_REPORT.md` now report 0 accepted exceptions | yes |
@@ -64,7 +64,7 @@ Latest result:
 - validator P0 issues: 0
 - validator warnings: 0
 - accepted migration exceptions: 0, documented in `MIGRATION_EXCEPTIONS_REPORT.md`
-- root `rebuild_instruction.md`: absent in this local repository state
+- root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw
 - evidence intake: allowed only after this truth-alignment validation remains PASS
 - actionable P1/P2 structural gaps: resolved; remaining evidence gaps require user-provided legal/source/project evidence
 

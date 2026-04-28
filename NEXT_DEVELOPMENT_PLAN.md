@@ -1,6 +1,6 @@
 # Next Development Plan
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 ## Phase 0 - Truth Synchronization
 
@@ -25,7 +25,7 @@ Validation:
 
 Next exact prompt:
 
-`build-evidence-intake-phase-1`, only after `GITHUB_TRUTH_SYNC_REPORT.md` reports local and `origin/main` are synchronized with 0 P0 issues, 0 warnings, and 0 accepted exceptions.
+`build-evidence-phase-2-first-user-evidence-intake`, only after `GITHUB_TRUTH_SYNC_REPORT.md` reports working tree, HEAD, origin/main, and GitHub raw are synchronized with 0 P0 issues, 0 warnings, and 0 accepted exceptions.
 
 ## Phase 1 - Evidence Intake Architecture
 

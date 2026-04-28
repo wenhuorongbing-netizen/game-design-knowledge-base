@@ -1,12 +1,12 @@
 # Direction Drift Audit
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 ## Verdict
 
 Status: PASS.
 
-The active repository direction is Game Design Knowledgebase. The legacy BookOS full-stack build instruction is not active. Root `rebuild_instruction.md` is absent in the current local repository state.
+The active repository direction is Game Design Knowledgebase. The legacy app-product rebuild instruction is not active. Root `rebuild_instruction.md` is absent in the working tree, absent in `HEAD`, absent in `origin/main`, and GitHub raw access returns 404 for the root path.
 
 ## Drift Sources Checked
 
@@ -32,7 +32,7 @@ The active repository direction is Game Design Knowledgebase. The legacy BookOS 
 
 ## Result
 
-No active direction-drift blocker remains. The deprecated BookOS file under `docs/deprecated/` is a stub that points to `KB_REBUILD_INSTRUCTION.md` and must not be used as a build instruction.
+No active direction-drift blocker remains. The deprecated file under `docs/deprecated/` is a stub that points to `KB_REBUILD_INSTRUCTION.md` and must not be used as a build instruction.
 
 ## Validator Enforcement
 

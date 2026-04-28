@@ -1,6 +1,6 @@
 # Updated KB Acceptance Review
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 ## Verdicts
 
@@ -13,7 +13,7 @@ Date: 2026-04-27
 
 | Criterion | Status | Evidence |
 |---|---|---|
-| no active app-product instruction drift | PASS | Root `rebuild_instruction.md` is absent; active instruction is KB-specific. |
+| no active app-product instruction drift | PASS | Root `rebuild_instruction.md` is absent in working tree, HEAD, origin/main, and GitHub raw; active instruction is KB-specific. |
 | source policy clear | PASS | Governance and evidence validation documents exist. |
 | high-risk sources quarantined | PASS | 14 high-risk source records; 0 unsafe high-risk records. |
 | every entity has source basis and confidence | PASS | Validation reports 0 P0 issues and 0 warnings. |

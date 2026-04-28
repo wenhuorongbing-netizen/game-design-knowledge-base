@@ -2,6 +2,10 @@
 
 ## P0 Contradiction Repair
 
+- [x] Reconcile working tree, HEAD, origin/main, and GitHub raw status for root `rebuild_instruction.md`.
+- [x] Confirm GitHub raw root `rebuild_instruction.md` returns 404.
+- [x] Update `GITHUB_TRUTH_SYNC_REPORT.md` with current remote truth proof.
+- [x] Expand validator report-consistency coverage to include truth-sync and updated release reports.
 - [x] Keep active root free of BookOS rebuild instructions.
 - [x] Keep deprecated BookOS material only under `docs/deprecated/`.
 - [x] Harden user-file ingest defaults to `pending_review` / `allowed_metadata_only`.

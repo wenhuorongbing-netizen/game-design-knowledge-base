@@ -1,6 +1,6 @@
 # Updated Validation Report
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 ## Validation Verdict
 
@@ -63,3 +63,7 @@ The KB passes the draft/source-governed safety gate. This does not mean the KB i
 ## Final Command Result
 
 All four final gate commands completed successfully. Final validation result is PASS with 0 P0 issues, 0 warnings, and 0 accepted exceptions.
+
+## Truth Reconciliation Addendum
+
+Root `rebuild_instruction.md` is absent in the working tree, HEAD, origin/main, and GitHub raw access. The validator report-consistency scan now covers the truth-sync and updated release reports in addition to the primary acceptance, backlog, state, and TODO reports.

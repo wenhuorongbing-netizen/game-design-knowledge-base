@@ -1,10 +1,10 @@
 # KB Project State
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Intake Phase 1 final audit complete. The repository is accepted for draft/source-governed KB operation and blocked for verified source-backed masterclass status until user evidence is supplied.
+GitHub truth reconciliation complete. Evidence Intake Phase 1 remains complete; the repository is accepted for draft/source-governed KB operation and blocked for verified source-backed masterclass status until user evidence is supplied.
 
 ## Verdict
 
@@ -16,12 +16,17 @@ Evidence Intake Phase 1 final audit complete. The repository is accepted for dra
 - Repository root: `D:\Game\FOTN\knowledge`
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
-- Root `rebuild_instruction.md`: absent in current local repository state
+- Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
 - Evidence intake status: Phase 1 complete. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, final Phase 1 release/audit reports, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Reconciled local working tree, HEAD, origin/main, and GitHub raw access for root `rebuild_instruction.md`.
+- Confirmed GitHub raw root `rebuild_instruction.md` returns 404.
+- Updated `GITHUB_TRUTH_SYNC_REPORT.md` with current remote truth proof.
+- Expanded validator report-consistency coverage to include truth-sync, updated acceptance, updated validation, updated source-governance, evidence release, and roadmap reports.
+- Confirmed no private PDF/EPUB/ZIP/7z files are tracked.
 - Completed Evidence Phase 1 final release audit.
 - Added `EVIDENCE_PHASE_1_RELEASE_REPORT.md`.
 - Added `EVIDENCE_PHASE_1_AUDIT.md`.
