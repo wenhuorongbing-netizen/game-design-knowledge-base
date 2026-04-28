@@ -53,6 +53,12 @@
 - [x] Mark first ProjectOverlay intake as blocked pending user project context.
 - [x] Confirm no fake ProjectOverlay, project claim, design decision, playtest observation, or EvidenceRef was created.
 - [ ] User supplies one real project context packet for the first ProjectOverlay.
+- [x] Attempt first PlaytestLog intake.
+- [x] Create `FIRST_PLAYTEST_LOG_REQUEST.md` because no real playtest data was supplied.
+- [x] Create `kb/13_evidence/reports/FIRST_PLAYTEST_LOG_INTAKE_REPORT.md`.
+- [x] Mark first PlaytestLog intake as blocked pending user playtest data.
+- [x] Confirm no fake PlaytestLog, participant, observation, participant quote, tester interpretation, design hypothesis, design decision, next action, or EvidenceRef was created.
+- [ ] User supplies one real playtest packet for the first PlaytestLog.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -137,6 +143,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 ProjectOverlay intake is blocked until real project context exists. The next practical step is for the user to submit one real project context packet.
+Evidence Phase 2 PlaytestLog intake is blocked until real playtest data exists. The next practical step is for the user to submit one real playtest packet.
 
-`submit-first-project-overlay-context`
+`submit-first-playtest-log-data`

@@ -12,6 +12,7 @@ This register tracks missing evidence categories. It does not contain source tex
 | egap-006 | First manual note intake | Three to five user-authored notes for game feel, meaningful decisions, systems, economy, and playtesting | `user_manual_note` | high | `FIRST_MANUAL_NOTES_REQUEST.md` created; no notes supplied yet. |
 | egap-007 | Optional first manual quote intake | One lawful short user-provided quote | `user_manual_quote` | optional | `FIRST_MANUAL_QUOTE_REQUEST.md` created; no quote supplied yet. |
 | egap-008 | First ProjectOverlay intake | Real project context, design problem, intended player experience, prototype status, relevant KB links, and actual decisions already made | `derived_from_user_note`, `user_manual_note` | high | `FIRST_PROJECT_OVERLAY_REQUEST.md` created; no project context supplied yet. |
+| egap-009 | First PlaytestLog intake | Real playtest date, prototype version, participant count/profile summary, test goal, observed facts, optional user-provided participant quotes, tester interpretation, design hypotheses, design decisions, next actions, and limitations | `derived_from_user_note`, `user_manual_note` | high | `FIRST_PLAYTEST_LOG_REQUEST.md` created; no playtest data supplied yet. |
 
 ## Register Rule
 

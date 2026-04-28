@@ -75,6 +75,17 @@ Use this when you have a concrete design problem. Start with the workflow pack b
 - Relevant cards: [playtest](../05_cards/concept_cards/playtest.md), [prototype](../05_cards/concept_cards/prototype.md), [iteration](../05_cards/concept_cards/iteration.md), [experience goal](../05_cards/concept_cards/experience-goal.md)
 - Output artifact: playtest plan with question, participant profile, task, observation rubric, interview questions, and iteration criteria.
 
+## I Need To Record A Playtest Result
+
+- Intake gate: [First PlaytestLog Request](../../FIRST_PLAYTEST_LOG_REQUEST.md)
+- Playtest template: [PlaytestLog Template](../09_project_overlays/playtest_log_template.md)
+- Observation template: [Playtest Observation Template](../13_evidence/manual_notes/playtest_observation_template.md)
+- Decision template: [Playtest Decision Template](../13_evidence/manual_notes/playtest_decision_template.md)
+- Design lenses: [playtest signal](../06_lenses/cards/lens_prototype-and-playtest_playtest-signal.md), [observation quality](../06_lenses/cards/lens_prototype-and-playtest_observation-quality.md), [iteration decision](../06_lenses/cards/lens_prototype-and-playtest_iteration-decision.md)
+- Workflow packs: [Playtest Plan](../08_workflows/packs/workflow_playtest-plan.md), [Iteration Decision](../08_workflows/packs/workflow_iteration-decision.md)
+- Output artifact: a playtest-local log that separates observed facts, participant quotes, tester interpretation, design hypotheses, design decisions, next actions, limitations, and `entity_scope: playtest_log`.
+- Evidence warning: no real PlaytestLog should be created until the user provides actual playtest data. Sample logs remain `unsupported_draft` and are not evidence.
+
 ## I Need Release Readiness
 
 - Workflow pack: [Release Readiness Risk Audit](../08_workflows/packs/workflow_release-readiness-risk-audit.md)

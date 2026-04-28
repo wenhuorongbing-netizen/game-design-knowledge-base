@@ -19,7 +19,9 @@ Use this table when you know the symptom and need the fastest safe starting poin
 | My prototype has no clear question. | [Prototype Question](../08_workflows/packs/workflow_prototype-question.md) |
 | I need to test a paper version. | [Paper Prototype](../08_workflows/packs/workflow_paper-prototype.md) |
 | I need to plan a playtest. | [Playtest Plan](../08_workflows/packs/workflow_playtest-plan.md) |
+| I need to record a real playtest result. | [First PlaytestLog Request](../../FIRST_PLAYTEST_LOG_REQUEST.md) |
 | I have playtest results but no decision. | [Iteration Decision](../08_workflows/packs/workflow_iteration-decision.md) |
+| I need to separate observation from interpretation. | [Playtest Observation Template](../13_evidence/manual_notes/playtest_observation_template.md) |
 | I need a design review. | [Design Lens Review](../08_workflows/packs/workflow_design-lens-review.md) |
 | I need launch risk review. | [Release Readiness Risk Audit](../08_workflows/packs/workflow_release-readiness-risk-audit.md) |
 | I worry the AI invented claims. | [Detect Unsupported Claims Prompt](../08_workflows/prompts/prompt_detect-unsupported-claims.md) |
