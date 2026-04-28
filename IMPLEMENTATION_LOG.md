@@ -1,5 +1,28 @@
 # Implementation Log
 
+## 2026-04-28 - First LegalSidecar Intake Request
+
+Attempted the first LegalSidecar intake. No user-provided LegalSidecar data was supplied, so no sidecar record was created.
+
+Actions:
+
+- Created `FIRST_SIDECAR_REQUEST.md` with the exact user fields required for a real LegalSidecar.
+- Updated `kb/13_evidence/sidecars/SIDECAR_STATUS_INDEX.md` to record the blocked first-sidecar request.
+- Updated `kb/13_evidence/PHASE_2_INTAKE_REVIEW.md` to mark Phase 2 sidecar intake as blocked pending user sidecar.
+- Updated `UPDATED_SOURCE_GOVERNANCE_AUDIT.md`, `KB_PROJECT_STATE.md`, and `TODO.md`.
+- Updated `tools/kb_quality/source_audit.js` so generated source-governance audits report the blocked first-sidecar request.
+- Did not create a fake sidecar.
+- Did not upgrade any source.
+- Did not parse, summarize, quote, embed, or otherwise process source body text.
+- Did not promote claims.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `node --check tools/kb_quality/source_audit.js`: PASS.
+- `npm run kb:audit`: source governance audit PASS, sidecar audit PASS, validation PASS.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+
 ## 2026-04-28 - Evidence Phase 2 Intake Gate Setup
 
 Prepared the controlled intake gate for the first real user evidence packet without ingesting evidence, creating sidecars, inventing notes, inventing quotes, adding project/playtest evidence, promoting claims, parsing high-risk source bodies, or building app features.

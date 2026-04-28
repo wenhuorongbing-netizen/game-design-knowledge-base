@@ -24,6 +24,12 @@
 
 ## Remaining P1/P2 Work
 
+- [x] Attempt first LegalSidecar intake.
+- [x] Create `FIRST_SIDECAR_REQUEST.md` because no user sidecar data was supplied.
+- [x] Mark Phase 2 first sidecar intake as blocked pending user sidecar.
+- [x] Confirm no fake sidecar was created.
+- [x] Confirm no source status was upgraded automatically.
+- [ ] User supplies first LegalSidecar data for one existing `source_document_id` and `work_id`.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -108,8 +114,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 gate is ready. The next step is for the user to submit a real evidence packet.
+Evidence Phase 2 gate is ready. The next step is for the user to submit the first real LegalSidecar data.
 
-```text
-submit-first-user-evidence-packet
-```
+`submit-first-legal-sidecar-data`

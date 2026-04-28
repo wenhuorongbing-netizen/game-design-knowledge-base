@@ -14,6 +14,7 @@ const manualQuoteReportPath = path.join(root, "kb", "13_evidence", "reports", "M
 const claimPromotionAuditPath = path.join(root, "kb", "13_evidence", "reports", "CLAIM_PROMOTION_AUDIT.md");
 const unsupportedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "UNSUPPORTED_CLAIMS_INDEX.md");
 const verifiedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "VERIFIED_CLAIMS_INDEX.md");
+const firstSidecarRequestPath = path.join(root, "FIRST_SIDECAR_REQUEST.md");
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -88,6 +89,7 @@ const unsafePromotionRequests = promotionRequests.filter((request) => {
   const strongTarget = proposed === "strong" || proposed === "verified";
   return !raw.reviewer || !(raw.rationale || raw.promotion_rationale) || (strongTarget && !(raw.evidence_ref_ids || []).length);
 });
+const firstSidecarRequestExists = fs.existsSync(firstSidecarRequestPath);
 
 const status = unsafeHighRisk.length || unsafeSearch.length || sourcesAllowingAiWithoutSidecar.length || notesNotUserInterpretation.length || quoteTooLong.length || quoteNotUserProvided.length || quoteAutomated.length || verifiedClaimsWithoutLegalEvidence.length || unsafePromotionRequests.length ? "FAIL" : "PASS";
 const lines = [
@@ -116,6 +118,13 @@ const lines = [
   "## Policy",
   "",
   "High-risk files remain metadata-only. `user_provided_file` does not imply legal permission for AI processing. Body extraction, summaries, long quotations, and embeddings are blocked unless a legal sidecar explicitly allows processing.",
+  "",
+  "## First LegalSidecar Intake",
+  "",
+  `- request_file_exists: ${firstSidecarRequestExists}`,
+  `- intake_status: ${sidecars.length ? "sidecar_record_present" : firstSidecarRequestExists ? "blocked_pending_user_sidecar" : "not_started"}`,
+  "- fake_sidecar_created: false",
+  "- source_status_upgraded_automatically: false",
   "",
   "## High-Risk Source Status",
   "",

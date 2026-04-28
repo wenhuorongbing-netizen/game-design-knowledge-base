@@ -30,6 +30,16 @@ Evidence Phase 1 did not ingest source bodies, summarize private or high-risk wo
 | ClaimPromotionReview | 0 |
 | verified claims | 0 |
 
+## First LegalSidecar Intake Status
+
+| Item | Status | Notes |
+|---|---|---|
+| user sidecar data supplied | no | No `source_document_id`, `work_id`, legal access basis, allowed operations, reviewer, or approval status was provided. |
+| fake sidecar created | no | The KB must not invent legal access. |
+| request file created | yes | See `FIRST_SIDECAR_REQUEST.md`. |
+| phase 2 sidecar intake | blocked | Blocked pending user-provided LegalSidecar data. |
+| source status upgraded | no | All high-risk sources remain `metadata_only_quarantined`. |
+
 ## Audit Findings
 
 | Finding | Status | Notes |

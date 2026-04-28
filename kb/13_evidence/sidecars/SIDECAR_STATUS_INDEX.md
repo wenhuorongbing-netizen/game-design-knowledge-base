@@ -7,6 +7,7 @@ Generated manually for now; `npm run kb:audit` creates the audit report at `kb/1
 | Category | Count | Notes |
 |---|---:|---|
 | LegalSidecar records | 0 | No real sidecars have been added. |
+| First sidecar request | 1 | `FIRST_SIDECAR_REQUEST.md` created because no user sidecar data was supplied. |
 | Pending review | 0 | Template is ignored as an entity. |
 | Approved metadata only | 0 | No sources upgraded. |
 | Approved user notes only | 0 | No sources upgraded. |
@@ -17,6 +18,12 @@ Generated manually for now; `npm run kb:audit` creates the audit report at `kb/1
 ## Source Upgrade Status
 
 No existing source has been upgraded automatically. High-risk sources remain `metadata_only_quarantined`.
+
+## Intake Gate Status
+
+The first LegalSidecar intake is blocked pending user-provided sidecar data. The request file explains the exact fields needed before a record can be created.
+
+Current gate decision: `blocked_pending_user_sidecar`
 
 ## Maintenance Rule
 

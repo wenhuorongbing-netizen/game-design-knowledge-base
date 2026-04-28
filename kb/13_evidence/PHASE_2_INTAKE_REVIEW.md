@@ -1,8 +1,8 @@
 # Phase 2 Intake Review
 
-Status: not submitted.
+Status: blocked pending user sidecar.
 
-No user evidence packet has been supplied in this repository state.
+No user evidence packet or LegalSidecar data has been supplied in this repository state.
 
 ## Review Summary
 
@@ -16,10 +16,17 @@ No user evidence packet has been supplied in this repository state.
 | real PlaytestLog received | no |
 | claims promoted | no |
 | verified claims created | no |
+| first sidecar request created | yes |
+| fake sidecar created | no |
+| source status upgraded | no |
 
 ## Current Decision
 
 `intake_status: not_submitted`
+
+Sidecar gate status: `blocked_pending_user_sidecar`
+
+The repository has created `FIRST_SIDECAR_REQUEST.md` to request the exact user-provided fields required before a LegalSidecar record can be created.
 
 ## Required Before Acceptance
 
@@ -31,6 +38,8 @@ No user evidence packet has been supplied in this repository state.
 - User confirms no AI-generated summaries from private source bodies.
 - User confirms high-risk files remain metadata-only unless sidecar permits otherwise.
 - Maintainer runs export, validation, and audit commands.
+- User supplies LegalSidecar fields for one existing `source_document_id` and `work_id`.
+- User explicitly states legal access basis, AI-processing permission, allowed operations, prohibited operations, reviewer, and approval status.
 
 ## Review Notes
 
