@@ -17,6 +17,8 @@ related_cards: []
 related_lenses: []
 related_workflows: []
 evidence_refs: []
+user_provided: false
+user_confirms_note_authored: false
 source_basis: user_manual_note
 confidence: user_interpretation
 status: draft

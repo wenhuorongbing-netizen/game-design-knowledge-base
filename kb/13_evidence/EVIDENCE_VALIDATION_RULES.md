@@ -45,6 +45,15 @@ The validator must check:
 - project/playtest evidence cannot support verified general claims without promotion review and narrowed scope;
 - high-risk sources cannot be used beyond allowed operations;
 - source_basis and confidence values must stay inside the controlled enums.
+- EvidenceIntakeBatch packets must use one of the Phase 2 `intake_status` values;
+- an evidence packet cannot use `accepted_for_validation` or `accepted_partial` unless every user confirmation is true;
+- an evidence packet must reference existing SourceDocument, GameDesignWork, LegalSidecar, UserManualNote, UserManualQuote, ProjectOverlay, and PlaytestLog records when those arrays are populated;
+- included UserManualNote records must be explicitly user-authored;
+- included UserManualQuote records must be explicitly user-provided and under the quote length threshold;
+- included ProjectOverlay records must be `entity_scope: project_overlay`;
+- included PlaytestLog records must be `entity_scope: playtest_log`;
+- evidence packets must not reference extracted source body text, copied chapter text, or AI-generated summaries from private source bodies;
+- Evidence Phase 2 intake packets must not create verified claims.
 
 ## Legal Safety Checks
 
@@ -88,5 +97,13 @@ The prohibited operations remain:
 | PlaytestLog missing separated observation fields | P0 |
 | sample ProjectOverlay or PlaytestLog promoted above unsupported_draft | P0 |
 | project/playtest evidence supports verified general claim without promotion review | P0 |
+| accepted evidence packet without required user confirmations | P0 |
+| evidence packet references nonexistent included entity | P0 |
+| evidence packet includes manual note not explicitly user-authored | P0 |
+| evidence packet includes manual quote not explicitly user-provided | P0 |
+| evidence packet includes manual quote over length threshold | P0 |
+| evidence packet includes ProjectOverlay not scoped to project context | P0 |
+| evidence packet includes PlaytestLog not scoped to playtest context | P0 |
+| evidence packet references extracted source body text | P0 |
 | missing optional reviewer on draft evidence | P1 |
 | evidence gap without priority | P2 |

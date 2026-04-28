@@ -20,7 +20,11 @@
     "updated_at",
     "version",
     "evidence_intake_batch_id",
-    "batch_items"
+    "packet_id",
+    "submitted_by",
+    "submission_date",
+    "intended_scope",
+    "intake_status"
   ],
   "properties": {
     "id": {
@@ -121,14 +125,115 @@
     "evidence_intake_batch_id": {
       "type": "string"
     },
-    "batch_items": {
+    "packet_id": {
+      "type": "string"
+    },
+    "submitted_by": {
+      "type": "string"
+    },
+    "submission_date": {
+      "type": "string"
+    },
+    "intended_scope": {
+      "type": "string"
+    },
+    "source_documents_referenced": {
       "type": "array",
       "items": {
         "type": "string"
       }
     },
-    "intake_status": {
+    "works_referenced": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "legal_sidecars_included": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "manual_notes_included": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "manual_quotes_included": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_overlays_included": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "playtest_logs_included": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "user_confirms_notes_are_user_authored": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "user_confirms_quotes_are_user_provided": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "user_confirms_no_copied_chapter_text": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "user_confirms_no_long_quotations": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "user_confirms_no_ai_generated_summaries_from_private_source_bodies": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "user_confirms_high_risk_files_remain_metadata_only_unless_sidecar_permits_otherwise": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
+    "reviewer": {
       "type": "string"
+    },
+    "intake_status": {
+      "enum": [
+        "not_submitted",
+        "received",
+        "blocked_missing_user_confirmation",
+        "blocked_source_governance",
+        "accepted_for_validation",
+        "accepted_partial",
+        "rejected"
+      ]
+    },
+    "batch_items": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "audit_report_id": {
       "type": "string"

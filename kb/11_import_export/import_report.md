@@ -55,6 +55,9 @@
 - promotion request beyond evidence scope
 - promotion review missing reviewer or rationale
 - project/playtest observation treated as universal doctrine
+- evidence packet missing user confirmations
+- evidence packet broken source/work/sidecar/note/quote/project/playtest references
+- evidence packet references extracted source body text
 
 ## Legal Safety Result
 

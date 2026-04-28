@@ -24,6 +24,13 @@
 
 ## Remaining P1/P2 Work
 
+- [x] Create Phase 2 intake gate.
+- [x] Create user evidence packet template.
+- [x] Create user evidence packet checklist.
+- [x] Create Phase 2 intake review page.
+- [x] Create Phase 2 readiness and user evidence dependency reports.
+- [x] Add validator checks for incomplete or unsafe evidence packets.
+- [x] Confirm no evidence was fabricated during gate setup.
 - [x] Create Evidence Intake Phase 1 architecture under `kb/13_evidence/`.
 - [x] Add future record folders for EvidenceRef, EvidenceGap, and EvidenceIntakeBatch records.
 - [x] Add evidence schemas for legal sidecars, manual notes, manual quotes, open source references, evidence refs, promotion requests, reviews, gaps, and intake batches.
@@ -101,8 +108,8 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 1 is complete. The next step is controlled intake of real user-supplied evidence.
+Evidence Phase 2 gate is ready. The next step is for the user to submit a real evidence packet.
 
 ```text
-build-evidence-phase-2-first-user-evidence-intake
+submit-first-user-evidence-packet
 ```

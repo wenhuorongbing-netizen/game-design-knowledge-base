@@ -134,6 +134,15 @@
     "manual_note_id": {
       "type": "string"
     },
+    "user_provided": {
+      "type": "boolean"
+    },
+    "user_confirms_note_authored": {
+      "type": [
+        "boolean",
+        "string"
+      ]
+    },
     "note_type": {
       "enum": [
         "chapter_note",

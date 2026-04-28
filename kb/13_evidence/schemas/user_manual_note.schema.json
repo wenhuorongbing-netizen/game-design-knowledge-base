@@ -31,6 +31,8 @@
     "entity_type": { "const": "UserManualNote" },
     "note_id": { "type": "string", "minLength": 1 },
     "manual_note_id": { "type": "string" },
+    "user_provided": { "type": "boolean" },
+    "user_confirms_note_authored": { "type": ["boolean", "string"] },
     "work_id": { "type": "string", "minLength": 1 },
     "source_document_id": { "type": "string" },
     "sidecar_id": { "type": "string" },

@@ -1,5 +1,28 @@
 # Implementation Log
 
+## 2026-04-28 - Evidence Phase 2 Intake Gate Setup
+
+Prepared the controlled intake gate for the first real user evidence packet without ingesting evidence, creating sidecars, inventing notes, inventing quotes, adding project/playtest evidence, promoting claims, parsing high-risk source bodies, or building app features.
+
+Actions:
+
+- Created `kb/13_evidence/PHASE_2_INTAKE_GATE.md`.
+- Created `kb/13_evidence/USER_EVIDENCE_PACKET_TEMPLATE.md`.
+- Created `kb/13_evidence/USER_EVIDENCE_PACKET_CHECKLIST.md`.
+- Created `kb/13_evidence/PHASE_2_INTAKE_REVIEW.md`.
+- Created `kb/13_evidence/reports/PHASE_2_READINESS_REPORT.md`.
+- Created `kb/13_evidence/reports/USER_EVIDENCE_DEPENDENCY_REPORT.md`.
+- Updated `kb/13_evidence/README.md` and `kb/13_evidence/EVIDENCE_VALIDATION_RULES.md`.
+- Extended EvidenceIntakeBatch schema and importer normalization for Phase 2 packet fields.
+- Extended validator rules for packet confirmations, referenced source/work/sidecar/note/quote/overlay/playtest records, manual note authorship, manual quote provenance and length, ProjectOverlay scope, PlaytestLog scope, and extracted source-body references.
+- Added explicit user-authorship fields to the manual note template and schema.
+
+Validation:
+
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, sidecar/manual note/manual quote/claim promotion reports regenerated, validation PASS.
+
 ## 2026-04-28 - GitHub Truth Reconciliation
 
 Reconciled the actual GitHub main branch with local acceptance reports without starting Evidence Phase 2, adding evidence, promoting claims, or building app features.

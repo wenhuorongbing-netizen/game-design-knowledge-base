@@ -77,10 +77,15 @@ Next exact prompt:
 
 ## Phase 2 - Evidence Intake Records
 
+Status: intake gate ready, no evidence ingested.
+
 Goal: begin moving selected draft scaffolds toward source-backed knowledge.
 
 Tasks:
 
+- Ask the user to submit the first evidence packet using `kb/13_evidence/USER_EVIDENCE_PACKET_TEMPLATE.md`.
+- Review the packet against `kb/13_evidence/USER_EVIDENCE_PACKET_CHECKLIST.md`.
+- Accept the packet for validation only after all required user confirmations are true.
 - Add the first legal sidecar.
 - Add 3 to 5 user manual notes.
 - Add one user manual quote only if lawful and user-provided.
@@ -92,9 +97,16 @@ Tasks:
 
 Acceptance criteria:
 
+- User confirms notes are user-authored.
+- User confirms quotes are user-provided.
+- User confirms no copied chapter text, no long quotations, and no AI-generated summaries from private source bodies.
 - No high-risk body ingestion without sidecar and explicit allowed operation.
 - No claim promoted to verified without legal evidence and reviewer approval.
 - No project or playtest observation treated as universal doctrine.
+
+Next exact prompt:
+
+`submit-first-user-evidence-packet`
 
 ## Phase 3 - Project Application
 

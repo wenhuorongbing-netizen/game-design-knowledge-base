@@ -162,6 +162,7 @@ const ID_FIELDS = [
   "claim_promotion_review_id",
   "evidence_gap_id",
   "evidence_intake_batch_id",
+  "packet_id",
   "evidence_audit_report_id",
   "work_id",
   "domain_id",
@@ -511,8 +512,17 @@ function normalizeEntity(raw, options = {}) {
     normalized.affected_claim_ids = cleanArray(raw.affected_claim_ids);
   }
   if (normalized.entity_type === "EvidenceIntakeBatch") {
-    normalized.evidence_intake_batch_id = String(firstNonEmpty(raw.evidence_intake_batch_id, raw.id, ""));
+    normalized.evidence_intake_batch_id = String(firstNonEmpty(raw.evidence_intake_batch_id, raw.packet_id, raw.id, ""));
+    normalized.packet_id = String(firstNonEmpty(raw.packet_id, raw.evidence_intake_batch_id, raw.id, ""));
     normalized.batch_items = cleanArray(raw.batch_items);
+    normalized.intake_status = String(firstNonEmpty(raw.intake_status, "not_submitted"));
+    normalized.source_documents_referenced = cleanArray(raw.source_documents_referenced);
+    normalized.works_referenced = cleanArray(raw.works_referenced);
+    normalized.legal_sidecars_included = cleanArray(raw.legal_sidecars_included);
+    normalized.manual_notes_included = cleanArray(raw.manual_notes_included);
+    normalized.manual_quotes_included = cleanArray(raw.manual_quotes_included);
+    normalized.project_overlays_included = cleanArray(raw.project_overlays_included);
+    normalized.playtest_logs_included = cleanArray(raw.playtest_logs_included);
   }
   if (normalized.entity_type === "EvidenceAuditReport") {
     normalized.evidence_audit_report_id = String(firstNonEmpty(raw.evidence_audit_report_id, raw.id, ""));
@@ -553,7 +563,7 @@ function listEntityFiles(relDir) {
     .filter((name) => {
       const lower = name.toLowerCase();
       if (!isEvidenceDir) return true;
-      return !lower.includes("template") && !lower.includes("example") && !lower.includes("guide") && !lower.includes("index") && !lower.includes("backlog") && !lower.includes("sidecar_audit_report") && !lower.includes("manual_note_intake_report") && !lower.includes("manual_quote_audit_report") && !lower.includes("claim_promotion_audit") && !lower.includes("game_feel_evidence_pilot") && !lower.includes("game_feel_evidence_gap_report") && !lower.includes("game_feel_entity_audit") && !lower.includes("meaningful_decisions_evidence_pilot") && !lower.includes("rules_mechanics_evidence_gap_report") && !lower.includes("meaningful_decisions_entity_audit") && !lower.includes("systems_economy_playtest_evidence_pilot") && !lower.includes("project_overlay_evidence_gap_report") && !lower.includes("playtest_log_evidence_gap_report") && !lower.includes("systems_economy_entity_audit") && !lower.includes("evidence_navigation_report") && !lower.includes("evidence_search_export_report") && !lower.includes("evidence_portal_audit");
+      return !lower.includes("template") && !lower.includes("example") && !lower.includes("guide") && !lower.includes("index") && !lower.includes("backlog") && !lower.includes("sidecar_audit_report") && !lower.includes("manual_note_intake_report") && !lower.includes("manual_quote_audit_report") && !lower.includes("claim_promotion_audit") && !lower.includes("game_feel_evidence_pilot") && !lower.includes("game_feel_evidence_gap_report") && !lower.includes("game_feel_entity_audit") && !lower.includes("meaningful_decisions_evidence_pilot") && !lower.includes("rules_mechanics_evidence_gap_report") && !lower.includes("meaningful_decisions_entity_audit") && !lower.includes("systems_economy_playtest_evidence_pilot") && !lower.includes("project_overlay_evidence_gap_report") && !lower.includes("playtest_log_evidence_gap_report") && !lower.includes("systems_economy_entity_audit") && !lower.includes("evidence_navigation_report") && !lower.includes("evidence_search_export_report") && !lower.includes("evidence_portal_audit") && !lower.includes("phase_2_readiness_report") && !lower.includes("user_evidence_dependency_report");
     })
     .filter((name) => !name.toLowerCase().endsWith("_template.md"))
     .filter((name) => !name.toLowerCase().endsWith("-template.md"))
@@ -924,6 +934,8 @@ function createSchemas() {
     "user_manual_note.schema.json": schema("GDKB UserManualNote", "UserManualNote", ["note_id", "work_id", "title", "note_type", "location", "user_summary", "user_interpretation", "user_questions", "related_concepts", "related_cards", "related_lenses", "related_workflows"], {
       note_id: { type: "string" },
       manual_note_id: { type: "string" },
+      user_provided: { type: "boolean" },
+      user_confirms_note_authored: { type: ["boolean", "string"] },
       note_type: { enum: ["chapter_note", "concept_note", "reading_reflection", "method_note", "comparison_note", "project_application_note"] },
       location: { type: "string" },
       user_summary: { type: "string" },
@@ -1006,10 +1018,28 @@ function createSchemas() {
       required_source_basis: { type: "array", items: { type: "string" } },
       recommended_fix: { type: "string" }
     }),
-    "evidence_intake_batch.schema.json": schema("GDKB EvidenceIntakeBatch", "EvidenceIntakeBatch", ["evidence_intake_batch_id", "batch_items"], {
+    "evidence_intake_batch.schema.json": schema("GDKB EvidenceIntakeBatch", "EvidenceIntakeBatch", ["evidence_intake_batch_id", "packet_id", "submitted_by", "submission_date", "intended_scope", "intake_status"], {
       evidence_intake_batch_id: { type: "string" },
+      packet_id: { type: "string" },
+      submitted_by: { type: "string" },
+      submission_date: { type: "string" },
+      intended_scope: { type: "string" },
+      source_documents_referenced: { type: "array", items: { type: "string" } },
+      works_referenced: { type: "array", items: { type: "string" } },
+      legal_sidecars_included: { type: "array", items: { type: "string" } },
+      manual_notes_included: { type: "array", items: { type: "string" } },
+      manual_quotes_included: { type: "array", items: { type: "string" } },
+      project_overlays_included: { type: "array", items: { type: "string" } },
+      playtest_logs_included: { type: "array", items: { type: "string" } },
+      user_confirms_notes_are_user_authored: { type: ["boolean", "string"] },
+      user_confirms_quotes_are_user_provided: { type: ["boolean", "string"] },
+      user_confirms_no_copied_chapter_text: { type: ["boolean", "string"] },
+      user_confirms_no_long_quotations: { type: ["boolean", "string"] },
+      user_confirms_no_ai_generated_summaries_from_private_source_bodies: { type: ["boolean", "string"] },
+      user_confirms_high_risk_files_remain_metadata_only_unless_sidecar_permits_otherwise: { type: ["boolean", "string"] },
+      reviewer: { type: "string" },
+      intake_status: { enum: ["not_submitted", "received", "blocked_missing_user_confirmation", "blocked_source_governance", "accepted_for_validation", "accepted_partial", "rejected"] },
       batch_items: { type: "array", items: { type: "string" } },
-      intake_status: { type: "string" },
       audit_report_id: { type: "string" }
     }),
     "evidence_audit_report.schema.json": schema("GDKB EvidenceAuditReport", "EvidenceAuditReport", ["evidence_audit_report_id", "audit_scope"], {
@@ -2494,6 +2524,9 @@ ${JSON.stringify(issuesByRule, null, 2)}
 - promotion request beyond evidence scope
 - promotion review missing reviewer or rationale
 - project/playtest observation treated as universal doctrine
+- evidence packet missing user confirmations
+- evidence packet broken source/work/sidecar/note/quote/project/playtest references
+- evidence packet references extracted source body text
 
 ## Legal Safety Result
 

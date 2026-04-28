@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-GitHub truth reconciliation complete. Evidence Intake Phase 1 remains complete; the repository is accepted for draft/source-governed KB operation and blocked for verified source-backed masterclass status until user evidence is supplied.
+Evidence Phase 2 intake gate setup complete. The repository is ready to receive the first real user evidence packet, but no evidence has been ingested.
 
 ## Verdict
 
@@ -17,11 +17,21 @@ GitHub truth reconciliation complete. Evidence Intake Phase 1 remains complete; 
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
-- Evidence intake status: Phase 1 complete. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, final Phase 1 release/audit reports, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
+- Evidence intake status: Phase 2 gate ready. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Created `kb/13_evidence/PHASE_2_INTAKE_GATE.md`.
+- Created `kb/13_evidence/USER_EVIDENCE_PACKET_TEMPLATE.md`.
+- Created `kb/13_evidence/USER_EVIDENCE_PACKET_CHECKLIST.md`.
+- Created `kb/13_evidence/PHASE_2_INTAKE_REVIEW.md`.
+- Created `kb/13_evidence/reports/PHASE_2_READINESS_REPORT.md`.
+- Created `kb/13_evidence/reports/USER_EVIDENCE_DEPENDENCY_REPORT.md`.
+- Extended EvidenceIntakeBatch schema and importer normalization for Phase 2 user evidence packet fields.
+- Extended validator checks for packet user confirmations, missing references, manual note authorship, manual quote provenance/length, ProjectOverlay scope, PlaytestLog scope, and prohibited extracted source-body references.
+- Confirmed no legal sidecar, manual note, manual quote, EvidenceRef, ProjectOverlay, PlaytestLog, or claim promotion record was created in this gate setup.
+- Confirmed no claim was promoted and verified claims remain 0.
 - Reconciled local working tree, HEAD, origin/main, and GitHub raw access for root `rebuild_instruction.md`.
 - Confirmed GitHub raw root `rebuild_instruction.md` returns 404.
 - Updated `GITHUB_TRUTH_SYNC_REPORT.md` with current remote truth proof.
@@ -214,10 +224,10 @@ GitHub truth reconciliation complete. Evidence Intake Phase 1 remains complete; 
 Next recommended work:
 
 ```text
-build-evidence-phase-2-first-user-evidence-intake
+submit-first-user-evidence-packet
 ```
 
-This next action should ingest the first user-supplied legal sidecar and manual notes. It must not parse high-risk source bodies, create fake evidence, or promote claims beyond the evidence supplied and reviewed.
+This next action should ask the user to provide the first real evidence packet using `kb/13_evidence/USER_EVIDENCE_PACKET_TEMPLATE.md`. It must not parse high-risk source bodies, create fake evidence, or promote claims.
 
 ## Do-Not-Redo List
 

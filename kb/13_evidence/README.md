@@ -12,6 +12,10 @@ It is not a source-text extraction area. Do not place raw PDF, EPUB, archive, sc
 |---|---|
 | `EVIDENCE_DASHBOARD.md` | Human dashboard for evidence status, verification boundary, and pilot links. |
 | `EVIDENCE_STATUS_INDEX.md` | Evidence-aware index for draft/verified/project/playtest status. |
+| `PHASE_2_INTAKE_GATE.md` | Gate rules for the first real user evidence packet. |
+| `USER_EVIDENCE_PACKET_TEMPLATE.md` | Template for the first user-submitted evidence packet. |
+| `USER_EVIDENCE_PACKET_CHECKLIST.md` | Checklist used before a packet can be accepted for validation. |
+| `PHASE_2_INTAKE_REVIEW.md` | Current review state for Phase 2 intake. |
 | `sidecars/` | LegalSidecar records that explicitly state whether a user has legal access and AI-processing permission. |
 | `manual_notes/` | UserManualNote records written by the user, not extracted from high-risk files. |
 | `manual_quotes/` | UserManualQuote records explicitly supplied by the user and kept short. |
@@ -42,9 +46,15 @@ This phase creates infrastructure only. Verified source-backed masterclass statu
 
 - [EVIDENCE_DASHBOARD.md](EVIDENCE_DASHBOARD.md)
 - [EVIDENCE_STATUS_INDEX.md](EVIDENCE_STATUS_INDEX.md)
+- [PHASE_2_INTAKE_GATE.md](PHASE_2_INTAKE_GATE.md)
+- [USER_EVIDENCE_PACKET_TEMPLATE.md](USER_EVIDENCE_PACKET_TEMPLATE.md)
+- [USER_EVIDENCE_PACKET_CHECKLIST.md](USER_EVIDENCE_PACKET_CHECKLIST.md)
+- [PHASE_2_INTAKE_REVIEW.md](PHASE_2_INTAKE_REVIEW.md)
 - [EVIDENCE_INTAKE_PLAN.md](EVIDENCE_INTAKE_PLAN.md)
 - [CLAIM_PROMOTION_WORKFLOW.md](CLAIM_PROMOTION_WORKFLOW.md)
 - [PRIORITY_EVIDENCE_BACKLOG.md](PRIORITY_EVIDENCE_BACKLOG.md)
 - [EVIDENCE_GAP_REGISTER.md](EVIDENCE_GAP_REGISTER.md)
 - [reports/VERIFIED_CLAIMS_INDEX.md](reports/VERIFIED_CLAIMS_INDEX.md)
 - [reports/UNSUPPORTED_CLAIMS_INDEX.md](reports/UNSUPPORTED_CLAIMS_INDEX.md)
+- [reports/PHASE_2_READINESS_REPORT.md](reports/PHASE_2_READINESS_REPORT.md)
+- [reports/USER_EVIDENCE_DEPENDENCY_REPORT.md](reports/USER_EVIDENCE_DEPENDENCY_REPORT.md)

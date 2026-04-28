@@ -89,6 +89,30 @@ const USER_MANUAL_QUOTE_STATUS = new Set([
   "rejected"
 ]);
 
+const EVIDENCE_PACKET_INTAKE_STATUS = new Set([
+  "not_submitted",
+  "received",
+  "blocked_missing_user_confirmation",
+  "blocked_source_governance",
+  "accepted_for_validation",
+  "accepted_partial",
+  "rejected"
+]);
+
+const EVIDENCE_PACKET_ACCEPTED_STATUS = new Set([
+  "accepted_for_validation",
+  "accepted_partial"
+]);
+
+const EVIDENCE_PACKET_CONFIRMATION_FIELDS = [
+  "user_confirms_notes_are_user_authored",
+  "user_confirms_quotes_are_user_provided",
+  "user_confirms_no_copied_chapter_text",
+  "user_confirms_no_long_quotations",
+  "user_confirms_no_ai_generated_summaries_from_private_source_bodies",
+  "user_confirms_high_risk_files_remain_metadata_only_unless_sidecar_permits_otherwise"
+];
+
 const MANUAL_QUOTE_MAX_WORDS = 80;
 const MANUAL_QUOTE_WARN_WORDS = 40;
 const CLAIM_PROMOTION_LEVELS = new Set([
@@ -154,6 +178,10 @@ const REQUIRED_FILES = [
   "kb/13_evidence/EVIDENCE_GAP_REGISTER.md",
   "kb/13_evidence/PRIORITY_EVIDENCE_BACKLOG.md",
   "kb/13_evidence/EVIDENCE_VALIDATION_RULES.md",
+  "kb/13_evidence/PHASE_2_INTAKE_GATE.md",
+  "kb/13_evidence/USER_EVIDENCE_PACKET_TEMPLATE.md",
+  "kb/13_evidence/USER_EVIDENCE_PACKET_CHECKLIST.md",
+  "kb/13_evidence/PHASE_2_INTAKE_REVIEW.md",
   "kb/13_evidence/sidecars/source_sidecar_template.yaml",
   "kb/13_evidence/sidecars/README.md",
   "kb/13_evidence/sidecars/SIDECAR_REVIEW_GUIDE.md",
@@ -174,6 +202,8 @@ const REQUIRED_FILES = [
   "kb/13_evidence/reports/VERIFIED_CLAIMS_INDEX.md",
   "kb/13_evidence/reports/MANUAL_NOTE_INTAKE_REPORT.md",
   "kb/13_evidence/reports/MANUAL_QUOTE_AUDIT_REPORT.md",
+  "kb/13_evidence/reports/PHASE_2_READINESS_REPORT.md",
+  "kb/13_evidence/reports/USER_EVIDENCE_DEPENDENCY_REPORT.md",
   "kb/13_evidence/schemas/legal_sidecar.schema.json",
   "kb/13_evidence/schemas/user_manual_note.schema.json",
   "kb/13_evidence/schemas/user_manual_quote.schema.json",
@@ -249,6 +279,7 @@ const ID_FIELDS = [
   "claim_promotion_review_id",
   "evidence_gap_id",
   "evidence_intake_batch_id",
+  "packet_id",
   "evidence_audit_report_id",
   "work_id",
   "edge_id"
@@ -489,7 +520,7 @@ function validateMarkdownEntities() {
         continue;
       }
       const lowerName = path.basename(filePath).toLowerCase();
-      if (isEvidenceDir && (lowerName.includes("template") || lowerName.includes("example") || lowerName.includes("guide") || lowerName.includes("index") || lowerName.includes("backlog") || lowerName.includes("sidecar_audit_report") || lowerName.includes("manual_note_intake_report") || lowerName.includes("manual_quote_audit_report") || lowerName.includes("claim_promotion_audit") || lowerName.includes("game_feel_evidence_pilot") || lowerName.includes("game_feel_evidence_gap_report") || lowerName.includes("game_feel_entity_audit") || lowerName.includes("meaningful_decisions_evidence_pilot") || lowerName.includes("rules_mechanics_evidence_gap_report") || lowerName.includes("meaningful_decisions_entity_audit") || lowerName.includes("systems_economy_playtest_evidence_pilot") || lowerName.includes("project_overlay_evidence_gap_report") || lowerName.includes("playtest_log_evidence_gap_report") || lowerName.includes("systems_economy_entity_audit") || lowerName.includes("evidence_navigation_report") || lowerName.includes("evidence_search_export_report") || lowerName.includes("evidence_portal_audit"))) {
+      if (isEvidenceDir && (lowerName.includes("template") || lowerName.includes("example") || lowerName.includes("guide") || lowerName.includes("index") || lowerName.includes("backlog") || lowerName.includes("sidecar_audit_report") || lowerName.includes("manual_note_intake_report") || lowerName.includes("manual_quote_audit_report") || lowerName.includes("claim_promotion_audit") || lowerName.includes("game_feel_evidence_pilot") || lowerName.includes("game_feel_evidence_gap_report") || lowerName.includes("game_feel_entity_audit") || lowerName.includes("meaningful_decisions_evidence_pilot") || lowerName.includes("rules_mechanics_evidence_gap_report") || lowerName.includes("meaningful_decisions_entity_audit") || lowerName.includes("systems_economy_playtest_evidence_pilot") || lowerName.includes("project_overlay_evidence_gap_report") || lowerName.includes("playtest_log_evidence_gap_report") || lowerName.includes("systems_economy_entity_audit") || lowerName.includes("evidence_navigation_report") || lowerName.includes("evidence_search_export_report") || lowerName.includes("evidence_portal_audit") || lowerName.includes("phase_2_readiness_report") || lowerName.includes("user_evidence_dependency_report"))) {
         continue;
       }
       const text = fs.readFileSync(filePath, "utf8");
@@ -624,6 +655,25 @@ function isSampleRecord(entity) {
 
 function validatesAsLegalEvidenceBasis(record) {
   return Boolean(record) && LEGAL_EVIDENCE_SOURCE_BASIS.has(record.source_basis) && record.confidence !== "ai_hypothesis";
+}
+
+function isTrueValue(value) {
+  return value === true || String(value).toLowerCase() === "true" || String(value).toLowerCase() === "yes";
+}
+
+function recordHasProhibitedExtractedBodyText(raw) {
+  const text = JSON.stringify(raw || {}).toLowerCase();
+  return [
+    "extracted_body_text",
+    "source_body_text",
+    "copied_chapter_text",
+    "chapter_body_text",
+    "full_chapter_text",
+    "automated_summary_from_private_source",
+    "ai_generated_summary_from_private_source",
+    "pdf_body_text",
+    "epub_body_text"
+  ].some((term) => text.includes(term));
 }
 
 function validateEvidence(core) {
@@ -763,6 +813,112 @@ function validateEvidence(core) {
     }
   }
 
+  for (const packet of (core.allEntities.entities ?? []).filter((entity) => entity.entity_type === "EvidenceIntakeBatch")) {
+    const raw = packet.raw || packet;
+    const packetId = raw.packet_id || raw.evidence_intake_batch_id || packet.id;
+    const required = [
+      "packet_id",
+      "submitted_by",
+      "submission_date",
+      "intended_scope",
+      "source_documents_referenced",
+      "works_referenced",
+      "legal_sidecars_included",
+      "manual_notes_included",
+      "manual_quotes_included",
+      "project_overlays_included",
+      "playtest_logs_included",
+      "reviewer",
+      "intake_status"
+    ];
+    for (const field of required) {
+      if (!(field in raw) || raw[field] === undefined || raw[field] === null || raw[field] === "") {
+        add("P0", "evidence_packet_missing_required_field", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} is missing ${field}.`);
+      }
+    }
+    const status = String(raw.intake_status || packet.intake_status || "");
+    if (!EVIDENCE_PACKET_INTAKE_STATUS.has(status)) {
+      add("P0", "evidence_packet_invalid_intake_status", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} has invalid intake_status ${status || "missing"}.`);
+    }
+    if (EVIDENCE_PACKET_ACCEPTED_STATUS.has(status)) {
+      for (const field of EVIDENCE_PACKET_CONFIRMATION_FIELDS) {
+        if (!isTrueValue(raw[field])) {
+          add("P0", "evidence_packet_accepted_without_user_confirmation", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} cannot be accepted without ${field}: true.`);
+        }
+      }
+      if (!raw.reviewer) {
+        add("P0", "evidence_packet_accepted_without_reviewer", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} cannot be accepted without reviewer.`);
+      }
+    }
+    for (const sourceId of arrayValue(raw, "source_documents_referenced")) {
+      const source = byId.get(String(sourceId));
+      if (!source || source.entity_type !== "SourceDocument") {
+        add("P0", "evidence_packet_references_missing_source", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing SourceDocument ${sourceId}.`);
+      }
+    }
+    for (const workId of arrayValue(raw, "works_referenced")) {
+      const work = byId.get(String(workId));
+      if (!work || work.entity_type !== "GameDesignWork") {
+        add("P0", "evidence_packet_references_missing_work", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing GameDesignWork ${workId}.`);
+      }
+    }
+    for (const sidecarId of arrayValue(raw, "legal_sidecars_included")) {
+      const sidecar = byId.get(String(sidecarId));
+      if (!sidecar || sidecar.entity_type !== "LegalSidecar") {
+        add("P0", "evidence_packet_references_missing_sidecar", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing LegalSidecar ${sidecarId}.`);
+      } else {
+        const sidecarRaw = sidecar.raw || sidecar;
+        if (!sidecarRaw.source_document_id || !byId.has(String(sidecarRaw.source_document_id))) {
+          add("P0", "evidence_packet_sidecar_missing_source", path.join(kbRoot, "13_evidence", "batches"), `LegalSidecar ${sidecarId} in packet ${packetId || "unknown"} references missing source_document_id.`);
+        }
+        if (!sidecarRaw.work_id || !byId.has(String(sidecarRaw.work_id))) {
+          add("P0", "evidence_packet_sidecar_missing_work", path.join(kbRoot, "13_evidence", "batches"), `LegalSidecar ${sidecarId} in packet ${packetId || "unknown"} references missing work_id.`);
+        }
+      }
+    }
+    for (const noteId of arrayValue(raw, "manual_notes_included")) {
+      const note = byId.get(String(noteId));
+      if (!note || note.entity_type !== "UserManualNote") {
+        add("P0", "evidence_packet_references_missing_manual_note", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing UserManualNote ${noteId}.`);
+      } else if (!isTrueValue((note.raw || note).user_provided) && !isTrueValue((note.raw || note).user_confirms_note_authored)) {
+        add("P0", "evidence_packet_manual_note_not_user_authored", path.join(kbRoot, "13_evidence", "batches"), `UserManualNote ${noteId} in packet ${packetId || "unknown"} is not explicitly user-authored.`);
+      }
+    }
+    for (const quoteId of arrayValue(raw, "manual_quotes_included")) {
+      const quote = byId.get(String(quoteId));
+      const quoteRaw = quote?.raw || quote || {};
+      if (!quote || quote.entity_type !== "UserManualQuote") {
+        add("P0", "evidence_packet_references_missing_manual_quote", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing UserManualQuote ${quoteId}.`);
+      } else {
+        if (!isTrueValue(quoteRaw.user_provided) && !isTrueValue(quoteRaw.user_confirms_quote_supplied)) {
+          add("P0", "evidence_packet_manual_quote_not_user_provided", path.join(kbRoot, "13_evidence", "batches"), `UserManualQuote ${quoteId} in packet ${packetId || "unknown"} is not explicitly user-provided.`);
+        }
+        if (Number(quoteRaw.quote_length_words || 0) > MANUAL_QUOTE_MAX_WORDS) {
+          add("P0", "evidence_packet_manual_quote_too_long", path.join(kbRoot, "13_evidence", "batches"), `UserManualQuote ${quoteId} in packet ${packetId || "unknown"} exceeds ${MANUAL_QUOTE_MAX_WORDS} words.`);
+        }
+      }
+    }
+    for (const overlayId of arrayValue(raw, "project_overlays_included")) {
+      const overlay = byId.get(String(overlayId));
+      if (!overlay || overlay.entity_type !== "ProjectOverlay") {
+        add("P0", "evidence_packet_references_missing_project_overlay", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing ProjectOverlay ${overlayId}.`);
+      } else if (String((overlay.raw || overlay).entity_scope || "") !== "project_overlay") {
+        add("P0", "evidence_packet_project_overlay_not_project_scoped", path.join(kbRoot, "13_evidence", "batches"), `ProjectOverlay ${overlayId} in packet ${packetId || "unknown"} is not project-scoped.`);
+      }
+    }
+    for (const playtestId of arrayValue(raw, "playtest_logs_included")) {
+      const playtest = byId.get(String(playtestId));
+      if (!playtest || playtest.entity_type !== "PlaytestLog") {
+        add("P0", "evidence_packet_references_missing_playtest_log", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} references missing PlaytestLog ${playtestId}.`);
+      } else if (String((playtest.raw || playtest).entity_scope || "") !== "playtest_log") {
+        add("P0", "evidence_packet_playtest_log_not_playtest_scoped", path.join(kbRoot, "13_evidence", "batches"), `PlaytestLog ${playtestId} in packet ${packetId || "unknown"} is not playtest-scoped.`);
+      }
+    }
+    if (recordHasProhibitedExtractedBodyText(raw)) {
+      add("P0", "evidence_packet_references_extracted_source_body", path.join(kbRoot, "13_evidence", "batches"), `Evidence packet ${packetId || "unknown"} appears to reference extracted source body text.`);
+    }
+  }
+
   for (const quote of (core.allEntities.entities ?? []).filter((entity) => entity.entity_type === "UserManualQuote")) {
     const raw = quote.raw || quote;
     if (quote.source_basis !== "user_manual_quote") {
@@ -771,7 +927,7 @@ function validateEvidence(core) {
     if (!USER_MANUAL_QUOTE_STATUS.has(raw.status || quote.status)) {
       add("P0", "manual_quote_invalid_status", path.join(kbRoot, "13_evidence", "manual_quotes"), `UserManualQuote ${quote.id} has invalid status ${raw.status || quote.status}.`);
     }
-    if (raw.user_provided !== true && raw.user_confirms_quote_supplied !== true) {
+    if (!isTrueValue(raw.user_provided) && !isTrueValue(raw.user_confirms_quote_supplied)) {
       add("P0", "manual_quote_not_explicitly_user_provided", path.join(kbRoot, "13_evidence", "manual_quotes"), `UserManualQuote ${quote.id} is not explicitly user-provided.`);
     }
     if (!raw.quote_id && !raw.manual_quote_id) {
@@ -815,6 +971,9 @@ function validateEvidence(core) {
     }
     if (!USER_MANUAL_NOTE_STATUS.has(raw.status || note.status)) {
       add("P0", "manual_note_invalid_status", path.join(kbRoot, "13_evidence", "manual_notes"), `UserManualNote ${note.id} has invalid status ${raw.status || note.status}.`);
+    }
+    if (!isTrueValue(raw.user_provided) && !isTrueValue(raw.user_confirms_note_authored)) {
+      add("P0", "manual_note_not_explicitly_user_authored", path.join(kbRoot, "13_evidence", "manual_notes"), `UserManualNote ${note.id} is not explicitly user-authored.`);
     }
     if (!raw.note_id && !raw.manual_note_id) {
       add("P0", "manual_note_missing_note_id", path.join(kbRoot, "13_evidence", "manual_notes"), `UserManualNote ${note.id} is missing note_id.`);
