@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Phase 2 evidence intake and limited claim promotion remain blocked pending user-provided evidence. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, and optionally one short manual quote, but no evidence has been ingested and no claim promotion request can be created yet.
+Evidence Phase 2 evidence intake, ProjectOverlay intake, and limited claim promotion remain blocked pending user-provided evidence. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, optionally one short manual quote, and one real project context packet, but no evidence has been ingested and no claim promotion request can be created yet.
 
 ## Verdict
 
@@ -17,11 +17,19 @@ Evidence Phase 2 evidence intake and limited claim promotion remain blocked pend
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
-- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, first claim promotion request report created, blocked pending user evidence. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars, EvidenceRefs, promotion requests, or real evidence records ingested yet
+- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, first ProjectOverlay request created, first claim promotion request report created, blocked pending user evidence. Sidecar, manual note, manual quote, ProjectOverlay, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars, EvidenceRefs, promotion requests, real ProjectOverlay records, or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Created `FIRST_PROJECT_OVERLAY_REQUEST.md` because no real project context was supplied.
+- Created `kb/13_evidence/reports/FIRST_PROJECT_OVERLAY_INTAKE_REPORT.md`.
+- Updated the ProjectOverlay evidence gap report to mark the first intake as blocked pending user project context.
+- Updated designer navigation and quick problem solver entries to point users to the ProjectOverlay intake gate.
+- Updated importer and validator evidence-report ignore rules so the blocked ProjectOverlay intake report is not treated as an EvidenceAuditReport entity.
+- Confirmed no real ProjectOverlay record was created.
+- Confirmed no project-specific claim, design decision, playtest observation, or EvidenceRef was invented.
+- Confirmed sample ProjectOverlay records remain `unsupported_draft` and project-local.
 - Created `kb/13_evidence/reports/FIRST_CLAIM_PROMOTION_REQUESTS_REPORT.md`.
 - Confirmed `LegalSidecar`, `UserManualNote`, `UserManualQuote`, `EvidenceRef`, `ClaimPromotionRequest`, and `ClaimPromotionReview` records are all 0.
 - Confirmed no EvidenceRef records were created from missing evidence.
@@ -217,6 +225,9 @@ Evidence Phase 2 evidence intake and limited claim promotion remain blocked pend
 - ClaimPromotionRequest records: 0.
 - ClaimPromotionReview records: 0.
 - First claim promotion request status: blocked pending accepted user/legal evidence.
+- Real ProjectOverlay records: 0.
+- First ProjectOverlay intake status: blocked pending user-provided project context.
+- Sample ProjectOverlay records: 1, `unsupported_draft`, not evidence.
 - Game Feel entities audited: 108.
 - Game Feel evidence slots created: 108.
 - Meaningful Decisions / Rules / Mechanics entities audited: 239.
@@ -250,9 +261,9 @@ Evidence Phase 2 evidence intake and limited claim promotion remain blocked pend
 
 Next recommended work:
 
-`submit-first-user-manual-notes`
+`submit-first-project-overlay-context`
 
-This next action should ask the user to provide three to five user-authored manual notes using `FIRST_MANUAL_NOTES_REQUEST.md`. Claim promotion remains blocked until at least one accepted evidence record exists.
+This next action should ask the user to provide one real project context packet using `FIRST_PROJECT_OVERLAY_REQUEST.md`. Claim promotion remains blocked until at least one accepted evidence record exists.
 
 ## Do-Not-Redo List
 

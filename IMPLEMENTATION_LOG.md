@@ -1,5 +1,33 @@
 # Implementation Log
 
+## 2026-04-28 - First ProjectOverlay Intake Request
+
+Attempted the first real ProjectOverlay intake. No user-provided project context was supplied, so no ProjectOverlay record, project-specific claim, design decision, playtest observation, or EvidenceRef record was created.
+
+Actions:
+
+- Read the ProjectOverlay template, sample project overlay/log records, ProjectOverlay evidence gap report, project overlay evidence template, EvidenceRef schema, claim promotion workflow, design lens bank, and workflow pack index.
+- Created `FIRST_PROJECT_OVERLAY_REQUEST.md` with the exact fields required for a real project context packet.
+- Created `kb/13_evidence/reports/FIRST_PROJECT_OVERLAY_INTAKE_REPORT.md`.
+- Updated `kb/13_evidence/reports/project_overlay_evidence_gap_report.md`.
+- Updated `kb/13_evidence/EVIDENCE_GAP_REGISTER.md`.
+- Updated designer navigation and quick problem solver entries to point to the ProjectOverlay intake gate.
+- Updated importer and validator evidence-report ignore rules so the blocked intake report is not treated as an EvidenceAuditReport entity.
+- Updated `KB_PROJECT_STATE.md` and `TODO.md`.
+- Did not invent a project.
+- Did not invent design decisions.
+- Did not invent playtest observations.
+- Did not generalize project-local evidence into universal doctrine.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+- Entity count check: 1 sample ProjectOverlay, 1 sample PlaytestLog, 0 LegalSidecar, 0 UserManualNote, 0 UserManualQuote, 0 EvidenceRef, 0 ClaimPromotionRequest, and no `kb/09_project_overlays/records/` directory.
+
 ## 2026-04-28 - First Claim Promotion Request Gate
 
 Checked whether limited EvidenceRef creation and ClaimPromotionRequest records could be created. No accepted user evidence or legal evidence records exist, so the workflow was blocked.

@@ -24,6 +24,8 @@ Use this table when you know the symptom and need the fastest safe starting poin
 | I need launch risk review. | [Release Readiness Risk Audit](../08_workflows/packs/workflow_release-readiness-risk-audit.md) |
 | I worry the AI invented claims. | [Detect Unsupported Claims Prompt](../08_workflows/prompts/prompt_detect-unsupported-claims.md) |
 | I need to know whether a source is safe. | [Source Governance Path](source_governance_path.md) |
+| I need to apply KB knowledge to my actual project. | [First ProjectOverlay Request](../../FIRST_PROJECT_OVERLAY_REQUEST.md) |
+| I need project-local evidence without making universal claims. | [Project Overlay Evidence Template](../13_evidence/manual_notes/project_overlay_evidence_template.md) |
 | I need to know whether a KB item is verified or draft. | [Evidence Dashboard](../13_evidence/EVIDENCE_DASHBOARD.md) |
 | I need to find unsupported claims. | [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md) |
 | I need to find verified claims. | [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md) |

@@ -47,6 +47,12 @@
 - [x] Confirm no ClaimPromotionRequest records were created from missing evidence.
 - [x] Confirm no claim graph changes or claim promotions occurred.
 - [ ] User supplies accepted user/legal evidence before retrying claim promotion requests.
+- [x] Attempt first ProjectOverlay intake.
+- [x] Create `FIRST_PROJECT_OVERLAY_REQUEST.md` because no real project context was supplied.
+- [x] Create `kb/13_evidence/reports/FIRST_PROJECT_OVERLAY_INTAKE_REPORT.md`.
+- [x] Mark first ProjectOverlay intake as blocked pending user project context.
+- [x] Confirm no fake ProjectOverlay, project claim, design decision, playtest observation, or EvidenceRef was created.
+- [ ] User supplies one real project context packet for the first ProjectOverlay.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -131,6 +137,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 promotion workflow is blocked until accepted evidence exists. The next practical step is for the user to submit three to five real user-authored manual notes.
+Evidence Phase 2 ProjectOverlay intake is blocked until real project context exists. The next practical step is for the user to submit one real project context packet.
 
-`submit-first-user-manual-notes`
+`submit-first-project-overlay-context`

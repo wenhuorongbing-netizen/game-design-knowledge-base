@@ -2,6 +2,16 @@
 
 Use this when you have a concrete design problem. Start with the workflow pack because it produces an artifact; use lenses to diagnose; use cards for vocabulary and evidence discipline.
 
+## I Need To Apply The KB To My Specific Project
+
+- Intake gate: [First ProjectOverlay Request](../../FIRST_PROJECT_OVERLAY_REQUEST.md)
+- Project template: [ProjectOverlay Template](../09_project_overlays/project_overlay_template.md)
+- Evidence template: [Project Overlay Evidence Template](../13_evidence/manual_notes/project_overlay_evidence_template.md)
+- Design lenses: [project overlay fit](../06_lenses/cards/lens_ai-assisted-design-and-kb-governance_project-overlay-fit.md), [core experience](../06_lenses/cards/lens_project-direction_core-experience.md), [playtest signal](../06_lenses/cards/lens_prototype-and-playtest_playtest-signal.md)
+- Workflow packs: [Game Idea to One-Page Concept](../08_workflows/packs/workflow_game-idea-to-one-page-concept.md), [Core Loop Design](../08_workflows/packs/workflow_core-loop-design.md), [Playtest Plan](../08_workflows/packs/workflow_playtest-plan.md)
+- Output artifact: a project-local overlay that records project context, design problem, applied KB concepts, actual decisions, evidence refs, limitations, and `entity_scope: project_overlay`.
+- Evidence warning: no real ProjectOverlay should be created until the user provides actual project context. Sample overlays remain `unsupported_draft` and are not evidence.
+
 ## I Need To Define A Game Idea
 
 - Workflow pack: [Game Idea to One-Page Concept](../08_workflows/packs/workflow_game-idea-to-one-page-concept.md)
