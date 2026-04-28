@@ -16,6 +16,7 @@ Actions:
 - Updated `GITHUB_TRUTH_SYNC_REPORT.md`.
 - Updated acceptance, drift, backlog, project state, roadmap, TODO, updated validation, and updated source-governance reports.
 - Expanded validator report-consistency coverage to include truth-sync, updated acceptance, updated validation, updated source-governance, evidence release, and roadmap reports.
+- Replaced the importer hardcoded export date with a runtime date so generated export reports reflect the actual run date.
 
 Validation:
 
@@ -23,6 +24,7 @@ Validation:
 - `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
 - `npm run kb:audit`: source governance audit PASS, sidecar/manual note/manual quote/claim promotion reports regenerated, validation PASS.
 - `npm run kb:coverage`: coverage summary regenerated.
+- Final export timestamp correction: `kb/11_import_export/import_report.md` now reports `generated_at` as 2026-04-28.
 
 ## 2026-04-27 - Evidence Phase 1 Final Audit
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "gdkb.all_entities.v1",
-  "generated_at": "2026-04-27",
+  "generated_at": "2026-04-28",
   "canonical_source": "Markdown frontmatter plus curated JSON registries",
   "legal_boundary": "No high-risk source body text read or exported.",
   "count": 859,
@@ -22,8 +22,8 @@
         "src-archive-knowledge-7z"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -83,8 +83,8 @@
         "src-user-rebuild-instruction"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -147,8 +147,8 @@
         "src-user-prompt-2-known-work-list"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -211,8 +211,8 @@
         "src-legacy-kb-snapshot"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -273,8 +273,8 @@
         "src-file-advanced-game-design-systems-approach-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -344,8 +344,8 @@
         "src-file-challenges-for-game-designers-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -415,8 +415,8 @@
         "src-file-characteristics-of-games-ann"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -487,8 +487,8 @@
         "src-file-game-design-workshop-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -558,8 +558,8 @@
         "src-file-game-feel-epub-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -629,8 +629,8 @@
         "src-file-game-feel-pdf-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -700,8 +700,8 @@
         "src-file-game-mechanics-epub-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -769,8 +769,8 @@
         "src-file-level-up-epub-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -840,8 +840,8 @@
         "src-file-play-matters-pdf-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -911,8 +911,8 @@
         "src-file-aesthetic-of-play-pdf-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -981,8 +981,8 @@
         "src-file-art-of-game-design-annas"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -1051,8 +1051,8 @@
         "src-file-game-design-reader-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -1123,8 +1123,8 @@
         "src-file-theory-of-fun-zlib"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -1193,8 +1193,8 @@
         "src-active-kb-rebuild-instruction"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/01_sources/sources.json",
       "raw": {
@@ -1264,8 +1264,8 @@
         "game-feel-a-game-designers-guide-to-virtual-sensation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1333,8 +1333,8 @@
         "play-matters"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1399,8 +1399,8 @@
         "the-aesthetic-of-play"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1469,8 +1469,8 @@
         "the-art-of-game-design-a-book-of-lenses"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1540,8 +1540,8 @@
         "the-game-design-reader-a-rules-of-play-anthology"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1607,8 +1607,8 @@
         "a-theory-of-fun-for-game-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1673,8 +1673,8 @@
         "advanced-game-design-a-systems-approach"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1740,8 +1740,8 @@
         "challenges-for-game-designers"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1810,8 +1810,8 @@
         "game-design-workshop-a-playcentric-approach"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1881,8 +1881,8 @@
         "game-mechanics-advanced-game-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -1953,8 +1953,8 @@
         "level-up-the-guide-to-great-video-game-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2023,8 +2023,8 @@
         "better-game-characters-by-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2092,8 +2092,8 @@
         "rules-of-play"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2160,8 +2160,8 @@
         "chris-crawford-on-game-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2225,8 +2225,8 @@
         "the-art-of-computer-game-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2292,8 +2292,8 @@
         "mda-mechanics-dynamics-aesthetics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2361,8 +2361,8 @@
         "formal-abstract-design-tools"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2427,8 +2427,8 @@
         "bartle-player-types"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2496,8 +2496,8 @@
         "characteristics-of-games"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/03_works/works.json",
       "raw": {
@@ -2565,8 +2565,8 @@
         "concept_play"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2623,8 +2623,8 @@
         "concept_playfulness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2681,8 +2681,8 @@
         "concept_magic-circle"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2739,8 +2739,8 @@
         "concept_play-as-context"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2797,8 +2797,8 @@
         "concept_play-as-appropriation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2855,8 +2855,8 @@
         "concept_play-as-disruption"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2913,8 +2913,8 @@
         "concept_play-as-free-movement-within-constraints"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -2971,8 +2971,8 @@
         "concept_player-experience"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3029,8 +3029,8 @@
         "concept_pleasure"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3087,8 +3087,8 @@
         "concept_fun"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3145,8 +3145,8 @@
         "concept_challenge"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3203,8 +3203,8 @@
         "concept_mastery"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3261,8 +3261,8 @@
         "concept_learning"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3319,8 +3319,8 @@
         "concept_flow"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3377,8 +3377,8 @@
         "concept_curiosity"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3435,8 +3435,8 @@
         "concept_uncertainty"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3493,8 +3493,8 @@
         "concept_tension"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3551,8 +3551,8 @@
         "concept_agency"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3609,8 +3609,8 @@
         "concept_game"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3667,8 +3667,8 @@
         "concept_rules"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3725,8 +3725,8 @@
         "concept_mechanics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3783,8 +3783,8 @@
         "concept_dynamics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3841,8 +3841,8 @@
         "concept_aesthetics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3899,8 +3899,8 @@
         "concept_formal-elements"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -3957,8 +3957,8 @@
         "concept_objectives"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4015,8 +4015,8 @@
         "concept_procedures"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4073,8 +4073,8 @@
         "concept_resources"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4131,8 +4131,8 @@
         "concept_conflict"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4189,8 +4189,8 @@
         "concept_boundaries"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4247,8 +4247,8 @@
         "concept_outcome"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4305,8 +4305,8 @@
         "concept_meaningful-decisions"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4363,8 +4363,8 @@
         "concept_tradeoffs"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4421,8 +4421,8 @@
         "concept_dilemmas"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4479,8 +4479,8 @@
         "concept_risk-versus-reward"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4537,8 +4537,8 @@
         "concept_chance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4595,8 +4595,8 @@
         "concept_skill"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4653,8 +4653,8 @@
         "concept_twitch-skill"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4711,8 +4711,8 @@
         "concept_strategic-skill"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4769,8 +4769,8 @@
         "concept_balance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4827,8 +4827,8 @@
         "concept_system"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4885,8 +4885,8 @@
         "concept_part"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -4943,8 +4943,8 @@
         "concept_loop"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5001,8 +5001,8 @@
         "concept_whole"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5059,8 +5059,8 @@
         "concept_emergence"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5117,8 +5117,8 @@
         "concept_feedback-loop"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5175,8 +5175,8 @@
         "concept_game-plus-player-system"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5233,8 +5233,8 @@
         "concept_mental-model"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5291,8 +5291,8 @@
         "concept_progression-curve"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5349,8 +5349,8 @@
         "concept_power-curve"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5407,8 +5407,8 @@
         "concept_economy"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5465,8 +5465,8 @@
         "concept_source"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5523,8 +5523,8 @@
         "concept_sink"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5581,8 +5581,8 @@
         "concept_faucet"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5639,8 +5639,8 @@
         "concept_drain"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5697,8 +5697,8 @@
         "concept_transitive-balance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5755,8 +5755,8 @@
         "concept_intransitive-balance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5815,8 +5815,8 @@
         "concept_game-feel"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5877,8 +5877,8 @@
         "concept_real-time-control"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -5939,8 +5939,8 @@
         "concept_simulated-space"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6001,8 +6001,8 @@
         "concept_polish"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6063,8 +6063,8 @@
         "concept_input-metric"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6125,8 +6125,8 @@
         "concept_response-metric"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6187,8 +6187,8 @@
         "concept_context-metric"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6249,8 +6249,8 @@
         "concept_polish-metric"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6311,8 +6311,8 @@
         "concept_metaphor-metric"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6373,8 +6373,8 @@
         "concept_rules-metric"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6435,8 +6435,8 @@
         "concept_responsiveness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6497,8 +6497,8 @@
         "concept_tightness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6559,8 +6559,8 @@
         "concept_floatiness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6621,8 +6621,8 @@
         "concept_juiciness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6683,8 +6683,8 @@
         "concept_feedback"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6745,8 +6745,8 @@
         "concept_interface"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6807,8 +6807,8 @@
         "concept_camera-feel"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6869,8 +6869,8 @@
         "concept_avatar-feel"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6931,8 +6931,8 @@
         "concept_kinesthetic-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -6994,8 +6994,8 @@
         "concept_ideation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7058,8 +7058,8 @@
         "concept_problem-statement"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7122,8 +7122,8 @@
         "concept_experience-goal"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7186,8 +7186,8 @@
         "concept_playcentric-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7250,8 +7250,8 @@
         "concept_prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7314,8 +7314,8 @@
         "concept_paper-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7378,8 +7378,8 @@
         "concept_digital-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7442,8 +7442,8 @@
         "concept_playtest"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7506,8 +7506,8 @@
         "concept_iteration"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7570,8 +7570,8 @@
         "concept_design-document"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7637,8 +7637,8 @@
         "concept_pitch"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7704,8 +7704,8 @@
         "concept_production-phase"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7768,8 +7768,8 @@
         "concept_release-readiness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7831,8 +7831,8 @@
         "concept_premise"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7893,8 +7893,8 @@
         "concept_story"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -7955,8 +7955,8 @@
         "concept_dramatic-arc"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8017,8 +8017,8 @@
         "concept_emergent-story"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8079,8 +8079,8 @@
         "concept_narrative-architecture"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8141,8 +8141,8 @@
         "concept_worldbuilding"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8203,8 +8203,8 @@
         "concept_character-function"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8265,8 +8265,8 @@
         "concept_avatar"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8327,8 +8327,8 @@
         "concept_player-identity"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8389,8 +8389,8 @@
         "concept_status"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8451,8 +8451,8 @@
         "concept_transformation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8513,8 +8513,8 @@
         "concept_multiplayer-pattern"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8575,8 +8575,8 @@
         "concept_community"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8637,8 +8637,8 @@
         "concept_griefing"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8699,8 +8699,8 @@
         "concept_player-rights"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8761,8 +8761,8 @@
         "concept_ethics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8823,8 +8823,8 @@
         "concept_responsibility"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8885,8 +8885,8 @@
         "concept_transformational-games"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -8947,8 +8947,8 @@
         "concept_serious-games"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9009,8 +9009,8 @@
         "concept_business-model"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9071,8 +9071,8 @@
         "concept_audience"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9131,8 +9131,8 @@
         "framework_mda-routing-scaffold"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9185,8 +9185,8 @@
         "framework_formal-elements-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9238,8 +9238,8 @@
         "framework_core-loop-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9294,8 +9294,8 @@
         "framework_game-feel-metrics-scaffold"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9349,8 +9349,8 @@
         "framework_source-sink-economy-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9401,8 +9401,8 @@
         "framework_meaningful-decision-test"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9454,8 +9454,8 @@
         "framework_player-motivation-hypothesis-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9506,8 +9506,8 @@
         "framework_playtest-question-framework"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9559,8 +9559,8 @@
         "framework_prototype-assumption-matrix"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9613,8 +9613,8 @@
         "framework_narrative-function-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9666,8 +9666,8 @@
         "framework_character-function-sheet"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9722,8 +9722,8 @@
         "framework_level-flow-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9779,8 +9779,8 @@
         "framework_ethics-risk-review"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9833,8 +9833,8 @@
         "framework_release-readiness-gate"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9886,8 +9886,8 @@
         "framework_ai-source-bounded-retrieval-framework"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9939,8 +9939,8 @@
         "checklist_source-governance-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -9990,8 +9990,8 @@
         "checklist_legal-sidecar-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10039,8 +10039,8 @@
         "checklist_concept-card-evidence-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10089,8 +10089,8 @@
         "checklist_core-loop-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10142,8 +10142,8 @@
         "checklist_mechanic-spec-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10195,8 +10195,8 @@
         "checklist_economy-source-sink-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10248,8 +10248,8 @@
         "checklist_game-feel-audit-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10301,8 +10301,8 @@
         "checklist_ui-feedback-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10352,8 +10352,8 @@
         "checklist_playtest-plan-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10401,8 +10401,8 @@
         "checklist_dossier-promotion-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10449,8 +10449,8 @@
         "checklist_quote-card-safety-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10499,8 +10499,8 @@
         "checklist_project-overlay-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10550,8 +10550,8 @@
         "checklist_release-readiness-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10600,8 +10600,8 @@
         "checklist_hallucination-audit-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10649,8 +10649,8 @@
         "checklist_claim-graph-review-checklist"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10698,8 +10698,8 @@
         "prompt_source-bounded-card-extraction"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10748,8 +10748,8 @@
         "prompt_dossier-note-ingestion"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10797,8 +10797,8 @@
         "prompt_claim-graph-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10846,8 +10846,8 @@
         "prompt_concept-comparison"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10896,8 +10896,8 @@
         "prompt_framework-extraction-from-user-notes"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10945,8 +10945,8 @@
         "prompt_playtest-analysis"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -10995,8 +10995,8 @@
         "prompt_core-loop-critique"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11046,8 +11046,8 @@
         "prompt_economy-balance-critique"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11097,8 +11097,8 @@
         "prompt_game-feel-critique"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11148,8 +11148,8 @@
         "prompt_ui-feedback-critique"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11198,8 +11198,8 @@
         "prompt_narrative-premise-critique"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11250,8 +11250,8 @@
         "prompt_character-review"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11301,8 +11301,8 @@
         "prompt_release-page-critique"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11352,8 +11352,8 @@
         "prompt_project-overlay-generation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11403,8 +11403,8 @@
         "prompt_evidence-gap-finder"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11454,8 +11454,8 @@
         "application_apply-core-loop-to-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11508,8 +11508,8 @@
         "application_apply-game-feel-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11560,8 +11560,8 @@
         "application_apply-source-sink-economy-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11611,8 +11611,8 @@
         "application_apply-playtest-findings"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11662,8 +11662,8 @@
         "application_apply-narrative-function-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11714,8 +11714,8 @@
         "application_apply-character-function"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11766,8 +11766,8 @@
         "application_apply-release-readiness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11817,8 +11817,8 @@
         "application_apply-ethics-review"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11870,8 +11870,8 @@
         "application_apply-community-segmentation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11923,8 +11923,8 @@
         "application_apply-ai-source-governance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/05_cards/claim_graph.json",
       "raw": {
@@ -11978,8 +11978,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12048,8 +12048,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12117,8 +12117,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12183,8 +12183,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12248,8 +12248,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12314,8 +12314,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12379,8 +12379,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12445,8 +12445,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12505,8 +12505,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12556,8 +12556,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12611,8 +12611,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12664,8 +12664,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12713,8 +12713,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12762,8 +12762,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12812,8 +12812,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12864,8 +12864,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12916,8 +12916,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -12968,8 +12968,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13020,8 +13020,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13072,8 +13072,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13123,8 +13123,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13172,8 +13172,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13221,8 +13221,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13271,8 +13271,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13324,8 +13324,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13379,8 +13379,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13432,8 +13432,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13482,8 +13482,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13534,8 +13534,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13586,8 +13586,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13637,8 +13637,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13687,8 +13687,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13739,8 +13739,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -13796,8 +13796,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "kb/02_ontology/ontology.json",
       "raw": {
@@ -112248,8 +112248,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112275,8 +112275,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112302,8 +112302,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112329,8 +112329,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112356,8 +112356,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112383,8 +112383,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112410,8 +112410,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112437,8 +112437,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112464,8 +112464,8 @@
       ],
       "related_entities": [],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112500,8 +112500,8 @@
         "concept_aesthetics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112535,8 +112535,8 @@
         "concept_aesthetics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112570,8 +112570,8 @@
         "concept_aesthetics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112604,8 +112604,8 @@
         "framework_ai-source-bounded-retrieval-framework"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112638,8 +112638,8 @@
         "framework_ai-source-bounded-retrieval-framework"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112673,8 +112673,8 @@
         "lesson_01_foundations_01_what-a-game-designer-actually-decides"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112708,8 +112708,8 @@
         "lesson_01_foundations_02_player-centric-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112743,8 +112743,8 @@
         "lesson_01_foundations_03_games-as-experiences"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112778,8 +112778,8 @@
         "lesson_01_foundations_04_games-as-systems-of-rules"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112813,8 +112813,8 @@
         "lesson_01_foundations_05_meaningful-decisions"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112848,8 +112848,8 @@
         "lesson_01_foundations_06_challenge-skill-chance-and-uncertainty"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112883,8 +112883,8 @@
         "lesson_01_foundations_07_play-as-context-and-constraint"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112918,8 +112918,8 @@
         "lesson_01_foundations_08_the-difference-between-ideas-and-designs"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112953,8 +112953,8 @@
         "lesson_02_play_player_experience_01_play-playfulness-and-context"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -112988,8 +112988,8 @@
         "lesson_02_play_player_experience_02_pleasure-fun-learning-and-mastery"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113023,8 +113023,8 @@
         "lesson_02_play_player_experience_03_motivation-and-player-desire"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113058,8 +113058,8 @@
         "lesson_02_play_player_experience_04_flow-and-challenge-curves"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113093,8 +113093,8 @@
         "lesson_02_play_player_experience_05_player-types-and-play-styles"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113128,8 +113128,8 @@
         "lesson_02_play_player_experience_06_player-agency-and-identity"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113163,8 +113163,8 @@
         "lesson_02_play_player_experience_07_safety-disruption-dark-play-and-ethics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113198,8 +113198,8 @@
         "lesson_03_mechanics_rules_formal_systems_01_formal-elements"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113233,8 +113233,8 @@
         "lesson_03_mechanics_rules_formal_systems_02_objectives-and-procedures"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113268,8 +113268,8 @@
         "lesson_03_mechanics_rules_formal_systems_03_resources-conflict-boundaries-and-outcomes"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113303,8 +113303,8 @@
         "lesson_03_mechanics_rules_formal_systems_04_mechanics-dynamics-and-experience"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113338,8 +113338,8 @@
         "lesson_03_mechanics_rules_formal_systems_05_tradeoffs-and-dilemmas"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113373,8 +113373,8 @@
         "lesson_03_mechanics_rules_formal_systems_06_strategic-skill"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113408,8 +113408,8 @@
         "lesson_03_mechanics_rules_formal_systems_07_twitch-skill"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113443,8 +113443,8 @@
         "lesson_03_mechanics_rules_formal_systems_08_chance-and-probability"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113478,8 +113478,8 @@
         "lesson_03_mechanics_rules_formal_systems_09_balance-fundamentals"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113513,8 +113513,8 @@
         "lesson_04_systems_economy_01_games-as-systems"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113548,8 +113548,8 @@
         "lesson_04_systems_economy_02_parts-loops-and-wholes"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113583,8 +113583,8 @@
         "lesson_04_systems_economy_03_game-plus-player-system"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113618,8 +113618,8 @@
         "lesson_04_systems_economy_04_feedback-loops"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113653,8 +113653,8 @@
         "lesson_04_systems_economy_05_progression-and-power-curves"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113688,8 +113688,8 @@
         "lesson_04_systems_economy_06_economy-sources-and-sinks"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113723,8 +113723,8 @@
         "lesson_04_systems_economy_07_transitive-and-intransitive-balance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113758,8 +113758,8 @@
         "lesson_04_systems_economy_08_emergence-and-systemic-risk"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113793,8 +113793,8 @@
         "lesson_04_systems_economy_09_system-documentation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113829,8 +113829,8 @@
         "lesson_05_game_feel_interaction_01_what-game-feel-is"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113865,8 +113865,8 @@
         "lesson_05_game_feel_interaction_02_real-time-control"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113901,8 +113901,8 @@
         "lesson_05_game_feel_interaction_03_simulated-space"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113937,8 +113937,8 @@
         "lesson_05_game_feel_interaction_04_polish-and-perceptual-conviction"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -113973,8 +113973,8 @@
         "lesson_05_game_feel_interaction_05_input-metrics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114009,8 +114009,8 @@
         "lesson_05_game_feel_interaction_06_response-metrics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114045,8 +114045,8 @@
         "lesson_05_game_feel_interaction_07_context-metrics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114081,8 +114081,8 @@
         "lesson_05_game_feel_interaction_08_polish-metrics"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114117,8 +114117,8 @@
         "lesson_05_game_feel_interaction_09_tuning-tightness-floatiness-and-responsiveness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114153,8 +114153,8 @@
         "lesson_05_game_feel_interaction_10_game-feel-prototype-lab"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114188,8 +114188,8 @@
         "lesson_06_ui_ux_feedback_01_interface-as-player-contact"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114223,8 +114223,8 @@
         "lesson_06_ui_ux_feedback_02_information-priority"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114258,8 +114258,8 @@
         "lesson_06_ui_ux_feedback_03_input-mapping"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114293,8 +114293,8 @@
         "lesson_06_ui_ux_feedback_04_feedback-timing"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114328,8 +114328,8 @@
         "lesson_06_ui_ux_feedback_05_affordance-and-readability"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114363,8 +114363,8 @@
         "lesson_06_ui_ux_feedback_06_modes-and-errors"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114398,8 +114398,8 @@
         "lesson_06_ui_ux_feedback_07_accessibility"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114433,8 +114433,8 @@
         "lesson_06_ui_ux_feedback_08_ui-playtest-methods"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114469,8 +114469,8 @@
         "lesson_07_narrative_world_character_01_story-versus-game-structure"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114505,8 +114505,8 @@
         "lesson_07_narrative_world_character_02_premise-and-dramatic-arc"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114541,8 +114541,8 @@
         "lesson_07_narrative_world_character_03_narrative-agency"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114577,8 +114577,8 @@
         "lesson_07_narrative_world_character_04_environmental-storytelling"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114613,8 +114613,8 @@
         "lesson_07_narrative_world_character_05_worldbuilding"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114649,8 +114649,8 @@
         "lesson_07_narrative_world_character_06_avatar-and-player-identity"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114685,8 +114685,8 @@
         "lesson_07_narrative_world_character_07_character-function"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114721,8 +114721,8 @@
         "lesson_07_narrative_world_character_08_emergent-narrative"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114757,8 +114757,8 @@
         "lesson_08_prototyping_playtesting_iteration_01_experience-goals"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114793,8 +114793,8 @@
         "lesson_08_prototyping_playtesting_iteration_02_prototype-questions"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114829,8 +114829,8 @@
         "lesson_08_prototyping_playtesting_iteration_03_paper-prototypes"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114865,8 +114865,8 @@
         "lesson_08_prototyping_playtesting_iteration_04_digital-prototypes"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114901,8 +114901,8 @@
         "lesson_08_prototyping_playtesting_iteration_05_kinesthetic-prototypes"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114937,8 +114937,8 @@
         "lesson_08_prototyping_playtesting_iteration_06_playtest-planning"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -114973,8 +114973,8 @@
         "lesson_08_prototyping_playtesting_iteration_07_observation-and-interview"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115009,8 +115009,8 @@
         "lesson_08_prototyping_playtesting_iteration_08_interpreting-feedback"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115045,8 +115045,8 @@
         "lesson_08_prototyping_playtesting_iteration_09_iteration-decisions"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115081,8 +115081,8 @@
         "lesson_09_production_team_community_release_01_design-documentation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115117,8 +115117,8 @@
         "lesson_09_production_team_community_release_02_team-communication"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115153,8 +115153,8 @@
         "lesson_09_production_team_community_release_03_pitching-a-game"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115189,8 +115189,8 @@
         "lesson_09_production_team_community_release_04_scope-and-feasibility"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115225,8 +115225,8 @@
         "lesson_09_production_team_community_release_05_community-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115261,8 +115261,8 @@
         "lesson_09_production_team_community_release_06_griefing-and-moderation"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115297,8 +115297,8 @@
         "lesson_09_production_team_community_release_07_business-model-awareness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115333,8 +115333,8 @@
         "lesson_09_production_team_community_release_08_release-readiness"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115374,8 +115374,8 @@
         "lesson_10_advanced_design_studio_01_design-lens-reviews"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115415,8 +115415,8 @@
         "lesson_10_advanced_design_studio_02_systemic-design-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115456,8 +115456,8 @@
         "lesson_10_advanced_design_studio_03_game-feel-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115497,8 +115497,8 @@
         "lesson_10_advanced_design_studio_04_economy-balance-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115538,8 +115538,8 @@
         "lesson_10_advanced_design_studio_05_narrative-mechanic-integration"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115579,8 +115579,8 @@
         "lesson_10_advanced_design_studio_06_ethical-design-review"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115620,8 +115620,8 @@
         "lesson_10_advanced_design_studio_07_project-overlay-workshop"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115661,8 +115661,8 @@
         "lesson_10_advanced_design_studio_08_capstone-design-review"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115694,8 +115694,8 @@
         "workflow_core-experience-definition"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115727,8 +115727,8 @@
         "workflow_core-experience-definition"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115760,8 +115760,8 @@
         "workflow_core-experience-definition"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115793,8 +115793,8 @@
         "workflow_core-experience-definition"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115826,8 +115826,8 @@
         "workflow_core-experience-definition"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115860,8 +115860,8 @@
         "workflow_core-loop-design"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115896,8 +115896,8 @@
         "workflow_design-lens-review"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115930,8 +115930,8 @@
         "workflow_digital-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115963,8 +115963,8 @@
         "workflow_economy-and-balance"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -115998,8 +115998,8 @@
         "workflow_game-feel-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116030,8 +116030,8 @@
         "workflow_game-idea-to-one-page-concept"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116063,8 +116063,8 @@
         "workflow_iteration-decision"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116096,8 +116096,8 @@
         "workflow_meaningful-decision-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116130,8 +116130,8 @@
         "workflow_narrative-mechanic-alignment"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116164,8 +116164,8 @@
         "workflow_paper-prototype"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116198,8 +116198,8 @@
         "workflow_player-persona-and-audience"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116230,8 +116230,8 @@
         "workflow_playtest-plan"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116265,8 +116265,8 @@
         "workflow_prototype-question"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116299,8 +116299,8 @@
         "workflow_release-readiness-risk-audit"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116332,8 +116332,8 @@
         "workflow_rules-and-formal-elements"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116366,8 +116366,8 @@
         "workflow_skill-chance-challenge"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116400,8 +116400,8 @@
         "workflow_systems-map"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116434,8 +116434,8 @@
         "workflow_ui-feedback"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116469,8 +116469,8 @@
         "workflow_world-and-character-function"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116503,8 +116503,8 @@
         "exercise_ethics_community_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116538,8 +116538,8 @@
         "exercise_game_feel_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116571,8 +116571,8 @@
         "exercise_ideation_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116605,8 +116605,8 @@
         "exercise_meaningful_decision_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116639,8 +116639,8 @@
         "exercise_narrative_world_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116673,8 +116673,8 @@
         "exercise_pitch_release_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116706,8 +116706,8 @@
         "exercise_rules_mechanics_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116740,8 +116740,8 @@
         "exercise_systems_economy_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {
@@ -116774,8 +116774,8 @@
         "exercise_ui_feedback_01"
       ],
       "evidence_refs": [],
-      "created_at": "2026-04-27",
-      "updated_at": "2026-04-27",
+      "created_at": "2026-04-28",
+      "updated_at": "2026-04-28",
       "version": "0.1.0",
       "source_path": "generated_by_importer",
       "raw": {

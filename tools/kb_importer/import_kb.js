@@ -7,7 +7,7 @@ const KB_DIR = path.join(ROOT, "kb");
 const IO_DIR = path.join(KB_DIR, "11_import_export");
 const SCHEMA_DIR = path.join(IO_DIR, "schemas");
 const EXPORT_DIR = path.join(IO_DIR, "export");
-const TODAY = "2026-04-27";
+const TODAY = new Date().toISOString().slice(0, 10);
 
 const SOURCE_BASIS = [
   "open_fulltext",

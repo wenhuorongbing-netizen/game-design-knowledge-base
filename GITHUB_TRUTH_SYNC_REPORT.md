@@ -17,9 +17,9 @@ Evidence Phase 2 may begin after this truth-sync state remains validated. It mus
 | Check | Result |
 |---|---|
 | local branch | `main` |
-| local latest commit before this report update | `91b7670 fix 2` |
-| origin/main latest commit after fetch | `91b7670` |
-| branch relation before this report update | local `HEAD` matched `origin/main` |
+| local latest commit before dynamic export timestamp fix | `68bfb7f Reconcile GitHub truth reports` |
+| origin/main latest commit after first truth-sync push | `68bfb7f` |
+| branch relation before dynamic export timestamp fix | local `HEAD` matched `origin/main` |
 | working-tree status before this report update | clean |
 | root `rebuild_instruction.md` in worktree | absent |
 | root `rebuild_instruction.md` in HEAD | absent |
@@ -103,6 +103,7 @@ Remaining references to those old scopes are negative guardrails, audits, releas
 | validator warnings | 0 |
 | accepted exceptions | 0 |
 | unsafe high-risk records | 0 |
+| import report generated_at | 2026-04-28 |
 
 ## Validator Enforcement
 
