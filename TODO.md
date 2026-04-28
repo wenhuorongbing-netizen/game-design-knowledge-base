@@ -36,6 +36,11 @@
 - [x] Mark Phase 2 first manual note intake as blocked pending user notes.
 - [x] Confirm no fake UserManualNote or EvidenceRef records were created.
 - [ ] User supplies three to five actual user-authored manual notes.
+- [x] Attempt optional first UserManualQuote intake.
+- [x] Create `FIRST_MANUAL_QUOTE_REQUEST.md` because no lawful short user-provided quote was supplied.
+- [x] Create `kb/13_evidence/reports/FIRST_MANUAL_QUOTE_INTAKE_REPORT.md`.
+- [x] Confirm no quote was extracted, generated, rewritten, or used for claim verification.
+- [ ] User optionally supplies one lawful short manual quote.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -120,6 +125,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 gate is ready. The next step is for the user to submit three to five real user-authored manual notes.
+Evidence Phase 2 quote workflow is optional. The next quote-specific step is for the user to submit one lawful short manual quote.
 
-`submit-first-user-manual-notes`
+`submit-first-user-manual-quote`

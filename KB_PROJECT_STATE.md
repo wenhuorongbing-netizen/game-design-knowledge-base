@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked pending user-provided evidence. The repository is ready to receive the first real sidecar and three to five user-authored manual notes, but no evidence has been ingested.
+Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked pending user-provided evidence. Optional first UserManualQuote intake is also pending a lawful short user-provided quote. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, and optionally one short manual quote, but no evidence has been ingested.
 
 ## Verdict
 
@@ -17,11 +17,17 @@ Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked 
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
-- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, blocked pending user evidence. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
+- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, blocked pending user evidence. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Created `FIRST_MANUAL_QUOTE_REQUEST.md` because no lawful short user-provided quote was supplied.
+- Created `kb/13_evidence/reports/FIRST_MANUAL_QUOTE_INTAKE_REPORT.md`.
+- Updated evidence gap records to include the optional first manual quote request.
+- Updated generated manual quote audit output so it reports the optional pending quote workflow.
+- Confirmed no UserManualQuote or EvidenceRef record was created.
+- Confirmed no quote was extracted, generated, rewritten, paraphrased, or used for claim verification.
 - Created `FIRST_MANUAL_NOTES_REQUEST.md` because no three-to-five user-authored manual notes were supplied.
 - Created `kb/13_evidence/reports/FIRST_MANUAL_NOTES_INTAKE_REPORT.md`.
 - Updated evidence gap and priority evidence backlog records to include the blocked first manual note batch.
@@ -199,6 +205,7 @@ Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked 
 - UserManualNote records: 0.
 - First UserManualNote batch status: blocked pending three to five user-authored manual notes.
 - UserManualQuote records: 0.
+- First UserManualQuote intake status: optional, blocked pending one lawful short user-provided quote.
 - Manual quotes generated from source body: 0.
 - EvidenceRef records: 0.
 - ClaimPromotionRequest records: 0.
@@ -236,9 +243,9 @@ Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked 
 
 Next recommended work:
 
-`submit-first-user-manual-notes`
+`submit-first-user-manual-quote`
 
-This next action should ask the user to provide three to five user-authored manual notes using `FIRST_MANUAL_NOTES_REQUEST.md`. It must not parse high-risk source bodies, create fake evidence, upgrade sources automatically, or promote claims.
+This optional next action should ask the user to provide one lawful short quote using `FIRST_MANUAL_QUOTE_REQUEST.md`. It must not extract quotes from source files, create fake quotes, or verify claims.
 
 ## Do-Not-Redo List
 

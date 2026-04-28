@@ -16,6 +16,7 @@ const unsupportedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports
 const verifiedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "VERIFIED_CLAIMS_INDEX.md");
 const firstSidecarRequestPath = path.join(root, "FIRST_SIDECAR_REQUEST.md");
 const firstManualNotesRequestPath = path.join(root, "FIRST_MANUAL_NOTES_REQUEST.md");
+const firstManualQuoteRequestPath = path.join(root, "FIRST_MANUAL_QUOTE_REQUEST.md");
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -92,6 +93,7 @@ const unsafePromotionRequests = promotionRequests.filter((request) => {
 });
 const firstSidecarRequestExists = fs.existsSync(firstSidecarRequestPath);
 const firstManualNotesRequestExists = fs.existsSync(firstManualNotesRequestPath);
+const firstManualQuoteRequestExists = fs.existsSync(firstManualQuoteRequestPath);
 
 const status = unsafeHighRisk.length || unsafeSearch.length || sourcesAllowingAiWithoutSidecar.length || notesNotUserInterpretation.length || quoteTooLong.length || quoteNotUserProvided.length || quoteAutomated.length || verifiedClaimsWithoutLegalEvidence.length || unsafePromotionRequests.length ? "FAIL" : "PASS";
 const lines = [
@@ -244,6 +246,14 @@ const manualQuoteLines = [
   "- Manual quotes must not be generated from source-body extraction.",
   "- Manual quotes over 80 words fail validation.",
   "- Manual quotes from high-risk sources need sidecar review before strong or verified use.",
+  "",
+  "## First Manual Quote Intake",
+  "",
+  `- request_file_exists: ${firstManualQuoteRequestExists}`,
+  `- intake_status: ${manualQuotes.length ? "manual_quote_records_present" : firstManualQuoteRequestExists ? "optional_blocked_pending_user_quote" : "not_started"}`,
+  "- quote_extracted_by_agent: false",
+  "- quote_generated_by_agent: false",
+  "- evidence_refs_created_from_missing_quote: false",
   "",
   "## Records",
   "",
