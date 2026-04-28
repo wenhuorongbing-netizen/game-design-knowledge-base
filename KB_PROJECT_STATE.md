@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked pending user-provided evidence. Optional first UserManualQuote intake is also pending a lawful short user-provided quote. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, and optionally one short manual quote, but no evidence has been ingested.
+Evidence Phase 2 evidence intake and limited claim promotion remain blocked pending user-provided evidence. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, and optionally one short manual quote, but no evidence has been ingested and no claim promotion request can be created yet.
 
 ## Verdict
 
@@ -17,11 +17,17 @@ Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked 
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
-- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, blocked pending user evidence. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
+- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, first claim promotion request report created, blocked pending user evidence. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars, EvidenceRefs, promotion requests, or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Created `kb/13_evidence/reports/FIRST_CLAIM_PROMOTION_REQUESTS_REPORT.md`.
+- Confirmed `LegalSidecar`, `UserManualNote`, `UserManualQuote`, `EvidenceRef`, `ClaimPromotionRequest`, and `ClaimPromotionReview` records are all 0.
+- Confirmed no EvidenceRef records were created from missing evidence.
+- Confirmed no ClaimPromotionRequest records were created because there is no accepted evidence.
+- Confirmed `claim_graph.json` and `CLAIM_GRAPH.md` were not changed because no evidence relationships exist.
+- Confirmed no claim was promoted to `medium`, `strong`, or `verified`.
 - Created `FIRST_MANUAL_QUOTE_REQUEST.md` because no lawful short user-provided quote was supplied.
 - Created `kb/13_evidence/reports/FIRST_MANUAL_QUOTE_INTAKE_REPORT.md`.
 - Updated evidence gap records to include the optional first manual quote request.
@@ -210,6 +216,7 @@ Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked 
 - EvidenceRef records: 0.
 - ClaimPromotionRequest records: 0.
 - ClaimPromotionReview records: 0.
+- First claim promotion request status: blocked pending accepted user/legal evidence.
 - Game Feel entities audited: 108.
 - Game Feel evidence slots created: 108.
 - Meaningful Decisions / Rules / Mechanics entities audited: 239.
@@ -243,9 +250,9 @@ Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked 
 
 Next recommended work:
 
-`submit-first-user-manual-quote`
+`submit-first-user-manual-notes`
 
-This optional next action should ask the user to provide one lawful short quote using `FIRST_MANUAL_QUOTE_REQUEST.md`. It must not extract quotes from source files, create fake quotes, or verify claims.
+This next action should ask the user to provide three to five user-authored manual notes using `FIRST_MANUAL_NOTES_REQUEST.md`. Claim promotion remains blocked until at least one accepted evidence record exists.
 
 ## Do-Not-Redo List
 

@@ -14,6 +14,7 @@ const manualQuoteReportPath = path.join(root, "kb", "13_evidence", "reports", "M
 const claimPromotionAuditPath = path.join(root, "kb", "13_evidence", "reports", "CLAIM_PROMOTION_AUDIT.md");
 const unsupportedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "UNSUPPORTED_CLAIMS_INDEX.md");
 const verifiedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "VERIFIED_CLAIMS_INDEX.md");
+const firstClaimPromotionRequestsReportPath = path.join(root, "kb", "13_evidence", "reports", "FIRST_CLAIM_PROMOTION_REQUESTS_REPORT.md");
 const firstSidecarRequestPath = path.join(root, "FIRST_SIDECAR_REQUEST.md");
 const firstManualNotesRequestPath = path.join(root, "FIRST_MANUAL_NOTES_REQUEST.md");
 const firstManualQuoteRequestPath = path.join(root, "FIRST_MANUAL_QUOTE_REQUEST.md");
@@ -94,6 +95,7 @@ const unsafePromotionRequests = promotionRequests.filter((request) => {
 const firstSidecarRequestExists = fs.existsSync(firstSidecarRequestPath);
 const firstManualNotesRequestExists = fs.existsSync(firstManualNotesRequestPath);
 const firstManualQuoteRequestExists = fs.existsSync(firstManualQuoteRequestPath);
+const firstClaimPromotionRequestsReportExists = fs.existsSync(firstClaimPromotionRequestsReportPath);
 
 const status = unsafeHighRisk.length || unsafeSearch.length || sourcesAllowingAiWithoutSidecar.length || notesNotUserInterpretation.length || quoteTooLong.length || quoteNotUserProvided.length || quoteAutomated.length || verifiedClaimsWithoutLegalEvidence.length || unsafePromotionRequests.length ? "FAIL" : "PASS";
 const lines = [
@@ -311,6 +313,14 @@ const claimPromotionLines = [
   "- `metadata_only`, `unsupported_draft`, and `ai_hypothesis` cannot support verified claims.",
   "- Strong or verified promotion requires legal EvidenceRef records, explicit reviewer, rationale, and evidence-scope alignment.",
   "- Project overlays and playtest logs are local evidence until reviewed; they do not become universal doctrine automatically.",
+  "",
+  "## First Claim Promotion Request Intake",
+  "",
+  `- report_exists: ${firstClaimPromotionRequestsReportExists}`,
+  `- intake_status: ${promotionRequests.length ? "promotion_request_records_present" : firstClaimPromotionRequestsReportExists ? "blocked_pending_accepted_evidence" : "not_started"}`,
+  `- evidence_ref_records_available: ${evidenceRefs.length}`,
+  "- fake_evidence_refs_created: false",
+  "- claims_promoted_to_verified: false",
   "",
   "## Promotion Requests",
   "",

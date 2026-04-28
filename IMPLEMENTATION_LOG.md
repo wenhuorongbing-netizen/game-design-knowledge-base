@@ -1,5 +1,31 @@
 # Implementation Log
 
+## 2026-04-28 - First Claim Promotion Request Gate
+
+Checked whether limited EvidenceRef creation and ClaimPromotionRequest records could be created. No accepted user evidence or legal evidence records exist, so the workflow was blocked.
+
+Actions:
+
+- Read EvidenceRef schema, claim promotion workflow, unsupported/verified claim indexes, first manual note intake report, evidence record folders, and claim graph files.
+- Confirmed `LegalSidecar`, `UserManualNote`, `UserManualQuote`, `EvidenceRef`, `ClaimPromotionRequest`, and `ClaimPromotionReview` record counts are all 0.
+- Created `kb/13_evidence/reports/FIRST_CLAIM_PROMOTION_REQUESTS_REPORT.md`.
+- Updated importer and validator evidence-report ignore rules so the blocked promotion report is not treated as an EvidenceAuditReport entity.
+- Updated `tools/kb_quality/source_audit.js` so generated claim promotion audits expose the blocked first-promotion request state.
+- Updated `KB_PROJECT_STATE.md` and `TODO.md`.
+- Did not invent EvidenceRefs.
+- Did not create ClaimPromotionRequest records.
+- Did not update `claim_graph.json` or `CLAIM_GRAPH.md` because no evidence relationships exist.
+- Did not promote any claim.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `node --check tools/kb_quality/source_audit.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+
 ## 2026-04-28 - Optional First UserManualQuote Intake Request
 
 Checked the optional first manual quote intake. No lawful short user-provided quote was supplied, so no UserManualQuote or EvidenceRef records were created.

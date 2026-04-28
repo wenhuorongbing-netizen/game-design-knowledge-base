@@ -41,6 +41,12 @@
 - [x] Create `kb/13_evidence/reports/FIRST_MANUAL_QUOTE_INTAKE_REPORT.md`.
 - [x] Confirm no quote was extracted, generated, rewritten, or used for claim verification.
 - [ ] User optionally supplies one lawful short manual quote.
+- [x] Attempt limited claim promotion request workflow.
+- [x] Create `kb/13_evidence/reports/FIRST_CLAIM_PROMOTION_REQUESTS_REPORT.md`.
+- [x] Confirm no EvidenceRef records exist to support promotion requests.
+- [x] Confirm no ClaimPromotionRequest records were created from missing evidence.
+- [x] Confirm no claim graph changes or claim promotions occurred.
+- [ ] User supplies accepted user/legal evidence before retrying claim promotion requests.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -125,6 +131,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 quote workflow is optional. The next quote-specific step is for the user to submit one lawful short manual quote.
+Evidence Phase 2 promotion workflow is blocked until accepted evidence exists. The next practical step is for the user to submit three to five real user-authored manual notes.
 
-`submit-first-user-manual-quote`
+`submit-first-user-manual-notes`
