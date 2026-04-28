@@ -29,6 +29,9 @@ Use this table when you know the symptom and need the fastest safe starting poin
 | I need to apply KB knowledge to my actual project. | [First ProjectOverlay Request](../../FIRST_PROJECT_OVERLAY_REQUEST.md) |
 | I need project-local evidence without making universal claims. | [Project Overlay Evidence Template](../13_evidence/manual_notes/project_overlay_evidence_template.md) |
 | I need to know whether a KB item is verified or draft. | [Evidence Dashboard](../13_evidence/EVIDENCE_DASHBOARD.md) |
+| I need to know whether an area is structurally covered or evidence-backed. | [Evidence-Weighted Coverage Matrix](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md) |
+| I want learning routes with evidence status visible. | [Evidence-Weighted Learning Path](evidence_weighted_learning_path.md) |
+| I want design workflows with evidence status visible. | [Evidence-Weighted Designer Path](evidence_weighted_designer_path.md) |
 | I need to find unsupported claims. | [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md) |
 | I need to find verified claims. | [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md) |
 | I want to upgrade a draft claim. | [Claim Promotion Workflow](../13_evidence/CLAIM_PROMOTION_WORKFLOW.md) |

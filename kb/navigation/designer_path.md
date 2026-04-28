@@ -2,6 +2,10 @@
 
 Use this when you have a concrete design problem. Start with the workflow pack because it produces an artifact; use lenses to diagnose; use cards for vocabulary and evidence discipline.
 
+Evidence-weighted version: [Evidence-Weighted Designer Path](evidence_weighted_designer_path.md)
+
+Coverage warning: this path is structural. Use the evidence-weighted path when you need to know whether a route is draft only, metadata only, project-local, playtest-local, user-note backed, or verified.
+
 ## I Need To Apply The KB To My Specific Project
 
 - Intake gate: [First ProjectOverlay Request](../../FIRST_PROJECT_OVERLAY_REQUEST.md)

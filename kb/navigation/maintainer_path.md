@@ -83,6 +83,7 @@ Read:
 - [MIGRATION_EXCEPTIONS_REPORT.md](../../MIGRATION_EXCEPTIONS_REPORT.md)
 - [EVIDENCE_DASHBOARD.md](../13_evidence/EVIDENCE_DASHBOARD.md)
 - [EVIDENCE_STATUS_INDEX.md](../13_evidence/EVIDENCE_STATUS_INDEX.md)
+- [EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md)
 
 ## Evidence Maintenance
 
@@ -94,6 +95,8 @@ Read:
 - Track missing evidence through [Priority Evidence Backlog](../13_evidence/PRIORITY_EVIDENCE_BACKLOG.md) and [Evidence Gap Register](../13_evidence/EVIDENCE_GAP_REGISTER.md).
 - Review [Unsupported Claims Index](../13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md) before creating any promotion request.
 - Review [Verified Claims Index](../13_evidence/reports/VERIFIED_CLAIMS_INDEX.md) before saying the KB has verified claims.
+- Review [Evidence-Weighted Coverage Matrix](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md) before saying an area is evidence-backed.
+- Maintain [Evidence-Weighted Learning Path](evidence_weighted_learning_path.md) and [Evidence-Weighted Designer Path](evidence_weighted_designer_path.md) when new EvidenceRefs, user notes, project overlays, or playtest logs are added.
 
 ## What Not To Edit Manually
 

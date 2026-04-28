@@ -22,7 +22,8 @@ Use this path when your job is to evaluate evidence, provenance, claims, and cov
 5. Inspect claims: [CLAIM_GRAPH.md](../05_cards/CLAIM_GRAPH.md)
 6. Inspect evidence gaps: [EVIDENCE_GAPS.md](../05_cards/EVIDENCE_GAPS.md)
 7. Inspect hallucination risks: [HALLUCINATION_AUDIT.md](../12_quality/HALLUCINATION_AUDIT.md)
-8. Inspect coverage: [COVERAGE_MATRIX.md](../12_quality/COVERAGE_MATRIX.md)
+8. Inspect structural coverage: [COVERAGE_MATRIX.md](../12_quality/COVERAGE_MATRIX.md)
+9. Inspect evidence-weighted coverage: [EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md)
 
 ## Evidence Workflow Index
 
@@ -71,7 +72,11 @@ Do not upgrade a claim to verified unless evidence is legal and explicit.
 
 ## Coverage Matrix
 
-Use [COVERAGE_MATRIX.md](../12_quality/COVERAGE_MATRIX.md) to find weak areas by phase and domain. Coverage is not the same as proof. A domain can have many draft assets and still have weak verified evidence.
+Use [COVERAGE_MATRIX.md](../12_quality/COVERAGE_MATRIX.md) to find weak structural areas by phase and domain.
+
+Use [EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md) to see whether a structurally rich area has actual EvidenceRefs, user notes, manual quotes, project overlays, playtest logs, or verified claims.
+
+Coverage is not proof. A domain can have many draft assets and still have no verified evidence.
 
 ## TODO
 

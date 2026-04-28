@@ -59,6 +59,13 @@
 - [x] Mark first PlaytestLog intake as blocked pending user playtest data.
 - [x] Confirm no fake PlaytestLog, participant, observation, participant quote, tester interpretation, design hypothesis, design decision, next action, or EvidenceRef was created.
 - [ ] User supplies one real playtest packet for the first PlaytestLog.
+- [x] Create evidence-weighted coverage matrix that separates structural coverage from evidence-backed coverage.
+- [x] Create evidence coverage update report.
+- [x] Create evidence navigation update report.
+- [x] Create evidence-weighted learner path.
+- [x] Create evidence-weighted designer path.
+- [x] Update learner, designer, researcher, maintainer, and quick-problem-solver navigation with evidence coverage routes.
+- [x] Confirm evidence-backed counts remain 0 for EvidenceRef, UserManualNote, UserManualQuote, real ProjectOverlay, real PlaytestLog, and verified claims.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -143,6 +150,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 PlaytestLog intake is blocked until real playtest data exists. The next practical step is for the user to submit one real playtest packet.
+Evidence-weighted coverage is now visible. Evidence Phase 2 remains blocked until real user evidence exists. The next practical step is for the user to submit three to five user-authored manual notes.
 
-`submit-first-playtest-log-data`
+`submit-first-user-manual-notes`

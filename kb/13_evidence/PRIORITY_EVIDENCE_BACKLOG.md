@@ -5,6 +5,8 @@ This backlog prioritizes what evidence should be added later. It is not evidence
 | Priority | Target | Evidence Needed | Why It Matters | Allowed Source Basis |
 |---|---|---|---|---|
 | P0 | First manual note batch | Three to five user-authored notes using `FIRST_MANUAL_NOTES_REQUEST.md` | Required before UserManualNote records or EvidenceRefs can be created. | `user_manual_note` |
+| P0 | First project overlay packet | One real project context packet using `FIRST_PROJECT_OVERLAY_REQUEST.md` | Required before project-local coverage can become real evidence. | `derived_from_user_note`, `user_manual_note` |
+| P0 | First playtest log packet | One real playtest packet using `FIRST_PLAYTEST_LOG_REQUEST.md` | Required before playtest-local coverage can become real evidence. | `derived_from_user_note`, `user_manual_note` |
 | P1 | Work registry facts | Official publisher metadata or legal bibliographic records | Stabilizes citations and source audit. | `official_metadata`, `derived_from_public_metadata` |
 | P1 | Core concept cards | User notes or open/legal references that support definitions | Prevents draft concepts from sounding verified. | `user_manual_note`, `open_fulltext`, `user_legal_file` |
 | P1 | Claim graph | EvidenceRefs and promotion reviews | Required before any verified claim. | legal EvidenceRef |

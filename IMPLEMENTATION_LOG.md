@@ -1,5 +1,35 @@
 # Implementation Log
 
+## 2026-04-28 - Evidence-Weighted Coverage And Navigation Update
+
+Updated coverage and navigation so users can distinguish structural coverage from evidence-backed coverage without adding source content, parsing source bodies, promoting claims, or building app features.
+
+Actions:
+
+- Read structural coverage matrix, evidence dashboard, evidence status index, evidence gap register, priority evidence backlog, first intake reports, and learner/designer/researcher/maintainer/quick navigation files.
+- Created `kb/12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md`.
+- Created `kb/13_evidence/reports/EVIDENCE_COVERAGE_UPDATE_REPORT.md`.
+- Created `kb/13_evidence/reports/EVIDENCE_NAVIGATION_UPDATE_REPORT.md`.
+- Created `kb/navigation/evidence_weighted_learning_path.md`.
+- Created `kb/navigation/evidence_weighted_designer_path.md`.
+- Updated learner, designer, researcher, maintainer, and quick-problem-solver navigation with evidence-weighted routes.
+- Updated evidence dashboard and evidence status index with evidence-weighted coverage links.
+- Updated priority evidence backlog with project overlay and playtest log packet dependencies.
+- Updated importer and validator evidence-report ignore rules so the new coverage reports are not treated as EvidenceAuditReport entities.
+- Confirmed structural coverage and evidence coverage are not mixed.
+- Confirmed no user notes, manual quotes, ProjectOverlay records, PlaytestLog records, EvidenceRefs, or verified claims were created.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, claim promotion audit PASS, validation PASS.
+- `npm run kb:coverage`: structural coverage summary regenerated.
+- Navigation link check across evidence-weighted paths and updated navigation files: PASS.
+- Entity count check: 0 EvidenceRef, 0 UserManualNote, 0 UserManualQuote, 0 real ProjectOverlay records, 0 real PlaytestLog records, 0 ClaimPromotionRequest, and 0 verified claims.
+
 ## 2026-04-28 - First PlaytestLog Intake Request
 
 Attempted the first real PlaytestLog intake. No user-provided playtest data was supplied, so no PlaytestLog record, participant, observed fact, participant quote, tester interpretation, design hypothesis, design decision, next action, or EvidenceRef record was created.

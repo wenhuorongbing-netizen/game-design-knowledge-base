@@ -1,8 +1,10 @@
 # Evidence Status Index
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 This index makes evidence state visible without requiring users to inspect raw JSON. It is not proof that any claim is verified.
+
+For domain and phase-level trust, use [Evidence-Weighted Coverage Matrix](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md). It separates structural coverage from metadata-only, user-note, manual-quote, project, playtest, and verified coverage.
 
 ## Status Vocabulary
 

@@ -2,6 +2,10 @@
 
 Use this path if you want to learn game design in a structured order. Each section points to existing KB material and includes an evidence warning because much of the KB is currently draft/source-governed scaffolding.
 
+Evidence-weighted version: [Evidence-Weighted Learning Path](evidence_weighted_learning_path.md)
+
+Coverage warning: this path is structural. Use the evidence-weighted path when you need to know whether a section is draft only, metadata only, project-local, playtest-local, user-note backed, or verified.
+
 ## 1. Foundations Of Game Design
 
 Why it matters: you need to understand what designers actually decide before using advanced frameworks.

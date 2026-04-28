@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Phase 2 evidence intake, ProjectOverlay intake, PlaytestLog intake, and limited claim promotion remain blocked pending user-provided evidence. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, optionally one short manual quote, one real project context packet, and one real playtest packet, but no evidence has been ingested and no claim promotion request can be created yet.
+Evidence Phase 2 evidence intake, ProjectOverlay intake, PlaytestLog intake, evidence-weighted coverage, and limited claim promotion remain blocked pending user-provided evidence. The repository is ready to receive the first real sidecar, three to five user-authored manual notes, optionally one short manual quote, one real project context packet, and one real playtest packet, but no evidence has been ingested and no claim promotion request can be created yet.
 
 ## Verdict
 
@@ -17,11 +17,20 @@ Evidence Phase 2 evidence intake, ProjectOverlay intake, PlaytestLog intake, and
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
-- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, first ProjectOverlay request created, first PlaytestLog request created, first claim promotion request report created, blocked pending user evidence. Sidecar, manual note, manual quote, ProjectOverlay, PlaytestLog, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars, EvidenceRefs, promotion requests, real ProjectOverlay records, real PlaytestLog records, or real evidence records ingested yet
+- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, first optional manual quote request created, first ProjectOverlay request created, first PlaytestLog request created, evidence-weighted coverage matrix created, first claim promotion request report created, blocked pending user evidence. Sidecar, manual note, manual quote, ProjectOverlay, PlaytestLog, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, evidence-weighted navigation, and evidence-aware search fields exist; no approved sidecars, EvidenceRefs, promotion requests, real ProjectOverlay records, real PlaytestLog records, or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Created `kb/12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md`.
+- Created `kb/13_evidence/reports/EVIDENCE_COVERAGE_UPDATE_REPORT.md`.
+- Created `kb/13_evidence/reports/EVIDENCE_NAVIGATION_UPDATE_REPORT.md`.
+- Created `kb/navigation/evidence_weighted_learning_path.md`.
+- Created `kb/navigation/evidence_weighted_designer_path.md`.
+- Updated learner, designer, researcher, maintainer, and quick-problem-solver navigation so structural and evidence-backed coverage are not conflated.
+- Updated evidence dashboard and evidence status index with evidence-weighted coverage links.
+- Updated priority evidence backlog to include first project overlay and first playtest log packets as P0 evidence dependencies.
+- Confirmed global evidence-backed counts remain 0 for EvidenceRef, UserManualNote, UserManualQuote, real ProjectOverlay, real PlaytestLog, and verified claims.
 - Created `FIRST_PLAYTEST_LOG_REQUEST.md` because no real playtest data was supplied.
 - Created `kb/13_evidence/reports/FIRST_PLAYTEST_LOG_INTAKE_REPORT.md`.
 - Updated the PlaytestLog evidence gap report to mark the first intake as blocked pending user playtest data.
@@ -252,6 +261,9 @@ Evidence Phase 2 evidence intake, ProjectOverlay intake, PlaytestLog intake, and
 - Search documents with EvidenceRef records: 0.
 - Search documents with evidence gaps: 657.
 - Search documents with required evidence fields present: 737.
+- Evidence-weighted coverage: structural coverage exists, but EvidenceRef-backed coverage is 0.
+- Evidence-weighted coverage rating: no domain or phase is verified.
+- Entities with evidence gaps: 761.
 - Unsupported or unverified claims indexed: 164.
 - Verified source-backed claims: 0.
 - High-risk body extraction: disabled.
@@ -272,9 +284,9 @@ Evidence Phase 2 evidence intake, ProjectOverlay intake, PlaytestLog intake, and
 
 Next recommended work:
 
-`submit-first-playtest-log-data`
+`submit-first-user-manual-notes`
 
-This next action should ask the user to provide one real playtest packet using `FIRST_PLAYTEST_LOG_REQUEST.md`. Claim promotion remains blocked until at least one accepted evidence record exists.
+This next action should ask the user to provide three to five real user-authored manual notes using `FIRST_MANUAL_NOTES_REQUEST.md`. Claim promotion remains blocked until at least one accepted evidence record exists.
 
 ## Do-Not-Redo List
 

@@ -1,6 +1,6 @@
 # Evidence Dashboard
 
-Date: 2026-04-27
+Date: 2026-04-28
 
 This dashboard is the human entry point for evidence status in the Game Design Knowledgebase. It is generated from source-governed KB exports and evidence reports.
 
@@ -61,6 +61,9 @@ This dashboard is the human entry point for evidence status in the Game Design K
 - [Claim Promotion Workflow](CLAIM_PROMOTION_WORKFLOW.md)
 - [Priority Evidence Backlog](PRIORITY_EVIDENCE_BACKLOG.md)
 - [Evidence Gap Register](EVIDENCE_GAP_REGISTER.md)
+- [Evidence-Weighted Coverage Matrix](../12_quality/EVIDENCE_WEIGHTED_COVERAGE_MATRIX.md)
+- [Evidence-Weighted Learning Path](../navigation/evidence_weighted_learning_path.md)
+- [Evidence-Weighted Designer Path](../navigation/evidence_weighted_designer_path.md)
 - [Verified Claims Index](reports/VERIFIED_CLAIMS_INDEX.md)
 - [Unsupported Claims Index](reports/UNSUPPORTED_CLAIMS_INDEX.md)
 - [Game Feel Evidence Pilot](reports/GAME_FEEL_EVIDENCE_PILOT.md)
