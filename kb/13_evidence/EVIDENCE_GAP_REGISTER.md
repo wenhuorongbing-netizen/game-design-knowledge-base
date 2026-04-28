@@ -9,6 +9,7 @@ This register tracks missing evidence categories. It does not contain source tex
 | egap-003 | Quote cards | User-supplied short quotes or open/legal quote sources | `user_manual_quote`, `open_fulltext`, `user_legal_file` | high | Do not quote high-risk source files. |
 | egap-004 | Book dossiers | Manual notes or legal source sidecars | `user_manual_note`, `user_legal_file` | medium | Current dossier shells remain metadata-safe. |
 | egap-005 | Workflow and lens evidence | Playtest/project use records or source-backed notes | `derived_from_user_note`, `user_manual_note` | medium | Keep workflows/lenses as original draft tools until supported. |
+| egap-006 | First manual note intake | Three to five user-authored notes for game feel, meaningful decisions, systems, economy, and playtesting | `user_manual_note` | high | `FIRST_MANUAL_NOTES_REQUEST.md` created; no notes supplied yet. |
 
 ## Register Rule
 

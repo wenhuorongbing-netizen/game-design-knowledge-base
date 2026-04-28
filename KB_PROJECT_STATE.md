@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Phase 2 first LegalSidecar intake is blocked pending user-provided sidecar data. The repository is ready to receive the first real sidecar, but no evidence has been ingested.
+Evidence Phase 2 first LegalSidecar and first UserManualNote intake are blocked pending user-provided evidence. The repository is ready to receive the first real sidecar and three to five user-authored manual notes, but no evidence has been ingested.
 
 ## Verdict
 
@@ -17,11 +17,17 @@ Evidence Phase 2 first LegalSidecar intake is blocked pending user-provided side
 - Canonical KB root: `kb/`
 - Authoritative pipeline: root `package.json` scripts under `/tools`
 - Root `rebuild_instruction.md`: absent in working tree, HEAD, origin/main, and GitHub raw access
-- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, blocked pending user sidecar. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
+- Evidence intake status: Phase 2 gate ready, first LegalSidecar request created, first manual notes request created, blocked pending user evidence. Sidecar, manual note, manual quote, EvidenceRef graph, claim promotion gate workflows, pilot evidence slots, evidence dashboard, evidence status index, Phase 2 packet template/checklist/review gate, and evidence-aware search fields exist; no approved sidecars or real evidence records ingested yet
 - Private source quarantine: `_private_sources/`
 
 ## Completed This Repair
 
+- Created `FIRST_MANUAL_NOTES_REQUEST.md` because no three-to-five user-authored manual notes were supplied.
+- Created `kb/13_evidence/reports/FIRST_MANUAL_NOTES_INTAKE_REPORT.md`.
+- Updated evidence gap and priority evidence backlog records to include the blocked first manual note batch.
+- Updated generated manual note audit output so it reports the blocked first manual-note request.
+- Confirmed no UserManualNote or EvidenceRef record was created.
+- Confirmed no claim was promoted beyond existing confidence.
 - Created `FIRST_SIDECAR_REQUEST.md` because no user-provided LegalSidecar data was supplied.
 - Updated the sidecar status index and Phase 2 intake review to mark the first sidecar intake as blocked pending user sidecar.
 - Confirmed no LegalSidecar record was created.
@@ -191,6 +197,7 @@ Evidence Phase 2 first LegalSidecar intake is blocked pending user-provided side
 - Sources allowing AI processing: 0.
 - High-risk sources with `process_full_text`: 0.
 - UserManualNote records: 0.
+- First UserManualNote batch status: blocked pending three to five user-authored manual notes.
 - UserManualQuote records: 0.
 - Manual quotes generated from source body: 0.
 - EvidenceRef records: 0.
@@ -229,9 +236,9 @@ Evidence Phase 2 first LegalSidecar intake is blocked pending user-provided side
 
 Next recommended work:
 
-`submit-first-legal-sidecar-data`
+`submit-first-user-manual-notes`
 
-This next action should ask the user to provide the first real LegalSidecar fields listed in `FIRST_SIDECAR_REQUEST.md`. It must not parse high-risk source bodies, create fake evidence, upgrade sources automatically, or promote claims.
+This next action should ask the user to provide three to five user-authored manual notes using `FIRST_MANUAL_NOTES_REQUEST.md`. It must not parse high-risk source bodies, create fake evidence, upgrade sources automatically, or promote claims.
 
 ## Do-Not-Redo List
 

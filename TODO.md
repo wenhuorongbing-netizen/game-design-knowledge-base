@@ -30,6 +30,12 @@
 - [x] Confirm no fake sidecar was created.
 - [x] Confirm no source status was upgraded automatically.
 - [ ] User supplies first LegalSidecar data for one existing `source_document_id` and `work_id`.
+- [x] Attempt first UserManualNote batch intake.
+- [x] Create `FIRST_MANUAL_NOTES_REQUEST.md` because no three-to-five user notes were supplied.
+- [x] Create `kb/13_evidence/reports/FIRST_MANUAL_NOTES_INTAKE_REPORT.md`.
+- [x] Mark Phase 2 first manual note intake as blocked pending user notes.
+- [x] Confirm no fake UserManualNote or EvidenceRef records were created.
+- [ ] User supplies three to five actual user-authored manual notes.
 - [x] Create Phase 2 intake gate.
 - [x] Create user evidence packet template.
 - [x] Create user evidence packet checklist.
@@ -114,6 +120,6 @@
 
 ## Next Exact Prompt
 
-Evidence Phase 2 gate is ready. The next step is for the user to submit the first real LegalSidecar data.
+Evidence Phase 2 gate is ready. The next step is for the user to submit three to five real user-authored manual notes.
 
-`submit-first-legal-sidecar-data`
+`submit-first-user-manual-notes`

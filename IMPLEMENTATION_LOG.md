@@ -1,5 +1,31 @@
 # Implementation Log
 
+## 2026-04-28 - First UserManualNote Intake Request
+
+Attempted the first user manual note batch intake. No three-to-five user-authored manual notes were supplied, so no UserManualNote or EvidenceRef records were created.
+
+Actions:
+
+- Created `FIRST_MANUAL_NOTES_REQUEST.md` with the exact fields and five priority note requests.
+- Created `kb/13_evidence/reports/FIRST_MANUAL_NOTES_INTAKE_REPORT.md`.
+- Updated `kb/13_evidence/EVIDENCE_GAP_REGISTER.md` and `kb/13_evidence/PRIORITY_EVIDENCE_BACKLOG.md`.
+- Updated `tools/kb_quality/source_audit.js` so generated manual note audit reports expose the blocked first-note request.
+- Updated importer and validator evidence-report ignore rules so the blocked-intake report is not treated as an EvidenceAuditReport entity.
+- Updated `KB_PROJECT_STATE.md` and `TODO.md`.
+- Did not invent notes.
+- Did not create EvidenceRef records from missing notes.
+- Did not parse, summarize, quote, embed, or otherwise process source body text.
+- Did not promote claims.
+
+Validation:
+
+- `node --check tools/kb_importer/import_kb.js`: PASS.
+- `node --check tools/validate_kb/validate_kb.js`: PASS.
+- `node --check tools/kb_quality/source_audit.js`: PASS.
+- `npm run kb:export`: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: source governance audit PASS, manual note intake report PASS, validation PASS.
+
 ## 2026-04-28 - First LegalSidecar Intake Request
 
 Attempted the first LegalSidecar intake. No user-provided LegalSidecar data was supplied, so no sidecar record was created.

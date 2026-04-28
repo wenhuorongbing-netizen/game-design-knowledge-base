@@ -15,6 +15,7 @@ const claimPromotionAuditPath = path.join(root, "kb", "13_evidence", "reports", 
 const unsupportedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "UNSUPPORTED_CLAIMS_INDEX.md");
 const verifiedClaimsIndexPath = path.join(root, "kb", "13_evidence", "reports", "VERIFIED_CLAIMS_INDEX.md");
 const firstSidecarRequestPath = path.join(root, "FIRST_SIDECAR_REQUEST.md");
+const firstManualNotesRequestPath = path.join(root, "FIRST_MANUAL_NOTES_REQUEST.md");
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -90,6 +91,7 @@ const unsafePromotionRequests = promotionRequests.filter((request) => {
   return !raw.reviewer || !(raw.rationale || raw.promotion_rationale) || (strongTarget && !(raw.evidence_ref_ids || []).length);
 });
 const firstSidecarRequestExists = fs.existsSync(firstSidecarRequestPath);
+const firstManualNotesRequestExists = fs.existsSync(firstManualNotesRequestPath);
 
 const status = unsafeHighRisk.length || unsafeSearch.length || sourcesAllowingAiWithoutSidecar.length || notesNotUserInterpretation.length || quoteTooLong.length || quoteNotUserProvided.length || quoteAutomated.length || verifiedClaimsWithoutLegalEvidence.length || unsafePromotionRequests.length ? "FAIL" : "PASS";
 const lines = [
@@ -200,6 +202,13 @@ const manualNoteLines = [
   "- Manual notes must use `source_basis: user_manual_note`.",
   "- Manual notes must use `confidence: user_interpretation`.",
   "- Manual notes cannot be treated as source claims without later EvidenceRef and review.",
+  "",
+  "## First Manual Notes Intake",
+  "",
+  `- request_file_exists: ${firstManualNotesRequestExists}`,
+  `- intake_status: ${manualNotes.length ? "manual_note_records_present" : firstManualNotesRequestExists ? "blocked_pending_user_manual_notes" : "not_started"}`,
+  "- fake_notes_created: false",
+  "- evidence_refs_created_from_missing_notes: false",
   "",
   "## Records",
   "",
