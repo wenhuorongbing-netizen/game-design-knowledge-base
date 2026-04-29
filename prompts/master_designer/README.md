@@ -41,3 +41,23 @@ Every template includes:
 - failure modes
 - review checklist
 
+## Runtime Hardening Contract
+
+Every repaired prompt must also include:
+
+- required user input handling;
+- KB context retrieval;
+- capability routing;
+- lens routing;
+- workflow routing;
+- source_basis rules;
+- confidence rules;
+- assumption handling;
+- output artifact format;
+- refusal or caution rules;
+- failure mode checklist;
+- self-review checklist.
+
+## Repair Boundary
+
+Run 001 had no target AI outputs, so these prompt changes are preventive hardening. They do not claim that a specific target model failed at domain routing, lens use, artifact production, or source safety.

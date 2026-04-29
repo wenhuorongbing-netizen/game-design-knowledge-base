@@ -20,6 +20,25 @@ Every prompt in this library must force the AI to:
 - list missing evidence and assumptions;
 - avoid book-specific claims unless legal evidence exists.
 
+## Runtime Hardening Contract
+
+Every prompt template under `prompts/master_designer/` must include a runtime hardening contract with:
+
+- required user input;
+- KB context to retrieve;
+- capability routing;
+- lens routing;
+- workflow routing;
+- source_basis rules;
+- confidence rules;
+- assumption handling;
+- output artifact format;
+- refusal or caution rules;
+- failure mode checklist;
+- self-review checklist.
+
+This contract is preventive hardening. Run 001 did not collect real target AI outputs, so it did not prove prompt-level response failures. The hardening exists to make future benchmark outputs easier to collect, score, and repair without weakening source safety.
+
 ## Prompt Index
 
 | Prompt | File | Master Capability | Primary Output |
@@ -67,3 +86,8 @@ Unless user evidence or legal evidence exists:
 - confidence: `weak`
 - evidence gap: no user notes, legal sidecar, project overlay, or playtest log supports verified claims
 
+## Prompt Repair Status
+
+Date: 2026-04-29
+
+All 20 master designer prompt templates now include the runtime hardening contract. Benchmark scores were not changed.
