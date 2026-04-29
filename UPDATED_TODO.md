@@ -1,43 +1,46 @@
 # Updated TODO
 
-Date: 2026-04-28
+Date: 2026-04-29
 
 ## Completed
 
-- Evidence Phase 2 final review created.
-- Phase 2 audit created.
-- Phase 2 gap backlog created.
-- Phase 3 roadmap created.
-- Evidence record directories checked.
-- Source-governance safety reviewed.
-- Evidence-weighted coverage baseline reviewed.
-- Master Framework Phase goal created.
-- AI Game Design Master definition created.
-- Master capability matrix created.
-- AI allowed/prohibited behavior rules created.
-- Next 10 development steps created.
+- Master Framework acceptance review created.
+- Benchmark smoke and regression run scaffolds created.
+- Benchmark expanded to at least 100 cases.
+- Benchmark dashboards and scoreboards created.
+- Prompt library repaired for stronger diagnostic, artifact, and source-safety behavior.
+- Routing layer repaired for problem-to-capability, lens, workflow, and artifact selection.
+- AI Master Runtime Pack created.
+- Runtime Pack acceptance review created.
+- Benchmark acceptance review created.
+- Readiness report updated for the benchmark/runtime hardening phase.
 
 ## Current Blockers
 
+- Target AI outputs have not been supplied.
+- Benchmark responses cannot be scored until raw target outputs exist.
+- Capability and domain readiness remain not_tested until real scoring exists.
 - User has not supplied a legal sidecar.
-- User has not supplied three to five manual notes.
-- User has not supplied an optional short manual quote.
+- User has not supplied manual notes.
+- User has not supplied an optional lawful short manual quote.
 - User has not supplied real project context.
 - User has not supplied real playtest data.
-- EvidenceRef creation is blocked until accepted evidence exists.
-- Claim promotion is blocked until EvidenceRefs exist.
 
 ## Next Engineering Work
 
-Build the master prompt router that maps user requests to the 14 master capabilities, then create operating guides for each capability.
-
-## Later User Evidence Input
-
-Evidence intake remains blocked until the user supplies legal sidecars, user manual notes, optional lawful short quotes, project context, or playtest data. Game Feel notes are no longer the default immediate next step.
+Run the prepared benchmark against a real target AI and collect raw responses. Do not score missing responses and do not fabricate outputs.
 
 ## Next Exact Prompt
 
-`build-master-prompt-router`
+`begin-first-target-ai-benchmark-run-with-real-outputs`
+
+## Later Work
+
+- Score collected benchmark outputs.
+- Repair prompts and routing only from real failures.
+- Begin user reading notes intake only after the user supplies actual notes.
+- Begin evidence-backed claim work only after EvidenceRefs exist.
+- Begin project/playtest workflows only after real user project or playtest data exists.
 
 ## Ongoing Rules
 
@@ -45,4 +48,5 @@ Evidence intake remains blocked until the user supplies legal sidecars, user man
 - Do not summarize copyrighted books.
 - Do not extract quotes from source files.
 - Do not invent legal sidecars, user notes, quotes, projects, or playtests.
+- Do not invent benchmark outputs or benchmark scores.
 - Do not promote claims without EvidenceRefs and reviewer rationale.

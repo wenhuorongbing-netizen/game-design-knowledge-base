@@ -1,80 +1,77 @@
 # Updated Next Development Plan
 
-Date: 2026-04-28
+Date: 2026-04-29
 
 ## Current Gate
 
-Evidence Phase 2 review is complete. Evidence ingestion remains blocked until the user supplies real evidence. Immediate development has been refocused to the Master Framework Phase.
+The AI Master Framework and Runtime Pack are structurally ready. The next gate is empirical: collect real target AI outputs and score them without fabricating results.
 
-## Phase 3 - Master Framework Phase
+## Next Phase - First Target AI Benchmark Run
 
-Goal: organize the whole field of game design into AI-usable master capabilities.
+Goal: determine whether a target AI actually behaves like a game design master when using the KB runtime pack.
 
 Tasks:
 
-- Build a master prompt router.
-- Create capability operating guides for the 14 master capabilities.
-- Build expert question banks by phase and domain.
-- Create artifact templates for briefs, loop maps, decision matrices, system maps, audits, playtest plans, and pitch outlines.
-- Create lens bundle presets for common reviews.
-- Define tutor modes for beginner, intermediate, advanced, and professional users.
-- Add confidence-aware response rules.
+- Select the target AI and record its identity.
+- Load or provide the Runtime Pack and required benchmark context.
+- Run the 20 cases in `AI_MASTER_BENCHMARK_RUN_002.md`.
+- Preserve raw target responses exactly.
+- Mark missing responses as waiting_for_target_ai_output.
+- Score only collected responses using `AI_MASTER_SCORING_RUBRIC.md`.
+- Flag all P0 failures without minimizing them.
+- Update benchmark comparison, regression report, capability scoreboard, and domain scoreboard from real scores only.
 
 Acceptance criteria:
 
-- No source body parsing.
-- No fabricated evidence.
-- No claim promotion.
-- AI outputs carry source and confidence boundaries.
-- Validation passes with 0 P0 issues and 0 warnings.
+- No fake target outputs.
+- No scores for missing responses.
+- No private source parsing.
+- No fabricated evidence, sidecars, user notes, projects, or playtests.
+- P0 source-safety failures are explicitly reported.
+- Validation passes after reports are updated.
 
-Next prompt: `build-master-prompt-router`
+Next prompt: `begin-first-target-ai-benchmark-run-with-real-outputs`
 
-## Later Phase - Limited Claim Review
+## Later Phase - Runtime Repair From Real Failures
 
-Goal: Review a small set of evidence-linked claims.
+Goal: repair only the failure modes observed in real benchmark outputs.
 
 Tasks:
 
-- Evaluate evidence scope and limitations.
-- Reject or block overbroad promotion requests.
-- Update unsupported and verified claim indexes.
-- Keep metadata-only claims out of verified status.
+- Analyze recurring P0/P1/P2 failures.
+- Update prompt templates and routing rules only where evidence supports the repair.
+- Re-run the same benchmark cases to measure regression.
+- Keep Run 001/Run 002 history intact.
 
 Acceptance criteria:
 
-- Every promotion request has EvidenceRefs, reviewer, rationale, and limitations.
-- No project-local or playtest-local observation becomes general doctrine without review.
+- Repairs trace to real benchmark evidence.
+- Score improvements are measured, not assumed.
+- Source-safety rules are not weakened.
 
-## Later Phase - Optional Project And Playtest Evidence
+## Later Phase - User Reading Notes Intake
 
-Goal: Add first real project/playtest evidence only if the user supplies it.
+Goal: begin source-backed evidence only when the user supplies actual manual notes and legal context.
 
 Tasks:
 
-- Intake one ProjectOverlay packet.
-- Intake one PlaytestLog packet.
-- Keep project and playtest claims scoped locally.
-- Link to relevant Game Feel cards, lenses, and workflows.
+- Intake one legal sidecar or create a request if absent.
+- Intake three to five user-authored notes if supplied.
+- Create EvidenceRefs only from accepted user evidence.
+- Promote no claim beyond evidence scope.
+
+Acceptance criteria:
+
+- User evidence is real and explicitly marked.
+- No high-risk source body is parsed.
+- Verified claims remain blocked until legal evidence and review exist.
+
+## Later Phase - Project Or Playtest Evidence
+
+Goal: add project-local evidence only after the user has an actual game concept, project overlay, or playtest record.
 
 Acceptance criteria:
 
 - No fake project.
 - No fake playtest.
-- Observations, interpretation, hypotheses, decisions, and next actions are separated.
-
-## Later Phase - Evidence Release Refresh
-
-Goal: Publish an evidence-weighted update after real evidence exists.
-
-Tasks:
-
-- Regenerate exports.
-- Run validation, audit, and coverage commands.
-- Update evidence dashboard, coverage matrix, and navigation.
-- Issue a focused release report for the Game Feel evidence domain.
-
-Acceptance criteria:
-
-- Structural coverage and evidence-backed coverage remain separate.
-- Draft and verified states are visible in search and navigation.
+- Project/playtest claims remain local unless separately reviewed.

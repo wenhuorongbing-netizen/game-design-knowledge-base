@@ -6,69 +6,51 @@ Date: 2026-04-29
 
 | Dimension | Status | Notes |
 |---|---|---|
-| Master goal clarity | READY | `MASTER_GOAL.md` clearly defines the AI Game Design Master objective. |
-| Capability coverage | READY | 14 master capabilities cover design direction, systems, play, feel, UI, narrative, prototyping, testing, production, ethics, and tutoring. |
-| Domain routing | READY | Domains route to capabilities, works, lenses, workflows, and outputs. |
-| Book routing | READY_WITH_SOURCE_LIMITS | Works are mapped to capabilities using metadata/source-safe routing. |
-| Problem-first usage | READY | `MASTER_PROBLEM_SOLVER_INDEX.md` lets users start from design problems. |
-| Prompt library | READY | 20 master designer prompt templates exist. |
-| Evaluation benchmark | READY | 50 test cases, scoring rubric, failure modes, and acceptance process exist. |
-| Learning path | READY | 7-day, 30-day, and 90-day plans are capability-based. |
-| Source governance | READY | High-risk sources remain metadata-only; fake evidence is blocked. |
-| Verified masterclass evidence | NOT_READY | Requires user/legal evidence. |
+| Draft/source-governed KB | ACCEPTED | Governance, schemas, validation, navigation, exports, and source controls are in place. |
+| AI Game Design Master Framework | ACCEPTED | Capabilities, domains, prompt library, routing, problem index, reading pipeline, and learning path exist. |
+| AI Master Runtime Pack | ACCEPTED | Runtime procedures are usable for guided design conversations with source/confidence boundaries. |
+| AI Benchmark Readiness | BLOCKED_PENDING_TARGET_AI_OUTPUTS | Benchmarks are prepared, but no real target AI responses have been collected or scored. |
+| Verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE | No legal sidecars, user notes, manual quotes, EvidenceRefs, or verified claims exist. |
 
-## What The AI Can Do Now
+## What Is Ready
 
-The AI can safely:
+- The KB can guide a user or AI through game design domains, capabilities, lenses, workflows, and learning paths.
+- The AI runtime pack can route vague ideas, design problems, teaching requests, reading guidance, and audit requests into structured response formats.
+- The benchmark harness can test AI behavior across smoke, regression, adversarial, capability, and domain cases.
+- Source governance remains explicit: high-risk/private sources are metadata-only unless a legal/user evidence workflow permits more.
 
-- review vague game ideas;
-- define core experience hypotheses;
-- generate design questions;
-- run lens-based design reviews;
-- audit meaningful decisions;
-- map systems and economy risks;
-- diagnose game feel and UI feedback;
-- align narrative and mechanics;
-- create prototype and playtest plans;
-- teach concepts with source/confidence caveats;
-- compare frameworks cautiously;
-- detect unsupported claims;
-- generate original exercises;
-- produce design decision logs.
+## What Is Not Ready
 
-## What The AI Must Not Do Yet
+- No AI model has been behaviorally accepted as a game design master because target outputs are missing.
+- No benchmark score should be treated as real until raw target responses are collected and preserved.
+- No book-specific doctrine is verified because the repository has no user/legal evidence records.
+- No project or playtest evidence exists because the user has not supplied a real project context or playtest log.
 
-The AI must not:
+## Current Benchmark State
 
-- claim verified book doctrine from high-risk/private sources;
-- summarize private book chapters;
-- extract quotes;
-- fabricate user notes;
-- fabricate legal sidecars;
-- fabricate playtest observations;
-- promote claims to verified;
-- treat draft scaffolds as source-backed masterclass content.
+| Benchmark Asset | Status |
+|---|---|
+| Smoke Run 001 | prepared, waiting for target AI outputs |
+| Regression Run 002 | prepared, waiting for target AI outputs |
+| Expanded benchmark | 100 test cases defined |
+| Response logs | empty or waiting |
+| Score files | 0 cases scored |
+| Capability scoreboard | all capabilities not_tested |
+| Domain scoreboard | all domains not_tested |
 
-## Readiness Verdicts
+## Final Readiness Verdicts
 
-| Target | Verdict | Explanation |
-|---|---|---|
-| Draft/source-governed KB | ACCEPTED | Framework, governance, validation, navigation, and outputs are in place. |
-| AI Game Design Master Framework | ACCEPTED | AI behavior, prompt, benchmark, and learning systems are ready for testing. |
-| Verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE | Needs lawful user notes/evidence before verification. |
+| Target | Verdict |
+|---|---|
+| Draft/source-governed KB | ACCEPTED |
+| AI Game Design Master Framework | ACCEPTED |
+| AI Master Runtime Pack | ACCEPTED |
+| AI Benchmark Readiness | BLOCKED_PENDING_TARGET_AI_OUTPUTS |
+| Verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE |
 
 ## Next Best Action
 
-Begin AI output benchmark testing.
+Begin the first target AI benchmark run with real outputs.
 
-Rationale:
-
-- It does not require private book processing.
-- It tests the actual value of the master framework.
-- It can reveal prompt/router weaknesses before adding more structure.
-- It keeps the system honest about draft versus verified status.
-
-## Exact Next Prompt
-
-`run-ai-master-benchmark-smoke-test`
+This is the correct next step because the framework is structurally ready, evidence intake is blocked pending user evidence, and behavioral acceptance now depends on observing actual target AI responses.
 
