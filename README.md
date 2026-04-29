@@ -13,6 +13,8 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `kb/` is the canonical source-governed knowledgebase.
 - `START_HERE.md` is the role-based entry point for new users.
 - `KB_REBUILD_INSTRUCTION.md` is the active maintenance and rebuild instruction.
+- `MASTER_GOAL.md` defines the current AI Game Design Master Framework objective.
+- `MASTER_CAPABILITY_MATRIX.md` maps the AI master capabilities across game design domains.
 - `kb/navigation/` contains learner, designer, researcher, maintainer, source-governance, and quick problem-solving paths.
 - `tools/validate_kb/` contains the repository validator.
 - `tools/kb_importer/` is the authoritative export/import pipeline.
@@ -55,6 +57,8 @@ Verified source-backed masterclass release remains blocked until legal sidecars,
 ## Navigation
 
 If you are new to the repository, start with [START_HERE.md](START_HERE.md).
+
+If you are developing the AI Game Design Master Framework, start with [MASTER_GOAL.md](MASTER_GOAL.md), then [MASTER_FRAMEWORK_PHASE_PLAN.md](MASTER_FRAMEWORK_PHASE_PLAN.md), then [MASTER_CAPABILITY_MATRIX.md](MASTER_CAPABILITY_MATRIX.md).
 
 If you are maintaining or rebuilding the repository, use [KB_REBUILD_INSTRUCTION.md](KB_REBUILD_INSTRUCTION.md).
 

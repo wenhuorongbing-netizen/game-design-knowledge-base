@@ -24,4 +24,23 @@ Validation:
 
 Next:
 
-- Start Phase 3 only after user supplies Game Feel evidence notes or explicitly asks for the narrow-domain request packet.
+- As of 2026-04-29, the immediate next phase is the Master Framework Phase.
+- Game Feel evidence intake is a future option only after the user supplies evidence or explicitly chooses that domain.
+
+## 2026-04-29 - Master Framework Phase Refocus
+
+Actions:
+
+- Added `MASTER_GOAL.md`.
+- Added `MASTER_FRAMEWORK_PHASE_PLAN.md`.
+- Added `AI_GAME_DESIGN_MASTER_DEFINITION.md`.
+- Added `MASTER_CAPABILITY_MATRIX.md`.
+- Added `WHAT_THE_AI_SHOULD_BE_ABLE_TO_DO.md`.
+- Added `WHAT_THE_AI_MUST_NOT_CLAIM.md`.
+- Added `NEXT_10_DEVELOPMENT_STEPS.md`.
+- Updated `README.md` and `START_HERE.md` with Master Framework entry links.
+- Marked `EVIDENCE_PHASE_3_ROADMAP.md` as a future evidence option, not the immediate default.
+
+Next:
+
+- Build the master prompt router with `build-master-prompt-router`.

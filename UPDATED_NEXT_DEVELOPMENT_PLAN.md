@@ -4,34 +4,33 @@ Date: 2026-04-28
 
 ## Current Gate
 
-Evidence Phase 2 review is complete. Evidence ingestion remains blocked until the user supplies real evidence.
+Evidence Phase 2 review is complete. Evidence ingestion remains blocked until the user supplies real evidence. Immediate development has been refocused to the Master Framework Phase.
 
-## Phase 3 - Game Feel Evidence Intake
+## Phase 3 - Master Framework Phase
 
-Goal: Add the first narrow-domain evidence packet for Game Feel.
+Goal: organize the whole field of game design into AI-usable master capabilities.
 
 Tasks:
 
-- Receive three to five user-authored Game Feel manual notes.
-- Optionally receive one legal sidecar.
-- Optionally receive one lawful short user-provided quote.
-- Validate notes, source basis, confidence, and target links.
-- Create EvidenceRefs only from accepted evidence.
-- Review five to ten Game Feel claims.
-- Draft three to five limited promotion requests only to `user_interpretation` or `weak`.
-- Build a Game Feel evidence dossier.
-- Refresh evidence-weighted coverage.
+- Build a master prompt router.
+- Create capability operating guides for the 14 master capabilities.
+- Build expert question banks by phase and domain.
+- Create artifact templates for briefs, loop maps, decision matrices, system maps, audits, playtest plans, and pitch outlines.
+- Create lens bundle presets for common reviews.
+- Define tutor modes for beginner, intermediate, advanced, and professional users.
+- Add confidence-aware response rules.
 
 Acceptance criteria:
 
 - No source body parsing.
 - No fabricated evidence.
-- No verified claim unless legal evidence and prior review explicitly justify it.
+- No claim promotion.
+- AI outputs carry source and confidence boundaries.
 - Validation passes with 0 P0 issues and 0 warnings.
 
-Next prompt: `start-evidence-phase-3-game-feel-user-notes`
+Next prompt: `build-master-prompt-router`
 
-## Phase 4 - Limited Claim Review
+## Later Phase - Limited Claim Review
 
 Goal: Review a small set of evidence-linked claims.
 
@@ -47,7 +46,7 @@ Acceptance criteria:
 - Every promotion request has EvidenceRefs, reviewer, rationale, and limitations.
 - No project-local or playtest-local observation becomes general doctrine without review.
 
-## Phase 5 - Optional Project And Playtest Evidence
+## Later Phase - Optional Project And Playtest Evidence
 
 Goal: Add first real project/playtest evidence only if the user supplies it.
 
@@ -64,7 +63,7 @@ Acceptance criteria:
 - No fake playtest.
 - Observations, interpretation, hypotheses, decisions, and next actions are separated.
 
-## Phase 6 - Evidence Release Refresh
+## Later Phase - Evidence Release Refresh
 
 Goal: Publish an evidence-weighted update after real evidence exists.
 

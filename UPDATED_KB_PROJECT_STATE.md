@@ -4,7 +4,7 @@ Date: 2026-04-28
 
 ## Current Milestone
 
-Evidence Phase 2 final review complete.
+Master Framework Phase started after Evidence Phase 2 safety review.
 
 ## Current Status
 
@@ -15,6 +15,7 @@ Evidence Phase 2 final review complete.
 | draft/source-governed KB | accepted |
 | verified source-backed masterclass | blocked pending more user evidence |
 | Evidence Phase 2 | blocked pending user input |
+| Master Framework Phase | active |
 | source governance | pass |
 | validation | pass |
 | evidence-weighted coverage | baseline created |
@@ -26,6 +27,8 @@ Evidence Phase 2 final review complete.
 - Confirmed all first evidence workflows are blocked pending user input.
 - Confirmed evidence-weighted coverage separates structure from trust.
 - Created Phase 2 acceptance review, audit, gap backlog, and Phase 3 roadmap.
+- Refocused immediate development to the AI Game Design Master Framework.
+- Created master goal, master definition, capability matrix, AI ability rules, AI prohibition rules, and next development steps.
 
 ## Current Counts
 
@@ -52,9 +55,9 @@ High-risk sources remain metadata-only. No source body was parsed, summarized, q
 
 ## Next Action
 
-Start Phase 3 only after the user supplies Game Feel evidence notes or explicitly requests creation of the narrow-domain request packet.
+Build the master prompt router and capability operating guides. Evidence intake resumes only after the user supplies notes, sidecars, project context, or playtest data.
 
-Next exact prompt: `start-evidence-phase-3-game-feel-user-notes`
+Next exact prompt: `build-master-prompt-router`
 
 ## Do Not Redo
 

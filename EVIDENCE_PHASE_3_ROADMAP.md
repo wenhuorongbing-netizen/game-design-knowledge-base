@@ -2,6 +2,12 @@
 
 Date: 2026-04-28
 
+## Superseded Immediate Default
+
+This roadmap is retained as a future evidence-intake option, not the immediate next phase.
+
+As of 2026-04-29, the user has refocused the repository toward the Master Framework Phase. The current default is to organize the whole field of game design into AI-usable master capabilities. Game Feel evidence intake should resume only after the user supplies reading notes, legal sidecars, or explicitly chooses Game Feel as the active evidence domain.
+
 ## Chosen Narrow Domain
 
 Game Feel
@@ -71,6 +77,8 @@ Phase 3 must not mass-verify claims.
 - Verified claims remain blocked unless legal evidence is unusually strong and reviewed.
 - Evidence-weighted coverage updates distinguish structural coverage from evidence-backed coverage.
 
-## Exact Next Prompt
+## Future Evidence Prompt
 
-`start-evidence-phase-3-game-feel-user-notes`
+Use `start-evidence-phase-3-game-feel-user-notes` only if the user explicitly chooses to resume Game Feel evidence intake and supplies or requests user-note evidence for that domain.
+
+Current default next prompt: `build-master-prompt-router`

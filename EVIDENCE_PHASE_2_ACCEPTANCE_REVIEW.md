@@ -71,8 +71,12 @@ Evidence Phase 2: blocked pending user input, with all safety gates functioning.
 - One real ProjectOverlay packet, if project application evidence is available.
 - One real PlaytestLog packet, if playtest evidence is available.
 
+## Refocus Addendum
+
+As of 2026-04-29, the immediate next phase is the Master Framework Phase, not Game Feel evidence intake.
+
+Evidence intake remains available later when the user supplies legal sidecars, manual notes, project context, or playtest records.
+
 ## Exact Next Prompt
 
-`start-evidence-phase-3-game-feel-user-notes`
-
-Use that prompt only when the user is ready to provide Game Feel evidence notes or explicitly wants to create request files for that narrow domain.
+`build-master-prompt-router`

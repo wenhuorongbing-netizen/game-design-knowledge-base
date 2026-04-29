@@ -11,6 +11,11 @@ Date: 2026-04-28
 - Evidence record directories checked.
 - Source-governance safety reviewed.
 - Evidence-weighted coverage baseline reviewed.
+- Master Framework Phase goal created.
+- AI Game Design Master definition created.
+- Master capability matrix created.
+- AI allowed/prohibited behavior rules created.
+- Next 10 development steps created.
 
 ## Current Blockers
 
@@ -22,20 +27,17 @@ Date: 2026-04-28
 - EvidenceRef creation is blocked until accepted evidence exists.
 - Claim promotion is blocked until EvidenceRefs exist.
 
-## Next Required User Input
+## Next Engineering Work
 
-Provide three to five Game Feel manual notes, preferably covering:
+Build the master prompt router that maps user requests to the 14 master capabilities, then create operating guides for each capability.
 
-- game feel
-- real-time control
-- responsiveness
-- tightness or floatiness
-- input / response / context / polish metrics
-- game feel audit workflow, if applied to a real prototype
+## Later User Evidence Input
+
+Evidence intake remains blocked until the user supplies legal sidecars, user manual notes, optional lawful short quotes, project context, or playtest data. Game Feel notes are no longer the default immediate next step.
 
 ## Next Exact Prompt
 
-`start-evidence-phase-3-game-feel-user-notes`
+`build-master-prompt-router`
 
 ## Ongoing Rules
 

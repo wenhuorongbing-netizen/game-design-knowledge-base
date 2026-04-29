@@ -23,6 +23,13 @@ Open these in order:
 3. [kb/START_HERE.md](kb/START_HERE.md)
 4. [kb/INDEX.md](kb/INDEX.md)
 
+Current strategic phase:
+
+- [MASTER_GOAL.md](MASTER_GOAL.md)
+- [MASTER_FRAMEWORK_PHASE_PLAN.md](MASTER_FRAMEWORK_PHASE_PLAN.md)
+- [AI_GAME_DESIGN_MASTER_DEFINITION.md](AI_GAME_DESIGN_MASTER_DEFINITION.md)
+- [MASTER_CAPABILITY_MATRIX.md](MASTER_CAPABILITY_MATRIX.md)
+
 If you only need a fast design answer, use [kb/DESIGNER_WORKFLOWS.md](kb/DESIGNER_WORKFLOWS.md).
 
 ## Role-Based Navigation
