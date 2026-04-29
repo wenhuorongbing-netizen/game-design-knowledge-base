@@ -8,6 +8,10 @@ This map routes user problems to practical workflow packs and output artifacts.
 
 The AI should use this when the user needs action, not only explanation.
 
+## Runtime Routing Hardening
+
+Use `AI_MASTER_ROUTING_DECISION_TREE.md` to identify the route and `AI_MASTER_OUTPUT_ARTIFACT_ROUTER.md` to choose the expected artifact. Select one start workflow and at most one supporting workflow unless the user asks for a deep review.
+
 ## Workflow Routing
 
 | Problem | Start Workflow | Supporting Workflow | Minimum Required Input | Output Artifact |
@@ -41,6 +45,8 @@ If the user lacks a complete project, the AI should still produce:
 
 The AI should not require a full game project unless the requested output is explicitly project-specific.
 
+The AI should ask only the minimum required questions from `AI_MASTER_MINIMUM_INPUT_QUESTIONS.md`, then proceed with a bounded draft.
+
 ## Workflow Confidence
 
 Most workflow outputs are:
@@ -49,4 +55,3 @@ Most workflow outputs are:
 - confidence: `weak` or `unsupported_draft`
 
 If the user supplies manual notes or project data later, the confidence can be revisited through the evidence workflow.
-

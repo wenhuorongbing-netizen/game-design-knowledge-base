@@ -16,6 +16,17 @@ The user should not need to understand the folder structure before asking for he
 - No book body text is parsed or summarized.
 - All recommendations are source-governed scaffolds unless user notes, legal evidence, project overlays, or playtest logs later support stronger claims.
 
+## Runtime Routing Hardening
+
+Use this file as the problem-first index, then apply:
+
+- `AI_MASTER_ROUTING_RULES.md` for trigger phrases, capability selection, lenses, workflows, source rules, and misrouting risks.
+- `AI_MASTER_ROUTING_DECISION_TREE.md` for stepwise route selection.
+- `AI_MASTER_MINIMUM_INPUT_QUESTIONS.md` to avoid over-questioning.
+- `AI_MASTER_OUTPUT_ARTIFACT_ROUTER.md` to produce concrete artifacts.
+
+Minimum question rule: ask only the smallest set of high-leverage questions needed to proceed, usually 1 to 3. If information is missing, produce a partial artifact with assumptions rather than stalling.
+
 ## Problem Solver Overview
 
 | Problem | Likely Domain | Lead Capability | Output Artifact |
@@ -290,4 +301,3 @@ For any problem route, AI should produce:
 - evidence required;
 - what AI is not assuming;
 - source_basis and confidence.
-

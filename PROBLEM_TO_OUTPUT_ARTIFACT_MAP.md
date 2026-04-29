@@ -8,6 +8,10 @@ This map ensures the AI responds to design problems with concrete artifacts inst
 
 Each artifact can be produced without an active game project by using placeholders, assumptions, and evidence gaps.
 
+## Runtime Routing Hardening
+
+Use `AI_MASTER_OUTPUT_ARTIFACT_ROUTER.md` as the artifact-first runtime router. Every answer should produce the expected artifact, a partial artifact, or a clear reason why an artifact cannot be produced safely.
+
 ## Artifact Routing
 
 | Problem | Output Artifact | Artifact Sections | Evidence Required | AI Must Not Assume |
@@ -40,6 +44,8 @@ Each artifact should include:
 - confidence;
 - next action.
 
+If user input is incomplete, fields should be marked `unknown`, `assumption`, or `needs_user_input`; they should not be invented.
+
 ## Default Source/Confidence
 
 Unless evidence exists:
@@ -47,4 +53,3 @@ Unless evidence exists:
 - source_basis: `unsupported_draft`
 - confidence: `weak`
 - evidence gap: no user notes, project evidence, or playtest evidence yet
-

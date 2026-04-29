@@ -8,6 +8,10 @@ This map tells the user what to read next based on a design problem, without imp
 
 The listed works are reading priorities and capability routes only.
 
+## Runtime Routing Hardening
+
+Use reading routes only when the user asks what to study, asks for theory context, or needs user notes to upgrade the KB. Reading recommendations are not evidence, summaries, or verified author claims.
+
 ## Reading Routes
 
 | Problem | First Reading Route | Secondary Reading Route | Notes To Capture |
@@ -51,3 +55,6 @@ The AI must not:
 - teach exact book definitions;
 - promote the reading route to verified evidence.
 
+Default source_basis for reading routes: `metadata_only`.
+
+Default confidence: `weak`.

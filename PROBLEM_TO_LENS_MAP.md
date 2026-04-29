@@ -8,6 +8,12 @@ This map lets the AI choose diagnostic lenses from the user's problem statement.
 
 All lenses are original KB scaffolds and remain unverified unless supported by future evidence.
 
+## Runtime Routing Hardening
+
+Use `AI_MASTER_ROUTING_RULES.md` before selecting lenses. The AI should select lenses after identifying the problem route, primary capability, and desired output artifact.
+
+Lens selection should be narrow and purposeful. Do not choose every lens in a domain.
+
 ## Lens Routing
 
 | Problem | Primary Lenses | Secondary Lenses | Review Output |
@@ -40,6 +46,8 @@ Use:
 
 Do not run all possible lenses. The AI should choose the smallest useful set.
 
+If the user has not supplied an artifact, use fewer lenses and produce a partial artifact with assumptions.
+
 ## Source Rule
 
 The AI may use lens questions as original diagnostic scaffolds.
@@ -50,4 +58,3 @@ The AI must not claim:
 - that a book verifies them;
 - that the review is source-backed;
 - that the user has project evidence.
-
