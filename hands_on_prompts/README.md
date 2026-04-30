@@ -13,6 +13,8 @@ This folder contains copy-paste prompts for actual user use. These prompts are s
 
 ## How To Pick A Prompt
 
+If you are unsure, use [../HANDS_ON_PROMPT_SELECTION_GUIDE.md](../HANDS_ON_PROMPT_SELECTION_GUIDE.md).
+
 | Need | Prompt |
 |---|---|
 | Shape an idea | [P01_review_my_game_idea.md](P01_review_my_game_idea.md) |

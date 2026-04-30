@@ -7,11 +7,12 @@ Use this when you want to copy one prompt, paste your idea or question, and rece
 ## How To Use
 
 1. Open [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
-2. Open the prompt file that matches your task.
-3. Copy the prompt block.
-4. Replace the bracketed fields.
-5. Paste into your AI.
-6. Check the output with [FIRST_USE_CHECKLIST.md](FIRST_USE_CHECKLIST.md).
+2. If you are unsure which prompt to use, open [HANDS_ON_PROMPT_SELECTION_GUIDE.md](HANDS_ON_PROMPT_SELECTION_GUIDE.md).
+3. Open the prompt file that matches your task.
+4. Copy the prompt block.
+5. Replace the bracketed fields.
+6. Paste into your AI.
+7. Check the output with [FIRST_USE_CHECKLIST.md](FIRST_USE_CHECKLIST.md).
 
 ## Prompt Index
 
@@ -62,3 +63,9 @@ Unless the user supplies real legal/user/project/playtest evidence:
 ## If A Prompt Fails
 
 Use the self-check prompt included in each prompt file. If the AI still invents evidence, refuses to label uncertainty, or gives generic advice without an artifact, reject the output and rerun with [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
+
+## Prompt QA
+
+- Review result: [HANDS_ON_PROMPT_PACK_REVIEW.md](HANDS_ON_PROMPT_PACK_REVIEW.md)
+- Maintenance checklist: [HANDS_ON_PROMPT_PACK_CHECKLIST.md](HANDS_ON_PROMPT_PACK_CHECKLIST.md)
+- Selection guide: [HANDS_ON_PROMPT_SELECTION_GUIDE.md](HANDS_ON_PROMPT_SELECTION_GUIDE.md)
