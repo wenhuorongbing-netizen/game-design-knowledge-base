@@ -188,3 +188,60 @@ Validation result after final command run: PASS.
 ### Next Exact Prompt
 
 `collect-run-002-target-ai-outputs`
+
+## Prompt 3 — Collect Raw Target AI Outputs
+
+Date: 2026-04-30
+
+### Goal
+
+Collect or document the absence of raw target AI outputs for Benchmark Run 002 while preserving benchmark integrity.
+
+### Number Of Responses Collected
+
+Responses collected: 0.
+
+No target AI outputs were supplied in the prompt. No target responses were generated, edited, summarized, cleaned, or scored.
+
+### Number Waiting
+
+Responses waiting: 20.
+
+All Run 002 cases remain marked `waiting_for_target_ai_output`.
+
+### Target Model Identity
+
+Target model identity: not supplied.
+
+Target model version: not supplied.
+
+Target context supplied: not supplied.
+
+### Files Changed
+
+- `AI_MASTER_BENCHMARK_RUN_002_RESPONSES.md`
+- `NEXT_ACTION_REQUEST_TARGET_AI_OUTPUTS.md`
+- `report.md`
+- generated import/export and validation reports updated by commands
+
+### Validation Result
+
+Validation result after final command run: PASS.
+
+- exported entities: 859
+- exported relationships: 8405
+- search documents: 737
+- issues: 0
+- P0 issues: 0
+- warnings: 0
+- accepted exceptions: 0
+
+### Blockers
+
+- Real target AI outputs are still required.
+- Target model identity is still required.
+- No scoring may begin until raw target outputs exist.
+
+### Next Exact Prompt
+
+`score-ai-master-benchmark-run-002`
