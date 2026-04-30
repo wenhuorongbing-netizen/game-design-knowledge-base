@@ -78,6 +78,8 @@ Paste this:
 
 For more copy-paste prompts, use [HANDS_ON_PROMPT_LIBRARY.md](HANDS_ON_PROMPT_LIBRARY.md).
 
+If you want to see what a safe output looks like before trying it, open [WORKED_EXAMPLES_README.md](WORKED_EXAMPLES_README.md).
+
 ## What Files Should I Ignore First?
 
 Use [WHAT_TO_IGNORE_FIRST.md](WHAT_TO_IGNORE_FIRST.md).

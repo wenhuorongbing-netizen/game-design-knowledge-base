@@ -1,6 +1,13 @@
 # Worked Examples
 
-These examples use fictional inputs. They are not evidence, project facts, playtest results, source summaries, or benchmark outputs.
+This file is the older compact example page.
+
+For the current hands-on demo layer, start here:
+
+- [WORKED_EXAMPLES_README.md](WORKED_EXAMPLES_README.md)
+- [worked_examples/](worked_examples/)
+
+All examples are fictional demonstrations. They are not evidence, project facts, playtest results, source summaries, or benchmark outputs.
 
 ## Example 1: Vague Game Idea
 
