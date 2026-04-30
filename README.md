@@ -28,6 +28,7 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `hands_on_prompts/` contains 15 task-specific copy-paste prompts.
 - `HANDS_ON_PROMPT_SELECTION_GUIDE.md` helps users pick the correct prompt.
 - `WORKED_EXAMPLES_README.md` links synthetic demo examples showing expected output shape.
+- `NO_PROJECT_START_HERE.md` is the learning-and-practice route for users without an active game project.
 - `USE_CASES/` contains practical routes for vague ideas, design reviews, no-project learning, reading notes, and source-safety checks.
 - `AI_CONTEXT_MINIMUM.md` is the minimal context to give another AI before using the prompts.
 - `AI_CONTEXT_MINIMAL.md` is the previous minimal-context alias retained for compatibility.
@@ -111,6 +112,7 @@ Role-based paths:
 - [Worked Demo Examples](WORKED_EXAMPLES_README.md)
 - [AI Context Packs](AI_CONTEXT_PACKS.md)
 - [Do Not Load Everything](DO_NOT_LOAD_EVERYTHING.md)
+- [No-Project Start Here](NO_PROJECT_START_HERE.md)
 - [Use Cases](USE_CASES/README.md)
 - [Learner Path](kb/navigation/learner_path.md)
 - [Designer Path](kb/navigation/designer_path.md)

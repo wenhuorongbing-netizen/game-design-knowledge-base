@@ -1,6 +1,6 @@
 # Migration Exceptions Report
 
-Generated at: 2026-04-30T12:00:19.564Z
+Generated at: 2026-04-30T12:04:03.405Z
 Repository: `D:\Game\FOTN\knowledge`
 
 ## Verdict

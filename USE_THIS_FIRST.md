@@ -32,7 +32,7 @@ You cannot honestly use it to:
 
 ## I Have No Game Project. What Can I Do?
 
-Use [USE_CASES/no_project_start.md](USE_CASES/no_project_start.md).
+Use [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md) for the full hands-on path, or [USE_CASES/no_project_start.md](USE_CASES/no_project_start.md) for the short prompt.
 
 You can ask the AI to create:
 
@@ -108,6 +108,8 @@ Do not load the whole repository by default. See [DO_NOT_LOAD_EVERYTHING.md](DO_
 ## If You Only Open One More File
 
 Open [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md).
+
+If you have no active project, open [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md).
 
 ## How Do I Know If The AI Answer Was Good?
 

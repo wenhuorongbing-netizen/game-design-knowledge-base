@@ -2,6 +2,8 @@
 
 Use this if you want the KB to help you learn, think, or generate design practice before you have an active game project.
 
+For the full hands-on path, open [../NO_PROJECT_START_HERE.md](../NO_PROJECT_START_HERE.md).
+
 ## What You Provide
 
 - What you want to improve: foundations, choices, systems, game feel, UI, narrative, prototyping, playtesting, or production.

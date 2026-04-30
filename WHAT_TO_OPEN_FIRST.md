@@ -12,6 +12,8 @@ Open in this order:
 4. [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md)
 5. [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md)
 
+If you do not have an active game project, open [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md).
+
 ## If You Want A Guided 30-Minute Tour
 
 Open:
@@ -37,9 +39,10 @@ Open:
 
 Open:
 
-1. [USE_CASES/learn_game_design.md](USE_CASES/learn_game_design.md)
-2. [MASTER_LEARNING_PATH.md](MASTER_LEARNING_PATH.md)
-3. [BOOK_READING_SEQUENCE.md](BOOK_READING_SEQUENCE.md)
+1. [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md)
+2. [USE_CASES/learn_game_design.md](USE_CASES/learn_game_design.md)
+3. [MASTER_LEARNING_PATH.md](MASTER_LEARNING_PATH.md)
+4. [BOOK_READING_SEQUENCE.md](BOOK_READING_SEQUENCE.md)
 
 ## If You Want AI To Review An Idea
 
