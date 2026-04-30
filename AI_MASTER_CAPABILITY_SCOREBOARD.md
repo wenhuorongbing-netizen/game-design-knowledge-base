@@ -1,46 +1,48 @@
 # AI Master Capability Scoreboard
 
-Date: 2026-04-29
+Date: 2026-04-30
 
 ## Purpose
 
-This scoreboard tracks benchmark readiness by AI master capability.
+This scoreboard tracks behavioral readiness by AI master capability. Readiness is based only on real scored target AI responses.
 
-No target AI outputs have been collected, so every capability remains `not_tested`. The fields exist so future benchmark runs can record scores without changing the schema.
+No target AI outputs have been collected for Run 002 or Run 003. Therefore every capability with prepared cases is `blocked_pending_target_outputs`.
 
-## Score Fields
+## Readiness Fields
 
 | Field | Meaning |
 |---|---|
-| average_score | Weighted average across scored cases for the capability. |
+| tested_case_count | Static benchmark cases prepared for this capability. |
+| scored_case_count | Real target outputs scored for this capability. |
+| average_score | Weighted average across scored cases only. |
 | pass_rate | Percentage of scored capability cases that pass. |
-| P0_count | Count of automatic P0 failures. |
-| P1_count | Count of major gaps. |
-| weakest_criteria | Lowest recurring scoring criteria. |
-| strongest_criteria | Highest recurring scoring criteria. |
-| recommended_repairs | Next repair target based on scored evidence. |
-| benchmark_status | not_tested, weak, usable, strong, or master_ready. |
+| P0_count | Count of automatic P0 failures from scored outputs. |
+| P1_count | Count of major gaps from scored outputs. |
+| weakest_criteria | Lowest recurring scored criteria. |
+| strongest_criteria | Highest recurring scored criteria. |
+| recommended_repairs | Repair target based only on scored evidence. |
+| readiness_status | not_tested, blocked_pending_target_outputs, weak, usable, strong, or master_ready. |
+| confidence_in_readiness_rating | Confidence in the readiness status based on scored evidence. |
 
 ## Capability Scoreboard
 
-| Capability | Test Case Coverage | average_score | pass_rate | P0_count | P1_count | weakest_criteria | strongest_criteria | recommended_repairs | benchmark_status |
-|---|---:|---|---|---|---|---|---|---|---|
-| Core Experience Master | 13 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for vague idea and core experience cases | not_tested |
-| Lens Review Master | 8 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test lens selection and anti lens-dumping behavior | not_tested |
-| Meaningful Decision Master | 12 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect decision audit outputs | not_tested |
-| Rules and Mechanics Master | 11 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test mechanic/rule formalization | not_tested |
-| Systems and Economy Master | 15 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test system maps and source/sink audits | not_tested |
-| Game Feel and Feedback Master | 10 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test artifact-specific feel diagnosis | not_tested |
-| Play and Player Experience Master | 13 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test player motivation and psychology routes | not_tested |
-| Prototyping Master | 9 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test prototype-question discipline | not_tested |
-| Playtesting Master | 10 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test no invented observations/results | not_tested |
-| Narrative-System Integration Master | 9 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test role/verb/story alignment | not_tested |
-| UI/UX Feedback Master | 10 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test state/action/feedback readability | not_tested |
-| Community and Ethics Master | 9 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test ethics without legal certainty | not_tested |
-| Production and Pitch Master | 9 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test pitch critique and scope realism | not_tested |
-| Learning Coach and Socratic Tutor | 14 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | test teaching, reading, and uncertainty explanation | not_tested |
+| Capability | tested_case_count | scored_case_count | average_score | pass_rate | P0_count | P1_count | weakest_criteria | strongest_criteria | recommended_repairs | readiness_status | confidence_in_readiness_rating |
+|---|---:|---:|---|---|---|---|---|---|---|---|---|
+| Core Experience Master | 13 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for vague idea and core experience cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Lens Review Master | 8 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for lens review cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Meaningful Decision Master | 12 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for decision audit cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Rules and Mechanics Master | 11 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for rule and mechanic cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Systems and Economy Master | 15 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for system map and economy audit cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Game Feel and Feedback Master | 10 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for feel and feedback cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Play and Player Experience Master | 13 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for player motivation and mastery cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Prototyping Master | 9 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for prototype question cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Playtesting Master | 10 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for playtest planning and no-fake-results cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Narrative-System Integration Master | 9 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for alignment cases | blocked_pending_target_outputs | high_confidence_blocked |
+| UI/UX Feedback Master | 10 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for feedback and readability cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Community and Ethics Master | 9 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for ethics and community-risk cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Production and Pitch Master | 9 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for pitch and scope cases | blocked_pending_target_outputs | high_confidence_blocked |
+| Learning Coach and Socratic Tutor | 14 | 0 | not_applicable | not_applicable | not_applicable | not_applicable | not_evaluable | not_evaluable | collect target outputs for teaching, reading, and uncertainty cases | blocked_pending_target_outputs | high_confidence_blocked |
 
 ## Capability Readiness Verdict
 
 No capability can be marked weak, usable, strong, or master_ready until real target AI outputs are scored.
-

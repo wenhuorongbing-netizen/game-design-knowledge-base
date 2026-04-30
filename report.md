@@ -488,3 +488,67 @@ Validation result after final command run: PASS.
 ### Next Exact Prompt
 
 `collect-run-003-target-ai-outputs`
+
+## Prompt 8 — Update Capability and Domain Readiness from Real Scores
+
+Date: 2026-04-30
+
+### Goal
+
+Update capability and domain readiness using only real benchmark scores.
+
+### Scored Case Count
+
+Scored case count: 0.
+
+Run 002 scored cases: 0.
+
+Run 003 scored cases: 0.
+
+No target AI outputs were supplied, so no score, pass rate, P0 count, P1 count, improvement claim, or readiness upgrade was created.
+
+### Capability Readiness Summary
+
+Capability readiness: blocked_pending_target_outputs.
+
+All 14 master capabilities have static benchmark coverage but zero scored target responses. No capability is marked weak, usable, strong, or master_ready.
+
+### Domain Readiness Summary
+
+Domain readiness: blocked_pending_target_outputs.
+
+All 19 master domains have static benchmark coverage but zero scored target responses. No domain is marked weak, usable, strong, or master_ready.
+
+### Blockers
+
+- Real target AI outputs are still required.
+- Run 003 target model identity is still required.
+- Raw target outputs must be preserved before scoring.
+- Capability and domain readiness cannot advance without scored evidence.
+
+### Files Changed
+
+- `AI_MASTER_BENCHMARK_DASHBOARD.md`
+- `AI_MASTER_CAPABILITY_SCOREBOARD.md`
+- `AI_MASTER_DOMAIN_SCOREBOARD.md`
+- `AI_MASTER_FAILURE_MODE_DASHBOARD.md`
+- `AI_MASTER_BEHAVIORAL_READINESS_REPORT.md`
+- `AI_MASTER_BENCHMARK_CONFIDENCE_REPORT.md`
+- `report.md`
+- generated import/export, validation, and audit reports updated by commands
+
+### Validation Result
+
+Validation result after final command run: PASS.
+
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+
+### Next Exact Prompt
+
+`collect-run-003-target-ai-outputs`
