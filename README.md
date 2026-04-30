@@ -30,6 +30,7 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `WORKED_EXAMPLES_README.md` links synthetic demo examples showing expected output shape.
 - `NO_PROJECT_START_HERE.md` is the learning-and-practice route for users without an active game project.
 - `USE_CASE_HUB.md` is the root-level hands-on route selector for prompts, context packs, examples, and no-project learning.
+- `SIMPLIFIED_NAVIGATION.md`, `REPO_FOR_HUMANS.md`, `REPO_FOR_AI_AGENTS.md`, and `TOP_20_FILES_TO_KNOW.md` make the repository usable without reading every file.
 - `HANDS_ON_ACCEPTANCE_TESTS.md` defines testable checks for the hands-on user layer.
 - `USE_CASES/` contains practical routes for vague ideas, design reviews, no-project learning, reading notes, and source-safety checks.
 - `AI_CONTEXT_MINIMUM.md` is the minimal context to give another AI before using the prompts.
@@ -93,6 +94,13 @@ If you are maintaining or rebuilding the repository, use [KB_REBUILD_INSTRUCTION
 
 Structure guides:
 
+- [SIMPLIFIED_NAVIGATION.md](SIMPLIFIED_NAVIGATION.md)
+- [REPO_FOR_HUMANS.md](REPO_FOR_HUMANS.md)
+- [REPO_FOR_AI_AGENTS.md](REPO_FOR_AI_AGENTS.md)
+- [REPO_FOR_MAINTAINERS.md](REPO_FOR_MAINTAINERS.md)
+- [TOP_20_FILES_TO_KNOW.md](TOP_20_FILES_TO_KNOW.md)
+- [EVERYTHING_ELSE_IS_REFERENCE.md](EVERYTHING_ELSE_IS_REFERENCE.md)
+- [FILE_PRIORITY_INDEX.md](FILE_PRIORITY_INDEX.md)
 - [REPO_MAP.md](REPO_MAP.md)
 - [STRUCTURE_MAP.md](STRUCTURE_MAP.md)
 - [STRUCTURE_SIMPLIFICATION_PLAN.md](STRUCTURE_SIMPLIFICATION_PLAN.md)

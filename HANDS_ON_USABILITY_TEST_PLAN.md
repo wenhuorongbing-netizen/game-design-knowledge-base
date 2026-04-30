@@ -14,6 +14,8 @@ Test the user-facing hands-on layer:
 
 - `USE_THIS_FIRST.md`
 - `HANDS_ON_START_HERE.md`
+- `USE_CASE_HUB.md`
+- `SIMPLIFIED_NAVIGATION.md`
 - `USE_CASES/README.md`
 - `hands_on_prompts/`
 - `worked_examples/`
@@ -23,11 +25,11 @@ Test the user-facing hands-on layer:
 
 ## Known File Reality
 
-`USE_CASE_HUB.md` is not present. The actual use-case hub is:
+`USE_CASE_HUB.md` is present and is the root-level use-case selector.
 
-- `USE_CASES/README.md`
+`USE_CASES/README.md` remains the folder index.
 
-Do not claim `USE_CASE_HUB.md` exists unless it is created later.
+`SIMPLIFIED_NAVIGATION.md` is present and gives three progressive-disclosure routes: use it now, learn game design, and maintain the repo.
 
 ## Test Method
 
@@ -67,4 +69,3 @@ The hands-on layer passes if a user can:
 - use the KB for design review;
 - understand draft versus verified;
 - avoid private source parsing.
-

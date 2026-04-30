@@ -69,6 +69,13 @@ Generated exports are updated by:
 
 Start small. Add context only when the output is blocked by missing routing, safety, or artifact-format information.
 
+For a human-sized map, use:
+
+- [SIMPLIFIED_NAVIGATION.md](SIMPLIFIED_NAVIGATION.md)
+- [TOP_20_FILES_TO_KNOW.md](TOP_20_FILES_TO_KNOW.md)
+- [EVERYTHING_ELSE_IS_REFERENCE.md](EVERYTHING_ELSE_IS_REFERENCE.md)
+- [FILE_PRIORITY_INDEX.md](FILE_PRIORITY_INDEX.md)
+
 ## Quality Controls
 
 - [AI_CONTEXT_PACKS_USABILITY_REVIEW.md](AI_CONTEXT_PACKS_USABILITY_REVIEW.md)

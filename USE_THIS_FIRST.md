@@ -86,6 +86,8 @@ Use [WHAT_TO_IGNORE_FIRST.md](WHAT_TO_IGNORE_FIRST.md).
 
 In short, ignore generated exports, audits, benchmark internals, schemas, legacy folders, evidence internals, private sources, and deprecated material unless you are maintaining or verifying the KB.
 
+If the repository still feels too large, open [SIMPLIFIED_NAVIGATION.md](SIMPLIFIED_NAVIGATION.md) or [TOP_20_FILES_TO_KNOW.md](TOP_20_FILES_TO_KNOW.md).
+
 ## What Is The Shortest Path To Hands-On Use?
 
 1. Open [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md).
