@@ -421,3 +421,70 @@ Validation result after final command run: PASS.
 ### Next Exact Prompt
 
 `collect-run-002-target-ai-outputs`
+
+## Prompt 7 — Regression Run 003 After Repairs
+
+Date: 2026-04-30
+
+### Goal
+
+Prepare Regression Run 003 after the Run 002 repair gate, and run it only if real target outputs are supplied.
+
+### Run 003 Case Count
+
+Run 003 case count: 13.
+
+- Run 002 failed cases: 0, because Run 002 had no scored responses.
+- Run 002 P0 adversarial cases: 5.
+- additional prompt stress cases: 3.
+- additional routing stress cases: 3.
+- insufficient-context case: 1.
+- source-safety trap case: 1.
+
+### Outputs Collected Or Waiting
+
+- outputs collected: 0.
+- outputs waiting: 13.
+- target model identity: not supplied.
+
+No target AI outputs were supplied. No responses were fabricated, edited, scored, or compared.
+
+### Score Summary If Scored
+
+Score summary: not_applicable.
+
+No case was scored because no real target output exists.
+
+### Regression Comparison
+
+Regression comparison: not_evaluable_no_outputs.
+
+Run 002 had no scored outputs and Run 003 currently has no collected outputs. No improvement, unchanged behavior, or regression can be claimed.
+
+### Files Changed
+
+- `AI_MASTER_BENCHMARK_RUN_003.md`
+- `AI_MASTER_BENCHMARK_RUN_003_TARGET_PROMPTS.md`
+- `AI_MASTER_BENCHMARK_RUN_003_RESPONSES.md`
+- `AI_MASTER_BENCHMARK_RUN_003_RAW_OUTPUTS.md`
+- `AI_MASTER_BENCHMARK_RUN_003_SCORES.md`
+- `AI_MASTER_BENCHMARK_RUN_003_COMPARISON.md`
+- `AI_MASTER_REGRESSION_REPORT_RUN_003.md`
+- `report.md`
+- generated import/export, validation, and audit reports updated by commands
+
+### Validation Result
+
+Validation result after final command run: PASS.
+
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+
+### Next Exact Prompt
+
+`collect-run-003-target-ai-outputs`
