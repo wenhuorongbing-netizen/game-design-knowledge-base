@@ -100,3 +100,9 @@ For better results, use [AI_CONTEXT_RECOMMENDED.md](AI_CONTEXT_RECOMMENDED.md).
 ## If You Only Open One More File
 
 Open [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md).
+
+## How Do I Know If The AI Answer Was Good?
+
+Use [FIRST_USE_CHECKLIST.md](FIRST_USE_CHECKLIST.md).
+
+If you want to test the whole first-use path, use [FIRST_USE_SMOKE_TEST.md](FIRST_USE_SMOKE_TEST.md).

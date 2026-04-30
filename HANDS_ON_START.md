@@ -9,7 +9,7 @@ If you are completely new, start with [USE_THIS_FIRST.md](USE_THIS_FIRST.md), th
 1. Open this file.
 2. Pick one use case from [USE_CASES/README.md](USE_CASES/README.md).
 3. Copy one prompt from [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md).
-4. Give the AI the minimal context in [AI_CONTEXT_MINIMAL.md](AI_CONTEXT_MINIMAL.md).
+4. Give the AI the minimal context in [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
 5. Read the answer as draft design help unless it includes real evidence references.
 
 ## What This Gives You

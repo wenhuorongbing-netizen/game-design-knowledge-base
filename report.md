@@ -862,3 +862,50 @@ Validation result: PASS.
 ### Next Exact Prompt
 
 `review-hands-on-start-layer`
+
+## Prompt 3 — Review Hands-on Start Layer
+
+Date: 2026-04-30
+
+### Goal
+
+Review the hands-on start layer as a first-time user path, fix obvious friction, and add a safe smoke-test/checklist layer without deleting or moving canonical KB content.
+
+### Files Created
+
+- `HANDS_ON_START_LAYER_REVIEW.md`
+- `FIRST_USE_SMOKE_TEST.md`
+- `FIRST_USE_CHECKLIST.md`
+
+### Files Updated
+
+- `AI_CONTEXT_MINIMAL.md`
+- `COPY_PASTE_PROMPTS.md`
+- `HANDS_ON_START.md`
+- `README.md`
+- `USE_THIS_FIRST.md`
+- `WHAT_TO_OPEN_FIRST.md`
+- `report.md`
+
+### Fixes Applied
+
+- Resolved the `AI_CONTEXT_MINIMAL.md` versus `AI_CONTEXT_MINIMUM.md` naming friction by keeping `AI_CONTEXT_MINIMAL.md` as a compatibility alias.
+- Updated first-use docs to point to `AI_CONTEXT_MINIMUM.md` as the current minimum context.
+- Added a smoke test with three safe first-use scenarios.
+- Added a checklist for judging whether the first AI answer is useful and source-safe.
+
+### Validation Result
+
+Validation result: PASS.
+
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+
+### Next Exact Prompt
+
+`run-first-use-smoke-test`

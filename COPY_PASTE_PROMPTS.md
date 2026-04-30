@@ -4,7 +4,7 @@ These prompts are the small first-use kit. They intentionally do not ask the AI 
 
 ## How To Use
 
-1. Give the AI the minimal context from [AI_CONTEXT_MINIMAL.md](AI_CONTEXT_MINIMAL.md).
+1. Give the AI the minimal context from [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
 2. Copy one prompt below.
 3. Replace bracketed fields with your information.
 4. Require the response footer with `source_basis`, confidence, assumptions, evidence gaps, and next action.

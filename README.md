@@ -20,6 +20,8 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `USE_THIS_FIRST.md` is the simplest first-use explanation for non-maintainers.
 - `10_MINUTE_QUICKSTART.md` is the quickest guided action path.
 - `30_MINUTE_GUIDED_TOUR.md` gives a short orientation without exposing the whole repository.
+- `FIRST_USE_CHECKLIST.md` tells a user how to judge the first AI answer.
+- `FIRST_USE_SMOKE_TEST.md` defines a safe first-use test without fabricating outputs.
 - `WHAT_TO_IGNORE_FIRST.md` and `WHAT_TO_OPEN_FIRST.md` tell new users what to skip and what to open.
 - `COPY_PASTE_PROMPTS.md` is the small first-use prompt kit.
 - `USE_CASES/` contains practical routes for vague ideas, design reviews, no-project learning, reading notes, and source-safety checks.
@@ -92,6 +94,8 @@ Role-based paths:
 - [Use This First](USE_THIS_FIRST.md)
 - [10-Minute Quickstart](10_MINUTE_QUICKSTART.md)
 - [30-Minute Guided Tour](30_MINUTE_GUIDED_TOUR.md)
+- [First-Use Checklist](FIRST_USE_CHECKLIST.md)
+- [First-Use Smoke Test](FIRST_USE_SMOKE_TEST.md)
 - [What To Open First](WHAT_TO_OPEN_FIRST.md)
 - [What To Ignore First](WHAT_TO_IGNORE_FIRST.md)
 - [Copy-Paste Prompts](COPY_PASTE_PROMPTS.md)

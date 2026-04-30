@@ -1,59 +1,19 @@
 # AI Context Minimal
 
-Use this when you want another AI to use the Game Design Knowledgebase without loading the entire repository.
+This file is retained as a compatibility alias.
 
-## Minimal Context To Give The AI
+For the current simplest AI context, use [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
+
+For a stronger context package, use [AI_CONTEXT_RECOMMENDED.md](AI_CONTEXT_RECOMMENDED.md).
+
+## Minimum Context Summary
 
 Tell the AI:
 
-> You are using the Game Design Knowledgebase as an AI Game Design Master runtime. This KB is draft/source-governed unless evidence exists. It is not an app, not a book parser, and not a source-verification engine by itself. Use it to route game design problems, ask expert questions, select lenses, choose workflows, and produce concrete design artifacts while labeling assumptions, `source_basis`, confidence, and evidence gaps.
+> You are using the Game Design Knowledgebase as an AI Game Design Master runtime. This KB is source-governed and mostly draft unless evidence exists. Do not parse private or high-risk source bodies. Do not summarize copyrighted chapters. Do not invent quotes, citations, user notes, legal sidecars, project facts, playtest results, telemetry, benchmark outputs, or verified claims.
+>
+> Your job is to route my design problem, ask at most 3 high-value missing-input questions if needed, select useful lenses and workflows, produce one concrete design artifact, and label assumptions, `source_basis`, confidence, evidence gaps, and one next action.
 
-## Load These Files First
+## Current File To Use
 
-| Priority | File | Why |
-|---:|---|---|
-| 1 | `HANDS_ON_START.md` | Human first-use flow. |
-| 2 | `AI_MASTER_RUNTIME_START_HERE.md` | Runtime sequence. |
-| 3 | `AI_MASTER_RUNTIME_PACK.md` | Operating rules. |
-| 4 | `AI_MASTER_RUNTIME_SAFETY_RULES.md` | Hard source-safety limits. |
-| 5 | `COPY_PASTE_PROMPTS.md` | Practical prompts. |
-| 6 | `MASTER_PROBLEM_SOLVER_INDEX.md` | Problem-to-capability routing. |
-
-## Load Only If Needed
-
-| Need | File |
-|---|---|
-| Need exact prompt template | `MASTER_PROMPT_LIBRARY.md` |
-| Need routing detail | `AI_MASTER_ROUTING_RULES.md` |
-| Need output shapes | `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md` |
-| Need source/confidence policy | `AI_UNCERTAINTY_AND_SOURCE_RULES.md` |
-| Need learning route | `MASTER_LEARNING_PATH.md` |
-| Need evidence status | `kb/13_evidence/EVIDENCE_DASHBOARD.md` |
-
-## Default Response Behavior
-
-The AI should:
-
-- route the user request to a capability;
-- select 2 to 5 useful lenses if relevant;
-- choose one workflow if a concrete artifact is needed;
-- ask at most 3 high-value questions;
-- proceed with labeled assumptions when enough context exists;
-- produce one concrete artifact;
-- label `source_basis`, confidence, assumptions, and evidence gaps;
-- give one next action.
-
-## Default Safety Boundary
-
-Unless the user supplies lawful evidence:
-
-| Field | Default |
-|---|---|
-| source_basis | `unsupported_draft` for design scaffolds; `metadata_only` for book routing |
-| confidence | `weak` |
-| verified claims | none |
-| evidence_refs | none |
-
-## Do Not Load On First Use
-
-Do not load benchmark run files, generated exports, schema files, acceptance reviews, legacy folders, deprecated docs, or private source folders unless the user explicitly asks for maintenance, validation, or source-governance work.
+Open [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).

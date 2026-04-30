@@ -19,6 +19,13 @@ Open:
 2. [USE_CASES/README.md](USE_CASES/README.md)
 3. [WORKED_EXAMPLES.md](WORKED_EXAMPLES.md)
 
+## If You Want To Check The First AI Answer
+
+Open:
+
+1. [FIRST_USE_CHECKLIST.md](FIRST_USE_CHECKLIST.md)
+2. [FIRST_USE_SMOKE_TEST.md](FIRST_USE_SMOKE_TEST.md)
+
 ## If You Want To Pick A Use Case
 
 Open:
