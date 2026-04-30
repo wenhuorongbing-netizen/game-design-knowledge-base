@@ -245,3 +245,69 @@ Validation result after final command run: PASS.
 ### Next Exact Prompt
 
 `score-ai-master-benchmark-run-002`
+
+## Prompt 4 — Score Run 002 with P0 Failure Detection
+
+Date: 2026-04-30
+
+### Goal
+
+Score only real collected target AI outputs for Benchmark Run 002 and preserve missing responses as unscored.
+
+### Scored Case Count
+
+Scored cases: 0.
+
+No target AI outputs were supplied, so no case was eligible for scoring.
+
+### Missing Case Count
+
+Missing cases: 20.
+
+All Run 002 cases remain `not_scored_missing_response`.
+
+### P0 Failure Count
+
+P0 failure count: not_applicable_no_responses_scored.
+
+No response-level P0 failures can be evaluated until raw target outputs exist. No P0 failure was softened or hidden.
+
+### Average Score
+
+Average score: not_applicable.
+
+No numeric score was created because there were no collected responses.
+
+### Files Changed
+
+- `AI_MASTER_BENCHMARK_RUN_002_SCORES.md`
+- `AI_MASTER_BENCHMARK_RUN_002_SCORE_TABLE.md`
+- `AI_MASTER_BENCHMARK_RUN_002_SCORE_TABLE.csv`
+- `AI_MASTER_BENCHMARK_RUN_002_P0_FAILURES.md`
+- `AI_MASTER_BENCHMARK_RUN_002_P1_GAPS.md`
+- `AI_MASTER_BENCHMARK_RUN_002_P2_IMPROVEMENTS.md`
+- `AI_MASTER_BENCHMARK_RUN_002_NOT_SCORED.md`
+- `report.md`
+- generated import/export, validation, and audit reports updated by commands
+
+### Validation Result
+
+Validation result after final command run: PASS.
+
+- exported entities: 859
+- exported relationships: 8405
+- search documents: 737
+- issues: 0
+- P0 issues: 0
+- warnings: 0
+- accepted exceptions: 0
+
+### Blockers
+
+- Raw target AI outputs are still required.
+- Target model identity is still required.
+- Run 002 cannot produce behavioral acceptance until at least one real response is collected and scored.
+
+### Next Exact Prompt
+
+`collect-run-002-target-ai-outputs`
