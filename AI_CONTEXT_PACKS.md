@@ -60,6 +60,12 @@ For normal hands-on use, do not load:
 
 For details, see [DO_NOT_LOAD_EVERYTHING.md](DO_NOT_LOAD_EVERYTHING.md).
 
+## Quality Controls
+
+- [AI_CONTEXT_PACKS_USABILITY_REVIEW.md](AI_CONTEXT_PACKS_USABILITY_REVIEW.md)
+- [AI_CONTEXT_PACKS_CHECKLIST.md](AI_CONTEXT_PACKS_CHECKLIST.md)
+- [CONTEXT_PACK_SELECTION_SMOKE_TEST.md](CONTEXT_PACK_SELECTION_SMOKE_TEST.md)
+
 ## Required Safety Defaults
 
 Unless the user supplies real legal/user/project/playtest evidence:
@@ -72,4 +78,3 @@ Unless the user supplies real legal/user/project/playtest evidence:
 | evidence_refs | none |
 | project facts | none unless user supplies them |
 | playtest facts | none unless user supplies them |
-

@@ -69,3 +69,8 @@ Generated exports are updated by:
 
 Start small. Add context only when the output is blocked by missing routing, safety, or artifact-format information.
 
+## Quality Controls
+
+- [AI_CONTEXT_PACKS_USABILITY_REVIEW.md](AI_CONTEXT_PACKS_USABILITY_REVIEW.md)
+- [AI_CONTEXT_PACKS_CHECKLIST.md](AI_CONTEXT_PACKS_CHECKLIST.md)
+- [CONTEXT_PACK_SELECTION_SMOKE_TEST.md](CONTEXT_PACK_SELECTION_SMOKE_TEST.md)
