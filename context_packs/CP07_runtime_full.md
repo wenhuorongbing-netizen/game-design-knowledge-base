@@ -8,7 +8,7 @@ This includes routing, capabilities, domains, lenses, workflows, response format
 
 Do not use this as the default for simple tasks.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_MASTER_RUNTIME_START_HERE.md`
 2. `AI_MASTER_RUNTIME_CONTEXT_PACK.md`
@@ -20,7 +20,12 @@ Do not use this as the default for simple tasks.
 8. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
 9. `MASTER_CAPABILITY_MATRIX.md`
 10. `MASTER_DOMAIN_MAP.md`
-11. `HANDS_ON_PROMPT_LIBRARY.md`
+
+## Optional Human Prompt References
+
+These files are for human copy-paste use. Codex should not load them for normal runtime execution unless the user explicitly asks for prompt text:
+
+- `HANDS_ON_PROMPT_LIBRARY.md`
 
 ## Files Not Needed
 
@@ -33,9 +38,11 @@ Do not use this as the default for simple tasks.
 
 ## Max Recommended Context Size
 
-11 files, or roughly 20,000 to 35,000 words depending on the model context window.
+10 agent-runtime files, or roughly 18,000 to 32,000 words depending on the model context window.
 
 If that is too large, use CP01 plus one task-specific pack instead.
+
+Optional prompt references may be loaded only for human prompt packaging or onboarding.
 
 ## Required Safety Rules
 

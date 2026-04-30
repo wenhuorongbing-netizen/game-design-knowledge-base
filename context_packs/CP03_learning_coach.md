@@ -4,15 +4,20 @@
 
 Use this when the user wants to learn game design, choose what to read, practice a concept, or study without an active project.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_CONTEXT_MINIMUM.md`
 2. `USE_CASES/learn_game_design.md`
-3. `hands_on_prompts/P12_teach_me_game_design.md`
-4. `hands_on_prompts/P13_create_reading_plan.md`
-5. `MASTER_LEARNING_PATH.md`
-6. `READING_TO_KB_PIPELINE.md`
-7. `AI_UNCERTAINTY_AND_SOURCE_RULES.md`
+3. `MASTER_LEARNING_PATH.md`
+4. `READING_TO_KB_PIPELINE.md`
+5. `AI_UNCERTAINTY_AND_SOURCE_RULES.md`
+
+## Optional Human Prompt References
+
+These files are for human copy-paste use. Codex should not load them for normal runtime execution unless the user explicitly asks for prompt text:
+
+- `hands_on_prompts/P12_teach_me_game_design.md`
+- `hands_on_prompts/P13_create_reading_plan.md`
 
 ## Files Not Needed
 
@@ -25,7 +30,9 @@ Use this when the user wants to learn game design, choose what to read, practice
 
 ## Max Recommended Context Size
 
-7 files, or roughly 6,000 to 10,000 words.
+5 agent-runtime files, or roughly 5,000 to 8,000 words.
+
+Optional prompt references may be loaded only for human prompt packaging or onboarding.
 
 ## Required Safety Rules
 

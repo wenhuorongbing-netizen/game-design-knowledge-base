@@ -19,6 +19,12 @@ The repository is large. Loading everything increases context cost, confusion, a
 7. Load one output contract.
 8. Load relevant KB references only if needed.
 
+## Context Pack Boundary
+
+When a context pack separates `Agent Runtime Files To Load` from `Optional Human Prompt References`, normal Codex runtime should load only the agent-runtime files.
+
+Do not load `hands_on_prompts/` for normal skill execution unless the user explicitly asks to inspect, package, or copy a human prompt.
+
 ## Never Load By Default
 
 - `_private_sources/`

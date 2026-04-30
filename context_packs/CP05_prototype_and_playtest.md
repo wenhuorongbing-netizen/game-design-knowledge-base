@@ -6,14 +6,19 @@ Use this when the user wants to turn an idea into a prototype question or plan a
 
 Use it for planning only unless the user supplies real project or playtest data.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_CONTEXT_MINIMUM.md`
-2. `hands_on_prompts/P10_make_prototype_plan.md`
-3. `hands_on_prompts/P11_make_playtest_plan.md`
-4. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
-5. `MASTER_PROBLEM_SOLVER_INDEX.md`
-6. `AI_UNCERTAINTY_AND_SOURCE_RULES.md`
+2. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
+3. `MASTER_PROBLEM_SOLVER_INDEX.md`
+4. `AI_UNCERTAINTY_AND_SOURCE_RULES.md`
+
+## Optional Human Prompt References
+
+These files are for human copy-paste use. Codex should not load them for normal runtime execution unless the user explicitly asks for prompt text:
+
+- `hands_on_prompts/P10_make_prototype_plan.md`
+- `hands_on_prompts/P11_make_playtest_plan.md`
 
 ## Files Not Needed
 
@@ -26,7 +31,9 @@ Use it for planning only unless the user supplies real project or playtest data.
 
 ## Max Recommended Context Size
 
-6 files, or roughly 5,000 to 8,000 words.
+4 agent-runtime files, or roughly 4,000 to 6,000 words.
+
+Optional prompt references may be loaded only for human prompt packaging or onboarding.
 
 ## Required Safety Rules
 

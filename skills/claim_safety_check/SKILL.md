@@ -84,21 +84,25 @@ Never raise confidence beyond supplied evidence scope.
 
 ## Execution Protocol
 
-1. Restate the claim.
-2. Identify current source_basis and confidence.
-3. Check support and blockers.
-4. Provide safe wording.
-5. State what evidence is required for stronger confidence.
+1. Determine whether the user supplied a normal claim or an unsafe source-processing request.
+2. For normal claim review, restate the claim.
+3. For unsafe source-processing requests, use the refusal variant in `agent_output_contracts/claim_safety_report.md`.
+4. Identify current source_basis and confidence.
+5. Check support and blockers.
+6. Provide safe wording or a safer alternative.
+7. State what evidence is required for stronger confidence.
 
 ## Common Failure Modes
 
 - rubber-stamping unsupported claims;
 - inventing evidence;
 - treating metadata as source proof;
+- treating private source body text as available;
+- refusing without a safe alternative;
 - ignoring evidence scope.
 
 ## Acceptance Criteria
 
-- Claim status is clear.
-- Safe wording is provided.
+- Claim status or unsafe-request boundary is clear.
+- Safe wording or a safer alternative is provided.
 - Evidence gaps and blockers are explicit.

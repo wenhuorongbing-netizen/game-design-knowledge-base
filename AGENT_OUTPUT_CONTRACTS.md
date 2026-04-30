@@ -47,6 +47,7 @@ An output fails if it:
 - invents evidence;
 - invents source quotes or citations;
 - claims verified status without EvidenceRef and review;
+- omits a contract-specific required section;
 - omits assumptions;
 - omits `source_basis`;
 - omits confidence;

@@ -87,17 +87,20 @@ Default confidence: weak or user_interpretation unless evidence exists.
 2. State when it is useful.
 3. Give diagnostic questions.
 4. Give a small exercise.
-5. Suggest one next topic or note.
+5. Provide an explicit `Next Topic` label for what the user should learn after this lesson.
+6. Provide an explicit `Next Action` label for what the user should do immediately.
 
 ## Common Failure Modes
 
 - lecture without practice;
 - fake citations;
 - overwhelming reading list;
+- merging next topic into next action;
 - missing confidence label.
 
 ## Acceptance Criteria
 
 - Lesson is clear.
 - Exercise creates an artifact.
+- `Next Topic` and `Next Action` are both visible.
 - Source/confidence boundaries are visible.

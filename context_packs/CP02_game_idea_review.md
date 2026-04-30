@@ -4,14 +4,19 @@
 
 Use this when the user has a rough idea, genre mix, premise, fantasy, pitch, or unclear core experience.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_CONTEXT_MINIMUM.md`
 2. `USE_CASES/vague_game_idea.md`
-3. `hands_on_prompts/P01_review_my_game_idea.md`
-4. `hands_on_prompts/P02_define_core_experience.md`
-5. `MASTER_PROBLEM_SOLVER_INDEX.md`
-6. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
+3. `MASTER_PROBLEM_SOLVER_INDEX.md`
+4. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
+
+## Optional Human Prompt References
+
+These files are for human copy-paste use. Codex should not load them for normal runtime execution unless the user explicitly asks for prompt text:
+
+- `hands_on_prompts/P01_review_my_game_idea.md`
+- `hands_on_prompts/P02_define_core_experience.md`
 
 ## Files Not Needed
 
@@ -24,7 +29,9 @@ Use this when the user has a rough idea, genre mix, premise, fantasy, pitch, or 
 
 ## Max Recommended Context Size
 
-6 files, or roughly 5,000 to 8,000 words.
+4 agent-runtime files, or roughly 4,000 to 6,000 words.
+
+Optional prompt references may be loaded only for human prompt packaging or onboarding.
 
 ## Required Safety Rules
 

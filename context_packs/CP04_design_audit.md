@@ -6,24 +6,25 @@ Use this when the user wants critique or diagnosis.
 
 Good targets include a mechanic, decision, system, economy, game feel issue, UI feedback problem, narrative mismatch, or pitch.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_CONTEXT_MINIMUM.md`
 2. `MASTER_PROBLEM_SOLVER_INDEX.md`
 3. `AI_MASTER_ROUTING_RULES.md`
 4. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
-5. `HANDS_ON_PROMPT_SELECTION_GUIDE.md`
-6. one relevant prompt from `hands_on_prompts/`
 
-Recommended prompt choices:
+## Optional Human Prompt References
 
-- P04 for lens review;
-- P05 for meaningful decisions;
-- P06 for systems and economy;
-- P07 for game feel and feedback;
-- P08 for UI feedback;
-- P09 for narrative-mechanic alignment;
-- P15 for pitch critique.
+These files are for human copy-paste use. Codex should not load them for normal runtime execution unless the user explicitly asks for prompt text:
+
+- `HANDS_ON_PROMPT_SELECTION_GUIDE.md`
+- `hands_on_prompts/P04_run_lens_review.md`
+- `hands_on_prompts/P05_audit_meaningful_decisions.md`
+- `hands_on_prompts/P06_audit_systems_and_economy.md`
+- `hands_on_prompts/P07_audit_game_feel_and_feedback.md`
+- `hands_on_prompts/P08_audit_ui_feedback.md`
+- `hands_on_prompts/P09_align_narrative_and_mechanics.md`
+- `hands_on_prompts/P15_pitch_critique.md`
 
 ## Files Not Needed
 
@@ -35,7 +36,9 @@ Recommended prompt choices:
 
 ## Max Recommended Context Size
 
-6 files plus one prompt, or roughly 6,000 to 9,000 words.
+4 agent-runtime files, or roughly 4,000 to 7,000 words.
+
+Optional prompt references may be loaded only for human prompt packaging or onboarding.
 
 ## Required Safety Rules
 

@@ -22,6 +22,15 @@ This folder is not:
 
 Use [CP01_minimal_general_use.md](CP01_minimal_general_use.md) unless you know you need a task-specific pack.
 
+## Agent Runtime Boundary
+
+Each context pack separates:
+
+- `Agent Runtime Files To Load`: files Codex may load for normal runtime execution;
+- `Optional Human Prompt References`: copy-paste prompt files for humans, not normal runtime dependencies.
+
+Codex should not load `hands_on_prompts/` during normal skill execution unless the user explicitly asks to package or inspect a human prompt.
+
 ## Pack Index
 
 | Pack | Purpose |

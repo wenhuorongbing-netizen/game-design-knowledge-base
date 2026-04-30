@@ -8,13 +8,18 @@ Choose this when the user wants one useful design artifact.
 
 Do not use it for deep routing, evidence intake, benchmark scoring, or repository maintenance.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_CONTEXT_MINIMUM.md`
-2. `USE_THIS_FIRST.md`
-3. `HANDS_ON_PROMPT_LIBRARY.md`
-4. `AI_MASTER_RUNTIME_SAFETY_RULES.md`
-5. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
+2. `AI_MASTER_RUNTIME_SAFETY_RULES.md`
+3. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
+
+## Optional Human Prompt References
+
+These files are useful for a person browsing the repository, but they are not required for normal Codex runtime execution:
+
+- `USE_THIS_FIRST.md`
+- `HANDS_ON_PROMPT_LIBRARY.md`
 
 ## Files Not Needed
 
@@ -28,7 +33,9 @@ Do not use it for deep routing, evidence intake, benchmark scoring, or repositor
 
 ## Max Recommended Context Size
 
-5 files, or roughly 3,000 to 5,000 words.
+3 agent-runtime files, or roughly 2,000 to 4,000 words.
+
+Optional human references may be loaded only when the user asks for copy-paste prompts or human onboarding.
 
 ## Required Safety Rules
 

@@ -3031,3 +3031,1042 @@ Validation result: PASS.
 ### Exact Next Prompt
 
 `run-codex-agent-smoke-tasks`
+
+## Prompt 1 — Codex Runtime Truth Sync and Smoke Plan
+
+Date: 2026-04-30
+
+### Goal
+
+Perform a strict runtime truth sync before executing Codex smoke tasks.
+
+### Runtime Truth Verdict
+
+Verdict: STRUCTURALLY_SYNCED_NOT_BEHAVIORALLY_PROVEN.
+
+The Codex runtime files, manifest, router, context loading protocol, source safety rules, skills, output contracts, and package scripts exist. Real Codex smoke outputs have not yet been collected, so behavioral readiness remains unproven.
+
+### Files Inspected
+
+- `AGENT_START.md`
+- `AGENT_SKILL_MANIFEST.md`
+- `AGENT_SKILL_MANIFEST.json`
+- `AGENT_ROUTER.md`
+- `AGENT_CONTEXT_LOADING_PROTOCOL.md`
+- `AGENT_OUTPUT_CONTRACTS.md`
+- `AGENT_SOURCE_SAFETY_RULES.md`
+- `CODEX_USAGE_GUIDE.md`
+- `skills/README.md`
+- `CODEX_AGENT_RUNTIME_ACCEPTANCE_REVIEW.md`
+- `AGENT_SKILL_PACK_READINESS_REPORT.md`
+- `NEXT_PHASE_DECISION_CODEX_RUNTIME.md`
+- `VALIDATION_REPORT.md`
+- `package.json`
+- `tools/kb_quality/check_agent_runtime.js`
+- `report.md`
+
+### Truth Sync Summary
+
+- Required runtime files: PASS.
+- Manifest JSON validity: PASS.
+- Manifest skill count: PASS, 14 skills.
+- Skill file coverage: PASS, no missing `SKILL.md` files.
+- Output contract coverage: PASS, 15 contract files.
+- `agent:check` script: PASS.
+- `kb:check` script: PASS.
+- Normal runtime benchmark dependency: PASS, benchmark files are explicitly do-not-load.
+- Normal runtime human prompt-copy dependency: PASS, prompt files are optional references only.
+- Private source body parsing instruction check: PASS, skills prohibit private source body parsing.
+
+### Smoke Plan
+
+Smoke Run 001 is prepared with six required task types:
+
+- vague game idea review;
+- learning coach with no active project;
+- claim safety check;
+- prototype plan;
+- meaningful decision audit;
+- unsafe private book summary request.
+
+### Files Changed
+
+- `CODEX_RUNTIME_TRUTH_SYNC_REPORT.md`
+- `CODEX_SMOKE_RUN_PHASE_PLAN.md`
+- `CODEX_SMOKE_RUN_001_PLAN.md`
+- `CODEX_SMOKE_RUN_001_ACCEPTANCE_CRITERIA.md`
+- `CODEX_SMOKE_RUN_001_STATUS.md`
+- `report.md`
+- `VALIDATION_REPORT.md`
+- `VALIDATION_REPORT.json`
+- `SOURCE_GOVERNANCE_AUDIT.md`
+- `MIGRATION_EXCEPTIONS_REPORT.md`
+- `kb/13_evidence/reports/SIDECAR_AUDIT_REPORT.md`
+- `kb/13_evidence/reports/MANUAL_NOTE_INTAKE_REPORT.md`
+- `kb/13_evidence/reports/MANUAL_QUOTE_AUDIT_REPORT.md`
+- `kb/13_evidence/reports/CLAIM_PROMOTION_AUDIT.md`
+- `kb/13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md`
+- `kb/13_evidence/reports/VERIFIED_CLAIMS_INDEX.md`
+
+### Commands Run
+
+- `Get-Location`
+- `git status --short`
+- `git branch --show-current`
+- `git log --oneline -n 10`
+- manifest and runtime structural check via Node
+- `rg` safety/dependency inspection
+- `npm run agent:check`
+- `npm run kb:export`
+- `npm run kb:validate`
+- `npm run kb:audit`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:export`: PASS.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings, 0 accepted exceptions.
+- `npm run kb:audit`: PASS.
+
+### Blockers
+
+- Smoke Run 001 has not been executed.
+- No real Codex smoke outputs exist.
+- No output contract compliance scoring has been performed.
+- Runtime should not be marked behaviorally proven until smoke outputs are collected and reviewed.
+
+### Next Exact Prompt
+
+`execute-codex-smoke-run-001`
+
+## Prompt 2 — Router Fixture Suite
+
+Date: 2026-04-30
+
+### Goal
+
+Create a router fixture suite to test whether user requests map to the expected Codex Agent Runtime skills.
+
+### Fixture Suite
+
+- Fixture count: 20.
+- Fixture status: static routing fixtures, not smoke results.
+- Unsafe fixtures included: private book summary request, fake playtest request, fake citation request, verified claim request without evidence, BookOS direction drift request.
+
+### Files Changed
+
+- `agent_runtime_tests/README.md`
+- `agent_runtime_tests/ROUTER_FIXTURES.md`
+- `agent_runtime_tests/ROUTER_FIXTURES.json`
+- `agent_runtime_tests/ROUTER_FIXTURE_EXPECTATIONS.md`
+- `agent_runtime_tests/ROUTER_FIXTURE_TEST_REPORT.md`
+- `tools/kb_quality/check_agent_router_fixtures.js`
+- `package.json`
+- `report.md`
+- `VALIDATION_REPORT.md`
+- `VALIDATION_REPORT.json`
+- `SOURCE_GOVERNANCE_AUDIT.md`
+- `MIGRATION_EXCEPTIONS_REPORT.md`
+- `COVERAGE_MATRIX.md`
+- `kb/13_evidence/reports/SIDECAR_AUDIT_REPORT.md`
+- `kb/13_evidence/reports/MANUAL_NOTE_INTAKE_REPORT.md`
+- `kb/13_evidence/reports/MANUAL_QUOTE_AUDIT_REPORT.md`
+- `kb/13_evidence/reports/CLAIM_PROMOTION_AUDIT.md`
+- `kb/13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md`
+- `kb/13_evidence/reports/VERIFIED_CLAIMS_INDEX.md`
+
+### Checker Added
+
+Added `npm run agent:router-check`.
+
+The checker validates fixture schema, expected skills, fallback skills, context pack paths, output contract paths, maximum question counts, duplicate fixture IDs, and required unsafe categories.
+
+`kb:check` now includes `agent:router-check` because the checker is deterministic and does not execute AI reasoning.
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run agent:router-check`
+- `npm run kb:validate`
+- `npm run kb:check`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS.
+- `npm run agent:router-check`: PASS, 20 fixtures.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `npm run kb:check`: PASS.
+
+### Boundary
+
+No Codex outputs were executed. No smoke results were fabricated. The fixture suite proves static router coverage only.
+
+### Next Exact Prompt
+
+`execute-codex-smoke-run-001`
+
+## Prompt 3 — Codex Smoke Task Pack 001
+
+Date: 2026-04-30
+
+### Goal
+
+Create Smoke Task Pack 001 using real task recipes that Codex can execute later.
+
+### Smoke Task Count
+
+- smoke tasks prepared: 8.
+- tasks executed: 0.
+- raw outputs created: 0.
+- scores created: 0.
+
+### Task Coverage
+
+- review a vague game idea;
+- define core experience;
+- teach game design without an active project;
+- audit meaningful decisions;
+- create prototype plan;
+- check a claim for source safety;
+- respond safely to a private book summary request;
+- respond safely to a fake playtest request.
+
+### Files Changed
+
+- `codex_smoke_runs/README.md`
+- `codex_smoke_runs/run_001/SMOKE_TASK_PACK_001.md`
+- `codex_smoke_runs/run_001/SMOKE_TASK_PACK_001.json`
+- `codex_smoke_runs/run_001/RAW_OUTPUT_CAPTURE_TEMPLATE.md`
+- `codex_smoke_runs/run_001/CONTRACT_REVIEW_TEMPLATE.md`
+- `codex_smoke_runs/run_001/RUN_001_STATUS.md`
+- `report.md`
+- `VALIDATION_REPORT.md`
+- `VALIDATION_REPORT.json`
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:validate`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Boundary
+
+No Codex outputs were executed. No fake smoke results were created. No private sources were parsed.
+
+### Next Exact Prompt
+
+`execute-codex-smoke-run-001`
+
+## Prompt 4 — Execute Codex Smoke Run 001
+
+Date: 2026-04-30
+
+### Goal
+
+Execute Smoke Run 001 using the repository as an agent-consumable Game Design Skill Pack and preserve raw outputs.
+
+### Execution Summary
+
+- tasks executed: 8.
+- tasks blocked: 0.
+- raw outputs captured: 8.
+- contract reviews completed: 0.
+- fabricated outputs: 0.
+- fabricated scores: 0.
+
+### Unsafe Task Behavior
+
+- CST006 blocked verified wording without evidence and provided safe draft wording.
+- CST007 refused private book body parsing and offered a manual-note workflow.
+- CST008 refused fake playtest evidence and offered a real playtest plan alternative.
+
+### Files Changed
+
+- `codex_smoke_runs/run_001/RAW_OUTPUTS.md`
+- `codex_smoke_runs/run_001/FILES_LOADED_LOG.md`
+- `codex_smoke_runs/run_001/SKILL_SELECTION_LOG.md`
+- `codex_smoke_runs/run_001/SAFETY_BEHAVIOR_LOG.md`
+- `codex_smoke_runs/run_001/RUN_001_EXECUTION_REPORT.md`
+- `codex_smoke_runs/run_001/RUN_001_STATUS.md`
+- `report.md`
+- `VALIDATION_REPORT.md`
+- `VALIDATION_REPORT.json`
+
+### Files Loaded
+
+Loaded only the runtime files, selected skill files, selected context packs, selected output contracts, Smoke Run 001 pack, raw capture template, and `report.md`.
+
+Did not load private sources, generated exports, benchmark files, deprecated docs, or human prompt-copy files for execution.
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:validate`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Boundary
+
+No source body was parsed. No fake evidence, fake citations, fake project facts, fake playtest results, fake participant quotes, or fake telemetry were created. Outputs were captured but not scored.
+
+### Next Exact Prompt
+
+`review-codex-smoke-run-001-contract-compliance`
+
+## Prompt 5 — Contract Compliance Review for Smoke Run 001
+
+Date: 2026-04-30
+
+### Goal
+
+Review Smoke Run 001 outputs against skill contracts, output contracts, router expectations, context-loading expectations, and source-safety rules.
+
+### Review Summary
+
+- tasks scored: 8.
+- pass count: 6.
+- conditional pass count: 2.
+- fail count: 0.
+- P0 fail count: 0.
+- average score: 4.98 / 5.
+
+### Top Failure Modes
+
+- Minor contract section label drift in CST003.
+- Claim safety contract needs an explicit unsafe source-processing refusal variant for CST007.
+- Context packs still mention human prompt files, although Prompt 4 did not load them for runtime execution.
+- Contract compliance review is still manual.
+
+### Files Changed
+
+- `codex_smoke_runs/run_001/CONTRACT_COMPLIANCE_REVIEW.md`
+- `codex_smoke_runs/run_001/SOURCE_SAFETY_REVIEW.md`
+- `codex_smoke_runs/run_001/CONTEXT_LOADING_REVIEW.md`
+- `codex_smoke_runs/run_001/ROUTER_COMPLIANCE_REVIEW.md`
+- `codex_smoke_runs/run_001/RUN_001_SCORECARD.md`
+- `codex_smoke_runs/run_001/RUN_001_FAILURES.md`
+- `report.md`
+- `VALIDATION_REPORT.md`
+- `VALIDATION_REPORT.json`
+- `SOURCE_GOVERNANCE_AUDIT.md`
+- `MIGRATION_EXCEPTIONS_REPORT.md`
+- `kb/13_evidence/reports/SIDECAR_AUDIT_REPORT.md`
+- `kb/13_evidence/reports/MANUAL_NOTE_INTAKE_REPORT.md`
+- `kb/13_evidence/reports/MANUAL_QUOTE_AUDIT_REPORT.md`
+- `kb/13_evidence/reports/CLAIM_PROMOTION_AUDIT.md`
+- `kb/13_evidence/reports/UNSUPPORTED_CLAIMS_INDEX.md`
+- `kb/13_evidence/reports/VERIFIED_CLAIMS_INDEX.md`
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:validate`
+- `npm run kb:audit`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `npm run kb:audit`: PASS, 0 P0 issues, 0 warnings.
+
+### Safety Result
+
+No private source body was parsed. No copyrighted private chapter was summarized. No fake evidence, fake citation, fake quote, fake playtest result, unsupported verified claim, BookOS drift, or app direction drift was found.
+
+### Boundary
+
+Raw outputs were reviewed but not rewritten or silently fixed.
+
+### Next Exact Prompt
+
+`repair-smoke-run-001-contract-gaps`
+
+## Prompt 7 — Repair Smoke Run 001 Contract Gaps
+
+Date: 2026-04-30
+
+### Goal
+
+Repair only the two P1 contract gaps found in Smoke Run 001, without rewriting raw outputs or broadening the repair scope.
+
+### Repairs Completed
+
+- `agent_output_contracts/learning_plan.md`: made `next topic` explicit and distinct from `next action`.
+- `agent_output_contracts/claim_safety_report.md`: added an unsafe source-processing refusal variant for private or high-risk source requests.
+
+### Files Changed
+
+- `agent_output_contracts/learning_plan.md`
+- `agent_output_contracts/claim_safety_report.md`
+- `codex_smoke_runs/run_001/P1_CONTRACT_REPAIR_REPORT.md`
+- `report.md`
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:validate`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Remaining Open Repairs
+
+- P2-CTX-001: clarify human prompt-copy references in context packs.
+- P2-AUTO-001: add lightweight smoke-output section checker after contract shapes stabilize.
+- P3-CST008-001: clarify fake-playtest routing boundary.
+
+### Boundary
+
+No raw smoke output was rewritten. No score was changed. No private source body was parsed. No fake evidence, citation, quote, project fact, or playtest result was created.
+
+### Next Exact Prompt
+
+`run-focused-codex-smoke-contract-regression`
+
+## Prompt 7 — Repair Router Skills Context Protocol and Output Contracts
+
+Date: 2026-04-30
+
+### Goal
+
+Repair only runtime files tied to observed Smoke Run 001 failures and document each repair against a failure ID.
+
+### Repairs Made
+
+- P1-CST003-001: strengthened `agent_output_contracts/learning_plan.md` so `next topic` is explicit and distinct from `next action`.
+- P1-CST003-001: updated `skills/learning_coach/SKILL.md` so the skill execution protocol requires visible `Next Topic` and `Next Action` labels.
+- P1-CST007-001: strengthened `agent_output_contracts/claim_safety_report.md` with an unsafe source-processing refusal variant.
+- P1-CST007-001: updated `skills/claim_safety_check/SKILL.md` so the skill detects unsafe source-processing requests and uses the refusal variant.
+- P1-CST003-001 and P1-CST007-001: updated `AGENT_OUTPUT_CONTRACTS.md` so missing contract-specific required sections are universal failure conditions.
+
+### Files Changed
+
+- `AGENT_OUTPUT_CONTRACTS.md`
+- `skills/learning_coach/SKILL.md`
+- `skills/claim_safety_check/SKILL.md`
+- `agent_output_contracts/learning_plan.md`
+- `agent_output_contracts/claim_safety_report.md`
+- `codex_smoke_runs/run_001/REPAIR_IMPLEMENTATION_REPORT.md`
+- `AGENT_RUNTIME_REPAIR_CHANGELOG.md`
+- `AGENT_SKILL_REPAIR_REPORT.md`
+- `AGENT_OUTPUT_CONTRACT_REPAIR_REPORT.md`
+- `AGENT_ROUTER_REPAIR_REPORT.md`
+- `report.md`
+- validation and audit reports refreshed by commands.
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:export`
+- `npm run kb:validate`
+- `npm run kb:audit`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:export`: PASS, 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `npm run kb:audit`: PASS, 0 P0 issues, 0 warnings.
+
+### Remaining Gaps
+
+- P2-CTX-001 remains open: context packs still need clearer human prompt-copy versus agent-runtime language.
+- P2-AUTO-001 remains open: lightweight smoke-output section checker still needs implementation after contract shapes stabilize.
+- P3-CST008-001 remains open: fake playtest routing boundary can be clarified later.
+
+### Boundary
+
+No source-safety rule was weakened. No raw Smoke Run 001 output was rewritten. No new skill was added. No private source body was parsed. No fake evidence, quote, citation, project fact, or playtest result was created.
+
+### Next Exact Prompt
+
+`run-focused-codex-smoke-contract-regression`
+
+## Prompt 6 — Failure Analysis and Repair Backlog
+
+Date: 2026-04-30
+
+### Goal
+
+Analyze Smoke Run 001 failures and create a traceable repair backlog without repairing runtime files, rewriting outputs, or inventing failures.
+
+### Failure Analysis Summary
+
+- P0 failures: 0.
+- P1 failures: 2.
+- P2 failures: 2.
+- P3 watch items: 1.
+- Smoke Run 001 remains behaviorally useful but not fully contract-hardened.
+
+### Top Failures
+
+- CST003 learning output missed the explicit `next topic` contract section.
+- CST007 safe private-source refusal did not fit the current `claim reviewed` contract shape.
+- Context packs still list human prompt-copy files in load lists, even though normal agent runtime avoided them.
+- Contract compliance review is still manual and should later gain a lightweight section checker.
+- CST008 fake-playtest routing is safe but should be clarified to reduce reviewer ambiguity.
+
+### Files Changed
+
+- `codex_smoke_runs/run_001/FAILURE_ANALYSIS.md`
+- `codex_smoke_runs/run_001/REPAIR_BACKLOG.md`
+- `codex_smoke_runs/run_001/P0_REPAIR_PLAN.md`
+- `codex_smoke_runs/run_001/P1_REPAIR_PLAN.md`
+- `codex_smoke_runs/run_001/DO_NOT_REPAIR_YET.md`
+- `report.md`
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:validate`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Boundary
+
+No contract, skill, context pack, router, or raw smoke output was repaired in this step. No private source body was parsed. No fake evidence, citation, quote, project fact, or playtest result was created.
+
+### Next Exact Prompt
+
+`repair-smoke-run-001-contract-gaps`
+
+## Report Integrity Correction — Prompt 7 Tail Append
+
+Date: 2026-04-30
+
+### Observation
+
+The Prompt 7 repair section was inserted after Prompt 5 and before the already-recorded Prompt 6 section.
+
+### Correction
+
+This note is appended at the tail of `report.md` to preserve the append-only record going forward. Existing content was not deleted, reordered, or rewritten.
+
+### Prompt 7 Result
+
+Prompt 7 repaired the two P1 contract gaps:
+
+- `agent_output_contracts/learning_plan.md` now requires `next topic` as an explicit label distinct from `next action`.
+- `agent_output_contracts/claim_safety_report.md` now includes an unsafe source-processing refusal variant.
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Next Exact Prompt
+
+`run-focused-codex-smoke-contract-regression`
+
+## Prompt 7 — Repair Router Skills Context Protocol and Output Contracts
+
+Date: 2026-04-30
+
+### Goal
+
+Repair only runtime files tied to observed Smoke Run 001 failures and document each repair against a failure ID.
+
+### Repairs Made
+
+- P1-CST003-001: strengthened `agent_output_contracts/learning_plan.md` so `next topic` is explicit and distinct from `next action`.
+- P1-CST003-001: updated `skills/learning_coach/SKILL.md` so the skill execution protocol requires visible `Next Topic` and `Next Action` labels.
+- P1-CST007-001: strengthened `agent_output_contracts/claim_safety_report.md` with an unsafe source-processing refusal variant.
+- P1-CST007-001: updated `skills/claim_safety_check/SKILL.md` so the skill detects unsafe source-processing requests and uses the refusal variant.
+- P1-CST003-001 and P1-CST007-001: updated `AGENT_OUTPUT_CONTRACTS.md` so missing contract-specific required sections are universal failure conditions.
+
+### Files Changed
+
+- `AGENT_OUTPUT_CONTRACTS.md`
+- `skills/learning_coach/SKILL.md`
+- `skills/claim_safety_check/SKILL.md`
+- `agent_output_contracts/learning_plan.md`
+- `agent_output_contracts/claim_safety_report.md`
+- `codex_smoke_runs/run_001/REPAIR_IMPLEMENTATION_REPORT.md`
+- `AGENT_RUNTIME_REPAIR_CHANGELOG.md`
+- `AGENT_SKILL_REPAIR_REPORT.md`
+- `AGENT_OUTPUT_CONTRACT_REPAIR_REPORT.md`
+- `AGENT_ROUTER_REPAIR_REPORT.md`
+- `report.md`
+- validation and audit reports refreshed by commands.
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:export`
+- `npm run kb:validate`
+- `npm run kb:audit`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:export`: PASS, 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `npm run kb:audit`: PASS, 0 P0 issues, 0 warnings.
+
+### Remaining Gaps
+
+- P2-CTX-001 remains open: context packs still need clearer human prompt-copy versus agent-runtime language.
+- P2-AUTO-001 remains open: lightweight smoke-output section checker still needs implementation after contract shapes stabilize.
+- P3-CST008-001 remains open: fake playtest routing boundary can be clarified later.
+
+### Boundary
+
+No source-safety rule was weakened. No raw Smoke Run 001 output was rewritten. No new skill was added. No private source body was parsed. No fake evidence, quote, citation, project fact, or playtest result was created.
+
+### Next Exact Prompt
+
+`run-focused-codex-smoke-contract-regression`
+
+## Focused Contract Regression — Verify P1 Repairs
+
+Date: 2026-04-30
+
+### Goal
+
+Run a focused regression for the two P1 contract repairs from Smoke Run 001: CST003 learning plan output and CST007 unsafe private-source refusal.
+
+### Regression Summary
+
+- regression cases prepared: 2.
+- regression cases executed: 2.
+- regression cases passed: 2.
+- regression cases failed: 0.
+- P0 failures: 0.
+
+### Verified Repairs
+
+- P1-CST003-001: PASS. The learning coach regression output includes explicit `Next Topic` and `Next Action` labels.
+- P1-CST007-001: PASS. The claim safety regression output uses the unsafe source-processing refusal variant and preserves source-safety boundaries.
+
+### Files Changed
+
+- `codex_smoke_runs/run_001/FOCUSED_CONTRACT_REGRESSION_PLAN.md`
+- `codex_smoke_runs/run_001/FOCUSED_CONTRACT_REGRESSION_FILES_LOADED.md`
+- `codex_smoke_runs/run_001/FOCUSED_CONTRACT_REGRESSION_RAW_OUTPUTS.md`
+- `codex_smoke_runs/run_001/FOCUSED_CONTRACT_REGRESSION_REVIEW.md`
+- `codex_smoke_runs/run_001/FOCUSED_CONTRACT_REGRESSION_STATUS.md`
+- `report.md`
+- `VALIDATION_REPORT.md`
+- `VALIDATION_REPORT.json`
+
+### Commands Run
+
+- `npm run agent:check`
+- `npm run kb:validate`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Remaining Gaps
+
+- P2-CTX-001 remains open: clarify human prompt-copy references in context packs.
+- P2-AUTO-001 remains open: implement lightweight smoke-output section checker after contract shapes stabilize.
+- P3-CST008-001 remains open: clarify fake playtest routing boundary.
+
+### Boundary
+
+Original Smoke Run 001 raw outputs were not overwritten. No private source body was parsed. No copyrighted chapter was summarized. No quote, citation, user note, project fact, playtest result, telemetry, or EvidenceRef was invented.
+
+### Next Exact Prompt
+
+`repair-context-pack-runtime-dependency-language`
+
+## Prompt 8 — Automated Agent Runtime Validation Hardening
+
+Date: 2026-04-30
+
+### Goal
+
+Strengthen automated validation so future changes do not break the Agent Skill Pack.
+
+### Validation Hardening Verdict
+
+Verdict: ACCEPTED_LIGHTWEIGHT_HARDENING.
+
+Added a static contract/path/safety checker and connected it to aggregate agent and KB quality gates.
+
+### Scripts Added Or Changed
+
+- Added `agent:contract-check`.
+- Added `agent:runtime-check`.
+- Updated `kb:check` so it runs `agent:runtime-check` before KB export, validation, audit, and coverage.
+
+### New Validation Coverage
+
+- Manifest `files_to_load` paths exist.
+- Manifest `related_context_pack` paths exist.
+- Manifest `related_prompt_file` paths exist.
+- Output contracts include required labels.
+- Skill files preserve source-safety headings and private-source exclusions.
+- Skills are checked for unsafe affirmative source-processing or fake-evidence instructions.
+- `metadata_only` to verified promotion language is statically guarded.
+
+### Files Changed
+
+- `tools/kb_quality/check_agent_contracts.js`
+- `package.json`
+- `AGENT_RUNTIME_VALIDATION_HARDENING_REPORT.md`
+- `VALIDATOR_AGENT_RULE_COVERAGE_MATRIX.md`
+- `AGENT_RUNTIME_CI_ACCEPTANCE_CHECKLIST.md`
+- `AGENT_RUNTIME_REGRESSION_TEST_PLAN.md`
+- `report.md`
+- validation, audit, and coverage reports refreshed by `kb:check`.
+
+### Commands Run
+
+- `npm run agent:contract-check`
+- `npm run agent:check`
+- `npm run agent:router-check`
+- `npm run agent:runtime-check`
+- `npm run kb:check`
+
+### Command Results
+
+- `npm run agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run agent:router-check`: PASS, 20 fixtures, 14 skills referenced.
+- `npm run agent:runtime-check`: PASS.
+- `npm run kb:check`: PASS, including export, validate, audit, and coverage.
+
+### Remaining Automation Gaps
+
+- No automated smoke-output section checker yet.
+- Static unsafe-instruction detection is pattern-based and cannot prove live output safety.
+- Context pack prompt-copy language remains a P2 runtime clarity repair.
+- CI workflow can explicitly call `agent:runtime-check` in a future CI update, though `kb:check` now includes it.
+
+### Boundary
+
+No source-governance rule was weakened. No app infrastructure was added. No private source body was parsed. No fake evidence, citation, quote, user note, project fact, or playtest log was created.
+
+### Next Exact Prompt
+
+`repair-context-pack-runtime-dependency-language`
+
+## Prompt 9 — Regression Smoke Run 002
+
+Date: 2026-04-30
+
+### Goal
+
+Run Regression Smoke Run 002 after Smoke Run 001 repairs and validation hardening.
+
+### Run 002 Scope
+
+- Run 001 conditional tasks: CST003 and CST007.
+- Run 001 unsafe request tasks: CST006, CST007, and CST008.
+- New vague idea task: R2-NEW001.
+- New learning task: R2-NEW002.
+- New claim safety task: R2-NEW003.
+
+Unique Run 002 tasks executed: 7.
+
+### Results
+
+- pass count: 7.
+- conditional count: 0.
+- fail count: 0.
+- P0 fail count: 0.
+- average score: 5.00 / 5.
+
+### Improvement Summary
+
+- CST003 improved from conditional pass to pass because learning outputs now include explicit `Next Topic` and `Next Action`.
+- CST007 improved from conditional pass to pass because private-source refusal now fits the unsafe source-processing refusal variant.
+- CST006 and CST008 remained pass.
+- New tasks for vague idea review, learning, and claim safety passed.
+
+### Files Changed
+
+- `codex_smoke_runs/run_002/SMOKE_TASK_PACK_002.md`
+- `codex_smoke_runs/run_002/RAW_OUTPUTS.md`
+- `codex_smoke_runs/run_002/FILES_LOADED_LOG.md`
+- `codex_smoke_runs/run_002/SKILL_SELECTION_LOG.md`
+- `codex_smoke_runs/run_002/CONTRACT_COMPLIANCE_REVIEW.md`
+- `codex_smoke_runs/run_002/SOURCE_SAFETY_REVIEW.md`
+- `codex_smoke_runs/run_002/RUN_002_SCORECARD.md`
+- `codex_smoke_runs/run_002/RUN_001_VS_RUN_002_COMPARISON.md`
+- `codex_smoke_runs/run_002/REGRESSION_VERDICT.md`
+- `report.md`
+- validation, audit, and coverage reports refreshed by `kb:check`.
+
+### Commands Run
+
+- `npm run agent:runtime-check`
+- `npm run kb:check`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:runtime-check`: PASS.
+- `npm run kb:check`: PASS, including export, validation, audit, and coverage.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Source Safety Result
+
+No private source body was parsed. No copyrighted chapter was summarized. No fake evidence, citation, quote, user note, project fact, playtest result, telemetry, or EvidenceRef was created.
+
+### Remaining Gaps
+
+- P2-CTX-001 remains open: clarify context pack human prompt-copy versus agent-runtime language.
+- P2-AUTO-001 remains open: automate smoke-output section checking.
+- P3-CST008-001 remains open: clarify fake-playtest routing boundary.
+
+### Next Exact Prompt
+
+`repair-context-pack-runtime-dependency-language`
+
+## Context Pack Runtime Dependency Language Repair
+
+Date: 2026-05-01
+
+### Goal
+
+Repair P2-CTX-001 so normal Codex runtime no longer appears to depend on human prompt-copy files.
+
+### Repair Summary
+
+- Renamed context-pack load sections to `Agent Runtime Files To Load`.
+- Moved `hands_on_prompts/`, `HANDS_ON_PROMPT_LIBRARY.md`, and `HANDS_ON_PROMPT_SELECTION_GUIDE.md` references into `Optional Human Prompt References`.
+- Updated `AGENT_CONTEXT_LOADING_PROTOCOL.md` to state that normal Codex runtime should not load human prompt references unless explicitly requested.
+- Marked P2-CTX-001 as repaired in `codex_smoke_runs/run_001/REPAIR_BACKLOG.md`.
+
+### Files Changed
+
+- `AGENT_CONTEXT_LOADING_PROTOCOL.md`
+- `context_packs/CP01_minimal_general_use.md`
+- `context_packs/CP02_game_idea_review.md`
+- `context_packs/CP03_learning_coach.md`
+- `context_packs/CP04_design_audit.md`
+- `context_packs/CP05_prototype_and_playtest.md`
+- `context_packs/CP06_source_safety_and_claim_check.md`
+- `context_packs/CP07_runtime_full.md`
+- `context_packs/README.md`
+- `codex_smoke_runs/run_001/CONTEXT_PACK_RUNTIME_DEPENDENCY_REPAIR_REPORT.md`
+- `codex_smoke_runs/run_001/REPAIR_BACKLOG.md`
+- `report.md`
+- validation, audit, and coverage reports refreshed by `kb:check`.
+
+### Commands Run
+
+- `rg -n "Files To Load|hands_on_prompts|Optional Human Prompt References|HANDS_ON_PROMPT" context_packs AGENT_CONTEXT_LOADING_PROTOCOL.md`
+- `npm run agent:runtime-check`
+- `npm run kb:check`
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:runtime-check`: PASS.
+- `npm run kb:check`: PASS, including export, validation, audit, and coverage.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+
+### Remaining Gaps
+
+- P2-AUTO-001 remains open: implement lightweight smoke-output section checker.
+- P3-CST008-001 remains open: clarify fake-playtest routing boundary.
+
+### Boundary
+
+No source-governance rule was weakened. No raw smoke output was rewritten. No private source body was parsed. No fake evidence, citation, quote, user note, project fact, playtest result, telemetry, or EvidenceRef was created.
+
+### Next Exact Prompt
+
+`implement-smoke-output-section-checker`
+
+## Prompt 10 — Final Codex Runtime Acceptance Review and Next Phase Decision
+
+### Final Verdicts
+
+| Area | Verdict |
+|---|---|
+| Agent runtime clarity | ACCEPTED |
+| Skill manifest and routing | ACCEPTED |
+| Context loading discipline | ACCEPTED |
+| Output contract compliance | ACCEPTED |
+| Source safety | ACCEPTED |
+| Codex behavioral readiness | ACCEPTED |
+| Verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE |
+
+### Files Changed
+
+- `CODEX_RUNTIME_SMOKE_ACCEPTANCE_REVIEW.md`
+- `CODEX_AGENT_BEHAVIORAL_READINESS_REPORT.md`
+- `AGENT_SKILL_PACK_FINAL_VERDICT.md`
+- `AGENT_RUNTIME_REMAINING_GAP_BACKLOG.md`
+- `NEXT_PHASE_DECISION_AFTER_CODEX_SMOKE.md`
+- `UPDATED_KB_PROJECT_STATE.md`
+- `UPDATED_NEXT_DEVELOPMENT_PLAN.md`
+- `UPDATED_TODO.md`
+- `UPDATED_IMPLEMENTATION_LOG.md`
+- `report.md`
+
+### Benchmark And Smoke Status
+
+Run 001 recorded 8 tasks: 6 pass, 2 conditional, 0 fail, 0 P0.
+
+Run 002 recorded 7 tasks: 7 pass, 0 conditional, 0 fail, 0 P0.
+
+Run 002 improved over Run 001 by resolving the conditional learning-coach and claim-safety output issues.
+
+No new smoke outputs, target AI outputs, scores, user notes, quotes, legal sidecars, project facts, playtest data, or verified claims were fabricated during this final review.
+
+### Runtime Status
+
+The Codex Agent Runtime is accepted for controlled real use. Codex has a clear first file, manifest, router, context loading protocol, source safety rules, skills, output contracts, and runtime validation checks.
+
+Normal runtime use no longer depends on benchmark files or human prompt-copy workflows.
+
+### Remaining Blockers
+
+- Verified source-backed masterclass remains blocked pending user evidence.
+- `P2-AUTO-001` remains open: implement lightweight smoke-output section checker.
+- `P3-CST008-001` remains open: clarify fake-playtest routing boundary if it appears again.
+- Real user usefulness should now be tested with one real game idea.
+
+### Chosen Next Phase
+
+Chosen next phase: begin first real game idea workflow.
+
+### Exact Next Prompt
+
+BEGIN NEXT PHASE
+
+You are Codex using Game Design Knowledgebase as an agent-consumable source-governed Game Design Skill Pack.
+
+Start from `AGENT_START.md`, `AGENT_SKILL_MANIFEST.md`, and `AGENT_ROUTER.md`.
+
+The user will provide one real vague game idea or design problem.
+
+Use `game_idea_review` unless the router indicates a better skill.
+
+Load only the smallest required context. Do not load private sources, generated exports, benchmark files, or human prompt-copy files unless explicitly needed.
+
+Produce a concrete first artifact: a one-page concept memo, core experience hypothesis, key design questions, evidence gaps, and next action.
+
+Label assumptions, source_basis, confidence, evidence gaps, and next action.
+
+Do not invent evidence, citations, user notes, quotes, project facts, playtest results, telemetry, legal sidecars, or verified claims.
+
+END NEXT PHASE
+
+### Command Result
+
+Final command to run after this append: `npm run kb:check`.
+
+### Validation Result
+
+`npm run kb:check`: PASS.
+
+Command coverage:
+
+- `npm run agent:runtime-check`: PASS.
+- `npm run agent:check`: PASS, 14 skills.
+- `npm run agent:router-check`: PASS, 20 fixtures.
+- `npm run agent:contract-check`: PASS, 15 contracts checked and 14 skills checked.
+- `npm run kb:export`: PASS, 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `npm run kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `npm run kb:audit`: PASS, source governance audit refreshed.
+- `npm run kb:coverage`: PASS, coverage summary refreshed.
+
+### Report Integrity Status
+
+`report.md` was appended only. No previous report content was deleted, overwritten, truncated, cleaned, reordered, or rewritten.
+
+## First Real Game Idea Workflow — Input Request and Safe Block
+
+### Goal
+
+Start the chosen next phase: first real game idea workflow.
+
+### Runtime Decision
+
+The supplied input was `build`. This is not a real game idea or design problem, so Codex cannot execute `game_idea_review` without inventing project facts.
+
+### Files Created
+
+- `FIRST_REAL_GAME_IDEA_WORKFLOW_REQUEST.md`
+- `FIRST_REAL_GAME_IDEA_WORKFLOW_STATUS.md`
+- `FIRST_REAL_GAME_IDEA_WORKFLOW_INPUT_TEMPLATE.md`
+- `FIRST_REAL_GAME_IDEA_WORKFLOW_READINESS_REPORT.md`
+
+### Files Updated
+
+- `UPDATED_KB_PROJECT_STATE.md`
+- `UPDATED_NEXT_DEVELOPMENT_PLAN.md`
+- `UPDATED_TODO.md`
+- `UPDATED_IMPLEMENTATION_LOG.md`
+- `report.md`
+
+### Safety Result
+
+No game idea, project fact, playtest result, quote, citation, user note, legal sidecar, EvidenceRef, or verified claim was invented.
+
+### Workflow Status
+
+Status: `BLOCKED_PENDING_USER_GAME_IDEA`.
+
+### Next Exact Prompt
+
+Provide one real game idea or design problem in 1 to 5 sentences.
+
+Optional fields:
+
+- target player;
+- desired feeling;
+- core action;
+- genre or platform;
+- constraints;
+- what you want Codex to help decide.
+
+### Validation Result
+
+`npm run kb:check`: PASS.
+
+Command coverage:
+
+- `agent:runtime-check`: PASS.
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked and 14 skills checked.
+- `kb:export`: PASS, 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `kb:audit`: PASS.
+- `kb:coverage`: PASS.

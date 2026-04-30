@@ -22,3 +22,29 @@ Date: 2026-04-30
 - Modularize importer and validator after tests exist.
 - Collect target AI benchmark outputs when available.
 - Begin user reading notes intake only when user supplies notes.
+
+## 2026-05-01 Update - Current TODO After Codex Smoke
+
+## Immediate
+
+- Begin first real game idea workflow using `AGENT_START.md`, manifest, router, one skill, one context pack, and one output contract.
+- Ask the user for one real vague game idea or design problem.
+- Produce a source-safe artifact with assumptions, source_basis, confidence, evidence gaps, and next action.
+
+## Runtime Backlog
+
+- Implement `P2-AUTO-001`: lightweight smoke-output section checker.
+- Resolve `P3-CST008-001`: fake-playtest routing polish if needed.
+- Keep `kb:check` passing after every runtime change.
+
+## Evidence Backlog
+
+- Wait for real user reading notes before evidence intake.
+- Wait for legal sidecars before any high-risk source processing beyond metadata-only governance.
+- Keep verified claim count at 0 until reviewed evidence exists.
+
+## 2026-05-01 Update - Waiting For Game Idea
+
+- Request a real game idea or design problem from the user.
+- Do not generate the first concept memo until user input exists.
+- Use `FIRST_REAL_GAME_IDEA_WORKFLOW_INPUT_TEMPLATE.md` for the next user response.

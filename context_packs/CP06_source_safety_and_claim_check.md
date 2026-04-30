@@ -13,15 +13,20 @@ Use this when the user asks for:
 - evidence requirements;
 - unsupported claim checks.
 
-## Files To Load
+## Agent Runtime Files To Load
 
 1. `AI_CONTEXT_MINIMUM.md`
 2. `AI_UNCERTAINTY_AND_SOURCE_RULES.md`
 3. `AI_MASTER_RUNTIME_SAFETY_RULES.md`
-4. `hands_on_prompts/P14_check_unsupported_claim.md`
-5. `USE_CASES/source_safety_check.md`
-6. `kb/13_evidence/CLAIM_PROMOTION_WORKFLOW.md`
-7. `kb/01_sources/USER_REQUIRED_EVIDENCE.md`
+4. `USE_CASES/source_safety_check.md`
+5. `kb/13_evidence/CLAIM_PROMOTION_WORKFLOW.md`
+6. `kb/01_sources/USER_REQUIRED_EVIDENCE.md`
+
+## Optional Human Prompt References
+
+These files are for human copy-paste use. Codex should not load them for normal runtime execution unless the user explicitly asks for prompt text:
+
+- `hands_on_prompts/P14_check_unsupported_claim.md`
 
 ## Files Not Needed
 
@@ -34,7 +39,9 @@ Use this when the user asks for:
 
 ## Max Recommended Context Size
 
-7 files, or roughly 6,000 to 10,000 words.
+6 agent-runtime files, or roughly 5,000 to 9,000 words.
+
+Optional prompt references may be loaded only for human prompt packaging or onboarding.
 
 ## Required Safety Rules
 

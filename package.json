@@ -10,6 +10,9 @@
     "kb:coverage": "node tools/kb_quality/coverage_summary.js .",
     "kb:audit": "node tools/kb_quality/source_audit.js . && node tools/validate_kb/validate_kb.js .",
     "agent:check": "node tools/kb_quality/check_agent_runtime.js .",
-    "kb:check": "npm run agent:check && npm run kb:export && npm run kb:validate && npm run kb:audit && npm run kb:coverage"
+    "agent:router-check": "node tools/kb_quality/check_agent_router_fixtures.js .",
+    "agent:contract-check": "node tools/kb_quality/check_agent_contracts.js .",
+    "agent:runtime-check": "npm run agent:check && npm run agent:router-check && npm run agent:contract-check",
+    "kb:check": "npm run agent:runtime-check && npm run kb:export && npm run kb:validate && npm run kb:audit && npm run kb:coverage"
   }
 }
