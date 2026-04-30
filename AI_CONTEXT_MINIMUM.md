@@ -28,3 +28,9 @@ If the AI can read repo files, tell it to load:
 4. `AI_MASTER_RUNTIME_SAFETY_RULES.md`
 
 If it cannot read files, paste the context above and one prompt from [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md).
+
+## Smaller Task-Specific Option
+
+If the task is specific, use [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md) and choose one context pack instead of loading the full repository.
+
+Default pack: [context_packs/CP01_minimal_general_use.md](context_packs/CP01_minimal_general_use.md).

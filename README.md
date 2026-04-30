@@ -32,6 +32,9 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `AI_CONTEXT_MINIMUM.md` is the minimal context to give another AI before using the prompts.
 - `AI_CONTEXT_MINIMAL.md` is the previous minimal-context alias retained for compatibility.
 - `kb/` is the canonical source-governed knowledgebase.
+- `AI_CONTEXT_PACKS.md` helps users choose the smallest AI context pack instead of loading the whole repo.
+- `context_packs/` contains task-specific AI context packs.
+- `DO_NOT_LOAD_EVERYTHING.md` explains why most users should not load the full repository into an AI conversation.
 - `START_HERE.md` is the role-based entry point for new users.
 - `KB_REBUILD_INSTRUCTION.md` is the active maintenance and rebuild instruction.
 - `MASTER_GOAL.md` defines the current AI Game Design Master Framework objective.
@@ -106,6 +109,8 @@ Role-based paths:
 - [Hands-On Prompt Library](HANDS_ON_PROMPT_LIBRARY.md)
 - [Hands-On Prompt Selection Guide](HANDS_ON_PROMPT_SELECTION_GUIDE.md)
 - [Worked Demo Examples](WORKED_EXAMPLES_README.md)
+- [AI Context Packs](AI_CONTEXT_PACKS.md)
+- [Do Not Load Everything](DO_NOT_LOAD_EVERYTHING.md)
 - [Use Cases](USE_CASES/README.md)
 - [Learner Path](kb/navigation/learner_path.md)
 - [Designer Path](kb/navigation/designer_path.md)

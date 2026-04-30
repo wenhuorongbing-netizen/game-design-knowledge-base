@@ -2,6 +2,8 @@
 
 Use this when you want stronger AI behavior than the minimum context provides.
 
+If you need a smaller task-specific context, use [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md) instead of loading all recommended files.
+
 ## Recommended Load Order
 
 | Order | File | Why |

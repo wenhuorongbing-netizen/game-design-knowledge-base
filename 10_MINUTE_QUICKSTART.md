@@ -21,6 +21,8 @@ Use the prompt from the chosen use-case file, [HANDS_ON_PROMPT_LIBRARY.md](HANDS
 
 If you want to see a safe synthetic output before trying your own prompt, use [WORKED_EXAMPLES_README.md](WORKED_EXAMPLES_README.md).
 
+If another AI can read files and asks what to load, use [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md) and choose the smallest matching pack.
+
 ## Step 3: Paste Your Idea Or Question
 
 Replace bracketed text with your own idea, problem, concept, or question.

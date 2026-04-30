@@ -1,0 +1,65 @@
+# CP04 - Design Audit
+
+## When To Use
+
+Use this when the user wants critique or diagnosis of a mechanic, decision, system, economy, game feel issue, UI feedback problem, narrative mismatch, or pitch.
+
+## Files To Load
+
+1. `AI_CONTEXT_MINIMUM.md`
+2. `MASTER_PROBLEM_SOLVER_INDEX.md`
+3. `AI_MASTER_ROUTING_RULES.md`
+4. `AI_MASTER_RUNTIME_RESPONSE_FORMATS.md`
+5. `HANDS_ON_PROMPT_SELECTION_GUIDE.md`
+6. one relevant prompt from `hands_on_prompts/`
+
+Recommended prompt choices:
+
+- P04 for lens review;
+- P05 for meaningful decisions;
+- P06 for systems and economy;
+- P07 for game feel and feedback;
+- P08 for UI feedback;
+- P09 for narrative-mechanic alignment;
+- P15 for pitch critique.
+
+## Files Not Needed
+
+- benchmark outputs;
+- source schemas;
+- generated exports;
+- evidence sidecars unless source claims are requested;
+- private source folders.
+
+## Max Recommended Context Size
+
+6 files plus one prompt, or roughly 6,000 to 9,000 words.
+
+## Required Safety Rules
+
+- Do not invent project facts beyond user input.
+- Do not invent player reactions, telemetry, or playtest data.
+- Treat the audit as a draft design hypothesis unless evidence exists.
+- Label assumptions, source_basis, confidence, and evidence gaps.
+- Produce an artifact even when inputs are partial.
+
+## Recommended Prompt
+
+Use the Game Design Knowledgebase as an AI Game Design Master runtime. Diagnose this design problem, choose the relevant capability, select 2 to 5 lenses, choose one workflow, produce a concrete audit artifact, and label assumptions, source_basis, confidence, evidence gaps, and one next action. Ask at most 3 high-value questions only if blocked.
+
+Problem: [paste problem]
+
+## Expected Output Artifact
+
+One of:
+
+- lens review report;
+- decision audit matrix;
+- rule table;
+- system map;
+- economy source/sink table;
+- feel audit;
+- UI feedback audit;
+- narrative-mechanic alignment map;
+- pitch critique memo.
+

@@ -101,6 +101,10 @@ For the absolute minimum, use [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
 
 For better results, use [AI_CONTEXT_RECOMMENDED.md](AI_CONTEXT_RECOMMENDED.md).
 
+If you want the smallest task-specific context, use [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md).
+
+Do not load the whole repository by default. See [DO_NOT_LOAD_EVERYTHING.md](DO_NOT_LOAD_EVERYTHING.md).
+
 ## If You Only Open One More File
 
 Open [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md).
