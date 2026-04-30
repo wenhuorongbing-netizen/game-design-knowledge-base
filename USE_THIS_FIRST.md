@@ -89,7 +89,7 @@ In short, ignore generated exports, audits, benchmark internals, schemas, legacy
 ## What Is The Shortest Path To Hands-On Use?
 
 1. Open [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md).
-2. Choose one use case.
+2. Choose one use case from [USE_CASE_HUB.md](USE_CASE_HUB.md).
 3. Copy one prompt.
 4. Paste your idea or question.
 5. Ask for one artifact.

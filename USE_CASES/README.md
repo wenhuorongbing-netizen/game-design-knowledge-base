@@ -1,5 +1,7 @@
 # Hands-On Use Cases
 
+Root-level hub: [../USE_CASE_HUB.md](../USE_CASE_HUB.md)
+
 Pick one use case. You do not need to understand the whole repository first.
 
 ## Fast Index

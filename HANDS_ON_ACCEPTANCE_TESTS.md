@@ -7,7 +7,7 @@ Date: 2026-04-30
 | test_id | user task | files involved | expected user action | pass criteria | fail criteria | likely confusion | repair recommendation |
 |---|---|---|---|---|---|---|---|
 | HU-001 | first-time user can find start page | README.md; USE_THIS_FIRST.md; HANDS_ON_START_HERE.md | open README then USE_THIS_FIRST | user reaches first-use path in under 2 minutes | user starts in audits, schemas, or exports | too many root files | keep first lines of README pointing to USE_THIS_FIRST |
-| HU-002 | first-time user can choose use case | HANDS_ON_START_HERE.md; USE_CASES/README.md | choose one situation from table | user selects no-project, vague idea, review, learning, reading, or source-safety path | user cannot map their intent to a path | missing USE_CASE_HUB.md reference in prompts | either keep using USE_CASES/README.md or create a root alias later |
+| HU-002 | first-time user can choose use case | HANDS_ON_START_HERE.md; USE_CASE_HUB.md; USE_CASES/README.md | choose one situation from table | user selects no-project, vague idea, review, learning, reading, or source-safety path | user cannot map their intent to a path | too many similar entry files | keep USE_CASE_HUB.md as the root selector and USE_CASES/README.md as the folder index |
 | HU-003 | user can copy a prompt | COPY_PASTE_PROMPTS.md; HANDS_ON_PROMPT_LIBRARY.md; hands_on_prompts/ | open prompt and copy text | prompt is visible, task-specific, and safe | prompt requires repo internals first | many prompt choices | use HANDS_ON_PROMPT_SELECTION_GUIDE.md |
 | HU-004 | user can know what to paste | USE_THIS_FIRST.md; hands_on_prompts/P01_review_my_game_idea.md | replace bracketed fields with idea/question | user sees exact placeholder | user does not know what input is needed | prompt too abstract | keep "What To Replace" sections |
 | HU-005 | user can understand expected output | hands_on_prompts/; worked_examples/; WORKED_EXAMPLES_README.md | compare prompt with synthetic example | user understands expected artifact shape | user thinks example is real evidence | examples may look plausible | keep demo_only and not_verified labels |
@@ -24,4 +24,3 @@ Date: 2026-04-30
 Result: DOCUMENTATION_TESTS_READY.
 
 These tests are ready for a human or QA agent to execute. They do not claim real user success because no observed user test session was supplied.
-

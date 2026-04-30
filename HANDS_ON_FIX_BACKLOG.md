@@ -10,10 +10,15 @@ This backlog captures usability improvements discovered during hands-on acceptan
 
 | backlog_id | issue | affected files | repair recommendation | acceptance criteria |
 |---|---|---|---|---|
-| HFB-P1-001 | Root prompt references may expect USE_CASE_HUB.md, but the actual hub is USE_CASES/README.md. | future prompts; USE_CASES/README.md | Create a root USE_CASE_HUB.md alias or keep all docs pointing to USE_CASES/README.md. | No active doc references missing USE_CASE_HUB.md as a required file. |
 | HFB-P1-002 | First-time user may still see too many root files. | README.md; WHAT_TO_OPEN_FIRST.md; USE_THIS_FIRST.md | Keep the first-use path at top of README and avoid adding more root entry points unless necessary. | New user can identify first file in under 2 minutes. |
 | HFB-P1-003 | AI may ignore source/confidence footer. | hands_on_prompts/; AI_CONTEXT_MINIMUM.md | Keep self-check prompts and require rejection of outputs without source_basis/confidence. | Every hands-on prompt retains self-check and footer rules. |
 | HFB-P1-004 | No-project learner may treat hypothetical work as real project evidence. | NO_PROJECT_* | Keep "not project evidence" and "not playtest evidence" language visible. | No no-project page implies real project/playtest evidence exists. |
+
+## Resolved Fixes
+
+| backlog_id | issue | resolution | acceptance criteria |
+|---|---|---|---|
+| HFB-P1-001 | Root prompt references may expect USE_CASE_HUB.md, but the actual hub was USE_CASES/README.md. | Created root USE_CASE_HUB.md and linked it from README, USE_THIS_FIRST, HANDS_ON_START_HERE, WHAT_TO_OPEN_FIRST, and USE_CASES/README.md. | No active doc references missing USE_CASE_HUB.md as a required file. |
 
 ## P2 Fixes
 
@@ -34,4 +39,3 @@ Do not implement these unless explicitly requested:
 - automated source parsing;
 - fake benchmark scoring;
 - fake project/playtest evidence.
-

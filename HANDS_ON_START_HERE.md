@@ -4,14 +4,16 @@ This file is a simple alias for the hands-on layer. If you are unsure where to b
 
 1. [USE_THIS_FIRST.md](USE_THIS_FIRST.md)
 2. [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md)
-3. [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md)
-4. [WORKED_EXAMPLES.md](WORKED_EXAMPLES.md)
-5. [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md)
+3. [USE_CASE_HUB.md](USE_CASE_HUB.md)
+4. [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md)
+5. [WORKED_EXAMPLES.md](WORKED_EXAMPLES.md)
+6. [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md)
 
 ## Pick Your Situation
 
 | Situation | Open |
 |---|---|
+| I do not know what use case I need. | [USE_CASE_HUB.md](USE_CASE_HUB.md) |
 | I have no project. | [NO_PROJECT_START_HERE.md](NO_PROJECT_START_HERE.md) |
 | I have a vague idea. | [USE_CASES/vague_game_idea.md](USE_CASES/vague_game_idea.md) |
 | I want a design review. | [USE_CASES/design_review.md](USE_CASES/design_review.md) |
