@@ -76,6 +76,8 @@ Paste this:
 >
 > My idea: [write your idea here]
 
+For more copy-paste prompts, use [HANDS_ON_PROMPT_LIBRARY.md](HANDS_ON_PROMPT_LIBRARY.md).
+
 ## What Files Should I Ignore First?
 
 Use [WHAT_TO_IGNORE_FIRST.md](WHAT_TO_IGNORE_FIRST.md).

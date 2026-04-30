@@ -24,6 +24,8 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 - `FIRST_USE_SMOKE_TEST.md` defines a safe first-use test without fabricating outputs.
 - `WHAT_TO_IGNORE_FIRST.md` and `WHAT_TO_OPEN_FIRST.md` tell new users what to skip and what to open.
 - `COPY_PASTE_PROMPTS.md` is the small first-use prompt kit.
+- `HANDS_ON_PROMPT_LIBRARY.md` is the expanded non-maintainer prompt library.
+- `hands_on_prompts/` contains 15 task-specific copy-paste prompts.
 - `USE_CASES/` contains practical routes for vague ideas, design reviews, no-project learning, reading notes, and source-safety checks.
 - `AI_CONTEXT_MINIMUM.md` is the minimal context to give another AI before using the prompts.
 - `AI_CONTEXT_MINIMAL.md` is the previous minimal-context alias retained for compatibility.
@@ -99,6 +101,7 @@ Role-based paths:
 - [What To Open First](WHAT_TO_OPEN_FIRST.md)
 - [What To Ignore First](WHAT_TO_IGNORE_FIRST.md)
 - [Copy-Paste Prompts](COPY_PASTE_PROMPTS.md)
+- [Hands-On Prompt Library](HANDS_ON_PROMPT_LIBRARY.md)
 - [Use Cases](USE_CASES/README.md)
 - [Learner Path](kb/navigation/learner_path.md)
 - [Designer Path](kb/navigation/designer_path.md)

@@ -46,7 +46,8 @@ Open:
 
 1. [USE_CASES/vague_game_idea.md](USE_CASES/vague_game_idea.md)
 2. [USE_CASES/design_review.md](USE_CASES/design_review.md)
-3. [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md)
+3. [HANDS_ON_PROMPT_LIBRARY.md](HANDS_ON_PROMPT_LIBRARY.md)
+4. [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md)
 
 ## If You Want To Know What To Ignore
 
