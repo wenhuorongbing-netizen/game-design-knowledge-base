@@ -48,3 +48,30 @@ Date: 2026-04-30
 - Request a real game idea or design problem from the user.
 - Do not generate the first concept memo until user input exists.
 - Use `FIRST_REAL_GAME_IDEA_WORKFLOW_INPUT_TEMPLATE.md` for the next user response.
+
+## 2026-05-01 Update - After First Game Idea Workflow Final Review
+
+## Immediate
+
+- Wait for a valid user game idea packet.
+- Do not generate more blocked artifacts for this workflow.
+- Use `first_real_game_idea_workflow/GAME_IDEA_PACKET_TEMPLATE.md` as the canonical input template.
+
+## Optional Runtime Repair
+
+- Add a blocked-artifact template if this pattern repeats.
+- Add a run suffix convention for repeated prompt sections in `report.md`.
+- Add a lightweight workflow checker for `USER_GAME_IDEA_PACKET.md` presence.
+
+## Still Do Not Do
+
+- Do not fabricate concept memo content.
+- Do not invent project facts.
+- Do not invent playtest data.
+- Do not promote claims to verified.
+
+## 2026-05-01 Rerun Confirmation
+
+- Continue waiting for `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`.
+- Do not create any real workflow artifact until the user supplies the required idea packet.
+- Keep `source_basis` as `unsupported_draft` and confidence weak for future idea-derived artifacts unless evidence is supplied.

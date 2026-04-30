@@ -76,3 +76,34 @@ When input arrives:
 2. Produce `one_page_concept_memo`.
 3. Keep source_basis as `unsupported_draft`.
 4. Keep confidence weak unless the user supplies concrete constraints or evidence.
+
+## 2026-05-01 Update - After First Game Idea Workflow Final Review
+
+The first real game idea workflow closed as blocked pending user idea.
+
+## Next Phase
+
+Wait for user evidence.
+
+## Immediate Plan
+
+Do not create more game idea artifacts until the user supplies a valid idea packet.
+
+When the packet arrives:
+
+1. Create or update `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`.
+2. Mark workflow status as `idea_packet_received`.
+3. Re-run routing.
+4. Generate Artifact 01 only from user-supplied facts.
+5. Keep source_basis as `unsupported_draft`.
+6. Keep confidence weak unless concrete evidence is supplied.
+
+## Repair Consideration
+
+If the workflow repeats, add a normal-use stop rule so missing input creates only one concise input request rather than multiple blocked artifact files.
+
+## 2026-05-01 Rerun Confirmation
+
+Repeated Prompt 10 did not change the development plan.
+
+Next development action remains to wait for a valid user game idea packet before producing Artifact 01.
