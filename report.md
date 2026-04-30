@@ -710,3 +710,58 @@ Chosen next phase: collect more target AI outputs.
 ### Exact Next Prompt
 
 `collect-run-003-target-ai-outputs`
+
+## Prompt 1 — Usability Acceptance Review and Phase Refocus
+
+Date: 2026-04-30
+
+### Goal
+
+Review the repository from the viewpoint of a first-time user who wants to actually use the AI Game Design Master framework, identify the main usability blockers, and define the Hands-on Use Case and Usability Simplification Phase.
+
+### Usability Verdict
+
+Usability verdict: CONDITIONALLY_ACCEPTED.
+
+The repository is strong as a governed KB and runtime framework, but it is not yet simple enough for immediate hands-on use. The issue is not missing documentation; the issue is too many valid documents before one concrete action.
+
+### Top Confusion Points
+
+- Too many entrypoints compete for first attention.
+- `START_HERE.md` explains the repo but does not yet give one immediate copy-paste action.
+- Prompt templates exist but are not curated into a small first-use prompt pack.
+- Worked examples are missing or too thin for first-time users.
+- Benchmark and evidence reports are accurate but distract users who only want design help.
+- No-project use is supported but scattered across runtime docs.
+- Design-review use is supported but requires too much file navigation.
+- Draft versus verified status is clear, but source-governance detail appears early.
+- Users know which folders are canonical, but not which files to ignore during first use.
+- The repo feels large because reviewer/maintainer files sit beside user-facing files.
+
+### Files Changed
+
+- `USABILITY_ACCEPTANCE_REVIEW.md`
+- `HANDS_ON_PHASE_PLAN.md`
+- `USER_CONFUSION_AUDIT.md`
+- `ENTRYPOINT_AUDIT.md`
+- `USE_CASE_GAP_AUDIT.md`
+- `COGNITIVE_LOAD_AUDIT.md`
+- `SIMPLIFICATION_BACKLOG.md`
+- `report.md`
+- generated validation/import-export reports refreshed by commands
+
+### Validation Result
+
+Validation result: PASS.
+
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+
+### Next Exact Prompt
+
+`build-hands-on-use-layer`
