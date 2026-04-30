@@ -6,18 +6,28 @@ Date: 2026-04-30
 
 This file tells AI agents how to use the repository without loading unnecessary files or violating source governance.
 
+Default rule: load the smallest useful surface level. Do not load the whole repository unless the user explicitly asks for repository-wide QA or maintenance.
+
 ## Read First
 
 For normal hands-on tasks, read:
 
-1. [USE_THIS_FIRST.md](USE_THIS_FIRST.md)
-2. [USE_CASE_HUB.md](USE_CASE_HUB.md)
-3. [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md)
-4. the one selected file under [context_packs/](context_packs/README.md)
-5. the one selected prompt under [hands_on_prompts/](hands_on_prompts/README.md)
-6. [AI_UNCERTAINTY_AND_SOURCE_RULES.md](AI_UNCERTAINTY_AND_SOURCE_RULES.md)
+1. [AI_CONTEXT_PACKS.md](AI_CONTEXT_PACKS.md)
+2. the one selected file under [context_packs/](context_packs/README.md)
+3. the one selected prompt under [hands_on_prompts/](hands_on_prompts/README.md)
+4. [AI_UNCERTAINTY_AND_SOURCE_RULES.md](AI_UNCERTAINTY_AND_SOURCE_RULES.md) if source/confidence handling is not already included
+5. [USE_CASE_HUB.md](USE_CASE_HUB.md) only if route selection is unclear
 
-Do not load the whole repository unless the user explicitly asks for repository-wide QA or maintenance.
+For human-facing orientation, read [USE_THIS_FIRST.md](USE_THIS_FIRST.md), but do not treat it as a required AI context for every task.
+
+## Surface Levels For AI Agents
+
+| Level | Use |
+|---|---|
+| Level 3 | normal AI task: one context pack and one prompt |
+| Level 4 | complex routing or runtime repair |
+| Level 5 | repository QA, governance, validation, benchmark, or maintenance |
+| Level 6 | generated exports only when a tool requires them |
 
 ## What Not To Read Unless Needed
 
@@ -93,3 +103,4 @@ Prefer the smallest relevant context pack and explain why.
 
 If the user insists on a full repository review, use [REPO_FOR_MAINTAINERS.md](REPO_FOR_MAINTAINERS.md) and [FILE_PRIORITY_INDEX.md](FILE_PRIORITY_INDEX.md) to separate canonical, generated, benchmark, audit, schema, legacy, and ignore-first material.
 
+Prefer [FILE_PRIORITY_INDEX_V2.md](FILE_PRIORITY_INDEX_V2.md) for the surface-level model.

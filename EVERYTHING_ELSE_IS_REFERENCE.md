@@ -8,7 +8,23 @@ The repository is large because it contains the knowledgebase, governance, valid
 
 Normal users do not need most of it.
 
-Use [TOP_20_FILES_TO_KNOW.md](TOP_20_FILES_TO_KNOW.md) as the working surface. Treat everything else as reference unless a task specifically requires it.
+Use [TOP_10_FILES_FOR_FIRST_USE.md](TOP_10_FILES_FOR_FIRST_USE.md) as the first-use surface. Use [TOP_20_FILES_TO_KNOW.md](TOP_20_FILES_TO_KNOW.md) only when you need the broader map.
+
+Treat everything outside the current surface level as reference unless a task specifically requires it.
+
+## Surface Levels
+
+| Level | Meaning | Normal user default |
+|---|---|---|
+| Level 0 | one page only | open `USE_THIS_FIRST.md` |
+| Level 1 | first-use files | open only a few route files |
+| Level 2 | use-case files | open one use case |
+| Level 3 | context packs and prompts | open one context pack and one prompt |
+| Level 4 | runtime and framework reference | reference only |
+| Level 5 | governance, benchmark, validation, schemas | ignore unless maintaining/auditing |
+| Level 6 | generated exports and internals | do not manually edit |
+
+Full model: [REPO_SURFACE_LEVELS.md](REPO_SURFACE_LEVELS.md).
 
 ## Reference Layers
 
@@ -47,7 +63,8 @@ Expand context only if:
 
 ## Practical Rule
 
-If a file is not in [TOP_20_FILES_TO_KNOW.md](TOP_20_FILES_TO_KNOW.md), ask: "What task requires this file?"
+If a file is not in [TOP_10_FILES_FOR_FIRST_USE.md](TOP_10_FILES_FOR_FIRST_USE.md), ask: "What task requires this file?"
 
 If the answer is unclear, do not load it.
 
+If a file is Level 5 or Level 6, normal users should ignore it.
