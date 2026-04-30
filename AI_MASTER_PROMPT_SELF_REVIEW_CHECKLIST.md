@@ -6,6 +6,18 @@ Date: 2026-04-29
 
 Use this checklist when editing or evaluating any prompt in `prompts/master_designer/`.
 
+## Evidence Gate
+
+Do not repair prompts from speculation. A prompt change must cite a real benchmark or review record.
+
+| Gate | Pass Criteria |
+|---|---|
+| real response evidence | A raw target response exists and is preserved without cleanup. |
+| case traceability | The repair cites a benchmark case ID or review item. |
+| failure category | The repair cites a scored P0, P1, or P2 failure category. |
+| source-safety impact | The repair states whether it preserves or strengthens source safety. |
+| no imaginary repair | Missing target outputs alone do not justify prompt or runtime changes. |
+
 ## Required Checks
 
 | Check | Pass Criteria |
@@ -57,3 +69,6 @@ Improve when useful:
 - add better missing-input questions;
 - link to specific prompt benchmark cases.
 
+## Run 002 Note
+
+Run 002 currently has no collected target outputs. This checklist may be used to evaluate future repairs, but it does not authorize edits to prompt or runtime behavior without real response evidence.

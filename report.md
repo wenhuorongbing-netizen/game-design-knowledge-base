@@ -364,3 +364,60 @@ Validation result after final command run: PASS.
 ### Next Exact Prompt
 
 `collect-run-002-target-ai-outputs`
+
+## Prompt 6 — Repair Prompt Library and Runtime from Real Failures
+
+Date: 2026-04-30
+
+### Goal
+
+Repair prompt-library and runtime behavior only where real Run 002 failures prove a defect.
+
+### Failure Categories Repaired
+
+Failure categories repaired: none.
+
+Run 002 has no collected target AI outputs, no scored responses, and no response-level failure evidence. Repairs based on missing outputs would be imaginary, so no prompt or runtime behavior was changed.
+
+### Files Changed
+
+- `AI_MASTER_PROMPT_REPAIR_REPORT_RUN_002.md`
+- `AI_MASTER_PROMPT_CHANGELOG_RUN_002.md`
+- `AI_MASTER_RUNTIME_REPAIR_REPORT_RUN_002.md`
+- `AI_MASTER_PROMPT_SELF_REVIEW_CHECKLIST.md`
+- `report.md`
+- generated import/export, validation, and audit reports updated by commands
+
+### Prompt Changes
+
+Prompt changes: none.
+
+All prompt templates remain unchanged because Run 002 did not produce real outputs that demonstrate prompt-level defects.
+
+### Runtime Changes
+
+Runtime changes: none.
+
+The runtime pack, runtime safety rules, response formats, prompt selector, and uncertainty/source rules remain unchanged because no real Run 002 runtime failure exists.
+
+### Source-Safety Changes
+
+Source-safety changes: preserved and gated.
+
+The prompt self-review checklist now states that future prompt repairs require real response evidence, case traceability, a failure category, and source-safety impact. No source-safety rule was weakened.
+
+### Validation Result
+
+Validation result after final command run: PASS.
+
+- exported entities: 859
+- exported relationships: 8405
+- search documents: 737
+- issues: 0
+- P0 issues: 0
+- warnings: 0
+- accepted exceptions: 0
+
+### Next Exact Prompt
+
+`collect-run-002-target-ai-outputs`
