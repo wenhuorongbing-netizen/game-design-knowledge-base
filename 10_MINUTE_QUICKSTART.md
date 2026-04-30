@@ -19,6 +19,8 @@ Pick one:
 
 Use the prompt from the chosen use-case file, [HANDS_ON_PROMPT_LIBRARY.md](HANDS_ON_PROMPT_LIBRARY.md), or [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md).
 
+If you want to see a safe synthetic output before trying your own prompt, use [WORKED_EXAMPLES_README.md](WORKED_EXAMPLES_README.md).
+
 ## Step 3: Paste Your Idea Or Question
 
 Replace bracketed text with your own idea, problem, concept, or question.

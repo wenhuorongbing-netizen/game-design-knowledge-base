@@ -64,6 +64,12 @@ They are not:
 4. Keep the same safety footer.
 5. Treat the AI output as draft guidance unless real evidence is supplied.
 
+## Quality Controls
+
+- [WORKED_EXAMPLES_USABILITY_REVIEW.md](WORKED_EXAMPLES_USABILITY_REVIEW.md)
+- [WORKED_EXAMPLES_CHECKLIST.md](WORKED_EXAMPLES_CHECKLIST.md)
+- [worked_examples/README.md](worked_examples/README.md)
+
 ## Default Trust Rule
 
 Unless the user supplies real legal/user/project/playtest evidence, worked-example outputs should remain:
@@ -74,4 +80,3 @@ Unless the user supplies real legal/user/project/playtest evidence, worked-examp
 | confidence | weak |
 | verified claims | none |
 | evidence_refs | none |
-
