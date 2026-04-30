@@ -116,3 +116,5 @@ If you have no active project, open [NO_PROJECT_START_HERE.md](NO_PROJECT_START_
 Use [FIRST_USE_CHECKLIST.md](FIRST_USE_CHECKLIST.md).
 
 If you want to test the whole first-use path, use [FIRST_USE_SMOKE_TEST.md](FIRST_USE_SMOKE_TEST.md).
+
+For formal hands-on layer QA, use [HANDS_ON_ACCEPTANCE_TESTS.md](HANDS_ON_ACCEPTANCE_TESTS.md).

@@ -30,3 +30,11 @@ This file is a simple alias for the hands-on layer. If you are unsure where to b
 - private source files.
 
 Use [WHAT_TO_IGNORE_FIRST.md](WHAT_TO_IGNORE_FIRST.md) for the full ignore list.
+
+## Hands-On QA
+
+- [HANDS_ON_USABILITY_TEST_PLAN.md](HANDS_ON_USABILITY_TEST_PLAN.md)
+- [HANDS_ON_ACCEPTANCE_TESTS.md](HANDS_ON_ACCEPTANCE_TESTS.md)
+- [USE_CASE_QA_CHECKLIST.md](USE_CASE_QA_CHECKLIST.md)
+- [HANDS_ON_FAILURE_MODES.md](HANDS_ON_FAILURE_MODES.md)
+- [HANDS_ON_FIX_BACKLOG.md](HANDS_ON_FIX_BACKLOG.md)
