@@ -48,6 +48,12 @@ Unless you provide real user notes, legal evidence, project evidence, or playtes
 4. [NO_PROJECT_PORTFOLIO_ARTIFACTS.md](NO_PROJECT_PORTFOLIO_ARTIFACTS.md)
 5. [NO_PROJECT_30_DAY_HANDS_ON_PLAN.md](NO_PROJECT_30_DAY_HANDS_ON_PLAN.md)
 
+## Quality Controls
+
+- [NO_PROJECT_LEARNING_PATH_REVIEW.md](NO_PROJECT_LEARNING_PATH_REVIEW.md)
+- [NO_PROJECT_LEARNING_PATH_CHECKLIST.md](NO_PROJECT_LEARNING_PATH_CHECKLIST.md)
+- [NO_PROJECT_LEARNING_PATH_SMOKE_TEST.md](NO_PROJECT_LEARNING_PATH_SMOKE_TEST.md)
+
 ## What To Ask AI First
 
 Use this prompt:
@@ -79,4 +85,3 @@ Do not claim:
 - that a book supports a claim without EvidenceRef;
 - that player reactions are known without data;
 - that the AI produced verified game design doctrine.
-
