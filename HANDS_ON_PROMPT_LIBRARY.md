@@ -6,13 +6,28 @@ Use this when you want to copy one prompt, paste your idea or question, and rece
 
 ## How To Use
 
+Fast path:
+
 1. Open [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
-2. If you are unsure which prompt to use, open [HANDS_ON_PROMPT_SELECTION_GUIDE.md](HANDS_ON_PROMPT_SELECTION_GUIDE.md).
-3. Open the prompt file that matches your task.
-4. Copy the prompt block.
-5. Replace the bracketed fields.
-6. Paste into your AI.
-7. Check the output with [FIRST_USE_CHECKLIST.md](FIRST_USE_CHECKLIST.md).
+2. Pick one prompt below.
+3. Copy only the "Copy-Paste Prompt" section.
+4. Replace the bracketed fields.
+5. Paste into your AI.
+6. Check the answer with the prompt's self-check line.
+
+If you are unsure which prompt to use, open [USER_JOURNEY_HUB.md](USER_JOURNEY_HUB.md) or [HANDS_ON_PROMPT_SELECTION_GUIDE.md](HANDS_ON_PROMPT_SELECTION_GUIDE.md).
+
+Prompt style rules are maintained in [COPY_PASTE_PROMPT_STYLE_GUIDE.md](COPY_PASTE_PROMPT_STYLE_GUIDE.md).
+
+## Quick Picks
+
+- Have a rough idea: use P01.
+- Need the core experience: use P02.
+- Need critique: use P04, then choose a specific audit if needed.
+- Need a prototype or playtest plan: use P10 or P11.
+- Want to learn: use P12.
+- Need a reading plan: use P13.
+- Need to check a claim: use P14.
 
 ## Prompt Index
 
@@ -63,6 +78,17 @@ Unless the user supplies real legal/user/project/playtest evidence:
 ## If A Prompt Fails
 
 Use the self-check prompt included in each prompt file. If the AI still invents evidence, refuses to label uncertainty, or gives generic advice without an artifact, reject the output and rerun with [AI_CONTEXT_MINIMUM.md](AI_CONTEXT_MINIMUM.md).
+
+## Copyability Standard
+
+Hands-on prompts should:
+
+- use short lines;
+- use bracketed replacement fields such as `[paste your idea]`;
+- ask at most 3 high-value questions unless deeper review is requested;
+- require one concrete artifact;
+- require assumptions, `source_basis`, confidence, and evidence gaps;
+- keep source-safety rules inside the copied prompt.
 
 ## Prompt QA
 

@@ -2,7 +2,9 @@
 
 ## When To Use
 
-Use this when the task needs the full AI Game Design Master runtime: routing, capabilities, domains, lenses, workflows, response formats, prompt selection, and source rules.
+Use this when the task needs the full AI Game Design Master runtime.
+
+This includes routing, capabilities, domains, lenses, workflows, response formats, prompt selection, and source rules.
 
 Do not use this as the default for simple tasks.
 
@@ -46,9 +48,21 @@ If that is too large, use CP01 plus one task-specific pack instead.
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as an AI Game Design Master runtime. Route my problem through capability, domain, lenses, and workflow. Ask only the smallest set of high-value missing-input questions needed. Produce a concrete artifact, label assumptions, source_basis, confidence, evidence gaps, and one next action. Do not invent evidence or claim verification without EvidenceRef and review.
+Use this short prompt:
 
-Task: [paste task]
+> Use the Game Design Knowledgebase as an AI Game Design Master runtime.
+>
+> Task: [paste task]
+>
+> Route my problem through capability, domain, lenses, and workflow.
+>
+> Ask only the smallest set of high-value missing-input questions needed.
+>
+> Produce a concrete artifact.
+>
+> Label assumptions, source_basis, confidence, evidence gaps, and one next action.
+>
+> Do not invent evidence or claim verification without EvidenceRef and review.
 
 ## Expected Output Artifact
 
@@ -63,4 +77,3 @@ The artifact depends on the routed task:
 - source safety report;
 - pitch critique;
 - workflow output.
-

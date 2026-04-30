@@ -39,9 +39,19 @@ Use it for planning only unless the user supplies real project or playtest data.
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as an AI Game Design Master runtime. Create a prototype or playtest plan from the information I provide. Do not invent project facts, participants, observations, quotes, telemetry, or results. Produce a concrete plan and label assumptions, source_basis, confidence, evidence gaps, and one next action.
+Use this short prompt:
 
-Prototype or playtest need: [paste need]
+> Use the Game Design Knowledgebase as an AI Game Design Master runtime.
+>
+> Prototype or playtest need: [paste need]
+>
+> Create a prototype or playtest plan from only the information I provide.
+>
+> Do not invent project facts, participants, observations, quotes, telemetry, or results.
+>
+> Produce a concrete plan.
+>
+> Label assumptions, source_basis, confidence, evidence gaps, and one next action.
 
 ## Expected Output Artifact
 
@@ -53,4 +63,3 @@ One of:
 - playtest script;
 - observation sheet;
 - iteration decision template.
-

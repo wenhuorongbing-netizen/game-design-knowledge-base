@@ -37,9 +37,21 @@ Use this when the user wants to learn game design, choose what to read, practice
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as an AI Game Design Master learning coach. Teach me one game design concept at a practical level, give me a small exercise, recommend what to read next at metadata level only, and mark source_basis, confidence, assumptions, and evidence gaps.
+Use this short prompt:
 
-Topic: [paste topic]
+> Use the Game Design Knowledgebase as an AI Game Design Master learning coach.
+>
+> Topic: [paste topic]
+>
+> Teach one practical concept.
+>
+> Give me one small exercise.
+>
+> Recommend what to read next at metadata level only.
+>
+> Do not summarize private books or invent source claims.
+>
+> Label source_basis, confidence, assumptions, and evidence gaps.
 
 ## Expected Output Artifact
 
@@ -49,4 +61,3 @@ Topic: [paste topic]
 - diagnostic questions;
 - small exercise;
 - source-safe reading note prompt.
-

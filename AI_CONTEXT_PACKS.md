@@ -16,6 +16,18 @@ For most users, start with:
 
 Then add one task-specific pack only if needed.
 
+## Plain-Language Routes
+
+- General use: CP01.
+- Rough game idea: CP02.
+- Learning or reading plan: CP03.
+- Design critique: CP04.
+- Prototype or playtest planning: CP05.
+- Claim, quote, citation, or evidence safety: CP06.
+- Full runtime work only: CP07.
+
+Do not load more than one task-specific pack unless the task truly spans multiple needs.
+
 ## Context Pack Index
 
 | Pack | Use when | Expected output |
@@ -59,6 +71,12 @@ For normal hands-on use, do not load:
 - evidence folders unless doing evidence intake or claim safety.
 
 For details, see [DO_NOT_LOAD_EVERYTHING.md](DO_NOT_LOAD_EVERYTHING.md).
+
+## Minimality Rule
+
+Start with the smallest pack that can answer the task.
+
+If the AI can produce the expected artifact with CP01 plus one prompt, stop there. Do not add framework, benchmark, schema, generated export, or evidence files just because they exist.
 
 ## Quality Controls
 

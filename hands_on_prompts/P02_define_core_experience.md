@@ -10,7 +10,15 @@ Use this when you need to clarify what the player should feel and repeatedly do.
 >
 > Idea or context: [paste idea or context]
 >
-> Safety and behavior rules: do not invent facts, player reactions, market data, project details, evidence, citations, quotes, user notes, legal sidecars, playtest results, telemetry, or benchmark outputs. Label assumptions, `source_basis`, and confidence. Ask at most 3 high-value questions if needed. Produce a concrete artifact even if some inputs are missing. Do not cite books unless evidence is available. Do not claim verified status without EvidenceRef and review.
+> Rules:
+> - Do not invent facts, player reactions, market data, project details, evidence, citations, or quotes.
+> - Do not invent user notes, legal sidecars, playtest results, telemetry, or benchmark outputs.
+> - Do not parse private or high-risk source bodies.
+> - Do not cite books unless evidence is available.
+> - Ask at most 3 high-value questions if needed.
+> - Produce a concrete artifact even if some inputs are missing.
+> - Label assumptions, `source_basis`, confidence, and evidence gaps.
+> - Do not claim verified status without EvidenceRef and review.
 
 ## What To Replace
 
@@ -54,4 +62,8 @@ Do not invent playtest feedback, player feelings, market validation, or source-b
 
 ## Self-Check Prompt
 
-> Check whether the core experience is specific, testable, and not pretending player response is proven. Correct any missing assumptions, `source_basis`, confidence, or evidence gaps.
+> Check whether the core experience is specific and testable.
+>
+> Do not pretend player response is proven.
+>
+> Correct missing assumptions, `source_basis`, confidence, or evidence gaps.

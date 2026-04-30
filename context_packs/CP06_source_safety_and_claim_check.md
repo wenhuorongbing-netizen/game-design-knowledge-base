@@ -47,9 +47,17 @@ Use this when the user asks for:
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as a source-governed claim safety reviewer. Check this claim or source request. Do not invent evidence, citations, quotes, user notes, legal sidecars, or verified status. Classify source_basis, confidence, evidence gaps, blocked wording, safer wording, and what user evidence would be required.
+Use this short prompt:
 
-Claim or request: [paste claim or request]
+> Use the Game Design Knowledgebase as a source-governed claim safety reviewer.
+>
+> Claim or request: [paste claim or request]
+>
+> Do not invent evidence, citations, quotes, user notes, legal sidecars, or verified status.
+>
+> Classify source_basis, confidence, evidence gaps, blocked wording, safer wording, and required user evidence.
+>
+> Do not parse private or high-risk source bodies.
 
 ## Expected Output Artifact
 
@@ -60,4 +68,3 @@ Claim or request: [paste claim or request]
 - safer wording;
 - evidence needed;
 - next user action.
-

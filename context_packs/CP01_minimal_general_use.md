@@ -4,7 +4,9 @@
 
 Use this for most first-time or casual AI conversations.
 
-Choose this when the user wants one useful design artifact and does not need deep routing, evidence intake, benchmark scoring, or repository maintenance.
+Choose this when the user wants one useful design artifact.
+
+Do not use it for deep routing, evidence intake, benchmark scoring, or repository maintenance.
 
 ## Files To Load
 
@@ -37,9 +39,19 @@ Choose this when the user wants one useful design artifact and does not need dee
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as an AI Game Design Master runtime. Route my request, ask at most 3 high-value questions only if needed, produce one concrete artifact, and label assumptions, source_basis, confidence, evidence gaps, and one next action.
+Use this short prompt:
 
-My request: [paste request]
+> Use the Game Design Knowledgebase as an AI Game Design Master runtime.
+>
+> My request: [paste request]
+>
+> Ask at most 3 high-value questions only if needed.
+>
+> Produce one concrete artifact.
+>
+> Label assumptions, source_basis, confidence, evidence gaps, and one next action.
+>
+> Do not invent evidence or parse private source bodies.
 
 ## Expected Output Artifact
 
@@ -51,4 +63,3 @@ One of:
 - learning mini-lesson;
 - prototype question;
 - evidence gap report.
-

@@ -36,9 +36,21 @@ Use this when the user has a rough idea, genre mix, premise, fantasy, pitch, or 
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as an AI Game Design Master runtime. Review my game idea and produce a one-page concept memo plus a core experience statement. Ask at most 3 high-value questions only if needed. Do not invent evidence, player reactions, market data, or project facts. Label assumptions, source_basis, confidence, evidence gaps, and one next action.
+Use this short prompt:
 
-My idea: [paste idea]
+> Use the Game Design Knowledgebase as an AI Game Design Master runtime.
+>
+> Review my game idea.
+>
+> My idea: [paste idea]
+>
+> Produce a one-page concept memo and a core experience statement.
+>
+> Ask at most 3 high-value questions only if needed.
+>
+> Do not invent evidence, player reactions, market data, or project facts.
+>
+> Label assumptions, source_basis, confidence, evidence gaps, and one next action.
 
 ## Expected Output Artifact
 
@@ -48,4 +60,3 @@ My idea: [paste idea]
 - top risks;
 - useful lenses;
 - next prototype question.
-

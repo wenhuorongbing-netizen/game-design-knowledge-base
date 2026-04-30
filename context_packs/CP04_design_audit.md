@@ -2,7 +2,9 @@
 
 ## When To Use
 
-Use this when the user wants critique or diagnosis of a mechanic, decision, system, economy, game feel issue, UI feedback problem, narrative mismatch, or pitch.
+Use this when the user wants critique or diagnosis.
+
+Good targets include a mechanic, decision, system, economy, game feel issue, UI feedback problem, narrative mismatch, or pitch.
 
 ## Files To Load
 
@@ -45,9 +47,23 @@ Recommended prompt choices:
 
 ## Recommended Prompt
 
-Use the Game Design Knowledgebase as an AI Game Design Master runtime. Diagnose this design problem, choose the relevant capability, select 2 to 5 lenses, choose one workflow, produce a concrete audit artifact, and label assumptions, source_basis, confidence, evidence gaps, and one next action. Ask at most 3 high-value questions only if blocked.
+Use this short prompt:
 
-Problem: [paste problem]
+> Use the Game Design Knowledgebase as an AI Game Design Master runtime.
+>
+> Problem: [paste problem]
+>
+> Diagnose the design problem.
+>
+> Choose the relevant capability.
+>
+> Select 2 to 5 lenses and one workflow.
+>
+> Produce a concrete audit artifact.
+>
+> Ask at most 3 high-value questions only if blocked.
+>
+> Label assumptions, source_basis, confidence, evidence gaps, and one next action.
 
 ## Expected Output Artifact
 
@@ -62,4 +78,3 @@ One of:
 - UI feedback audit;
 - narrative-mechanic alignment map;
 - pitch critique memo.
-

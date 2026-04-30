@@ -10,7 +10,15 @@ Use this when you need expert questions before making design decisions.
 >
 > Design problem: [paste problem]
 >
-> Safety and behavior rules: do not invent facts, player reactions, market data, project details, evidence, citations, quotes, user notes, legal sidecars, playtest results, telemetry, or benchmark outputs. Label assumptions, `source_basis`, and confidence. Ask at most 3 high-value questions if needed, then produce a concrete question set. Do not cite books unless evidence is available. Do not claim verified status without EvidenceRef and review.
+> Rules:
+> - Do not invent facts, player reactions, market data, project details, evidence, citations, or quotes.
+> - Do not invent user notes, legal sidecars, playtest results, telemetry, or benchmark outputs.
+> - Do not parse private or high-risk source bodies.
+> - Do not cite books unless evidence is available.
+> - Ask at most 3 high-value questions if needed.
+> - Produce a concrete question set.
+> - Label assumptions, `source_basis`, confidence, and evidence gaps.
+> - Do not claim verified status without EvidenceRef and review.
 
 ## What To Replace
 
@@ -52,4 +60,8 @@ Do not imply a question is source-backed unless evidence exists.
 
 ## Self-Check Prompt
 
-> Check whether your questions are specific, high-leverage, and tied to a concrete next artifact. Remove generic questions and label uncertainty.
+> Check whether your questions are specific and high-leverage.
+>
+> Make sure they lead to a concrete next artifact.
+>
+> Remove generic questions and label uncertainty.

@@ -10,7 +10,15 @@ Use this when you have a rough idea and want a practical first concept review.
 >
 > My idea: [paste your idea]
 >
-> Safety and behavior rules: do not invent facts, player reactions, market data, project details, evidence, citations, quotes, user notes, legal sidecars, playtest results, telemetry, or benchmark outputs. Label assumptions, `source_basis`, and confidence. Ask at most 3 high-value questions if needed. Produce a concrete artifact even if some inputs are missing. Do not cite books unless evidence is available. Do not claim verified status without EvidenceRef and review.
+> Rules:
+> - Do not invent facts, player reactions, market data, project details, evidence, citations, or quotes.
+> - Do not invent user notes, legal sidecars, playtest results, telemetry, or benchmark outputs.
+> - Do not parse private or high-risk source bodies.
+> - Do not cite books unless evidence is available.
+> - Ask at most 3 high-value questions if needed.
+> - Produce a concrete artifact even if some inputs are missing.
+> - Label assumptions, `source_basis`, confidence, and evidence gaps.
+> - Do not claim verified status without EvidenceRef and review.
 
 ## What To Replace
 
@@ -53,8 +61,20 @@ Do not invent citations, quotes, user notes, legal sidecars, project facts, play
 
 ## Follow-Up Prompt
 
-> Turn the concept memo into a smallest prototype question and list the minimum feature set needed to test it. Keep assumptions, `source_basis`, confidence, and evidence gaps visible.
+> Turn the concept memo into a smallest prototype question.
+>
+> List the minimum feature set needed to test it.
+>
+> Keep assumptions, `source_basis`, confidence, and evidence gaps visible.
 
 ## Self-Check Prompt
 
-> Check your previous answer. Did you invent facts or evidence? Did you label assumptions, `source_basis`, confidence, and evidence gaps? Did you produce a concrete artifact? If not, correct the answer.
+> Check your previous answer.
+>
+> Did you invent facts or evidence?
+>
+> Did you label assumptions, `source_basis`, confidence, and evidence gaps?
+>
+> Did you produce a concrete artifact?
+>
+> If not, correct the answer.
