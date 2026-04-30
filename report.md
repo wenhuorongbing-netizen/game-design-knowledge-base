@@ -2792,3 +2792,64 @@ Validation result: PASS.
 ### Next Exact Prompt
 
 `add-validator-fixture-harness`
+
+## Prompt 9 — Documentation Governance and Maintainability System
+
+Date: 2026-04-30
+
+### Governance Files Created
+
+Status: IMPLEMENTED.
+
+- Added a documentation governance system with lifecycle states, owner roles, review gates, and bloat-control rules.
+- Added lifecycle policy, owner matrix, change checklist, creation rules, deprecation policy, duplication audit, and rot-risk register.
+- Added contributor-facing controls: `CONTRIBUTING.md`, `PR_REVIEW_CHECKLIST.md`, `ISSUE_TEMPLATE.md`, `ADR_TEMPLATE.md`, and `DEFINITION_OF_DONE.md`.
+
+### Bloat Control Rules
+
+- New docs must define purpose, target user, entrypoint role, linked parent, owner, source/confidence policy, deprecation condition, and layer placement.
+- New first-use docs require explicit justification and must reduce user decision load.
+- Prompt, runtime, source-governance, evidence, benchmark, and generated-file rules should be linked from canonical sources instead of duplicated.
+- Stale or duplicate docs should be marked `archive_candidate`, merged, or deprecated rather than left as active first-use material.
+
+### Owner Matrix Summary
+
+Owner roles now separate documentation UX, KB content, AI runtime, source governance, benchmark governance, tooling, and maintainer release responsibility.
+
+First-use docs are owned by documentation UX. Prompt and context docs are owned by AI runtime. Evidence and confidence docs are owned by source governance. Importer, validator, export, and CI docs are owned by tooling. `report.md` and release truth are owned by the maintainer lead.
+
+### Files Changed
+
+- `DOCUMENTATION_GOVERNANCE_SYSTEM.md`
+- `DOC_LIFECYCLE_POLICY.md`
+- `DOC_OWNER_MATRIX.md`
+- `DOC_CHANGE_REVIEW_CHECKLIST.md`
+- `DOC_CREATION_RULES.md`
+- `DOC_DEPRECATION_POLICY.md`
+- `DOC_DUPLICATION_AUDIT.md`
+- `DOC_ROT_RISK_REGISTER.md`
+- `CONTRIBUTING.md`
+- `PR_REVIEW_CHECKLIST.md`
+- `ISSUE_TEMPLATE.md`
+- `ADR_TEMPLATE.md`
+- `DEFINITION_OF_DONE.md`
+- `report.md`
+
+### Validation Result
+
+Validation result: PASS.
+
+Local new-document link check: PASS.
+
+- `npm run kb:export`: PASS.
+- `npm run kb:validate`: PASS.
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+
+### Next Exact Prompt
+
+`run-documentation-governance-maintenance-check`
