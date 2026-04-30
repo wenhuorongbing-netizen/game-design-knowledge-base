@@ -14,7 +14,7 @@ No P0 hands-on usability blockers remain.
 
 | gap_id | severity | title | affected files | required fix | acceptance criteria |
 |---|---|---|---|---|---|
-| HOU-P1-001 | P1 | Run observed hands-on user trial | `USE_THIS_FIRST.md`; `USE_CASE_HUB.md`; `hands_on_prompts/`; `context_packs/`; `worked_examples/` | Have a real user or operator follow the 10-minute path and record friction. | Trial record shows whether user reached a prompt, produced an artifact, and understood source/confidence labels. |
+| HOU-P1-001 | P1 | Supply observed hands-on user trial packet | `HANDS_ON_USER_TRIAL_REQUEST.md`; `HANDS_ON_USER_TRIAL_OBSERVATION_TEMPLATE.md`; `HANDS_ON_USER_TRIAL_REPORT.md` | User supplies route, files opened, prompt used, input pasted, confusion points, and raw AI output if generated. | Trial record shows whether user reached a prompt, produced an artifact, and understood source/confidence labels. |
 | HOU-P1-002 | P1 | Record first-use friction | `HANDS_ON_USABILITY_TEST_PLAN.md`; `HANDS_ON_ACCEPTANCE_TESTS.md` | Add an observed trial report after real use. | Confusion points are backed by observed behavior, not assumptions. |
 | HOU-P1-003 | P1 | Verify target AI output quality | benchmark files; prompt files | Collect real AI outputs from hands-on prompts if user wants behavior evaluation. | Missing outputs are not scored; real outputs are preserved. |
 
@@ -41,5 +41,4 @@ Do not do these during hands-on usability unless explicitly requested:
 
 ## Next Exact Prompt
 
-`run-hands-on-user-trial`
-
+`provide-hands-on-user-trial-observation`

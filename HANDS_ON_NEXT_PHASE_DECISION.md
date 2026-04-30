@@ -6,6 +6,8 @@ Date: 2026-04-30
 
 Chosen next phase: run hands-on user trial.
 
+Current execution status: TRIAL_GATE_PREPARED_BLOCKED_PENDING_USER_OBSERVATION.
+
 ## Options Considered
 
 | Option | Decision | Reason |
@@ -35,5 +37,4 @@ Check whether a user can:
 
 ## Next Exact Prompt
 
-`run-hands-on-user-trial`
-
+`provide-hands-on-user-trial-observation`

@@ -76,10 +76,22 @@ Remaining non-P0 blockers:
 - No real target AI outputs are available for behavior scoring.
 - No user evidence has been supplied for verified source-backed claims.
 
+## Trial Gate Update
+
+The hands-on user trial gate is prepared:
+
+- `HANDS_ON_USER_TRIAL_PROTOCOL.md`
+- `HANDS_ON_USER_TRIAL_REQUEST.md`
+- `HANDS_ON_USER_TRIAL_OBSERVATION_TEMPLATE.md`
+- `HANDS_ON_USER_TRIAL_STATUS.md`
+- `HANDS_ON_USER_TRIAL_REPORT.md`
+
+Current status: BLOCKED_PENDING_USER_TRIAL_OBSERVATION.
+
 ## Acceptance Decision
 
 The Hands-on Use Case and Usability Simplification Phase is complete as a documentation and runtime-use layer.
 
 Next phase decision: run hands-on user trial.
 
-Next exact prompt: `run-hands-on-user-trial`
+Next exact prompt: `provide-hands-on-user-trial-observation`

@@ -4,6 +4,10 @@ Date: 2026-04-30
 
 ## Completed
 
+- Hands-on user trial protocol created.
+- Hands-on user trial request created.
+- Hands-on observation template created.
+- Hands-on user trial status and report shell created.
 - Final hands-on usability acceptance review created.
 - Hands-on readiness report created.
 - Hands-on gap backlog created.
@@ -19,7 +23,7 @@ Date: 2026-04-30
 
 ## Current Blockers
 
-- Observed hands-on user trial has not been supplied.
+- Observed hands-on user trial packet has not been supplied.
 - Target AI outputs have not been supplied.
 - Benchmark responses cannot be scored until raw target outputs exist.
 - Capability and domain readiness remain blocked pending target outputs.
@@ -32,11 +36,11 @@ Date: 2026-04-30
 
 ## Next Engineering Work
 
-Run an observed hands-on user trial. Start from `USE_THIS_FIRST.md`, choose a route in `USE_CASE_HUB.md`, load one context pack, copy one prompt, and record whether the user can get one useful draft artifact.
+Provide a real hands-on user trial observation packet. It should include route, files opened, context pack, prompt used, user input, confusion points, source/confidence label check, and raw AI output if one was generated.
 
 ## Next Exact Prompt
 
-`run-hands-on-user-trial`
+`provide-hands-on-user-trial-observation`
 
 ## Later Work
 

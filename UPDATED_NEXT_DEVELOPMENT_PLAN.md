@@ -4,15 +4,15 @@ Date: 2026-04-30
 
 ## Current Gate
 
-The structural KB, AI Master Framework, Runtime Pack, hands-on layer, prompt library, use-case hub, context packs, worked examples, and simplified navigation are ready for practical use. The current gate is observed hands-on user testing.
+The structural KB, AI Master Framework, Runtime Pack, hands-on layer, prompt library, use-case hub, context packs, worked examples, simplified navigation, and hands-on user trial protocol are ready. The current gate is user-supplied trial observation.
 
-## Next Phase - Run Hands-On User Trial
+## Next Phase - Provide Hands-On User Trial Observation
 
-Goal: verify whether a first-time user can use the hands-on layer without understanding the whole repository.
+Goal: supply real trial observations so the repository can evaluate whether a first-time user can use the hands-on layer without understanding the whole repository.
 
 Tasks:
 
-- Ask the user to choose one starting situation: no project, vague idea, learning, design review, reading plan, or source claim check.
+- User chooses one starting situation: no project, vague idea, learning, design review, reading plan, or source claim check.
 - Start from `USE_THIS_FIRST.md` and `USE_CASE_HUB.md`.
 - Load the matching context pack and prompt.
 - Record whether the user can identify what to paste and what artifact to expect.
@@ -31,7 +31,7 @@ Acceptance criteria:
 - No fabricated evidence, sidecars, user notes, projects, or playtests.
 - Validation passes after reports are updated.
 
-Next prompt: `run-hands-on-user-trial`
+Next prompt: `provide-hands-on-user-trial-observation`
 
 ## Later Phase - Collect More Target AI Outputs
 

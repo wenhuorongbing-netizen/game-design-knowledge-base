@@ -4,7 +4,7 @@ Date: 2026-04-30
 
 ## Current Milestone
 
-Hands-on Use Case and Usability Simplification Phase final acceptance review.
+Hands-on user trial gate preparation.
 
 ## Current Status
 
@@ -21,12 +21,20 @@ Hands-on Use Case and Usability Simplification Phase final acceptance review.
 | use case readiness | ACCEPTED |
 | prompt usability | ACCEPTED |
 | navigation simplification | ACCEPTED |
+| hands-on user trial | BLOCKED_PENDING_USER_TRIAL_OBSERVATION |
 | verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE |
 | source governance | PASS |
 | validation | PASS |
 
 ## Completed This Milestone
 
+- Created hands-on user trial protocol.
+- Created hands-on user trial request.
+- Created hands-on observation template.
+- Created hands-on trial status report.
+- Created hands-on user trial report shell.
+- Confirmed no real user trial observation was fabricated.
+- Confirmed no target AI output was fabricated or scored.
 - Created final hands-on usability acceptance review.
 - Created hands-on readiness report.
 - Created hands-on gap backlog.
@@ -56,10 +64,11 @@ Hands-on Use Case and Usability Simplification Phase final acceptance review.
 | hands-on prompts | 15 |
 | worked examples | 10 |
 | context packs | 7 |
+| observed hands-on user trials | 0 |
 
 ## Latest Command Results
 
-Final command results are recorded in `VALIDATION_REPORT.md`, `kb/11_import_export/import_report.md`, coverage reports, and the appended final hands-on acceptance section of `report.md`.
+Final command results are recorded in `VALIDATION_REPORT.md`, `kb/11_import_export/import_report.md`, coverage reports, and the appended hands-on user trial gate section of `report.md`.
 
 ## Legal Status Summary
 
@@ -67,7 +76,7 @@ High-risk and private sources remain protected. No source body was parsed, summa
 
 ## Current Blockers
 
-- Observed hands-on user trial is required before claiming proven real-world usability.
+- Observed hands-on user trial packet is required before claiming proven real-world usability.
 - Real target AI outputs are required before benchmark scoring and behavioral acceptance can begin.
 - Target AI identity is required for any collected output.
 - User/legal evidence is required before any source-backed masterclass verification can begin.
@@ -75,9 +84,9 @@ High-risk and private sources remain protected. No source body was parsed, summa
 
 ## Next Action
 
-Run an observed hands-on user trial.
+Provide a real hands-on user trial observation packet.
 
-Next exact prompt: `run-hands-on-user-trial`
+Next exact prompt: `provide-hands-on-user-trial-observation`
 
 ## Do Not Redo
 

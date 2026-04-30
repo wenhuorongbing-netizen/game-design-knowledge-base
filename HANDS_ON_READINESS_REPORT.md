@@ -8,6 +8,12 @@ Hands-on readiness: READY_FOR_USER_TRIAL.
 
 The repository is ready for a first practical user trial using the hands-on layer. It is not yet empirically proven by observed user behavior.
 
+## Current Trial Gate
+
+Current trial gate: BLOCKED_PENDING_USER_TRIAL_OBSERVATION.
+
+The trial protocol, request, observation template, status report, and trial report shell now exist. No real trial observation has been supplied yet.
+
 ## Ready Now
 
 | Capability | Readiness | Entry files |
@@ -45,7 +51,10 @@ Recommended first trial:
 7. Check the output with `FIRST_USE_CHECKLIST.md`.
 8. Record confusion points.
 
+Use [HANDS_ON_USER_TRIAL_REQUEST.md](HANDS_ON_USER_TRIAL_REQUEST.md) and [HANDS_ON_USER_TRIAL_OBSERVATION_TEMPLATE.md](HANDS_ON_USER_TRIAL_OBSERVATION_TEMPLATE.md) to submit the first real trial packet.
+
 ## Readiness Verdict
 
 The hands-on system is ready for a user trial, not for a claim of observed usability success.
 
+Next exact prompt: `provide-hands-on-user-trial-observation`
