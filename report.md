@@ -1,6 +1,6 @@
-# Game Design Knowledgebase Report
+﻿# Game Design Knowledgebase Report
 
-## Prompt 1 — Report Integrity Repair and Benchmark Execution Gate
+## Prompt 1 鈥?Report Integrity Repair and Benchmark Execution Gate
 
 Date: 2026-04-30
 
@@ -108,7 +108,7 @@ Validation status after final command run: PASS.
 
 `begin-first-target-ai-benchmark-run-with-real-outputs`
 
-## Prompt 2 — Target AI Benchmark Run 002 Prompt Package
+## Prompt 2 鈥?Target AI Benchmark Run 002 Prompt Package
 
 Date: 2026-04-30
 
@@ -189,7 +189,7 @@ Validation result after final command run: PASS.
 
 `collect-run-002-target-ai-outputs`
 
-## Prompt 5 — Run 002 Failure Analysis and Source-Safety Audit
+## Prompt 5 鈥?Run 002 Failure Analysis and Source-Safety Audit
 
 Date: 2026-04-30
 
@@ -242,7 +242,7 @@ Validation result after final command run: PASS.
 
 `collect-run-002-target-ai-outputs`
 
-## Prompt 3 — Collect Raw Target AI Outputs
+## Prompt 3 鈥?Collect Raw Target AI Outputs
 
 Date: 2026-04-30
 
@@ -299,7 +299,7 @@ Validation result after final command run: PASS.
 
 `score-ai-master-benchmark-run-002`
 
-## Prompt 4 — Score Run 002 with P0 Failure Detection
+## Prompt 4 鈥?Score Run 002 with P0 Failure Detection
 
 Date: 2026-04-30
 
@@ -365,7 +365,7 @@ Validation result after final command run: PASS.
 
 `collect-run-002-target-ai-outputs`
 
-## Prompt 6 — Repair Prompt Library and Runtime from Real Failures
+## Prompt 6 鈥?Repair Prompt Library and Runtime from Real Failures
 
 Date: 2026-04-30
 
@@ -422,7 +422,7 @@ Validation result after final command run: PASS.
 
 `collect-run-002-target-ai-outputs`
 
-## Prompt 7 — Regression Run 003 After Repairs
+## Prompt 7 鈥?Regression Run 003 After Repairs
 
 Date: 2026-04-30
 
@@ -489,7 +489,7 @@ Validation result after final command run: PASS.
 
 `collect-run-003-target-ai-outputs`
 
-## Prompt 8 — Update Capability and Domain Readiness from Real Scores
+## Prompt 8 鈥?Update Capability and Domain Readiness from Real Scores
 
 Date: 2026-04-30
 
@@ -553,7 +553,7 @@ Validation result after final command run: PASS.
 
 `collect-run-003-target-ai-outputs`
 
-## Prompt 9 — Human-Usable AI Master Benchmark Report
+## Prompt 9 鈥?Human-Usable AI Master Benchmark Report
 
 Date: 2026-04-30
 
@@ -615,7 +615,7 @@ Validation result after final command run: PASS.
 
 `collect-run-003-target-ai-outputs`
 
-## Prompt 10 — Final Acceptance Review and Next Phase Decision
+## Prompt 10 鈥?Final Acceptance Review and Next Phase Decision
 
 Date: 2026-04-30
 
@@ -711,7 +711,7 @@ Chosen next phase: collect more target AI outputs.
 
 `collect-run-003-target-ai-outputs`
 
-## Prompt 1 — Usability Acceptance Review and Phase Refocus
+## Prompt 1 鈥?Usability Acceptance Review and Phase Refocus
 
 Date: 2026-04-30
 
@@ -766,7 +766,7 @@ Validation result: PASS.
 
 `build-hands-on-use-layer`
 
-## Prompt 2 — Build Hands-On Use Layer
+## Prompt 2 鈥?Build Hands-On Use Layer
 
 Date: 2026-04-30
 
@@ -815,7 +815,7 @@ The layer is implemented but not yet user-tested. The next step should verify wh
 
 `review-hands-on-use-layer`
 
-## Prompt 2 — Create Hands-on Start Layer
+## Prompt 2 鈥?Create Hands-on Start Layer
 
 Date: 2026-04-30
 
@@ -863,7 +863,7 @@ Validation result: PASS.
 
 `review-hands-on-start-layer`
 
-## Prompt 3 — Review Hands-on Start Layer
+## Prompt 3 鈥?Review Hands-on Start Layer
 
 Date: 2026-04-30
 
@@ -910,7 +910,7 @@ Validation result: PASS.
 
 `run-first-use-smoke-test`
 
-## Prompt 4 — Create Copy-Paste Prompt Packs for Hands-on Use
+## Prompt 4 鈥?Create Copy-Paste Prompt Packs for Hands-on Use
 
 Date: 2026-04-30
 
@@ -977,7 +977,7 @@ Validation result: PASS.
 
 `review-hands-on-prompt-pack`
 
-## Prompt 5 — Review Hands-on Prompt Pack
+## Prompt 5 鈥?Review Hands-on Prompt Pack
 
 Date: 2026-04-30
 
@@ -1038,7 +1038,7 @@ Validation result: PASS.
 
 `run-hands-on-prompt-smoke-test`
 
-## Prompt 5 — Create Worked Demo Examples Without Fake Evidence
+## Prompt 5 鈥?Create Worked Demo Examples Without Fake Evidence
 
 Date: 2026-04-30
 
@@ -1164,7 +1164,7 @@ Validation result: PASS.
 
 `run-worked-examples-smoke-test`
 
-## Prompt 6 — Create Minimal AI Context Packs
+## Prompt 6 鈥?Create Minimal AI Context Packs
 
 Date: 2026-04-30
 
@@ -1353,7 +1353,7 @@ Source governance audit result: PASS.
 
 `run-observed-first-use-smoke-test`
 
-## Prompt 10 — Final Hands-on Usability Acceptance Review
+## Prompt 10 鈥?Final Hands-on Usability Acceptance Review
 
 Date: 2026-04-30
 
@@ -1485,7 +1485,7 @@ Coverage command result: PASS.
 
 `provide-hands-on-user-trial-observation`
 
-## Prompt 10 — Final Hands-on Usability Acceptance Review
+## Prompt 10 鈥?Final Hands-on Usability Acceptance Review
 
 Date: 2026-04-30
 
@@ -1683,7 +1683,7 @@ Source governance audit result: PASS.
 
 `review-simplified-navigation-usability`
 
-## Prompt 8 — Build Use Case QA and Hands-on Acceptance Tests
+## Prompt 8 鈥?Build Use Case QA and Hands-on Acceptance Tests
 
 Date: 2026-04-30
 
@@ -1745,7 +1745,7 @@ Validation result: PASS.
 
 `build-hands-on-use-case-hub`
 
-## Prompt 7 — Build No-Project Hands-on Learning Path
+## Prompt 7 鈥?Build No-Project Hands-on Learning Path
 
 Date: 2026-04-30
 
@@ -1909,7 +1909,7 @@ Source governance audit result: PASS.
 
 `run-observed-first-use-smoke-test`
 
-## Prompt 10 — Final Hands-on Usability Acceptance Review
+## Prompt 10 鈥?Final Hands-on Usability Acceptance Review
 
 Date: 2026-04-30
 
@@ -2041,7 +2041,7 @@ Coverage command result: PASS.
 
 `provide-hands-on-user-trial-observation`
 
-## Prompt 1 — Principal Engineering and Usability Inventory
+## Prompt 1 鈥?Principal Engineering and Usability Inventory
 
 Date: 2026-04-30
 
@@ -2148,7 +2148,7 @@ Source governance audit result: PASS.
 
 `audit-entrypoints-and-accessibility`
 
-## Prompt 2 — Accessibility and Cognitive Load Audit
+## Prompt 2 鈥?Accessibility and Cognitive Load Audit
 
 Date: 2026-04-30
 
@@ -2214,7 +2214,7 @@ Validation result: PASS.
 
 `repair-first-use-accessibility-and-trust-labels`
 
-## Prompt 5 — Accessible Prompt and Context Pack Repair
+## Prompt 5 鈥?Accessible Prompt and Context Pack Repair
 
 Date: 2026-04-30
 
@@ -2309,7 +2309,7 @@ Local repaired prompt/context link check: no missing link targets.
 
 `repair-first-use-accessibility-and-trust-labels`
 
-## Prompt 4 — Use Case Journey Productization
+## Prompt 4 鈥?Use Case Journey Productization
 
 Date: 2026-04-30
 
@@ -2393,7 +2393,7 @@ Local journey link check: no missing link targets in the new journey surface.
 
 `repair-first-use-accessibility-and-trust-labels`
 
-## Prompt 3 — Information Architecture Simplification
+## Prompt 3 鈥?Information Architecture Simplification
 
 Date: 2026-04-30
 
@@ -2462,7 +2462,7 @@ Local IA link check: no missing link targets in the new IA surface.
 
 `repair-first-use-accessibility-and-trust-labels`
 
-## Prompt 5 — Accessible Prompt and Context Pack Repair
+## Prompt 5 鈥?Accessible Prompt and Context Pack Repair
 
 Date: 2026-04-30
 
@@ -2557,7 +2557,7 @@ Local repaired prompt/context link check: no missing link targets.
 
 `repair-first-use-accessibility-and-trust-labels`
 
-## Prompt 6 — One-Page Launchpad and First Artifact Flow
+## Prompt 6 鈥?One-Page Launchpad and First Artifact Flow
 
 Date: 2026-04-30
 
@@ -2652,7 +2652,7 @@ Local launchpad link check: no missing link targets.
 
 `run-first-artifact-flow-smoke-test`
 
-## Prompt 7 — Engineering Governance Deep Audit
+## Prompt 7 鈥?Engineering Governance Deep Audit
 
 Date: 2026-04-30
 
@@ -2732,7 +2732,7 @@ Local engineering audit link check: no missing link targets.
 
 `add-ci-and-validator-fixture-plan`
 
-## Prompt 8 — CI/CD Testing and Quality Gate Hardening
+## Prompt 8 鈥?CI/CD Testing and Quality Gate Hardening
 
 Date: 2026-04-30
 
@@ -2793,7 +2793,7 @@ Validation result: PASS.
 
 `add-validator-fixture-harness`
 
-## Prompt 9 — Documentation Governance and Maintainability System
+## Prompt 9 鈥?Documentation Governance and Maintainability System
 
 Date: 2026-04-30
 
@@ -2854,7 +2854,7 @@ Local new-document link check: PASS.
 
 `run-documentation-governance-maintenance-check`
 
-## Prompt 10 — Final Accessibility Usability and Engineering Acceptance Review
+## Prompt 10 鈥?Final Accessibility Usability and Engineering Acceptance Review
 
 Date: 2026-04-30
 
@@ -2924,3 +2924,110 @@ Chosen next phase: run observed hands-on user trial.
 ### Exact Next Prompt
 
 `run-observed-hands-on-user-trial`
+
+## Codex Agent Runtime and Skill Pack Refactor 鈥?Master Class Audit
+
+Date: 2026-04-30
+
+### Goal
+
+Refactor the repository from a large documentation-heavy Game Design Knowledgebase into an agent-consumable Game Design Skill Pack that Codex can enter, route, load minimally, and use safely.
+
+### Final Verdict
+
+Verdict: CONDITIONALLY_ACCEPTED_FOR_CODEX_SKILL_PACK_USE.
+
+The structural runtime is implemented. Codex now has one canonical first file, a skill manifest, a router, context loading protocol, source safety rules, output contracts, skill folders, task recipes, and a lightweight runtime quality gate.
+
+Behavioral readiness is still blocked pending real Codex smoke tasks.
+
+### Agent Runtime Files Created
+
+- `AGENT_START.md`
+- `AGENT_RUNTIME_OVERVIEW.md`
+- `AGENT_SKILL_MANIFEST.md`
+- `AGENT_SKILL_MANIFEST.json`
+- `AGENT_ROUTER.md`
+- `AGENT_CONTEXT_LOADING_PROTOCOL.md`
+- `AGENT_OUTPUT_CONTRACTS.md`
+- `AGENT_SOURCE_SAFETY_RULES.md`
+- `AGENT_DO_NOT_LOAD.md`
+- `CODEX_USAGE_GUIDE.md`
+- `AGENT_RUNTIME_ACCEPTANCE_CRITERIA.md`
+- `START_FOR_CODEX.md`
+- `START_FOR_HUMANS.md`
+- `START_FOR_MAINTAINERS.md`
+- `CURRENT_STATE.md`
+- `REPORT_INDEX.md`
+
+### Skill Pack Created
+
+- `skills/README.md`
+- 14 skill folders under `skills/`
+- 14 `SKILL.md` files
+- `agent_output_contracts/README.md`
+- 15 output contract files
+- `codex_tasks/README.md`
+- 10 Codex task recipes
+
+### Quality Gates Added
+
+- `tools/kb_quality/check_agent_runtime.js`
+- `npm run agent:check`
+- CI now runs `npm run agent:check`
+
+### Reports Created
+
+- `CODEX_AGENT_RUNTIME_DEEP_AUDIT_REPORT.md`
+- `AGENT_SKILL_PACK_REFACTOR_PLAN.md`
+- `AGENT_RUNTIME_IMPLEMENTATION_REPORT.md`
+- `AGENT_SKILL_PACK_READINESS_REPORT.md`
+- `CODEX_AGENT_RUNTIME_ACCEPTANCE_REVIEW.md`
+- `NEXT_PHASE_DECISION_CODEX_RUNTIME.md`
+- `AGENT_RUNTIME_VALIDATION_PLAN.md`
+- `AGENT_RUNTIME_VALIDATION_REPORT.md`
+- `AGENT_SKILL_CONTRACT_TEST_PLAN.md`
+- `AGENT_SMOKE_TESTS.md`
+- `AGENT_TASK_FIXTURES.md`
+- `AGENT_RUNTIME_QUALITY_GATE_PLAN.md`
+- `CI_CD_AGENT_RUNTIME_IMPROVEMENT_PLAN.md`
+- `VALIDATOR_AGENT_RULE_COVERAGE_MATRIX.md`
+- `AGENT_RUNTIME_CI_ACCEPTANCE_CHECKLIST.md`
+
+### Scorecard Summary
+
+Overall score: 87/100.
+
+Strongest areas: source governance, documentation governance, context loading discipline, and skill-pack structure.
+
+Remaining weak areas: real Codex behavior evidence, router fixtures, and response contract testing.
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run agent:check`: PASS.
+- skills: 14.
+- `npm run kb:export`: PASS.
+- `npm run kb:validate`: PASS.
+- `npm run kb:audit`: PASS.
+- `npm run kb:coverage`: PASS.
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+- source governance status: PASS.
+
+### Remaining Blockers
+
+- Real Codex smoke tasks have not been executed.
+- Router fixture tests are planned but not automated.
+- Output contract response checks are planned but not automated.
+- User evidence is still required for verified source-backed claims.
+
+### Exact Next Prompt
+
+`run-codex-agent-smoke-tasks`

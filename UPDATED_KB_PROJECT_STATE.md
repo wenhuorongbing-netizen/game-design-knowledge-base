@@ -1,16 +1,16 @@
-# Updated KB Project State
+﻿# Updated KB Project State
 
 Date: 2026-04-30
 
 ## Current Phase State
 
-Phase completed: Accessibility, Usability and Engineering Deep Audit Phase.
+Phase completed: Codex Agent Runtime and Skill Pack Refactor.
 
 ## Current Verdict
 
-The repository is accepted as a source-governed Game Design Knowledgebase with a productized hands-on layer, minimal CI gates, and documentation governance.
+The repository is accepted as a source-governed Game Design Knowledgebase with a productized hands-on layer, minimal CI gates, documentation governance, and an agent-consumable skill pack structure.
 
-Empirical usability remains blocked pending observed hands-on user trial.
+Agent behavioral readiness remains blocked pending real Codex smoke tasks.
 
 ## Current Safety State
 
@@ -26,6 +26,20 @@ Empirical usability remains blocked pending observed hands-on user trial.
 | fake evidence | not created |
 | app features | not created |
 
+## Current Agent Runtime State
+
+| Area | Status |
+|---|---|
+| agent start | present |
+| skill manifest markdown | present |
+| skill manifest JSON | present |
+| router | present |
+| context loading protocol | present |
+| source safety rules | present |
+| skills | 14 |
+| output contracts | present |
+| agent check | PASS |
+
 ## Current Best User Start
 
 Normal users should start at:
@@ -39,4 +53,4 @@ For immediate action:
 
 ## Next Phase
 
-Next phase: run observed hands-on user trial.
+Next phase: run Codex agent smoke tasks.

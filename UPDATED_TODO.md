@@ -1,18 +1,18 @@
-# Updated TODO
+﻿# Updated TODO
 
 Date: 2026-04-30
 
 ## Immediate
 
-- Run observed hands-on user trial.
-- Record time-to-start, files opened, prompt chosen, artifact requested, and confusion points.
-- Update usability backlog from observed results.
+- Run 5 to 10 Codex agent smoke tasks from `codex_tasks/`.
+- Record selected skill, files loaded, output contract used, and forbidden files avoided.
+- Update agent runtime backlog from observed results.
 
 ## Next
 
-- Add validator fixture harness.
+- Add router fixture harness.
+- Add output contract response checks.
 - Add plain-language trust-label cheat sheet.
-- Add first-use link check.
 - Add current-state index if report review remains slow.
 
 ## Later

@@ -1,4 +1,4 @@
-# Documentation Creation Rules
+﻿# Documentation Creation Rules
 
 Date: 2026-04-30
 
@@ -16,7 +16,7 @@ Every new document must have:
 |---|---|
 | purpose | what problem this file solves |
 | target user | who will read or use it |
-| entrypoint role | first-use, use-case, runtime, reference, governance, generated, legacy, or deprecated |
+| entrypoint role | active_agent_runtime, active_skill, active_context_pack, first-use, use-case, runtime, reference, governance, generated, legacy, or deprecated |
 | linked parent | the hub or index that points to it |
 | update owner | accountable owner role |
 | source/confidence policy | how it handles claims, evidence, and confidence |
@@ -72,4 +72,3 @@ Any document that discusses claims, books, evidence, notes, quotes, projects, or
 - no fake manual quotes;
 - no fake project or playtest facts;
 - no verified claim without validated evidence.
-

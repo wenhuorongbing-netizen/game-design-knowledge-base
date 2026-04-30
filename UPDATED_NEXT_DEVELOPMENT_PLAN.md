@@ -1,38 +1,39 @@
-# Updated Next Development Plan
+﻿# Updated Next Development Plan
 
 Date: 2026-04-30
 
 ## Next Phase
 
-Run observed hands-on user trial.
+Run Codex agent smoke tasks.
 
 ## Objective
 
-Test whether a first-time user can get one useful design artifact without understanding the full repository.
+Test whether Codex can use `AGENT_START.md`, route to the correct skill, load minimal context, and produce contract-compliant game design artifacts.
 
 ## Trial Inputs
 
 Use existing files only:
 
-- `USE_THIS_FIRST.md`
-- `ONE_PAGE_LAUNCHPAD.md`
-- `USE_CASE_HUB.md`
-- one context pack
-- one hands-on prompt
-- `ACCESSIBLE_FIRST_USE_CHECKLIST.md`
+- `AGENT_START.md`
+- `AGENT_SKILL_MANIFEST.md`
+- `AGENT_ROUTER.md`
+- one `skills/*/SKILL.md`
+- one `agent_output_contracts/*` file
+- one `codex_tasks/*` recipe
 
 ## Trial Scenarios
 
 | Scenario | Artifact |
 |---|---|
-| no project | mini lesson or exercise |
-| vague game idea | one-page concept memo |
-| design review | design review report |
-| claim check | claim safety report |
+| review idea | one-page concept memo |
+| define core experience | core experience statement |
+| audit meaningful choice | meaningful decision audit |
+| make prototype plan | prototype plan |
+| check claim safety | claim safety report |
 
 ## Do Not Do Next
 
-- Do not add more first-use docs before trial evidence.
+- Do not add more runtime docs before smoke evidence.
 - Do not start evidence intake without user evidence.
 - Do not score AI benchmark cases without real target outputs.
 - Do not build app features.

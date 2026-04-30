@@ -75,6 +75,9 @@ jobs:
             test -f "${matches[0]}" || { echo "Missing context pack CP$n"; exit 1; }
           done
 
+      - name: Check agent runtime skill pack
+        run: npm run agent:check
+
       - name: Export KB
         run: npm run kb:export
 

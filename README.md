@@ -1,3 +1,5 @@
+﻿Agent start for Codex: [AGENT_START.md](AGENT_START.md)
+
 Use this first: [USE_THIS_FIRST.md](USE_THIS_FIRST.md)
 
 10-minute quickstart: [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md)
@@ -16,6 +18,12 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 
 ## Canonical KB Content
 
+- `AGENT_START.md` is the canonical first file for Codex-like agents using this repository as a Game Design Skill Pack.
+- `AGENT_SKILL_MANIFEST.md` and `AGENT_SKILL_MANIFEST.json` list available agent skills.
+- `AGENT_ROUTER.md` maps user tasks to skills.
+- `skills/` contains Codex-consumable skill protocols.
+- `agent_output_contracts/` contains artifact output contracts.
+- `codex_tasks/` contains practical Codex task recipes.
 - `HANDS_ON_START.md` is the fastest path for using the AI Game Design Master framework without learning the whole repo first.
 - `USE_THIS_FIRST.md` is the simplest first-use explanation for non-maintainers.
 - `10_MINUTE_QUICKSTART.md` is the quickest guided action path.

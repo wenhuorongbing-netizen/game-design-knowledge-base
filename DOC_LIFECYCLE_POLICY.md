@@ -1,4 +1,4 @@
-# Documentation Lifecycle Policy
+﻿# Documentation Lifecycle Policy
 
 Date: 2026-04-30
 
@@ -10,6 +10,9 @@ This policy defines how documentation enters, changes, ages, and exits active us
 
 | State | Who uses it | Owner | Update trigger | Deprecation trigger | Visible to first-time users? | Validation rule |
 |---|---|---|---|---|---|---|
+| active_agent_runtime | Codex-like agents | AI runtime owner | agent routing, skill, context, or safety rules change | superseded by runtime architecture | no for humans; yes for agents | `npm run agent:check` |
+| active_skill | Codex-like agents after routing | AI runtime owner | skill intent, artifact, safety, or context changes | merged, split, or replaced by skill manifest | no for humans; yes after routing | every skill has `SKILL.md` |
+| active_context_pack | AI agents and users giving context | AI runtime owner | context loading or prompt boundaries change | replaced by skill-specific context | only when using AI | context pack existence gate |
 | active_first_use | new human users | documentation UX owner | first-use route changes | replaced by shorter first-use path | yes | required-file CI gate |
 | active_use_case | users with a specific task | product/use-case owner | use case, prompt, or artifact changes | merged into a better journey | yes, after selection | link review and prompt existence |
 | active_runtime | AI agents and runtime maintainers | AI runtime owner | behavior rules, prompt rules, or context packs change | superseded by runtime pack update | no by default | source/confidence wording review |
@@ -45,4 +48,3 @@ This policy defines how documentation enters, changes, ages, and exits active us
 - Do not treat synthetic examples as real evidence.
 - Do not present draft framework material as verified source-backed doctrine.
 - Do not add app-product instructions to the active documentation set.
-
