@@ -8,6 +8,7 @@
     "kb:export": "node tools/kb_importer/import_kb.js .",
     "kb:validate": "node tools/kb_importer/import_kb.js . && node tools/validate_kb/validate_kb.js .",
     "kb:coverage": "node tools/kb_quality/coverage_summary.js .",
-    "kb:audit": "node tools/kb_quality/source_audit.js . && node tools/validate_kb/validate_kb.js ."
+    "kb:audit": "node tools/kb_quality/source_audit.js . && node tools/validate_kb/validate_kb.js .",
+    "kb:check": "npm run kb:export && npm run kb:validate && npm run kb:audit && npm run kb:coverage"
   }
 }

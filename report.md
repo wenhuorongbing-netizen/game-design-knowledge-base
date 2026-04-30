@@ -2731,3 +2731,64 @@ Local engineering audit link check: no missing link targets.
 ### Next Exact Prompt
 
 `add-ci-and-validator-fixture-plan`
+
+## Prompt 8 — CI/CD Testing and Quality Gate Hardening
+
+Date: 2026-04-30
+
+### Quality Gates Added Or Proposed
+
+Status: IMPLEMENTED_MINIMAL_CI_GATES.
+
+- Added `npm run kb:check` as the local aggregate quality command.
+- Added `.github/workflows/kb-quality.yml` for pull requests and pushes to `main`.
+- Added a tracked-file guard for private source folders and archive/document source formats that must not be committed.
+- Added required-file checks for first-use, hands-on, prompt, context-pack, validation, and source-governance surfaces.
+- Added required command gates: `npm run kb:export`, `npm run kb:validate`, `npm run kb:audit`, and `npm run kb:coverage`.
+- Added generated export freshness checks for the canonical JSON exports.
+- Documented validator rule coverage, regression expectations, CI acceptance criteria, and test strategy.
+
+### Workflow Status
+
+Workflow status: IMPLEMENTED.
+
+The workflow is intentionally minimal. It validates the knowledgebase, checks source-governance gates, confirms first-use surfaces exist, and avoids app build or deployment behavior.
+
+### Test Strategy Summary
+
+The current test strategy treats importer output, validator output, source audit output, and coverage output as release gates. The next engineering improvement is a small fixture harness for known-bad validator cases, especially direction drift, private-file tracking, report contradiction, unsafe evidence usage, and missing hands-on entry files.
+
+### Files Changed
+
+- `.github/workflows/kb-quality.yml`
+- `package.json`
+- `QUALITY_GATE_PLAN.md`
+- `CI_CD_IMPROVEMENT_PLAN.md`
+- `TEST_STRATEGY_FOR_KNOWLEDGEBASE.md`
+- `VALIDATOR_RULE_COVERAGE_MATRIX.md`
+- `REGRESSION_TEST_PLAN.md`
+- `CI_CD_ACCEPTANCE_CHECKLIST.md`
+- `report.md`
+- generated validation, audit, and coverage reports refreshed by commands
+
+### Validation Result
+
+Validation result: PASS.
+
+- `npm run kb:check`: PASS.
+- `npm run kb:export`: PASS.
+- `npm run kb:validate`: PASS.
+- `npm run kb:audit`: PASS.
+- `npm run kb:coverage`: PASS.
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+- source governance status: PASS.
+
+### Next Exact Prompt
+
+`add-validator-fixture-harness`

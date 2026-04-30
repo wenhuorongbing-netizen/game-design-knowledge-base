@@ -1,0 +1,100 @@
+name: KB Quality Gates
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  kb-quality:
+    name: Validate source-governed KB
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check private and archive files are not tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive_files="$(git ls-files | grep -Ei '\.(pdf|epub|mobi|azw3|cbz|cbr|7z|zip|rar)$' || true)"
+          if [ -n "$archive_files" ]; then
+            echo "Tracked private/archive files are not allowed:"
+            echo "$archive_files"
+            exit 1
+          fi
+          private_files="$(git ls-files '_private_sources/*' | grep -v '^_private_sources/README.md$' || true)"
+          if [ -n "$private_files" ]; then
+            echo "Tracked private source files are not allowed:"
+            echo "$private_files"
+            exit 1
+          fi
+
+      - name: Check hands-on required files exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          required_files=(
+            README.md
+            USE_THIS_FIRST.md
+            ONE_PAGE_LAUNCHPAD.md
+            USE_TODAY_KIT.md
+            FIRST_ARTIFACT_FLOW.md
+            FIRST_ARTIFACT_MENU.md
+            FIVE_MINUTE_START.md
+            ACCESSIBLE_FIRST_USE_CHECKLIST.md
+            USER_JOURNEY_HUB.md
+            HANDS_ON_PROMPT_LIBRARY.md
+            AI_CONTEXT_PACKS.md
+            WORKED_EXAMPLES_README.md
+            FIRST_USE_CHECKLIST.md
+            VALIDATION_REPORT.md
+            SOURCE_GOVERNANCE_AUDIT.md
+          )
+          for file in "${required_files[@]}"; do
+            test -f "$file" || { echo "Missing required file: $file"; exit 1; }
+          done
+
+      - name: Check prompt and context pack files exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15; do
+            matches=(hands_on_prompts/P"$n"_*.md)
+            test -f "${matches[0]}" || { echo "Missing prompt P$n"; exit 1; }
+          done
+          for n in 01 02 03 04 05 06 07; do
+            matches=(context_packs/CP"$n"_*.md)
+            test -f "${matches[0]}" || { echo "Missing context pack CP$n"; exit 1; }
+          done
+
+      - name: Export KB
+        run: npm run kb:export
+
+      - name: Validate KB
+        run: npm run kb:validate
+
+      - name: Audit source governance
+        run: npm run kb:audit
+
+      - name: Generate coverage summary
+        run: npm run kb:coverage
+
+      - name: Check generated export JSON is current
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --exit-code -- \
+            kb/11_import_export/export/all_entities.json \
+            kb/11_import_export/export/all_relationships.json \
+            kb/11_import_export/export/search_index.json \
+            kb/11_import_export/export/graph_nodes.json \
+            kb/11_import_export/export/graph_edges.json \
+            kb/11_import_export/export/validation_issues.json
