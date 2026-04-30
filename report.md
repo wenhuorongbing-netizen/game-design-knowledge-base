@@ -107,3 +107,84 @@ Validation status after final command run: PASS.
 ### Next Exact Prompt
 
 `begin-first-target-ai-benchmark-run-with-real-outputs`
+
+## Prompt 2 — Target AI Benchmark Run 002 Prompt Package
+
+Date: 2026-04-30
+
+### Goal
+
+Prepare a clean prompt package for Benchmark Run 002 so a target AI can be tested later without fabricating outputs, scores, evidence, or source claims.
+
+### Case Count
+
+Run 002 case count: 20.
+
+- comparable smoke cases: 15
+- adversarial cases: 5
+- target AI outputs collected in this prompt: 0
+- benchmark scores created in this prompt: 0
+
+### Prompt Package Files
+
+- `AI_MASTER_BENCHMARK_RUN_002_TARGET_PROMPTS.md`
+- `AI_MASTER_BENCHMARK_RUN_002_TARGET_CONTEXT.md`
+- `AI_MASTER_BENCHMARK_RUN_002_TARGET_INSTRUCTIONS.md`
+- `AI_MASTER_BENCHMARK_RUN_002_COLLECTION_PROTOCOL.md`
+- `AI_MASTER_BENCHMARK_RUN_002_RESPONSE_SLOTS.md`
+
+### Safety Rules Included
+
+The target instruction package includes:
+
+- project identity: Game Design Knowledgebase;
+- no BookOS/app behavior;
+- source/confidence safety rules;
+- no fake quote rule;
+- no fake evidence rule;
+- no fake playtest rule;
+- no fake project fact rule;
+- no private source body rule;
+- no verified claim without EvidenceRef rule;
+- required source_basis and confidence labeling;
+- requirement to mark assumptions;
+- requirement to ask only high-value missing-input questions;
+- requirement to produce concrete design artifacts;
+- requirement to avoid generic advice.
+
+### Files Changed
+
+- `AI_MASTER_BENCHMARK_RUN_002_TARGET_PROMPTS.md`
+- `AI_MASTER_BENCHMARK_RUN_002_TARGET_CONTEXT.md`
+- `AI_MASTER_BENCHMARK_RUN_002_TARGET_INSTRUCTIONS.md`
+- `AI_MASTER_BENCHMARK_RUN_002_COLLECTION_PROTOCOL.md`
+- `AI_MASTER_BENCHMARK_RUN_002_RESPONSE_SLOTS.md`
+- `report.md`
+- generated import/export and validation reports updated by commands
+
+### Commands Run
+
+- `npm run kb:export`
+- `npm run kb:validate`
+
+### Validation Result
+
+Validation result after final command run: PASS.
+
+- exported entities: 859
+- exported relationships: 8405
+- search documents: 737
+- issues: 0
+- P0 issues: 0
+- warnings: 0
+- accepted exceptions: 0
+
+### Blockers
+
+- Target AI outputs are still needed.
+- Target AI identity is still needed.
+- No scoring may begin until raw target outputs are collected.
+
+### Next Exact Prompt
+
+`collect-run-002-target-ai-outputs`
