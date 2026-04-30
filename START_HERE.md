@@ -1,6 +1,6 @@
 # Start Here
 
-This is the human entry point for the Game Design Knowledgebase. If you opened the repository with no context, start here before opening `kb/` or any tool folder.
+This is the repository orientation entry point for the Game Design Knowledgebase. If you want to use the AI framework immediately, start with [HANDS_ON_START.md](HANDS_ON_START.md).
 
 ## 1. What Is This Repository?
 
@@ -16,7 +16,15 @@ Do not add user auth, reading sessions, personal library CRUD, forum CRUD, Vue/S
 
 ## 3. What Should I Open First?
 
-Open these in order:
+If you want to use the AI Game Design Master now, open these in order:
+
+1. [HANDS_ON_START.md](HANDS_ON_START.md)
+2. [USE_CASES/README.md](USE_CASES/README.md)
+3. [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md)
+4. [AI_CONTEXT_MINIMAL.md](AI_CONTEXT_MINIMAL.md)
+5. [WORKED_EXAMPLES.md](WORKED_EXAMPLES.md)
+
+If you want repository orientation or maintenance context, open these next:
 
 1. [HOW_TO_USE_THIS_KB.md](HOW_TO_USE_THIS_KB.md)
 2. [REPO_MAP.md](REPO_MAP.md)
@@ -30,7 +38,7 @@ Current strategic phase:
 - [AI_GAME_DESIGN_MASTER_DEFINITION.md](AI_GAME_DESIGN_MASTER_DEFINITION.md)
 - [MASTER_CAPABILITY_MATRIX.md](MASTER_CAPABILITY_MATRIX.md)
 
-If you only need a fast design answer, use [kb/DESIGNER_WORKFLOWS.md](kb/DESIGNER_WORKFLOWS.md).
+If you only need a fast design answer, use [HANDS_ON_START.md](HANDS_ON_START.md), then [COPY_PASTE_PROMPTS.md](COPY_PASTE_PROMPTS.md).
 
 ## Role-Based Navigation
 
@@ -70,7 +78,9 @@ The same material is also available as a role path in [kb/navigation/learner_pat
 
 ## 5. I Want To Use This As A Designer. Where Do I Go?
 
-Start with [kb/DESIGNER_WORKFLOWS.md](kb/DESIGNER_WORKFLOWS.md). It is organized by design problems such as weak core loop, fake choices, floaty feel, broken economy, unclear UI feedback, playtesting, and release readiness.
+Start with [HANDS_ON_START.md](HANDS_ON_START.md) for immediate use.
+
+Then use [USE_CASES/README.md](USE_CASES/README.md) or [kb/DESIGNER_WORKFLOWS.md](kb/DESIGNER_WORKFLOWS.md). The designer workflows are organized by design problems such as weak core loop, fake choices, floaty feel, broken economy, unclear UI feedback, playtesting, and release readiness.
 
 For symptom lookup, use [kb/navigation/quick_problem_solver.md](kb/navigation/quick_problem_solver.md).
 
@@ -126,6 +136,8 @@ npm run kb:audit
 ```
 
 ## 10. Which Folders Should I Ignore?
+
+For a short first-session ignore list, use [FILES_TO_IGNORE_FOR_FIRST_USE.md](FILES_TO_IGNORE_FOR_FIRST_USE.md).
 
 Ignore these unless you are doing explicit maintenance:
 

@@ -765,3 +765,52 @@ Validation result: PASS.
 ### Next Exact Prompt
 
 `build-hands-on-use-layer`
+
+## Prompt 2 — Build Hands-On Use Layer
+
+Date: 2026-04-30
+
+### Goal
+
+Create the minimum hands-on layer that lets a first-time user use the AI Game Design Master framework without understanding the entire repository first.
+
+### Built Layer
+
+- `HANDS_ON_START.md`: one-page first-use flow.
+- `USE_CASES/README.md`: small use-case index.
+- `USE_CASES/vague_game_idea.md`: rough idea to concept memo.
+- `USE_CASES/design_review.md`: lens-based design review.
+- `USE_CASES/no_project_start.md`: use the framework without an active project.
+- `USE_CASES/learn_game_design.md`: learning and mini-lesson path.
+- `USE_CASES/reading_to_notes.md`: source-safe reading-to-note workflow.
+- `USE_CASES/source_safety_check.md`: claim/evidence safety check.
+- `COPY_PASTE_PROMPTS.md`: 10 curated prompts.
+- `WORKED_EXAMPLES.md`: fictional examples showing expected output shape.
+- `AI_CONTEXT_MINIMAL.md`: minimal AI context bundle.
+- `FILES_TO_IGNORE_FOR_FIRST_USE.md`: first-session ignore list.
+
+### Entrypoint Updates
+
+- `README.md` now points immediate users to `HANDS_ON_START.md`.
+- `START_HERE.md` now separates immediate hands-on use from repository orientation.
+- `SIMPLIFICATION_BACKLOG.md` records the hands-on layer as implemented.
+
+### Validation Result
+
+Validation result: PASS.
+
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+
+### Remaining Usability Risk
+
+The layer is implemented but not yet user-tested. The next step should verify whether a first-time user can complete three tasks from the new layer without opening maintainer, benchmark, evidence, or generated files.
+
+### Next Exact Prompt
+
+`review-hands-on-use-layer`

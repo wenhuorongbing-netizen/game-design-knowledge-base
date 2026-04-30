@@ -1,4 +1,6 @@
-Start here: [START_HERE.md](START_HERE.md)
+Hands-on start: [HANDS_ON_START.md](HANDS_ON_START.md)
+
+Repository orientation: [START_HERE.md](START_HERE.md)
 
 # Game Design Knowledgebase
 
@@ -10,6 +12,10 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 
 ## Canonical KB Content
 
+- `HANDS_ON_START.md` is the fastest path for using the AI Game Design Master framework without learning the whole repo first.
+- `COPY_PASTE_PROMPTS.md` is the small first-use prompt kit.
+- `USE_CASES/` contains practical routes for vague ideas, design reviews, no-project learning, reading notes, and source-safety checks.
+- `AI_CONTEXT_MINIMAL.md` is the minimal context to give another AI before using the prompts.
 - `kb/` is the canonical source-governed knowledgebase.
 - `START_HERE.md` is the role-based entry point for new users.
 - `KB_REBUILD_INSTRUCTION.md` is the active maintenance and rebuild instruction.
@@ -56,7 +62,9 @@ Verified source-backed masterclass release remains blocked until legal sidecars,
 
 ## Navigation
 
-If you are new to the repository, start with [START_HERE.md](START_HERE.md).
+If you want to use the AI framework now, start with [HANDS_ON_START.md](HANDS_ON_START.md).
+
+If you are new to the repository and want orientation, use [START_HERE.md](START_HERE.md).
 
 If you are developing the AI Game Design Master Framework, start with [MASTER_GOAL.md](MASTER_GOAL.md), then [MASTER_FRAMEWORK_PHASE_PLAN.md](MASTER_FRAMEWORK_PHASE_PLAN.md), then [MASTER_CAPABILITY_MATRIX.md](MASTER_CAPABILITY_MATRIX.md).
 
@@ -71,6 +79,9 @@ Structure guides:
 
 Role-based paths:
 
+- [Hands-On Start](HANDS_ON_START.md)
+- [Copy-Paste Prompts](COPY_PASTE_PROMPTS.md)
+- [Use Cases](USE_CASES/README.md)
 - [Learner Path](kb/navigation/learner_path.md)
 - [Designer Path](kb/navigation/designer_path.md)
 - [Researcher Path](kb/navigation/researcher_path.md)

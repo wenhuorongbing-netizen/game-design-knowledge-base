@@ -2,6 +2,25 @@
 
 Date: 2026-04-30
 
+## Implementation Status
+
+The first hands-on layer has been implemented:
+
+- `HANDS_ON_START.md`
+- `USE_CASES/README.md`
+- `USE_CASES/vague_game_idea.md`
+- `USE_CASES/design_review.md`
+- `USE_CASES/no_project_start.md`
+- `USE_CASES/learn_game_design.md`
+- `USE_CASES/reading_to_notes.md`
+- `USE_CASES/source_safety_check.md`
+- `COPY_PASTE_PROMPTS.md`
+- `WORKED_EXAMPLES.md`
+- `AI_CONTEXT_MINIMAL.md`
+- `FILES_TO_IGNORE_FOR_FIRST_USE.md`
+
+Remaining simplification work should be based on user testing of this layer, not on deleting canonical KB systems.
+
 ## P1 Hands-On Usability
 
 | backlog_id | severity | title | affected area | required fix | acceptance criteria |
