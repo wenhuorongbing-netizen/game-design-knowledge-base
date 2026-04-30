@@ -4,33 +4,46 @@ Date: 2026-04-30
 
 ## Current Gate
 
-The structural KB, AI Master Framework, Runtime Pack, prompt library, routing layer, and benchmark harness are ready. The current gate is empirical target-output collection.
+The structural KB, AI Master Framework, Runtime Pack, hands-on layer, prompt library, use-case hub, context packs, worked examples, and simplified navigation are ready for practical use. The current gate is observed hands-on user testing.
 
-## Next Phase - Collect More Target AI Outputs
+## Next Phase - Run Hands-On User Trial
+
+Goal: verify whether a first-time user can use the hands-on layer without understanding the whole repository.
+
+Tasks:
+
+- Ask the user to choose one starting situation: no project, vague idea, learning, design review, reading plan, or source claim check.
+- Start from `USE_THIS_FIRST.md` and `USE_CASE_HUB.md`.
+- Load the matching context pack and prompt.
+- Record whether the user can identify what to paste and what artifact to expect.
+- Record whether the AI output labels assumptions, `source_basis`, confidence, and evidence gaps.
+- Record confusion points without rewriting history.
+- Do not score AI benchmark behavior unless target outputs are explicitly supplied for benchmark scoring.
+
+Acceptance criteria:
+
+- No fabricated user testing.
+- The user reaches a prompt and context pack.
+- The user can produce or request one draft artifact.
+- Source/confidence boundaries remain visible.
+- Private-source parsing is avoided.
+- No private source parsing.
+- No fabricated evidence, sidecars, user notes, projects, or playtests.
+- Validation passes after reports are updated.
+
+Next prompt: `run-hands-on-user-trial`
+
+## Later Phase - Collect More Target AI Outputs
 
 Goal: collect real target model outputs so the benchmark can evaluate actual behavior instead of only structural readiness.
 
 Tasks:
 
 - Select a target AI and record model name, version, date, and runtime context supplied.
-- Use the prepared Run 003 prompt package unless the user explicitly chooses Run 002 first.
 - Preserve raw outputs exactly.
 - Keep missing outputs marked as waiting, not scored.
 - Score only collected outputs using the existing rubric.
 - Record every P0 safety failure without minimizing it.
-- Update capability and domain readiness only from real scores.
-- Repair prompts or routing only after failures are observed.
-
-Acceptance criteria:
-
-- No fake target outputs.
-- No fabricated scores.
-- No private source parsing.
-- No fabricated evidence, sidecars, user notes, projects, or playtests.
-- P0 source-safety failures are explicitly reported.
-- Validation passes after reports are updated.
-
-Next prompt: `collect-run-003-target-ai-outputs`
 
 ## Later Phase - Repair From Real Failures
 

@@ -4,7 +4,7 @@ Date: 2026-04-30
 
 ## Current Milestone
 
-Real Target AI Benchmark Execution Phase final acceptance review.
+Hands-on Use Case and Usability Simplification Phase final acceptance review.
 
 ## Current Status
 
@@ -17,19 +17,23 @@ Real Target AI Benchmark Execution Phase final acceptance review.
 | AI Master Runtime Pack | ACCEPTED |
 | Real Target AI Benchmark | BLOCKED_PENDING_TARGET_AI_OUTPUTS |
 | AI Behavioral Master Readiness | BLOCKED_PENDING_MORE_TESTING |
+| hands-on usability | CONDITIONALLY_ACCEPTED |
+| use case readiness | ACCEPTED |
+| prompt usability | ACCEPTED |
+| navigation simplification | ACCEPTED |
 | verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE |
 | source governance | PASS |
 | validation | PASS |
 
 ## Completed This Milestone
 
-- Created final Real Target AI Benchmark acceptance review.
-- Created behavioral acceptance review separating structural readiness from observed behavior.
-- Created final Runtime Pack verdict.
-- Chose the next phase based on actual readiness.
-- Created remaining gap backlog V2.
-- Confirmed missing target outputs remain unscored.
-- Confirmed no fake benchmark outputs or fabricated scores are present.
+- Created final hands-on usability acceptance review.
+- Created hands-on readiness report.
+- Created hands-on gap backlog.
+- Created hands-on next phase decision.
+- Confirmed the use-case hub, prompt library, worked examples, context packs, and no-project path are present.
+- Confirmed navigation simplification is accepted as a documentation layer.
+- Confirmed no observed user trial has been fabricated.
 
 ## Current Counts
 
@@ -49,10 +53,13 @@ Real Target AI Benchmark Execution Phase final acceptance review.
 | validation P0 issues | 0 |
 | validation warnings | 0 |
 | accepted exceptions | 0 |
+| hands-on prompts | 15 |
+| worked examples | 10 |
+| context packs | 7 |
 
 ## Latest Command Results
 
-Final command results are recorded in `VALIDATION_REPORT.md`, `kb/11_import_export/import_report.md`, and the appended Prompt 10 section of `report.md`.
+Final command results are recorded in `VALIDATION_REPORT.md`, `kb/11_import_export/import_report.md`, coverage reports, and the appended final hands-on acceptance section of `report.md`.
 
 ## Legal Status Summary
 
@@ -60,6 +67,7 @@ High-risk and private sources remain protected. No source body was parsed, summa
 
 ## Current Blockers
 
+- Observed hands-on user trial is required before claiming proven real-world usability.
 - Real target AI outputs are required before benchmark scoring and behavioral acceptance can begin.
 - Target AI identity is required for any collected output.
 - User/legal evidence is required before any source-backed masterclass verification can begin.
@@ -67,9 +75,9 @@ High-risk and private sources remain protected. No source body was parsed, summa
 
 ## Next Action
 
-Collect real target AI outputs for the prepared regression run.
+Run an observed hands-on user trial.
 
-Next exact prompt: `collect-run-003-target-ai-outputs`
+Next exact prompt: `run-hands-on-user-trial`
 
 ## Do Not Redo
 
@@ -79,4 +87,5 @@ Next exact prompt: `collect-run-003-target-ai-outputs`
 - Do not invent user evidence.
 - Do not invent benchmark outputs.
 - Do not fabricate benchmark scores.
+- Do not fabricate observed user testing.
 - Do not promote claims without EvidenceRefs and reviewer rationale.

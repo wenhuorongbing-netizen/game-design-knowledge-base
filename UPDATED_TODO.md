@@ -4,6 +4,11 @@ Date: 2026-04-30
 
 ## Completed
 
+- Final hands-on usability acceptance review created.
+- Hands-on readiness report created.
+- Hands-on gap backlog created.
+- Hands-on next phase decision created.
+- Project state, development plan, TODO, and implementation log updated for hands-on phase closure.
 - Final Real Target AI Benchmark acceptance review created.
 - Behavioral acceptance review created.
 - Final Runtime Pack verdict created.
@@ -14,6 +19,7 @@ Date: 2026-04-30
 
 ## Current Blockers
 
+- Observed hands-on user trial has not been supplied.
 - Target AI outputs have not been supplied.
 - Benchmark responses cannot be scored until raw target outputs exist.
 - Capability and domain readiness remain blocked pending target outputs.
@@ -26,11 +32,11 @@ Date: 2026-04-30
 
 ## Next Engineering Work
 
-Collect raw target AI outputs for the prepared regression run. Preserve outputs exactly, score only collected responses, and leave missing responses unscored.
+Run an observed hands-on user trial. Start from `USE_THIS_FIRST.md`, choose a route in `USE_CASE_HUB.md`, load one context pack, copy one prompt, and record whether the user can get one useful draft artifact.
 
 ## Next Exact Prompt
 
-`collect-run-003-target-ai-outputs`
+`run-hands-on-user-trial`
 
 ## Later Work
 
