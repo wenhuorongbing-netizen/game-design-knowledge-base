@@ -1,53 +1,53 @@
 # Updated Next Development Plan
 
-Date: 2026-04-29
+Date: 2026-04-30
 
 ## Current Gate
 
-The AI Master Framework and Runtime Pack are structurally ready. The next gate is empirical: collect real target AI outputs and score them without fabricating results.
+The structural KB, AI Master Framework, Runtime Pack, prompt library, routing layer, and benchmark harness are ready. The current gate is empirical target-output collection.
 
-## Next Phase - First Target AI Benchmark Run
+## Next Phase - Collect More Target AI Outputs
 
-Goal: determine whether a target AI actually behaves like a game design master when using the KB runtime pack.
+Goal: collect real target model outputs so the benchmark can evaluate actual behavior instead of only structural readiness.
 
 Tasks:
 
-- Select the target AI and record its identity.
-- Load or provide the Runtime Pack and required benchmark context.
-- Run the 20 cases in `AI_MASTER_BENCHMARK_RUN_002.md`.
-- Preserve raw target responses exactly.
-- Mark missing responses as waiting_for_target_ai_output.
-- Score only collected responses using `AI_MASTER_SCORING_RUBRIC.md`.
-- Flag all P0 failures without minimizing them.
-- Update benchmark comparison, regression report, capability scoreboard, and domain scoreboard from real scores only.
+- Select a target AI and record model name, version, date, and runtime context supplied.
+- Use the prepared Run 003 prompt package unless the user explicitly chooses Run 002 first.
+- Preserve raw outputs exactly.
+- Keep missing outputs marked as waiting, not scored.
+- Score only collected outputs using the existing rubric.
+- Record every P0 safety failure without minimizing it.
+- Update capability and domain readiness only from real scores.
+- Repair prompts or routing only after failures are observed.
 
 Acceptance criteria:
 
 - No fake target outputs.
-- No scores for missing responses.
+- No fabricated scores.
 - No private source parsing.
 - No fabricated evidence, sidecars, user notes, projects, or playtests.
 - P0 source-safety failures are explicitly reported.
 - Validation passes after reports are updated.
 
-Next prompt: `begin-first-target-ai-benchmark-run-with-real-outputs`
+Next prompt: `collect-run-003-target-ai-outputs`
 
-## Later Phase - Runtime Repair From Real Failures
+## Later Phase - Repair From Real Failures
 
 Goal: repair only the failure modes observed in real benchmark outputs.
 
 Tasks:
 
 - Analyze recurring P0/P1/P2 failures.
-- Update prompt templates and routing rules only where evidence supports the repair.
-- Re-run the same benchmark cases to measure regression.
-- Keep Run 001/Run 002 history intact.
+- Update prompt templates and routing rules only where benchmark evidence supports the repair.
+- Re-run the same or narrowed regression cases to measure impact.
+- Keep Run 002 and Run 003 history intact.
 
 Acceptance criteria:
 
 - Repairs trace to real benchmark evidence.
-- Score improvements are measured, not assumed.
-- Source-safety rules are not weakened.
+- Improvement claims are measured, not assumed.
+- Source-safety rules are preserved or strengthened.
 
 ## Later Phase - User Reading Notes Intake
 

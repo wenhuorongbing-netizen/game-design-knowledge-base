@@ -1,25 +1,23 @@
 # Updated TODO
 
-Date: 2026-04-29
+Date: 2026-04-30
 
 ## Completed
 
-- Master Framework acceptance review created.
-- Benchmark smoke and regression run scaffolds created.
-- Benchmark expanded to at least 100 cases.
-- Benchmark dashboards and scoreboards created.
-- Prompt library repaired for stronger diagnostic, artifact, and source-safety behavior.
-- Routing layer repaired for problem-to-capability, lens, workflow, and artifact selection.
-- AI Master Runtime Pack created.
-- Runtime Pack acceptance review created.
-- Benchmark acceptance review created.
-- Readiness report updated for the benchmark/runtime hardening phase.
+- Final Real Target AI Benchmark acceptance review created.
+- Behavioral acceptance review created.
+- Final Runtime Pack verdict created.
+- Next phase decision V2 created.
+- Remaining gap backlog V2 created.
+- Project state, development plan, TODO, and implementation log updated.
+- `report.md` Prompt 10 section appended without deleting previous content.
 
 ## Current Blockers
 
 - Target AI outputs have not been supplied.
 - Benchmark responses cannot be scored until raw target outputs exist.
-- Capability and domain readiness remain not_tested until real scoring exists.
+- Capability and domain readiness remain blocked pending target outputs.
+- Target model identity is missing.
 - User has not supplied a legal sidecar.
 - User has not supplied manual notes.
 - User has not supplied an optional lawful short manual quote.
@@ -28,11 +26,11 @@ Date: 2026-04-29
 
 ## Next Engineering Work
 
-Run the prepared benchmark against a real target AI and collect raw responses. Do not score missing responses and do not fabricate outputs.
+Collect raw target AI outputs for the prepared regression run. Preserve outputs exactly, score only collected responses, and leave missing responses unscored.
 
 ## Next Exact Prompt
 
-`begin-first-target-ai-benchmark-run-with-real-outputs`
+`collect-run-003-target-ai-outputs`
 
 ## Later Work
 
