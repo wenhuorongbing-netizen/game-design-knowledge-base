@@ -2,6 +2,8 @@
 
 Use this page if you want to use the AI Game Design Master framework now, without understanding the whole repository first.
 
+If you are completely new, start with [USE_THIS_FIRST.md](USE_THIS_FIRST.md), then return here.
+
 ## The 2-Minute Path
 
 1. Open this file.

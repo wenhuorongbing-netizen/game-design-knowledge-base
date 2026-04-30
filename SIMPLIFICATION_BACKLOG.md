@@ -6,6 +6,14 @@ Date: 2026-04-30
 
 The first hands-on layer has been implemented:
 
+- `USE_THIS_FIRST.md`
+- `HANDS_ON_START_HERE.md`
+- `10_MINUTE_QUICKSTART.md`
+- `30_MINUTE_GUIDED_TOUR.md`
+- `WHAT_TO_IGNORE_FIRST.md`
+- `WHAT_TO_OPEN_FIRST.md`
+- `AI_CONTEXT_MINIMUM.md`
+- `AI_CONTEXT_RECOMMENDED.md`
 - `HANDS_ON_START.md`
 - `USE_CASES/README.md`
 - `USE_CASES/vague_game_idea.md`

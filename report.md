@@ -814,3 +814,51 @@ The layer is implemented but not yet user-tested. The next step should verify wh
 ### Next Exact Prompt
 
 `review-hands-on-use-layer`
+
+## Prompt 2 — Create Hands-on Start Layer
+
+Date: 2026-04-30
+
+### Files Created
+
+- `USE_THIS_FIRST.md`
+- `HANDS_ON_START_HERE.md`
+- `10_MINUTE_QUICKSTART.md`
+- `30_MINUTE_GUIDED_TOUR.md`
+- `WHAT_TO_IGNORE_FIRST.md`
+- `WHAT_TO_OPEN_FIRST.md`
+- `AI_CONTEXT_MINIMUM.md`
+- `AI_CONTEXT_RECOMMENDED.md`
+
+### Files Updated
+
+- `README.md`
+- `START_HERE.md`
+- `HANDS_ON_START.md`
+- `SIMPLIFICATION_BACKLOG.md`
+- `report.md`
+
+### How The Start Layer Reduces Confusion
+
+- It gives first-time users one obvious file: `USE_THIS_FIRST.md`.
+- It separates immediate use from repository orientation.
+- It provides a 10-minute route for action and a 30-minute route for orientation.
+- It tells users exactly what to ignore first.
+- It clarifies what AI should load at minimum versus recommended depth.
+- It preserves canonical KB, benchmark, evidence, and governance structures without moving or deleting them.
+
+### Validation Result
+
+Validation result: PASS.
+
+- exported entities: 859.
+- exported relationships: 8405.
+- search documents: 737.
+- issues: 0.
+- P0 issues: 0.
+- warnings: 0.
+- accepted exceptions: 0.
+
+### Next Exact Prompt
+
+`review-hands-on-start-layer`

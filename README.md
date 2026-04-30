@@ -1,3 +1,7 @@
+Use this first: [USE_THIS_FIRST.md](USE_THIS_FIRST.md)
+
+10-minute quickstart: [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md)
+
 Hands-on start: [HANDS_ON_START.md](HANDS_ON_START.md)
 
 Repository orientation: [START_HERE.md](START_HERE.md)
@@ -13,9 +17,14 @@ This `knowledge/` folder is now the repository root for the knowledgebase. The s
 ## Canonical KB Content
 
 - `HANDS_ON_START.md` is the fastest path for using the AI Game Design Master framework without learning the whole repo first.
+- `USE_THIS_FIRST.md` is the simplest first-use explanation for non-maintainers.
+- `10_MINUTE_QUICKSTART.md` is the quickest guided action path.
+- `30_MINUTE_GUIDED_TOUR.md` gives a short orientation without exposing the whole repository.
+- `WHAT_TO_IGNORE_FIRST.md` and `WHAT_TO_OPEN_FIRST.md` tell new users what to skip and what to open.
 - `COPY_PASTE_PROMPTS.md` is the small first-use prompt kit.
 - `USE_CASES/` contains practical routes for vague ideas, design reviews, no-project learning, reading notes, and source-safety checks.
-- `AI_CONTEXT_MINIMAL.md` is the minimal context to give another AI before using the prompts.
+- `AI_CONTEXT_MINIMUM.md` is the minimal context to give another AI before using the prompts.
+- `AI_CONTEXT_MINIMAL.md` is the previous minimal-context alias retained for compatibility.
 - `kb/` is the canonical source-governed knowledgebase.
 - `START_HERE.md` is the role-based entry point for new users.
 - `KB_REBUILD_INSTRUCTION.md` is the active maintenance and rebuild instruction.
@@ -62,7 +71,7 @@ Verified source-backed masterclass release remains blocked until legal sidecars,
 
 ## Navigation
 
-If you want to use the AI framework now, start with [HANDS_ON_START.md](HANDS_ON_START.md).
+If you want to use the AI framework now, start with [USE_THIS_FIRST.md](USE_THIS_FIRST.md), then [10_MINUTE_QUICKSTART.md](10_MINUTE_QUICKSTART.md).
 
 If you are new to the repository and want orientation, use [START_HERE.md](START_HERE.md).
 
@@ -80,6 +89,11 @@ Structure guides:
 Role-based paths:
 
 - [Hands-On Start](HANDS_ON_START.md)
+- [Use This First](USE_THIS_FIRST.md)
+- [10-Minute Quickstart](10_MINUTE_QUICKSTART.md)
+- [30-Minute Guided Tour](30_MINUTE_GUIDED_TOUR.md)
+- [What To Open First](WHAT_TO_OPEN_FIRST.md)
+- [What To Ignore First](WHAT_TO_IGNORE_FIRST.md)
 - [Copy-Paste Prompts](COPY_PASTE_PROMPTS.md)
 - [Use Cases](USE_CASES/README.md)
 - [Learner Path](kb/navigation/learner_path.md)
