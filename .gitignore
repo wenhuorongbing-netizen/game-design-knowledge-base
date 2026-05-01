@@ -51,3 +51,27 @@ pnpm-debug.log*
 *.sqlite
 *.sqlite3
 *.db
+
+# Codex migration safety ignores
+*.env
+*.local
+*.local.*
+config.local.*
+secrets/
+secret/
+credentials/
+credential/
+id_rsa
+id_ed25519
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.next/
+.nuxt/
+target/
+.codex-transfer/
+codex-migration-*
+*.tgz

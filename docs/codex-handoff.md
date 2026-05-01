@@ -1,429 +1,118 @@
-# Codex Handoff - Game Design Knowledgebase
-
-Date: 2026-05-01
-
-Repository path in current session: `D:\Game\FOTN\knowledge`
-
-## 1. Project Goal And Current State
-
-This repository is Game Design Knowledgebase.
-
-It is an agent-consumable, source-governed Game Design Knowledgebase and Skill Pack for Codex-like file-system agents.
-
-It is not an app, not BookOS, not a reading notes app, not a forum, and not a full-stack product.
-
-Primary runtime model:
-
-1. User gives Codex a game design task.
-2. Codex reads `AGENT_START.md`.
-3. Codex reads `AGENT_SKILL_MANIFEST.md` or `AGENT_SKILL_MANIFEST.json`.
-4. Codex uses `AGENT_ROUTER.md`.
-5. Codex loads one skill file from `skills/`.
-6. Codex loads the smallest useful context pack.
-7. Codex produces a source-safe artifact.
-8. Codex labels assumptions, source_basis, confidence, evidence gaps, and next action.
-9. Codex refuses unsafe source requests.
-
-Current phase just completed: User-Supplied Game Idea Execution Phase.
-
-Final status: `BLOCKED_PENDING_USER_IDEA`.
-
-Reason: `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing. The user has repeatedly issued workflow prompts, but has not supplied a real game idea packet with the required fields.
-
-Final verdicts:
-
-- First real game idea workflow: `BLOCKED_PENDING_USER_IDEA`
-- Agent runtime field usefulness: `CONDITIONALLY_ACCEPTED`
-- Artifact quality: `REJECTED`
-- Source safety: `ACCEPTED`
-- Verified source-backed masterclass: `BLOCKED_PENDING_USER_EVIDENCE`
+# knowledge Codex Handoff
 
-Last full quality gate run: `npm run kb:check`, PASS.
+Generated for migration on 2026-05-01.
 
-Validation state:
+## Project Name
 
-- 0 P0 issues
-- 0 warnings
-- source governance audit PASS
-- verified claims remain 0
+knowledge
 
-## 2. Completed Changes
+## Project Path
 
-Agent runtime and skill-pack layer exists:
+D:\Game\FOTN\knowledge
 
-- `AGENT_START.md`
-- `AGENT_RUNTIME_OVERVIEW.md`
-- `AGENT_SKILL_MANIFEST.md`
-- `AGENT_SKILL_MANIFEST.json`
-- `AGENT_ROUTER.md`
-- `AGENT_CONTEXT_LOADING_PROTOCOL.md`
-- `AGENT_OUTPUT_CONTRACTS.md`
-- `AGENT_SOURCE_SAFETY_RULES.md`
-- `AGENT_DO_NOT_LOAD.md`
-- `CODEX_USAGE_GUIDE.md`
-- `skills/`
-- `agent_output_contracts/`
-- `codex_tasks/`
-- `agent_runtime_tests/`
+## Project Goal
 
-Codex runtime hardening was completed before this handoff:
+This repository is one of the six local projects being migrated from the old Codex app machine to a new machine. Use the existing README, source tree, tests, and docs as the source of truth for the detailed product or engineering goal.
 
-- runtime truth sync
-- router fixtures
-- smoke task pack
-- smoke run execution
-- contract compliance review
-- failure analysis
-- runtime repairs
-- validation hardening
-- regression smoke run
-- final Codex runtime acceptance review
+## Current Project Status
 
-Hands-on and usability layers were created earlier:
+- Git root: D:/Game/FOTN/knowledge
+- Branch at migration: main
+- Latest commit at migration: 
+- Origin remote at migration: https://github.com/wenhuorongbing-netizen/game-design-knowledge-base.git
+- Top-level structure: .git, .gitattributes, .github, .gitignore, _private_sources, 10_MINUTE_QUICKSTART.md, 30_60_90_DAY_IMPROVEMENT_ROADMAP.md, 30_DAY_FOUNDATION_PLAN.md, 30_MINUTE_GUIDED_TOUR.md, 50-game-design-masters-kb, 7_DAY_STARTER_PLAN.md, 90_DAY_GAME_DESIGN_MASTER_PLAN.md, ACCESSIBILITY_AUDIT.md, ACCESSIBILITY_REPAIR_BACKLOG.md, ACCESSIBILITY_USABILITY_ENGINEERING_ACCEPTANCE_REVIEW.md, ACCESSIBILITY_USABILITY_FINAL_SCORECARD.md, ACCESSIBILITY_USABILITY_PHASE_PLAN.md, ACCESSIBLE_FIRST_USE_CHECKLIST.md, ADR_TEMPLATE.md, AGENT_CONTEXT_LOADING_PROTOCOL.md, AGENT_DO_NOT_LOAD.md, AGENT_OUTPUT_CONTRACT_REPAIR_REPORT.md, agent_output_contracts, AGENT_OUTPUT_CONTRACTS.md, AGENT_ROUTER.md, AGENT_ROUTER_REPAIR_REPORT.md, AGENT_RUNTIME_ACCEPTANCE_CRITERIA.md, AGENT_RUNTIME_CI_ACCEPTANCE_CHECKLIST.md, AGENT_RUNTIME_IMPLEMENTATION_REPORT.md, AGENT_RUNTIME_OVERVIEW.md, AGENT_RUNTIME_QUALITY_GATE_PLAN.md, AGENT_RUNTIME_REGRESSION_TEST_PLAN.md, AGENT_RUNTIME_REMAINING_GAP_BACKLOG.md, AGENT_RUNTIME_REPAIR_CHANGELOG.md, agent_runtime_tests, AGENT_RUNTIME_VALIDATION_HARDENING_REPORT.md, AGENT_RUNTIME_VALIDATION_PLAN.md, AGENT_RUNTIME_VALIDATION_REPORT.md, AGENT_SKILL_CONTRACT_TEST_PLAN.md, AGENT_SKILL_MANIFEST.json, AGENT_SKILL_MANIFEST.md, AGENT_SKILL_PACK_FINAL_VERDICT.md, AGENT_SKILL_PACK_READINESS_REPORT.md, AGENT_SKILL_PACK_REFACTOR_PLAN.md, AGENT_SKILL_REPAIR_REPORT.md, AGENT_SMOKE_TESTS.md, AGENT_SOURCE_SAFETY_RULES.md, AGENT_START.md, AGENT_TASK_FIXTURES.md, AGENTS.md, AI_CONTEXT_MINIMAL.md, AI_CONTEXT_MINIMUM.md, AI_CONTEXT_PACKS.md, AI_CONTEXT_PACKS_CHECKLIST.md, AI_CONTEXT_PACKS_USABILITY_REVIEW.md, AI_CONTEXT_RECOMMENDED.md, AI_DESIGN_REVIEW_PROCEDURE.md, AI_GAME_DESIGN_MASTER_DEFINITION.md, AI_MASTER_ACCEPTANCE_TEST.md, AI_MASTER_BEHAVIORAL_ACCEPTANCE_REVIEW.md, AI_MASTER_BEHAVIORAL_READINESS_REPORT.md, AI_MASTER_BENCHMARK_ACCEPTANCE_REVIEW.md, AI_MASTER_BENCHMARK_COLLECTION_PROTOCOL.md, AI_MASTER_BENCHMARK_CONFIDENCE_REPORT.md, AI_MASTER_BENCHMARK_DASHBOARD.md, AI_MASTER_BENCHMARK_EXPANSION_PLAN.md, AI_MASTER_BENCHMARK_HUMAN_REPORT.md, AI_MASTER_BENCHMARK_PHASE_2_PLAN.md, AI_MASTER_BENCHMARK_PREFLIGHT_REPORT.md, AI_MASTER_BENCHMARK_RESPONSE_LOG_TEMPLATE.md, AI_MASTER_BENCHMARK_RUN_001.md, AI_MASTER_BENCHMARK_RUN_001_FAILURE_ANALYSIS.md, AI_MASTER_BENCHMARK_RUN_001_P0_FAILURES.md, AI_MASTER_BENCHMARK_RUN_001_P1_GAPS.md, AI_MASTER_BENCHMARK_RUN_001_P2_IMPROVEMENTS.md, AI_MASTER_BENCHMARK_RUN_001_RESPONSE_STATUS.md, AI_MASTER_BENCHMARK_RUN_001_RESPONSES.md, AI_MASTER_BENCHMARK_RUN_001_SCORE_TABLE.csv, AI_MASTER_BENCHMARK_RUN_001_SCORES.md, AI_MASTER_BENCHMARK_RUN_002.md
 
-- `USE_THIS_FIRST.md`
-- `ONE_PAGE_LAUNCHPAD.md`
-- `USE_TODAY_KIT.md`
-- `HANDS_ON_PROMPT_LIBRARY.md`
-- `context_packs/`
-- `worked_examples/`
-- `NO_PROJECT_START_HERE.md`
-- `SIMPLIFIED_NAVIGATION.md`
+## Completed Migration Changes
 
-The current game-idea workflow folder exists:
+- Confirmed or initialized Git repository.
+- Added or updated .gitignore with migration-safe secret, dependency, build, cache, and archive exclusions.
+- Checked tracked filenames for obvious sensitive files and removed only clearly sensitive tracked files from the Git index when needed.
+- Added or updated AGENTS.md for Codex continuation rules.
+- Generated this handoff document.
+- Prepared encrypted private archive staging outside the repository.
 
-- `first_real_game_idea_workflow/GAME_IDEA_INTAKE_REQUEST.md`
-- `first_real_game_idea_workflow/GAME_IDEA_PACKET_TEMPLATE.md`
-- `first_real_game_idea_workflow/WORKFLOW_STATUS.md`
-- `first_real_game_idea_workflow/ROUTING_DECISION.md`
-- `first_real_game_idea_workflow/CONTEXT_LOADING_PLAN.md`
-- `first_real_game_idea_workflow/ARTIFACT_01_*`
-- `first_real_game_idea_workflow/ARTIFACT_02_*`
-- `first_real_game_idea_workflow/ARTIFACT_03_*`
-- `first_real_game_idea_workflow/ARTIFACT_04_*`
-- `first_real_game_idea_workflow/ARTIFACT_05_*`
-- `first_real_game_idea_workflow/ARTIFACT_06_*`
-- `first_real_game_idea_workflow/WORKFLOW_RUNTIME_REVIEW.md`
-- `first_real_game_idea_workflow/OUTPUT_CONTRACT_COMPLIANCE_REVIEW.md`
-- `first_real_game_idea_workflow/SOURCE_SAFETY_REVIEW.md`
-- `first_real_game_idea_workflow/CONTEXT_LOADING_REVIEW.md`
-- `first_real_game_idea_workflow/USER_USEFULNESS_REVIEW.md`
-- `first_real_game_idea_workflow/RUNTIME_REPAIR_BACKLOG.md`
+## Important Design Decisions
 
-Important final acceptance files were updated:
+- GitHub should contain normal source, tests, documentation, and templates only.
+- Local secrets, credentials, private config, local databases, and Codex state belong only in encrypted archives.
+- New-machine work should inspect the current tree before relying on old conversation summaries.
+- Existing user work should be preserved; do not use destructive Git or filesystem operations unless explicitly requested.
 
-- `FIRST_REAL_GAME_IDEA_WORKFLOW_ACCEPTANCE_REVIEW.md`
-- `FIRST_REAL_GAME_IDEA_WORKFLOW_FINAL_REPORT.md`
-- `FIRST_REAL_GAME_IDEA_ARTIFACT_INDEX.md`
-- `FIRST_REAL_GAME_IDEA_REMAINING_GAPS.md`
-- `NEXT_PHASE_DECISION_AFTER_FIRST_GAME_IDEA.md`
-- `UPDATED_KB_PROJECT_STATE.md`
-- `UPDATED_NEXT_DEVELOPMENT_PLAN.md`
-- `UPDATED_TODO.md`
-- `UPDATED_IMPLEMENTATION_LOG.md`
-- `report.md`
+## Current Unfinished Tasks
 
-All Artifacts 01 through 06 are intentionally blocked records, not real game design outputs.
+- Review git status -sb after restoring the repository and private archive.
+- Read README and project-specific docs to decide the next development task.
+- Run the verification commands listed below.
 
-## 3. Key Design Decisions And Reasons
+## Known Issues Or Risks
 
-Decision: Treat the repository as an Agent Skill Pack, not an app.
+- Keyword-only sensitive scan hits found: 43. Values were not printed.
 
-Reason: The product goal is for Codex or another file-system agent to consume repository files, route tasks to skills, load minimal context, and produce game design artifacts. Building app features would create direction drift.
+## Files To Read First On The New Machine
 
-Decision: `AGENT_START.md` is the canonical Codex entrypoint.
+- README.md, if present
+- AGENTS.md
+- docs/codex-handoff.md
+- Project build files such as package.json, pom.xml, pyproject.toml, equirements.txt, or equivalent
 
-Reason: Human onboarding and agent runtime were previously mixed. Codex needs one obvious first file.
+## Commands To Run First On The New Machine
 
-Decision: Use manifest, router, skill files, context packs, and output contracts as the runtime architecture.
+~~~powershell
+git status -sb
+git remote -v
+git branch --show-current
+git rev-parse HEAD
+~~~
 
-Reason: This creates a high-cohesion, low-coupling skill-pack model. Normal use no longer depends on benchmark workflows or human copy-paste prompt files.
+Install:
 
-Decision: Missing user idea packet blocks all artifact generation.
+~~~powershell
+npm ci
+~~~
 
-Reason: The user did not supply idea summary, desired player experience, or current uncertainty. Generating artifacts without these would fabricate user intent and project facts.
+Start:
 
-Decision: Keep `source_basis` as `unsupported_draft` and confidence weak or not applicable for blocked artifacts.
+~~~powershell
+npm run dev
+~~~
 
-Reason: No legal evidence, user notes, playtest logs, EvidenceRefs, or validated claims exist.
+Test:
 
-Decision: Preserve blocked artifact records during field hardening.
+~~~powershell
+npm test
+~~~
 
-Reason: They document runtime behavior and source safety. However, this is noisy for normal user use, so a future normal-use stop rule is recommended.
+Lint / typecheck:
 
-Decision: The next phase is `wait for user evidence`.
+~~~powershell
+npm run lint
+npm run typecheck
+~~~
 
-Reason: No game idea packet, user notes, playtest logs, project facts, or evidence exist. Any further artifact generation would add noise or risk fabrication.
+## Git Status Before Migration Commit
 
-## 4. Unfinished Tasks
+~~~text
+On branch main
+Your branch is up to date with 'origin/main'.
 
-Required before any real game design artifact:
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+	modified:   AGENTS.md
+	modified:   docs/codex-handoff.md
 
-- Create `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` from user-supplied content.
-- Required fields are idea summary, desired player experience, and current uncertainty or concern.
-- Optional fields are target player, genre, platform, constraints, player actions, rules, resources, decisions, prototype question, and test goal.
+no changes added to commit (use "git add" and/or "git commit -a")
+~~~
 
-Runtime improvement tasks still open:
+## Files Kept Out Of GitHub And Put Into The Encrypted Private Package
 
-- Add a normal-use stop rule after intake if `USER_GAME_IDEA_PACKET.md` is missing.
-- Add a prompt-run suffix or run index for repeated `report.md` sections.
-- Add a shared blocked-artifact template if blocked records remain useful.
-- Add a lightweight checker for first-real-game-idea workflow status.
-- Consolidate repeated next-user-input prompts into one user-facing request.
+- No project-private files were selected for the encrypted package at generation time.
 
-Evidence tasks still blocked:
+## User Preferences And Codex Rules
 
-- No user reading notes exist.
-- No legal sidecars exist.
-- No manual quotes exist.
-- No project overlay exists.
-- No playtest log exists.
-- No verified claims can be created.
-
-## 5. Current Problems, Risks, And Pitfalls
-
-Main blocker:
-
-- `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
-
-P0 source-safety issues:
-
-- None currently found.
-
-P1 runtime blocker:
-
-- Missing packet blocks all real artifacts.
-
-P2 quality gaps:
-
-- Too many blocked artifacts exist for normal user use.
-- `report.md` has repeated prompt sections from repeated prompt runs.
-- Blocked artifact records use similar but not perfectly uniform schema.
-- Workflow status checking is manual.
-
-P3 polish:
-
-- Next prompt is repeated across many files.
-
-Important pitfall:
-
-- Do not treat blocked artifact files as completed design artifacts.
-
-Important pitfall:
-
-- Do not infer a game idea from the user typing workflow prompts such as `build` or `BEGIN PROMPT`.
-
-Important pitfall:
-
-- Running validation/export commands changes generated files under `kb/11_import_export/`, `VALIDATION_REPORT.*`, audit reports, and `COVERAGE_MATRIX.md`.
-
-Current dirty working tree:
-
-- Many files are modified from the recent workflow and validation runs.
-- Do not reset or revert unless the user explicitly asks.
-
-## 6. Files To Check First On The Next Machine
-
-Start with these files:
-
-- `AGENT_START.md`
-- `AGENT_SKILL_MANIFEST.md`
-- `AGENT_SKILL_MANIFEST.json`
-- `AGENT_ROUTER.md`
-- `AGENT_CONTEXT_LOADING_PROTOCOL.md`
-- `AGENT_SOURCE_SAFETY_RULES.md`
-- `AGENT_OUTPUT_CONTRACTS.md`
-- `CODEX_USAGE_GUIDE.md`
-
-Then check current project state:
-
-- `FIRST_REAL_GAME_IDEA_WORKFLOW_ACCEPTANCE_REVIEW.md`
-- `FIRST_REAL_GAME_IDEA_WORKFLOW_FINAL_REPORT.md`
-- `FIRST_REAL_GAME_IDEA_ARTIFACT_INDEX.md`
-- `FIRST_REAL_GAME_IDEA_REMAINING_GAPS.md`
-- `NEXT_PHASE_DECISION_AFTER_FIRST_GAME_IDEA.md`
-- `UPDATED_KB_PROJECT_STATE.md`
-- `UPDATED_NEXT_DEVELOPMENT_PLAN.md`
-- `UPDATED_TODO.md`
-- `UPDATED_IMPLEMENTATION_LOG.md`
-
-Then check workflow state:
-
-- `first_real_game_idea_workflow/WORKFLOW_STATUS.md`
-- `first_real_game_idea_workflow/GAME_IDEA_INTAKE_REQUEST.md`
-- `first_real_game_idea_workflow/GAME_IDEA_PACKET_TEMPLATE.md`
-- `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`
-- `first_real_game_idea_workflow/WORKFLOW_RUNTIME_REVIEW.md`
-- `first_real_game_idea_workflow/RUNTIME_REPAIR_BACKLOG.md`
-
-Then check validation and governance:
-
-- `VALIDATION_REPORT.md`
-- `SOURCE_GOVERNANCE_AUDIT.md`
-- `COVERAGE_MATRIX.md`
-- `report.md`
-
-If the user supplies a game idea, inspect:
-
-- `skills/game_idea_review/SKILL.md`
-- `agent_output_contracts/one_page_concept_memo.md`
-- `context_packs/CP02_game_idea_review.md`
-
-## 7. Recommended Next Commands
-
-Initial orientation:
-
-- `pwd`
-- `git status --short`
-- `git branch --show-current`
-- `git log --oneline -n 10`
-
-Runtime and KB health checks:
-
-- `npm run agent:runtime-check`
-- `npm run kb:validate`
-- `npm run kb:audit`
-- `npm run kb:check`
-
-If the user supplies a valid idea packet:
-
-- create or update `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`
-- update `first_real_game_idea_workflow/WORKFLOW_STATUS.md` to `idea_packet_received`
-- rerun routing from `AGENT_ROUTER.md`
-- load only `skills/game_idea_review/SKILL.md`, `agent_output_contracts/one_page_concept_memo.md`, and `context_packs/CP02_game_idea_review.md` if needed
-- generate Artifact 01 only from user-supplied facts
-- run `npm run agent:runtime-check`
-- run `npm run kb:validate`
-
-## 8. Migration Git State Summary
-
-Project root confirmed for migration:
-
-- `D:\Game\FOTN\knowledge`
-
-Important correction:
-
-- `D:\Game\FOTN` is a parent directory with its own Git state, but the Game Design Knowledgebase project root is `D:\Game\FOTN\knowledge`.
-- Migration, validation, commit, and push should run from `D:\Game\FOTN\knowledge`.
-
-Git state before migration edits:
-
-- Branch: `main`
-- Remote: `https://github.com/wenhuorongbing-netizen/game-design-knowledge-base.git`
-- Initial correct-root status: clean
-- Latest commit before migration edits: `9cd3eb8 try game design`
-
-Sensitive-file check summary:
-
-- No tracked `.env`, `.env.*`, private key, pem/key/certificate, `node_modules`, `.DS_Store`, log file, or private archive/source-body file was detected.
-- Keyword scanning produced false positives in public HTML metadata under `50-game-design-masters-kb/raw/official-metadata/`, such as script identifiers containing `licenseKey:void 0` or `password:!0`; these were not actual secrets.
-- `.gitignore` was expanded to ignore local Codex state, common key/cert files, logs, caches, local databases, and editor/system files.
-
-Migration files added or updated:
-
-- `.gitignore`
-- `AGENTS.md`
-- `docs/codex-handoff.md`
-
-New machine clone command:
-
-- `git clone https://github.com/wenhuorongbing-netizen/game-design-knowledge-base.git`
-
-## 9. Constraints The User Explicitly Required
-
-Project identity constraints:
-
-- This project is Game Design Knowledgebase.
-- It is not BookOS.
-- It is not a reading notes app.
-- It is not a personal library tracker.
-- It is not a forum platform.
-- It is not a full-stack app.
-- It is not a traditional SaaS application.
-- It is an agent-consumable source-governed Game Design Knowledgebase and Skill Pack.
-
-Source and evidence constraints:
-
-- Do not parse private or high-risk source body text.
-- Do not summarize copyrighted chapters.
-- Do not extract quotes from private or high-risk sources.
-- Do not invent legal sidecars.
-- Do not invent user notes.
-- Do not invent manual quotes.
-- Do not invent project facts.
-- Do not invent playtest logs.
-- Do not invent playtest participants.
-- Do not invent observations.
-- Do not invent participant quotes.
-- Do not fabricate telemetry.
-- Do not fabricate benchmark outputs.
-- Do not fabricate benchmark scores.
-- Do not promote claims to verified without evidence.
-- Do not create fake verified claims.
-- Do not cite books without available evidence.
-- Do not claim verified source backing unless valid EvidenceRef and review exist.
-
-Runtime constraints:
-
-- Codex must start from `AGENT_START.md`.
-- Codex must route through manifest and router.
-- Codex must load the smallest useful context.
-- Codex must never load the whole repository by default.
-- Codex must never load private sources for normal use.
-- Codex must never use benchmark files as normal runtime.
-- Codex must never use generated exports as design evidence.
-- Codex must label assumptions, source_basis, confidence, evidence gaps, and next action.
-
-Workflow constraints:
-
-- Do not generate design artifacts without a valid user game idea packet.
-- Do not fabricate missing user details.
-- Do not invent user intent.
-- Do not fabricate project constraints.
-- Do not invent rules not implied by the user idea.
-- Do not invent economy data.
-- Do not invent implementation details unless clearly marked as draft options.
-- Do not create full production roadmaps when asked for prototypes.
-- Do not create playtest results without real playtest logs.
-- Do not treat local project observations as universal design doctrine.
-
-Documentation and report constraints:
-
-- `report.md` is append-only.
-- Do not delete, truncate, clean, reorder, or rewrite previous `report.md` content.
-- Do not delete canonical KB content.
-- Do not delete benchmark files.
-- Do not delete evidence governance files.
-- Do not manually edit generated exports unless through the exporter.
-- Do not move large directories unless links and maps are updated.
-- Do not weaken source governance rules.
-- Do not use fenced code blocks in user-facing responses when the prompt says not to.
-
-Engineering constraints:
-
-- Do not build app features.
-- Do not build auth, database, forum, BookOS, reading sessions, or CRUD features.
-- Do not recommend microservices.
-- Do not add unnecessary abstraction.
-- Prefer additive restructuring.
-- Preserve dirty worktree changes unless the user explicitly asks to revert.
-
-## 10. Exact Next User Input Needed
-
-Ask the user to provide:
-
-- idea summary;
-- desired player experience;
-- current uncertainty or concern;
-- optional target player;
-- optional genre;
-- optional platform;
-- optional constraints;
-- optional player actions;
-- optional rules;
-- optional resources;
-- optional decisions;
-- optional prototype question;
-- optional test goal.
-
-Do not continue artifact generation until this exists.
+- Do not commit .env, tokens, passwords, secrets, private keys, uth.json, local Codex state, logs, caches, dependencies, build outputs, or migration archives.
+- Do not delete local project files or old Codex state.
+- Continue processing other projects if one project fails.
+- Make direct, pragmatic code changes when requested; avoid stopping at suggestions unless blocked.
+- Summarize failures with concrete paths and next steps.
