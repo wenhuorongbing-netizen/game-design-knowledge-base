@@ -20,13 +20,17 @@ platform:
 
 constraints:
 
-reference_games_if_any:
+player_actions:
 
-intended_session_length:
+rules:
 
-solo_or_multiplayer:
+resources:
 
-what_you_want_codex_to_help_decide:
+decisions:
+
+prototype_question:
+
+test_goal:
 
 ## User Confirmation
 
@@ -60,3 +64,7 @@ confidence: weak
 evidence_status: no evidence supplied
 
 verified_claim_status: not verified
+
+## Completion Rule
+
+This template is not a valid packet until `idea_summary`, `desired_player_experience`, and `current_uncertainty_or_concern` are filled with user-supplied content.

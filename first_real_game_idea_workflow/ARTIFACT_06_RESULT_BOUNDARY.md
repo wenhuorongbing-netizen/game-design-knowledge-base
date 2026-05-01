@@ -63,3 +63,11 @@ The result boundary remains active and unchanged:
 - no observations are evidence until recorded;
 - no participant quotes may be invented;
 - no design decision should be treated as verified.
+
+## 2026-05-01 User-Supplied Phase Prompt 8 Gate Confirmation
+
+The result boundary remains active.
+
+No playtest has happened unless the user supplies a real log.
+
+No observations, participant quotes, telemetry, or design validation claims may be invented.

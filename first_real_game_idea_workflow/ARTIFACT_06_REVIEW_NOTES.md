@@ -64,3 +64,9 @@ User supplies:
 Prompt 8 was run again and remains blocked.
 
 The correct runtime behavior is to preserve the result boundary instead of inventing playtest data.
+
+## 2026-05-01 User-Supplied Phase Prompt 8 Gate Confirmation
+
+Prompt 8 was received while Artifact 05 remains `blocked_not_created`.
+
+The playtest plan remains blocked. Source safety is preserved because Codex did not invent participants, observations, quotes, tasks, results, telemetry, prototype scope, or verified design decisions.

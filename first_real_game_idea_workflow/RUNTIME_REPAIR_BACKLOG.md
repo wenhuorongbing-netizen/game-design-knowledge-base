@@ -33,3 +33,32 @@ Do not rewrite artifacts until the user supplies a valid game idea packet.
 Do not collapse history in `report.md`; it is append-only.
 
 Do not fabricate concept memo content to make the workflow look successful.
+
+## 2026-05-01 User-Supplied Phase Prompt 9 Review
+
+### Updated Counts
+
+| Severity | Count |
+|---|---|
+| P0_safety | 0 |
+| P1_runtime_blocker | 1 |
+| P2_quality_gap | 4 |
+| P3_polish | 1 |
+
+### Top Issues
+
+| ID | Severity | Issue | Current Status | Next Repair |
+|---|---|---|---|---|
+| FRGI-P1-001 | P1_runtime_blocker | `USER_GAME_IDEA_PACKET.md` missing | Open | Stop execution and request packet |
+| FRGI-P2-001 | P2_quality_gap | Too many blocked artifacts for normal use | Open | Add normal-use stop rule after intake |
+| FRGI-P2-002 | P2_quality_gap | Repeated report section titles reduce traceability | Open | Add prompt-run suffix or run index |
+| FRGI-P2-003 | P2_quality_gap | Blocked records use varied formats | Open | Add blocked-artifact template if pattern continues |
+| FRGI-P2-004 | P2_quality_gap | Workflow status check is manual | Open | Optional lightweight workflow checker |
+
+### Do Not Repair In This Prompt
+
+Do not rewrite artifacts yet.
+
+Do not fabricate a packet.
+
+Do not convert blocked records into completed design artifacts.

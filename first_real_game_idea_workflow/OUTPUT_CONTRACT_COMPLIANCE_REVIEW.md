@@ -48,3 +48,25 @@ The artifacts follow safety and label expectations for blocked records, but they
 ## Final Compliance Assessment
 
 Output contract handling was safe. The workflow should not be considered successful as a design artifact workflow until a real packet exists and at least Artifact 01 can be generated from user facts.
+
+## 2026-05-01 User-Supplied Phase Prompt 9 Review
+
+### Compliance Verdict
+
+CONDITIONALLY_ACCEPTED_FOR_BLOCKED_RECORDS
+
+REJECTED_FOR_REAL_ARTIFACT_OUTPUT
+
+### Updated Assessment
+
+Artifacts 01 through 06 still do not satisfy their full output contracts because the required user idea packet is missing.
+
+They do satisfy the blocked-record contract: each visible artifact either labels missing assumptions, source basis, confidence, evidence gaps, and next action, or preserves a result boundary.
+
+### Contract Risk
+
+The main contract risk is not source safety. It is user-facing ambiguity: blocked records may look like completed artifacts unless the status is read carefully.
+
+### Required Repair
+
+Future normal-use mode should stop after intake if the packet is missing. Field-hardening mode may keep blocked artifacts, but it should label them as blocked records, not completed design outputs.

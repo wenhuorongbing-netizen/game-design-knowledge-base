@@ -2,6 +2,8 @@
 
 Date: 2026-05-01
 
+Phase: User-Supplied Game Idea Execution Phase
+
 ## Decision
 
 Chosen next phase: wait for user evidence.
@@ -24,7 +26,7 @@ The correct next action is to wait for user-provided input rather than generatin
 | begin Systems and Economy evidence pilot | No user evidence exists. |
 | improve agent runtime validation | Useful later, but the immediate blocker is user input. |
 | expand skills to more domains | Runtime should not expand while basic real-use input is missing. |
-| simplify runtime further | Useful, but the next phase should not create more docs before user input. |
+| simplify runtime further | Useful, but the immediate next phase should not create more docs before user input. |
 
 ## Exact Next Prompt
 
@@ -37,13 +39,11 @@ Provide a valid game idea packet:
 - optional genre;
 - optional platform;
 - optional constraints;
-- optional player actions, rules, resources, and decisions;
-- optional prototype question or test goal.
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
 
-After that, Codex should generate Artifact 01 from the packet and keep `source_basis` as `unsupported_draft` with weak confidence unless evidence is supplied.
-
-## 2026-05-01 Rerun Confirmation
-
-The repeated final review did not change the next phase decision.
-
-Chosen next phase remains: wait for user evidence.
+After that, Codex should create `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`, mark workflow status as `idea_packet_received`, rerun routing, and generate Artifact 01 only from user-supplied facts.

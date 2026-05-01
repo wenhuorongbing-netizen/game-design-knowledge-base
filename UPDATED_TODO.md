@@ -75,3 +75,25 @@ Date: 2026-04-30
 - Continue waiting for `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`.
 - Do not create any real workflow artifact until the user supplies the required idea packet.
 - Keep `source_basis` as `unsupported_draft` and confidence weak for future idea-derived artifacts unless evidence is supplied.
+
+## 2026-05-01 Update - After User-Supplied Game Idea Final Acceptance
+
+## Immediate
+
+- Wait for a valid user game idea packet.
+- Do not continue artifact prompts without required packet fields.
+- Do not convert blocked records into completed design outputs.
+
+## Optional Runtime Hardening
+
+- Add a normal-use stop rule after intake.
+- Add a blocked-artifact template if blocked records remain useful.
+- Add a lightweight checker for `USER_GAME_IDEA_PACKET.md` presence.
+- Add prompt-run suffixes for repeated `report.md` sections.
+
+## Still Do Not Do
+
+- Do not fabricate concept memo content.
+- Do not invent project facts.
+- Do not invent playtest data.
+- Do not promote claims to verified.

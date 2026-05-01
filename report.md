@@ -4217,6 +4217,75 @@ Provide a valid game idea packet with:
 - optional player actions, rules, resources, and decisions;
 - optional prototype question or test goal.
 
+## Prompt 1 — User Game Idea Packet Intake
+
+### Goal
+
+Capture one real user-supplied game idea packet, or honestly request the missing packet without creating any design artifact.
+
+### Intake Result
+
+Status: `blocked_pending_user_game_idea`.
+
+No valid user game idea packet was supplied in the current prompt.
+
+The prompt contains workflow instructions, but it does not supply the required user-authored fields:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/GAME_IDEA_INTAKE_REQUEST.md`
+- `first_real_game_idea_workflow/GAME_IDEA_PACKET_TEMPLATE.md`
+- `first_real_game_idea_workflow/WORKFLOW_STATUS.md`
+- `report.md`
+
+### Files Not Created Or Updated
+
+- `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`
+- Artifact 01 through Artifact 06
+- routing decision beyond the existing provisional default
+- any project evidence, playtest log, quote, citation, sidecar, user note, benchmark output, or verified claim
+
+### Source Safety Result
+
+PASS.
+
+No fake idea, fake evidence, fake project fact, fake playtest data, private source summary, or verified source-backed claim was created.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
 ## Prompt 8 — Source-Safe Playtest Plan
 
 ### Goal
@@ -5115,3 +5184,882 @@ Provide a valid game idea packet with:
 - optional constraints;
 - optional player actions, rules, resources, and decisions;
 - optional prototype question or test goal.
+
+## Prompt 1 — User Game Idea Packet Intake
+
+### Goal
+
+Capture one real user-supplied game idea packet, or honestly request the missing packet without creating any design artifact.
+
+### Intake Result
+
+Status: `blocked_pending_user_game_idea`.
+
+No valid user game idea packet was supplied in the current prompt.
+
+The prompt contains workflow instructions, but it does not supply the required user-authored fields:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/GAME_IDEA_INTAKE_REQUEST.md`
+- `first_real_game_idea_workflow/GAME_IDEA_PACKET_TEMPLATE.md`
+- `first_real_game_idea_workflow/WORKFLOW_STATUS.md`
+- `report.md`
+
+### Files Not Created Or Updated
+
+- `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`
+- Artifact 01 through Artifact 06
+- routing decision beyond the existing provisional default
+- any project evidence, playtest log, quote, citation, sidecar, user note, benchmark output, or verified claim
+
+### Source Safety Result
+
+PASS.
+
+No fake idea, fake evidence, fake project fact, fake playtest data, private source summary, or verified source-backed claim was created.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 2 — Runtime Routing for Supplied Game Idea
+
+### Goal
+
+Route the valid user-supplied game idea through the Agent runtime.
+
+### Routing Gate Result
+
+Status: `blocked_missing_user_game_idea_packet`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing, so no valid idea can be routed.
+
+The prompt explicitly says not to proceed if `USER_GAME_IDEA_PACKET.md` is missing. Codex therefore did not create a new routing decision, context loading plan, file selection plan, or minimum question set for a nonexistent game idea.
+
+### Chosen Skill
+
+No primary skill selected for execution.
+
+Provisional default remains `game_idea_review`, but it is not activated until a valid packet exists.
+
+### Fallback Skill
+
+No fallback skill selected for execution.
+
+Provisional fallback may be `core_experience_definition` after a packet exists and router evidence supports it.
+
+### Files Selected
+
+No new runtime files were selected for a design workflow because no valid packet exists.
+
+Forbidden files remain excluded:
+
+- private source bodies;
+- benchmark files for normal use;
+- generated exports for normal use;
+- human prompt-copy files unless explicitly useful;
+- Artifact 01 through Artifact 06.
+
+### Questions Needed
+
+The workflow needs exactly the missing packet fields:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern.
+
+### Source Safety Result
+
+PASS.
+
+No fake project details, evidence, citations, playtest data, user notes, source summaries, or verified claims were created.
+
+### Files Changed
+
+- `report.md`
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` content with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 7 — Artifact 05 Prototype Plan
+
+### Goal
+
+Turn the idea and prior audits into the smallest useful prototype plan.
+
+### Artifact Status
+
+Status: `blocked_not_created`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
+
+The required upstream artifacts are also blocked:
+
+- Artifact 01 concept memo;
+- Artifact 02 core experience statement;
+- Artifact 03 lens review;
+- Artifact 04 meaningful decision audit;
+- Artifact 04 system assumption map.
+
+Because there is no real idea, uncertainty, audit finding, system assumption, or riskiest design assumption, Codex cannot safely generate a prototype question or prototype plan.
+
+### Prototype Question
+
+Not generated.
+
+Generating a prototype question would require inventing user intent, mechanics, rules, design risks, or system assumptions.
+
+### Smallest Scope
+
+Not generated.
+
+There is no valid prototype question to scope around.
+
+### Success Signals
+
+Not generated.
+
+Success and failure signals must be tied to a real prototype question and must not be invented as fake playtest or telemetry expectations.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/ARTIFACT_05_PROTOTYPE_PLAN.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_PROTOTYPE_QUESTION.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_SCOPE_CUTS.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_SUCCESS_SIGNALS.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_REVIEW_NOTES.md`
+- `report.md`
+
+### Source Safety Result
+
+PASS.
+
+No production roadmap, implementation detail, fake technical constraint, fake playtest result, fake player data, telemetry, project fact, citation, EvidenceRef, private source summary, or verified claim was invented.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 4 — Artifact 02 Core Experience and Design Pillars
+
+### Goal
+
+Refine the game idea into a sharper core experience statement and design pillar set.
+
+### Artifact Status
+
+Status: `blocked_not_created`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
+
+`first_real_game_idea_workflow/ARTIFACT_01_ONE_PAGE_CONCEPT_MEMO.md` exists only as a blocked record and contains no real concept memo content.
+
+Because there is no user-supplied idea, desired player experience, uncertainty, player fantasy, or repeated action, Codex cannot safely generate a core experience statement or design pillars.
+
+### Core Experience Summary
+
+Not generated.
+
+Generating a summary would require inventing user intent and project facts.
+
+### Design Pillars
+
+Not generated.
+
+No pillars were created or tested because no real game idea or concept memo exists.
+
+### Main Assumptions
+
+- The workflow intends to refine a real user-supplied idea.
+- The required packet is missing.
+- Artifact 01 is blocked and cannot support Artifact 02.
+- Any generated fantasy, emotional target, repeated action, or pillar would be fabricated.
+
+### Requested Checks
+
+The checks for too many ideas, vague player fantasy, vague emotional target, unclear repeated action, overlapping pillars, and untestable pillars could not be performed because no real concept content exists.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/ARTIFACT_02_CORE_EXPERIENCE_STATEMENT.md`
+- `first_real_game_idea_workflow/ARTIFACT_02_DESIGN_PILLARS.md`
+- `first_real_game_idea_workflow/ARTIFACT_02_PLAYER_FANTASY.md`
+- `first_real_game_idea_workflow/ARTIFACT_02_DESIGN_IMPLICATIONS.md`
+- `first_real_game_idea_workflow/ARTIFACT_02_REVIEW_NOTES.md`
+- `report.md`
+
+### Source Safety Result
+
+PASS.
+
+No user intent, project constraints, player fantasy, emotional target, repeated player action, design pillar, book citation, private source body, playtest result, market data, unsupported promotion, or verified claim was invented.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 5 — Artifact 03 Focused Lens Review
+
+### Goal
+
+Run a focused lens review to diagnose the highest-leverage design risks.
+
+### Artifact Status
+
+Status: `blocked_not_created`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
+
+Artifact 01 and Artifact 02 exist only as blocked records and contain no real design object, concept memo, core experience, player fantasy, repeated player action, or user concern.
+
+Because there is no real design object to review, Codex cannot safely select 3 to 5 focused lenses or generate specific findings.
+
+### Selected Lenses
+
+None selected.
+
+Selected lens count: 0.
+
+Selecting lenses without a real idea would create a generic lens dump, which the prompt explicitly prohibits.
+
+### Top Design Risks
+
+Not identified.
+
+Risk diagnosis requires at least a user-supplied idea, concept memo, core experience, design concern, or playtest observation. None exists.
+
+### Repair Options
+
+Not generated.
+
+Repair options must respond to actual lens findings and design risks. Generating them now would invent mechanics, feature cuts, prototype tests, or project facts.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/ARTIFACT_03_LENS_REVIEW.md`
+- `first_real_game_idea_workflow/ARTIFACT_03_SELECTED_LENSES.md`
+- `first_real_game_idea_workflow/ARTIFACT_03_DESIGN_RISKS.md`
+- `first_real_game_idea_workflow/ARTIFACT_03_REPAIR_OPTIONS.md`
+- `first_real_game_idea_workflow/ARTIFACT_03_REVIEW_NOTES.md`
+- `report.md`
+
+### Source Safety Result
+
+PASS.
+
+No generic lens dump, private-book citation, private source parsing, evidence invention, lens finding, design risk, repair option, project fact, playtest result, EvidenceRef, or verified claim was created.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 6 — Artifact 04 Meaningful Decisions and System Assumptions
+
+### Goal
+
+Audit whether the game idea has meaningful decisions and coherent early system assumptions.
+
+### Artifact Status
+
+Status: `blocked_not_created`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
+
+Artifact 01, Artifact 02, and Artifact 03 exist only as blocked records and contain no real concept memo, core experience, lens findings, player actions, rules, resources, or design risks.
+
+Because there is no player goal, choice point, option set, information state, consequence model, system loop, or resource model, Codex cannot safely generate a meaningful decision audit or system assumption map.
+
+### Key Decisions
+
+None identified.
+
+No decision point, option set, tradeoff, player information state, consequence, fake-choice risk, blind-choice risk, obvious-choice risk, or repair option was generated.
+
+### Top System Assumptions
+
+None identified.
+
+No loop, resource, action, feedback path, economy assumption, uncertainty, telemetry, or test target was generated.
+
+### Missing Rules
+
+The only valid Artifact 04 output is a missing-rules record.
+
+Currently missing:
+
+- player role;
+- player goal;
+- core loop;
+- repeated action;
+- available actions;
+- constraints;
+- decision points;
+- option sets;
+- information state;
+- consequence model;
+- risk/reward model;
+- resources, if any;
+- feedback rules;
+- success or failure conditions;
+- economy rules, if any.
+
+These are missing because they were not supplied, not because Codex analyzed a real game system.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/ARTIFACT_04_MEANINGFUL_DECISION_AUDIT.md`
+- `first_real_game_idea_workflow/ARTIFACT_04_SYSTEM_ASSUMPTION_MAP.md`
+- `first_real_game_idea_workflow/ARTIFACT_04_CHOICE_MATRIX.md`
+- `first_real_game_idea_workflow/ARTIFACT_04_MISSING_RULES.md`
+- `first_real_game_idea_workflow/ARTIFACT_04_REVIEW_NOTES.md`
+- `report.md`
+
+### Source Safety Result
+
+PASS.
+
+No rules, economy data, telemetry, playtest findings, player behavior, choice matrix, resources, loop, EvidenceRef, private source summary, or verified claim was invented.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 7 — Artifact 05 Prototype Plan
+
+### Goal
+
+Turn the idea and audits into the smallest useful prototype plan.
+
+### Artifact Status
+
+Status: `blocked_not_created`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
+
+Artifacts 01 through 04 remain blocked records:
+
+- Artifact 01 has no real concept memo;
+- Artifact 02 has no real core experience;
+- Artifact 03 has no lens findings;
+- Artifact 04 has only missing-rule documentation, not a real decision audit or system map.
+
+Because there is no real idea, audit finding, system loop, rule, decision, resource, or riskiest design assumption, Codex cannot safely generate a prototype plan.
+
+### Prototype Question
+
+Not generated.
+
+Generating one would require inventing a design assumption, player action, mechanic, system uncertainty, or test target.
+
+### Smallest Scope
+
+Not generated.
+
+No playable scope can be defined without a prototype question.
+
+### Success Signals
+
+Not generated.
+
+No success or failure signal can be defined without a prototype question. Codex did not invent playtest outcomes, player reactions, telemetry thresholds, or market validation signals.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/ARTIFACT_05_PROTOTYPE_PLAN.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_PROTOTYPE_QUESTION.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_SCOPE_CUTS.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_SUCCESS_SIGNALS.md`
+- `first_real_game_idea_workflow/ARTIFACT_05_REVIEW_NOTES.md`
+- `report.md`
+
+### Source Safety Result
+
+PASS.
+
+No full production roadmap, production schedule, implementation detail, fake technical constraint, fake playtest result, fake player data, telemetry, project fact, EvidenceRef, private source summary, or verified claim was invented.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 8 — Artifact 06 Source-Safe Playtest Plan
+
+### Goal
+
+Create a source-safe playtest plan for the prototype without inventing playtest data.
+
+### Artifact Status
+
+Status: `blocked_not_created`.
+
+`first_real_game_idea_workflow/ARTIFACT_05_PROTOTYPE_PLAN.md` is still `blocked_not_created`.
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing, and no prototype question, prototype scope, test goal, participant hypothesis, task list, success signal, or failure signal exists.
+
+Because there is no prototype plan to test, Codex cannot safely generate a real playtest plan.
+
+### Playtest Goal
+
+Not generated.
+
+Generating a playtest goal would require inventing a prototype question or test target.
+
+### Observation Schema Summary
+
+No real observation schema was generated.
+
+The only safe schema boundary is:
+
+- record only observed facts during a real test;
+- mark participant quotes only if user provides exact quotes;
+- keep tester interpretation separate from observation;
+- do not create telemetry, participant behavior, or outcomes before a real test.
+
+### Result Boundary
+
+The result boundary remains active:
+
+- no playtest has happened yet unless the user supplies a real log;
+- no observations are evidence until recorded;
+- no participant quotes may be invented;
+- no design decision should be treated as verified.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/ARTIFACT_06_PLAYTEST_PLAN.md`
+- `first_real_game_idea_workflow/ARTIFACT_06_OBSERVATION_SCHEMA.md`
+- `first_real_game_idea_workflow/ARTIFACT_06_INTERVIEW_QUESTIONS.md`
+- `first_real_game_idea_workflow/ARTIFACT_06_RESULT_BOUNDARY.md`
+- `first_real_game_idea_workflow/ARTIFACT_06_REVIEW_NOTES.md`
+- `report.md`
+
+### Source Safety Result
+
+PASS.
+
+No participants, observations, quotes, results, telemetry, tasks, prototype scope, playtest findings, fake evidence, private source summary, or verified design decision was invented.
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:validate`: PASS.
+
+- import/export scan: 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- validation: 0 P0 issues, 0 warnings.
+
+`npm run kb:audit`: PASS.
+
+- source governance audit written.
+- sidecar, manual note, manual quote, claim promotion, unsupported claims, and verified claims reports written.
+- validation: 0 P0 issues, 0 warnings.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 9 — Workflow Runtime Review and Repair Backlog
+
+### Goal
+
+Review the first real game idea workflow for runtime usefulness, routing quality, output contract quality, context loading discipline, artifact quality, and source safety.
+
+### Workflow Verdict
+
+CONDITIONALLY_ACCEPTED_AS_RUNTIME_GATE
+
+REJECTED_AS_REAL_DESIGN_WORKFLOW
+
+### Summary
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is still missing.
+
+The workflow preserved source safety and refused to fabricate game design content. It did not produce a useful real design workflow because every design artifact remains a blocked record.
+
+### Top Issues
+
+| ID | Severity | Issue | Evidence | Repair |
+|---|---|---|---|---|
+| FRGI-P1-001 | P1_runtime_blocker | Missing user game idea packet | `USER_GAME_IDEA_PACKET.md` is missing; Artifacts 01-06 are blocked | Stop execution until user supplies required packet fields |
+| FRGI-P2-001 | P2_quality_gap | Too many blocked artifact files for normal use | Artifact prompts continued after intake block | Add normal-use stop rule after intake |
+| FRGI-P2-002 | P2_quality_gap | Repeated report section titles reduce traceability | Multiple repeated prompt sections exist | Add run suffix or prompt-run index |
+| FRGI-P2-003 | P2_quality_gap | Blocked records use varied formats | Artifact files use similar but not identical blocked labels | Add blocked-artifact template if pattern continues |
+| FRGI-P2-004 | P2_quality_gap | Workflow status check is manual | Missing packet was manually checked each prompt | Optional lightweight workflow checker |
+
+### P0 Count
+
+0
+
+### P1 Count
+
+1
+
+### Runtime Review Result
+
+The workflow started from the correct runtime layer and maintained source boundaries. Skill routing remains provisional because there is no game idea to route.
+
+### Output Contract Result
+
+Blocked records comply with source-safety labels, but real output contracts are not satisfied because no artifact body can be generated without user input.
+
+### Context Loading Result
+
+Context loading was conservative and avoided forbidden files. Repeated prompts caused workflow noise but not source violation.
+
+### Source Safety Result
+
+PASS.
+
+No fake evidence, fake project facts, fake playtest data, private-source claims, citations, telemetry, participant quotes, or verified claims were created.
+
+### Files Changed
+
+- `first_real_game_idea_workflow/WORKFLOW_RUNTIME_REVIEW.md`
+- `first_real_game_idea_workflow/OUTPUT_CONTRACT_COMPLIANCE_REVIEW.md`
+- `first_real_game_idea_workflow/SOURCE_SAFETY_REVIEW.md`
+- `first_real_game_idea_workflow/CONTEXT_LOADING_REVIEW.md`
+- `first_real_game_idea_workflow/USER_USEFULNESS_REVIEW.md`
+- `first_real_game_idea_workflow/RUNTIME_REPAIR_BACKLOG.md`
+- `report.md`
+
+### Validation Result
+
+`npm run agent:runtime-check`: PASS.
+
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+
+`npm run kb:check`: PASS.
+
+- `agent:runtime-check`: PASS.
+- `kb:export`: PASS, 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `kb:audit`: PASS, source governance reports written, 0 P0 issues, 0 warnings.
+- `kb:coverage`: PASS, coverage summary written.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.
+
+## Prompt 10 — Final User-Supplied Game Idea Workflow Acceptance Review
+
+### Final Verdicts
+
+| Area | Verdict |
+|---|---|
+| First real game idea workflow | BLOCKED_PENDING_USER_IDEA |
+| Agent runtime field usefulness | CONDITIONALLY_ACCEPTED |
+| Artifact quality | REJECTED |
+| Source safety | ACCEPTED |
+| Verified source-backed masterclass | BLOCKED_PENDING_USER_EVIDENCE |
+
+### Review Summary
+
+`first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md` is missing.
+
+The Agent Skill Pack behaved safely as a runtime gate and refused to fabricate missing design content. It did not complete a real user-supplied game idea workflow because no real idea packet was supplied.
+
+### Files Changed
+
+- `FIRST_REAL_GAME_IDEA_WORKFLOW_ACCEPTANCE_REVIEW.md`
+- `FIRST_REAL_GAME_IDEA_WORKFLOW_FINAL_REPORT.md`
+- `FIRST_REAL_GAME_IDEA_ARTIFACT_INDEX.md`
+- `FIRST_REAL_GAME_IDEA_REMAINING_GAPS.md`
+- `NEXT_PHASE_DECISION_AFTER_FIRST_GAME_IDEA.md`
+- `UPDATED_KB_PROJECT_STATE.md`
+- `UPDATED_NEXT_DEVELOPMENT_PLAN.md`
+- `UPDATED_TODO.md`
+- `UPDATED_IMPLEMENTATION_LOG.md`
+- `report.md`
+
+### Artifact Status
+
+| Artifact | Status |
+|---|---|
+| Artifact 01 one-page concept memo | blocked_not_created |
+| Artifact 02 core experience statement | blocked_not_created |
+| Artifact 03 focused lens review | blocked_not_created |
+| Artifact 04 meaningful decision audit | blocked_not_created |
+| Artifact 04 system assumption map | blocked_not_created |
+| Artifact 05 prototype plan | blocked_not_created |
+| Artifact 06 playtest plan | blocked_not_created |
+| Artifact 06 result boundary | active |
+
+### Source Safety Result
+
+PASS.
+
+No fake evidence, fake project facts, fake playtest data, fake participant quotes, fake telemetry, private source summaries, citations, legal sidecars, user notes, or verified claims were created.
+
+### Remaining Blockers
+
+- missing `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`;
+- no idea summary;
+- no desired player experience;
+- no current uncertainty or concern;
+- no project evidence;
+- no playtest log;
+- no user reading notes or EvidenceRefs.
+
+### Chosen Next Phase
+
+wait for user evidence.
+
+### Validation Result
+
+`npm run kb:check`: PASS.
+
+- `agent:runtime-check`: PASS.
+- `agent:check`: PASS, 14 skills.
+- `agent:router-check`: PASS, 20 fixtures.
+- `agent:contract-check`: PASS, 15 contracts checked, 14 skills checked, 0 warnings.
+- `kb:export`: PASS, 859 entities, 8405 relationships, 737 search documents, 0 issues, 0 errors, 0 warnings.
+- `kb:validate`: PASS, 0 P0 issues, 0 warnings.
+- `kb:audit`: PASS, source governance reports written, 0 P0 issues, 0 warnings.
+- `kb:coverage`: PASS, coverage summary written.
+
+### Exact Next Prompt
+
+Provide a valid game idea packet with:
+
+- idea summary;
+- desired player experience;
+- current uncertainty or concern;
+- optional target player;
+- optional genre;
+- optional platform;
+- optional constraints;
+- optional player actions;
+- optional rules;
+- optional resources;
+- optional decisions;
+- optional prototype question;
+- optional test goal.

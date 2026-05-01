@@ -63,3 +63,9 @@ User supplies:
 - desired player experience;
 - current uncertainty or concern;
 - optional player actions, rules, resources, and decisions.
+
+## 2026-05-01 User-Supplied Phase Prompt 6 Gate Confirmation
+
+The missing-rules record remains the only valid Artifact 04 output.
+
+The missing rules are missing because they were not supplied, not because Codex analyzed a real game system.

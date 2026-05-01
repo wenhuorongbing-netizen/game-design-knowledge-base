@@ -107,3 +107,26 @@ If the workflow repeats, add a normal-use stop rule so missing input creates onl
 Repeated Prompt 10 did not change the development plan.
 
 Next development action remains to wait for a valid user game idea packet before producing Artifact 01.
+
+## 2026-05-01 Update - After User-Supplied Game Idea Execution Final Acceptance
+
+## Next Phase
+
+Wait for user evidence.
+
+## Immediate Plan
+
+Do not run more artifact-generation prompts until the user supplies a valid game idea packet.
+
+When the packet arrives:
+
+1. Create or update `first_real_game_idea_workflow/USER_GAME_IDEA_PACKET.md`.
+2. Mark workflow status as `idea_packet_received`.
+3. Rerun routing.
+4. Generate Artifact 01 only from user-supplied facts.
+5. Keep source_basis as `unsupported_draft`.
+6. Keep confidence weak unless concrete evidence is supplied.
+
+## Repair Consideration
+
+Add a normal-use stop rule after intake so missing user input creates one clear request rather than repeated blocked artifacts.

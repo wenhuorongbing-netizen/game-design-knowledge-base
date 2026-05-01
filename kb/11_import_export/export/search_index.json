@@ -1,6 +1,6 @@
 {
   "schema_version": "gdkb.search_index.v1",
-  "generated_at": "2026-04-30",
+  "generated_at": "2026-05-01",
   "safety_note": "body_excerpt_safe is suppressed for metadata-only or quarantined entities.",
   "count": 737,
   "documents": [

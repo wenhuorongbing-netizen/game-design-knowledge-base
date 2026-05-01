@@ -49,3 +49,9 @@ Prompt 5 was run again.
 Selected lens count remains 0 because there is still no design object to review.
 
 No lens bank dump was created.
+
+## 2026-05-01 User-Supplied Phase Prompt 5 Gate Confirmation
+
+Selected lens count remains 0.
+
+The prompt requires 3 to 5 focused lenses, but selecting lenses without a real design object would create a generic lens dump, which is explicitly prohibited.
