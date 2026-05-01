@@ -295,7 +295,41 @@ If the user supplies a valid idea packet:
 - run `npm run agent:runtime-check`
 - run `npm run kb:validate`
 
-## 8. Constraints The User Explicitly Required
+## 8. Migration Git State Summary
+
+Project root confirmed for migration:
+
+- `D:\Game\FOTN\knowledge`
+
+Important correction:
+
+- `D:\Game\FOTN` is a parent directory with its own Git state, but the Game Design Knowledgebase project root is `D:\Game\FOTN\knowledge`.
+- Migration, validation, commit, and push should run from `D:\Game\FOTN\knowledge`.
+
+Git state before migration edits:
+
+- Branch: `main`
+- Remote: `https://github.com/wenhuorongbing-netizen/game-design-knowledge-base.git`
+- Initial correct-root status: clean
+- Latest commit before migration edits: `9cd3eb8 try game design`
+
+Sensitive-file check summary:
+
+- No tracked `.env`, `.env.*`, private key, pem/key/certificate, `node_modules`, `.DS_Store`, log file, or private archive/source-body file was detected.
+- Keyword scanning produced false positives in public HTML metadata under `50-game-design-masters-kb/raw/official-metadata/`, such as script identifiers containing `licenseKey:void 0` or `password:!0`; these were not actual secrets.
+- `.gitignore` was expanded to ignore local Codex state, common key/cert files, logs, caches, local databases, and editor/system files.
+
+Migration files added or updated:
+
+- `.gitignore`
+- `AGENTS.md`
+- `docs/codex-handoff.md`
+
+New machine clone command:
+
+- `git clone https://github.com/wenhuorongbing-netizen/game-design-knowledge-base.git`
+
+## 9. Constraints The User Explicitly Required
 
 Project identity constraints:
 
@@ -374,7 +408,7 @@ Engineering constraints:
 - Prefer additive restructuring.
 - Preserve dirty worktree changes unless the user explicitly asks to revert.
 
-## 9. Exact Next User Input Needed
+## 10. Exact Next User Input Needed
 
 Ask the user to provide:
 
